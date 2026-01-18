@@ -6,12 +6,12 @@
 [![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
 [![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
 
-**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **131 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **132 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-131131)
+- [Full Skill Registry](#full-skill-registry-132132)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -40,7 +40,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (131/131)
+## Full Skill Registry (132/132)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -52,6 +52,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **AWS Penetration Testing**                         | This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation", "S3 bucket testing", "metadata SSRF", "Lambda exploitation", or needs guidance on Amazon Web Services security assessment.                                                                                                                                                              | `skills/aws-penetration-testing`        |
 | **Active Directory Attacks**                        | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration", "Golden Ticket", "Silver Ticket", "AS-REP roasting", "NTLM relay", or needs guidance on Windows domain penetration testing.                                                                                                                                                               | `skills/active-directory-attacks`       |
 | **Address GitHub Comments**                         | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.                                                                                                                                                                                                                                                                                                                                                   | `skills/address-github-comments`        |
+| **Agent Manager Skill**                             | Use when you need to manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.                                                                                                                                                                                                                                                                                                                       | `skills/agent-manager-skill`            |
 | **Algorithmic Art**                                 | Creating algorithmic art using p5.                                                                                                                                                                                                                                                                                                                                                                                                                       | `skills/algorithmic-art`                |
 | **App Store Optimization**                          | Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store.                                                                                                                                                                                                                                                                                                 | `skills/app-store-optimization`         |
 | **Autonomous Agent Patterns**                       | "Design patterns for building autonomous coding agents.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/autonomous-agent-patterns`      |
