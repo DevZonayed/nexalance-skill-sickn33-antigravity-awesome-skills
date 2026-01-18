@@ -6,12 +6,12 @@
 [![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
 [![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
 
-**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **132 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **131 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-132132)
+- [Full Skill Registry](#full-skill-registry-131131)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -40,7 +40,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (132/132)
+## Full Skill Registry (131/131)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 

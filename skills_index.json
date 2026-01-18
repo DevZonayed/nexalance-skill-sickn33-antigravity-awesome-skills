@@ -216,6 +216,12 @@
     "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI."
   },
   {
+    "id": "agent-manager-skill",
+    "path": "skills/agent-manager-skill",
+    "name": "agent-manager-skill",
+    "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
+  },
+  {
     "id": "algorithmic-art",
     "path": "skills/.disabled/algorithmic-art",
     "name": "algorithmic-art",
@@ -580,12 +586,6 @@
     "path": "skills/senior-architect",
     "name": "senior-architect",
     "description": "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns."
-  },
-  {
-    "id": "senior-fullstack",
-    "path": "skills/.disabled/senior-fullstack",
-    "name": "senior-fullstack",
-    "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows."
   },
   {
     "id": "senior-fullstack",
