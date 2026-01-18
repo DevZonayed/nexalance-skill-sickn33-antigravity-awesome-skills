@@ -269,5 +269,7 @@ For repository maintainers, add these topics to maximize discoverability:
 ```text
 claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
 agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
-ai-developer-tools, ai-pair-programming, vibe-coding
+ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
+claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode, 
+agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp
 ```
