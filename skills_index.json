@@ -264,6 +264,12 @@
     "description": "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes \u2192 controllers \u2192 services \u2192 repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns."
   },
   {
+    "id": "blockrun",
+    "path": "skills/blockrun",
+    "name": "blockrun",
+    "description": "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\"blockrun\", \"use grok\", \"use gpt\", \"dall-e\", \"deepseek\")"
+  },
+  {
     "id": "brainstorming",
     "path": "skills/.disabled/brainstorming",
     "name": "brainstorming",

@@ -6,12 +6,12 @@
 [![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
 [![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
 
-**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **131 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **132 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-131131)
+- [Full Skill Registry](#full-skill-registry-132132)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -40,7 +40,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (131/131)
+## Full Skill Registry (132/132)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -58,6 +58,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **Autonomous Agent Patterns**                       | "Design patterns for building autonomous coding agents.                                                                                                                                                                                                                                                                                                                                                                                                  | `skills/autonomous-agent-patterns`      |
 | **Backend Guidelines**                              | Comprehensive backend development guide for Node.                                                                                                                                                                                                                                                                                                                                                                                                        | `skills/backend-dev-guidelines`         |
 | **Brainstorming**                                   | "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior.                                                                                                                                                                                                                                                                                                                       | `skills/brainstorming`                  |
+| **BlockRun**                                        | Agent wallet for LLM micropayments. Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models ("blockrun", "use grok", "use gpt", "dall-e", "deepseek").                                                                                                                                                                                                                         | `skills/blockrun`                       |
 | **Brand Guidelines (Anthropic)**                    | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.                                                                                                                                                                                                                                                                                                                 | `skills/brand-guidelines-anthropic`     |
 | **Brand Guidelines (Community)**                    | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.                                                                                                                                                                                                                                                                                                                 | `skills/brand-guidelines-community`     |
 | **Broken Authentication Testing**                   | This skill should be used when the user asks to "test for broken authentication vulnerabilities", "assess session management security", "perform credential stuffing tests", "evaluate password policies", "test for session fixation", or "identify authentication bypass flaws".                                                                                                                                                                       | `skills/broken-authentication`          |
