@@ -1,15 +1,31 @@
-# 🌌 Antigravity Awesome Skills: The Ultimate Claude Code Skills Collection
+# 🌌 Antigravity Awesome Skills: 130+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 130+ Agentic Skills for Claude Code (Antigravity)**
+> **The Ultimate Collection of 130+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
-[![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
+[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
+[![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
+[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
+[![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
+[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **132 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is a curated, battle-tested library of **132 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+
+- 🟣 **Claude Code** (Anthropic CLI)
+- 🔵 **Gemini CLI** (Google DeepMind)
+- 🟢 **Codex CLI** (OpenAI)
+- 🔴 **Antigravity IDE** (Google DeepMind)
+- 🩵 **GitHub Copilot** (VSCode Extension)
+- 🟠 **Cursor** (AI-native IDE)
+- ⚪ **OpenCode** (Open-source CLI)
+
+This repository provides essential skills to transform your AI assistant into a **full-stack digital agency**, including official capabilities from **Anthropic**, **OpenAI**, **Google**, and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
+- [🔌 Compatibility](#-compatibility)
 - [Features & Categories](#features--categories)
 - [Full Skill Registry](#full-skill-registry-132132)
 - [Installation](#installation)
@@ -17,7 +33,28 @@
 - [Credits & Sources](#credits--sources)
 - [License](#license)
 
-Whether you are using the Google Deepmind Antigravity framework or the standard Anthropic Claude Code CLI, these skills are designed to drop right in and supercharge your agent.
+---
+
+## 🔌 Compatibility
+
+These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills:
+
+| Tool                | Type      | Compatibility | Installation Path                        |
+| ------------------- | --------- | ------------- | ---------------------------------------- |
+| **Claude Code**     | CLI       | ✅ Full       | `.claude/skills/` or `.agent/skills/`    |
+| **Gemini CLI**      | CLI       | ✅ Full       | `.gemini/skills/` or `.agent/skills/`    |
+| **Codex CLI**       | CLI       | ✅ Full       | `.codex/skills/` or `.agent/skills/`     |
+| **Antigravity IDE** | IDE       | ✅ Full       | `.agent/skills/`                         |
+| **Cursor**          | IDE       | ✅ Full       | `.cursor/skills/` or project root        |
+| **GitHub Copilot**  | Extension | ⚠️ Partial    | Copy skill content to `.github/copilot/` |
+| **OpenCode**        | CLI       | ✅ Full       | `.opencode/skills/` or `.agent/skills/`  |
+
+> [!TIP]
+> Most tools auto-discover skills in `.agent/skills/`. For maximum compatibility, clone to this directory.
+
+---
+
+Whether you are using **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Antigravity**, or **OpenCode**, these skills are designed to drop right in and supercharge your AI agent.
 
 This repository aggregates the best capabilities from across the open-source community, transforming your AI assistant into a full-stack digital agency capable of Engineering, Design, Security, Marketing, and Autonomous Operations.
 
@@ -154,10 +191,20 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 
 ## Installation
 
-To use these skills with **Antigravity** or **Claude Code**, clone this repository into your agent's skills directory:
+To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Antigravity**, or **OpenCode**, clone this repository into your agent's skills directory:
 
 ```bash
+# Universal installation (works with most tools)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+
+# Claude Code specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skills
+
+# Gemini CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skills
+
+# Cursor specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
 ```
 
 ---
@@ -211,4 +258,16 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-**Keywords**: Claude Code, Antigravity, Agentic Skills, MCT, AI Agents, Autonomous Coding, Security Auditing, React Patterns.
+**Keywords**: Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, Agentic Skills, AI Coding Assistant, AI Agent Skills, MCP, MCT, AI Agents, Autonomous Coding, Security Auditing, React Patterns, LLM Tools, AI IDE, Coding AI, AI Pair Programming, Vibe Coding, Agentic Coding, AI Developer Tools.
+
+---
+
+## 🏷️ GitHub Topics
+
+For repository maintainers, add these topics to maximize discoverability:
+
+```text
+claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
+agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
+ai-developer-tools, ai-pair-programming, vibe-coding
+```
