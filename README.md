@@ -64,18 +64,18 @@ The repository is organized into several key areas of expertise:
 
 | Category                    | Skills Count | Key Skills Included                                                                                                          |
 | :-------------------------- | :----------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| **🛡️ Cybersecurity**        | **~50**      | Ethical Hacking, Metasploit, Burp Suite, SQLMap, Active Directory, AWS/Cloud Pentesting, OWASP Top 100, Red Team Tools       |
-| **🤖 AI Agents & LLM**      | **~30**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
-| **🔌 Integrations & APIs**  | **~25**      | Stripe, Firebase, Supabase, Vercel, Clerk Auth, Twilio, Discord Bot, Slack Bot, GraphQL, AWS Serverless                      |
-| **🛠️ Development**          | **~25**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
-| **🚀 Maker Tools**          | **~11**      | Micro-SaaS Launcher, Browser Extension Builder, Telegram Bot, AI Wrapper Product, Viral Generator, 3D Web Experience         |
-| **🎨 Creative & Design**    | **~10**      | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
 | **🛸 Autonomous & Agentic** | **~8**       | Loki Mode (Startup-in-a-box), Subagent Driven Dev, Dispatching Parallel Agents, Planning With Files, Skill Creator/Developer |
-| **📄 Document Processing**  | **~4**       | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
-| **📈 Product & Strategy**   | **~8**       | Product Manager Toolkit, Content Creator, ASO, Doc Co-authoring, Brainstorming, Internal Comms                               |
+| **🔌 Integrations & APIs**  | **~25**      | Stripe, Firebase, Supabase, Vercel, Clerk Auth, Twilio, Discord Bot, Slack Bot, GraphQL, AWS Serverless                      |
+| **🛡️ Cybersecurity**        | **~50**      | Ethical Hacking, Metasploit, Burp Suite, SQLMap, Active Directory, AWS/Cloud Pentesting, OWASP Top 100, Red Team Tools       |
+| **🎨 Creative & Design**    | **~10**      | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
+| **🛠️ Development**          | **~25**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
 | **🏗️ Infrastructure & Git** | **~8**       | Linux Shell Scripting, Git Worktrees, Git Pushing, Conventional Commits, File Organization, GitHub Workflow Automation       |
+| **🤖 AI Agents & LLM**      | **~30**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
 | **🔄 Workflow & Planning**  | **~6**       | Writing Plans, Executing Plans, Concise Planning, Verification Before Completion, Code Review (Requesting/Receiving)         |
+| **📄 Document Processing**  | **~4**       | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
 | **🧪 Testing & QA**         | **~4**       | Webapp Testing, Playwright Automation, Test Fixing, Testing Patterns                                                         |
+| **📈 Product & Strategy**   | **~8**       | Product Manager Toolkit, Content Creator, ASO, Doc Co-authoring, Brainstorming, Internal Comms                               |
+| **🚀 Maker Tools**          | **~11**      | Micro-SaaS Launcher, Browser Extension Builder, Telegram Bot, AI Wrapper Product, Viral Generator, 3D Web Experience         |
 
 ---
 
