@@ -244,6 +244,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide)**: Comprehensive Security suite & Guide (Source for ~60 new skills).
 - **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)**: Senior Engineering and PM toolkit.
 - **[karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)**: A massive list of verified skills for Claude Code.
+- **[zircote/.claude](https://github.com/zircote/.claude)**: Shopify development skill reference.
 
 ### Inspirations
 
@@ -270,6 +271,6 @@ For repository maintainers, add these topics to maximize discoverability:
 claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
 agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
 ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
-claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode, 
+claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
 agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp
 ```
