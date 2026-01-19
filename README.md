@@ -75,6 +75,7 @@ The repository is organized into several key areas of expertise:
 | **📄 Document Processing**  | **~4**       | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
 | **🧪 Testing & QA**         | **~4**       | Webapp Testing, Playwright Automation, Test Fixing, Testing Patterns                                                         |
 | **📈 Product & Strategy**   | **~8**       | Product Manager Toolkit, Content Creator, ASO, Doc Co-authoring, Brainstorming, Internal Comms                               |
+| **📣 Marketing & Growth**   | **~23**      | Page CRO, Copywriting, SEO Audit, Paid Ads, Email Sequence, Pricing Strategy, Referral Program, Launch Strategy              |
 | **🚀 Maker Tools**          | **~11**      | Micro-SaaS Launcher, Browser Extension Builder, Telegram Bot, AI Wrapper Product, Viral Generator, 3D Web Experience         |
 
 ---
