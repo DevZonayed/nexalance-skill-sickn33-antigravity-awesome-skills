@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 130+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 133+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 130+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 133+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **132 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **133 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -27,7 +27,7 @@ This repository provides essential skills to transform your AI assistant into a 
 
 - [🔌 Compatibility](#-compatibility)
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-132132)
+- [Full Skill Registry](#full-skill-registry-133133)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -77,7 +77,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (132/132)
+## Full Skill Registry (133/133)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -158,6 +158,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **Senior Architect**                                | Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python.                                                                                                                                                                                                                                                      | `skills/senior-architect`               |
 | **Senior Fullstack**                                | Comprehensive fullstack development skill for building complete web applications with React, Next.                                                                                                                                                                                                                                                                                                                                                       | `skills/senior-fullstack`               |
 | **Shodan Reconnaissance and Pentesting**            | This skill should be used when the user asks to "search for exposed devices on the internet," "perform Shodan reconnaissance," "find vulnerable services using Shodan," "scan IP ranges with Shodan," or "discover IoT devices and open ports.                                                                                                                                                                                                           | `skills/shodan-reconnaissance`          |
+| **Shopify Development**                             | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. Use when user asks about "shopify app", "checkout extension", "shopify theme", "liquid template", "polaris", "shopify graphql", "shopify webhook", or "metafields".                                                                                                                                                                                 | `skills/shopify-development`            |
 | **Skill Creator**                                   | Guide for creating effective skills.                                                                                                                                                                                                                                                                                                                                                                                                                     | `skills/skill-creator`                  |
 | **Skill Developer**                                 | Create and manage Claude Code skills following Anthropic best practices.                                                                                                                                                                                                                                                                                                                                                                                 | `skills/skill-developer`                |
 | **Slack GIF Creator**                               | Knowledge and utilities for creating animated GIFs optimized for Slack.                                                                                                                                                                                                                                                                                                                                                                                  | `skills/slack-gif-creator`              |
