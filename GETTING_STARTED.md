@@ -1,4 +1,4 @@
-# 🚀 Getting Started with Antigravity Awesome Skills
+# Getting Started with Antigravity Awesome Skills
 
 **New here? This guide will help you understand and use this repository in 5 minutes!**
 
@@ -29,7 +29,7 @@ skills/
 
 ---
 
-## 🎯 How Do Skills Work?
+## How Do Skills Work?
 
 ### Step 1: Install Skills
 Copy the skills to your AI tool's directory:
@@ -57,7 +57,7 @@ The AI loads that skill's knowledge and helps you with specialized expertise!
 
 ---
 
-## 🛠️ Which AI Tools Work With This?
+## Which AI Tools Work With This?
 
 | Tool | Works? | Installation Path |
 |------|--------|-------------------|
@@ -69,39 +69,39 @@ The AI loads that skill's knowledge and helps you with specialized expertise!
 
 ---
 
-## 📚 Skill Categories (Simplified)
+## Skill Categories (Simplified)
 
-### 🎨 **Creative & Design** (10 skills)
+### **Creative & Design** (10 skills)
 Make beautiful things: UI design, art, themes, web components
 - Try: `@frontend-design`, `@canvas-design`, `@ui-ux-pro-max`
 
-### 🛠️ **Development** (25 skills)
+### **Development** (25 skills)
 Write better code: testing, debugging, React patterns, architecture
 - Try: `@test-driven-development`, `@systematic-debugging`, `@react-best-practices`
 
-### 🛡️ **Security** (50 skills)
+### **Security** (50 skills)
 Ethical hacking and penetration testing tools
 - Try: `@ethical-hacking-methodology`, `@burp-suite-testing`
 
-### 🤖 **AI & Agents** (30 skills)
+### **AI & Agents** (30 skills)
 Build AI apps: RAG, LangGraph, prompt engineering, voice agents
 - Try: `@rag-engineer`, `@prompt-engineering`, `@langgraph`
 
-### 📄 **Documents** (4 skills)
+### **Documents** (4 skills)
 Work with Word, Excel, PowerPoint, PDF files
 - Try: `@docx-official`, `@xlsx-official`, `@pdf-official`
 
-### 📈 **Marketing** (23 skills)
+### **Marketing** (23 skills)
 Grow your product: SEO, copywriting, ads, email campaigns
 - Try: `@copywriting`, `@seo-audit`, `@page-cro`
 
-### 🔌 **Integrations** (25 skills)
+### **Integrations** (25 skills)
 Connect to services: Stripe, Firebase, Twilio, Discord, Slack
 - Try: `@stripe-integration`, `@firebase`, `@clerk-auth`
 
 ---
 
-## 🎓 Your First Skill: A Quick Example
+## Your First Skill: A Quick Example
 
 Let's try the **brainstorming** skill:
 
@@ -122,7 +122,7 @@ Let's try the **brainstorming** skill:
 
 ---
 
-## 🔍 How to Find the Right Skill
+## How to Find the Right Skill
 
 ### Method 1: Browse by Category
 Check the [Full Skill Registry](README.md#full-skill-registry-179179) in the main README
@@ -178,7 +178,7 @@ Found something confusing? [Open an issue](https://github.com/sickn33/antigravit
 
 ---
 
-## 🎉 Next Steps
+## Next Steps
 
 1. ✅ Install the skills in your AI tool
 2. ✅ Try 2-3 skills from different categories
