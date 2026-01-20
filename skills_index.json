@@ -1017,7 +1017,7 @@
     "id": "research-engineer",
     "path": "skills\\research-engineer",
     "name": "research-engineer",
-    "description": "\"A rigorous, scientific, and French-speaking research engineer persona for high-precision tasks. Focuses on zero hallucination, anti-simplification, and C/C++/Python proficiency.\""
+    "description": "\"An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal implementation across any required technology.\""
   },
   {
     "id": "salesforce-development",
