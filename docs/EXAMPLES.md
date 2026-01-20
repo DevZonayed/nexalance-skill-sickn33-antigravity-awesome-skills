@@ -4,7 +4,7 @@
 
 ---
 
-## 🎨 Example 1: Designing a Feature with @brainstorming
+## Example 1: Designing a Feature with @brainstorming
 
 ### The Scenario
 You want to add a "dark mode" feature to your app, but you're not sure how to approach it.
@@ -86,7 +86,7 @@ AI: I'll create an isolated workspace using git worktrees and write an
 
 ---
 
-## 🐛 Example 2: Debugging with @systematic-debugging
+## Example 2: Debugging with @systematic-debugging
 
 ### The Scenario
 Your tests are failing, but you're not sure why.
@@ -171,7 +171,7 @@ AI: [Applies fix and runs tests]
 
 ---
 
-## 💳 Example 3: Adding Payments with @stripe-integration
+## Example 3: Adding Payments with @stripe-integration
 
 ### The Scenario
 You need to add subscription billing to your SaaS app.
@@ -297,7 +297,7 @@ AI: I'll help you implement Stripe subscriptions. Let me understand your
 
 ---
 
-## ✍️ Example 4: Writing Copy with @copywriting
+## Example 4: Writing Copy with @copywriting
 
 ### The Scenario
 You need compelling copy for your SaaS landing page.
@@ -434,7 +434,7 @@ AI: Great! Now I have what I need. Here's your homepage copy:
 
 ---
 
-## 🧪 Example 5: Test-Driven Development with @test-driven-development
+## Example 5: Test-Driven Development with @test-driven-development
 
 ### The Scenario
 You need to implement a new feature: user authentication.
@@ -725,7 +725,7 @@ AI: Perfect! Let's use TDD to build this. Following the Red-Green-Refactor
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 ### What Makes These Examples Effective?
 
@@ -745,7 +745,7 @@ AI: Perfect! Let's use TDD to build this. Following the Red-Green-Refactor
 
 ---
 
-## 🚀 Try These Yourself!
+## Try These Yourself!
 
 Pick a skill and try it with your own project:
 
