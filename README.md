@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 179+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 223+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 179+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 223+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **179 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **223 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -46,6 +46,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - **[VISUAL_GUIDE.md](docs/VISUAL_GUIDE.md)** - Visual guide with diagrams
 
 **Quick Start:**
+
 ```bash
 # 1. Install skills
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
@@ -54,9 +55,10 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 @brainstorming help me design a todo app
 ```
 
-That's it! Your AI assistant now has 179 specialized skills. 🎉
+That's it! Your AI assistant now has 223 specialized skills. 🎉
 
 **Additional Resources:**
+
 - 💡 **[Real-World Examples](docs/EXAMPLES.md)** - See skills in action
 - ❓ **[FAQ](FAQ.md)** - Common questions answered
 
@@ -107,7 +109,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (179/179)
+## Full Skill Registry (223/223)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -358,6 +360,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[zircote/.claude](https://github.com/zircote/.claude)**: Shopify development skill reference.
 - **[vibeforge1111/vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills)**: AI Agents, Integrations, Maker Tools (57 skills, Apache 2.0).
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Marketing skills for CRO, copywriting, SEO, paid ads, and growth (23 skills, MIT).
+- **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 
 ### Inspirations
 
