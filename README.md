@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 224+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 225+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 224+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 225+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **224 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **225 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -55,7 +55,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 @brainstorming help me design a todo app
 ```
 
-That's it! Your AI assistant now has 224 specialized skills. 🎉
+That's it! Your AI assistant now has 225 specialized skills. 🎉
 
 **Additional Resources:**
 
@@ -109,7 +109,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (224/224)
+## Full Skill Registry (225/225)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -267,6 +267,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **Research Engineer**                               | Academic Research Engineer persona with scientific rigor, zero hallucinations, and optimal language selection for high-precision engineering tasks.                                                                                                                                                                                                                                                                                                      | `skills/research-engineer`               |
 | **Receiving Code Review**                           | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation.                                                                                                                                                                                                              | `skills/receiving-code-review`           |
 | **Red Team Tactics**                                | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.                                                                                                                                                                                                                                                                                                                                                          | `skills/red-team-tactics`                |
+| **Remotion Best Practices**                         | Best practices for Remotion - Video creation in React. Includes 28 modular rules for animations, audio, video, captions, 3D, charts, transitions, and more.                                                                                                                                                                                                                                                                                              | `skills/remotion-best-practices`         |
 | **Red Team Tools and Methodology**                  | This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters.                                                                                                                                                             | `skills/red-team-tools`                  |
 | **Referral Program**                                | Design referral programs, affiliate programs, and word-of-mouth strategies.                                                                                                                                                                                                                                                                                                                                                                              | `skills/referral-program`                |
 | **Requesting Code Review**                          | Use when completing tasks, implementing major features, or before merging to verify work meets requirements.                                                                                                                                                                                                                                                                                                                                             | `skills/requesting-code-review`          |
