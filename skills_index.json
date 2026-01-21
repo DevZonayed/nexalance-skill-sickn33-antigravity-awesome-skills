@@ -288,6 +288,12 @@
     "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
   },
   {
+    "id": "cc-agent-architect",
+    "path": "skills/cc-agent-architect",
+    "name": "architect",
+    "description": "Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions."
+  },
+  {
     "id": "architecture",
     "path": "skills/architecture",
     "name": "architecture",
@@ -322,6 +328,12 @@
     "path": "skills/backend-dev-guidelines",
     "name": "backend-dev-guidelines",
     "description": "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes \u2192 controllers \u2192 services \u2192 repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns."
+  },
+  {
+    "id": "cc-skill-backend-patterns",
+    "path": "skills/cc-skill-backend-patterns",
+    "name": "backend-patterns",
+    "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
   },
   {
     "id": "bash-linux",
@@ -372,6 +384,12 @@
     "description": "\"Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, manifest v3, content scripts, popup UIs, monetization strategies, and Chrome Web Store publishing. Use when: browser extension, chrome extension, firefox addon, extension, manifest v3.\""
   },
   {
+    "id": "cc-agent-build-error-resolver",
+    "path": "skills/cc-agent-build-error-resolver",
+    "name": "build-error-resolver",
+    "description": "Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly."
+  },
+  {
     "id": "bullmq-specialist",
     "path": "skills/bullmq-specialist",
     "name": "bullmq-specialist",
@@ -390,6 +408,132 @@
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations."
   },
   {
+    "id": "cc-cmd-build-fix",
+    "path": "skills/cc-cmd-build-fix",
+    "name": "cc-cmd-build-fix",
+    "description": "Build and Fix"
+  },
+  {
+    "id": "cc-cmd-code-review",
+    "path": "skills/cc-cmd-code-review",
+    "name": "cc-cmd-code-review",
+    "description": "Code Review"
+  },
+  {
+    "id": "cc-cmd-e2e",
+    "path": "skills/cc-cmd-e2e",
+    "name": "cc-cmd-e2e",
+    "description": "Generate and run end-to-end tests with Playwright. Creates test journeys, runs tests, captures screenshots/videos/traces, and uploads artifacts."
+  },
+  {
+    "id": "cc-cmd-learn",
+    "path": "skills/cc-cmd-learn",
+    "name": "cc-cmd-learn",
+    "description": "/learn - Extract Reusable Patterns"
+  },
+  {
+    "id": "cc-cmd-plan",
+    "path": "skills/cc-cmd-plan",
+    "name": "cc-cmd-plan",
+    "description": "Restate requirements, assess risks, and create step-by-step implementation plan. WAIT for user CONFIRM before touching any code."
+  },
+  {
+    "id": "cc-cmd-refactor-clean",
+    "path": "skills/cc-cmd-refactor-clean",
+    "name": "cc-cmd-refactor-clean",
+    "description": "Refactor Clean"
+  },
+  {
+    "id": "cc-cmd-tdd",
+    "path": "skills/cc-cmd-tdd",
+    "name": "cc-cmd-tdd",
+    "description": "Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage."
+  },
+  {
+    "id": "cc-cmd-test-coverage",
+    "path": "skills/cc-cmd-test-coverage",
+    "name": "cc-cmd-test-coverage",
+    "description": "Test Coverage"
+  },
+  {
+    "id": "cc-cmd-update-codemaps",
+    "path": "skills/cc-cmd-update-codemaps",
+    "name": "cc-cmd-update-codemaps",
+    "description": "Update Codemaps"
+  },
+  {
+    "id": "cc-cmd-update-docs",
+    "path": "skills/cc-cmd-update-docs",
+    "name": "cc-cmd-update-docs",
+    "description": "Update Documentation"
+  },
+  {
+    "id": "cc-rule-agents",
+    "path": "skills/cc-rule-agents",
+    "name": "cc-rule-agents",
+    "description": "Agent Orchestration"
+  },
+  {
+    "id": "cc-rule-coding-style",
+    "path": "skills/cc-rule-coding-style",
+    "name": "cc-rule-coding-style",
+    "description": "Coding Style"
+  },
+  {
+    "id": "cc-rule-git-workflow",
+    "path": "skills/cc-rule-git-workflow",
+    "name": "cc-rule-git-workflow",
+    "description": "Git Workflow"
+  },
+  {
+    "id": "cc-rule-hooks",
+    "path": "skills/cc-rule-hooks",
+    "name": "cc-rule-hooks",
+    "description": "Hooks System"
+  },
+  {
+    "id": "cc-rule-patterns",
+    "path": "skills/cc-rule-patterns",
+    "name": "cc-rule-patterns",
+    "description": "Common Patterns"
+  },
+  {
+    "id": "cc-rule-performance",
+    "path": "skills/cc-rule-performance",
+    "name": "cc-rule-performance",
+    "description": "Performance Optimization"
+  },
+  {
+    "id": "cc-rule-security",
+    "path": "skills/cc-rule-security",
+    "name": "cc-rule-security",
+    "description": "Security Guidelines"
+  },
+  {
+    "id": "cc-rule-testing",
+    "path": "skills/cc-rule-testing",
+    "name": "cc-rule-testing",
+    "description": "Testing Requirements"
+  },
+  {
+    "id": "cc-skill-continuous-learning",
+    "path": "skills/cc-skill-continuous-learning",
+    "name": "cc-skill-continuous-learning",
+    "description": "Development skill skill from everything-claude-code"
+  },
+  {
+    "id": "cc-skill-project-guidelines-example",
+    "path": "skills/cc-skill-project-guidelines-example",
+    "name": "cc-skill-project-guidelines-example",
+    "description": "Project Guidelines Skill (Example)"
+  },
+  {
+    "id": "cc-skill-strategic-compact",
+    "path": "skills/cc-skill-strategic-compact",
+    "name": "cc-skill-strategic-compact",
+    "description": "Development skill skill from everything-claude-code"
+  },
+  {
     "id": "clean-code",
     "path": "skills/clean-code",
     "name": "clean-code",
@@ -402,10 +546,28 @@
     "description": "\"Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.\""
   },
   {
+    "id": "cc-skill-clickhouse-io",
+    "path": "skills/cc-skill-clickhouse-io",
+    "name": "clickhouse-io",
+    "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+  },
+  {
     "id": "code-review-checklist",
     "path": "skills/code-review-checklist",
     "name": "code-review-checklist",
     "description": "Code review guidelines covering code quality, security, and best practices."
+  },
+  {
+    "id": "cc-agent-code-reviewer",
+    "path": "skills/cc-agent-code-reviewer",
+    "name": "code-reviewer",
+    "description": "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes."
+  },
+  {
+    "id": "cc-skill-coding-standards",
+    "path": "skills/cc-skill-coding-standards",
+    "name": "coding-standards",
+    "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
   },
   {
     "id": "competitor-alternatives",
@@ -504,6 +666,12 @@
     "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
   },
   {
+    "id": "cc-agent-doc-updater",
+    "path": "skills/cc-agent-doc-updater",
+    "name": "doc-updater",
+    "description": "Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides."
+  },
+  {
     "id": "docker-expert",
     "path": "skills/docker-expert",
     "name": "docker-expert",
@@ -520,6 +688,12 @@
     "path": "skills/docx-official",
     "name": "docx",
     "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\""
+  },
+  {
+    "id": "cc-agent-e2e-runner",
+    "path": "skills/cc-agent-e2e-runner",
+    "name": "e2e-runner",
+    "description": "End-to-end testing specialist using Playwright. Use PROACTIVELY for generating, maintaining, and running E2E tests. Manages test journeys, quarantines flaky tests, uploads artifacts (screenshots, videos, traces), and ensures critical user flows work."
   },
   {
     "id": "email-sequence",
@@ -586,6 +760,12 @@
     "path": "skills/frontend-dev-guidelines",
     "name": "frontend-dev-guidelines",
     "description": "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code."
+  },
+  {
+    "id": "cc-skill-frontend-patterns",
+    "path": "skills/cc-skill-frontend-patterns",
+    "name": "frontend-patterns",
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
   },
   {
     "id": "game-art",
@@ -882,6 +1062,12 @@
     "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
   },
   {
+    "id": "cc-agent-planner",
+    "path": "skills/cc-agent-planner",
+    "name": "planner",
+    "description": "Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks."
+  },
+  {
     "id": "planning-with-files",
     "path": "skills/planning-with-files",
     "name": "planning-with-files",
@@ -1002,6 +1188,12 @@
     "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting."
   },
   {
+    "id": "cc-agent-refactor-cleaner",
+    "path": "skills/cc-agent-refactor-cleaner",
+    "name": "refactor-cleaner",
+    "description": "Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it."
+  },
+  {
     "id": "referral-program",
     "path": "skills/referral-program",
     "name": "referral-program",
@@ -1042,6 +1234,18 @@
     "path": "skills/scroll-experience",
     "name": "scroll-experience",
     "description": "\"Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.\""
+  },
+  {
+    "id": "cc-skill-security-review",
+    "path": "skills/cc-skill-security-review",
+    "name": "security-review",
+    "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns."
+  },
+  {
+    "id": "cc-agent-security-reviewer",
+    "path": "skills/cc-agent-security-reviewer",
+    "name": "security-reviewer",
+    "description": "Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities."
   },
   {
     "id": "segment-cdp",
@@ -1156,6 +1360,12 @@
     "path": "skills/tailwind-patterns",
     "name": "tailwind-patterns",
     "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture."
+  },
+  {
+    "id": "cc-agent-tdd-guide",
+    "path": "skills/cc-agent-tdd-guide",
+    "name": "tdd-guide",
+    "description": "Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage."
   },
   {
     "id": "tdd-workflow",
