@@ -95,9 +95,9 @@ The repository is organized into several key areas of expertise:
 | :-------------------------- | :----------- | :--------------------------------------------------------------------------------------------------------------------------- |
 | **🛸 Autonomous & Agentic** | **~8**       | Loki Mode (Startup-in-a-box), Subagent Driven Dev, Dispatching Parallel Agents, Planning With Files, Skill Creator/Developer |
 | **🔌 Integrations & APIs**  | **~25**      | Stripe, Firebase, Supabase, Vercel, Clerk Auth, Twilio, Discord Bot, Slack Bot, GraphQL, AWS Serverless                      |
-| **🛡️ Cybersecurity**        | **~50**      | Ethical Hacking, Metasploit, Burp Suite, SQLMap, Active Directory, AWS/Cloud Pentesting, OWASP Top 100, Red Team Tools       |
+| **🛡️ Cybersecurity**        | **~51**      | Ethical Hacking, Metasploit, Burp Suite, SQLMap, Active Directory, AWS/Cloud Pentesting, OWASP Top 100, Red Team Tools       |
 | **🎨 Creative & Design**    | **~10**      | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
-| **🛠️ Development**          | **~25**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
+| **🛠️ Development**          | **~33**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
 | **🏗️ Infrastructure & Git** | **~8**       | Linux Shell Scripting, Git Worktrees, Git Pushing, Conventional Commits, File Organization, GitHub Workflow Automation       |
 | **🤖 AI Agents & LLM**      | **~30**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
 | **🔄 Workflow & Planning**  | **~6**       | Writing Plans, Executing Plans, Concise Planning, Verification Before Completion, Code Review (Requesting/Receiving)         |

@@ -399,7 +399,7 @@
     "id": "cc-skill-continuous-learning",
     "path": "skills/cc-skill-continuous-learning",
     "name": "cc-skill-continuous-learning",
-    "description": "Development skill skill from everything-claude-code"
+    "description": "Development skill from everything-claude-code"
   },
   {
     "id": "cc-skill-project-guidelines-example",
@@ -411,7 +411,7 @@
     "id": "cc-skill-strategic-compact",
     "path": "skills/cc-skill-strategic-compact",
     "name": "cc-skill-strategic-compact",
-    "description": "Development skill skill from everything-claude-code"
+    "description": "Development skill from everything-claude-code"
   },
   {
     "id": "clean-code",
