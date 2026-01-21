@@ -1,5 +1,6 @@
 ---
 name: agent-memory
+author: Amit Rathiesh
 description: A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).
 ---
 
