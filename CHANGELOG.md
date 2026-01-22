@@ -7,27 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased]
+## [2.9.0] - 2026-01-22 - "Automation & Maintenance"
 
 ### Added
 
 - **Automation Support**:
   - `scripts/update_readme.py`: Automated script to sync skill counts and regenerate the registry table.
   - Updated `MAINTENANCE.md` to reflect the new automated workflow.
+- **Repository Quality**:
+  - `MAINTENANCE.md` is now tracked in the repository (removed from `.gitignore`).
+  - Improved contribution guidelines.
 
-## [2.7.0] - 2026-01-22 - "Agent Memory & Repo Quality"
+## [2.8.0] - 2026-01-22 - "Documentation Power"
+
+### Added
+
+- **API Documentation Generator**: New skill to automatically generate comprehensive API documentation (`skills/api-documentation-generator`).
+- **Remotion Best Practices**: 28 modular rules for programmatic video creation (`skills/remotion-best-practices`).
+
+## [2.7.0] - 2026-01-22 - "Agent Memory"
 
 ### Added
 
 - **Agent Memory MCP**: New skill providing persistent, searchable knowledge management for AI agents (`skills/agent-memory-mcp`).
-- **Remotion Best Practices**: 28 modular rules for programmatic video creation (`skills/remotion-best-practices`).
 
 ### Changed
 
 - **Renamed Skill**: `agent-memory` was renamed to `agent-memory-mcp` to avoid naming conflicts.
-- **Repository Quality**:
-  - `MAINTENANCE.md` is now tracked in the repository (removed from `.gitignore`).
-  - Improved contribution guidelines.
 
 ---
 
@@ -158,7 +164,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Total skills count: ~65
+- Total skills count: **~65**
 
 ---
 
