@@ -222,6 +222,12 @@
     "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
   },
   {
+    "id": "agent-memory-mcp",
+    "path": "skills/agent-memory-mcp",
+    "name": "agent-memory-mcp",
+    "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
+  },
+  {
     "id": "agent-memory-systems",
     "path": "skills/agent-memory-systems",
     "name": "agent-memory-systems",

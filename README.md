@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 233+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 234+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 233+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **The Ultimate Collection of 234+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **233 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **234 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -55,7 +55,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 @brainstorming help me design a todo app
 ```
 
-That's it! Your AI assistant now has 233 specialized skills. 🎉
+That's it! Your AI assistant now has 234 specialized skills. 🎉
 
 **Additional Resources:**
 
@@ -99,7 +99,7 @@ The repository is organized into several key areas of expertise:
 | **🎨 Creative & Design**    | **~10**      | UI/UX Pro Max, Frontend Design, Canvas, Algorithmic Art, Theme Factory, D3 Viz, Web Artifacts                                |
 | **🛠️ Development**          | **~33**      | TDD, Systematic Debugging, React Patterns, Backend/Frontend Guidelines, Senior Fullstack, Software Architecture              |
 | **🏗️ Infrastructure & Git** | **~8**       | Linux Shell Scripting, Git Worktrees, Git Pushing, Conventional Commits, File Organization, GitHub Workflow Automation       |
-| **🤖 AI Agents & LLM**      | **~30**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
+| **🤖 AI Agents & LLM**      | **~31**      | LangGraph, CrewAI, Langfuse, RAG Engineer, Prompt Engineer, Voice Agents, Browser Automation, Agent Memory Systems           |
 | **🔄 Workflow & Planning**  | **~6**       | Writing Plans, Executing Plans, Concise Planning, Verification Before Completion, Code Review (Requesting/Receiving)         |
 | **📄 Document Processing**  | **~4**       | DOCX (Official), PDF (Official), PPTX (Official), XLSX (Official)                                                            |
 | **🧪 Testing & QA**         | **~4**       | Webapp Testing, Playwright Automation, Test Fixing, Testing Patterns                                                         |
@@ -109,7 +109,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (233/233)
+## Full Skill Registry (234/234)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -123,6 +123,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **Address GitHub Comments**                         | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.                                                                                                                                                                                                                                                                                                                                                   | `skills/address-github-comments`             |
 | **Agent Evaluation**                                | Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics.                                                                                                                                                                                                                                                                                                                                            | `skills/agent-evaluation`                    |
 | **Agent Manager Skill**                             | Use when you need to manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.                                                                                                                                                                                                                                                                                                                       | `skills/agent-manager-skill`                 |
+| **Agent Memory MCP**                                | A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).                                                                                                                                                                                                                                                                                                                      | `skills/agent-memory-mcp`                    |
 | **Agent Memory Systems**                            | Memory architecture for agents: short-term, long-term (vector stores), and cognitive architectures.                                                                                                                                                                                                                                                                                                                                                      | `skills/agent-memory-systems`                |
 | **Agent Tool Builder**                              | Tool design from schema to error handling. JSON Schema best practices, validation, and MCP.                                                                                                                                                                                                                                                                                                                                                              | `skills/agent-tool-builder`                  |
 | **AI Agents Architect**                             | Expert in autonomous AI agents. Tool use, memory systems, planning strategies, multi-agent orchestration.                                                                                                                                                                                                                                                                                                                                                | `skills/ai-agents-architect`                 |
@@ -406,6 +407,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Marketing skills for CRO, copywriting, SEO, paid ads, and growth (23 skills, MIT).
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
+- **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 
 ### Inspirations
 
