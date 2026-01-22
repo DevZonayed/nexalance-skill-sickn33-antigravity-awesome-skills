@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Added
+
+- **Automation Support**:
+  - `scripts/update_readme.py`: Automated script to sync skill counts and regenerate the registry table.
+  - Updated `MAINTENANCE.md` to reflect the new automated workflow.
+
+## [2.7.0] - 2026-01-22 - "Agent Memory & Repo Quality"
+
+### Added
+
+- **Agent Memory MCP**: New skill providing persistent, searchable knowledge management for AI agents (`skills/agent-memory-mcp`).
+- **Remotion Best Practices**: 28 modular rules for programmatic video creation (`skills/remotion-best-practices`).
+
+### Changed
+
+- **Renamed Skill**: `agent-memory` was renamed to `agent-memory-mcp` to avoid naming conflicts.
+- **Repository Quality**:
+  - `MAINTENANCE.md` is now tracked in the repository (removed from `.gitignore`).
+  - Improved contribution guidelines.
+
+---
+
 ## [2.6.0] - 2026-01-21 - "Everything Skills Edition"
 
 ### Added
