@@ -72,6 +72,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 - Gemini CLI: `.gemini/skills/` or `.agent/skills/`
 - Cursor: `.cursor/skills/` or project root
 - Antigravity: `.agent/skills/`
+- OpenCode: `.opencode/skills/` or `.claude/skills/`
 
 ---
 

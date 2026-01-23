@@ -76,7 +76,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | **Antigravity IDE** | IDE       | ✅ Full       | `.agent/skills/`                         |
 | **Cursor**          | IDE       | ✅ Full       | `.cursor/skills/` or project root        |
 | **GitHub Copilot**  | Extension | ⚠️ Partial    | Copy skill content to `.github/copilot/` |
-| **OpenCode**        | CLI       | ✅ Full       | `.opencode/skills/` or `.agent/skills/`  |
+| **OpenCode**        | CLI       | ✅ Full       | `.opencode/skills/` or `.claude/skills/` |
 
 > [!TIP]
 > Most tools auto-discover skills in `.agent/skills/`. For maximum compatibility, clone to this directory.
