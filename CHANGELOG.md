@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.12.0] - 2026-01-23 - "Enterprise & UI Power"
+
+### Added
+
+- **New Skills**:
+  - `production-code-audit`: Comprehensive enterprise auditing skill for production readiness.
+  - `avalonia-layout-zafiro`: Zafiro layout guidelines for Avalonia UI.
+  - `avalonia-viewmodels-zafiro`: ViewModel composition patterns for Avalonia.
+  - `avalonia-zafiro-development`: Core development rules for Avalonia Zafiro applications.
+
+### Changed
+
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry (Total: 243 skills).
+
+### Contributors
+
+- [@SuperJMN](https://github.com/SuperJMN) - PR #20
+- [@Mohammad-Faiz-Cloud-Engineer](https://github.com/Mohammad-Faiz-Cloud-Engineer) - PR #21
+
 ## [2.11.0] - 2026-01-23 - "Postgres Performance"
 
 ### Added
