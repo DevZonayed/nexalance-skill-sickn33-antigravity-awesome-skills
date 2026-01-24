@@ -804,6 +804,12 @@
     "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying."
   },
   {
+    "id": "nosql-expert",
+    "path": "skills/nosql-expert",
+    "name": "nosql-expert",
+    "description": "\"Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.\""
+  },
+  {
     "id": "notebooklm",
     "path": "skills/notebooklm",
     "name": "notebooklm",
