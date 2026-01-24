@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.13.0] - 2026-01-24 - "NoSQL Expert"
+
+### Added
+
+- **New Skill**:
+  - `nosql-expert`: Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB), focusing on query-first modeling and anti-patterns.
+
+### Changed
+
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry.
+
+### Contributors
+
+- [@sickn33](https://github.com/sickn33) - PR #23
+
 ## [2.12.0] - 2026-01-23 - "Enterprise & UI Power"
 
 ### Added
