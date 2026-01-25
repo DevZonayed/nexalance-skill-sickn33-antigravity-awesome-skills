@@ -465,26 +465,27 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
 agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp
 ```
+
 ---
 
 ## 👥 Repo Contributors
 
 We officially thank the following contributors for their help in making this repository awesome!
 
-- 1bcMax
-- Ahmed Rehan
-- arathiesh
-- BenedictKing
-- GuppyTheCat
-- Ianj332
-- krisnasantosa15
-- Mohammad Faiz
-- Nguyen Huu Loc
-- Owen Wu
-- sck_0
-- sickn33
-- SuperJMN
-- Tiger-Foxx
-- Viktor Ferenczi
-- “vuth-dogo”
-- zebbern
+- [1bcMax](https://github.com/1bcMax)
+- [Ahmed Rehan](https://github.com/ar27111994)
+- [arathiesh](https://github.com/arathiesh)
+- [BenedictKing](https://github.com/BenedictKing)
+- [GuppyTheCat](https://github.com/GuppyTheCat)
+- [Ianj332](https://github.com/Ianj332)
+- [krisnasantosa15](https://github.com/krisnasantosa15)
+- [Mohammad Faiz](https://github.com/mohdfaiz2k9)
+- [Nguyen Huu Loc](https://github.com/LocNguyenSGU)
+- [Owen Wu](https://github.com/yubing744)
+- [sck_0](https://github.com/sck_0)
+- [sickn33](https://github.com/sickn33)
+- [SuperJMN](https://github.com/SuperJMN)
+- [Tiger-Foxx](https://github.com/Tiger-Foxx)
+- [Viktor Ferenczi](https://github.com/viktor-ferenczi)
+- [vuth-dogo](https://github.com/vuth-dogo)
+- [zebbern](https://github.com/zebbern)
