@@ -1,13 +1,13 @@
 # 🤝 Contributing Guide - V3 Enterprise Edition
 
 **Thank you for wanting to help!** This repository is built by the community, for the community.
-With V3, we raised the bar for quality. Here is how you can contribute effectively.
+With V3, we raised the bar for quality. This guide covers everything from your first Pull Request to our new Quality Standards.
 
 ---
 
-## 🧐 The "Quality Bar"
+## 🧐 The "Quality Bar" (V3 Standard)
 
-Every skill submitted must pass our **5-Point Quality Check** (see `docs/QUALITY_BAR.md` for details):
+**Critical for new skills:** Every skill submitted must pass our **5-Point Quality Check** (see `docs/QUALITY_BAR.md` for details):
 
 1.  **Metadata**: Correct Frontmatter (`name`, `description`).
 2.  **Safety**: No harmful commands without "Risk" labels.
@@ -17,7 +17,28 @@ Every skill submitted must pass our **5-Point Quality Check** (see `docs/QUALITY
 
 ---
 
-## 🛠️ How to Create a New Skill
+## 🛠️ Ways to Contribute
+
+You don't need to be an expert! Here are ways anyone can help:
+
+### 1. Improve Documentation
+
+- Fix typos or grammar
+- Add examples to existing skills
+- Translate documentation
+
+### 2. Create New Skills
+
+- Share your expertise as a skill
+- Fill gaps in the current collection
+
+### 3. Report Issues
+
+- Found a bug? [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues)
+
+---
+
+## 🚀 Step-by-Step: Create Your First Skill
 
 ### Step 1: Fork & Clone
 
@@ -31,13 +52,16 @@ cd antigravity-awesome-skills
 Skills live in `skills/`. Names must be `kebab-case`.
 
 ```bash
+# Good
 mkdir skills/my-new-skill
-touch skills/my-new-skill/SKILL.md
+
+# Bad
+mkdir skills/MyNewSkill
 ```
 
-### Step 3: Write the Content
+### Step 3: Write the Content (`SKILL.md`)
 
-Copy this template to start:
+Every skill needs this basic structure. Copy this template:
 
 ```markdown
 ---
@@ -54,6 +78,10 @@ What problem does this solve?
 ## Usage Examples
 
 > "@my-new-skill help me..."
+
+## Core Instructions
+
+[Detailed instructions for the AI]
 ```
 
 ### Step 4: Validate (CRITICAL)
@@ -68,15 +96,19 @@ python3 scripts/validate_skills.py
 python3 scripts/validate_skills.py --strict
 ```
 
----
-
-## 🧪 Testing Your Skill
-
-Don't just write it—run it!
+### Step 5: Test & Submit
 
 1.  Copy it to your local agent folder (`.agent/skills/`).
-2.  Open your AI (Claude/Cursor).
-3.  Type `@my-new-skill` and see if it behaves as expected.
+2.  Test it with your AI.
+3.  Push and open a Pull Request!
+
+---
+
+## 💡 Best Practices for V3
+
+- **Be Specific**: Don't say "Write code". Say "Write strict TypeScript code using these patterns...".
+- **Use Examples**: The AI learns best from examples.
+- **Keep it Atomic**: One skill, one job. Don't make "god skills".
 
 ---
 
