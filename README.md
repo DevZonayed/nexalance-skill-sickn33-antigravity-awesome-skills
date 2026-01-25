@@ -491,7 +491,7 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 
 ---
 
-## 👥 Repo Contributors
+## Repo Contributors
 
 We officially thank the following contributors for their help in making this repository awesome!
 
