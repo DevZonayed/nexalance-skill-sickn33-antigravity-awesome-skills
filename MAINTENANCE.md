@@ -1,82 +1,77 @@
 # Repository Maintenance Protocol
 
-To ensure consistency and quality, the following steps MUST be performed for **every single change** involving skills or documentation.
+> [!URGENT]
+> **READ THIS FIRST**: The single most critical rule of this repository is: **IF YOU DO NOT PUSH YOUR CHANGES, THEY DO NOT EXIST.**
+>
+> **ALWAYS** run `git push` immediately after committing. No exceptions.
 
-## 1. Skill Creation & Modification
+To ensure consistency and quality, the following steps MUST be performed for **every single request** involving skills or documentation.
 
-- [ ] **Check Duplicates**: Before adding a skill, check `skills_index.json` or `ls skills/` to ensure it doesn't exist.
-- [ ] **Folder Structure**: Each skill must have its own folder in `skills/<skill-name>`.
-- [ ] **SKILL.md**: Every skill directory MUST contain a `SKILL.md` file with valid frontmatter:
+## 1. Analysis & Pre-Flight (Planner Role)
+
+Before writing any code:
+
+- [ ] **Analyze Request**: Understand if it's a new skill, a fix, or a tool link.
+- [ ] **Check Duplicates**: Run `grep -r "search_term" skills_index.json` to ensure the skill doesn't already exist.
+- [ ] **Plan Integration**: Decide on the folder name and category.
+
+## 2. Implementation & Standardization (Executor Role)
+
+- [ ] **Folder Structure**: Create `skills/<skill-name>/`.
+- [ ] **SKILL.md**: Create the file with valid frontmatter. **strict format**:
 
   ```markdown
   ---
   name: Skill Name
-  description: Brief description.
+  description: Brief description (max 100 chars).
   ---
   ```
 
-## 2. Validation & Indexing (CRITICAL)
+- [ ] **Content**: Ensure the skill instructions are clear and the `code` is functional.
 
-Running the scripts is **MANDATORY** after any change to `skills/`.
+## 3. Validation Chain (MANDATORY & BLOCKING)
 
-- [ ] **Validate Skills**: Run the validation script to check for formatting errors.
+You **MUST** run these scripts in order. If _any_ script fails, **STOP** and fix it.
 
-  ```bash
-  python3 scripts/validate_skills.py
-  ```
+1. **Validate Structure**:
 
-- [ ] **Generate Index**: Update `skills_index.json`. This is the source of truth for the agent.
+   ```bash
+   python3 scripts/validate_skills.py
+   ```
 
-  ```bash
-  python3 scripts/generate_index.py
-  ```
+2. **Update Index**:
 
-## 3. Documentation Updates
+   ```bash
+   python3 scripts/generate_index.py
+   ```
 
-- [ ] **Update README**: Run the automation script to sync counts and the registry table and also the number of skills
+3. **Sync Documentation**:
 
-  ```bash
-  python3 scripts/update_readme.py
-  ```
+   ```bash
+   python3 scripts/update_readme.py
+   ```
 
-- [ ] **Credits & Sources**: If the skill was imported from a community repo, add a credit link in `# Credits & Sources` manually if needed.
-  - Example: `- **[repo-name](url)**: Source for [skill-name].`
+## 4. Documentation & Credits (CRITICAL)
 
-## 4. Git Operations
+- [ ] **Update README Credits**: Manually add the source link in the `## Credits & Sources` section of `README.md`.
+  - Format: `- **[Repo Name](Url)**: Description of usage.`
 
-- [ ] **Check Status**: `git status` to see what changed.
-- [ ] **Add All Files**: Ensure new skill folders are added (`git add skills/`).
-- [ ] **Commit**: Use a descriptive Conventional Commit message (e.g., `feat: add new security skills`, `docs: update readme count`).
-- [ ] **Push**: `git push` to origin. **NEVER FORGET THIS.**
+## 5. Finalization (The "Antigravity" Standard)
 
-## 5. Agent Artifacts (Internal)
+- [ ] **Git Status**: Check what you are about to commit.
+- [ ] **Git Add**: `git add .`
+- [ ] **Commit**: `git commit -m "feat: add [skill-name] skill"`.
+- [ ] **PUSH**:
 
-- [ ] **Walkthrough**: Update `walkthrough.md` in the brain/artifact directory to reflect the session's achievements.
+  > [!CRITICAL]
+  > **EXECUTE THIS IMMEDIATELY**: `git push`
+  >
+  > Do not wait. Do not "batch" later. Push NOW.
 
-## 6. Release Management
+## 6. Release (If Applicable)
 
-When creating a new version release:
+If this is a consolidated release:
 
-- [ ] **Tag**: Create an annotated git tag.
-
-  ```bash
-  git tag -a vX.Y.Z -m "Release X.Y.Z: Title"
-  ```
-
-- [ ] **Push Tag**:
-
-  ```bash
-  git push origin vX.Y.Z
-  ```
-
-- [ ] **Set Default Repo**: Ensure the `gh` CLI knows the upstream repo (crucial if you have multiple remotes).
-
-  ```bash
-  gh repo set-default sickn33/antigravity-awesome-skills
-  ```
-
-- [ ] **Create GitHub Release**: This creates the visible release on GitHub.
-
-  ```bash
-  gh release create vX.Y.Z --title "Release X.Y.Z: Title" --generate-notes
-  ```
+- [ ] `git tag -a vX.Y.Z -m "Release X.Y.Z"`
+- [ ] `git push origin vX.Y.Z`
+- [ ] `gh release create vX.Y.Z --generate-notes`
