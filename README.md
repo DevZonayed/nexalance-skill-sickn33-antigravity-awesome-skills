@@ -33,11 +33,13 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
+- [👥 Repo Contributors](#repo-contributors)
+- [🌟 Star History](#star-history)
 - [⚖️ License](#license)
 
 ---
 
-## 🚀 New Here? Start Here!
+## New Here? Start Here!
 
 **Welcome to the V3 Enterprise Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
@@ -70,7 +72,7 @@ Once installed, just ask your agent naturally:
 
 ---
 
-## 🔌 Compatibility & Invocation
+## Compatibility & Invocation
 
 These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills.
 
@@ -118,7 +120,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## 📦 Curated Collections
+## Curated Collections
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
