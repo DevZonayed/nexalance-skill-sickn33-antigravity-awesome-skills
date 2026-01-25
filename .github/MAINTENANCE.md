@@ -1,77 +1,60 @@
-# Repository Maintenance Protocol
+# Repository Maintenance Protocol & Governance
 
 > [!URGENT]
 > **READ THIS FIRST**: The single most critical rule of this repository is: **IF YOU DO NOT PUSH YOUR CHANGES, THEY DO NOT EXIST.**
 >
 > **ALWAYS** run `git push` immediately after committing. No exceptions.
 
-To ensure consistency and quality, the following steps MUST be performed for **every single request** involving skills or documentation.
+## 1. Governance & Roles
 
-## 1. Analysis & Pre-Flight (Planner Role)
+### Maintainers
 
-Before writing any code:
+- **Core Team**: Responsible for "Official" skills and merging PRs.
+- **Review Policy**: All PRs must pass the [Quality Bar](../docs/QUALITY_BAR.md) checks.
 
-- [ ] **Analyze Request**: Understand if it's a new skill, a fix, or a tool link.
-- [ ] **Check Duplicates**: Run `grep -r "search_term" skills_index.json` to ensure the skill doesn't already exist.
-- [ ] **Plan Integration**: Decide on the folder name and category.
+### Code of Conduct
 
-## 2. Implementation & Standardization (Executor Role)
+All contributors must adhere to the [Code of Conduct](../CODE_OF_CONDUCT.md).
 
-- [ ] **Folder Structure**: Create `skills/<skill-name>/`.
-- [ ] **SKILL.md**: Create the file with valid frontmatter. **strict format**:
+## 2. Analysis & Planning (Planner Role)
 
-  ```markdown
-  ---
-  name: Skill Name
-  description: Brief description (max 100 chars).
-  ---
-  ```
+1. **Check Duplicates**: `grep -r "search_term" skills_index.json`
+2. **Consult Quality Bar**: Review `docs/QUALITY_BAR.md` to ensure the plan meets the "Validated" criteria.
+3. **Risk Assessment**: Determine if the skill is `safe`, `critical`, or `offensive`. (See [Security Guardrails](../docs/SECURITY_GUARDRAILS.md))
 
-- [ ] **Content**: Ensure the skill instructions are clear and the `code` is functional.
+## 3. Implementation Workflow (Executor Role)
 
-## 3. Validation Chain (MANDATORY & BLOCKING)
+1. **Create Skill**: Follow the standard folder structure `skills/<kebab-name>/`.
+2. **SKILL.md**: MUST header to the Quality Bar standard.
 
-You **MUST** run these scripts in order. If _any_ script fails, **STOP** and fix it.
-
-1. **Validate Structure**:
-
-   ```bash
-   python3 scripts/validate_skills.py
+   ```yaml
+   ---
+   name: my-skill
+   description: clear description
+   risk: safe
+   source: self
+   ---
    ```
 
-2. **Update Index**:
+3. **Security Check**: If `risk: offensive`, add the "Authorized Use Only" disclaimer.
 
-   ```bash
-   python3 scripts/generate_index.py
-   ```
+## 4. Validation Chain (MANDATORY)
 
-3. **Sync Documentation**:
+Run strict validation before committing:
 
-   ```bash
-   python3 scripts/update_readme.py
-   ```
+```bash
+python3 scripts/validate_skills.py --strict
+python3 scripts/generate_index.py
+python3 scripts/update_readme.py
+```
 
-## 4. Documentation & Credits (CRITICAL)
+## 5. Documentation & Credits
 
-- [ ] **Update README Credits**: Manually add the source link in the `## Credits & Sources` section of `README.md`.
-  - Format: `- **[Repo Name](Url)**: Description of usage.`
+- [ ] **SOURCE.md**: Update the master source list if importing external skills.
+- [ ] **README.md**: Ensure credits are added in the `Credits` section.
 
-## 5. Finalization (The "Antigravity" Standard)
+## 6. Finalization (The "Antigravity" Standard)
 
-- [ ] **Git Status**: Check what you are about to commit.
 - [ ] **Git Add**: `git add .`
-- [ ] **Commit**: `git commit -m "feat: add [skill-name] skill"`.
-- [ ] **PUSH**:
-
-  > [!CRITICAL]
-  > **EXECUTE THIS IMMEDIATELY**: `git push`
-  >
-  > Do not wait. Do not "batch" later. Push NOW.
-
-## 6. Release (If Applicable)
-
-If this is a consolidated release:
-
-- [ ] `git tag -a vX.Y.Z -m "Release X.Y.Z"`
-- [ ] `git push origin vX.Y.Z`
-- [ ] `gh release create vX.Y.Z --generate-notes`
+- [ ] **Commit**: `git commit -m "feat: add [skill-name] skill"`
+- [ ] **PUSH NOW**: `git push` (Do not wait).
