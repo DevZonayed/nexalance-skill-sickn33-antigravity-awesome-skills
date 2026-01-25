@@ -25,14 +25,20 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## 📍 Table of Contents
 
-- [🚀 New Here? Start Here!](#-new-here-start-here)
-- [🔌 Compatibility](#-compatibility)
-- [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-155155)
-- [Installation](#installation)
-- [How to Contribute](#how-to-contribute)
-- [Credits & Sources](#credits--sources)
-- [License](#license)
+- [🌌 Antigravity Awesome Skills: 244+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot \& More](#-antigravity-awesome-skills-244-agentic-skills-for-claude-code-gemini-cli-cursor-copilot--more)
+  - [📍 Table of Contents](#-table-of-contents)
+  - [New Here? Start Here!](#new-here-start-here)
+  - [🔌 Compatibility](#-compatibility)
+  - [Features \& Categories](#features--categories)
+  - [Full Skill Registry (244/244)](#full-skill-registry-244244)
+  - [Installation](#installation)
+  - [How to Contribute](#how-to-contribute)
+  - [Credits \& Sources](#credits--sources)
+    - [Official Sources](#official-sources)
+    - [Community Contributors](#community-contributors)
+    - [Inspirations](#inspirations)
+  - [License](#license)
+  - [🏷️ GitHub Topics](#️-github-topics)
 
 ---
 
@@ -423,6 +429,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
+- **[GuppyTheCat/obsidian-clipper-template-creator](https://github.com/GuppyTheCat/obsidian-clipper-template-creator)**: Source for the Obsidian Clipper Template Creator skill.
 
 ### Inspirations
 
