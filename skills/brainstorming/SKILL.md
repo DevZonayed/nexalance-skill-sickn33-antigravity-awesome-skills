@@ -227,3 +227,4 @@ If any criterion is unmet:
 - **YAGNI ruthlessly**
 
 ---
+If the design is high-impact, high-risk, or requires elevated confidence, you MUST hand off the finalized design and Decision Log to the `multi-agent-brainstorming` skill before implementation.
