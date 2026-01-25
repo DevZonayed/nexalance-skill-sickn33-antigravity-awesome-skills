@@ -1,64 +1,124 @@
-# Repository Maintenance Protocol & Governance
+# 🛠️ Repository Maintenance Guide (V3)
 
-> [!URGENT]
-> **READ THIS FIRST**: The single most critical rule of this repository is: **IF YOU DO NOT PUSH YOUR CHANGES, THEY DO NOT EXIST.**
->
-> **ALWAYS** run `git push` immediately after committing. No exceptions.
+> **"If it's not documented, it's broken."**
 
-## 1. Governance & Roles
+This guide details the exact procedures for maintaining `antigravity-awesome-skills`.
+It covers the **Quality Bar**, **Documentation Consistency**, and **Release Workflows**.
 
-### Maintainers
+---
 
-- **Core Team**: Responsible for "Official" skills and merging PRs.
-- **Review Policy**: All PRs must pass the [Quality Bar](../docs/QUALITY_BAR.md) checks.
+## 1. 🚦 Daily Maintenance Routine
 
-### Code of Conduct
+### A. Validation Chain
 
-All contributors must adhere to the [Code of Conduct](../CODE_OF_CONDUCT.md).
+Before ANY commit that adds/modifies skills, run the chain:
 
-## 2. Analysis & Planning (Planner Role)
+1.  **Validate Metadata & Quality**:
 
-1. **Check Duplicates**: `grep -r "search_term" skills_index.json`
-2. **Consult Quality Bar**: Review `docs/QUALITY_BAR.md` to ensure the plan meets the "Validated" criteria.
-3. **Risk Assessment**: Determine if the skill is `safe`, `critical`, or `offensive`. (See [Security Guardrails](../docs/SECURITY_GUARDRAILS.md))
+    ```bash
+    python3 scripts/validate_skills.py
+    ```
 
-## 3. Implementation Workflow (Executor Role)
+    _Must return 0 errors for new skills._
 
-1. **Create Skill**: Follow the standard folder structure `skills/<kebab-name>/`.
-2. **SKILL.md**: MUST header to the Quality Bar standard.
+2.  **Regenerate Index**:
+    ```bash
+    python3 scripts/generate_index.py
+    ```
+    _Updates `skills_index.json` which drives the registry._
 
-   ```yaml
-   ---
-   name: my-skill
-   description: clear description
-   risk: safe
-   source: self
-   ---
-   ```
+### B. Contributors Sync
 
-3. **Security Check**: If `risk: offensive`, add the "Authorized Use Only" disclaimer.
+We honor every contributor. Keep the list in `README.md` in sync with git history.
 
-## 4. Validation Chain (MANDATORY)
+1.  **Check actual contributors**:
+    ```bash
+    git shortlog -sn --all
+    ```
+2.  **Update `README.md`**:
+    - Look for `## Repo Contributors` section.
+    - Add missing names alphabetically.
+    - Format: `- [Name](https://github.com/Username)`
 
-Run validation before committing:
+---
 
-```bash
-python3 scripts/validate_skills.py
-python3 scripts/generate_index.py
-python3 scripts/update_readme.py
-```
+## 2. 📝 Documentation "Pixel Perfect" Rules
 
-> [!NOTE]
-> **Transition Period**: We are currently in a "Soft Launch" phase. Legacy skills may trigger warnings.
-> **New skills MUST have zero warnings.**
+We discovered several consistency issues during V3 development. Follow these rules STRICTLY.
 
-## 5. Documentation & Credits
+### A. Table of Contents (TOC) Anchors
 
-- [ ] **SOURCE.md**: Update the master source list if importing external skills.
-- [ ] **README.md**: Ensure credits are added in the `Credits` section.
+GitHub's anchor generation breaks if headers have emojis.
 
-## 6. Finalization (The "Antigravity" Standard)
+- **BAD**: `## 🚀 New Here?` -> Anchor: `#--new-here` (Broken)
+- **GOOD**: `## New Here?` -> Anchor: `#new-here` (Clean)
 
-- [ ] **Git Add**: `git add .`
-- [ ] **Commit**: `git commit -m "feat: add [skill-name] skill"`
-- [ ] **PUSH NOW**: `git push` (Do not wait).
+**Rule**: **NEVER put emojis in H2 (`##`) headers.** Put them in the text below if needed.
+
+### B. The "Trinity" of Docs
+
+If you update installation instructions or tool compatibility, you MUST update all 3 files:
+
+1.  `README.md` (Source of Truth)
+2.  `GETTING_STARTED.md` (Beginner Guide)
+3.  `FAQ.md` (Troubleshooting)
+
+_Common pitfall: Updating the clone URL in README but leaving an old one in FAQ._
+
+### C. Statistics
+
+If you add skills, update the counts:
+
+- Title of `README.md`: "253+ Agentic Skills..."
+- `## Full Skill Registry (253/253)` header.
+- `GETTING_STARTED.md` intro.
+
+### D. Badges & Links
+
+- **Antigravity Badge**: Must point to `https://github.com/sickn33/antigravity-awesome-skills`, NOT `anthropics/antigravity`.
+- **License**: Ensure the link points to `LICENSE` file.
+
+---
+
+## 3. 🛡️ Governance & Quality Bar
+
+### A. The 5-Point Quality Check
+
+Reject any PR that fails this:
+
+1.  **Metadata**: Has `name`, `description`?
+2.  **Safety**: `risk: offensive` used for red-team tools?
+3.  **Clarity**: Does it say _when_ to use it?
+4.  **Examples**: Copy-pasteable code blocks?
+5.  **Actions**: "Run this command" vs "Think about this".
+
+### B. Risk Labels (V3)
+
+- ⚪ **Safe**: Default.
+- 🔴 **Risk**: Destructive/Security tools. MUST have `[Authorized Use Only]` warning.
+- 🟣 **Official**: Vendor mirrors only.
+
+---
+
+## 4. 🚀 Release Workflow
+
+When cutting a new version (e.g., V4):
+
+1.  **Run Full Validation**: `python3 scripts/validate_skills.py --strict`
+2.  **Update Changelog**: Create `RELEASE_NOTES.md`.
+3.  **Bump Version**: Update header in `README.md`.
+4.  **Tag Release**:
+    ```bash
+    git tag -a v3.0.0 -m "V3 Enterprise Edition"
+    git push origin v3.0.0
+    ```
+
+---
+
+## 5. 🚨 Emergency Fixes
+
+If a skill is found to be harmful or broken:
+
+1.  **Move to broken folder** (don't detect): `mv skills/bad-skill skills/.broken/`
+2.  **Or Add Warning**: Add `> [!WARNING]` to the top of `SKILL.md`.
+3.  **Push Immediately**.
