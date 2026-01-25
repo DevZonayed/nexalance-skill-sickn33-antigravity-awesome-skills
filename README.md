@@ -503,6 +503,7 @@ We officially thank the following contributors for their help in making this rep
 - [Ianj332](https://github.com/Ianj332)
 - [krisnasantosa15](https://github.com/krisnasantosa15)
 - [Mohammad Faiz](https://github.com/mohdfaiz2k9)
+- [Munir Abbasi](https://github.com/munirabbasi)
 - [Nguyen Huu Loc](https://github.com/LocNguyenSGU)
 - [Owen Wu](https://github.com/yubing744)
 - [sck_0](https://github.com/sck_0)
