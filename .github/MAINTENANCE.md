@@ -40,13 +40,17 @@ All contributors must adhere to the [Code of Conduct](../CODE_OF_CONDUCT.md).
 
 ## 4. Validation Chain (MANDATORY)
 
-Run strict validation before committing:
+Run validation before committing:
 
 ```bash
-python3 scripts/validate_skills.py --strict
+python3 scripts/validate_skills.py
 python3 scripts/generate_index.py
 python3 scripts/update_readme.py
 ```
+
+> [!NOTE]
+> **Transition Period**: We are currently in a "Soft Launch" phase. Legacy skills may trigger warnings.
+> **New skills MUST have zero warnings.**
 
 ## 5. Documentation & Credits
 

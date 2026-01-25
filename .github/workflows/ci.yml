@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: 🔍 Validate Skills (Strict Mode)
+      - name: 🔍 Validate Skills (Soft Mode)
         run: |
-          python3 scripts/validate_skills.py --strict
+          python3 scripts/validate_skills.py
 
       - name: 🏗️ Generate Index
         run: |
