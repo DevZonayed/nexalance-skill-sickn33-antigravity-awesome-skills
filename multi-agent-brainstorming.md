@@ -218,11 +218,11 @@ You may exit multi-agent brainstorming **only when all are true**:
 - All objections are resolved or explicitly rejected
 - Decision Log is complete
 - Arbiter has declared the design acceptable
-
+- 
 If any criterion is unmet:
 - Continue review
 - Do NOT proceed to implementation
-
+If this skill was invoked by a routing or orchestration layer, you MUST report the final disposition explicitly as one of: APPROVED, REVISE, or REJECT, with a brief rationale.
 ---
 
 ## Failure Modes This Skill Prevents
@@ -253,4 +253,4 @@ This skill exists to answer one question with confidence:
 > “If this design fails, did we do everything reasonable to catch it early?”
 
 If the answer is unclear, **do not exit this skill**.
-If this skill was invoked by a routing or orchestration layer, you MUST report the final disposition explicitly as one of: APPROVED, REVISE, or REJECT, with a brief rationale.
+
