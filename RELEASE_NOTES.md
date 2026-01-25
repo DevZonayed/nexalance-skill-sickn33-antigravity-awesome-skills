@@ -22,11 +22,12 @@ We introduced "Risk Labels" to protect you.
 
 ### 3. Starter Packs (`docs/BUNDLES.md`)
 
-Don't know where to start?
+Don't know where to start? We now have **9 Curated Bundles**:
 
 - **Essentials Pack**: `concise-planning`, `clean-code`, `lint-and-validate`.
 - **Web Wizard**: `react-patterns`, `tailwind-mastery`, `frontend-design`.
 - **Agent Architect**: `mcp-builder`, `agent-evaluation`.
+- ...plus **DevOps**, **Game Dev**, **Data Science**, **Testing**, and more.
 
 ## 🛠️ For Developers & Contributors
 
