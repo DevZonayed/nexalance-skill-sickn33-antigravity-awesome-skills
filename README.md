@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/anthropics/antigravity)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **243 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **251 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -25,12 +25,12 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## 📍 Table of Contents
 
-- [🌌 Antigravity Awesome Skills: 244+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot \& More](#-antigravity-awesome-skills-244-agentic-skills-for-claude-code-gemini-cli-cursor-copilot--more)
+- [🌌 Antigravity Awesome Skills: 251+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot \& More](#-antigravity-awesome-skills-251-agentic-skills-for-claude-code-gemini-cli-cursor-copilot--more)
   - [📍 Table of Contents](#-table-of-contents)
   - [New Here? Start Here!](#new-here-start-here)
   - [🔌 Compatibility](#-compatibility)
   - [Features \& Categories](#features--categories)
-  - [Full Skill Registry (244/244)](#full-skill-registry-244244)
+  - [Full Skill Registry (251/251)](#full-skill-registry-251251)
   - [Installation](#installation)
   - [How to Contribute](#how-to-contribute)
   - [Credits \& Sources](#credits--sources)
@@ -61,7 +61,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 @brainstorming help me design a todo app
 ```
 
-That's it! Your AI assistant now has 243 specialized skills. 🎉
+That's it! Your AI assistant now has 251 specialized skills. 🎉
 
 **Additional Resources:**
 
