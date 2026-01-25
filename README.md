@@ -25,42 +25,48 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## 📍 Table of Contents
 
-- [🌌 Antigravity Awesome Skills](#-antigravity-awesome-skills-253-agentic-skills-for-claude-code-gemini-cli-cursor-copilot--more)
-  - [📍 Table of Contents](#-table-of-contents)
-  - [New Here? Start Here!](#new-here-start-here)
-  - [🔌 Compatibility](#-compatibility)
-  - [📦 Curated Collections](#-curated-collections)
-  - [Full Skill Registry](#full-skill-registry-253253)
-  - [Credits & Sources](#credits--sources)
-  - [License](#license)
+- [🚀 New Here? Start Here!](#-new-here-start-here)
+- [🔌 Compatibility & Invocation](#-compatibility--invocation)
+- [📦 Features & Categories](#-features--categories)
+- [🎁 Curated Collections (Bundles)](#-curated-collections)
+- [📜 Full Skill Registry](#-full-skill-registry-253253)
+- [🛠️ Installation](#-installation)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [👥 Contributors & Credits](#-credits--sources)
+- [⚖️ License](#-license)
 
 ---
 
-## New Here? Start Here!
+## 🚀 New Here? Start Here!
 
-**First time using this repository?** We've created beginner-friendly guides to help you get started:
+**Welcome to the V3 Enterprise Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete beginner's guide (5-minute read)
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute (step-by-step)
-- **[SKILL_ANATOMY.md](docs/SKILL_ANATOMY.md)** - Understanding how skills work
-- **[VISUAL_GUIDE.md](docs/VISUAL_GUIDE.md)** - Visual guide with diagrams
+### 1. 🐣 Context: What is this?
 
-**Quick Start:**
+AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
+**Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
 
-```bash
-# 1. Install skills
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+### 2. ⚡️ Quick Start (The "Bundle" Way)
 
-# 2. Use a skill in your AI assistant
-@brainstorming help me design a todo app
-```
+Don't install 250+ skills manually. Use our **Starter Packs**:
 
-That's it! Your AI assistant now has 251 specialized skills. 🎉
+1.  **Clone the repo**:
+    ```bash
+    git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+    ```
+2.  **Pick your persona** (See [docs/BUNDLES.md](docs/BUNDLES.md)):
+    - **Web Dev?** use the `Web Wizard` pack.
+    - **Hacker?** use the `Security Engineer` pack.
+    - **Just curious?** start with `Essentials`.
 
-**Additional Resources:**
+### 3. 🧠 How to use
 
-- 💡 **[Real-World Examples](docs/EXAMPLES.md)** - See skills in action
-- ❓ **[FAQ](FAQ.md)** - Common questions answered
+Once installed, just ask your agent naturally:
+
+> "Use the **@brainstorming** skill to help me plan a SaaS."
+> "Run **@lint-and-validate** on this file."
+
+👉 **[Read the Full Getting Started Guide](GETTING_STARTED.md)**
 
 ---
 
