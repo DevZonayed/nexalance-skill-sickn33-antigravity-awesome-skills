@@ -33,7 +33,7 @@ Running the scripts is **MANDATORY** after any change to `skills/`.
 
 ## 3. Documentation Updates
 
-- [ ] **Update README**: Run the automation script to sync counts and the registry table.
+- [ ] **Update README**: Run the automation script to sync counts and the registry table and also the number of skills
 
   ```bash
   python3 scripts/update_readme.py

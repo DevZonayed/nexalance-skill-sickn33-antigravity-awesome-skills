@@ -1,6 +1,32 @@
+---
+name: ab-test-setup
+description: Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.
+---
+
+# A/B Test Setup
+
+## 1️⃣ Purpose & Scope
+
+Ensure every A/B test is **valid, rigorous, and safe** before a single line of code is written.
+
+- Prevents "peeking"
+- Enforces statistical power
+- Blocks invalid hypotheses
+
+---
+
+## 2️⃣ Pre-Requisites
+
+You must have:
+
+- A clear user problem
+- Access to an analytics source
+- Roughly estimated traffic volume
 
 #### Hypothesis Quality Checklist
+
 A valid hypothesis includes:
+
 - Observation or evidence
 - Single, specific change
 - Directional expectation
@@ -39,6 +65,7 @@ Explicitly list assumptions about:
 - External factors (seasonality, campaigns, releases)
 
 If assumptions are weak or violated:
+
 - Warn the user
 - Recommend delaying or redesigning the test
 
@@ -60,16 +87,19 @@ Default to **A/B** unless there is a clear reason otherwise.
 ### 6️⃣ Metrics Definition
 
 #### Primary Metric (Mandatory)
+
 - Single metric used to evaluate success
 - Directly tied to the hypothesis
 - Pre-defined and frozen before launch
 
 #### Secondary Metrics
+
 - Provide context
-- Explain *why* results occurred
+- Explain _why_ results occurred
 - Must not override the primary metric
 
 #### Guardrail Metrics
+
 - Metrics that must not degrade
 - Used to prevent harmful wins
 - Trigger test stop if significantly negative
@@ -79,12 +109,14 @@ Default to **A/B** unless there is a clear reason otherwise.
 ### 7️⃣ Sample Size & Duration
 
 Define upfront:
+
 - Baseline rate
 - MDE
 - Significance level (typically 95%)
 - Statistical power (typically 80%)
 
 Estimate:
+
 - Required sample size per variant
 - Expected test duration
 
@@ -112,10 +144,12 @@ If any item is missing, stop and resolve it.
 ### During the Test
 
 **DO:**
+
 - Monitor technical health
 - Document external factors
 
 **DO NOT:**
+
 - Stop early due to “good-looking” results
 - Change variants mid-test
 - Add new traffic sources
@@ -136,12 +170,12 @@ When interpreting results:
 
 ### Interpretation Outcomes
 
-| Result | Action |
-|------|-------|
-| Significant positive | Consider rollout |
-| Significant negative | Reject variant, document learning |
-| Inconclusive | Consider more traffic or bolder change |
-| Guardrail failure | Do not ship, even if primary wins |
+| Result               | Action                                 |
+| -------------------- | -------------------------------------- |
+| Significant positive | Consider rollout                       |
+| Significant negative | Reject variant, document learning      |
+| Inconclusive         | Consider more traffic or bolder change |
+| Guardrail failure    | Do not ship, even if primary wins      |
 
 ---
 
@@ -150,6 +184,7 @@ When interpreting results:
 ### Test Record (Mandatory)
 
 Document:
+
 - Hypothesis
 - Variants
 - Metrics
@@ -166,6 +201,7 @@ Store records in a shared, searchable location to avoid repeated failures.
 ## Refusal Conditions (Safety)
 
 Refuse to proceed if:
+
 - Baseline rate is unknown and cannot be estimated
 - Traffic is insufficient to detect the MDE
 - Primary metric is undefined
