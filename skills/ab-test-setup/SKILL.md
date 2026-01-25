@@ -23,7 +23,7 @@ You must have:
 - Access to an analytics source
 - Roughly estimated traffic volume
 
-#### Hypothesis Quality Checklist
+### Hypothesis Quality Checklist
 
 A valid hypothesis includes:
 
