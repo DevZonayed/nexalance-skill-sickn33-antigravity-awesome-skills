@@ -343,3 +343,14 @@ This skill produces:
 * [ ] Enterprise handled explicitly
 
 ---
+Related Skills
+
+page-cro – Pricing page conversion
+
+copywriting – Pricing copy
+
+analytics-tracking – Measure impact
+
+ab-test-setup – Safe experimentation
+
+marketing-psychology – Behavioral pricing effects
