@@ -648,6 +648,15 @@
     "source": "unknown"
   },
   {
+    "id": "daily-news-report",
+    "path": "skills/daily-news-report",
+    "category": "uncategorized",
+    "name": "daily-news-report",
+    "description": "\u57fa\u4e8e\u9884\u8bbe URL \u5217\u8868\u6293\u53d6\u5185\u5bb9\uff0c\u7b5b\u9009\u9ad8\u8d28\u91cf\u6280\u672f\u4fe1\u606f\u5e76\u751f\u6210\u6bcf\u65e5 Markdown \u62a5\u544a\u3002",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "database-design",
     "path": "skills/database-design",
     "category": "uncategorized",
@@ -1069,6 +1078,15 @@
     "description": "Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent.",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "last30days",
+    "path": "skills/last30days",
+    "category": "uncategorized",
+    "name": "last30days",
+    "description": "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "launch-strategy",
