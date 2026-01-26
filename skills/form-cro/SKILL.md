@@ -1,4 +1,3 @@
-```yaml
 ---
 name: form-cro
 description: >
@@ -6,9 +5,6 @@ description: >
   capture, contact, demo request, application, survey, quote, and checkout forms.
   Use when the goal is to increase form completion rate, reduce friction, or
   improve lead quality without breaking compliance or downstream workflows.
----
-```
-
 ---
 
 # Form Conversion Rate Optimization (Form CRO)
