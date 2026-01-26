@@ -11,6 +11,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.3.0] - 2026-01-26 - "News & Research"
+
+### Added
+
+- **New Skills**:
+  - `last30days`: Research any topic from the last 30 days on Reddit + X + Web.
+  - `daily-news-report`: Generate daily news reports from multiple sources.
+
+### Changed
+
+- **Registry**: Updated `skills_index.json` and `README.md` registry (Total: 255 skills).
+
 ## [3.2.0] - 2026-01-26 - "Clarity & Consistency"
 
 ### Changed
