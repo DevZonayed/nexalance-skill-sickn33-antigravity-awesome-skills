@@ -468,6 +468,8 @@ This collection would not be possible without the incredible work of the Claude 
 - **[vudovn/antigravity-kit](https://github.com/vudovn/antigravity-kit)**: AI Agent templates with Skills, Agents, and Workflows (33 skills, MIT).
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**: Complete Claude Code configuration collection from Anthropic hackathon winner - skills only (8 skills, MIT).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
+- **[mvanhorn](https://github.com/mvanhorn)**: Contributor of `last30days`.
+- **[rookie-ricardo](https://github.com/rookie-ricardo)**: Contributor of `daily-news-report`.
 
 ### Inspirations
 
@@ -523,8 +525,6 @@ We officially thank the following contributors for their help in making this rep
 - [krisnasantosa15](https://github.com/krisnasantosa15)
 - [zebbern](https://github.com/zebbern)
 - [vuth-dogo](https://github.com/vuth-dogo)
-- [mvanhorn](https://github.com/mvanhorn)
-- [rookie-ricardo](https://github.com/rookie-ricardo)
 
 ## Star History
 
