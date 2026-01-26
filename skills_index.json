@@ -342,8 +342,8 @@
     "source": "unknown"
   },
   {
-    "id": "brand-guidelines-community",
-    "path": "skills/brand-guidelines-community",
+    "id": "brand-guidelines-anthropic",
+    "path": "skills/brand-guidelines-anthropic",
     "category": "uncategorized",
     "name": "brand-guidelines",
     "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
@@ -351,8 +351,8 @@
     "source": "unknown"
   },
   {
-    "id": "brand-guidelines-anthropic",
-    "path": "skills/brand-guidelines-anthropic",
+    "id": "brand-guidelines-community",
+    "path": "skills/brand-guidelines-community",
     "category": "uncategorized",
     "name": "brand-guidelines",
     "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
