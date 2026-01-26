@@ -1,4 +1,3 @@
-```yaml
 ---
 name: page-cro
 description: >
@@ -8,9 +7,6 @@ description: >
   (homepage, landing pages, pricing, feature pages, or blog posts).
   This skill focuses on diagnosis, prioritization, and testable recommendations—
   not blind optimization.
----
-```
-
 ---
 
 # Page Conversion Rate Optimization (CRO)
