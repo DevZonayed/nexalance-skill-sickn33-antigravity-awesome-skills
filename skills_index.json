@@ -148,7 +148,7 @@
     "path": "skills/analytics-tracking",
     "category": "uncategorized",
     "name": "analytics-tracking",
-    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup.",
+    "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analytics tracking (GA4, GTM, product analytics, events, conversions, UTMs). This skill focuses on measurement strategy, signal quality, and validation\u2014 not just firing events.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -337,7 +337,7 @@
     "path": "skills/brainstorming",
     "category": "uncategorized",
     "name": "brainstorming",
-    "description": ">",
+    "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -607,7 +607,7 @@
     "path": "skills/copywriting",
     "category": "uncategorized",
     "name": "copywriting",
-    "description": ">",
+    "description": "Use this skill when writing, rewriting, or improving marketing copy for any page (homepage, landing page, pricing, feature, product, or about page). This skill produces clear, compelling, and testable copy while enforcing alignment, honesty, and conversion best practices.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -670,7 +670,7 @@
     "path": "skills/design-orchestration",
     "category": "uncategorized",
     "name": "design-orchestration",
-    "description": ">",
+    "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature implementation, skipped validation, and unreviewed high-risk designs.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -841,7 +841,7 @@
     "path": "skills/form-cro",
     "category": "uncategorized",
     "name": "form-cro",
-    "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+    "description": "Optimize any form that is NOT signup or account registration \u2014 including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead quality without breaking compliance or downstream workflows.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1129,7 +1129,7 @@
     "path": "skills/marketing-ideas",
     "category": "uncategorized",
     "name": "marketing-ideas",
-    "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 140 proven marketing approaches organized by category.",
+    "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1138,7 +1138,7 @@
     "path": "skills/marketing-psychology",
     "category": "uncategorized",
     "name": "marketing-psychology",
-    "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application.",
+    "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1201,7 +1201,7 @@
     "path": "skills/multi-agent-brainstorming",
     "category": "uncategorized",
     "name": "multi-agent-brainstorming",
-    "description": ">",
+    "description": "Use this skill when a design or idea requires higher confidence, risk reduction, or formal review. This skill orchestrates a structured, sequential multi-agent design review where each agent has a strict, non-overlapping role. It prevents blind spots, false confidence, and premature convergence.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1318,7 +1318,7 @@
     "path": "skills/page-cro",
     "category": "uncategorized",
     "name": "page-cro",
-    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why isn't this page working.\" For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+    "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations\u2014 not blind optimization.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1444,7 +1444,7 @@
     "path": "skills/popup-cro",
     "category": "uncategorized",
     "name": "popup-cro",
-    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+    "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1471,7 +1471,7 @@
     "path": "skills/pricing-strategy",
     "category": "uncategorized",
     "name": "pricing-strategy",
-    "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.",
+    "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1516,7 +1516,7 @@
     "path": "skills/programmatic-seo",
     "category": "uncategorized",
     "name": "programmatic-seo",
-    "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pages for SEO.\" For auditing existing SEO issues, see seo-audit.",
+    "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design\u2014not execution unless explicitly requested.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1678,7 +1678,7 @@
     "path": "skills/schema-markup",
     "category": "uncategorized",
     "name": "schema-markup",
-    "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" or \"breadcrumb schema.\" For broader SEO issues, see seo-audit.",
+    "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when the user wants to add, fix, audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates whether schema should be implemented, what types are valid, and how to deploy safely according to Google guidelines.\n",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1741,7 +1741,7 @@
     "path": "skills/seo-audit",
     "category": "uncategorized",
     "name": "seo-audit",
-    "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" or \"SEO health check.\" For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.",
+    "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. Use when the user asks for an SEO audit, technical SEO review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check. This skill identifies issues and prioritizes actions but does not execute changes. For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1750,7 +1750,7 @@
     "path": "skills/seo-fundamentals",
     "category": "uncategorized",
     "name": "seo-fundamentals",
-    "description": "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.",
+    "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. This skill explains *why* SEO works, not how to execute specific optimizations.\n",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1786,7 +1786,7 @@
     "path": "skills/shopify-development",
     "category": "uncategorized",
     "name": "shopify-development",
-    "description": "|",
+    "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.\nTRIGGER: \"shopify\", \"shopify app\", \"checkout extension\", \"admin extension\", \"POS extension\",\n\"shopify theme\", \"liquid template\", \"polaris\", \"shopify graphql\", \"shopify webhook\",\n\"shopify billing\", \"app subscription\", \"metafields\", \"shopify functions\"",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -1831,7 +1831,7 @@
     "path": "skills/slack-gif-creator",
     "category": "uncategorized",
     "name": "slack-gif-creator",
-    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -2047,7 +2047,7 @@
     "path": "skills/typescript-expert",
     "category": "uncategorized",
     "name": "typescript-expert",
-    "description": ">-",
+    "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.",
     "risk": "unknown",
     "source": "unknown"
   },
