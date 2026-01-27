@@ -33,13 +33,12 @@ jobs:
       - name: Commit and push if changed
         run: |
           set -euo pipefail
-          if git diff --quiet; then
-            echo "No changes in star-history.png"
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/star-history.png
+          if git diff --cached --quiet; then
+            echo "No changes in star-history.png"
+            exit 0
+          fi
           git commit -m "chore: update star history chart"
           git push
