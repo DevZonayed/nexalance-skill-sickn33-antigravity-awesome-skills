@@ -122,10 +122,6 @@ The repository is organized into several key areas of expertise:
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## 📦 Curated Collections
-
-[Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
-
 ## Full Skill Registry (256/256)
 
 > [!NOTE] > **Document Skills**: We provide both **community** and **official Anthropic** versions for DOCX, PDF, PPTX, and XLSX. Locally, the official versions are used by default (via symlinks). In the repository, both versions are available for flexibility.
