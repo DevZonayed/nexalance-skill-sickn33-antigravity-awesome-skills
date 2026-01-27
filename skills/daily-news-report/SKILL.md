@@ -1,6 +1,6 @@
 ---
 name: daily-news-report
-description: 基于预设 URL 列表抓取内容，筛选高质量技术信息并生成每日 Markdown 报告。
+description: Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
 argument-hint: [optional: date]
 disable-model-invocation: false
 user-invocable: true
