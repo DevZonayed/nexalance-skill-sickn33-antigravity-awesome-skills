@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **255 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **256 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -29,7 +29,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📜 Full Skill Registry](#full-skill-registry-255255)
+- [📜 Full Skill Registry](#full-skill-registry-256256)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
