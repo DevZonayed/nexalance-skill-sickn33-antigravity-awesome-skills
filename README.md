@@ -118,7 +118,7 @@ The repository is organized into several key areas of expertise:
 | **📣 Marketing & Growth**   | **(26)**     | Page CRO, Copywriting, SEO Audit, Paid Ads, Email Sequence, Pricing Strategy, Referral Program, Launch Strategy              |
 | **🚀 Maker Tools**          | **(8)**      | Micro-SaaS Launcher, Browser Extension Builder, Telegram Bot, AI Wrapper Product, Viral Generator, 3D Web Experience         |
 
-## 📦 Curated Collections
+## Curated Collections
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
