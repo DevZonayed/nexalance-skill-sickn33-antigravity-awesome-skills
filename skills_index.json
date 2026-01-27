@@ -2160,6 +2160,15 @@
     "source": "vibeship-spawner-skills (Apache 2.0)"
   },
   {
+    "id": "voice-ai-engine-development",
+    "path": "skills/voice-ai-engine-development",
+    "category": "uncategorized",
+    "name": "voice-ai-engine-development",
+    "description": "Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "vr-ar",
     "path": "skills/game-development/vr-ar",
     "category": "game-development",
