@@ -498,8 +498,6 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 
 We officially thank the following contributors for their help in making this repository awesome!
 
-- [mvanhorn](https://github.com/mvanhorn)
-- [rookie-ricardo](https://github.com/rookie-ricardo)
 - [sck_0](https://github.com/sck_0)
 - [Munir Abbasi](https://github.com/munirabbasi)
 - [Mohammad Faiz](https://github.com/mohdfaiz2k9)
@@ -521,6 +519,8 @@ We officially thank the following contributors for their help in making this rep
 - [zebbern](https://github.com/zebbern)
 - [Đỗ Khắc Gia Khoa](https://github.com/dokhacgiakhoa)
 - [vuth-dogo](https://github.com/vuth-dogo)
+- [mvanhorn](https://github.com/mvanhorn)
+- [rookie-ricardo](https://github.com/rookie-ricardo)
 
 ## Star History
 
