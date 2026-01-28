@@ -1,18 +1,18 @@
 # Thư mục Kỹ năng (Skills Directory)
 
-**Chào mừng đến với thư mục Kỹ năng!** Đây là nơi lưu trú của tất cả 179+ kỹ năng AI chuyên biệt.
+**Chào mừng đến với thư mục Kỹ năng!** Đây là nơi tập hợp tất cả 179+ kỹ năng AI chuyên biệt.
 
 ## 🤔 Kỹ năng là gì?
 
 Kỹ năng là các bộ hướng dẫn chuyên biệt dạy trợ lý AI cách xử lý các tác vụ cụ thể. Hãy nghĩ về chúng như các module kiến thức chuyên gia mà AI của bạn có thể tải theo yêu cầu.
 
-**Ẩn dụ đơn giản:** Giống như bạn có thể tham khảo ý kiến các chuyên gia khác nhau (một nhà thiết kế, một chuyên gia bảo mật, một nhà tiếp thị), các kỹ năng cho phép AI của bạn trở thành chuyên gia trong các lĩnh vực khác nhau khi bạn cần.
+**Hình dung đơn giản:** Giống như bạn có thể tham khảo ý kiến các chuyên gia khác nhau (một nhà thiết kế, một chuyên gia bảo mật, một chuyên gia Marketing), các kỹ năng cho phép AI trở thành chuyên gia trong các lĩnh vực khác nhau ngay khi bạn cần.
 
 ---
 
 ## 📂 Cấu trúc Thư mục
 
-Mỗi kỹ năng nằm trong thư mục riêng của nó với cấu trúc sau:
+Mỗi kỹ năng nằm trong thư mục riêng với cấu trúc sau:
 
 ```
 skills/
@@ -23,16 +23,16 @@ skills/
 │   └── resources/           # Templates & tài nguyên (tùy chọn)
 ```
 
-**Điểm mấu chốt:** Chỉ `SKILL.md` là bắt buộc. Mọi thứ khác là tùy chọn!
+**Lưu ý quan trọng:** Chỉ file `SKILL.md` là bắt buộc. Mọi thứ khác là tùy chọn!
 
 ---
 
 ## Cách sử dụng Kỹ năng
 
-### Bước 1: Đảm bảo kỹ năng đã được cài đặt
-Kỹ năng nên nằm trong thư mục `.agent/skills/` của bạn (hoặc `.claude/skills/`, `.gemini/skills/`, v.v.)
+### Bước 1: Đảm bảo kỹ năng đã được thiết lập
+Các file kỹ năng nên nằm trong thư mục `.agent/skills/` của bạn (hoặc `.claude/skills/`, `.gemini/skills/`, v.v.)
 
-### Bước 2: Gọi kỹ năng trong chat AI của bạn
+### Bước 2: Kích hoạt kỹ năng trong cuộc trò chuyện với AI
 Sử dụng biểu tượng `@` theo sau bởi tên kỹ năng:
 
 ```

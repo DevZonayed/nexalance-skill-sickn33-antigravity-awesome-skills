@@ -21,84 +21,20 @@
 - 🟠 **Cursor** (AI-native IDE)
 - ⚪ **OpenCode** (Mã nguồn mở CLI)
 
-Repository này cung cấp các kỹ năng thiết yếu để biến trợ lý AI của bạn thành một **digital agency toàn diện**, bao gồm các khả năng chính thức từ **Anthropic**, **OpenAI**, **Google**, **Supabase**, và **Vercel Labs**.
+**Chào mừng bạn đến với Phiên bản V4.0.0 Enterprise.** Đây không chỉ là một danh sách các tập lệnh (scripts); nó là một hệ điều hành hoàn chỉnh cho Trợ lý AI của bạn.
 
-## Mục lục
+### 1. 🐣 Bối cảnh: Đây là gì?
 
-- [🚀 Bạn mới đến đây? Hãy bắt đầu tại đây!](#bạn-mới-đến-đây-hãy-bắt đầu-tại-đây)
-- [🔌 Khả năng tương thích & Cách gọi lệnh](#khả-năng-tương-thích--cách-gọi-lệnh)
-- [📦 Tính năng & Danh mục](#tính-năng--danh-mục)
-- [🎁 Bộ sưu tập được tuyển chọn (Bundles)](#bộ-sưu-tập-được-tuyển-chọn)
-- [📚 Duyệt hơn 552 Kỹ năng](#duyệt-hơn-552-kỹ-năng)
-- [🛠️ Cài đặt](#cài-đặt)
-- [🤝 Cách thức Đóng góp](#cách-thức-đóng-góp)
-- [👥 Người đóng góp & Ghi công](#người-đóng-góp--ghi-công)
-- [⚖️ Giấy phép](#giấy-phép)
-- [👥 Những người đóng góp cho Repo](#những-người-đóng-góp-cho-repo)
-- [🌟 Lịch sử Star](#lịch-sử-star)
+**Antigravity Awesome Skills** (Phiên bản 4.0.0) là một bản nâng cấp khổng lồ cho khả năng của AI.
 
----
-
-## Bạn mới đến đây? Hãy bắt đầu tại đây!
-
-**Chào mừng bạn đến với Phiên bản V4.0.0 Enterprise.** Đây không chỉ là một danh sách các kịch bản; nó là một hệ điều hành hoàn chỉnh cho Trợ lý AI của bạn.
-
-### 1. 🐣 Bối cảnh: Đây là cái gì?
-
-**Antigravity Awesome Skills** (Phiên bản 4.0.0) là một bản nâng cấp khổng lồ cho khả năng của AI của bạn.
-
-Các trợ lý AI (như Claude Code, Cursor, hoặc Gemini) rất thông minh, nhưng chúng thiếu các **công cụ cụ thể**. Chúng không biết "Giao thức Triển khai" của công ty bạn hoặc cú pháp cụ thể cho "AWS CloudFormation".  
-**Skills** là các tệp markdown nhỏ dạy cho chúng cách thực hiện những tác vụ cụ thể này một cách hoàn hảo trong mọi lần thực hiện.
-
-### 2. ⚡️ Khởi động nhanh (Theo cách dùng "Gói kỹ năng")
-
-Đừng cài đặt 552+ kỹ năng một cách thủ công. Hãy sử dụng các **Gói khởi đầu (Starter Packs)** của chúng tôi:
-
-1.  **Sao chép repo**:
-    ```bash
-    git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
-    ```
-2.  **Chọn vai trò của bạn** (Xem [docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.vi.md)):
-    - **Lập trình Web?** sử dụng gói `Web Wizard`.
-    - **Hacker?** sử dụng gói `Security Engineer`.
-    - **Chỉ tò mò thôi?** bắt đầu với gói `Essentials`.
-
-### 3. 🧠 Cách sử dụng
-
-Sau khi cài đặt, chỉ cần hỏi trợ lý của bạn một cách tự nhiên:
-
-> "Sử dụng kỹ năng **@brainstorming** để giúp tôi lập kế hoạch cho một dự án SaaS."  
-> "Chạy **@lint-and-validate** trên file này."
-
-👉 **[Đọc Hướng dẫn bắt đầu đầy đủ](docs/vietnamese/GETTING_STARTED.vi.md)**
-
----
-
-## Khả năng tương thích & Cách gọi lệnh
-
-Các kỹ năng này tuân theo định dạng chuẩn **SKILL.md** phổ quát và hoạt động với bất kỳ trợ lý lập trình AI nào hỗ trợ các kỹ năng agentic.
-
-| Công cụ         | Loại | Ví dụ gọi lệnh                    | Đường dẫn         |
-| :-------------- | :--- | :-------------------------------- | :---------------- |
-| **Claude Code** | CLI  | `>> /skill-name giúp tôi...`      | `.claude/skills/` |
-| **Gemini CLI**  | CLI  | `(User Prompt) Dùng skill-name...`| `.gemini/skills/` |
-| **Antigravity** | IDE  | `(Agent Mode) Dùng skill...`      | `.agent/skills/`  |
-| **Cursor**      | IDE  | `@skill-name (trong Chat)`        | `.cursor/skills/` |
-| **Copilot**     | Ext  | `(Dán nội dung thủ công)`         | (N/A)             |
-
-> [!TIP]
-> **Đường dẫn Phổ quát**: Chúng tôi khuyên bạn nên clone về thư mục `.agent/skills/`. Hầu hết các công cụ hiện đại (Antigravity, các CLI gần đây) đều tìm kiếm ở đây theo mặc định.
-
-> [!WARNING]
-> **Người dùng Windows**: Repository này sử dụng **symlinks** cho các kỹ năng chính thức.  
-> Bạn phải bật Chế độ nhà phát triển (Developer Mode) hoặc chạy Git với quyền Admin:  
-> `git clone -c core.symlinks=true https://github.com/...`
-
----
-
+Các trợ lý AI (như Claude Code, Cursor, hoặc Gemini) rất thông minh, nhưng chúng thiếu các **công cụ chuyên biệt**. Chúng không biết "Quy trình Triển khai" của công ty bạn hoặc cú pháp cụ thể cho "AWS CloudFormation".  
+**Skills** là các tệp markdown nhỏ dạy cho chúng cách thực hiện những tác vụ cụ thể này một cách chính xác trong mọi lần thực thi.
+...
+Repository này cung cấp các kỹ năng thiết yếu để biến trợ lý AI của bạn thành một **đội ngũ chuyên gia số toàn năng**, bao gồm các khả năng chính thức từ **Anthropic**, **OpenAI**, **Google**, **Supabase**, và **Vercel Labs**.
+...
 Cho dù bạn đang sử dụng **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Antigravity**, hay **OpenCode**, những kỹ năng này được thiết kế để có thể sử dụng ngay lập tức và tăng cường sức mạnh cho trợ lý AI của bạn.
 
-Repository này tập hợp những khả năng tốt nhất từ khắp cộng đồng mã nguồn mở, biến trợ lý AI của bạn thành một digital agency toàn diện có khả năng Kỹ thuật, Thiết kế, Bảo mật, Marketing và Vận hành Tự động.
+Repository này tập hợp những khả năng tốt nhất từ khắp cộng đồng mã nguồn mở, biến trợ lý AI của bạn thành một đội ngũ chuyên gia số toàn năng có khả năng Kỹ thuật, Thiết kế, Bảo mật, Marketing và Vận hành Tự động.
 
 ## Tính năng & Danh mục
 
