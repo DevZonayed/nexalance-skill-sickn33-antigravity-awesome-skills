@@ -38,94 +38,20 @@ Tài liệu này dùng để theo dõi tiến độ dịch thuật toàn bộ re
 - [x] `docs/vietnamese/VISUAL_GUIDE.vi.md`
 
 ### 🟢 Giai đoạn 1: Essentials Bundle (Core Skills)
+> **TRẠNG THÁI: GIỮ NGUYÊN TIẾNG ANH (KEPT IN ENGLISH)**
+> *Lý do: Các file Skill đóng vai trò là System Prompts cho AI Agent. Việc dịch sang tiếng Việt có thể làm giảm hiệu suất và độ chính xác của Agent.*
 
-- [x] `skills/concise-planning`
-- [x] `skills/lint-and-validate`
-- [x] `skills/git-pushing`
-- [x] `skills/kaizen`
-- [x] `skills/architecture`
-- [x] `skills/senior-architect`
+### 🟡 Giai đoạn 2 - 5: All Other Skills
+> **TRẠNG THÁI: GIỮ NGUYÊN TIẾNG ANH (KEPT IN ENGLISH)**
+> *Lý do: Tương tự như trên, giữ nguyên bản gốc để đảm bảo tính tương thích tốt nhất với các mô hình AI.*
 
-### 🟡 Giai đoạn 2: Development & Security
+---
 
-Giai đoạn này tập trung vào các kỹ năng coding hàng ngày và bảo mật.
+## 🎯 Kết luận
+- **Phần dành cho Con người (Human-facing Docs):** Đã dịch hoàn tất (`README`, `DOCS`, v.v.).
+- **Phần dành cho AI (Agent Skills):** Giữ nguyên Tiếng Anh.
 
-#### Development & Languages
-- [x] `skills/clean-code`
-- [x] `skills/typescript-expert`
-- [x] `skills/react-best-practices`
-- [x] `skills/python-pro`
-- [x] `skills/nodejs-backend-patterns`
-- [x] `skills/csharp-pro`
-- [x] `skills/backend-architect`
-- [x] `skills/backend-dev-guidelines`
-- [x] `skills/code-review-excellence`
-- [x] `skills/api-design-principles`
-- [x] `skills/auth-implementation-patterns`
-- [x] `skills/agent-tool-builder`
-- [x] `skills/airflow-dag-patterns`
-- [x] `skills/3d-web-experience`
-- [x] `skills/address-github-comments`
-- [x] `skills/agent-manager-skill`
-
-#### Security
-- [x] `skills/api-security-best-practices`
-- [ ] `skills/security-audit`
-- [ ] `skills/vulnerability-scanner`
-- [ ] `skills/owasp-top-10`
-- [ ] ...
-
-### 🔴 Giai đoạn 3: Data & AI, Infrastructure
-
-#### Data & AI (81 skills)
-- [x] `skills/ai-engineer`
-- [x] `skills/ai-agents-architect`
-- [x] `skills/ai-wrapper-product`
-- [x] `skills/agent-evaluation`
-- [x] `skills/agent-memory-mcp`
-- [ ] `skills/prompt-engineer`
-- [ ] `skills/rag-engineer`
-- [ ] `skills/data-scientist`
-
-#### Infrastructure (72 skills)
-- [x] `skills/aws-serverless`
-- [x] `skills/azure-functions`
-- [x] `skills/cloud-architect`
-- [ ] `skills/docker-expert`
-- [ ] `skills/kubernetes-deployment`
-- [ ] ...
-
-### 🔴 Giai đoạn 4: Architecture & General
-
-#### Architecture (52 skills)
-*Lưu ý: Đã dịch `architecture` và `senior-architect`.*
-- [ ] `skills/domain-driven-design`
-- [ ] `skills/microservices-patterns`
-- [ ] `skills/system-design`
-- [ ] ...
-
-#### General (95 skills)
-- [ ] `skills/brainstorming`
-- [ ] `skills/doc-coauthoring`
-- [ ] `skills/learning-roadmap`
-- [ ] ...
-
-### 🔴 Giai đoạn 5: Business, Testing & Workflow
-
-#### Business (35 skills)
-- [ ] `skills/product-manager-toolkit`
-- [ ] `skills/startup-ideas`
-- [ ] ...
-
-#### Testing (21 skills)
-- [ ] `skills/test-driven-development`
-- [ ] `skills/testing-patterns`
-- [ ] ...
-
-#### Workflow (17 skills)
-- [ ] `skills/workflow-automation`
-- [ ] `skills/agile-workflow`
-- [ ] ...
+Dự án đã đạt trạng thái sẵn sàng sử dụng cho người dùng Việt Nam (với tài liệu hướng dẫn tiếng Việt) mà vẫn đảm bảo sức mạnh cốt lõi của Agent (với Skills tiếng Anh).
 
 ---
 
