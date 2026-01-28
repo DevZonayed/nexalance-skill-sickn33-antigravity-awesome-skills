@@ -11,6 +11,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.0] - 2026-01-28 - "The Enterprise Era"
+
+> **A massive integration of 300+ Enterprise skills, transforming Antigravity into a complete operating system for AI agents.**
+
+### Added
+
+- **Massive Skill Injection**: Merged 300+ Enterprise skills from `rmyndharis/antigravity-skills`.
+- **New Categories**:
+  - **Architecture & Design**: `backend-architect`, `c4-architecture`.
+  - **Data & AI**: `rag-engineer`, `langchain-architecture`.
+  - **Security**: `security-auditor`, `cloud-pentesting`.
+- **Catalog System**: Introduced `CATALOG.md` and `scripts/build-catalog.js` for automated, table-based skill discovery.
+
+### Changed
+
+- **Documentation Overhaul**:
+  - Removed the legacy 250+ row skill table from `README.md`.
+  - Restructured `README.md` to focus on high-level domains.
+  - Replaced static registry with dynamic `CATALOG.md`.
+- **Version Bump**: Major version update to 4.0.0 reflecting the doubling of skill capacity (247 -> 550+).
+
+### Credits
+
+- **[@rmyndharis](https://github.com/rmyndharis)** - For the massive contribution of 300+ Enterprise skills and valid catalog logic.
+- **[@sstklen](https://github.com/sstklen)** & **[@rookie-ricardo](https://github.com/rookie-ricard)** - Continued community support.
+
 ## [3.4.0] - 2026-01-27 - "Voice Intelligence & Categorization"
 
 ### Added
