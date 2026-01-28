@@ -521,6 +521,8 @@ We officially thank the following contributors for their help in making this rep
 - [zebbern](https://github.com/zebbern)
 - [Đỗ Khắc Gia Khoa](https://github.com/dokhacgiakhoa)
 - [vuth-dogo](https://github.com/vuth-dogo)
+- [sstklen](https://github.com/sstklen)
+- [truongnmt](https://github.com/truongnmt)
 
 ## Star History
 
