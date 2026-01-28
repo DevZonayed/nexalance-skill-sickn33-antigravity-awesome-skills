@@ -461,6 +461,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 - **[mvanhorn](https://github.com/mvanhorn)**: Contributor of `last30days`.
 - **[rookie-ricardo](https://github.com/rookie-ricardo)**: Contributor of `daily-news-report`.
+- **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
 
 ### Inspirations
 
@@ -499,8 +500,6 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 We officially thank the following contributors for their help in making this repository awesome!
 
 - [sck_0](https://github.com/sck_0)
-- [infinite-gratitude](https://github.com/sstklen/infinite-gratitude)
-- [claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)
 - [Munir Abbasi](https://github.com/munirabbasi)
 - [Mohammad Faiz](https://github.com/mohdfaiz2k9)
 - [Ianj332](https://github.com/Ianj332)
