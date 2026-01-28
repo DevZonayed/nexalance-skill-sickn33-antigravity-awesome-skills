@@ -29,7 +29,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 ### 2. Chọn vai trò của bạn
 
-Tìm gói kỹ năng phù hợp với vị trí của bạn (xem [BUNDLES.md](BUNDLES.md)):
+Tìm gói kỹ năng phù hợp với vị trí của bạn (xem [BUNDLES.md](BUNDLES.vi.md)):
 
 | Vai trò               | Tên Gói kỹ năng | Bên trong có những gì?                            |
 | :-------------------- | :-------------- | :------------------------------------------------ |
@@ -84,7 +84,7 @@ Chúng tôi phân loại các kỹ năng để bạn biết mình đang chạy n
 - 🔵 **Safe (An toàn)**: Các kỹ năng cộng đồng không gây hại (Chỉ đọc/Lập kế hoạch).
 - 🔴 **Risk (Rủi ro)**: Các kỹ năng sửa đổi hệ thống hoặc thực hiện kiểm thử bảo mật (Sử dụng khi được cấp phép).
 
-_Kiểm tra [Danh mục Skill (Skill Catalog)](../CATALOG.md) để xem danh sách đầy đủ._
+_Kiểm tra [Danh mục Skill (Skill Catalog)](../CATALOG.vi.md) để xem danh sách đầy đủ._
 
 ---
 
@@ -103,6 +103,6 @@ _Kiểm tra [Danh mục Skill (Skill Catalog)](../CATALOG.md) để xem danh sá
 
 ## ⏭️ Các bước tiếp theo
 
-1. [Duyệt qua các Gói kỹ năng (Bundles)](BUNDLES.md)
-2. [Xem các Ví dụ thực tế (Examples)](EXAMPLES.md)
-3. [Đóng góp một Skill mới](../CONTRIBUTING.md)
+1. [Duyệt qua các Gói kỹ năng (Bundles)](BUNDLES.vi.md)
+2. [Xem các Ví dụ thực tế (Examples)](EXAMPLES.vi.md)
+3. [Đóng góp một Skill mới](../CONTRIBUTING.vi.md)

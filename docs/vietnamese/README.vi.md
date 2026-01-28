@@ -58,7 +58,7 @@ Các trợ lý AI (như Claude Code, Cursor, hoặc Gemini) rất thông minh, n
     ```bash
     git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
     ```
-2.  **Chọn vai trò của bạn** (Xem [docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.md)):
+2.  **Chọn vai trò của bạn** (Xem [docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.vi.md)):
     - **Lập trình Web?** sử dụng gói `Web Wizard`.
     - **Hacker?** sử dụng gói `Security Engineer`.
     - **Chỉ tò mò thôi?** bắt đầu với gói `Essentials`.
@@ -70,7 +70,7 @@ Sau khi cài đặt, chỉ cần hỏi trợ lý của bạn một cách tự nh
 > "Sử dụng kỹ năng **@brainstorming** để giúp tôi lập kế hoạch cho một dự án SaaS."  
 > "Chạy **@lint-and-validate** trên file này."
 
-👉 **[Đọc Hướng dẫn bắt đầu đầy đủ](docs/vietnamese/GETTING_STARTED.md)**
+👉 **[Đọc Hướng dẫn bắt đầu đầy đủ](docs/vietnamese/GETTING_STARTED.vi.md)**
 
 ---
 
@@ -118,13 +118,13 @@ Repository được tổ chức thành các lĩnh vực chuyên biệt để bi�
 
 ## Bộ sưu tập Tuyển chọn
 
-[Xem các Gói khởi đầu tại docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.md) để tìm bộ công cụ hoàn hảo cho vai trò của bạn.
+[Xem các Gói khởi đầu tại docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.vi.md) để tìm bộ công cụ hoàn hảo cho vai trò của bạn.
 
 ## Duyệt hơn 552 Kỹ năng
 
 Chúng tôi đã chuyển danh sách đầy đủ các kỹ năng sang một danh mục riêng biệt để giữ cho file README này gọn gàng.
 
-👉 **[Xem Danh mục Kỹ năng Đầy đủ (CATALOG.md)](CATALOG.md)**
+👉 **[Xem Danh mục Kỹ năng Đầy đủ (CATALOG.vi.md)](CATALOG.vi.md)**
 
 ## Cài đặt
 
@@ -164,7 +164,7 @@ Vui lòng đảm bảo kỹ năng của bạn tuân thủ các thực hành tố
 
 Chúng tôi đứng trên vai của những người khổng lồ.
 
-👉 **[Xem Sổ cái Ghi công Đầy đủ (docs/vietnamese/SOURCES.md)](docs/vietnamese/SOURCES.md)**
+👉 **[Xem Sổ cái Ghi công Đầy đủ (docs/vietnamese/SOURCES.vi.md)](docs/vietnamese/SOURCES.vi.md)**
 
 Các nguồn đóng góp và nguồn chính bao gồm:
 
@@ -216,8 +216,8 @@ Giấy phép MIT. Xem file [LICENSE](LICENSE) để biết chi tiết.
 
 ## Cộng đồng
 
-- [Cộng đồng (Community Guidelines)](docs/vietnamese/COMMUNITY_GUIDELINES.md)
-- [Chính sách Bảo mật (Security Policy)](docs/vietnamese/SECURITY_GUARDRAILS.md)
+- [Cộng đồng (Community Guidelines)](docs/vietnamese/COMMUNITY_GUIDELINES.vi.md)
+- [Chính sách Bảo mật (Security Policy)](docs/vietnamese/SECURITY_GUARDRAILS.vi.md)
 
 ---
 

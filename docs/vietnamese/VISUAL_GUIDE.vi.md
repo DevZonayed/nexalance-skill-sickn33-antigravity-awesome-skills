@@ -309,7 +309,7 @@ Mở file skills_index.json → Tìm từ khóa → Tìm đường dẫn đến 
        ↓
 ┌──────────────┐
 │ 3. VIẾT      │  Thêm frontmatter + nội dung
-└──────┬───────┘  (Dùng template từ CONTRIBUTING.md)
+└──────┬───────┘  (Dùng template từ CONTRIBUTING.vi.md)
        │
        ↓
 ┌──────────────┐
@@ -505,8 +505,8 @@ Tháng 1: Trở thành người đóng góp thường xuyên
 
 **Bạn là người học qua hình ảnh?** Hy vọng hướng dẫn này sẽ giúp ích! Bạn vẫn còn thắc mắc? Hãy kiểm tra:
 
-- [GETTING_STARTED.md](GETTING_STARTED.md) - Giới thiệu bằng văn bản.
-- [SKILL_ANATOMY.md](SKILL_ANATOMY.md) - Phân tích chi tiết.
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Cách thức đóng góp.
+- [GETTING_STARTED.md](GETTING_STARTED.vi.md) - Giới thiệu bằng văn bản.
+- [SKILL_ANATOMY.md](SKILL_ANATOMY.vi.md) - Phân tích chi tiết.
+- [CONTRIBUTING.md](../CONTRIBUTING.vi.md) - Cách thức đóng góp.
 
 **Sẵn sàng đóng góp?** Bạn làm được mà! 💪
