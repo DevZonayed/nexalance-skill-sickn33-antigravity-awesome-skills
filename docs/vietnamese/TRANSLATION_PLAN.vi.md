@@ -50,32 +50,48 @@ Tài liệu này dùng để theo dõi tiến độ dịch thuật toàn bộ re
 
 Giai đoạn này tập trung vào các kỹ năng coding hàng ngày và bảo mật.
 
-#### Development (72 skills)
+#### Development & Languages
 - [x] `skills/clean-code`
 - [x] `skills/typescript-expert`
 - [x] `skills/react-best-practices`
 - [x] `skills/python-pro`
 - [x] `skills/nodejs-backend-patterns`
-- [ ] ... (Còn lại)
+- [x] `skills/csharp-pro`
+- [x] `skills/backend-architect`
+- [x] `skills/backend-dev-guidelines`
+- [x] `skills/code-review-excellence`
+- [x] `skills/api-design-principles`
+- [x] `skills/auth-implementation-patterns`
+- [x] `skills/agent-tool-builder`
+- [x] `skills/airflow-dag-patterns`
+- [x] `skills/3d-web-experience`
+- [x] `skills/address-github-comments`
+- [x] `skills/agent-manager-skill`
 
-#### Security (107 skills)
-- [ ] `skills/api-security-best-practices`
+#### Security
+- [x] `skills/api-security-best-practices`
 - [ ] `skills/security-audit`
 - [ ] `skills/vulnerability-scanner`
 - [ ] `skills/owasp-top-10`
-- [ ] ... (Còn lại)
+- [ ] ...
 
 ### 🔴 Giai đoạn 3: Data & AI, Infrastructure
 
 #### Data & AI (81 skills)
+- [x] `skills/ai-engineer`
+- [x] `skills/ai-agents-architect`
+- [x] `skills/ai-wrapper-product`
+- [x] `skills/agent-evaluation`
+- [x] `skills/agent-memory-mcp`
 - [ ] `skills/prompt-engineer`
 - [ ] `skills/rag-engineer`
 - [ ] `skills/data-scientist`
-- [ ] ...
 
 #### Infrastructure (72 skills)
+- [x] `skills/aws-serverless`
+- [x] `skills/azure-functions`
+- [x] `skills/cloud-architect`
 - [ ] `skills/docker-expert`
-- [ ] `skills/aws-serverless`
 - [ ] `skills/kubernetes-deployment`
 - [ ] ...
 
