@@ -36,6 +36,8 @@ Tài liệu này dùng để theo dõi tiến độ dịch thuật toàn bộ re
 - [x] `docs/vietnamese/SKILL_ANATOMY.vi.md`
 - [x] `docs/vietnamese/SOURCES.vi.md`
 - [x] `docs/vietnamese/VISUAL_GUIDE.vi.md`
+- [x] `docs/vietnamese/SECURITY.vi.md`
+- [x] `docs/vietnamese/SKILLS_README.vi.md`
 
 ### 🟢 Giai đoạn 1: Essentials Bundle (Core Skills)
 > **TRẠNG THÁI: GIỮ NGUYÊN TIẾNG ANH (KEPT IN ENGLISH)**
