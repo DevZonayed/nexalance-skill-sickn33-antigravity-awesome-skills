@@ -43,7 +43,7 @@ jobs:
           node-version: "lts/*"
 
       - name: Install npm dependencies
-        run: npm install
+        run: npm ci
 
       - name: 📦 Build catalog
         run: npm run catalog
