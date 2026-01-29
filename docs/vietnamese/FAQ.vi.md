@@ -11,7 +11,7 @@
 Skills là các tệp hướng dẫn chuyên biệt dạy cho các trợ lý AI cách xử lý những tác vụ cụ thể. Hãy coi chúng như những mô-đun kiến thức chuyên gia mà AI của bạn có thể tải khi cần.  
 **Một so sánh đơn giản:** Giống như việc bạn tham khảo ý kiến của các chuyên gia khác nhau (luật sư, bác sĩ, thợ máy), những kỹ năng này giúp AI của bạn trở thành chuyên gia trong các lĩnh vực khác nhau khi bạn cần.
 
-### Tôi có cần phải cài đặt tất cả hơn 552 skills không?
+### Tôi có cần phải cài đặt tất cả hơn 560 skills không?
 
 **Không!** Khi bạn clone (tải bản sao) repository này, tất cả các kỹ năng đều có sẵn, nhưng AI của bạn chỉ tải chúng khi bạn yêu cầu rõ ràng bằng lệnh `@ten-skill`.  
 Nó giống như việc sở hữu một thư viện - tất cả sách đều ở đó, nhưng bạn chỉ đọc những cuốn bạn cần thôi.  
@@ -41,7 +41,7 @@ Bản thân các file skill được lưu trữ cục bộ trên máy tính củ
 
 ---
 
-## 🔒 Bảo mật & Tin cậy (Cập nhật V3)
+## 🔒 Bảo mật & Tin cậy (Cập nhật V4)
 
 ### Các Nhãn rủi ro (Risk Labels) có ý nghĩa gì?
 

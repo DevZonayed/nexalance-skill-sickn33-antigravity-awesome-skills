@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 552+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
+# 🌌 Antigravity Awesome Skills: 560+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
 
-> **Bộ sưu tập tối ưu gồm hơn 552 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
+> **Bộ sưu tập tối ưu gồm hơn 560 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -11,7 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Antigravity Awesome Skills** là một thư viện được tuyển chọn và kiểm chứng kỹ lưỡng với **552 kỹ năng hiệu suất cao** được thiết kế để hoạt động mượt mà trên tất cả các trợ lý lập trình AI lớn:
+**Antigravity Awesome Skills** là một thư viện được tuyển chọn và kiểm chứng kỹ lưỡng với **560 kỹ năng hiệu suất cao** được thiết kế để hoạt động mượt mà trên tất cả các trợ lý lập trình AI lớn:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -56,7 +56,7 @@ Repository được tổ chức thành các lĩnh vực chuyên biệt để bi�
 
 [Xem các Gói khởi đầu tại docs/vietnamese/BUNDLES.md](docs/vietnamese/BUNDLES.vi.md) để tìm bộ công cụ hoàn hảo cho vai trò của bạn.
 
-## Duyệt hơn 552 Kỹ năng
+## Duyệt hơn 560 Kỹ năng
 
 Chúng tôi đã chuyển danh sách đầy đủ các kỹ năng sang một danh mục riêng biệt để giữ cho file README này gọn gàng.
 

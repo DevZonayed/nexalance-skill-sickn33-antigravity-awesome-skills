@@ -1,4 +1,4 @@
-# Getting Started with Antigravity Awesome Skills (V3)
+# Getting Started with Antigravity Awesome Skills (V4)
 
 **New here? This guide will help you supercharge your AI Agent in 5 minutes.**
 
@@ -84,7 +84,7 @@ Once installed, just talk to your AI naturally.
 
 ---
 
-## 🛡️ Trust & Safety (New in V3)
+## 🛡️ Trust & Safety (New in V4)
 
 We classify skills so you know what you're running:
 
