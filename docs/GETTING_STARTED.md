@@ -20,10 +20,18 @@ We have curated **Starter Packs** to get you running immediately.
 
 ### 1. Install the Repo
 
-Copy the skills to your agent's folder:
+**Option A — npx (easiest):**
 
 ```bash
-# Universal Installation (works for most agents)
+npx antigravity-awesome-skills
+```
+
+This clones to `~/.agent/skills` by default. Use `--cursor`, `--claude`, or `--gemini` to install for a specific tool, or `--path <dir>` for a custom location. Run `npx antigravity-awesome-skills --help` for details.
+
+**Option B — git clone:**
+
+```bash
+# Universal (works for most agents)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 

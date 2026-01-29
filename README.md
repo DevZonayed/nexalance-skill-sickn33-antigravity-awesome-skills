@@ -54,8 +54,12 @@ AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **speci
 
 Don't install 560+ skills manually. Use our **Starter Packs**:
 
-1.  **Clone the repo**:
+1.  **Install** (pick one):
     ```bash
+    # Easiest: npx installer (clones to ~/.agent/skills by default)
+    npx antigravity-awesome-skills
+
+    # Or clone manually
     git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
     ```
 2.  **Pick your persona** (See [docs/BUNDLES.md](docs/BUNDLES.md)):
@@ -91,7 +95,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 
 > [!WARNING]
 > **Windows Users**: This repository uses **symlinks** for official skills.
-> You must enable Developer Mode or run Git as Administrator:
+> The **npx** installer sets `core.symlinks=true` automatically. For **git clone**, enable Developer Mode or run Git as Administrator:
 > `git clone -c core.symlinks=true https://github.com/...`
 
 ---
@@ -128,10 +132,33 @@ We have moved the full skill registry to a dedicated catalog to keep this README
 
 ## Installation
 
-To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Antigravity**, or **OpenCode**, clone this repository into your agent's skills directory:
+To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Cursor**, **Antigravity**, or **OpenCode**:
+
+### Option A: npx (recommended)
 
 ```bash
-# Universal installation (works with most tools)
+# Default: ~/.agent/skills (universal)
+npx antigravity-awesome-skills
+
+# Cursor
+npx antigravity-awesome-skills --cursor
+
+# Claude Code
+npx antigravity-awesome-skills --claude
+
+# Gemini CLI
+npx antigravity-awesome-skills --gemini
+
+# Custom path
+npx antigravity-awesome-skills --path ./my-skills
+```
+
+Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
+
+### Option B: git clone
+
+```bash
+# Universal (works with most tools)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 
 # Claude Code specific
