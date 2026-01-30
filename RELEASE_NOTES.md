@@ -1,3 +1,23 @@
+# Release v4.4.0: fp-ts skills for TypeScript
+
+> **Three practical fp-ts skills for TypeScript functional programming**
+
+This release adds 3 fp-ts skills sourced from [whatiskadudoing/fp-ts-skills](https://github.com/whatiskadudoing/fp-ts-skills), bringing the total to 624 skills. These skills focus on practical, jargon-free patterns for pipe, Option, Either, TaskEither, React integration, and type-safe error handling.
+
+## New Skills (3)
+
+- **[fp-ts-pragmatic](skills/fp-ts-pragmatic/)** – The 80/20 of functional programming: pipe, Option, Either, TaskEither without academic jargon
+- **[fp-ts-react](skills/fp-ts-react/)** – Patterns for using fp-ts with React 18/19 and Next.js 14/15 (state, forms, data fetching)
+- **[fp-ts-errors](skills/fp-ts-errors/)** – Type-safe error handling with Either and TaskEither; no more try/catch spaghetti
+
+## Registry Update
+
+- **Total Skills**: 624 (from 621)
+- **New Skills Added**: 3
+- **Catalog**: Regenerated with all skills
+
+---
+
 # Release v4.3.0: VoltAgent Integration & Context Engineering Suite
 
 > **Massive expansion with 61 new skills from VoltAgent repository, including official team skills and comprehensive context engineering capabilities**
