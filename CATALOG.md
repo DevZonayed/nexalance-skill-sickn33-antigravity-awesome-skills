@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-01-29T12:19:36.343Z
+Generated at: 2026-01-30T07:28:36.616Z
 
 Total skills: 553
 
@@ -266,7 +266,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (95)
+## general (96)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -365,8 +365,9 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `web-performance-optimization` | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance | web, performance, optimization | web, performance, optimization, optimize, website, application, including, loading, speed, core, vitals, bundle |
 | `windows-privilege-escalation` | This skill should be used when the user asks to "escalate privileges on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation... | windows, privilege, escalation | windows, privilege, escalation, skill, should, used, user, asks, escalate, privileges, find, privesc |
 | `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | writing, plans | writing, plans, spec, requirements, multi, step, task, before, touching, code |
+| `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 
-## infrastructure (72)
+## infrastructure (71)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -441,7 +442,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `voice-agents` | Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis,... | voice, agents | voice, agents, represent, frontier, ai, interaction, humans, speaking, naturally, challenge, isn, just |
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
-| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment | writing, skills | writing, skills, creating, new, editing, existing, verifying, work, before, deployment |
 
 ## security (107)
 

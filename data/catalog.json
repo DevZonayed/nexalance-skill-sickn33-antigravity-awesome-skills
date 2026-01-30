@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-29T12:19:36.343Z",
+  "generatedAt": "2026-01-30T07:28:36.616Z",
   "total": 553,
   "skills": [
     {
@@ -13510,8 +13510,8 @@
     {
       "id": "writing-skills",
       "name": "writing-skills",
-      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
-      "category": "infrastructure",
+      "description": "Use when creating, updating, or improving agent skills.",
+      "category": "general",
       "tags": [
         "writing",
         "skills"
@@ -13520,13 +13520,9 @@
         "writing",
         "skills",
         "creating",
-        "new",
-        "editing",
-        "existing",
-        "verifying",
-        "work",
-        "before",
-        "deployment"
+        "updating",
+        "improving",
+        "agent"
       ],
       "path": "skills/writing-skills/SKILL.md"
     },
