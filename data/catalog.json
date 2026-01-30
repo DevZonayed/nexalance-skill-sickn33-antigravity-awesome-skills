@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-30T08:24:49.993Z",
-  "total": 614,
+  "generatedAt": "2026-01-30T19:28:08.087Z",
+  "total": 617,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -5872,6 +5872,84 @@
         "demo"
       ],
       "path": "skills/form-cro/SKILL.md"
+    },
+    {
+      "id": "fp-ts-errors",
+      "name": "fp-ts-errors",
+      "description": "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.",
+      "category": "development",
+      "tags": [
+        "fp",
+        "ts",
+        "errors"
+      ],
+      "triggers": [
+        "fp",
+        "ts",
+        "errors",
+        "handle",
+        "values",
+        "either",
+        "taskeither",
+        "cleaner",
+        "predictable",
+        "typescript",
+        "code",
+        "implementing"
+      ],
+      "path": "skills/fp-ts-errors/SKILL.md"
+    },
+    {
+      "id": "fp-ts-pragmatic",
+      "name": "fp-ts-pragmatic",
+      "description": "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.",
+      "category": "development",
+      "tags": [
+        "fp",
+        "ts",
+        "pragmatic"
+      ],
+      "triggers": [
+        "fp",
+        "ts",
+        "pragmatic",
+        "practical",
+        "jargon",
+        "free",
+        "functional",
+        "programming",
+        "80",
+        "20",
+        "approach",
+        "gets"
+      ],
+      "path": "skills/fp-ts-pragmatic/SKILL.md"
+    },
+    {
+      "id": "fp-ts-react",
+      "name": "fp-ts-react",
+      "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
+      "category": "data-ai",
+      "tags": [
+        "fp",
+        "ts",
+        "react"
+      ],
+      "triggers": [
+        "fp",
+        "ts",
+        "react",
+        "practical",
+        "hooks",
+        "state",
+        "forms",
+        "data",
+        "fetching",
+        "building",
+        "apps",
+        "functional"
+      ],
+      "path": "skills/fp-ts-react/SKILL.md"
     },
     {
       "id": "framework-migration-code-migrate",

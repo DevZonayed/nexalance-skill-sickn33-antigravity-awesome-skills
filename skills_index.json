@@ -2187,6 +2187,33 @@
     "source": "unknown"
   },
   {
+    "id": "fp-ts-errors",
+    "path": "skills/fp-ts-errors",
+    "category": "uncategorized",
+    "name": "fp-ts-errors",
+    "description": "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
+  },
+  {
+    "id": "fp-ts-pragmatic",
+    "path": "skills/fp-ts-pragmatic",
+    "category": "uncategorized",
+    "name": "fp-ts-pragmatic",
+    "description": "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
+  },
+  {
+    "id": "fp-ts-react",
+    "path": "skills/fp-ts-react",
+    "category": "uncategorized",
+    "name": "fp-ts-react",
+    "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
+  },
+  {
     "id": "framework-migration-code-migrate",
     "path": "skills/framework-migration-code-migrate",
     "category": "uncategorized",
