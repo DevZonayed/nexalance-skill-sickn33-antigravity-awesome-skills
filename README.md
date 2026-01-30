@@ -285,6 +285,7 @@ We officially thank the following contributors for their help in making this rep
 - [SuperJMN](https://github.com/SuperJMN)
 - [Viktor Ferenczi](https://github.com/viktor-ferenczi)
 - [Đỗ Khắc Gia Khoa](https://github.com/Dokhacgiakhoa)
+- [evandro-miguel](https://github.com/evandro-miguel)
 - [junited31](https://github.com/junited31)
 - [krisnasantosa15](https://github.com/krisnasantosa15)
 - [raeef1001](https://github.com/raeef1001)
