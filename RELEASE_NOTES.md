@@ -1,3 +1,33 @@
+# Release v4.5.0: Stitch UI Design
+
+> **Expert prompting guide for Google Stitch AI-powered UI design tool**
+
+This release adds the stitch-ui-design skill and clarifies documentation around Starter Packs vs full repo installation, bringing the total to 625 skills. The new skill provides comprehensive guidance for creating effective prompts in Google Stitch (Gemini 2.5 Flash) to generate high-quality UI designs for web and mobile applications.
+
+## New Skills (1)
+
+- **[stitch-ui-design](skills/stitch-ui-design/)** – Expert guide for creating effective prompts for Google Stitch AI UI design tool. Covers prompt structure, specificity techniques, iteration strategies, design-to-code workflows, and 10+ practical examples for landing pages, mobile apps, and dashboards.
+
+> **Try it:** `Use @stitch-ui-design to help me create a prompt for a mobile fitness app dashboard`
+
+## Documentation Improvements
+
+- **Clarified Starter Packs**: Updated README.md and GETTING_STARTED.md to explicitly state that installation means cloning the full repo once; Starter Packs are curated lists to help discover which skills to use by role, not a different installation method (fixes [#44](https://github.com/sickn33/antigravity-awesome-skills/issues/44))
+
+## Registry Update
+
+- **Total Skills**: 625 (from 624)
+- **New Skills Added**: 1
+- **Catalog**: Regenerated with all skills
+
+## Credits
+
+A huge shoutout to our community contributors:
+
+- **[@CypherPoet](https://github.com/CypherPoet)** for raising the documentation clarity issue (#44)
+
+---
+
 # Release v4.4.0: fp-ts skills for TypeScript
 
 > **Three practical fp-ts skills for TypeScript functional programming**
