@@ -18,6 +18,8 @@ AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lac
 Don't panic about the 624+ skills. You don't need them all at once.
 We have curated **Starter Packs** to get you running immediately.
 
+You **install the full repo once** (npx or clone); Starter Packs are curated lists to help you **pick which skills to use** by role (e.g. Web Wizard, Hacker Pack)—they are not a different way to install.
+
 ### 1. Install the Repo
 
 **Option A — npx (easiest):**
@@ -99,7 +101,7 @@ _Check the [Skill Catalog](../CATALOG.md) for the full list._
 ## ❓ FAQ
 
 **Q: Do I need to install all 624 skills?**
-A: You clone the whole repo, but your AI only _reads_ the ones you ask for (or that are relevant). It's lightweight!
+A: You clone the whole repo once; your AI only _reads_ the skills you invoke (or that are relevant), so it stays lightweight. **Starter Packs** in [BUNDLES.md](BUNDLES.md) are curated lists to help you discover the right skills for your role—they don't change how you install.
 
 **Q: Can I make my own skills?**
 A: Yes! Use the **@skill-creator** skill to build your own.
