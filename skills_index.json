@@ -2250,15 +2250,6 @@
     "source": "unknown"
   },
   {
-    "id": "frontend-slides",
-    "path": "skills/frontend-slides",
-    "category": "uncategorized",
-    "name": "Frontend Slides",
-    "description": "Create zero-dependency, animation-rich HTML presentations that run entirely in the browser. This skill helps non-designers discover their preferred aesthetic through visual exploration (\"show, don't tell\"), then generates production-quality slide dec",
-    "risk": "unknown",
-    "source": "unknown"
-  },
-  {
     "id": "frontend-design",
     "path": "skills/frontend-design",
     "category": "uncategorized",
@@ -2320,6 +2311,15 @@
     "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code reviews.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "frontend-slides",
+    "path": "skills/frontend-slides",
+    "category": "uncategorized",
+    "name": "frontend-slides",
+    "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+    "risk": "safe",
+    "source": "https://github.com/zarazhangrui/frontend-slides"
   },
   {
     "id": "full-stack-orchestration-full-stack-feature",
