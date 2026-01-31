@@ -24,6 +24,7 @@ This release adds the stitch-ui-design skill and clarifies documentation around 
 
 A huge shoutout to our community contributors:
 
+- **[@ALEKGG1](https://github.com/ALEKGG1)** for `stitch-ui-design` skill (PR #45)
 - **[@CypherPoet](https://github.com/CypherPoet)** for raising the documentation clarity issue (#44)
 
 ---
