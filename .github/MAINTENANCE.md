@@ -41,7 +41,7 @@ it means you **did not run or commit** the Validation Chain correctly.
 
 ### 3. 📝 EVIDENCE OF WORK
 
-- You must create/update `walkthrough.md` or `RELEASE_NOTES.md` to document what changed.
+- You must create/update `walkthrough.md` or `CHANGELOG.md` to document what changed.
 - If you made something new, **link it** in the artifacts.
 
 ### 4. 🚫 NO BRANCHES
@@ -172,7 +172,7 @@ Reject any PR that fails this:
 When cutting a new version (e.g., V4):
 
 1.  **Run Full Validation**: `python3 scripts/validate_skills.py --strict`
-2.  **Update Changelog**: Create `RELEASE_NOTES.md`.
+2.  **Update Changelog**: Add the new release section to `CHANGELOG.md`.
 3.  **Bump Version**: Update header in `README.md`.
 4.  **Tag Release**:
     ```bash
@@ -180,12 +180,12 @@ When cutting a new version (e.g., V4):
     git push origin v4.0.0
     ```
 
-### 📋 Release Note Template
+### 📋 Changelog Entry Template
 
-All changeslogs/release notes MUST follow this structure to ensure professionalism and quality:
+Each new release section in `CHANGELOG.md` should follow [Keep a Changelog](https://keepachangelog.com/) and this structure:
 
 ```markdown
-# Release vX.Y.Z: [Theme Name]
+## [X.Y.Z] - YYYY-MM-DD - "[Theme Name]"
 
 > **[One-line catchy summary of the release]**
 
