@@ -100,7 +100,7 @@ _Check the [Skill Catalog](../CATALOG.md) for the full list._
 
 ## ❓ FAQ
 
-**Q: Do I need to install all 624 skills?**
+**Q: Do I need to install all 626 skills?**
 A: You clone the whole repo once; your AI only _reads_ the skills you invoke (or that are relevant), so it stays lightweight. **Starter Packs** in [BUNDLES.md](BUNDLES.md) are curated lists to help you discover the right skills for your role—they don't change how you install.
 
 **Q: Can I make my own skills?**

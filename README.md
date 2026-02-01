@@ -295,6 +295,8 @@ We officially thank the following contributors for their help in making this rep
 - [zebbern](https://github.com/zebbern)
 - [vuth-dogo](https://github.com/vuth-dogo)
 - [whatiskadudoing](https://github.com/whatiskadudoing)
+- [c1c3ru](https://github.com/c1c3ru)
+- [devchangjun](https://github.com/devchangjun)
 
 ## Star History
 
