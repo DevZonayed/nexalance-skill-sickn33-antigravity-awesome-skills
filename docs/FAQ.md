@@ -62,7 +62,11 @@ _Always check the Risk label and review the code._
 
 ### Where should I install the skills?
 
-The universal path that works with most tools is `.agent/skills/`:
+The universal path that works with most tools is `.agent/skills/`.
+
+**Using npx:** `npx antigravity-awesome-skills` (or `npx github:sickn33/antigravity-awesome-skills` if you get a 404).
+
+**Using git clone:**
 
 ```bash
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills

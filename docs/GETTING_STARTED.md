@@ -30,6 +30,8 @@ npx antigravity-awesome-skills
 
 This clones to `~/.agent/skills` by default. Use `--cursor`, `--claude`, or `--gemini` to install for a specific tool, or `--path <dir>` for a custom location. Run `npx antigravity-awesome-skills --help` for details.
 
+If you see a 404 error, use: `npx github:sickn33/antigravity-awesome-skills`
+
 **Option B — git clone:**
 
 ```bash

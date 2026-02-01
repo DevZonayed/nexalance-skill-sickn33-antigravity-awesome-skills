@@ -155,6 +155,8 @@ npx antigravity-awesome-skills --path ./my-skills
 
 Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
 
+> **If you see a 404 error:** the package may not be published to npm yet. Use: `npx github:sickn33/antigravity-awesome-skills`
+
 ### Option B: git clone
 
 ```bash
