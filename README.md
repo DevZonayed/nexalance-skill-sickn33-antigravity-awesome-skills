@@ -272,6 +272,12 @@ ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, r
 
 ## Repo Contributors
 
+<a href="https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sickn33/antigravity-awesome-skills" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
 We officially thank the following contributors for their help in making this repository awesome!
 
 - [mvanhorn](https://github.com/mvanhorn)
