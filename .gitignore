@@ -1,4 +1,5 @@
 node_modules/
+.worktrees/
 
 walkthrough.md
 .agent/rules/
