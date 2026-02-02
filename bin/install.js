@@ -16,7 +16,7 @@ function resolveDir(p) {
 function parseArgs() {
   const a = process.argv.slice(2);
   let pathArg = null;
-  let cursor = false, claude = false, gemini = false;
+  let cursor = false, claude = false, gemini = false, codex = false;
 
   for (let i = 0; i < a.length; i++) {
     if (a[i] === '--help' || a[i] === '-h') return { help: true };
@@ -24,10 +24,11 @@ function parseArgs() {
     if (a[i] === '--cursor') { cursor = true; continue; }
     if (a[i] === '--claude') { claude = true; continue; }
     if (a[i] === '--gemini') { gemini = true; continue; }
+    if (a[i] === '--codex') { codex = true; continue; }
     if (a[i] === 'install') continue;
   }
 
-  return { pathArg, cursor, claude, gemini };
+  return { pathArg, cursor, claude, gemini, codex };
 }
 
 function defaultDir(opts) {
@@ -35,6 +36,11 @@ function defaultDir(opts) {
   if (opts.cursor) return path.join(HOME, '.cursor', 'skills');
   if (opts.claude) return path.join(HOME, '.claude', 'skills');
   if (opts.gemini) return path.join(HOME, '.gemini', 'skills');
+  if (opts.codex) {
+    const codexHome = process.env.CODEX_HOME;
+    if (codexHome) return path.join(codexHome, 'skills');
+    return path.join(HOME, '.codex', 'skills');
+  }
   return path.join(HOME, '.agent', 'skills');
 }
 
@@ -50,11 +56,13 @@ Options:
   --cursor    Install to ~/.cursor/skills (Cursor)
   --claude    Install to ~/.claude/skills (Claude Code)
   --gemini    Install to ~/.gemini/skills (Gemini CLI)
+  --codex     Install to ~/.codex/skills (Codex CLI)
   --path <dir> Install to <dir> (default: ~/.agent/skills)
 
 Examples:
   npx antigravity-awesome-skills
   npx antigravity-awesome-skills --cursor
+  npx antigravity-awesome-skills --codex
   npx antigravity-awesome-skills --path ./my-skills
 `);
 }

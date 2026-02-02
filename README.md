@@ -88,6 +88,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | :-------------- | :--- | :-------------------------------- | :---------------- |
 | **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/` |
 | **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
+| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
 | **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 | **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
 | **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
@@ -152,6 +153,9 @@ npx antigravity-awesome-skills --claude
 # Gemini CLI
 npx antigravity-awesome-skills --gemini
 
+# Codex CLI
+npx antigravity-awesome-skills --codex
+
 # Custom path
 npx antigravity-awesome-skills --path ./my-skills
 ```
@@ -171,6 +175,9 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skil
 
 # Gemini CLI specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skills
+
+# Codex CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
