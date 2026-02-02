@@ -20,6 +20,7 @@
 - 🩵 **GitHub Copilot** (VSCode Extension)
 - 🟠 **Cursor** (AI-native IDE)
 - ⚪ **OpenCode** (Open-source CLI)
+- 🌸 **AdaL** (Self-evolving AI Agent)
 
 This repository provides essential skills to transform your AI assistant into a **full-stack digital agency**, including official capabilities from **Anthropic**, **OpenAI**, **Google**, **Supabase**, and **Vercel Labs**.
 
