@@ -11,6 +11,7 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 [![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
+[![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **626 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
@@ -86,16 +87,16 @@ Once installed, just ask your agent naturally:
 
 These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills.
 
-| Tool            | Type  | Invocation Example                | Path              |
-| :-------------- | :---- | :-------------------------------- | :---------------- |
-| **Claude Code** | CLI   | `>> /skill-name help me...`       | `.claude/skills/` |
-| **Gemini CLI**  | CLI   | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
-| **Codex CLI**   | CLI   | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
-| **Antigravity** | IDE   | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
-| **Cursor**      | IDE   | `@skill-name (in Chat)`           | `.cursor/skills/` |
-| **Copilot**     | Ext   | `(Paste content manually)`        | N/A               |
-| **OpenCode**    | CLI   | `opencode run @skill-name`        | `.agent/skills/`  |
-| **AdaL CLI**    | CLI   | `(Auto) Skills load on-demand`    | `.adal/skills/`   |
+| Tool            | Type | Invocation Example                | Path              |
+| :-------------- | :--- | :-------------------------------- | :---------------- |
+| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/` |
+| **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
+| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
+| **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
+| **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
+| **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
+| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agent/skills/`  |
+| **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`   |
 
 > [!TIP]
 > **Universal Path**: We recommend cloning to `.agent/skills/`. Most modern tools (Antigravity, recent CLIs) look here by default.
