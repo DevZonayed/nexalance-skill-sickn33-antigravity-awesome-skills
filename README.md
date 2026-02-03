@@ -94,6 +94,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | **Antigravity** | IDE   | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 | **Cursor**      | IDE   | `@skill-name (in Chat)`           | `.cursor/skills/` |
 | **Copilot**     | Ext   | `(Paste content manually)`        | N/A               |
+| **OpenCode**    | CLI   | `opencode run @skill-name`        | `.agent/skills/`  |
 | **AdaL**        | Agent | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 
 > [!TIP]
@@ -158,6 +159,9 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
+# OpenCode (Universal)
+npx antigravity-awesome-skills
+
 # Custom path
 npx antigravity-awesome-skills --path ./my-skills
 ```
@@ -183,6 +187,9 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skill
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
+
+# OpenCode specific (Universal path)
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
 ---
