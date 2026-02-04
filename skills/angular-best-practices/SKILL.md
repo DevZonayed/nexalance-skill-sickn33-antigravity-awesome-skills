@@ -25,12 +25,13 @@ Reference these guidelines when:
 | Priority | Category              | Impact     | Focus                           |
 | -------- | --------------------- | ---------- | ------------------------------- |
 | 1        | Change Detection      | CRITICAL   | Signals, OnPush, Zoneless       |
-| 2        | Bundle Optimization   | CRITICAL   | Lazy loading, tree shaking      |
-| 3        | Rendering Performance | HIGH       | @defer, trackBy, virtualization |
-| 4        | Server-Side Rendering | HIGH       | Hydration, prerendering         |
-| 5        | Template Optimization | MEDIUM     | Control flow, pipes             |
-| 6        | State Management      | MEDIUM     | Signal patterns, selectors      |
-| 7        | Memory Management     | LOW-MEDIUM | Cleanup, subscriptions          |
+| 2        | Async Waterfalls      | CRITICAL   | RxJS patterns, SSR preloading   |
+| 3        | Bundle Optimization   | CRITICAL   | Lazy loading, tree shaking      |
+| 4        | Rendering Performance | HIGH       | @defer, trackBy, virtualization |
+| 5        | Server-Side Rendering | HIGH       | Hydration, prerendering         |
+| 6        | Template Optimization | MEDIUM     | Control flow, pipes             |
+| 7        | State Management      | MEDIUM     | Signal patterns, selectors      |
+| 8        | Memory Management     | LOW-MEDIUM | Cleanup, subscriptions          |
 
 ---
 
@@ -103,7 +104,63 @@ bootstrapApplication(AppComponent, {
 
 ---
 
-## 2. Bundle Optimization (CRITICAL)
+---
+
+## 2. Async Operations & Waterfalls (CRITICAL)
+
+### Eliminate Sequential Data Fetching
+
+```typescript
+// WRONG - Nested subscriptions create waterfalls
+this.route.params.subscribe((params) => {
+  // 1. Wait for params
+  this.userService.getUser(params.id).subscribe((user) => {
+    // 2. Wait for user
+    this.postsService.getPosts(user.id).subscribe((posts) => {
+      // 3. Wait for posts
+    });
+  });
+});
+
+// CORRECT - Parallel execution with forkJoin
+forkJoin({
+  user: this.userService.getUser(id),
+  posts: this.postsService.getPosts(id),
+}).subscribe((data) => {
+  // Fetched in parallel
+});
+
+// CORRECT - Flatten dependent calls with switchMap
+this.route.params
+  .pipe(
+    map((p) => p.id),
+    switchMap((id) => this.userService.getUser(id)),
+  )
+  .subscribe();
+```
+
+### Avoid Client-Side Waterfalls in SSR
+
+```typescript
+// CORRECT - Use resolvers or blocking hydration for critical data
+export const route: Route = {
+  path: "profile/:id",
+  resolve: { data: profileResolver }, // Fetched on server before navigation
+  component: ProfileComponent,
+};
+
+// WRONG - Component fetches data on init
+class ProfileComponent implements OnInit {
+  ngOnInit() {
+    // Starts ONLY after JS loads and component renders
+    this.http.get("/api/profile").subscribe();
+  }
+}
+```
+
+---
+
+## 3. Bundle Optimization (CRITICAL)
 
 ### Lazy Load Routes
 
@@ -171,7 +228,7 @@ import { Chart } from 'chart.js';
 
 ---
 
-## 3. Rendering Performance (HIGH)
+## 4. Rendering Performance (HIGH)
 
 ### Always Use trackBy with @for
 
@@ -248,7 +305,7 @@ get filteredProducts() {
 
 ---
 
-## 4. Server-Side Rendering (HIGH)
+## 5. Server-Side Rendering (HIGH)
 
 ### Configure Incremental Hydration
 
@@ -314,7 +371,7 @@ export class DataService {
 
 ---
 
-## 5. Template Optimization (MEDIUM)
+## 6. Template Optimization (MEDIUM)
 
 ### Use New Control Flow Syntax
 
@@ -355,7 +412,7 @@ class Component {
 
 ---
 
-## 6. State Management (MEDIUM)
+## 7. State Management (MEDIUM)
 
 ### Use Selectors to Prevent Re-renders
 
@@ -404,7 +461,7 @@ export class GlobalStore {
 
 ---
 
-## 7. Memory Management (LOW-MEDIUM)
+## 8. Memory Management (LOW-MEDIUM)
 
 ### Use takeUntilDestroyed for Subscriptions
 

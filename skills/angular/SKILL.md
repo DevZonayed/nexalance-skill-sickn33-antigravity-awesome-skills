@@ -436,7 +436,65 @@ export class ApiService {
 
 ---
 
-## 7. State Management Patterns
+---
+
+## 7. Component Composition & Reusability
+
+### Content Projection (Slots)
+
+```typescript
+@Component({
+  selector: 'app-card',
+  template: `
+    <div class="card">
+      <div class="header">
+        <!-- Select by attribute -->
+        <ng-content select="[card-header]"></ng-content>
+      </div>
+      <div class="body">
+        <!-- Default slot -->
+        <ng-content></ng-content>
+      </div>
+    </div>
+  `
+})
+export class CardComponent {}
+
+// Usage
+<app-card>
+  <h3 card-header>Title</h3>
+  <p>Body content</p>
+</app-card>
+```
+
+### Host Directives (Composition)
+
+```typescript
+// Reusable behaviors without inheritance
+@Directive({
+  standalone: true,
+  selector: '[appTooltip]',
+  inputs: ['tooltip'] // Signal input alias
+})
+export class TooltipDirective { ... }
+
+@Component({
+  selector: 'app-button',
+  standalone: true,
+  hostDirectives: [
+    {
+      directive: TooltipDirective,
+      inputs: ['tooltip: title'] // Map input
+    }
+  ],
+  template: `<ng-content />`
+})
+export class ButtonComponent {}
+```
+
+---
+
+## 8. State Management Patterns
 
 ### Signal-Based State Service
 
@@ -525,7 +583,7 @@ export class ProductStore {
 
 ---
 
-## 8. Forms with Signals (Coming in v22+)
+## 9. Forms with Signals (Coming in v22+)
 
 ### Current Reactive Forms
 
@@ -588,7 +646,7 @@ export class SignalFormComponent {
 
 ---
 
-## 9. Performance Optimization
+## 10. Performance Optimization
 
 ### Change Detection Strategies
 
@@ -653,7 +711,7 @@ import { NgOptimizedImage } from '@angular/common';
 
 ---
 
-## 10. Testing Modern Angular
+## 11. Testing Modern Angular
 
 ### Testing Signal Components
 
