@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-02-04T08:08:20.870Z
+Generated at: 2026-02-04T17:30:23.139Z
 
-Total skills: 631
+Total skills: 632
 
 ## architecture (62)
 
@@ -298,7 +298,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (129)
+## general (130)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -392,6 +392,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `nosql-expert` | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot ... | nosql | nosql, guidance, distributed, databases, cassandra, dynamodb, mental, models, query, first, modeling, single |
 | `obsidian-clipper-template-creator` | Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format cli... | obsidian, clipper, creator | obsidian, clipper, creator, creating, web, want, new, clipping, understand, available, variables, format |
 | `onboarding-cro` | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding ... | onboarding, cro | onboarding, cro, user, wants, optimize, post, signup, activation, first, run, experience, time |
+| `oss-hunter` | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. | oss, hunter | oss, hunter, automatically, hunt, high, impact, contribution, opportunities, trending, repositories |
 | `paid-ads` | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when ... | paid, ads | paid, ads, user, wants, advertising, campaigns, google, meta, facebook, instagram, linkedin, twitter |
 | `paypal-integration` | Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processin... | paypal, integration | paypal, integration, integrate, payment, processing, express, checkout, subscriptions, refund, implementing, payments, online |
 | `performance-profiling` | Performance profiling principles. Measurement, analysis, and optimization techniques. | performance, profiling | performance, profiling, principles, measurement, analysis, optimization, techniques |

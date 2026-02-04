@@ -3582,6 +3582,15 @@
     "source": "unknown"
   },
   {
+    "id": "oss-hunter",
+    "path": "skills/oss-hunter",
+    "category": "uncategorized",
+    "name": "oss-hunter",
+    "description": "Automatically hunt for high-impact OSS contribution opportunities in trending repositories.",
+    "risk": "safe",
+    "source": "https://github.com/jackjin1997/ClawForge"
+  },
+  {
     "id": "page-cro",
     "path": "skills/page-cro",
     "category": "uncategorized",
