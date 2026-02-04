@@ -1,13 +1,15 @@
 # Skill Catalog
 
-Generated at: 2026-02-03T18:45:56.317Z
+Generated at: 2026-02-04T07:49:25.063Z
 
-Total skills: 626
+Total skills: 631
 
-## architecture (60)
+## architecture (62)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `angular` | Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns. Use PROACTIV... | angular | angular, v20, deep, knowledge, signals, standalone, components, zoneless, applications, ssr, hydration, reactive |
+| `angular-state-management` | Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solu... | angular, state | angular, state, signals, ngrx, rxjs, setting, up, global, managing, component, stores, choosing |
 | `architect-review` | Master software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD. Reviews system desi... |  | architect, review, software, specializing, architecture, clean, microservices, event, driven, ddd, reviews, designs |
 | `architecture` | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing ... | architecture | architecture, architectural, decision, making, framework, requirements, analysis, trade, off, evaluation, adr, documentation |
 | `architecture-decision-records` | Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant techn... | architecture, decision, records | architecture, decision, records, write, maintain, adrs, following, technical, documentation, documenting, significant, decisions |
@@ -111,7 +113,7 @@ Total skills: 626
 | `startup-financial-modeling` | This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estima... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `team-composition-analysis` | This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity a... | team, composition | team, composition, analysis, skill, should, used, user, asks, plan, structure, determine, hiring |
 
-## data-ai (92)
+## data-ai (93)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -121,6 +123,7 @@ Total skills: 626
 | `ai-engineer` | Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and ente... | ai | ai, engineer, llm, applications, rag, intelligent, agents, implements, vector, search, multimodal, agent |
 | `ai-wrapper-product` | Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into focused tools people will pay for. Not just 'ChatGPT but different' - products t... | ai, wrapper, product | ai, wrapper, product, building, products, wrap, apis, openai, anthropic, etc, people, pay |
 | `analytics-tracking` | Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analyti... | analytics, tracking | analytics, tracking, audit, improve, produce, reliable, decision, data, user, wants, set, up |
+| `angular-ui-patterns` | Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component ... | angular, ui | angular, ui, loading, states, error, handling, data, display, building, components, async, managing |
 | `api-documenter` | Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build com... | api, documenter | api, documenter, documentation, openapi, ai, powered, developer, experience, interactive, docs, generate, sdks |
 | `autonomous-agent-patterns` | Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use ... | autonomous, agent | autonomous, agent, building, coding, agents, covers, integration, permission, browser, automation, human, loop |
 | `autonomous-agents` | Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The c... | autonomous, agents | autonomous, agents, ai, independently, decompose, goals, plan, actions, execute, self, correct, without |
@@ -295,13 +298,14 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (128)
+## general (130)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
 | `address-github-comments` | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI. | address, github, comments | address, github, comments, review, issue, open, pull, request, gh, cli |
 | `agent-manager-skill` | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling. | agent, manager, skill | agent, manager, skill, multiple, local, cli, agents, via, tmux, sessions, start, stop |
 | `algorithmic-art` | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, gener... | algorithmic, art | algorithmic, art, creating, p5, js, seeded, randomness, interactive, parameter, exploration, users, request |
+| `angular-best-practices` | Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and... | angular, best, practices | angular, best, practices, performance, optimization, writing, reviewing, refactoring, code, optimal, bundle, size |
 | `angular-migration` | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applicat... | angular, migration | angular, migration, migrate, angularjs, hybrid, mode, incremental, component, rewriting, dependency, injection, updates |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
 | `app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordina... | app, builder | app, builder, main, application, building, orchestrator, creates, full, stack, applications, natural, language |
@@ -334,6 +338,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `commit` | Create commit messages following Sentry conventions. Use when committing code changes, writing commit messages, or formatting git history. Follows convention... | commit | commit, messages, following, sentry, conventions, committing, code, changes, writing, formatting, git, history |
 | `comprehensive-review-full-review` | Use when working with comprehensive review full review | comprehensive, full | comprehensive, full, review, working |
 | `comprehensive-review-pr-enhance` | You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descri... | comprehensive, pr, enhance | comprehensive, pr, enhance, review, optimization, specializing, creating, high, quality, pull, requests, facilitate |
+| `computer-vision-expert` | SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis. | computer, vision | computer, vision, sota, 2026, specialized, yolo26, segment, anything, sam, language, models, real |
 | `concise-planning` | Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist. | concise, planning | concise, planning, user, asks, plan, coding, task, generate, clear, actionable, atomic, checklist |
 | `context-compression` | Design and evaluate compression strategies for long-running sessions | compression | compression, context, evaluate, long, running, sessions |
 | `context-fundamentals` | Understand what context is, why it matters, and the anatomy of context in agent systems | fundamentals | fundamentals, context, understand, what, why, matters, anatomy, agent |

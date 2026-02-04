@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-03T18:45:56.317Z",
+  "generatedAt": "2026-02-04T07:49:25.063Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -259,6 +259,7 @@
       "skills": [
         "airflow-dag-patterns",
         "analytics-tracking",
+        "angular-ui-patterns",
         "blockrun",
         "business-analyst",
         "cc-skill-backend-patterns",

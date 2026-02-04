@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-03T18:45:56.317Z",
-  "total": 626,
+  "generatedAt": "2026-02-04T07:49:25.063Z",
+  "total": 631,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -506,6 +506,56 @@
       "path": "skills/analytics-tracking/SKILL.md"
     },
     {
+      "id": "angular",
+      "name": "angular",
+      "description": "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns. Use PROACTIVELY for Angular development, component architecture, state management, performance optimization, and migration to modern patterns.",
+      "category": "architecture",
+      "tags": [
+        "angular"
+      ],
+      "triggers": [
+        "angular",
+        "v20",
+        "deep",
+        "knowledge",
+        "signals",
+        "standalone",
+        "components",
+        "zoneless",
+        "applications",
+        "ssr",
+        "hydration",
+        "reactive"
+      ],
+      "path": "skills/angular/SKILL.md"
+    },
+    {
+      "id": "angular-best-practices",
+      "name": "angular-best-practices",
+      "description": "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency.",
+      "category": "general",
+      "tags": [
+        "angular",
+        "best",
+        "practices"
+      ],
+      "triggers": [
+        "angular",
+        "best",
+        "practices",
+        "performance",
+        "optimization",
+        "writing",
+        "reviewing",
+        "refactoring",
+        "code",
+        "optimal",
+        "bundle",
+        "size"
+      ],
+      "path": "skills/angular-best-practices/SKILL.md"
+    },
+    {
       "id": "angular-migration",
       "name": "angular-migration",
       "description": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code.",
@@ -529,6 +579,56 @@
         "updates"
       ],
       "path": "skills/angular-migration/SKILL.md"
+    },
+    {
+      "id": "angular-state-management",
+      "name": "angular-state-management",
+      "description": "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns.",
+      "category": "architecture",
+      "tags": [
+        "angular",
+        "state"
+      ],
+      "triggers": [
+        "angular",
+        "state",
+        "signals",
+        "ngrx",
+        "rxjs",
+        "setting",
+        "up",
+        "global",
+        "managing",
+        "component",
+        "stores",
+        "choosing"
+      ],
+      "path": "skills/angular-state-management/SKILL.md"
+    },
+    {
+      "id": "angular-ui-patterns",
+      "name": "angular-ui-patterns",
+      "description": "Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component states.",
+      "category": "data-ai",
+      "tags": [
+        "angular",
+        "ui"
+      ],
+      "triggers": [
+        "angular",
+        "ui",
+        "loading",
+        "states",
+        "error",
+        "handling",
+        "data",
+        "display",
+        "building",
+        "components",
+        "async",
+        "managing"
+      ],
+      "path": "skills/angular-ui-patterns/SKILL.md"
     },
     {
       "id": "anti-reversing-techniques",
@@ -3090,6 +3190,31 @@
         "moving"
       ],
       "path": "skills/computer-use-agents/SKILL.md"
+    },
+    {
+      "id": "computer-vision-expert",
+      "name": "computer-vision-expert",
+      "description": "SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.",
+      "category": "general",
+      "tags": [
+        "computer",
+        "vision"
+      ],
+      "triggers": [
+        "computer",
+        "vision",
+        "sota",
+        "2026",
+        "specialized",
+        "yolo26",
+        "segment",
+        "anything",
+        "sam",
+        "language",
+        "models",
+        "real"
+      ],
+      "path": "skills/computer-vision-expert/SKILL.md"
     },
     {
       "id": "concise-planning",
