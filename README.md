@@ -333,6 +333,8 @@ We officially thank the following contributors for their help in making this rep
 - [@evandro-miguel](https://github.com/evandro-miguel)
 - [@raeef1001](https://github.com/raeef1001)
 - [@devchangjun](https://github.com/devchangjun)
+- [@jackjin1997](https://github.com/jackjin1997)
+- [@ericgandrade](https://github.com/ericgandrade)
 
 ## Star History
 
