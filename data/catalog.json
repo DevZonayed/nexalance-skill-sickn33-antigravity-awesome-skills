@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-04T08:08:20.870Z",
-  "total": 631,
+  "generatedAt": "2026-02-04T17:30:23.139Z",
+  "total": 632,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -9792,6 +9792,29 @@
         "api"
       ],
       "path": "skills/openapi-spec-generation/SKILL.md"
+    },
+    {
+      "id": "oss-hunter",
+      "name": "oss-hunter",
+      "description": "Automatically hunt for high-impact OSS contribution opportunities in trending repositories.",
+      "category": "general",
+      "tags": [
+        "oss",
+        "hunter"
+      ],
+      "triggers": [
+        "oss",
+        "hunter",
+        "automatically",
+        "hunt",
+        "high",
+        "impact",
+        "contribution",
+        "opportunities",
+        "trending",
+        "repositories"
+      ],
+      "path": "skills/oss-hunter/SKILL.md"
     },
     {
       "id": "page-cro",
