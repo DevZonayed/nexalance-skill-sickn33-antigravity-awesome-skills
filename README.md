@@ -335,6 +335,8 @@ We officially thank the following contributors for their help in making this rep
 - [@devchangjun](https://github.com/devchangjun)
 - [@jackjin1997](https://github.com/jackjin1997)
 - [@ericgandrade](https://github.com/ericgandrade)
+- [@sohamganatra](https://github.com/sohamganatra)
+- [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan)
 
 ## Star History
 

@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.10.0] - 2026-02-06 - "Composio Automation + .NET Backend"
+
+> Merged two community PRs adding broad automation coverage and a dedicated .NET backend skill.
+
+### Added
+
+- **79 new skills total**:
+- **78 Composio/Rube automation skills** across CRM, productivity, comms, analytics, support, and DevOps tools (PR #64).
+- **1 new `.NET backend` skill** for ASP.NET Core enterprise APIs (PR #65).
+- **Registry** now tracks **713 skills** (from 634).
+
+### Changed
+
+- Synced generated registry artifacts after merges:
+- `README.md`
+- `skills_index.json`
+- `CATALOG.md`
+- `data/catalog.json`
+- `data/bundles.json`
+- `data/aliases.json`
+
+### Contributors
+
+- [@sohamganatra](https://github.com/sohamganatra) - 78 Composio automation skills (PR #64)
+- [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan) - .NET backend skill (PR #65)
+
 ## [4.9.0] - 2026-02-05 - "OSS Hunter & Universal Skills"
 
 > Automated contribution hunting and universal CLI AI skills (Audio, YouTube, Prompt Engineering).
