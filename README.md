@@ -34,6 +34,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [📚 Browse 713+ Skills](#browse-713-skills)
 - [🛠️ Installation](#installation)
+- [🧯 Troubleshooting](#troubleshooting)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
 - [⚖️ License](#license)
@@ -53,24 +54,31 @@ This repository provides essential skills to transform your AI assistant into a 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
 
-### 2. ⚡️ Quick Start (The "Bundle" Way)
+### 2. ⚡️ Quick Start (1 minute)
 
-Install once (clone or npx); then use our **Starter Packs** in [docs/BUNDLES.md](docs/BUNDLES.md) to see which skills fit your role. You get the full repo; Starter Packs are curated lists, not a separate install.
+Install once; then use Starter Packs in [docs/BUNDLES.md](docs/BUNDLES.md) to focus on your role.
 
-1.  **Install** (pick one):
+1. **Install**:
 
-    ```bash
-    # Easiest: npx installer (clones to ~/.agent/skills by default)
-    npx antigravity-awesome-skills
+   ```bash
+   # Default path: ~/.agent/skills
+   npx antigravity-awesome-skills
+   ```
 
-    # Or clone manually
-    git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
-    ```
+2. **Verify**:
 
-2.  **Pick your persona** (See [docs/BUNDLES.md](docs/BUNDLES.md)):
-    - **Web Dev?** use the `Web Wizard` pack.
-    - **Hacker?** use the `Security Engineer` pack.
-    - **Just curious?** start with `Essentials`.
+   ```bash
+   test -d ~/.agent/skills && echo "Skills installed in ~/.agent/skills"
+   ```
+
+3. **Run your first skill**:
+
+   > "Use **@brainstorming** to plan a SaaS MVP."
+
+4. **Pick a bundle**:
+   - **Web Dev?** start with `Web Wizard`.
+   - **Security?** start with `Security Engineer`.
+   - **General use?** start with `Essentials`.
 
 ### 3. 🧠 How to use
 
@@ -102,15 +110,10 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 > **Universal Path**: We recommend cloning to `.agent/skills/`. Most modern tools (Antigravity, recent CLIs) look here by default.
 
 > [!WARNING]
-> **Windows Users**: This repository uses **symlinks** for official skills.
-> The **npx** installer sets `core.symlinks=true` automatically. For **git clone**, enable Developer Mode or run Git as Administrator:
-> `git clone -c core.symlinks=true https://github.com/...`
+> **Windows Users**: this repository uses **symlinks** for official skills.
+> See [Troubleshooting](#troubleshooting) for the exact fix.
 
 ---
-
-Whether you are using **Gemini CLI**, **Claude Code**, **Codex CLI**, **Cursor**, **GitHub Copilot**, **Antigravity**, **OpenCode**, or **AdaL**, these skills are designed to drop right in and supercharge your AI agent.
-
-This repository aggregates the best capabilities from across the open-source community, transforming your AI assistant into a full-stack digital agency capable of Engineering, Design, Security, Marketing, and Autonomous Operations.
 
 ## Features & Categories
 
@@ -118,15 +121,17 @@ The repository is organized into specialized domains to transform your AI into a
 
 | Category            | Focus                                              | Example skills                                                                  |
 | :------------------ | :------------------------------------------------- | :------------------------------------------------------------------------------ |
-| Architecture (52)   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
-| Business (35)       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
-| Data & AI (81)      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
-| Development (72)    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
-| General (95)        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
-| Infrastructure (72) | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
-| Security (107)      | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
-| Testing (21)        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
-| Workflow (17)       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
+| Architecture   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
+| Business       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
+| Data & AI      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
+| Development    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
+| General        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
+| Infrastructure | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
+| Security       | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
+| Testing        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
+| Workflow       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
+
+Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
 ## Curated Collections
 
@@ -169,8 +174,6 @@ npx antigravity-awesome-skills --path ./my-skills
 
 Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
 
-> **If you see a 404 error:** the package may not be published to npm yet. Use: `npx github:sickn33/antigravity-awesome-skills`
-
 ### Option B: git clone
 
 ```bash
@@ -191,6 +194,43 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skil
 
 # OpenCode specific (Universal path)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+```
+
+---
+
+## Troubleshooting
+
+### `npx antigravity-awesome-skills` returns 404
+
+Use the GitHub package fallback:
+
+```bash
+npx github:sickn33/antigravity-awesome-skills
+```
+
+### Windows clone issues (symlinks)
+
+This repository uses symlinks for official skills. Enable Developer Mode or run Git as Administrator, then clone with:
+
+```bash
+git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+```
+
+### Skills installed but not detected by your tool
+
+Install to the tool-specific path (for example `.claude/skills`, `.gemini/skills`, `.codex/skills`, `.cursor/skills`) or use the installer flags (`--claude`, `--gemini`, `--codex`, `--cursor`, `--path`).
+
+### Update an existing installation
+
+```bash
+git -C ~/.agent/skills pull
+```
+
+### Reinstall from scratch
+
+```bash
+rm -rf ~/.agent/skills
+npx antigravity-awesome-skills
 ```
 
 ---
@@ -270,8 +310,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 - [Community Guidelines](docs/COMMUNITY_GUIDELINES.md)
 - [Security Policy](docs/SECURITY_GUARDRAILS.md)
-
----
 
 ---
 
