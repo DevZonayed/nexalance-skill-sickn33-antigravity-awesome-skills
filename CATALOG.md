@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-02-06T07:44:10.581Z
+Generated at: 2026-02-06T07:49:30.257Z
 
-Total skills: 712
+Total skills: 713
 
 ## architecture (63)
 
@@ -531,7 +531,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (112)
+## security (113)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -565,6 +565,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `design-orchestration` | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature imp... |  | orchestration, orchestrates, routing, work, through, brainstorming, multi, agent, review, execution, readiness, correct |
 | `devops-troubleshooter` | Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing... | devops, troubleshooter | devops, troubleshooter, specializing, rapid, incident, response, debugging, observability, masters, log, analysis, distributed |
 | `docker-expert` | Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and productio... | docker | docker, containerization, deep, knowledge, multi, stage, image, optimization, container, security, compose, orchestration |
+| `dotnet-backend` | Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns. | dotnet, backend | dotnet, backend, asp, net, core, ef, auth, background, jobs, api |
 | `ethical-hacking-methodology` | This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct secur... | ethical, hacking, methodology | ethical, hacking, methodology, skill, should, used, user, asks, learn, understand, penetration, testing |
 | `file-path-traversal` | This skill should be used when the user asks to "test for directory traversal", "exploit path traversal vulnerabilities", "read arbitrary files through web a... | file, path, traversal | file, path, traversal, testing, skill, should, used, user, asks, test, directory, exploit |
 | `find-bugs` | Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit ... | find, bugs | find, bugs, security, vulnerabilities, code, quality, issues, local, branch, changes, asked, review |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-06T07:44:10.581Z",
+  "generatedAt": "2026-02-06T07:49:30.257Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -38,6 +38,7 @@
         "documentation-generation-doc-generate",
         "documentation-templates",
         "dotnet-architect",
+        "dotnet-backend",
         "dotnet-backend-patterns",
         "exa-search",
         "fastapi-pro",
@@ -165,6 +166,7 @@
         "deployment-pipeline-design",
         "design-orchestration",
         "docker-expert",
+        "dotnet-backend",
         "ethical-hacking-methodology",
         "find-bugs",
         "firebase",

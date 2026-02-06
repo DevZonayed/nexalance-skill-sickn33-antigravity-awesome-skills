@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-06T07:44:10.581Z",
-  "total": 712,
+  "generatedAt": "2026-02-06T07:49:30.257Z",
+  "total": 713,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -5509,6 +5509,29 @@
         "application"
       ],
       "path": "skills/dotnet-architect/SKILL.md"
+    },
+    {
+      "id": "dotnet-backend",
+      "name": "dotnet-backend",
+      "description": "Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.",
+      "category": "security",
+      "tags": [
+        "dotnet",
+        "backend"
+      ],
+      "triggers": [
+        "dotnet",
+        "backend",
+        "asp",
+        "net",
+        "core",
+        "ef",
+        "auth",
+        "background",
+        "jobs",
+        "api"
+      ],
+      "path": "skills/dotnet-backend/SKILL.md"
     },
     {
       "id": "dotnet-backend-patterns",
