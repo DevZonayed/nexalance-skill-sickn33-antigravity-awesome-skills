@@ -30,16 +30,18 @@ This repository provides essential skills to transform your AI assistant into a 
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
-- [📦 Features & Categories](#features--categories)
-- [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📚 Browse 713+ Skills](#browse-713-skills)
 - [🛠️ Installation](#installation)
 - [🧯 Troubleshooting](#troubleshooting)
+- [🎁 Curated Collections (Bundles)](#curated-collections)
+- [📦 Features & Categories](#features--categories)
+- [📚 Browse 713+ Skills](#browse-713-skills)
 - [🤝 How to Contribute](#how-to-contribute)
+- [🤝 Community](#community)
 - [👥 Contributors & Credits](#credits--sources)
-- [⚖️ License](#license)
 - [👥 Repo Contributors](#repo-contributors)
+- [⚖️ License](#license)
 - [🌟 Star History](#star-history)
+- [🏷️ GitHub Topics](#github-topics)
 
 ---
 
@@ -114,34 +116,6 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 > See [Troubleshooting](#troubleshooting) for the exact fix.
 
 ---
-
-## Features & Categories
-
-The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:
-
-| Category            | Focus                                              | Example skills                                                                  |
-| :------------------ | :------------------------------------------------- | :------------------------------------------------------------------------------ |
-| Architecture   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
-| Business       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
-| Data & AI      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
-| Development    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
-| General        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
-| Infrastructure | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
-| Security       | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
-| Testing        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
-| Workflow       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
-
-Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
-
-## Curated Collections
-
-[Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
-
-## Browse 713+ Skills
-
-We have moved the full skill registry to a dedicated catalog to keep this README clean.
-
-👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
 ## Installation
 
@@ -235,6 +209,36 @@ npx antigravity-awesome-skills
 
 ---
 
+## Curated Collections
+
+[Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
+
+## Features & Categories
+
+The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:
+
+| Category       | Focus                                              | Example skills                                                                  |
+| :------------- | :------------------------------------------------- | :------------------------------------------------------------------------------ |
+| Architecture   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
+| Business       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
+| Data & AI      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
+| Development    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
+| General        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
+| Infrastructure | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
+| Security       | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
+| Testing        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
+| Workflow       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
+
+Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
+
+## Browse 713+ Skills
+
+We have moved the full skill registry to a dedicated catalog to keep this README clean.
+
+👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
+
+---
+
 ## How to Contribute
 
 We welcome contributions from the community! To add a new skill:
@@ -246,6 +250,13 @@ We welcome contributions from the community! To add a new skill:
 5. **Submit a Pull Request**.
 
 Please ensure your skill follows the Antigravity/Claude Code best practices.
+
+---
+
+## Community
+
+- [Community Guidelines](docs/COMMUNITY_GUIDELINES.md)
+- [Security Policy](docs/SECURITY_GUARDRAILS.md)
 
 ---
 
@@ -302,29 +313,6 @@ This collection would not be possible without the incredible work of the Claude 
 
 ---
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
-## Community
-
-- [Community Guidelines](docs/COMMUNITY_GUIDELINES.md)
-- [Security Policy](docs/SECURITY_GUARDRAILS.md)
-
----
-
-## GitHub Topics
-
-For repository maintainers, add these topics to maximize discoverability:
-
-```text
-claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
-agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
-ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
-```
-
----
-
 ## Repo Contributors
 
 <a href="https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors">
@@ -376,6 +364,26 @@ We officially thank the following contributors for their help in making this rep
 - [@sohamganatra](https://github.com/sohamganatra)
 - [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan)
 
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
+
+---
+
+## GitHub Topics
+
+For repository maintainers, add these topics to maximize discoverability:
+
+```text
+claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
+agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
+ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
+```
