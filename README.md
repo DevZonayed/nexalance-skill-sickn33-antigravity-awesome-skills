@@ -14,6 +14,8 @@
 [![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
 [![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
+If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
+
 **Antigravity Awesome Skills** is a curated, battle-tested library of **713 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
@@ -418,6 +420,8 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
+
+If Antigravity Awesome Skills has been useful, consider ⭐ starring the repo or [buying me a book](https://buymeacoffee.com/sickn33).
 
 ---
 
