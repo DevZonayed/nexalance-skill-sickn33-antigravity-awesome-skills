@@ -12,6 +12,7 @@
 [![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
 [![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
 [![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
+[![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **713 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
@@ -37,6 +38,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [📚 Browse 713+ Skills](#browse-713-skills)
 - [🤝 How to Contribute](#how-to-contribute)
 - [🤝 Community](#community)
+- [☕ Support the Project](#support-the-project)
 - [👥 Contributors & Credits](#credits--sources)
 - [👥 Repo Contributors](#repo-contributors)
 - [⚖️ License](#license)
@@ -278,6 +280,26 @@ Please ensure your skill follows the Antigravity/Claude Code best practices.
 
 - [Community Guidelines](docs/COMMUNITY_GUIDELINES.md)
 - [Security Policy](docs/SECURITY_GUARDRAILS.md)
+
+---
+
+## Support the Project
+
+Support is optional. This project stays free and open-source for everyone.
+
+If this repository saves you time or helps you ship faster, you can support ongoing maintenance:
+- [☕ Buy me a book on Buy Me a Coffee](https://buymeacoffee.com/sickn33)
+
+Where support goes:
+- Skill curation, testing, and quality validation.
+- Documentation updates, examples, and onboarding improvements.
+- Faster triage and review of community issues and PRs.
+
+Prefer non-financial support:
+- Star the repository.
+- Open clear, reproducible issues.
+- Submit PRs (skills, docs, fixes).
+- Share the project with other builders.
 
 ---
 
