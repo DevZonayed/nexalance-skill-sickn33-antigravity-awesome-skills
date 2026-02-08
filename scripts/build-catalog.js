@@ -318,9 +318,9 @@ function buildCatalog() {
   }
 
   const catalog = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: process.env.SOURCE_DATE_EPOCH ? new Date(process.env.SOURCE_DATE_EPOCH * 1000).toISOString() : new Date().toISOString(),
     total: catalogSkills.length,
-    skills: catalogSkills.sort((a, b) => a.id.localeCompare(b.id)),
+    skills: catalogSkills.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)),
   };
 
   const aliases = buildAliases(catalog.skills);
