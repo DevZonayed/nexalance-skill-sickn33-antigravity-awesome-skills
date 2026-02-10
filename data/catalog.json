@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 713,
+  "total": 714,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -727,6 +727,30 @@
         "protected"
       ],
       "path": "skills/anti-reversing-techniques/SKILL.md"
+    },
+    {
+      "id": "antigravity-workflows",
+      "name": "antigravity-workflows",
+      "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+      "category": "security",
+      "tags": [
+        "antigravity"
+      ],
+      "triggers": [
+        "antigravity",
+        "orchestrate",
+        "multiple",
+        "skills",
+        "through",
+        "guided",
+        "saas",
+        "mvp",
+        "delivery",
+        "security",
+        "audits",
+        "ai"
+      ],
+      "path": "skills/antigravity-workflows/SKILL.md"
     },
     {
       "id": "api-design-principles",

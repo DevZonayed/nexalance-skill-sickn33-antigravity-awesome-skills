@@ -279,6 +279,15 @@
     "source": "unknown"
   },
   {
+    "id": "antigravity-workflows",
+    "path": "skills/antigravity-workflows",
+    "category": "uncategorized",
+    "name": "antigravity-workflows",
+    "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+    "risk": "none",
+    "source": "self"
+  },
+  {
     "id": "api-fuzzing-bug-bounty",
     "path": "skills/api-fuzzing-bug-bounty",
     "category": "uncategorized",

@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 713
+Total skills: 714
 
 ## architecture (63)
 
@@ -531,7 +531,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (113)
+## security (114)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -539,6 +539,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `active-directory-attacks` | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration"... | active, directory, attacks | active, directory, attacks, skill, should, used, user, asks, attack, exploit, ad, kerberoasting |
 | `agent-memory-systems` | Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-te... | agent, memory | agent, memory, cornerstone, intelligent, agents, without, every, interaction, starts, zero, skill, covers |
 | `ai-product` | Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integra... | ai, product | ai, product, every, powered, question, whether, ll, right, ship, demo, falls, apart |
+| `antigravity-workflows` | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. | antigravity | antigravity, orchestrate, multiple, skills, through, guided, saas, mvp, delivery, security, audits, ai |
 | `api-fuzzing-bug-bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetrat... | api, fuzzing, bug, bounty | api, fuzzing, bug, bounty, skill, should, used, user, asks, test, security, fuzz |
 | `api-security-best-practices` | Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities | api, security, best, practices | api, security, best, practices, secure, including, authentication, authorization, input, validation, rate, limiting |
 | `attack-tree-construction` | Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to s... | attack, tree, construction | attack, tree, construction, trees, visualize, threat, paths, mapping, scenarios, identifying, defense, gaps |
