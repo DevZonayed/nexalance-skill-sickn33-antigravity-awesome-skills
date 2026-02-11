@@ -16,6 +16,7 @@ MS_REPO = "https://github.com/microsoft/skills.git"
 REPO_ROOT = Path(__file__).parent.parent
 TARGET_DIR = REPO_ROOT / "skills"
 DOCS_DIR = REPO_ROOT / "docs"
+ATTRIBUTION_FILE = DOCS_DIR / "microsoft-skills-attribution.json"
 
 
 def clone_repo(temp_dir: Path):
@@ -25,6 +26,37 @@ def clone_repo(temp_dir: Path):
         ["git", "clone", "--depth", "1", MS_REPO, str(temp_dir)],
         check=True,
     )
+
+
+def cleanup_previous_sync():
+    """Remove skill directories from a previous sync using the attribution manifest."""
+    if not ATTRIBUTION_FILE.exists():
+        print("  ℹ️  No previous attribution file found — skipping cleanup.")
+        return 0
+
+    try:
+        with open(ATTRIBUTION_FILE) as f:
+            attribution = json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"  ⚠️  Could not read attribution file: {e}")
+        return 0
+
+    previous_skills = attribution.get("skills", [])
+    removed_count = 0
+
+    for skill in previous_skills:
+        flat_name = skill.get("flat_name", "")
+        if not flat_name:
+            continue
+
+        skill_dir = TARGET_DIR / flat_name
+        if skill_dir.exists() and skill_dir.is_dir():
+            shutil.rmtree(skill_dir)
+            removed_count += 1
+
+    print(
+        f"  🗑️  Removed {removed_count} previously synced skill directories.")
+    return removed_count
 
 
 def extract_skill_name(skill_md_path: Path) -> str | None:
@@ -253,6 +285,9 @@ def main():
 
             TARGET_DIR.mkdir(parents=True, exist_ok=True)
 
+            print("\n🧹 Cleaning up previous sync...")
+            cleanup_previous_sync()
+
             print("\n🔗 Resolving symlinks and flattening into skills/<name>/...")
             count, metadata = sync_skills_flat(temp_path, TARGET_DIR)
 
@@ -276,9 +311,8 @@ def main():
             print(f"  Languages: {', '.join(sorted(languages))}")
 
             print("\n📋 Next steps:")
-            print("1. Delete old skills/official/ directory (if it exists)")
-            print("2. Run: npm run build")
-            print("3. Commit changes and create PR")
+            print("1. Run: npm run build")
+            print("2. Commit changes and create PR")
 
         except Exception as e:
             print(f"\n❌ Error: {e}")
