@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-02-11T14:27:51.213Z
+Generated at: 2026-02-11T16:18:46.125Z
 
-Total skills: 844
+Total skills: 845
 
 ## architecture (64)
 
@@ -292,7 +292,7 @@ Triggers: "event hubs rust", "ProducerClient rust", "ConsumerC... | official/mic
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (123)
+## development (124)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -326,6 +326,7 @@ Triggers: "event hubs rust", "ProducerClient rust", "ConsumerC... | official/mic
 | `frontend-mobile-development-component-scaffold` | You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete componen... | frontend, mobile, component | frontend, mobile, component, development, scaffold, react, architecture, specializing, scaffolding, accessible, performant, components |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a... | frontend, slides | frontend, slides, stunning, animation, rich, html, presentations, scratch, converting, powerpoint, files, user |
 | `game-development/mobile-games` | Mobile game development principles. Touch input, battery, performance, app stores. | game, development/mobile, games | game, development/mobile, games, mobile, development, principles, touch, input, battery, performance, app, stores |
+| `gemini-api-dev` | Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function... | gemini, api, dev | gemini, api, dev, skill, building, applications, models, working, multimodal, content, text, images |
 | `go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or de... | go, concurrency | go, concurrency, goroutines, channels, sync, primitives, context, building, concurrent, applications, implementing, worker |
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
 | `golang-pro` | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. Expert in the latest Go ecosystem i... | golang | golang, pro, go, 21, concurrency, performance, optimization, microservices, latest, ecosystem, including, generics |

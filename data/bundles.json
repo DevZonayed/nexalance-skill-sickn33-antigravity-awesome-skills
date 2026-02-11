@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-11T14:27:51.213Z",
+  "generatedAt": "2026-02-11T16:18:46.125Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -57,6 +57,7 @@
         "frontend-security-coder",
         "frontend-slides",
         "game-development/mobile-games",
+        "gemini-api-dev",
         "go-concurrency-patterns",
         "go-playwright",
         "golang-pro",

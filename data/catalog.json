@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-11T14:27:51.213Z",
-  "total": 844,
+  "generatedAt": "2026-02-11T16:18:46.125Z",
+  "total": 845,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -7365,6 +7365,32 @@
         "personal"
       ],
       "path": "skills/gdpr-data-handling/SKILL.md"
+    },
+    {
+      "id": "gemini-api-dev",
+      "name": "gemini-api-dev",
+      "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.",
+      "category": "development",
+      "tags": [
+        "gemini",
+        "api",
+        "dev"
+      ],
+      "triggers": [
+        "gemini",
+        "api",
+        "dev",
+        "skill",
+        "building",
+        "applications",
+        "models",
+        "working",
+        "multimodal",
+        "content",
+        "text",
+        "images"
+      ],
+      "path": "skills/gemini-api-dev/SKILL.md"
     },
     {
       "id": "geo-fundamentals",
