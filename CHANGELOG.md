@@ -7,7 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [5.2.0] - 2026-02-13 - "Podcast Generation & Azure Expansion"
+## [5.3.0] - 2026-02-13 - "Advanced Three.js & Modern Graphics"
+
+> **Enhanced Three.js patterns: performance, visual polish, and production practices.**
+
+This release significantly upgrades our 3D visualization capabilities with a comprehensive Three.js skill upgrade, focusing on CDN-compatible patterns, performance optimizations, and modern graphics techniques like shadows, fog, and GSAP integration.
+
+### Added
+
+- **Modern Three.js Patterns**: Comprehensive guide for `r128` (CDN) and production environments.
+- **Visual Polish**: Advanced sections for shadows, environment maps, and tone mapping.
+- **Interaction Models**: Custom camera controls (OrbitControls alternative) and raycasting for object selection.
+- **Production Readiness**: Integration patterns for GSAP, scroll-based animations, and build tool optimizations.
+
+### Registry
+
+- **Total Skills**: 856.
+- **Metadata**: Fixed missing source and risk fields for `threejs-skills`.
+- **Sync**: All discovery artifacts (README, Catalog, Index) updated and synced.
+
+### Contributors
+
+- **[@Krishna-hehe](https://github.com/Krishna-hehe)** - Advanced Three.js skill overhaul (PR #78).
+
+---
 
 > **New AI capabilities: Podcast Generation, Azure Identity, and Self-Evolving Agents.**
 
