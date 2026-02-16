@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.5.0] - 2026-02-16 - "Laravel Pro & ReactFlow Architect"
+
+> **Advanced Laravel engineering roles and ReactFlow architecture patterns.**
+
+This release introduces professional Laravel capabilities (Expert & Security Auditor) and a comprehensive ReactFlow Architect skill for building complex node-based applications.
+
+### Added
+
+- **New Skill**: `laravel-expert` - Senior Laravel Engineer role for production-grade, maintainable, and idiomatic solutions (clean architecture, security, performance).
+- **New Skill**: `laravel-security-audit` - Specialized security auditor for Laravel apps (OWASP, vulnerabilities, misconfigurations).
+- **New Skill**: `react-flow-architect` - Expert ReactFlow patterns for interactive graph apps (hierarchical navigation, performance, customized state management).
+
+### Changed
+
+- **OpenCode**: Updated installation path to `.agents/skills` to align with latest OpenCode standards.
+
+### Registry
+
+- **Total Skills**: 860 (from 857).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@Musayrlsms](https://github.com/Musayrlsms)** - Laravel Expert & Security Audit skills (PR #85, #86).
+- **[@mertbaskurt](https://github.com/mertbaskurt)** - ReactFlow Architect skill (PR #88).
+- **[@sharmanilay](https://github.com/sharmanilay)** - OpenCode path fix (PR #87).
+
+---
+
 ## [5.4.0] - 2026-02-16 - "CursorRules Pro & Go-Rod"
 
 > **Community contributions: CursorRules Pro in credits and go-rod-master skill for browser automation with Go.**
