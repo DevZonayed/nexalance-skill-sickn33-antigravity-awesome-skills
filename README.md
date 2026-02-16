@@ -438,6 +438,8 @@ We officially thank the following contributors for their help in making this rep
 - [@ericgandrade](https://github.com/ericgandrade)
 - [@sohamganatra](https://github.com/sohamganatra)
 - [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan)
+- [@8hrsk](https://github.com/8hrsk)
+- [@Wittlesus](https://github.com/Wittlesus)
 
 ---
 
