@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 860
+Total skills: 863
 
 ## architecture (64)
 
@@ -300,7 +300,7 @@ Use when creating container-based agents that run custom code in Azure ... | hos
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (129)
+## development (132)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -374,6 +374,9 @@ Triggers: "queue storage", "QueueServic... | azure, storage, queue, py | azure, 
 | `context7-auto-research` | Automatically fetch latest library/framework documentation for Claude Code via Context7 API | context7, auto, research | context7, auto, research, automatically, fetch, latest, library, framework, documentation, claude, code, via |
 | `copilot-sdk` | Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Pytho... | copilot, sdk | copilot, sdk, applications, powered, github, creating, programmatic, integrations, node, js, typescript, python |
 | `csharp-pro` | Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and... | csharp | csharp, pro, write, code, features, like, records, matching, async, await, optimizes, net |
+| `dbos-golang` | DBOS Go SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Go code with DBOS, creating workflows and ... | dbos, golang | dbos, golang, go, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing |
+| `dbos-python` | DBOS Python SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Python code with DBOS, creating workfl... | dbos, python | dbos, python, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing, code |
+| `dbos-typescript` | DBOS TypeScript SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing TypeScript code with DBOS, creatin... | dbos, typescript | dbos, typescript, sdk, building, reliable, fault, tolerant, applications, durable, skill, writing, code |
 | `discord-bot-architect` | Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactiv... | discord, bot | discord, bot, architect, specialized, skill, building, bots, covers, js, javascript, pycord, python |
 | `dotnet-architect` | Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependenc... | dotnet | dotnet, architect, net, backend, specializing, asp, core, entity, framework, dapper, enterprise, application |
 | `dotnet-backend-patterns` | Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Ent... | dotnet, backend | dotnet, backend, net, development, building, robust, apis, mcp, servers, enterprise, applications, covers |

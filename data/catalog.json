@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 860,
+  "total": 863,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -8034,6 +8034,81 @@
         "logs"
       ],
       "path": "skills/datadog-automation/SKILL.md"
+    },
+    {
+      "id": "dbos-golang",
+      "name": "dbos-golang",
+      "description": "DBOS Go SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Go code with DBOS, creating workflows and steps, using queues, using the DBOS Client from external applications, or building Go applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "golang"
+      ],
+      "triggers": [
+        "dbos",
+        "golang",
+        "go",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing"
+      ],
+      "path": "skills/dbos-golang/SKILL.md"
+    },
+    {
+      "id": "dbos-python",
+      "name": "dbos-python",
+      "description": "DBOS Python SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Python code with DBOS, creating workflows and steps, using queues, using DBOSClient from external applications, or building applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "python"
+      ],
+      "triggers": [
+        "dbos",
+        "python",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing",
+        "code"
+      ],
+      "path": "skills/dbos-python/SKILL.md"
+    },
+    {
+      "id": "dbos-typescript",
+      "name": "dbos-typescript",
+      "description": "DBOS TypeScript SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing TypeScript code with DBOS, creating workflows and steps, using queues, using DBOSClient from external applications, or building applications that need to be resilient to failures.",
+      "category": "development",
+      "tags": [
+        "dbos",
+        "typescript"
+      ],
+      "triggers": [
+        "dbos",
+        "typescript",
+        "sdk",
+        "building",
+        "reliable",
+        "fault",
+        "tolerant",
+        "applications",
+        "durable",
+        "skill",
+        "writing",
+        "code"
+      ],
+      "path": "skills/dbos-typescript/SKILL.md"
     },
     {
       "id": "dbt-transformation-patterns",
