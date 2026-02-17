@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.6.0] - 2026-02-17 - "Autonomous Agents & Trusted Workflows"
+
+> **DBOS for reliable workflows, Crypto BD agents, and improved usage documentation.**
+
+This release introduces official DBOS skills for building fault-tolerant applications in TypeScript, Python, and Go, plus a sophisticated autonomous Business Development agent for crypto, and a comprehensive usage guide to help new users get started.
+
+### Added
+
+- **DBOS Skills** (Official):
+  - `dbos-typescript`: Durable workflows and steps for TypeScript.
+  - `dbos-python`: Fault-tolerant Python applications.
+  - `dbos-golang`: Reliable Go services.
+- **New Skill**: `crypto-bd-agent` - Autonomous BD patterns for token discovery, scoring, and outreach with wallet forensics.
+- **Documentation**: New `docs/USAGE.md` guide addressing post-installation confusion (how to prompt, where skills live).
+
+### Registry
+
+- **Total Skills**: 864 (from 860).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@maxdml](https://github.com/maxdml)** - DBOS Skills (PR #94).
+- **[@buzzbysolcex](https://github.com/buzzbysolcex)** - Crypto BD Agent (PR #92).
+- **[@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)** - Usage Guide (PR #93).
+
+---
+
 ## [5.5.0] - 2026-02-16 - "Laravel Pro & ReactFlow Architect"
 
 > **Advanced Laravel engineering roles and ReactFlow architecture patterns.**
