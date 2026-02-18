@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 
-const { spawnSync } = require('child_process');
-const path = require('path');
-const fs = require('fs');
+const { spawnSync } = require("child_process");
+const path = require("path");
+const fs = require("fs");
+const os = require("os");
 
-const REPO = 'https://github.com/sickn33/antigravity-awesome-skills.git';
-const HOME = process.env.HOME || process.env.USERPROFILE || '';
+const REPO = "https://github.com/sickn33/antigravity-awesome-skills.git";
+const HOME = process.env.HOME || process.env.USERPROFILE || "";
 
 function resolveDir(p) {
   if (!p) return null;
-  const s = p.replace(/^~($|\/)/, HOME + '$1');
+  const s = p.replace(/^~($|\/)/, HOME + "$1");
   return path.resolve(s);
 }
 
@@ -18,18 +19,42 @@ function parseArgs() {
   let pathArg = null;
   let versionArg = null;
   let tagArg = null;
-  let cursor = false, claude = false, gemini = false, codex = false;
+  let cursor = false,
+    claude = false,
+    gemini = false,
+    codex = false;
 
   for (let i = 0; i < a.length; i++) {
-    if (a[i] === '--help' || a[i] === '-h') return { help: true };
-    if (a[i] === '--path' && a[i + 1]) { pathArg = a[++i]; continue; }
-    if (a[i] === '--version' && a[i + 1]) { versionArg = a[++i]; continue; }
-    if (a[i] === '--tag' && a[i + 1]) { tagArg = a[++i]; continue; }
-    if (a[i] === '--cursor') { cursor = true; continue; }
-    if (a[i] === '--claude') { claude = true; continue; }
-    if (a[i] === '--gemini') { gemini = true; continue; }
-    if (a[i] === '--codex') { codex = true; continue; }
-    if (a[i] === 'install') continue;
+    if (a[i] === "--help" || a[i] === "-h") return { help: true };
+    if (a[i] === "--path" && a[i + 1]) {
+      pathArg = a[++i];
+      continue;
+    }
+    if (a[i] === "--version" && a[i + 1]) {
+      versionArg = a[++i];
+      continue;
+    }
+    if (a[i] === "--tag" && a[i + 1]) {
+      tagArg = a[++i];
+      continue;
+    }
+    if (a[i] === "--cursor") {
+      cursor = true;
+      continue;
+    }
+    if (a[i] === "--claude") {
+      claude = true;
+      continue;
+    }
+    if (a[i] === "--gemini") {
+      gemini = true;
+      continue;
+    }
+    if (a[i] === "--codex") {
+      codex = true;
+      continue;
+    }
+    if (a[i] === "install") continue;
   }
 
   return { pathArg, versionArg, tagArg, cursor, claude, gemini, codex };
@@ -37,15 +62,15 @@ function parseArgs() {
 
 function defaultDir(opts) {
   if (opts.pathArg) return resolveDir(opts.pathArg);
-  if (opts.cursor) return path.join(HOME, '.cursor', 'skills');
-  if (opts.claude) return path.join(HOME, '.claude', 'skills');
-  if (opts.gemini) return path.join(HOME, '.gemini', 'skills');
+  if (opts.cursor) return path.join(HOME, ".cursor", "skills");
+  if (opts.claude) return path.join(HOME, ".claude", "skills");
+  if (opts.gemini) return path.join(HOME, ".gemini", "skills");
   if (opts.codex) {
     const codexHome = process.env.CODEX_HOME;
-    if (codexHome) return path.join(codexHome, 'skills');
-    return path.join(HOME, '.codex', 'skills');
+    if (codexHome) return path.join(codexHome, "skills");
+    return path.join(HOME, ".codex", "skills");
   }
-  return path.join(HOME, '.agent', 'skills');
+  return path.join(HOME, ".agent", "skills");
 }
 
 function printHelp() {
@@ -73,15 +98,30 @@ Examples:
 `);
 }
 
+function copyRecursiveSync(src, dest) {
+  const stats = fs.statSync(src);
+  if (stats.isDirectory()) {
+    if (!fs.existsSync(dest)) {
+      fs.mkdirSync(dest, { recursive: true });
+    }
+    fs.readdirSync(src).forEach((child) => {
+      if (child === ".git") return;
+      copyRecursiveSync(path.join(src, child), path.join(dest, child));
+    });
+  } else {
+    fs.copyFileSync(src, dest);
+  }
+}
+
 function run(cmd, args, opts = {}) {
-  const r = spawnSync(cmd, args, { stdio: 'inherit', ...opts });
+  const r = spawnSync(cmd, args, { stdio: "inherit", ...opts });
   if (r.status !== 0) process.exit(r.status == null ? 1 : r.status);
 }
 
 function main() {
   const opts = parseArgs();
   const { tagArg, versionArg } = opts;
-  
+
   if (opts.help) {
     printHelp();
     return;
@@ -89,21 +129,69 @@ function main() {
 
   const target = defaultDir(opts);
   if (!target || !HOME) {
-    console.error('Could not resolve home directory. Use --path <absolute-path>.');
+    console.error(
+      "Could not resolve home directory. Use --path <absolute-path>.",
+    );
     process.exit(1);
   }
 
   if (fs.existsSync(target)) {
-    const gitDir = path.join(target, '.git');
+    const gitDir = path.join(target, ".git");
     if (fs.existsSync(gitDir)) {
-      console.log('Directory already exists and is a git repo. Updating…');
+      console.log("Directory already exists and is a git repo. Updating…");
       process.chdir(target);
-      run('git', ['pull']);
+      run("git", ["pull"]);
       return;
     }
-    console.error(`Directory exists and is not a git repo: ${target}`);
-    console.error('Remove it or use --path to choose another location.');
-    process.exit(1);
+
+    console.log(`Directory exists: ${target}`);
+    console.log("Cloning to temporary directory to merge...");
+
+    const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "ag-skills-"));
+    const originalCwd = process.cwd();
+
+    try {
+      if (process.platform === "win32") {
+        run("git", ["-c", "core.symlinks=true", "clone", REPO, tempDir]);
+      } else {
+        run("git", ["clone", REPO, tempDir]);
+      }
+
+      const ref =
+        tagArg ||
+        (versionArg
+          ? versionArg.startsWith("v")
+            ? versionArg
+            : `v${versionArg}`
+          : null);
+      if (ref) {
+        console.log(`Checking out ${ref}…`);
+        process.chdir(tempDir);
+        run("git", ["checkout", ref]);
+        process.chdir(originalCwd);
+      }
+
+      console.log(`Copying files to ${target}...`);
+      copyRecursiveSync(tempDir, target);
+
+      console.log(`\nMerged skills into ${target}`);
+      console.log(
+        "Pick a bundle in docs/BUNDLES.md and use @skill-name in your AI assistant.",
+      );
+    } finally {
+      try {
+        if (fs.existsSync(tempDir)) {
+          if (fs.rmSync) {
+            fs.rmSync(tempDir, { recursive: true, force: true });
+          } else {
+            fs.rmdirSync(tempDir, { recursive: true });
+          }
+        }
+      } catch (e) {
+        // ignore cleanup errors
+      }
+    }
+    return;
   }
 
   const parent = path.dirname(target);
@@ -116,21 +204,29 @@ function main() {
     }
   }
 
-  if (process.platform === 'win32') {
-    run('git', ['-c', 'core.symlinks=true', 'clone', REPO, target]);
+  if (process.platform === "win32") {
+    run("git", ["-c", "core.symlinks=true", "clone", REPO, target]);
   } else {
-    run('git', ['clone', REPO, target]);
+    run("git", ["clone", REPO, target]);
   }
 
-  const ref = tagArg || (versionArg ? (versionArg.startsWith('v') ? versionArg : `v${versionArg}`) : null);
+  const ref =
+    tagArg ||
+    (versionArg
+      ? versionArg.startsWith("v")
+        ? versionArg
+        : `v${versionArg}`
+      : null);
   if (ref) {
     console.log(`Checking out ${ref}…`);
     process.chdir(target);
-    run('git', ['checkout', ref]);
+    run("git", ["checkout", ref]);
   }
 
   console.log(`\nInstalled to ${target}`);
-  console.log('Pick a bundle in docs/BUNDLES.md and use @skill-name in your AI assistant.');
+  console.log(
+    "Pick a bundle in docs/BUNDLES.md and use @skill-name in your AI assistant.",
+  );
 }
 
 main();
