@@ -2898,6 +2898,33 @@
     "source": "unknown"
   },
   {
+    "id": "ddd-context-mapping",
+    "path": "skills/ddd-context-mapping",
+    "category": "uncategorized",
+    "name": "ddd-context-mapping",
+    "description": "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "ddd-strategic-design",
+    "path": "skills/ddd-strategic-design",
+    "category": "uncategorized",
+    "name": "ddd-strategic-design",
+    "description": "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "ddd-tactical-patterns",
+    "path": "skills/ddd-tactical-patterns",
+    "category": "uncategorized",
+    "name": "ddd-tactical-patterns",
+    "description": "Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "debugger",
     "path": "skills/debugger",
     "category": "uncategorized",
@@ -3139,6 +3166,15 @@
     "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "domain-driven-design",
+    "path": "skills/domain-driven-design",
+    "category": "uncategorized",
+    "name": "domain-driven-design",
+    "description": "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.",
+    "risk": "safe",
+    "source": "self"
   },
   {
     "id": "dotnet-architect",
