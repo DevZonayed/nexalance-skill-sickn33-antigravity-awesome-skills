@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 864,
+  "total": 868,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -8168,6 +8168,88 @@
       "path": "skills/dbt-transformation-patterns/SKILL.md"
     },
     {
+      "id": "ddd-context-mapping",
+      "name": "ddd-context-mapping",
+      "description": "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.",
+      "category": "architecture",
+      "tags": [
+        "ddd",
+        "context-map",
+        "anti-corruption-layer",
+        "integration"
+      ],
+      "triggers": [
+        "ddd",
+        "context-map",
+        "anti-corruption-layer",
+        "integration",
+        "context",
+        "mapping",
+        "map",
+        "relationships",
+        "between",
+        "bounded",
+        "contexts",
+        "define"
+      ],
+      "path": "skills/ddd-context-mapping/SKILL.md"
+    },
+    {
+      "id": "ddd-strategic-design",
+      "name": "ddd-strategic-design",
+      "description": "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.",
+      "category": "architecture",
+      "tags": [
+        "ddd",
+        "strategic-design",
+        "bounded-context",
+        "ubiquitous-language"
+      ],
+      "triggers": [
+        "ddd",
+        "strategic-design",
+        "bounded-context",
+        "ubiquitous-language",
+        "strategic",
+        "artifacts",
+        "including",
+        "subdomains",
+        "bounded",
+        "contexts",
+        "ubiquitous",
+        "language"
+      ],
+      "path": "skills/ddd-strategic-design/SKILL.md"
+    },
+    {
+      "id": "ddd-tactical-patterns",
+      "name": "ddd-tactical-patterns",
+      "description": "Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.",
+      "category": "architecture",
+      "tags": [
+        "ddd",
+        "tactical",
+        "aggregates",
+        "value-objects",
+        "domain-events"
+      ],
+      "triggers": [
+        "ddd",
+        "tactical",
+        "aggregates",
+        "value-objects",
+        "domain-events",
+        "apply",
+        "code",
+        "entities",
+        "value",
+        "objects",
+        "repositories",
+        "domain"
+      ],
+      "path": "skills/ddd-tactical-patterns/SKILL.md"
+    },
+    {
       "id": "debugger",
       "name": "debugger",
       "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.",
@@ -8820,6 +8902,33 @@
         "text"
       ],
       "path": "skills/docx-official/SKILL.md"
+    },
+    {
+      "id": "domain-driven-design",
+      "name": "domain-driven-design",
+      "description": "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.",
+      "category": "architecture",
+      "tags": [
+        "ddd",
+        "domain",
+        "bounded-context",
+        "architecture"
+      ],
+      "triggers": [
+        "ddd",
+        "domain",
+        "bounded-context",
+        "architecture",
+        "driven",
+        "plan",
+        "route",
+        "work",
+        "strategic",
+        "modeling",
+        "tactical",
+        "evented"
+      ],
+      "path": "skills/domain-driven-design/SKILL.md"
     },
     {
       "id": "dotnet-architect",

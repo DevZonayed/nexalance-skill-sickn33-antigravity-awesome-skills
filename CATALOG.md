@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 864
+Total skills: 868
 
-## architecture (64)
+## architecture (68)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -31,8 +31,12 @@ Total skills: 864
 | `core-components` | Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library. | core, components | core, components, component, library, building, ui, tokens, working |
 | `cpp-pro` | Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use... | cpp | cpp, pro, write, idiomatic, code, features, raii, smart, pointers, stl, algorithms, move |
 | `cqrs-implementation` | Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or bu... | cqrs | cqrs, command, query, responsibility, segregation, scalable, architectures, separating, read, write, models, optimizing |
+| `ddd-context-mapping` | Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. | ddd, context-map, anti-corruption-layer, integration | ddd, context-map, anti-corruption-layer, integration, context, mapping, map, relationships, between, bounded, contexts, define |
+| `ddd-strategic-design` | Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. | ddd, strategic-design, bounded-context, ubiquitous-language | ddd, strategic-design, bounded-context, ubiquitous-language, strategic, artifacts, including, subdomains, bounded, contexts, ubiquitous, language |
+| `ddd-tactical-patterns` | Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants. | ddd, tactical, aggregates, value-objects, domain-events | ddd, tactical, aggregates, value-objects, domain-events, apply, code, entities, value, objects, repositories, domain |
 | `doc-coauthoring` | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision do... | doc, coauthoring | doc, coauthoring, users, through, structured, co, authoring, documentation, user, wants, write, proposals |
 | `docs-architect` | Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-for... | docs | docs, architect, creates, technical, documentation, existing, codebases, analyzes, architecture, details, produce, long |
+| `domain-driven-design` | Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns. | ddd, domain, bounded-context, architecture | ddd, domain, bounded-context, architecture, driven, plan, route, work, strategic, modeling, tactical, evented |
 | `elixir-pro` | Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. Use PR... | elixir | elixir, pro, write, idiomatic, code, otp, supervision, trees, phoenix, liveview, masters, concurrency |
 | `email-systems` | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, ... | email | email, highest, roi, any, marketing, channel, 36, every, spent, yet, most, startups |
 | `error-detective` | Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use PROACTIVELY when ... | error, detective | error, detective, search, logs, codebases, stack, traces, anomalies, correlates, errors, identifies, root |
