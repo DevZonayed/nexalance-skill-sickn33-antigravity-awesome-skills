@@ -11,6 +11,8 @@ description: ">-"
   destructive action confirmation, or overlay UI patterns. Cross-references:
   hig-components-menus, hig-components-controls, hig-components-search,
   hig-patterns.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Presentation Components
@@ -74,3 +76,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -5,6 +5,8 @@ description: "Use this skill when implementing tasks according to Conductor's TD
   understanding the verification protocol.
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
 
 # Workflow Patterns

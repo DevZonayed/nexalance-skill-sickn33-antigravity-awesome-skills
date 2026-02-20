@@ -10,6 +10,8 @@ description: ">-"
   content navigation, or file path hierarchy display. Cross-references:
   hig-components-menus, hig-components-controls, hig-components-dialogs,
   hig-patterns.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Navigation Components
@@ -66,3 +68,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

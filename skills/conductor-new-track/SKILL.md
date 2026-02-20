@@ -3,6 +3,8 @@ name: conductor-new-track
 description: "Create a new track with specification and phased implementation plan"
 metadata:
   argument-hint: <feature|bug|chore|refactor> <name>
+risk: unknown
+source: community
 ---
 
 # New Track

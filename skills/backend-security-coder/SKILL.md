@@ -5,6 +5,8 @@ description: "Expert in secure backend coding practices specializing in input"
   security implementations or security code reviews.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

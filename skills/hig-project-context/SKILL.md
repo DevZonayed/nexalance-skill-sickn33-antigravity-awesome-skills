@@ -9,6 +9,8 @@ description: ">-"
   context but none exists yet. This skill creates .claude/apple-design-context.md
   so that hig-foundations, hig-platforms, hig-components-*, hig-inputs, and
   hig-technologies can provide targeted advice without repetitive questions.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Project Context
@@ -131,3 +133,6 @@ When updating an existing context document:
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

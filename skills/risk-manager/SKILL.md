@@ -5,6 +5,8 @@ description: "Monitor portfolio risk, R-multiples, and position limits. Creates"
   PROACTIVELY for risk assessment, trade tracking, or portfolio protection.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

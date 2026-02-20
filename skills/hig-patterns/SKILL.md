@@ -12,6 +12,8 @@ description: ">"
   "how to show progress", or "what's the right way to confirm a delete".
   Cross-references: hig-foundations for underlying principles, hig-platforms for platform specifics,
   hig-components-layout for navigation, hig-components-content for data display.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Interaction Patterns
@@ -102,3 +104,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

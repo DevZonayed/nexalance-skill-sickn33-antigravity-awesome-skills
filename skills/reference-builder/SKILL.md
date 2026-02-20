@@ -6,6 +6,8 @@ description: "Creates exhaustive technical references and API documentation."
   references, or complete technical specifications.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

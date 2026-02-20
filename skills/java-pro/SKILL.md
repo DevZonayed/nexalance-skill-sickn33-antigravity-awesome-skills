@@ -6,6 +6,8 @@ description: "Master Java 21+ with modern features like virtual threads, pattern
   development, microservices architecture, or performance optimization.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

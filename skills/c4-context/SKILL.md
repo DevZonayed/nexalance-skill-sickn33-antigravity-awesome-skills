@@ -8,6 +8,8 @@ description: "Expert C4 Context-level documentation specialist. Creates"
   documentation.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 # C4 Context Level: System Context

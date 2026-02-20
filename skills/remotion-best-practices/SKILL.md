@@ -5,6 +5,8 @@ author: remotion-dev
 version: "1.0"
 metadata:
   tags: remotion, video, react, animation, composition
+risk: unknown
+source: community
 ---
 
 ## When to use

@@ -7,6 +7,8 @@ description: "Master Flutter development with Dart 3, advanced widgets, and"
   features.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

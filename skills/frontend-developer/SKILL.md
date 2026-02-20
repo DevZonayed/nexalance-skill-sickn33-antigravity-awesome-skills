@@ -6,6 +6,8 @@ description: "Build React components, implement responsive layouts, and handle"
   PROACTIVELY when creating UI components or fixing frontend issues.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 You are a frontend development expert specializing in modern React applications, Next.js, and cutting-edge frontend architecture.
 

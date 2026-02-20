@@ -7,6 +7,8 @@ description: "Build Unity games with optimized C# scripts, efficient rendering,"
   mechanics, or cross-platform builds.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

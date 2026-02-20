@@ -6,6 +6,8 @@ description: "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18
   iOS development.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

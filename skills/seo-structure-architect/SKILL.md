@@ -5,6 +5,8 @@ description: "Analyzes and optimizes content structure including header"
   search-friendly content organization. Use PROACTIVELY for content structuring.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

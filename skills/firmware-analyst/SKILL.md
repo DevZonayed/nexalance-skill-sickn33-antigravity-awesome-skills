@@ -7,6 +7,8 @@ description: "Expert firmware analyst specializing in embedded systems, IoT"
   audits, IoT penetration testing, or embedded systems research.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 # Download from vendor

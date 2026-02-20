@@ -12,6 +12,8 @@ description: ">-"
   indicator, gauge, form design, input validation, or control state management.
   Cross-references: hig-components-menus, hig-components-dialogs,
   hig-components-search.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Selection and Input Controls
@@ -86,3 +88,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

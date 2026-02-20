@@ -6,6 +6,8 @@ description: "Expert in secure mobile coding practices specializing in input"
   reviews.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

@@ -7,6 +7,8 @@ metadata:
   keywords: sast, static analysis, code security, vulnerability scanning, bandit,
     semgrep, eslint, sonarqube, codeql, security patterns, code review, ast
     analysis
+risk: unknown
+source: community
 ---
 # SAST Security Plugin
 

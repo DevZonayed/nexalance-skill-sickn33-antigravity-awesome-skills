@@ -3,6 +3,8 @@ name: reddit-automation
 description: "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas."
 requires:
   mcp: [rube]
+risk: unknown
+source: community
 ---
 
 # Reddit Automation via Rube MCP
@@ -210,3 +212,6 @@ t5_ = Subreddit
 | Get specific comment | REDDIT_RETRIEVE_SPECIFIC_COMMENT | comment_id |
 | List post flairs | REDDIT_LIST_SUBREDDIT_POST_FLAIRS | subreddit |
 | Get user flair | REDDIT_GET_USER_FLAIR | subreddit |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

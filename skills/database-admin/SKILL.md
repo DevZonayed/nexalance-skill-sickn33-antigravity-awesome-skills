@@ -8,6 +8,8 @@ description: "Expert database administrator specializing in modern cloud"
   database architecture, operations, or reliability engineering.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

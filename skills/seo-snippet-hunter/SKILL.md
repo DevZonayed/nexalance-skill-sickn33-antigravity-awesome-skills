@@ -5,6 +5,8 @@ description: "Formats content to be eligible for featured snippets and SERP"
   Use PROACTIVELY for question-based content.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

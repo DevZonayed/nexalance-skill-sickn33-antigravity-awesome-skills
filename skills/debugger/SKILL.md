@@ -4,6 +4,8 @@ description: "Debugging specialist for errors, test failures, and unexpected"
   behavior. Use proactively when encountering any issues.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

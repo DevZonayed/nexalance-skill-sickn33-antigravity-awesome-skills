@@ -5,6 +5,8 @@ description: ">"
   (features, components, architecture, behavior changes, or functionality).
   This skill transforms vague ideas into validated designs through
   disciplined, incremental reasoning and collaboration.
+risk: unknown
+source: community
 ---
 
 # Brainstorming Ideas Into Designs
@@ -228,3 +230,6 @@ If any criterion is unmet:
 
 ---
 If the design is high-impact, high-risk, or requires elevated confidence, you MUST hand off the finalized design and Decision Log to the `multi-agent-brainstorming` skill before implementation.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

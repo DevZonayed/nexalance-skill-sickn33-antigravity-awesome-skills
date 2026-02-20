@@ -5,6 +5,8 @@ description: "Creates optimized meta titles, descriptions, and URL suggestions"
   keyword-rich metadata. Use PROACTIVELY for new content.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

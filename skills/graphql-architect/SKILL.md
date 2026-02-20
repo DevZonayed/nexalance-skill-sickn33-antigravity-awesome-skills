@@ -6,6 +6,8 @@ description: "Master modern GraphQL with federation, performance optimization,"
   performance optimization.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

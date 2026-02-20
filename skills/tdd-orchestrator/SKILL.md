@@ -7,6 +7,8 @@ description: "Master TDD orchestrator specializing in red-green-refactor"
   implementation and governance.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

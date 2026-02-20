@@ -5,6 +5,8 @@ description: "Writes SEO-optimized content based on provided keywords and topic"
   PROACTIVELY for content creation tasks.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

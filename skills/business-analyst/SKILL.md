@@ -6,6 +6,8 @@ description: "Master modern business analysis with AI-powered analytics,"
   for business intelligence or strategic analysis.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

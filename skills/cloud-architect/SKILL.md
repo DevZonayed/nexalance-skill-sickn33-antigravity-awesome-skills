@@ -8,6 +8,8 @@ description: "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud"
   strategies.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

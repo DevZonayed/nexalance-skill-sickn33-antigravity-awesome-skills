@@ -5,6 +5,8 @@ description: "Creates comprehensive content outlines and topic clusters for SEO.
   strategy and planning.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

@@ -5,6 +5,8 @@ argument-hint: [optional: date]
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Task, WebFetch, Read, Write, Bash(mkdir*), Bash(date*), Bash(ls*), mcp__chrome-devtools__*
+risk: unknown
+source: community
 ---
 
 # Daily News Report v3.0
@@ -354,3 +356,6 @@ To ensure usability across different Agent environments, the following checks mu
 
 3.  **User Alert**:
     -   MUST include a clear warning in the generated report header indicating the current degraded mode.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

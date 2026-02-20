@@ -6,6 +6,8 @@ description: "This skill should be used when the user asks about \\\"key startup
   optimizing business performance metrics.
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
 
 # Startup Metrics Framework

@@ -5,6 +5,8 @@ description: "Use this skill when creating, managing, or working with Conductor"
   spec.md, plan.md, and track lifecycle operations.
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
 
 # Track Management

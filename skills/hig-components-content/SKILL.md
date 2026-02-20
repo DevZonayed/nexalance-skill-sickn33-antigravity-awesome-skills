@@ -12,6 +12,8 @@ description: ">"
   Cross-references: hig-foundations for color/typography/accessibility, hig-patterns for data
   visualization patterns, hig-components-layout for structural containers, hig-platforms for
   platform-specific component behavior.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Content Components
@@ -84,3 +86,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

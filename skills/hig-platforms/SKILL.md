@@ -10,6 +10,8 @@ description: ">"
   "universal app design", or "what input methods does this platform use".
   Cross-references: hig-foundations for shared design foundations, hig-patterns for interaction patterns,
   hig-components-layout for navigation structures, hig-components-content for content display.
+risk: unknown
+source: community
 ---
 
 # Apple HIG: Platform Design
@@ -82,3 +84,6 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 ---
 
 *Built by [Raintree Technology](https://raintree.technology) · [More developer tools](https://raintree.technology)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

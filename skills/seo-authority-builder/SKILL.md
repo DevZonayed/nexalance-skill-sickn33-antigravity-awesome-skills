@@ -5,6 +5,8 @@ description: "Analyzes content for E-E-A-T signals and suggests improvements to"
   PROACTIVELY for YMYL topics.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

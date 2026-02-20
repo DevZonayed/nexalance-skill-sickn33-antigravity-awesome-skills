@@ -5,6 +5,8 @@ description: "Analyzes multiple provided pages to identify keyword overlap and"
   PROACTIVELY when reviewing similar content.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

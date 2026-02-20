@@ -6,6 +6,8 @@ description: "Draft privacy policies, terms of service, disclaimers, and legal"
   regulatory requirements.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

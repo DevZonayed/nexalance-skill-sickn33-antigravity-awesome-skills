@@ -7,6 +7,8 @@ description: "Expert .NET backend architect specializing in C#, ASP.NET Core,"
   architecture decisions.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

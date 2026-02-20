@@ -8,6 +8,8 @@ description: "Expert reverse engineer specializing in binary analysis,"
   understanding undocumented software.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 # Common RE scripting environments

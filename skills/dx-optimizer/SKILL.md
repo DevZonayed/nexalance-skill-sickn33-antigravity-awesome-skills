@@ -5,6 +5,8 @@ description: "Developer Experience specialist. Improves tooling, setup, and"
   or when development friction is noticed.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

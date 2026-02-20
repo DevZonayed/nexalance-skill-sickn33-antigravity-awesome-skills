@@ -4,6 +4,8 @@ description: "|"
   Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
   Triggers: "cosmos db", "CosmosClient", "container", "document", "NoSQL", "partition key".
 package: azure-cosmos
+risk: unknown
+source: community
 ---
 
 # Azure Cosmos DB SDK for Python
@@ -278,3 +280,6 @@ except CosmosHttpResponseError as e:
 | references/partitioning.md | Partition key strategies, hierarchical keys, hot partition detection and mitigation |
 | references/query-patterns.md | Query optimization, aggregations, pagination, transactions, change feed |
 | scripts/setup_cosmos_container.py | CLI tool for creating containers with partitioning, throughput, and indexing |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

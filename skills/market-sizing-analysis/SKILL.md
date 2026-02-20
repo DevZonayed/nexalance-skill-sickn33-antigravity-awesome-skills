@@ -6,6 +6,8 @@ description: "This skill should be used when the user asks to \\\"calculate TAM\
   analysis for a startup or business opportunity.
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
 
 # Market Sizing Analysis

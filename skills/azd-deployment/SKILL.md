@@ -1,6 +1,8 @@
 ---
 name: azd-deployment
 description: "Deploy containerized applications to Azure Container Apps using Azure Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration, creating Bicep infrastructure for Cont..."
+risk: unknown
+source: community
 ---
 
 # Azure Developer CLI (azd) Container Apps Deployment
@@ -294,3 +296,6 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 3. **Use `azd env set` for secrets** - Not main.parameters.json defaults
 4. **Service tags (`azd-service-name`)** - Required for azd to find Container Apps
 5. **`|| true` in hooks** - Prevent RBAC "already exists" errors from failing deploy
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

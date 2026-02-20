@@ -6,6 +6,8 @@ description: "Search logs and codebases for error patterns, stack traces, and"
   errors.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

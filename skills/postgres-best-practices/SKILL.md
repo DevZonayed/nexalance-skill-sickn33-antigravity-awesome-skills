@@ -5,6 +5,8 @@ license: MIT
 metadata:
   author: supabase
   version: "1.0.0"
+risk: unknown
+source: community
 ---
 
 # Supabase Postgres Best Practices
@@ -55,3 +57,6 @@ Each rule file contains:
 ## Full Compiled Document
 
 For the complete guide with all rules expanded: `AGENTS.md`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

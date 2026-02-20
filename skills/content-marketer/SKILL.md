@@ -7,6 +7,8 @@ description: "Elite content marketing strategist specializing in AI-powered"
   comprehensive content marketing.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

@@ -10,6 +10,8 @@ metadata:
   updated: 2025-10-20
   python-tools: brand_voice_analyzer.py, seo_optimizer.py
   tech-stack: SEO, social-media-platforms
+risk: unknown
+source: community
 ---
 
 # Content Creator

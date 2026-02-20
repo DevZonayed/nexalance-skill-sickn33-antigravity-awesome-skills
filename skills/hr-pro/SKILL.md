@@ -6,6 +6,8 @@ description: "Professional, ethical HR partner for hiring,"
   produce structured, bias-mitigated, lawful templates.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

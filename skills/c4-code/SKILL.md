@@ -7,6 +7,8 @@ description: "Expert C4 Code-level documentation specialist. Analyzes code"
   modules.
 metadata:
   model: haiku
+risk: unknown
+source: community
 ---
 
 # C4 Code Level: [Directory Name]

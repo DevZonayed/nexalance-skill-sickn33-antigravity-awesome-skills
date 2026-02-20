@@ -9,6 +9,8 @@ description: "Expert database architect specializing in data layer design from"
   decisions.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.
 

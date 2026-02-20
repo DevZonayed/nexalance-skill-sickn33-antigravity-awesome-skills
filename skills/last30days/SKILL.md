@@ -6,6 +6,8 @@ context: fork
 agent: Explore
 disable-model-invocation: true
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
+risk: unknown
+source: community
 ---
 
 # last30days: Research Any Topic from the Last 30 Days
@@ -419,3 +421,6 @@ Want another prompt? Just tell me what you're creating next.
 
 💡 Unlock Reddit & X data: Add API keys to ~/.config/last30days/.env
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,6 +8,8 @@ description: "Expert database optimizer specializing in modern performance"
   optimization, performance issues, or scalability challenges.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

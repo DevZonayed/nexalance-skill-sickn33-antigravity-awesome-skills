@@ -6,6 +6,8 @@ description: "Write modern C# code with advanced features like records, pattern"
   refactoring, performance optimization, or complex .NET solutions.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

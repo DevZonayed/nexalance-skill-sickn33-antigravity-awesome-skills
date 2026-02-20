@@ -7,6 +7,8 @@ description: "Expert C4 Component-level documentation specialist. Synthesizes C4
   components.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 # C4 Component Level: [Component Name]

@@ -8,6 +8,8 @@ description: "Expert network engineer specializing in modern cloud networking,"
   issues, or performance optimization.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

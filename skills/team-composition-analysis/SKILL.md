@@ -6,6 +6,8 @@ description: "This skill should be used when the user asks to \\\"plan team"
   headcount planning for a startup.
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
 
 # Team Composition Analysis

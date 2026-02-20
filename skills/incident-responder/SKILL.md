@@ -8,6 +8,8 @@ description: "Expert SRE incident responder specializing in rapid problem"
   incidents or SRE practices.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

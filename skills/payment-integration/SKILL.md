@@ -5,6 +5,8 @@ description: "Integrate Stripe, PayPal, and payment processors. Handles checkout
   implementing payments, billing, or subscription features.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

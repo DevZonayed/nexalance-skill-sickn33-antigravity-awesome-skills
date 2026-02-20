@@ -6,6 +6,8 @@ description: "Creates comprehensive technical documentation from existing"
   documentation, architecture guides, or technical deep-dives.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

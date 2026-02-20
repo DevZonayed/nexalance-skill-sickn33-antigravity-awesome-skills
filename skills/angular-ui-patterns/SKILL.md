@@ -506,3 +506,6 @@ Before completing any UI component:
 - **angular-state-management**: Use Signal stores for state
 - **angular**: Apply modern patterns (Signals, @defer)
 - **testing-patterns**: Test all UI states
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

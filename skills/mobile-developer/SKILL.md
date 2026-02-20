@@ -6,6 +6,8 @@ description: "Develop React Native, Flutter, or native mobile apps with modern"
   mobile features, cross-platform code, or app optimization.
 metadata:
   model: inherit
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

@@ -7,6 +7,8 @@ description: "Master Minecraft server plugin development with Bukkit, Spigot, an
   cross-version compatibility.
 metadata:
   model: opus
+risk: unknown
+source: community
 ---
 
 ## Use this skill when

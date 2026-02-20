@@ -7,6 +7,8 @@ metadata:
   version: 1.0.0
   tags: database, sql, migrations, postgresql, mysql, flyway, liquibase, alembic,
     zero-downtime
+risk: unknown
+source: community
 ---
 
 # SQL Database Migration Strategy and Implementation

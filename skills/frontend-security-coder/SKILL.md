@@ -6,6 +6,8 @@ description: "Expert in secure frontend coding practices specializing in XSS"
   reviews.
 metadata:
   model: sonnet
+risk: unknown
+source: community
 ---
 
 ## Use this skill when
