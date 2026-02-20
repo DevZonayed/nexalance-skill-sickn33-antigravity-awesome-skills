@@ -11,6 +11,10 @@ source: community
 > Principles and decision-making for Node.js development in 2025.
 > **Learn to THINK, not memorize code patterns.**
 
+## When to Use
+
+Use this skill when making Node.js architecture decisions, choosing frameworks, designing async patterns, or applying security and deployment best practices.
+
 ---
 
 ## ⚠️ How to Use This Skill

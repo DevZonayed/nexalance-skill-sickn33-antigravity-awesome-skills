@@ -271,3 +271,9 @@ If a skill is found to be harmful or broken:
 1.  **Move to broken folder** (don't detect): `mv skills/bad-skill skills/.broken/`
 2.  **Or Add Warning**: Add `> [!WARNING]` to the top of `SKILL.md`.
 3.  **Push Immediately**.
+
+---
+
+## 6. 📁 Data directory note
+
+`data/package.json` exists for historical reasons; the build and catalog scripts run from the repo root and use root `node_modules`. You can ignore or remove `data/package.json` and `data/node_modules` if present.

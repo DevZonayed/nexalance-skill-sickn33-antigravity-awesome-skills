@@ -40,7 +40,7 @@ def validate_skills(skills_dir, strict_mode=False):
     # Pre-compiled regex
     security_disclaimer_pattern = re.compile(r"AUTHORIZED USE ONLY", re.IGNORECASE)
 
-    valid_risk_levels = ["none", "safe", "critical", "offensive"]
+    valid_risk_levels = ["none", "safe", "critical", "offensive", "unknown"]
 
     for root, dirs, files in os.walk(skills_dir):
         # Skip .disabled or hidden directories

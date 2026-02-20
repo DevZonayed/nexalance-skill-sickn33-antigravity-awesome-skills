@@ -11,6 +11,10 @@ source: community
 > Python development principles and decision-making for 2025.
 > **Learn to THINK, not memorize patterns.**
 
+## When to Use
+
+Use this skill when making Python architecture decisions, choosing frameworks, designing async patterns, or structuring Python projects.
+
 ---
 
 ## ⚠️ How to Use This Skill

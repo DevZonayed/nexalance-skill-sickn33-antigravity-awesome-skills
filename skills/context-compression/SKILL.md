@@ -8,6 +8,10 @@ risk: safe
 
 When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. The correct optimization target is tokens per task: total tokens consumed to complete a task, including re-fetching costs when compression loses critical information.
 
+## When to Use
+
+Use this skill when designing or evaluating context compression for long-running agent sessions, when codebases exceed context windows, or when debugging agent memory/forgetting issues.
+
 ## When to Activate
 
 Activate this skill when:

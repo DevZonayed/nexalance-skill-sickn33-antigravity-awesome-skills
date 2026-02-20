@@ -18,6 +18,10 @@ source: community
 
 Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.
 
+## When to Use
+
+Use this skill when writing blog posts, creating social media content, establishing brand voice, optimizing content for SEO, or planning content calendars.
+
 ## Keywords
 content creation, blog posts, SEO, brand voice, social media, content calendar, marketing content, content strategy, content marketing, brand consistency, content optimization, social media marketing, content planning, blog writing, content frameworks, brand guidelines, social media strategy
 
