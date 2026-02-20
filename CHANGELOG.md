@@ -25,11 +25,20 @@ Official guidelines covering iOS, macOS, visionOS, watchOS, and tvOS natively fo
 
 > **Try it:** `Use @hig-platforms to review if our iPad app navigation follows standard iOS paradigms.`
 
+### 👁️ [manifest](skills/manifest/)
+
+**Observability plugin setup guide for AI agents.**
+Walks through a 6-step setup for the Manifest observability platform, including troubleshooting for common errors.
+
+- **Key Feature**: Complete configuration wizard from obtaining API keys to verifying traces.
+
+> **Try it:** `Use @manifest to add observability to our local python agent.`
+
 ---
 
 ## 📦 Improvements
 
-- **Registry Update**: Now tracking 896 skills.
+- **Registry Update**: Now tracking 897 skills.
 - **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
 - **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
 - **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
@@ -40,6 +49,7 @@ A huge shoutout to our community contributors:
 
 - **@raintree-technology** for the Apple HIG Skills (PR #90)
 - **@sergeyklay** for the skill quality validations (PR #97)
+- **@zack** for the manifest observability skill (PR #103)
 - **@community** for identifying installer and link bugs (Issues #101, #102)
 
 ---
