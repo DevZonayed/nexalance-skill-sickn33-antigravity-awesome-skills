@@ -1,6 +1,6 @@
 ---
 name: network-101
-description: "This skill should be used when the user asks to "set up a web server", "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test network services", or needs guidance on c..."
+description: "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on c..."
 metadata:
   author: zebbern
   version: "1.1"

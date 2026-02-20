@@ -1,6 +1,6 @@
 ---
 name: scanning-tools
-description: "This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detect malware", "che..."
+description: "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"che..."
 metadata:
   author: zebbern
   version: "1.1"

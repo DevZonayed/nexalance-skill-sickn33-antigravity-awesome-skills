@@ -1,6 +1,6 @@
 ---
 name: writing-skills
-description: Use when creating, updating, or improving agent skills.
+description: "Use when creating, updating, or improving agent skills."
 metadata:
   category: meta
   author: ozy

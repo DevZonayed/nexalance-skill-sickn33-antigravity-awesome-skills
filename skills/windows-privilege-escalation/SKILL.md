@@ -1,6 +1,6 @@
 ---
 name: windows-privilege-escalation
-description: "This skill should be used when the user asks to "escalate privileges on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation," "exploit Windows misconfigurations," ..."
+description: "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" ..."
 metadata:
   author: zebbern
   version: "1.1"

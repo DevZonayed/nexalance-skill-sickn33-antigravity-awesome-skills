@@ -1,6 +1,6 @@
 ---
 name: wiki-onboarding
-description: Generates two complementary onboarding guides — a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants onboarding documentation for a codebase.
+description: "Generates two complementary onboarding guides \u2014 a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants onboarding documentation for a codebase."
 ---
 
 # Wiki Onboarding Guide Generator

@@ -1,6 +1,6 @@
 ---
 name: signup-flow-cro
-description: "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimi..."
+description: "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimi..."
 ---
 
 # Signup Flow CRO

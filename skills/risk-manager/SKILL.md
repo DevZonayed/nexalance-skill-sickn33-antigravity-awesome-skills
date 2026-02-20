@@ -1,6 +1,6 @@
 ---
 name: risk-manager
-description: Monitor portfolio risk, R-multiples, and position limits. Creates
+description: "Monitor portfolio risk, R-multiples, and position limits. Creates"
   hedging strategies, calculates expectancy, and implements stop-losses. Use
   PROACTIVELY for risk assessment, trade tracking, or portfolio protection.
 metadata:

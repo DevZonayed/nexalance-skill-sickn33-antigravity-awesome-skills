@@ -1,6 +1,6 @@
 ---
 name: firecrawl-scraper
-description: Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API
+description: "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API"
 ---
 
 # firecrawl-scraper

@@ -1,6 +1,6 @@
 ---
 name: sql-injection-testing
-description: "This skill should be used when the user asks to "test for SQL injection vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection", "extract database information through ..."
+description: "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through ..."
 metadata:
   author: zebbern
   version: "1.1"

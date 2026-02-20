@@ -1,6 +1,6 @@
 ---
 name: unit-testing-test-generate
-description: Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.
+description: "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus."
 ---
 
 # Automated Unit Test Generation

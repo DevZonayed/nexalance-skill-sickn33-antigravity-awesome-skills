@@ -1,6 +1,6 @@
 ---
 name: linux-privilege-escalation
-description: "This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "abuse SUID binaries", "exploit cron jobs ..."
+description: "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs ..."
 metadata:
   author: zebbern
   version: "1.1"

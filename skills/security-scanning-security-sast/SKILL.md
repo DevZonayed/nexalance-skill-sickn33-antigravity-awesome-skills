@@ -1,6 +1,6 @@
 ---
 name: security-scanning-security-sast
-description: Static Application Security Testing (SAST) for code vulnerability
+description: "Static Application Security Testing (SAST) for code vulnerability"
   analysis across multiple languages and frameworks
 metadata:
   globs: "**/*.py, **/*.js, **/*.ts, **/*.java, **/*.rb, **/*.go, **/*.rs, **/*.php"

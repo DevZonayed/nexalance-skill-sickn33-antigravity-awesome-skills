@@ -1,6 +1,6 @@
 ---
 name: cloud-penetration-testing
-description: "This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfigurations", "test O36..."
+description: "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O36..."
 metadata:
   author: zebbern
   version: "1.1"

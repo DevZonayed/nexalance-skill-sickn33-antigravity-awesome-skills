@@ -1,6 +1,6 @@
 ---
 name: ethical-hacking-methodology
-description: "This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit vulnerabilities"..."
+description: "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\"..."
 metadata:
   author: zebbern
   version: "1.1"

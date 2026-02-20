@@ -1,6 +1,6 @@
 ---
 name: free-tool-strategy
-description: "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketing," "fre..."
+description: "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"fre..."
 ---
 
 # Free Tool Strategy (Engineering as Marketing)

@@ -1,6 +1,6 @@
 ---
 name: 3d-games
-description: 3D game development principles. Rendering, shaders, physics, cameras.
+description: "3D game development principles. Rendering, shaders, physics, cameras."
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 

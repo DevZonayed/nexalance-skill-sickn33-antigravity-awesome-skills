@@ -1,6 +1,6 @@
 ---
 name: privilege-escalation-methods
-description: "This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "Kerberoasting", "pass..."
+description: "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass..."
 metadata:
   author: zebbern
   version: "1.1"

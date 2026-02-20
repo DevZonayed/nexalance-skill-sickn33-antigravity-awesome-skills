@@ -1,6 +1,6 @@
 ---
 name: shodan-reconnaissance
-description: "This skill should be used when the user asks to "search for exposed devices on the internet," "perform Shodan reconnaissance," "find vulnerable services using Shodan," "scan IP ranges with Shodan,"..."
+description: "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\"..."
 metadata:
   author: zebbern
   version: "1.1"

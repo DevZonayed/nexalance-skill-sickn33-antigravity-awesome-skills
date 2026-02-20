@@ -1,6 +1,6 @@
 ---
 name: top-web-vulnerabilities
-description: "This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about injection attacks", ..."
+description: "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", ..."
 metadata:
   author: zebbern
   version: "1.1"

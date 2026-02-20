@@ -1,6 +1,6 @@
 ---
 name: broken-authentication
-description: "This skill should be used when the user asks to "test for broken authentication vulnerabilities", "assess session management security", "perform credential stuffing tests", "evaluate password polic..."
+description: "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password polic..."
 metadata:
   author: zebbern
   version: "1.1"
