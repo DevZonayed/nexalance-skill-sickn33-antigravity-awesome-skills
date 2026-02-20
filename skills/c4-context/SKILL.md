@@ -86,8 +86,8 @@ metadata:
 
 ## Related Documentation
 
-- [Container Documentation](./c4-container.md)
-- [Component Documentation](./c4-component.md)
+- Container Documentation
+- Component Documentation
 ```
 
 ## Context Diagram Template

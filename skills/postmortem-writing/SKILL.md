@@ -221,8 +221,8 @@ The deployment completed at 14:23, but the first alert didn't fire until 14:31 (
 - 2023-11-02: Similar connection issue in User Service (POSTMORTEM-42)
 
 ### References
-- [Connection Pool Best Practices](internal-wiki/connection-pools)
-- [Deployment Runbook](internal-wiki/deployment-runbook)
+- Connection Pool Best Practices
+- Deployment Runbook
 ```
 
 ### Template 2: 5 Whys Analysis

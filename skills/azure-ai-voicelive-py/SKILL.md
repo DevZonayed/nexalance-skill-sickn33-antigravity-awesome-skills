@@ -304,6 +304,6 @@ except ConnectionError as e:
 
 ## References
 
-- **Detailed API Reference**: See [references/api-reference.md](references/api-reference.md)
-- **Complete Examples**: See [references/examples.md](references/examples.md)
-- **All Models & Types**: See [references/models.md](references/models.md)
+- **Detailed API Reference**: See references/api-reference.md
+- **Complete Examples**: See references/examples.md
+- **All Models & Types**: See references/models.md

@@ -235,6 +235,6 @@ with producer:
 
 | File | Contents |
 |------|----------|
-| [references/checkpointing.md](references/checkpointing.md) | Checkpoint store patterns, blob checkpointing, checkpoint strategies |
-| [references/partitions.md](references/partitions.md) | Partition management, load balancing, starting positions |
-| [scripts/setup_consumer.py](scripts/setup_consumer.py) | CLI for Event Hub info, consumer setup, and event sending/receiving |
+| references/checkpointing.md | Checkpoint store patterns, blob checkpointing, checkpoint strategies |
+| references/partitions.md | Partition management, load balancing, starting positions |
+| scripts/setup_consumer.py | CLI for Event Hub info, consumer setup, and event sending/receiving |

@@ -90,9 +90,7 @@ ADAPTER = CloudAdapter(connection_manager=CONNECTION_MANAGER)
 AUTHORIZATION = Authorization(STORAGE, CONNECTION_MANAGER, **agents_sdk_config)
 
 # Create AgentApplication
-AGENT_APP = AgentApplication[TurnState](
-    storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config
-)
+AGENT_APP = AgentApplicationTurnState
 
 
 @AGENT_APP.conversation_update("membersAdded")
@@ -136,9 +134,7 @@ from microsoft_agents.hosting.core import (
 )
 from microsoft_agents.activity import ActivityTypes
 
-AGENT_APP = AgentApplication[TurnState](
-    storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config
-)
+AGENT_APP = AgentApplicationTurnState
 
 # Welcome handler
 @AGENT_APP.conversation_update("membersAdded")
@@ -333,7 +329,7 @@ asyncio.run(main())
 
 | File | Contents |
 | --- | --- |
-| [references/acceptance-criteria.md](references/acceptance-criteria.md) | Import paths, hosting pipeline, streaming, OAuth, and Copilot Studio patterns |
+| references/acceptance-criteria.md | Import paths, hosting pipeline, streaming, OAuth, and Copilot Studio patterns |
 
 ## Reference Links
 

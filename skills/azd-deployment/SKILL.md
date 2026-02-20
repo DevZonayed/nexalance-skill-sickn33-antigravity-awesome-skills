@@ -283,9 +283,9 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 
 ## Reference Files
 
-- **Bicep patterns**: See [references/bicep-patterns.md](references/bicep-patterns.md) for Container Apps modules
-- **Troubleshooting**: See [references/troubleshooting.md](references/troubleshooting.md) for common issues
-- **azure.yaml schema**: See [references/azure-yaml-schema.md](references/azure-yaml-schema.md) for full options
+- **Bicep patterns**: See references/bicep-patterns.md for Container Apps modules
+- **Troubleshooting**: See references/troubleshooting.md for common issues
+- **azure.yaml schema**: See references/azure-yaml-schema.md for full options
 
 ## Critical Reminders
 

@@ -116,6 +116,6 @@ new Audio(audioUrl).play();
 
 ## References
 
-- **Full architecture**: See [references/architecture.md](references/architecture.md) for complete stack design
-- **Code examples**: See [references/code-examples.md](references/code-examples.md) for production patterns
-- **PCM conversion**: Use [scripts/pcm_to_wav.py](scripts/pcm_to_wav.py) for audio format conversion
+- **Full architecture**: See references/architecture.md for complete stack design
+- **Code examples**: See references/code-examples.md for production patterns
+- **PCM conversion**: Use scripts/pcm_to_wav.py for audio format conversion

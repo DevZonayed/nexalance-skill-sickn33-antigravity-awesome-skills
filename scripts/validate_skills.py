@@ -102,6 +102,22 @@ def validate_skills(skills_dir, strict_mode=False):
                 if not security_disclaimer_pattern.search(content):
                     errors.append(f"🚨 {rel_path}: OFFENSIVE SKILL MISSING SECURITY DISCLAIMER! (Must contain 'AUTHORIZED USE ONLY')")
 
+            # 5. Dangling Links Validation
+            # Look for markdown links: [text](href)
+            links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', content)
+            for link in links:
+                link_clean = link.split('#')[0].strip()
+                # Skip empty anchors, external links, and edge cases
+                if not link_clean or link_clean.startswith(('http://', 'https://', 'mailto:', '<', '>')):
+                    continue
+                if os.path.isabs(link_clean):
+                    continue
+                
+                # Check if file exists relative to this skill file
+                target_path = os.path.normpath(os.path.join(root, link_clean))
+                if not os.path.exists(target_path):
+                    errors.append(f"❌ {rel_path}: Dangling link detected. Path '{link_clean}' (from '...({link})') does not exist locally.")
+
     # Reporting
     print(f"\n📊 Checked {skill_count} skills.")
     

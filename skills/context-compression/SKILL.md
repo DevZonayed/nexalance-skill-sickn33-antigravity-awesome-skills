@@ -243,7 +243,7 @@ This skill connects to several others in the collection:
 ## References
 
 Internal reference:
-- [Evaluation Framework Reference](./references/evaluation-framework.md) - Detailed probe types and scoring rubrics
+- Evaluation Framework Reference - Detailed probe types and scoring rubrics
 
 Related skills in this collection:
 - context-degradation - Understanding what compression prevents

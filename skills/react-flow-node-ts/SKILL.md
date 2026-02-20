@@ -9,15 +9,15 @@ Create React Flow node components following established patterns with proper Typ
 
 ## Quick Start
 
-Copy templates from [assets/](assets/) and replace placeholders:
+Copy templates from assets/ and replace placeholders:
 - `{{NodeName}}` → PascalCase component name (e.g., `VideoNode`)
 - `{{nodeType}}` → kebab-case type identifier (e.g., `video-node`)
 - `{{NodeData}}` → Data interface name (e.g., `VideoNodeData`)
 
 ## Templates
 
-- [assets/template.tsx](assets/template.tsx) - Node component
-- [assets/types.template.ts](assets/types.template.ts) - TypeScript definitions
+- assets/template.tsx - Node component
+- assets/types.template.ts - TypeScript definitions
 
 ## Node Component Pattern
 

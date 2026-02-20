@@ -297,7 +297,7 @@ Task Call:
   1. Point one
   2. Point two
   3. Point three
-- **Source**: [Link](URL)
+- **Source**: Link
 - **Keywords**: `keyword1` `keyword2` `keyword3`
 - **Score**: ⭐⭐⭐⭐⭐ (5/5)
 

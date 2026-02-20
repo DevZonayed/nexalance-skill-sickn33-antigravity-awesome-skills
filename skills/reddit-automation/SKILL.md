@@ -190,7 +190,7 @@ t5_ = Subreddit
 **Text Formatting**:
 - Reddit uses Markdown for post and comment formatting
 - Code blocks, tables, and headers are supported
-- Links use `[text](url)` format
+- Links use `text` format
 - Mention users with `u/username`, subreddits with `r/subreddit`
 
 ## Quick Reference

@@ -308,11 +308,11 @@ Navigation hub for project context.
 
 ## Quick Links
 
-- [Product Definition](./product.md)
-- [Product Guidelines](./product-guidelines.md)
-- [Tech Stack](./tech-stack.md)
-- [Workflow](./workflow.md)
-- [Tracks](./tracks.md)
+- Product Definition
+- Product Guidelines
+- Tech Stack
+- Workflow
+- Tracks
 
 ## Active Tracks
 

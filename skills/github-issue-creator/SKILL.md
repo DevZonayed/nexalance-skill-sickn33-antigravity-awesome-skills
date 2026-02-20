@@ -64,7 +64,7 @@ Transform messy input (error logs, voice notes, screenshots) into clean, actiona
 - Medium: Feature impaired, workaround exists
 - Low: Minor inconvenience, cosmetic
 
-**Image/GIF handling**: Reference attachments inline. Format: `![Description](attachment-name.png)`
+**Image/GIF handling**: Reference attachments inline. Format: `!Description`
 
 ## Examples
 

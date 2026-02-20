@@ -168,7 +168,7 @@ window.WebChat.renderWebChat({
 
 | File | Contents |
 | --- | --- |
-| [references/acceptance-criteria.md](references/acceptance-criteria.md) | Import paths, hosting pipeline, streaming, and Copilot Studio patterns |
+| references/acceptance-criteria.md | Import paths, hosting pipeline, streaming, and Copilot Studio patterns |
 
 ## Reference Links
 

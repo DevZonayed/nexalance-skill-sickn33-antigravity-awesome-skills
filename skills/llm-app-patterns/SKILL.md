@@ -474,7 +474,7 @@ class PromptChain:
 
             # Parse output if needed
             if step.get("parser"):
-                output = step["parser"](output)
+                output = step"parser"
 
             context[step["output_key"]] = output
             results.append({

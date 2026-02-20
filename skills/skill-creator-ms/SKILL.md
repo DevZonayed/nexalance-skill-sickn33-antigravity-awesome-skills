@@ -225,8 +225,8 @@ client.delete_item(item_id)
 
 | File | Contents |
 |------|----------|
-| [references/tools.md](references/tools.md) | Tool integrations |
-| [references/streaming.md](references/streaming.md) | Event streaming patterns |
+| references/tools.md | Tool integrations |
+| references/streaming.md | Event streaming patterns |
 ```
 
 ---
@@ -525,8 +525,8 @@ After creating the skill:
 [Minimal example]
 
 ## Advanced Features
-- **Streaming**: See [references/streaming.md](references/streaming.md)
-- **Tools**: See [references/tools.md](references/tools.md)
+- **Streaming**: See references/streaming.md
+- **Tools**: See references/tools.md
 ```
 
 ### Pattern 2: Language Variants

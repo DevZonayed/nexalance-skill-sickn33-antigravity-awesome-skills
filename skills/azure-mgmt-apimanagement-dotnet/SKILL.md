@@ -296,10 +296,10 @@ catch (RequestFailedException ex)
 
 | File | When to Read |
 |------|--------------|
-| [references/service-management.md](references/service-management.md) | Service CRUD, SKUs, networking, backup/restore |
-| [references/apis-operations.md](references/apis-operations.md) | APIs, operations, schemas, versioning |
-| [references/products-subscriptions.md](references/products-subscriptions.md) | Products, subscriptions, access control |
-| [references/policies.md](references/policies.md) | Policy XML patterns, scopes, common policies |
+| references/service-management.md | Service CRUD, SKUs, networking, backup/restore |
+| references/apis-operations.md | APIs, operations, schemas, versioning |
+| references/products-subscriptions.md | Products, subscriptions, access control |
+| references/policies.md | Policy XML patterns, scopes, common policies |
 
 ## Related Resources
 

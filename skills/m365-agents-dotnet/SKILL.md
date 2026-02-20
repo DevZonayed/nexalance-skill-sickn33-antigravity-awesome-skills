@@ -276,7 +276,7 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 
 | File | Contents |
 | --- | --- |
-| [references/acceptance-criteria.md](references/acceptance-criteria.md) | Import paths, hosting pipeline, Copilot Studio client patterns, anti-patterns |
+| references/acceptance-criteria.md | Import paths, hosting pipeline, Copilot Studio client patterns, anti-patterns |
 
 ## Reference Links
 

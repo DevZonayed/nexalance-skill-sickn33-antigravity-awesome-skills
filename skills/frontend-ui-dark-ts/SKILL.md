@@ -583,6 +583,6 @@ export function PageTransition({ children }: PageTransitionProps) {
 
 ## Related Files
 
-- [Design Tokens](./references/design-tokens.md) — Complete color system, spacing, typography scales
-- [Components](./references/components.md) — Button, Card, Input, Dialog, Tabs, and more
-- [Patterns](./references/patterns.md) — Page layouts, navigation, lists, forms
+- Design Tokens — Complete color system, spacing, typography scales
+- Components — Button, Card, Input, Dialog, Tabs, and more
+- Patterns — Page layouts, navigation, lists, forms

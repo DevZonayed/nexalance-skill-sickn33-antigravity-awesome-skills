@@ -327,7 +327,7 @@ if __name__ == "__main__":
 
 ## Reference Files
 
-- [references/tools.md](references/tools.md): Detailed hosted tool patterns
-- [references/mcp.md](references/mcp.md): MCP integration (hosted + local)
-- [references/threads.md](references/threads.md): Thread and conversation management
-- [references/advanced.md](references/advanced.md): OpenAPI, citations, structured outputs
+- references/tools.md: Detailed hosted tool patterns
+- references/mcp.md: MCP integration (hosted + local)
+- references/threads.md: Thread and conversation management
+- references/advanced.md: OpenAPI, citations, structured outputs
