@@ -540,12 +540,48 @@
     "source": "community"
   },
   {
+    "id": "aws-compliance-checker",
+    "path": "skills/security/aws-compliance-checker",
+    "category": "security",
+    "name": "aws-compliance-checker",
+    "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
+    "id": "aws-iam-best-practices",
+    "path": "skills/security/aws-iam-best-practices",
+    "category": "security",
+    "name": "aws-iam-best-practices",
+    "description": "IAM policy review, hardening, and least privilege implementation",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
     "id": "aws-penetration-testing",
     "path": "skills/aws-penetration-testing",
     "category": "uncategorized",
     "name": "aws-penetration-testing",
     "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing...",
     "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "aws-secrets-rotation",
+    "path": "skills/security/aws-secrets-rotation",
+    "category": "security",
+    "name": "aws-secrets-rotation",
+    "description": "Automate AWS secrets rotation for RDS, API keys, and credentials",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
+    "id": "aws-security-audit",
+    "path": "skills/security/aws-security-audit",
+    "category": "security",
+    "name": "aws-security-audit",
+    "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
+    "risk": "safe",
     "source": "community"
   },
   {
