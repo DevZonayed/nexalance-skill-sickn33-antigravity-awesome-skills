@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.10.0] - 2026-02-21 - "AWS Kiro CLI Integration"
+
+> **Native support and integration guide for AWS Kiro CLI, expanding the repository's reach to the AWS developer community.**
+
+This release adds comprehensive support for Kiro CLI, AWS's recently launched agentic IDE, enabling 883+ skills to enhance Kiro's autonomous operations across serverless, IaC, and AWS architectures. It also includes an important bugfix for the npm installer CLI.
+
+## 🚀 Improvements
+
+- **Integration Guide**: Added `docs/KIRO_INTEGRATION.md` detailing Kiro capabilities, installation instructions, AWS-recommended skills, and MCP usage.
+- **Documentation**: Updated `README.md`, `docs/GETTING_STARTED.md`, and `docs/FAQ.md` to formally support Kiro CLI and add invocation examples.
+- **Installer**: Added the `--kiro` flag to the CLI installer (`bin/install.js`) which correctly targets `~/.kiro/skills`.
+
+## 🐛 Bug Fixes
+
+- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--antigravity` installs to mistakenly target `.agent/skills` instead of the global `~/.gemini/antigravity/skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@ssumanbiswas** for the Kiro CLI support (PR #104)
+
+---
+
 ## [5.9.0] - 2026-02-20 - "Apple HIG & Quality Bar"
 
 > **Extensive Apple design guidelines and strict validation for the entire registry.**

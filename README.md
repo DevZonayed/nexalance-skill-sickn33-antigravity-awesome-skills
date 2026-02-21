@@ -6,6 +6,7 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Kiro CLI](https://img.shields.io/badge/Kiro%20CLI-AWS-orange)](https://kiro.dev)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
 [![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
@@ -21,6 +22,7 @@ If this project helps you, you can [support it here](https://buymeacoffee.com/si
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
 - 🟢 **Codex CLI** (OpenAI)
+- 🟠 **Kiro CLI** (AWS)
 - 🔴 **Antigravity IDE** (Google DeepMind)
 - 🩵 **GitHub Copilot** (VSCode Extension)
 - 🟠 **Cursor** (AI-native IDE)
@@ -53,11 +55,11 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## New Here? Start Here!
 
-**Welcome to the V5.9.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V5.10.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 5.9.0) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 5.10.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -105,16 +107,17 @@ Once installed, just ask your agent naturally:
 
 These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills.
 
-| Tool            | Type | Invocation Example                | Path              |
-| :-------------- | :--- | :-------------------------------- | :---------------- |
-| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/` |
-| **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
-| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
+| Tool            | Type | Invocation Example                | Path                                                                  |
+| :-------------- | :--- | :-------------------------------- | :-------------------------------------------------------------------- |
+| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/`                                                     |
+| **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/`                                                     |
+| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`                                                      |
+| **Kiro CLI**    | CLI  | `(User Prompt) Use skill-name...` | `.kiro/skills/`                                                       |
 | **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
-| **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
-| **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
-| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agents/skills/`  |
-| **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`   |
+| **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/`                                                     |
+| **Copilot**     | Ext  | `(Paste content manually)`        | N/A                                                                   |
+| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agents/skills/`                                                     |
+| **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`                                                       |
 
 > [!TIP]
 > **Default installer path**: `~/.gemini/antigravity/skills` (Antigravity global). Use `--path ~/.agent/skills` for workspace-specific install. For manual clone, `.agent/skills/` works as workspace path for Antigravity.
@@ -151,6 +154,9 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
+# Kiro CLI
+npx antigravity-awesome-skills --kiro
+
 # OpenCode
 npx antigravity-awesome-skills --path .agents/skills
 
@@ -182,6 +188,9 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skil
 
 # Codex CLI specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
+
+# Kiro CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .kiro/skills
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
@@ -246,11 +255,13 @@ They help you avoid picking from 883+ skills one by one.
 **Answer: NO!** Here's what bundles actually are:
 
 **What bundles ARE:**
+
 - ✅ Recommended skill lists organized by role
 - ✅ Curated starting points to help you decide what to use
 - ✅ Time-saving shortcuts for discovering relevant skills
 
 **What bundles are NOT:**
+
 - ❌ Separate installations or downloads
 - ❌ Different git commands
 - ❌ Something you need to "activate"
