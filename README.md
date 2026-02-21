@@ -1,11 +1,12 @@
-# 🌌 Antigravity Awesome Skills: 883+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 883+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Kiro & More
 
-> **The Ultimate Collection of 883+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 883+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Kiro CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Kiro CLI](https://img.shields.io/badge/Kiro%20CLI-AWS-orange)](https://kiro.dev)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
 [![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
@@ -21,6 +22,7 @@ If this project helps you, you can [support it here](https://buymeacoffee.com/si
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
 - 🟢 **Codex CLI** (OpenAI)
+- 🟠 **Kiro CLI** (AWS)
 - 🔴 **Antigravity IDE** (Google DeepMind)
 - 🩵 **GitHub Copilot** (VSCode Extension)
 - 🟠 **Cursor** (AI-native IDE)
@@ -110,6 +112,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/` |
 | **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
 | **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
+| **Kiro CLI**    | CLI  | `(User Prompt) Use skill-name...` | `.kiro/skills/`   |
 | **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
 | **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
 | **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
@@ -151,6 +154,9 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
+# Kiro CLI
+npx antigravity-awesome-skills --kiro
+
 # OpenCode
 npx antigravity-awesome-skills --path .agents/skills
 
@@ -182,6 +188,9 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skil
 
 # Codex CLI specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
+
+# Kiro CLI specific
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .kiro/skills
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
