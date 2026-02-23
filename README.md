@@ -271,7 +271,7 @@ npx antigravity-awesome-skills
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 925+ skills one by one.
+They help you avoid picking from 927+ skills one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
