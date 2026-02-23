@@ -4,6 +4,7 @@
     "accessibility-compliance-audit": "accessibility-compliance-accessibility-audit",
     "agent-orchestration-improve": "agent-orchestration-improve-agent",
     "agent-orchestration-optimize": "agent-orchestration-multi-agent-optimize",
+    "android-jetpack-expert": "android-jetpack-compose-expert",
     "api-testing-mock": "api-testing-observability-api-mock",
     "templates": "app-builder/templates",
     "application-performance-optimization": "application-performance-performance-optimization",
@@ -76,6 +77,11 @@
     "git-pr-workflow": "git-pr-workflows-git-workflow",
     "incident-response": "incident-response-incident-response",
     "javascript-typescript-scaffold": "javascript-typescript-typescript-scaffold",
+    "base": "libreoffice/base",
+    "calc": "libreoffice/calc",
+    "draw": "libreoffice/draw",
+    "impress": "libreoffice/impress",
+    "writer": "libreoffice/writer",
     "llm-application-assistant": "llm-application-dev-ai-assistant",
     "llm-application-agent": "llm-application-dev-langchain-agent",
     "llm-application-optimize": "llm-application-dev-prompt-optimize",
@@ -102,6 +108,7 @@
     "startup-business-projections": "startup-business-analyst-financial-projections",
     "startup-business-opportunity": "startup-business-analyst-market-opportunity",
     "systems-programming-project": "systems-programming-rust-project",
-    "team-collaboration-notes": "team-collaboration-standup-notes"
+    "team-collaboration-notes": "team-collaboration-standup-notes",
+    "shopify—development": "shopify-development"
   }
 }

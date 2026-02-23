@@ -162,6 +162,15 @@
     "source": "unknown"
   },
   {
+    "id": "ai-agent-development",
+    "path": "skills/ai-agent-development",
+    "category": "uncategorized",
+    "name": "ai-agent-development",
+    "description": "AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "ai-agents-architect",
     "path": "skills/ai-agents-architect",
     "category": "uncategorized",
@@ -169,6 +178,15 @@
     "description": "Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool ...",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "ai-ml",
+    "path": "skills/ai-ml",
+    "category": "uncategorized",
+    "name": "ai-ml",
+    "description": "AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "ai-product",
@@ -241,6 +259,15 @@
     "description": "You are an expert in **analytics implementation and measurement design**. Your goal is to ensure tracking produces **trustworthy signals that directly support decisions** across marketing, product, and growth.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "android-jetpack-compose-expert",
+    "path": "skills/android-jetpack-compose-expert",
+    "category": "uncategorized",
+    "name": "android-jetpack-compose-expert",
+    "description": "Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3.",
+    "risk": "safe",
+    "source": "community"
   },
   {
     "id": "angular",
@@ -324,6 +351,15 @@
     "source": "community"
   },
   {
+    "id": "api-documentation",
+    "path": "skills/api-documentation",
+    "category": "uncategorized",
+    "name": "api-documentation",
+    "description": "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "api-documentation-generator",
     "path": "skills/api-documentation-generator",
     "category": "uncategorized",
@@ -358,6 +394,15 @@
     "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "api-security-testing",
+    "path": "skills/api-security-testing",
+    "category": "uncategorized",
+    "name": "api-security-testing",
+    "description": "API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "api-testing-observability-api-mock",
@@ -1728,6 +1773,15 @@
     "source": "community"
   },
   {
+    "id": "base",
+    "path": "skills/libreoffice/base",
+    "category": "libreoffice",
+    "name": "base",
+    "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "basecamp-automation",
     "path": "skills/basecamp-automation",
     "category": "uncategorized",
@@ -1764,6 +1818,15 @@
     "source": "community"
   },
   {
+    "id": "bash-scripting",
+    "path": "skills/bash-scripting",
+    "category": "uncategorized",
+    "name": "bash-scripting",
+    "description": "Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "bats-testing-patterns",
     "path": "skills/bats-testing-patterns",
     "category": "uncategorized",
@@ -1797,6 +1860,15 @@
     "name": "behavioral-modes",
     "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
     "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "bevy-ecs-expert",
+    "path": "skills/bevy-ecs-expert",
+    "category": "uncategorized",
+    "name": "bevy-ecs-expert",
+    "description": "Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling.",
+    "risk": "safe",
     "source": "community"
   },
   {
@@ -2023,6 +2095,15 @@
     "description": "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "calc",
+    "path": "skills/libreoffice/calc",
+    "category": "libreoffice",
+    "name": "calc",
+    "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "calendly-automation",
@@ -2257,6 +2338,15 @@
     "description": "- Working on cloud architect tasks or workflows - Needing guidance, best practices, or checklists for cloud architect",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "cloud-devops",
+    "path": "skills/cloud-devops",
+    "category": "uncategorized",
+    "name": "cloud-devops",
+    "description": "Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "cloud-penetration-testing",
@@ -2844,6 +2934,24 @@
     "source": "community"
   },
   {
+    "id": "data-structure-protocol",
+    "path": "skills/data-structure-protocol",
+    "category": "uncategorized",
+    "name": "data-structure-protocol",
+    "description": "Give agents persistent structural memory of a codebase \u2014 navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.",
+    "risk": "safe",
+    "source": "https://github.com/k-kolomeitsev/data-structure-protocol"
+  },
+  {
+    "id": "database",
+    "path": "skills/database",
+    "category": "uncategorized",
+    "name": "database",
+    "description": "Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "database-admin",
     "path": "skills/database-admin",
     "category": "uncategorized",
@@ -2858,15 +2966,6 @@
     "category": "uncategorized",
     "name": "Database Architect",
     "description": "You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.",
-    "risk": "unknown",
-    "source": "unknown"
-  },
-  {
-    "id": "database-migrations-sql-migrations",
-    "path": "skills/database-migrations-sql-migrations",
-    "category": "uncategorized",
-    "name": "Database Migrations Sql Migrations",
-    "description": "You are a SQL database migration expert specializing in zero-downtime deployments, data integrity, and production-ready migration strategies for PostgreSQL, MySQL, and SQL Server. Create comprehensive migration scripts with rollback procedures, valid",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -2912,6 +3011,15 @@
     "category": "uncategorized",
     "name": "database-migrations-migration-observability",
     "description": "Migration monitoring, CDC, and observability infrastructure",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "database-migrations-sql-migrations",
+    "path": "skills/database-migrations-sql-migrations",
+    "category": "uncategorized",
+    "name": "database-migrations-sql-migrations",
+    "description": "SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans.",
     "risk": "unknown",
     "source": "community"
   },
@@ -3105,6 +3213,15 @@
     "source": "community"
   },
   {
+    "id": "development",
+    "path": "skills/development",
+    "category": "uncategorized",
+    "name": "development",
+    "description": "Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "devops-troubleshooter",
     "path": "skills/devops-troubleshooter",
     "category": "uncategorized",
@@ -3195,6 +3312,15 @@
     "source": "unknown"
   },
   {
+    "id": "documentation",
+    "path": "skills/documentation",
+    "category": "uncategorized",
+    "name": "documentation",
+    "description": "Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "documentation-generation-doc-generate",
     "path": "skills/documentation-generation-doc-generate",
     "category": "uncategorized",
@@ -3267,6 +3393,15 @@
     "source": "community"
   },
   {
+    "id": "draw",
+    "path": "skills/libreoffice/draw",
+    "category": "libreoffice",
+    "name": "draw",
+    "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "dropbox-automation",
     "path": "skills/dropbox-automation",
     "category": "uncategorized",
@@ -3283,6 +3418,15 @@
     "description": "- Working on dx optimizer tasks or workflows - Needing guidance, best practices, or checklists for dx optimizer",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "e2e-testing",
+    "path": "skills/e2e-testing",
+    "category": "uncategorized",
+    "name": "e2e-testing",
+    "description": "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "e2e-testing-patterns",
@@ -4059,6 +4203,15 @@
     "source": "https://github.com/go-rod/rod"
   },
   {
+    "id": "godot-4-migration",
+    "path": "skills/godot-4-migration",
+    "category": "uncategorized",
+    "name": "godot-4-migration",
+    "description": "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
     "id": "godot-gdscript-patterns",
     "path": "skills/godot-gdscript-patterns",
     "category": "uncategorized",
@@ -4410,6 +4563,15 @@
     "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
   },
   {
+    "id": "impress",
+    "path": "skills/libreoffice/impress",
+    "category": "libreoffice",
+    "name": "impress",
+    "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "incident-responder",
     "path": "skills/incident-responder",
     "category": "uncategorized",
@@ -4635,6 +4797,15 @@
     "source": "community"
   },
   {
+    "id": "kotlin-coroutines-expert",
+    "path": "skills/kotlin-coroutines-expert",
+    "category": "uncategorized",
+    "name": "kotlin-coroutines-expert",
+    "description": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
     "id": "kpi-dashboard-design",
     "path": "skills/kpi-dashboard-design",
     "category": "uncategorized",
@@ -4651,6 +4822,15 @@
     "description": "You are a Kubernetes architect specializing in cloud-native infrastructure, modern GitOps workflows, and enterprise container orchestration at scale.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "kubernetes-deployment",
+    "path": "skills/kubernetes-deployment",
+    "category": "uncategorized",
+    "name": "kubernetes-deployment",
+    "description": "Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "langchain-architecture",
@@ -4795,6 +4975,15 @@
     "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production she...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "linux-troubleshooting",
+    "path": "skills/linux-troubleshooting",
+    "category": "uncategorized",
+    "name": "linux-troubleshooting",
+    "description": "Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "llm-app-patterns",
@@ -5481,6 +5670,15 @@
     "source": "community"
   },
   {
+    "id": "office-productivity",
+    "path": "skills/office-productivity",
+    "category": "uncategorized",
+    "name": "office-productivity",
+    "description": "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "on-call-handoff-patterns",
     "path": "skills/on-call-handoff-patterns",
     "category": "uncategorized",
@@ -5515,6 +5713,15 @@
     "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "os-scripting",
+    "path": "skills/os-scripting",
+    "category": "uncategorized",
+    "name": "os-scripting",
+    "description": "Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "oss-hunter",
@@ -5796,6 +6003,15 @@
     "source": "community"
   },
   {
+    "id": "postgresql-optimization",
+    "path": "skills/postgresql-optimization",
+    "category": "uncategorized",
+    "name": "postgresql-optimization",
+    "description": "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "posthog-automation",
     "path": "skills/posthog-automation",
     "category": "uncategorized",
@@ -6003,6 +6219,15 @@
     "source": "community"
   },
   {
+    "id": "python-fastapi-development",
+    "path": "skills/python-fastapi-development",
+    "category": "uncategorized",
+    "name": "python-fastapi-development",
+    "description": "Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "python-packaging",
     "path": "skills/python-packaging",
     "category": "uncategorized",
@@ -6070,9 +6295,9 @@
     "path": "skills/rag-implementation",
     "category": "uncategorized",
     "name": "rag-implementation",
-    "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or int...",
-    "risk": "unknown",
-    "source": "community"
+    "description": "RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "react-best-practices",
@@ -6118,6 +6343,15 @@
     "description": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecti...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "react-nextjs-development",
+    "path": "skills/react-nextjs-development",
+    "category": "uncategorized",
+    "name": "react-nextjs-development",
+    "description": "React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "react-patterns",
@@ -6435,6 +6669,15 @@
     "source": "unknown"
   },
   {
+    "id": "security-audit",
+    "path": "skills/security-audit",
+    "category": "uncategorized",
+    "name": "security-audit",
+    "description": "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "security-bluebook-builder",
     "path": "skills/security-bluebook-builder",
     "category": "uncategorized",
@@ -6666,6 +6909,15 @@
     "name": "service-mesh-observability",
     "description": "Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SL...",
     "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "shader-programming-glsl",
+    "path": "skills/shader-programming-glsl",
+    "category": "uncategorized",
+    "name": "shader-programming-glsl",
+    "description": "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.",
+    "risk": "safe",
     "source": "community"
   },
   {
@@ -7236,6 +7488,15 @@
     "source": "unknown"
   },
   {
+    "id": "terraform-infrastructure",
+    "path": "skills/terraform-infrastructure",
+    "category": "uncategorized",
+    "name": "terraform-infrastructure",
+    "description": "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "terraform-module-library",
     "path": "skills/terraform-module-library",
     "category": "uncategorized",
@@ -7288,6 +7549,15 @@
     "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "testing-qa",
+    "path": "skills/testing-qa",
+    "category": "uncategorized",
+    "name": "testing-qa",
+    "description": "Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "theme-factory",
@@ -7749,6 +8019,15 @@
     "source": "community"
   },
   {
+    "id": "web-security-testing",
+    "path": "skills/web-security-testing",
+    "category": "uncategorized",
+    "name": "web-security-testing",
+    "description": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "web3-testing",
     "path": "skills/web3-testing",
     "category": "uncategorized",
@@ -7866,6 +8145,15 @@
     "source": "community"
   },
   {
+    "id": "wordpress",
+    "path": "skills/wordpress",
+    "category": "uncategorized",
+    "name": "wordpress",
+    "description": "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "wordpress-penetration-testing",
     "path": "skills/wordpress-penetration-testing",
     "category": "uncategorized",
@@ -7873,6 +8161,33 @@
     "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vu...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "wordpress-plugin-development",
+    "path": "skills/wordpress-plugin-development",
+    "category": "uncategorized",
+    "name": "wordpress-plugin-development",
+    "description": "WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, and security best practices.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
+    "id": "wordpress-theme-development",
+    "path": "skills/wordpress-theme-development",
+    "category": "uncategorized",
+    "name": "wordpress-theme-development",
+    "description": "WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, and responsive design.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
+    "id": "wordpress-woocommerce-development",
+    "path": "skills/wordpress-woocommerce-development",
+    "category": "uncategorized",
+    "name": "wordpress-woocommerce-development",
+    "description": "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, and customization.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "workflow-patterns",
@@ -7909,6 +8224,15 @@
     "description": "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "writer",
+    "path": "skills/libreoffice/writer",
+    "category": "libreoffice",
+    "name": "writer",
+    "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
+    "risk": "safe",
+    "source": "personal"
   },
   {
     "id": "writing-plans",
