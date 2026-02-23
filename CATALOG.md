@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 889
+Total skills: 891
 
 ## architecture (60)
 
@@ -407,7 +407,7 @@ Total skills: 889
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (214)
+## general (216)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -423,6 +423,8 @@ Total skills: 889
 | `arm-cortex-expert` | > | arm, cortex | arm, cortex |
 | `avalonia-layout-zafiro` | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy. | avalonia, layout, zafiro | avalonia, layout, zafiro, guidelines, ui, emphasizing, shared, styles, generic, components, avoiding, xaml |
 | `avalonia-zafiro-development` | Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit. | avalonia, zafiro | avalonia, zafiro, development, mandatory, skills, conventions, behavioral, rules, ui, toolkit |
+| `aws-cost-cleanup` | Automated cleanup of unused AWS resources to reduce costs | aws, cost, cleanup | aws, cost, cleanup, automated, unused, resources, reduce, costs |
+| `aws-cost-optimizer` | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer | aws, cost, optimizer | aws, cost, optimizer, analysis, optimization, recommendations, cli, explorer |
 | `azure-appconfiguration-py` | \| | azure, appconfiguration, py | azure, appconfiguration, py |
 | `azure-containerregistry-py` | \| | azure, containerregistry, py | azure, containerregistry, py |
 | `azure-cosmos-py` | \| | azure, cosmos, py | azure, cosmos, py |
@@ -541,7 +543,6 @@ Total skills: 889
 | `hugging-face-jobs` | This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure. Covers UV scripts, Docker-based jobs, hardware selection, ... | hugging, face, jobs | hugging, face, jobs, skill, should, used, users, want, run, any, workload, infrastructure |
 | `imagen` | \| | imagen | imagen |
 | `infinite-gratitude` | Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). | infinite, gratitude | infinite, gratitude, multi, agent, research, skill, parallel, execution, 10, agents, battle, tested |
-| `infrastructure/aws-cost-optimizer` | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer | aws, cost-optimization, finops, cloud-economics, kiro-cli | aws, cost-optimization, finops, cloud-economics, kiro-cli, cost, optimizer, analysis, optimization, recommendations, cli, explorer |
 | `interactive-portfolio` | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, d... | interactive, portfolio | interactive, portfolio, building, portfolios, actually, land, jobs, clients, just, showing, work, creating |
 | `internal-comms-anthropic` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, anthropic | internal, comms, anthropic, set, resources, me, write, all, kinds, communications, formats, my |
 | `internal-comms-community` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, community | internal, comms, community, set, resources, me, write, all, kinds, communications, formats, my |
@@ -853,7 +854,7 @@ Total skills: 889
 | `wordpress-penetration-testing` | This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugi... | wordpress, penetration | wordpress, penetration, testing, skill, should, used, user, asks, pentest, sites, scan, vulnerabilities |
 | `xss-html-injection` | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exp... | xss, html, injection | xss, html, injection, skill, should, used, user, asks, test, vulnerabilities, perform, cross |
 
-## workflow (82)
+## workflow (81)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -896,7 +897,6 @@ Total skills: 889
 | `google-drive-automation` | Automate Google Drive file operations (upload, download, search, share, organize) via Rube MCP (Composio). Upload/download files, manage folders, share with ... | google, drive | google, drive, automation, automate, file, operations, upload, download, search, share, organize, via |
 | `helpdesk-automation` | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for... | helpdesk | helpdesk, automation, automate, tasks, via, rube, mcp, composio, list, tickets, views, canned |
 | `hubspot-automation` | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration. | hubspot | hubspot, automation, automate, crm, operations, contacts, companies, deals, tickets, properties, via, rube |
-| `infrastructure/aws-cost-cleanup` | Automated cleanup of unused AWS resources to reduce costs | aws, automation, cost-reduction, cleanup, kiro-cli | aws, automation, cost-reduction, cleanup, kiro-cli, cost, automated, unused, resources, reduce, costs |
 | `instagram-automation` | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for c... | instagram | instagram, automation, automate, tasks, via, rube, mcp, composio, posts, carousels, media, get |
 | `intercom-automation` | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas. | intercom | intercom, automation, automate, tasks, via, rube, mcp, composio, conversations, contacts, companies, segments |
 | `jira-automation` | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas. | jira | jira, automation, automate, tasks, via, rube, mcp, composio, issues, sprints, boards, comments |

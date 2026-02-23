@@ -3,15 +3,13 @@ name: aws-cost-cleanup
 description: Automated cleanup of unused AWS resources to reduce costs
 risk: safe
 source: community
-category: infrastructure
-tags: [aws, automation, cost-reduction, cleanup, kiro-cli]
 ---
 
 # AWS Cost Cleanup
 
 Automate the identification and removal of unused AWS resources to eliminate waste.
 
-## When to Use
+## When to Use This Skill
 
 Use this skill when you need to automatically clean up unused AWS resources to reduce costs and eliminate waste.
 

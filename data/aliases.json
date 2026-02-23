@@ -75,8 +75,6 @@
     "web-games": "game-development/web-games",
     "git-pr-workflow": "git-pr-workflows-git-workflow",
     "incident-response": "incident-response-incident-response",
-    "aws-cost-cleanup": "infrastructure/aws-cost-cleanup",
-    "aws-cost-optimizer": "infrastructure/aws-cost-optimizer",
     "javascript-typescript-scaffold": "javascript-typescript-typescript-scaffold",
     "llm-application-assistant": "llm-application-dev-ai-assistant",
     "llm-application-agent": "llm-application-dev-langchain-agent",

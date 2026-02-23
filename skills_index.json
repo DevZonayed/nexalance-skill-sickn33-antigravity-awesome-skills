@@ -541,8 +541,8 @@
   },
   {
     "id": "aws-cost-cleanup",
-    "path": "skills/infrastructure/aws-cost-cleanup",
-    "category": "infrastructure",
+    "path": "skills/aws-cost-cleanup",
+    "category": "uncategorized",
     "name": "aws-cost-cleanup",
     "description": "Automated cleanup of unused AWS resources to reduce costs",
     "risk": "safe",
@@ -550,8 +550,8 @@
   },
   {
     "id": "aws-cost-optimizer",
-    "path": "skills/infrastructure/aws-cost-optimizer",
-    "category": "infrastructure",
+    "path": "skills/aws-cost-optimizer",
+    "category": "uncategorized",
     "name": "aws-cost-optimizer",
     "description": "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
     "risk": "safe",

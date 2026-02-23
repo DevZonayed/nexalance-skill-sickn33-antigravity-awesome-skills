@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 885,
+  "total": 891,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -1435,6 +1435,50 @@
         "toolkit"
       ],
       "path": "skills/avalonia-zafiro-development/SKILL.md"
+    },
+    {
+      "id": "aws-cost-cleanup",
+      "name": "aws-cost-cleanup",
+      "description": "Automated cleanup of unused AWS resources to reduce costs",
+      "category": "general",
+      "tags": [
+        "aws",
+        "cost",
+        "cleanup"
+      ],
+      "triggers": [
+        "aws",
+        "cost",
+        "cleanup",
+        "automated",
+        "unused",
+        "resources",
+        "reduce",
+        "costs"
+      ],
+      "path": "skills/aws-cost-cleanup/SKILL.md"
+    },
+    {
+      "id": "aws-cost-optimizer",
+      "name": "aws-cost-optimizer",
+      "description": "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
+      "category": "general",
+      "tags": [
+        "aws",
+        "cost",
+        "optimizer"
+      ],
+      "triggers": [
+        "aws",
+        "cost",
+        "optimizer",
+        "analysis",
+        "optimization",
+        "recommendations",
+        "cli",
+        "explorer"
+      ],
+      "path": "skills/aws-cost-optimizer/SKILL.md"
     },
     {
       "id": "aws-penetration-testing",
@@ -11265,61 +11309,6 @@
         "tested"
       ],
       "path": "skills/infinite-gratitude/SKILL.md"
-    },
-    {
-      "id": "infrastructure/aws-cost-cleanup",
-      "name": "aws-cost-cleanup",
-      "description": "Automated cleanup of unused AWS resources to reduce costs",
-      "category": "workflow",
-      "tags": [
-        "aws",
-        "automation",
-        "cost-reduction",
-        "cleanup",
-        "kiro-cli"
-      ],
-      "triggers": [
-        "aws",
-        "automation",
-        "cost-reduction",
-        "cleanup",
-        "kiro-cli",
-        "cost",
-        "automated",
-        "unused",
-        "resources",
-        "reduce",
-        "costs"
-      ],
-      "path": "skills/infrastructure/aws-cost-cleanup/SKILL.md"
-    },
-    {
-      "id": "infrastructure/aws-cost-optimizer",
-      "name": "aws-cost-optimizer",
-      "description": "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
-      "category": "general",
-      "tags": [
-        "aws",
-        "cost-optimization",
-        "finops",
-        "cloud-economics",
-        "kiro-cli"
-      ],
-      "triggers": [
-        "aws",
-        "cost-optimization",
-        "finops",
-        "cloud-economics",
-        "kiro-cli",
-        "cost",
-        "optimizer",
-        "analysis",
-        "optimization",
-        "recommendations",
-        "cli",
-        "explorer"
-      ],
-      "path": "skills/infrastructure/aws-cost-optimizer/SKILL.md"
     },
     {
       "id": "inngest",

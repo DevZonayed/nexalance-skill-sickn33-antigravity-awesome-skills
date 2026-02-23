@@ -3,15 +3,13 @@ name: aws-cost-optimizer
 description: Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
 risk: safe
 source: community
-category: infrastructure
-tags: [aws, cost-optimization, finops, cloud-economics, kiro-cli]
 ---
 
 # AWS Cost Optimizer
 
 Analyze AWS spending patterns, identify waste, and provide actionable cost reduction strategies.
 
-## When to Use
+## When to Use This Skill
 
 Use this skill when you need to analyze AWS spending, identify cost optimization opportunities, or reduce cloud waste.
 
