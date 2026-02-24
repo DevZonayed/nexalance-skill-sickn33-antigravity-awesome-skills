@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.2.0] - 2026-02-24 - "Interactive Web App & AWS IaC"
+
+> **Feature release: Interactive Skills Web App, AWS Infrastructure as Code skills, and Chrome Extension / Cloudflare Workers developer skills.**
+
+## 🚀 New Skills
+
+- **AWS Infrastructure as Code** (PR #124): `cdk-patterns`, `cloudformation-best-practices`, `terraform-aws-modules`.
+- **Browser & Edge** (PR #128): `chrome-extension-developer`, `cloudflare-workers-expert`.
+
+## 📦 Improvements
+
+- **Interactive Skills Web App** (PR #126): Added a local web UI for browsing skills, including `START_APP.bat`, setup script, and `web-app/` project with catalog export.
+- **Shopify Development Skill** (PR #125): Fixed markdown syntax issues in `skills/shopify-development/SKILL.md` to keep the registry strictly valid.
+- **Community Sources** (PR #127): Added SSOJet skills and integration guides to Credits & Sources.
+- **Registry**: Now tracking 930 skills.
+
+## 👥 Credits
+
+- **@ssumanbiswas** for AWS Infrastructure as Code skills (PR #124).
+- **@thuanlm** for the Shopify development skill fix (PR #125).
+- **@zinzied** for the Interactive Skills Web App (PR #126).
+- **@code-vj** for the SSOJet documentation link (PR #127).
+- **@GeekLuffy** for Chrome Extension and Cloudflare Workers skills (PR #128).
+
+---
+
 ## [6.1.1] - 2026-02-23 - "AWS Cost Optimization & Registry 927"
 
 > **Patch release: AWS cost optimization skills (PR #107) and registry count 927.**

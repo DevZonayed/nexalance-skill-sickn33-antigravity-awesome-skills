@@ -56,11 +56,11 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## New Here? Start Here!
 
-**Welcome to the V6.1.1 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V6.2.0 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 6.1.1) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 6.2.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -518,6 +518,10 @@ We officially thank the following contributors for their help in making this rep
 - [@ssumanbiswas](https://github.com/ssumanbiswas)
 - [@amartelr](https://github.com/amartelr)
 - [@fernandorych](https://github.com/fernandorych)
+- [@GeekLuffy](https://github.com/GeekLuffy)
+- [@zinzied](https://github.com/zinzied)
+- [@code-vj](https://github.com/code-vj)
+- [@thuanlm](https://github.com/thuanlm)
 
 ---
 
