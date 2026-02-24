@@ -17986,14 +17986,24 @@
     {
       "id": "shopify-development",
       "name": "shopify-development",
-      "description": "|",
-      "category": "general",
+      "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.\nTRIGGER: \"shopify\", \"shopify app\", \"checkout extension\", \"admin extension\", \"POS extension\",\n\"shopify theme\", \"liquid template\", \"polaris\", \"shopify graphql\", \"shopify webhook\",\n\"shopify billing\", \"app subscription\", \"metafields\", \"shopify functions\"",
+      "category": "development",
       "tags": [
         "shopify"
       ],
       "triggers": [
         "shopify",
-        "development"
+        "development",
+        "apps",
+        "extensions",
+        "themes",
+        "graphql",
+        "admin",
+        "api",
+        "cli",
+        "polaris",
+        "ui",
+        "liquid"
       ],
       "path": "skills/shopify-development/SKILL.md"
     },

@@ -6966,15 +6966,6 @@
     "source": "community"
   },
   {
-    "id": "shopify-development",
-    "path": "skills/shopify-development",
-    "category": "uncategorized",
-    "name": "Shopify Development",
-    "description": "Use this skill when the user asks about:",
-    "risk": "unknown",
-    "source": "unknown"
-  },
-  {
     "id": "shopify-apps",
     "path": "skills/shopify-apps",
     "category": "uncategorized",
@@ -6989,6 +6980,15 @@
     "category": "uncategorized",
     "name": "shopify-automation",
     "description": "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.",
+    "risk": "unknown",
+    "source": "community"
+  },
+  {
+    "id": "shopify-development",
+    "path": "skills/shopify-development",
+    "category": "uncategorized",
+    "name": "shopify-development",
+    "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.\nTRIGGER: \"shopify\", \"shopify app\", \"checkout extension\", \"admin extension\", \"POS extension\",\n\"shopify theme\", \"liquid template\", \"polaris\", \"shopify graphql\", \"shopify webhook\",\n\"shopify billing\", \"app subscription\", \"metafields\", \"shopify functions\"\n",
     "risk": "unknown",
     "source": "community"
   },
