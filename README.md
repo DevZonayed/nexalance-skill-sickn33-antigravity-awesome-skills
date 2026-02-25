@@ -351,6 +351,13 @@ To launch the app:
 1. Double-click the `START_APP.bat` file in the root directory (Windows) or run it from your terminal.
 2. The app will automatically configure everything and open in your default browser.
 
+#### 🛠️ New: Interactive Prompt Builder
+The web app is no longer just a static catalog! When you click on any skill, you will see an **Interactive Prompt Builder** box.
+Instead of manually copying `@skill-name` and writing your requirements separately in your IDE:
+1. Type your specific project constraints into the text box (e.g., "Use React 19 and Tailwind").
+2. Click **Copy Prompt**.
+3. Your clipboard now has a fully formatted, ready-to-run prompt combining the skill invocation and your custom context!
+
 👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
 ---
