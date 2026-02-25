@@ -250,13 +250,9 @@ Install to the tool-specific path. Use installer flags: `--antigravity` (default
 
 ### Update an existing installation
 
-```bash
-# If you used the default installer (Antigravity global):
-git -C ~/.gemini/antigravity/skills pull
+**Good news!** You no longer need to manually run `git pull` or `npx antigravity-awesome-skills` to update your skills.
 
-# If you installed to a custom path (e.g. ~/.agent/skills):
-git -C ~/.agent/skills pull
-```
+Simply double-click **`START_APP.bat`** (or run it in your terminal). It will automatically fetch and merge the latest skills from the original repository every time you open the Web App, ensuring you always have the most up-to-date catalog!
 
 ### Reinstall from scratch
 
