@@ -95,14 +95,18 @@ Once installed, just talk to your AI naturally.
 
 ## 🔌 Supported Tools
 
-| Tool            | Status          | Path              |
-| :-------------- | :-------------- | :---------------- |
-| **Claude Code** | ✅ Full Support | `.claude/skills/` |
-| **Gemini CLI**  | ✅ Full Support | `.gemini/skills/` |
-| **Codex CLI**   | ✅ Full Support | `.codex/skills/`  |
-| **Antigravity** | ✅ Native       | `.agent/skills/`  |
-| **Cursor**      | ✅ Native       | `.cursor/skills/` |
-| **Copilot**     | ⚠️ Text Only    | Manual copy-paste |
+| Tool            | Status          | Path                                                                  |
+| :-------------- | :-------------- | :-------------------------------------------------------------------- |
+| **Claude Code** | ✅ Full Support | `.claude/skills/`                                                     |
+| **Gemini CLI**  | ✅ Full Support | `.gemini/skills/`                                                     |
+| **Codex CLI**   | ✅ Full Support | `.codex/skills/`                                                      |
+| **Kiro CLI**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
+| **Kiro IDE**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
+| **Antigravity** | ✅ Native       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
+| **Cursor**      | ✅ Native       | `.cursor/skills/`                                                     |
+| **OpenCode**    | ✅ Full Support | `.agents/skills/`                                                     |
+| **AdaL CLI**    | ✅ Full Support | `.adal/skills/`                                                       |
+| **Copilot**     | ⚠️ Text Only    | Manual copy-paste                                                     |
 
 ---
 
