@@ -19,6 +19,10 @@ metadata:
     emoji: "🌐"
 ---
 
+## When to Use
+
+Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.
+
 # Customs & Trade Compliance
 
 ## Role and Context
@@ -106,6 +110,7 @@ Incoterms define the transfer of costs, risk, and responsibility between buyer a
 ### Penalties and Compliance
 
 **US penalty framework under 19 USC § 1592:**
+
 - **Negligence:** 2× unpaid duties or 20% of dutiable value for first violation. Reduced to 1× or 10% with mitigation. Most common assessment.
 - **Gross negligence:** 4× unpaid duties or 40% of dutiable value. Harder to mitigate — requires showing systemic compliance measures.
 - **Fraud:** Full domestic value of the merchandise. Criminal referral possible. No mitigation without extraordinary cooperation.
@@ -205,16 +210,16 @@ Brief templates below. Full versions with variables in [communication-templates.
 
 ### Automatic Escalation Triggers
 
-| Trigger | Action | Timeline |
-|---|---|---|
-| CBP detention or seizure | Notify VP and legal counsel | Within 1 hour |
-| Restricted party screening true positive | Halt transaction, notify compliance officer and legal | Immediately |
-| Potential penalty exposure > $50,000 | Notify VP Trade Compliance and General Counsel | Within 2 hours |
-| Customs examination with discrepancy found | Assign dedicated specialist, notify broker | Within 4 hours |
-| Denied party / SDN match confirmed | Full stop on all transactions with the entity globally | Immediately |
-| AD/CVD evasion investigation received | Retain outside trade counsel | Within 24 hours |
-| FTA origin audit from foreign customs authority | Notify all affected suppliers, begin documentation review | Within 48 hours |
-| Voluntary self-disclosure decision | Legal counsel approval required before filing | Before submission |
+| Trigger                                         | Action                                                    | Timeline          |
+| ----------------------------------------------- | --------------------------------------------------------- | ----------------- |
+| CBP detention or seizure                        | Notify VP and legal counsel                               | Within 1 hour     |
+| Restricted party screening true positive        | Halt transaction, notify compliance officer and legal     | Immediately       |
+| Potential penalty exposure > $50,000            | Notify VP Trade Compliance and General Counsel            | Within 2 hours    |
+| Customs examination with discrepancy found      | Assign dedicated specialist, notify broker                | Within 4 hours    |
+| Denied party / SDN match confirmed              | Full stop on all transactions with the entity globally    | Immediately       |
+| AD/CVD evasion investigation received           | Retain outside trade counsel                              | Within 24 hours   |
+| FTA origin audit from foreign customs authority | Notify all affected suppliers, begin documentation review | Within 48 hours   |
+| Voluntary self-disclosure decision              | Legal counsel approval required before filing             | Before submission |
 
 ### Escalation Chain
 
@@ -224,16 +229,16 @@ Level 1 (Analyst) → Level 2 (Trade Compliance Manager, 4 hours) → Level 3 (D
 
 Track these metrics monthly and trend quarterly:
 
-| Metric | Target | Red Flag |
-|---|---|---|
-| Classification accuracy (post-audit) | > 98% | < 95% |
-| FTA utilisation rate (eligible shipments) | > 90% | < 70% |
-| Entry rejection rate | < 2% | > 5% |
-| Prior disclosure frequency | < 2 per year | > 4 per year |
-| Screening false positive adjudication time | < 4 hours | > 24 hours |
-| Duty savings captured (FTA + FTZ + drawback) | Track trend | Declining quarter-over-quarter |
-| CBP examination rate | < 3% | > 7% |
-| Penalty exposure (annual) | $0 | Any material penalty assessed |
+| Metric                                       | Target       | Red Flag                       |
+| -------------------------------------------- | ------------ | ------------------------------ |
+| Classification accuracy (post-audit)         | > 98%        | < 95%                          |
+| FTA utilisation rate (eligible shipments)    | > 90%        | < 70%                          |
+| Entry rejection rate                         | < 2%         | > 5%                           |
+| Prior disclosure frequency                   | < 2 per year | > 4 per year                   |
+| Screening false positive adjudication time   | < 4 hours    | > 24 hours                     |
+| Duty savings captured (FTA + FTZ + drawback) | Track trend  | Declining quarter-over-quarter |
+| CBP examination rate                         | < 3%         | > 7%                           |
+| Penalty exposure (annual)                    | $0           | Any material penalty assessed  |
 
 ## Additional Resources
 

@@ -5,6 +5,10 @@ source: community
 risk: safe
 ---
 
+## When to Use
+
+Use this skill when you need to automate LinkedIn tasks such as profile fetching, connection management, or post creation via CLI, especially when integrated into automated workflows.
+
 # LinkedIn Skill
 
 You have access to `linkedin` – a CLI tool for LinkedIn automation. Use it to fetch profiles, search people and companies, send messages, manage connections, create posts, react, comment, and more.
@@ -49,39 +53,44 @@ Always use `--json` and `-q` for machine-readable output:
 linkedin <command> --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--json` | Structured JSON output |
-| `--quiet` / `-q` | Suppress stderr progress messages |
-| `--fields name,url,...` | Select specific fields in output |
-| `--no-color` | Disable colors |
-| `--account "Name"` | Use a specific account for this command |
+| Flag                    | Description                             |
+| ----------------------- | --------------------------------------- |
+| `--json`                | Structured JSON output                  |
+| `--quiet` / `-q`        | Suppress stderr progress messages       |
+| `--fields name,url,...` | Select specific fields in output        |
+| `--no-color`            | Disable colors                          |
+| `--account "Name"`      | Use a specific account for this command |
 
 ## Output Format
 
 Success:
+
 ```json
-{"success": true, "data": {"name": "John Doe", "headline": "Engineer"}}
+{ "success": true, "data": { "name": "John Doe", "headline": "Engineer" } }
 ```
 
 Error:
+
 ```json
-{"success": false, "error": {"type": "personNotFound", "message": "Person not found"}}
+{
+  "success": false,
+  "error": { "type": "personNotFound", "message": "Person not found" }
+}
 ```
 
 Exit code 0 means the API call succeeded – always check the `success` field for the action outcome. Non-zero exit codes indicate infrastructure errors:
 
-| Exit Code | Meaning |
-|-----------|---------|
-| 0 | Success (check `success` field – action may have returned an error like "person not found") |
-| 1 | General/unexpected error |
-| 2 | Missing or invalid tokens |
-| 3 | Subscription/plan required |
-| 4 | LinkedIn account issue |
-| 5 | Invalid arguments |
-| 6 | Rate limited |
-| 7 | Network error |
-| 8 | Workflow timeout (workflowId returned for recovery) |
+| Exit Code | Meaning                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------- |
+| 0         | Success (check `success` field – action may have returned an error like "person not found") |
+| 1         | General/unexpected error                                                                    |
+| 2         | Missing or invalid tokens                                                                   |
+| 3         | Subscription/plan required                                                                  |
+| 4         | LinkedIn account issue                                                                      |
+| 5         | Invalid arguments                                                                           |
+| 6         | Rate limited                                                                                |
+| 7         | Network error                                                                               |
+| 8         | Workflow timeout (workflowId returned for recovery)                                         |
 
 ## Commands
 
@@ -92,6 +101,7 @@ linkedin person fetch <url> [flags] --json -q
 ```
 
 Optional flags to include additional data:
+
 - `--experience` – work history
 - `--education` – education history
 - `--skills` – skills list
@@ -119,18 +129,18 @@ linkedin person fetch https://www.linkedin.com/in/username --posts --posts-limit
 linkedin person search [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--term` | Search keyword or phrase |
-| `--limit` | Max results |
-| `--first-name` | Filter by first name |
-| `--last-name` | Filter by last name |
-| `--position` | Filter by job position |
-| `--locations` | Comma-separated locations |
-| `--industries` | Comma-separated industries |
-| `--current-companies` | Comma-separated current company names |
+| Flag                   | Description                            |
+| ---------------------- | -------------------------------------- |
+| `--term`               | Search keyword or phrase               |
+| `--limit`              | Max results                            |
+| `--first-name`         | Filter by first name                   |
+| `--last-name`          | Filter by last name                    |
+| `--position`           | Filter by job position                 |
+| `--locations`          | Comma-separated locations              |
+| `--industries`         | Comma-separated industries             |
+| `--current-companies`  | Comma-separated current company names  |
 | `--previous-companies` | Comma-separated previous company names |
-| `--schools` | Comma-separated school names |
+| `--schools`            | Comma-separated school names           |
 
 ```bash
 linkedin person search --term "product manager" --locations "San Francisco" --json -q
@@ -144,27 +154,28 @@ linkedin company fetch <url> [flags] --json -q
 ```
 
 Optional flags:
+
 - `--employees` – include employees
 - `--dms` – include decision makers
 - `--posts` – include company posts
 
 Employee filters (require `--employees`):
 
-| Flag | Description |
-|------|-------------|
-| `--employees-limit` | Max employees to retrieve |
-| `--employees-first-name` | Filter by first name |
-| `--employees-last-name` | Filter by last name |
-| `--employees-position` | Filter by position |
-| `--employees-locations` | Comma-separated locations |
-| `--employees-industries` | Comma-separated industries |
-| `--employees-schools` | Comma-separated school names |
+| Flag                     | Description                  |
+| ------------------------ | ---------------------------- |
+| `--employees-limit`      | Max employees to retrieve    |
+| `--employees-first-name` | Filter by first name         |
+| `--employees-last-name`  | Filter by last name          |
+| `--employees-position`   | Filter by position           |
+| `--employees-locations`  | Comma-separated locations    |
+| `--employees-industries` | Comma-separated industries   |
+| `--employees-schools`    | Comma-separated school names |
 
-| Flag | Description |
-|------|-------------|
-| `--dms-limit` | Max decision makers to retrieve (requires `--dms`) |
-| `--posts-limit` | Max posts to retrieve (requires `--posts`) |
-| `--posts-since` | Posts since ISO timestamp (requires `--posts`) |
+| Flag            | Description                                        |
+| --------------- | -------------------------------------------------- |
+| `--dms-limit`   | Max decision makers to retrieve (requires `--dms`) |
+| `--posts-limit` | Max posts to retrieve (requires `--posts`)         |
+| `--posts-since` | Posts since ISO timestamp (requires `--posts`)     |
 
 ```bash
 # Basic company info
@@ -183,13 +194,13 @@ linkedin company fetch https://www.linkedin.com/company/name --dms --posts --pos
 linkedin company search [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--term` | Search keyword |
-| `--limit` | Max results |
-| `--sizes` | Comma-separated sizes: `1-10`, `11-50`, `51-200`, `201-500`, `501-1000`, `1001-5000`, `5001-10000`, `10001+` |
-| `--locations` | Comma-separated locations |
-| `--industries` | Comma-separated industries |
+| Flag           | Description                                                                                                  |
+| -------------- | ------------------------------------------------------------------------------------------------------------ |
+| `--term`       | Search keyword                                                                                               |
+| `--limit`      | Max results                                                                                                  |
+| `--sizes`      | Comma-separated sizes: `1-10`, `11-50`, `51-200`, `201-500`, `501-1000`, `1001-5000`, `5001-10000`, `10001+` |
+| `--locations`  | Comma-separated locations                                                                                    |
+| `--industries` | Comma-separated industries                                                                                   |
 
 ```bash
 linkedin company search --term "fintech" --sizes "11-50,51-200" --json -q
@@ -240,18 +251,18 @@ linkedin connection send <url> [--note 'text'] [--email user@example.com] --json
 linkedin connection list [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--limit` | Max connections to return |
-| `--since` | Only connections made since ISO timestamp (only works when no filter flags are used) |
-| `--first-name` | Filter by first name |
-| `--last-name` | Filter by last name |
-| `--position` | Filter by job position |
-| `--locations` | Comma-separated locations |
-| `--industries` | Comma-separated industries |
-| `--current-companies` | Comma-separated current company names |
-| `--previous-companies` | Comma-separated previous company names |
-| `--schools` | Comma-separated school names |
+| Flag                   | Description                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------ |
+| `--limit`              | Max connections to return                                                            |
+| `--since`              | Only connections made since ISO timestamp (only works when no filter flags are used) |
+| `--first-name`         | Filter by first name                                                                 |
+| `--last-name`          | Filter by last name                                                                  |
+| `--position`           | Filter by job position                                                               |
+| `--locations`          | Comma-separated locations                                                            |
+| `--industries`         | Comma-separated industries                                                           |
+| `--current-companies`  | Comma-separated current company names                                                |
+| `--previous-companies` | Comma-separated previous company names                                               |
+| `--schools`            | Comma-separated school names                                                         |
 
 ```bash
 linkedin connection list --limit 50 --json -q
@@ -287,14 +298,14 @@ linkedin connection remove <url> --json -q
 linkedin post fetch <url> [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--comments` | Include comments |
-| `--reactions` | Include reactions |
-| `--comments-limit` | Max comments to retrieve (requires `--comments`) |
-| `--comments-sort` | Sort order: `mostRelevant` or `mostRecent` (requires `--comments`) |
-| `--comments-replies` | Include replies to comments (requires `--comments`) |
-| `--reactions-limit` | Max reactions to retrieve (requires `--reactions`) |
+| Flag                 | Description                                                        |
+| -------------------- | ------------------------------------------------------------------ |
+| `--comments`         | Include comments                                                   |
+| `--reactions`        | Include reactions                                                  |
+| `--comments-limit`   | Max comments to retrieve (requires `--comments`)                   |
+| `--comments-sort`    | Sort order: `mostRelevant` or `mostRecent` (requires `--comments`) |
+| `--comments-replies` | Include replies to comments (requires `--comments`)                |
+| `--reactions-limit`  | Max reactions to retrieve (requires `--reactions`)                 |
 
 ```bash
 linkedin post fetch https://www.linkedin.com/posts/username_activity-123 --json -q
@@ -310,9 +321,9 @@ linkedin post fetch https://www.linkedin.com/posts/username_activity-123 \
 linkedin post create '<text>' [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--company-url` | Post on behalf of a company page (requires admin access) |
+| Flag            | Description                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `--company-url` | Post on behalf of a company page (requires admin access)                                                           |
 | `--attachments` | Attachment as `url:type` or `url:type:name`. Types: `image`, `video`, `document`. Can be specified multiple times. |
 
 Attachment limits: up to 9 images, or 1 video, or 1 document. Cannot mix types.
@@ -390,18 +401,18 @@ linkedin navigator person fetch <hashed-url> --json -q
 linkedin navigator person search [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--term` | Search keyword or phrase |
-| `--limit` | Max results |
-| `--first-name` | Filter by first name |
-| `--last-name` | Filter by last name |
-| `--position` | Filter by job position |
-| `--locations` | Comma-separated locations |
-| `--industries` | Comma-separated industries |
-| `--current-companies` | Comma-separated current company names |
-| `--previous-companies` | Comma-separated previous company names |
-| `--schools` | Comma-separated school names |
+| Flag                    | Description                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------- |
+| `--term`                | Search keyword or phrase                                                                    |
+| `--limit`               | Max results                                                                                 |
+| `--first-name`          | Filter by first name                                                                        |
+| `--last-name`           | Filter by last name                                                                         |
+| `--position`            | Filter by job position                                                                      |
+| `--locations`           | Comma-separated locations                                                                   |
+| `--industries`          | Comma-separated industries                                                                  |
+| `--current-companies`   | Comma-separated current company names                                                       |
+| `--previous-companies`  | Comma-separated previous company names                                                      |
+| `--schools`             | Comma-separated school names                                                                |
 | `--years-of-experience` | Comma-separated ranges: `lessThanOne`, `oneToTwo`, `threeToFive`, `sixToTen`, `moreThanTen` |
 
 ```bash
@@ -416,22 +427,23 @@ linkedin navigator company fetch <hashed-url> [flags] --json -q
 ```
 
 Optional flags:
+
 - `--employees` – include employees
 - `--dms` – include decision makers
 
 Employee filters (require `--employees`):
 
-| Flag | Description |
-|------|-------------|
-| `--employees-limit` | Max employees to retrieve |
-| `--employees-first-name` | Filter by first name |
-| `--employees-last-name` | Filter by last name |
-| `--employees-positions` | Comma-separated positions |
-| `--employees-locations` | Comma-separated locations |
-| `--employees-industries` | Comma-separated industries |
-| `--employees-schools` | Comma-separated school names |
-| `--employees-years-of-experience` | Comma-separated experience ranges |
-| `--dms-limit` | Max decision makers to retrieve (requires `--dms`) |
+| Flag                              | Description                                        |
+| --------------------------------- | -------------------------------------------------- |
+| `--employees-limit`               | Max employees to retrieve                          |
+| `--employees-first-name`          | Filter by first name                               |
+| `--employees-last-name`           | Filter by last name                                |
+| `--employees-positions`           | Comma-separated positions                          |
+| `--employees-locations`           | Comma-separated locations                          |
+| `--employees-industries`          | Comma-separated industries                         |
+| `--employees-schools`             | Comma-separated school names                       |
+| `--employees-years-of-experience` | Comma-separated experience ranges                  |
+| `--dms-limit`                     | Max decision makers to retrieve (requires `--dms`) |
 
 ```bash
 linkedin navigator company fetch https://www.linkedin.com/sales/company/97ural --employees --dms --json -q
@@ -445,15 +457,15 @@ linkedin navigator company fetch https://www.linkedin.com/sales/company/97ural \
 linkedin navigator company search [flags] --json -q
 ```
 
-| Flag | Description |
-|------|-------------|
-| `--term` | Search keyword |
-| `--limit` | Max results |
-| `--sizes` | Comma-separated sizes: `1-10`, `11-50`, `51-200`, `201-500`, `501-1000`, `1001-5000`, `5001-10000`, `10001+` |
-| `--locations` | Comma-separated locations |
-| `--industries` | Comma-separated industries |
-| `--revenue-min` | Min annual revenue in M USD: `0`, `0.5`, `1`, `2.5`, `5`, `10`, `20`, `50`, `100`, `500`, `1000` |
-| `--revenue-max` | Max annual revenue in M USD: `0.5`, `1`, `2.5`, `5`, `10`, `20`, `50`, `100`, `500`, `1000`, `1000+` |
+| Flag            | Description                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| `--term`        | Search keyword                                                                                               |
+| `--limit`       | Max results                                                                                                  |
+| `--sizes`       | Comma-separated sizes: `1-10`, `11-50`, `51-200`, `201-500`, `501-1000`, `1001-5000`, `5001-10000`, `10001+` |
+| `--locations`   | Comma-separated locations                                                                                    |
+| `--industries`  | Comma-separated industries                                                                                   |
+| `--revenue-min` | Min annual revenue in M USD: `0`, `0.5`, `1`, `2.5`, `5`, `10`, `20`, `50`, `100`, `500`, `1000`             |
+| `--revenue-max` | Max annual revenue in M USD: `0.5`, `1`, `2.5`, `5`, `10`, `20`, `50`, `100`, `500`, `1000`, `1000+`         |
 
 ```bash
 linkedin navigator company search --term "fintech" --sizes "11-50,51-200" --json -q

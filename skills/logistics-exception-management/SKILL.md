@@ -18,6 +18,10 @@ metadata:
     emoji: "📦"
 ---
 
+## When to Use
+
+Use this skill when dealing with deviations from planned logistics operations, such as transit delays, damaged shipments, lost cargo, or when initiating and managing claims and disputes with freight carriers.
+
 # Logistics Exception Management
 
 ## Role and Context
@@ -82,6 +86,7 @@ Understanding how different carrier types operate changes your resolution strate
 Assess every exception on three axes and take the highest severity:
 
 **Financial Impact:**
+
 - Level 1 (Low): < $1,000 product value, no expedite needed
 - Level 2 (Moderate): $1,000 - $5,000 or minor expedite costs
 - Level 3 (Significant): $5,000 - $25,000 or customer penalty risk
@@ -89,12 +94,14 @@ Assess every exception on three axes and take the highest severity:
 - Level 5 (Critical): > $100,000 or regulatory/safety implications
 
 **Customer Impact:**
+
 - Standard customer, no SLA at risk → does not elevate
 - Key account with SLA at risk → elevate by 1 level
 - Enterprise customer with penalty clauses → elevate by 2 levels
 - Customer's production line or retail launch at risk → automatic Level 4+
 
 **Time Sensitivity:**
+
 - Standard transit with buffer → does not elevate
 - Delivery needed within 48 hours, no alternative sourced → elevate by 1
 - Same-day or next-day critical (production shutdown, event deadline) → automatic Level 4+
@@ -165,16 +172,16 @@ Brief templates below. Full versions with variables in [communication-templates.
 
 ### Automatic Escalation Triggers
 
-| Trigger | Action | Timeline |
-|---|---|---|
-| Exception value > $25,000 | Notify VP Supply Chain immediately | Within 1 hour |
-| Enterprise customer affected | Assign dedicated handler, notify account team | Within 2 hours |
-| Carrier non-response | Escalate to carrier account manager | After 4 hours |
-| Repeated carrier (3+ in 30 days) | Carrier performance review with procurement | Within 1 week |
-| Potential fraud indicators | Notify compliance and halt standard processing | Immediately |
-| Temperature excursion on regulated product | Notify quality/regulatory team | Within 30 minutes |
-| No scan update on high-value (> $50K) | Initiate trace protocol and notify security | After 24 hours |
-| Claims denied > $10,000 | Legal review of denial basis | Within 48 hours |
+| Trigger                                    | Action                                         | Timeline          |
+| ------------------------------------------ | ---------------------------------------------- | ----------------- |
+| Exception value > $25,000                  | Notify VP Supply Chain immediately             | Within 1 hour     |
+| Enterprise customer affected               | Assign dedicated handler, notify account team  | Within 2 hours    |
+| Carrier non-response                       | Escalate to carrier account manager            | After 4 hours     |
+| Repeated carrier (3+ in 30 days)           | Carrier performance review with procurement    | Within 1 week     |
+| Potential fraud indicators                 | Notify compliance and halt standard processing | Immediately       |
+| Temperature excursion on regulated product | Notify quality/regulatory team                 | Within 30 minutes |
+| No scan update on high-value (> $50K)      | Initiate trace protocol and notify security    | After 24 hours    |
+| Claims denied > $10,000                    | Legal review of denial basis                   | Within 48 hours   |
 
 ### Escalation Chain
 
@@ -184,16 +191,16 @@ Level 1 (Analyst) → Level 2 (Team Lead, 4 hours) → Level 3 (Manager, 24 hour
 
 Track these metrics weekly and trend monthly:
 
-| Metric | Target | Red Flag |
-|---|---|---|
-| Mean resolution time | < 72 hours | > 120 hours |
-| First-contact resolution rate | > 40% | < 25% |
-| Financial recovery rate (claims) | > 75% | < 50% |
-| Customer satisfaction (post-exception) | > 4.0/5.0 | < 3.5/5.0 |
-| Exception rate (per 1,000 shipments) | < 25 | > 40 |
-| Claims filing timeliness | 100% within 30 days | Any > 60 days |
-| Repeat exceptions (same carrier/lane) | < 10% | > 20% |
-| Aged exceptions (> 30 days open) | < 5% of total | > 15% |
+| Metric                                 | Target              | Red Flag      |
+| -------------------------------------- | ------------------- | ------------- |
+| Mean resolution time                   | < 72 hours          | > 120 hours   |
+| First-contact resolution rate          | > 40%               | < 25%         |
+| Financial recovery rate (claims)       | > 75%               | < 50%         |
+| Customer satisfaction (post-exception) | > 4.0/5.0           | < 3.5/5.0     |
+| Exception rate (per 1,000 shipments)   | < 25                | > 40          |
+| Claims filing timeliness               | 100% within 30 days | Any > 60 days |
+| Repeat exceptions (same carrier/lane)  | < 10%               | > 20%         |
+| Aged exceptions (> 30 days open)       | < 5% of total       | > 15%         |
 
 ## Additional Resources
 

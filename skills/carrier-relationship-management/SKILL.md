@@ -18,6 +18,10 @@ metadata:
     emoji: "🤝"
 ---
 
+## When to Use
+
+Use this skill when building and managing a carrier network, conducting freight RFPs, negotiating linehaul and accessorial rates, tracking carrier KPIs via scorecards, or ensuring regulatory compliance of transportation partners.
+
 # Carrier Relationship Management
 
 ## Role and Context
@@ -154,16 +158,16 @@ For full communication templates, see [communication-templates.md](references/co
 
 ### Automatic Escalation Triggers
 
-| Trigger | Action | Timeline |
-|---|---|---|
-| Carrier tender acceptance drops below 70% for 2 consecutive weeks | Notify procurement, schedule carrier call | Within 48 hours |
-| Spot spend exceeds 30% of lane budget for any lane | Review routing guide, initiate carrier sourcing | Within 1 week |
-| Carrier FMCSA authority or insurance lapses | Immediately suspend tendering, notify operations | Within 1 hour |
-| Single carrier controls >50% of a critical lane | Initiate secondary carrier qualification | Within 2 weeks |
-| Claims ratio exceeds 1.5% for any carrier for 60+ days | Schedule formal performance review | Within 1 week |
-| Rate variance >20% from DAT benchmark on 5+ lanes | Initiate contract renegotiation or mini-bid | Within 2 weeks |
-| Carrier reports driver shortage or service disruption | Activate backup carriers, increase monitoring | Within 4 hours |
-| Double-brokering confirmed on any load | Immediate carrier suspension, compliance review | Within 2 hours |
+| Trigger                                                           | Action                                           | Timeline        |
+| ----------------------------------------------------------------- | ------------------------------------------------ | --------------- |
+| Carrier tender acceptance drops below 70% for 2 consecutive weeks | Notify procurement, schedule carrier call        | Within 48 hours |
+| Spot spend exceeds 30% of lane budget for any lane                | Review routing guide, initiate carrier sourcing  | Within 1 week   |
+| Carrier FMCSA authority or insurance lapses                       | Immediately suspend tendering, notify operations | Within 1 hour   |
+| Single carrier controls >50% of a critical lane                   | Initiate secondary carrier qualification         | Within 2 weeks  |
+| Claims ratio exceeds 1.5% for any carrier for 60+ days            | Schedule formal performance review               | Within 1 week   |
+| Rate variance >20% from DAT benchmark on 5+ lanes                 | Initiate contract renegotiation or mini-bid      | Within 2 weeks  |
+| Carrier reports driver shortage or service disruption             | Activate backup carriers, increase monitoring    | Within 4 hours  |
+| Double-brokering confirmed on any load                            | Immediate carrier suspension, compliance review  | Within 2 hours  |
 
 ### Escalation Chain
 
@@ -173,16 +177,16 @@ Analyst → Transportation Manager (48 hours) → Director of Transportation (1 
 
 Track weekly, review monthly with carrier management team, share quarterly with carriers:
 
-| Metric | Target | Red Flag |
-|---|---|---|
-| Contract rate vs. DAT benchmark | Within ±8% | >15% premium or discount |
-| Routing guide compliance (% of freight on guide) | ≥85% | <70% |
-| Primary tender acceptance | ≥90% | <80% |
-| Weighted average OTD across portfolio | ≥95% | <90% |
-| Carrier portfolio claims ratio | <0.5% of spend | >1.0% |
-| Average carrier invoice accuracy | ≥97% | <93% |
-| Spot freight percentage | <20% | >30% |
-| RFP cycle time (launch to implementation) | ≤12 weeks | >16 weeks |
+| Metric                                           | Target         | Red Flag                 |
+| ------------------------------------------------ | -------------- | ------------------------ |
+| Contract rate vs. DAT benchmark                  | Within ±8%     | >15% premium or discount |
+| Routing guide compliance (% of freight on guide) | ≥85%           | <70%                     |
+| Primary tender acceptance                        | ≥90%           | <80%                     |
+| Weighted average OTD across portfolio            | ≥95%           | <90%                     |
+| Carrier portfolio claims ratio                   | <0.5% of spend | >1.0%                    |
+| Average carrier invoice accuracy                 | ≥97%           | <93%                     |
+| Spot freight percentage                          | <20%           | >30%                     |
+| RFP cycle time (launch to implementation)        | ≤12 weeks      | >16 weeks                |
 
 ## Additional Resources
 
