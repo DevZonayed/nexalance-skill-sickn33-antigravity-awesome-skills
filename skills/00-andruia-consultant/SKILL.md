@@ -3,7 +3,7 @@ id: 00-andruia-consultant
 name: 00-andruia-consultant
 description: "Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español."
 category: andruia
-risk: official
+risk: safe
 source: personal
 ---
 
@@ -46,3 +46,11 @@ Para ambos escenarios, tras recibir las respuestas:
 ## ⚠️ Reglas de Oro
 1. **Contexto Inteligente**: No mezcles datos de proyectos anteriores. Cada carpeta es una entidad única.
 2. **Estándar de Diamante**: Prioriza siempre soluciones escalables, seguras y estéticamente superiores.
+
+## When to Use
+
+Activa este skill cuando necesites un **diagnóstico inicial y una hoja de ruta estratégica** para un proyecto de IA o software en una carpeta concreta:
+
+- Al empezar desde cero con un nuevo espacio de trabajo y quieras definir visión, alcance y backlog en español.
+- Cuando ya existe código y necesitas evaluar el estado actual, deudas técnicas y opciones de evolución.
+- Antes de introducir otros skills especializados (UI, seguridad, refactorización) para que todos se alineen con una arquitectura y estándar común definidos por un solo consultor.

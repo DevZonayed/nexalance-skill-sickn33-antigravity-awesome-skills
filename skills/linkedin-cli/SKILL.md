@@ -2,6 +2,7 @@
 name: linkedin-cli
 description: "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator."
 source: community
+risk: safe
 ---
 
 # LinkedIn Skill
@@ -29,6 +30,16 @@ Once the user provides the tokens, run:
 ```bash
 linkedin setup --linked-api-token=TOKEN --identification-token=TOKEN
 ```
+
+## When to Use
+
+Use this skill when you need to **orchestrate LinkedIn actions from scripts or an AI agent** instead of clicking through the web UI:
+
+- Building outreach, research, or recruiting workflows that rely on LinkedIn data and messaging.
+- Enriching leads or accounts by fetching people and company profiles in bulk.
+- Coordinating multi-step Sales Navigator or workflow runs where JSON output and exit codes are required.
+
+Always respect LinkedIn’s terms of service, local regulations, and your organisation’s compliance policies when using automation against real accounts.
 
 ## Global Flags
 

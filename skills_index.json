@@ -1,5 +1,23 @@
 [
   {
+    "id": "00-andruia-consultant",
+    "path": "skills/00-andruia-consultant",
+    "category": "uncategorized",
+    "name": "00-andruia-consultant",
+    "description": "Arquitecto de Soluciones Principal y Consultor Tecnol\u00f3gico de Andru.ia. Diagnostica y traza la hoja de ruta \u00f3ptima para proyectos de IA en espa\u00f1ol.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
+    "id": "20-andruia-niche-intelligence",
+    "path": "skills/20-andruia-niche-intelligence",
+    "category": "uncategorized",
+    "name": "20-andruia-niche-intelligence",
+    "description": "Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho espec\u00edfico de un proyecto para inyectar conocimientos, regulaciones y est\u00e1ndares \u00fanicos del sector. Act\u00edvalo tras definir el nicho.",
+    "risk": "safe",
+    "source": "personal"
+  },
+  {
     "id": "2d-games",
     "path": "skills/game-development/2d-games",
     "category": "game-development",
@@ -439,6 +457,15 @@
     "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "appdeploy",
+    "path": "skills/appdeploy",
+    "category": "uncategorized",
+    "name": "appdeploy",
+    "description": "Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.",
+    "risk": "safe",
+    "source": "AppDeploy (MIT)"
   },
   {
     "id": "application-performance-performance-optimization",
@@ -2142,6 +2169,15 @@
     "source": "community"
   },
   {
+    "id": "carrier-relationship-management",
+    "path": "skills/carrier-relationship-management",
+    "category": "uncategorized",
+    "name": "carrier-relationship-management",
+    "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships. Informed by transportation managers with 15+ years experience. Includes scorecarding frameworks, RFP processes, market intelligence, and compliance vetting. Use when managing carriers, negotiating rates, evaluating carrier performance, or building freight strategies.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
+  },
+  {
     "id": "cc-skill-backend-patterns",
     "path": "skills/cc-skill-backend-patterns",
     "category": "uncategorized",
@@ -2898,6 +2934,15 @@
     "source": "unknown"
   },
   {
+    "id": "customs-trade-compliance",
+    "path": "skills/customs-trade-compliance",
+    "category": "uncategorized",
+    "name": "customs-trade-compliance",
+    "description": "Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions. Informed by trade compliance specialists with 15+ years experience. Includes HS classification logic, Incoterms application, FTA utilisation, and penalty mitigation. Use when handling customs clearance, tariff classification, trade compliance, import/export documentation, or duty optimisation.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
+  },
+  {
     "id": "daily-news-report",
     "path": "skills/daily-news-report",
     "category": "uncategorized",
@@ -3508,6 +3553,15 @@
     "description": "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment docume...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "energy-procurement",
+    "path": "skills/energy-procurement",
+    "category": "uncategorized",
+    "name": "energy-procurement",
+    "description": "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Informed by energy procurement managers with 15+ years experience at large commercial and industrial consumers. Includes market structure analysis, hedging strategies, load profiling, and sustainability reporting frameworks. Use when procuring energy, optimising tariffs, managing demand charges, evaluating PPAs, or developing energy strategies.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
   },
   {
     "id": "environment-setup-guide",
@@ -4320,6 +4374,15 @@
     "source": "unknown"
   },
   {
+    "id": "grpc-golang",
+    "path": "skills/grpc-golang",
+    "category": "uncategorized",
+    "name": "grpc-golang",
+    "description": "Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "haskell-pro",
     "path": "skills/haskell-pro",
     "category": "uncategorized",
@@ -4698,6 +4761,15 @@
     "source": "community"
   },
   {
+    "id": "inventory-demand-planning",
+    "path": "skills/inventory-demand-planning",
+    "category": "uncategorized",
+    "name": "inventory-demand-planning",
+    "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 15+ years experience managing hundreds of SKUs. Includes forecasting method selection, ABC/XYZ analysis, seasonal transition management, and vendor negotiation frameworks. Use when forecasting demand, setting safety stock, planning replenishment, managing promotions, or optimising inventory levels.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
+  },
+  {
     "id": "ios-developer",
     "path": "skills/ios-developer",
     "category": "uncategorized",
@@ -4968,6 +5040,15 @@
     "source": "community"
   },
   {
+    "id": "linkedin-cli",
+    "path": "skills/linkedin-cli",
+    "category": "uncategorized",
+    "name": "linkedin-cli",
+    "description": "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.",
+    "risk": "safe",
+    "source": "community"
+  },
+  {
     "id": "linkerd-patterns",
     "path": "skills/linkerd-patterns",
     "category": "uncategorized",
@@ -5056,6 +5137,15 @@
     "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or ...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "logistics-exception-management",
+    "path": "skills/logistics-exception-management",
+    "category": "uncategorized",
+    "name": "logistics-exception-management",
+    "description": "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Includes escalation protocols, carrier-specific behaviours, claims procedures, and judgment frameworks. Use when handling shipping exceptions, freight claims, delivery issues, or carrier disputes.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
   },
   {
     "id": "loki-mode",
@@ -6129,6 +6219,15 @@
     "source": "community"
   },
   {
+    "id": "production-scheduling",
+    "path": "skills/production-scheduling",
+    "category": "uncategorized",
+    "name": "production-scheduling",
+    "description": "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing. Informed by production schedulers with 15+ years experience. Includes TOC/drum-buffer-rope, SMED, OEE analysis, disruption response frameworks, and ERP/MES interaction patterns. Use when scheduling production, resolving bottlenecks, optimising changeovers, responding to disruptions, or balancing manufacturing lines.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
+  },
+  {
     "id": "programmatic-seo",
     "path": "skills/programmatic-seo",
     "category": "uncategorized",
@@ -6289,6 +6388,15 @@
     "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "quality-nonconformance",
+    "path": "skills/quality-nonconformance",
+    "category": "uncategorized",
+    "name": "quality-nonconformance",
+    "description": "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Informed by quality engineers with 15+ years experience across FDA, IATF 16949, and AS9100 environments. Includes NCR lifecycle management, CAPA systems, SPC interpretation, and audit methodology. Use when investigating non-conformances, performing root cause analysis, managing CAPAs, interpreting SPC data, or handling supplier quality issues.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
   },
   {
     "id": "quant-analyst",
@@ -6505,6 +6613,15 @@
     "description": "An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal impl...",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "returns-reverse-logistics",
+    "path": "skills/returns-reverse-logistics",
+    "category": "uncategorized",
+    "name": "returns-reverse-logistics",
+    "description": "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed by returns operations managers with 15+ years experience. Includes grading frameworks, disposition economics, fraud pattern recognition, and vendor recovery processes. Use when handling product returns, reverse logistics, refund decisions, return fraud detection, or warranty claims.\n",
+    "risk": "safe",
+    "source": "https://github.com/ai-evos/agent-skills"
   },
   {
     "id": "reverse-engineer",

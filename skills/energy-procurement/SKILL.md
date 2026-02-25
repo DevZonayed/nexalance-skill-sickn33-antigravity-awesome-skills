@@ -204,3 +204,11 @@ Track monthly, review quarterly with finance and sustainability:
 - For detailed decision frameworks on procurement strategy, PPA evaluation, hedging, and multi-facility optimization, see [decision-frameworks.md](references/decision-frameworks.md)
 - For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
 - For communication templates covering RFPs, PPA negotiations, rate cases, and internal reporting, see [communication-templates.md](references/communication-templates.md)
+
+## When to Use
+
+Use this skill when you need to **design, audit, or optimise an energy procurement strategy** for commercial or industrial facilities:
+
+- Evaluating fixed vs. index vs. block-and-index contracts, PPAs, or VPPAs.
+- Reducing demand charges, managing capacity tags, or planning DR and battery investments.
+- Preparing RFPs, supplier negotiations, or executive decision memos about multi-site energy strategy, risk, and sustainability tradeoffs.

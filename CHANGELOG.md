@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.3.0] - 2026-02-25 - "Agent Discovery & Operational Excellence"
+
+> **Feature release: AgentFolio discovery skill, LinkedIn CLI automation, Evos operational skills, Andru.ia consulting roles, and hardened validation for new contributors.**
+
+## 🚀 New Skills
+
+- **Agent Discovery**:
+  - `agentfolio` — Skill for discovering and researching autonomous AI agents via [AgentFolio](https://agentfolio.io), used to map the agent ecosystem before building new workflows (fixes Issue #136).
+- **Sales & Outreach**:
+  - `linkedin-cli` — CLI-based LinkedIn automation skill using `@linkedapi/linkedin-cli` for profile enrichment, outreach, Sales Navigator, and workflow execution.
+- **Deployment & Infrastructure**:
+  - `appdeploy` — Chat-native deployment orchestrator for full-stack apps (frontend, backend, cron, DB, storage, auth, notifications) with instant public URLs.
+  - `grpc-golang` (gRPC Go skill) — Production-grade gRPC patterns in Go: mTLS, streaming, observability, and operations playbook.
+- **Operational Domain Expertise (Evos)**:
+  - `logistics-exception-management`, `carrier-relationship-management`, `customs-trade-compliance`,
+    `inventory-demand-planning`, `production-scheduling`, `returns-reverse-logistics`,
+    `energy-procurement`, `quality-nonconformance` — deeply codified operational playbooks for logistics, manufacturing, retail, and energy buyers.
+- **Andru.ia Consulting Roles**:
+  - `00-andruia-consultant` — Spanish-language solutions architect for initial diagnosis and roadmap definition per workspace.
+  - `20-andruia-niche-intelligence` — Spanish-language niche/domain intelligence strategist that injects sector-specific regulations and patterns after the niche is known.
+
+## 📦 Improvements
+
+- **Validation & Quality Bar**:
+  - Normalised `risk:` labels for new skills to conform to the allowed set (`none`, `safe`, `critical`, `offensive`, `unknown`).
+  - Added explicit `## When to Use` sections to new operational and contributor skills to keep the registry strictly compatible with `python3 scripts/validate_skills.py --strict`.
+- **Interactive Web App**:
+  - Auto-updating local web app launcher and **Interactive Prompt Builder** enhancements (PR #137) now ship as part of the v6.3.0 baseline.
+- **Registry**:
+  - Validation Chain (`npm run chain` + `npm run validate:strict`) runs clean at 6.3.0 with all new skills indexed in `skills_index.json`, `data/catalog.json`, and `CATALOG.md`.
+
+## 👥 Credits
+
+- **@bobrenze-bot** for proposing the AgentFolio integration (Issue #136).
+- **@vprudnikoff** for the `linkedin-cli` skill (PR #131).
+- **@Onsraa** for the Bevy ECS documentation update around Require Components (PR #132).
+- **@Abdulrahmansoliman** for the AdaL CLI README instructions (PR #133).
+- **@avimak** for the `appdeploy` deployment skill (PR #134).
+- **@HuynhNhatKhanh** for the gRPC Go production patterns skill (PR #135).
+- **@zinzied** for the auto-updating web app launcher & Interactive Prompt Builder (PR #137).
+- **@nocodemf** for the Evos operational domain skills (PR #138).
+
+---
+
 ## [6.2.0] - 2026-02-24 - "Interactive Web App & AWS IaC"
 
 > **Feature release: Interactive Skills Web App, AWS Infrastructure as Code skills, and Chrome Extension / Cloudflare Workers developer skills.**

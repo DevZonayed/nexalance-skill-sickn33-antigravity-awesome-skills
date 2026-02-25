@@ -240,3 +240,11 @@ Track these metrics monthly and trend quarterly:
 - For detailed decision frameworks, classification logic, and valuation methodology, see [decision-frameworks.md](references/decision-frameworks.md)
 - For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
 - For complete communication templates with variables and formatting guidance, see [communication-templates.md](references/communication-templates.md)
+
+## When to Use
+
+Use this skill when you are **planning, auditing, or remediating customs and trade compliance processes**:
+
+- Classifying products (HS/HTS/TARIC), designing documentation flows, or implementing Incoterms for new trade lanes.
+- Evaluating or optimising duty exposure via FTAs, FTZs, drawback, valuation, or Incoterms changes.
+- Investigating compliance risk, penalty exposure, or restricted‑party screening issues across import/export operations.

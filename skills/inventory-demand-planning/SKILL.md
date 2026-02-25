@@ -224,3 +224,11 @@ Track weekly and trend monthly:
 - For detailed decision frameworks, optimization models, and method selection trees, see [decision-frameworks.md](references/decision-frameworks.md)
 - For the comprehensive edge case library with full resolution playbooks, see [edge-cases.md](references/edge-cases.md)
 - For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
+
+## When to Use
+
+Use this skill when you need to **forecast demand and shape inventory policy across SKUs, stores, and vendors**:
+
+- Selecting and tuning forecasting methods, safety stock policies, and reorder logic for different demand patterns.
+- Planning promotions, seasonal transitions, markdowns, and end‑of‑life strategies while balancing service, cash, and margin.
+- Investigating chronic stockouts, excess inventory, or forecast bias and redesigning the planning process with clearer decision frameworks.

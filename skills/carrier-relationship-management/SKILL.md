@@ -189,3 +189,11 @@ Track weekly, review monthly with carrier management team, share quarterly with 
 - For detailed decision frameworks on rate negotiation, portfolio optimization, and RFP execution, see [decision-frameworks.md](references/decision-frameworks.md)
 - For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
 - For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
+
+## When to Use
+
+Use this skill when you are **designing or tuning your carrier portfolio, routing guides, and freight procurement strategy**:
+
+- Running freight RFPs, renegotiating contract and fuel tables, or balancing spot vs. contract exposure.
+- Building carrier scorecards, exit criteria, and escalation protocols to manage performance and risk.
+- Deciding how to allocate lanes across asset carriers, brokers, and regional specialists to protect service while controlling logistics spend.
