@@ -7,6 +7,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.3.1] - 2026-02-25 - "Validation & Multi-Protocol Hotfix"
+
+> **"Hotfix release to restore missing skills, correct industrial risk labels, and harden validation across the registry."**
+
+This release fixes critical validation errors introduced in previous PRs, ensures full compliance with the strict CI registry checks, and restores two high-demand developer skills.
+
+## 🚀 New Skills
+
+### 🧩 [chrome-extension-developer](skills/chrome-extension-developer/)
+
+**Expert in building Chrome Extensions using Manifest V3.**
+Senior expertise in modern extension architecture, focusing on Manifest V3, service workers, and production-ready security practices.
+
+- **Key Feature 1**: Comprehensive coverage of Manifest V3 service workers and lifecycle.
+- **Key Feature 2**: Production-ready patterns for cross-context message passing.
+
+> **Try it:** `Help me design a Manifest V3 extension that monitors network requests using declarativeNetRequest.`
+
+### ☁️ [cloudflare-workers-expert](skills/cloudflare-workers-expert/)
+
+**Senior expertise for serverless edge computing on Cloudflare.**
+Specialized in edge architectures, performance optimization, and the full Cloudflare developer ecosystem (Wrangler, KV, D1, R2).
+
+- **Key Feature 1**: Optimized patterns for 0ms cold starts and edge-side storage.
+- **Key Feature 2**: Implementation guides for Durable Objects and R2 storage integration.
+
+> **Try it:** `Build a Cloudflare Worker that modifies response headers and caches fragmented data in KV.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 946+ high-performance skills.
+- **Validation Hardening**: Resolved missing "When to Use" sections for 11 critical skills (Andru.ia, Logistics, Energy).
+- **Risk Label Corrections**: Corrected risk levels to `safe` for `linkedin-cli`, `00-andruia-consultant`, and `20-andruia-niche-intelligence`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@itsmeares** for PR #139 validation fixes and "When to Use" improvements.
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
 ## [6.3.0] - 2026-02-25 - "Agent Discovery & Operational Excellence"
 
 > **Feature release: AgentFolio discovery skill, LinkedIn CLI automation, Evos operational skills, Andru.ia consulting roles, and hardened validation for new contributors.**
