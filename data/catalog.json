@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 930,
+  "total": 931,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -358,6 +358,27 @@
         "works"
       ],
       "path": "skills/agent-tool-builder/SKILL.md"
+    },
+    {
+      "id": "agentfolio",
+      "name": "agentfolio",
+      "description": "Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.",
+      "category": "data-ai",
+      "tags": [
+        "agentfolio"
+      ],
+      "triggers": [
+        "agentfolio",
+        "skill",
+        "discovering",
+        "researching",
+        "autonomous",
+        "ai",
+        "agents",
+        "ecosystems",
+        "directory"
+      ],
+      "path": "skills/agentfolio/SKILL.md"
     },
     {
       "id": "agents-v2-py",

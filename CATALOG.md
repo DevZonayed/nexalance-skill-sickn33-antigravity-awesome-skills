@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 930
+Total skills: 931
 
 ## architecture (64)
 
@@ -117,13 +117,14 @@ Total skills: 930
 | `startup-metrics-framework` | This skill should be used when the user asks about \"key startup | startup, metrics, framework | startup, metrics, framework, skill, should, used, user, asks, about, key |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (151)
+## data-ai (152)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
 | `agent-framework-azure-ai-py` | Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgen... | agent, framework, azure, ai, py | agent, framework, azure, ai, py, foundry, agents, microsoft, python, sdk, creating, persistent |
 | `agent-memory-mcp` | A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions). | agent, memory, mcp | agent, memory, mcp, hybrid, provides, persistent, searchable, knowledge, ai, agents, architecture, decisions |
 | `agent-tool-builder` | Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently... | agent, builder | agent, builder, how, ai, agents, interact, world, well, designed, difference, between, works |
+| `agentfolio` | Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory. | agentfolio | agentfolio, skill, discovering, researching, autonomous, ai, agents, ecosystems, directory |
 | `agents-v2-py` | Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition). Use when creating hosted agents with custom container imag... | agents, v2, py | agents, v2, py, container, foundry, azure, ai, sdk, imagebasedhostedagentdefinition, creating, hosted, custom |
 | `ai-agent-development` | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. | ai, agent | ai, agent, development, building, autonomous, agents, multi, orchestration, crewai, langgraph, custom |
 | `ai-agents-architect` | Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build ... | ai, agents | ai, agents, architect, designing, building, autonomous, masters, memory, planning, multi, agent, orchestration |

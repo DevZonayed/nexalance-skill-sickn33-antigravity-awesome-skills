@@ -144,6 +144,15 @@
     "source": "vibeship-spawner-skills (Apache 2.0)"
   },
   {
+    "id": "agentfolio",
+    "path": "skills/agentfolio",
+    "category": "uncategorized",
+    "name": "agentfolio",
+    "description": "Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.",
+    "risk": "unknown",
+    "source": "agentfolio.io"
+  },
+  {
     "id": "agents-v2-py",
     "path": "skills/agents-v2-py",
     "category": "uncategorized",
