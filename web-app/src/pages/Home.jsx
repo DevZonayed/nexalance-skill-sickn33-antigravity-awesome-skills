@@ -1,8 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Book, AlertCircle, ArrowRight } from 'lucide-react';
+import { Search, Filter, Book, AlertCircle, ArrowRight, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { supabase } from '../lib/supabase';
 
 export function Home() {
     const [skills, setSkills] = useState([]);
@@ -10,20 +10,83 @@ export function Home() {
     const [search, setSearch] = useState('');
     const [categoryFilter, setCategoryFilter] = useState('all');
     const [loading, setLoading] = useState(true);
+    const [stars, setStars] = useState({});
 
     useEffect(() => {
-        fetch('/skills.json')
-            .then(res => res.json())
-            .then(data => {
+        const fetchSkillsAndStars = async () => {
+            try {
+                // Fetch basic skill data
+                const res = await fetch('/skills.json');
+                const data = await res.json();
+
                 setSkills(data);
                 setFilteredSkills(data);
-                setLoading(false);
-            })
-            .catch(err => {
+
+                // Fetch star counts if supabase is configured
+                if (supabase) {
+                    const { data: starData, error } = await supabase
+                        .from('skill_stars')
+                        .select('skill_id, star_count');
+
+                    if (!error && starData) {
+                        const starMap = {};
+                        starData.forEach(item => {
+                            starMap[item.skill_id] = item.star_count;
+                        });
+                        setStars(starMap);
+                    }
+                }
+            } catch (err) {
                 console.error("Failed to load skills", err);
+            } finally {
                 setLoading(false);
-            });
+            }
+        };
+
+        fetchSkillsAndStars();
     }, []);
+
+    const handleStarClick = async (e, skillId) => {
+        e.preventDefault(); // Prevent link navigation
+
+        // Basic check to prevent spamming from same browser
+        const storedStars = JSON.parse(localStorage.getItem('user_stars') || '{}');
+        if (storedStars[skillId]) return;
+
+        // Optimistically update UI
+        setStars(prev => ({
+            ...prev,
+            [skillId]: (prev[skillId] || 0) + 1
+        }));
+
+        // Remember locally
+        localStorage.setItem('user_stars', JSON.stringify({
+            ...storedStars,
+            [skillId]: true
+        }));
+
+        if (supabase) {
+            // First try to select existing
+            const { data } = await supabase
+                .from('skill_stars')
+                .select('star_count')
+                .eq('skill_id', skillId)
+                .single();
+
+            if (data) {
+                // Update existing
+                await supabase
+                    .from('skill_stars')
+                    .update({ star_count: data.star_count + 1 })
+                    .eq('skill_id', skillId);
+            } else {
+                // Insert new
+                await supabase
+                    .from('skill_stars')
+                    .insert({ skill_id: skillId, star_count: 1 });
+            }
+        }
+    };
 
     useEffect(() => {
         let result = skills;
@@ -115,6 +178,14 @@ export function Home() {
                                                 {skill.category || 'Uncategorized'}
                                             </span>
                                         </div>
+                                        <button
+                                            onClick={(e) => handleStarClick(e, skill.id)}
+                                            className="flex items-center space-x-1 px-2 py-1 rounded-md bg-slate-50 dark:bg-slate-800/50 hover:bg-yellow-50 dark:hover:bg-yellow-900/20 text-slate-500 hover:text-yellow-600 dark:hover:text-yellow-500 transition-colors border border-slate-200 dark:border-slate-800 z-10"
+                                            title="Upvote skill"
+                                        >
+                                            <Star className={`h-4 w-4 ${JSON.parse(localStorage.getItem('user_stars') || '{}')[skill.id] ? 'fill-yellow-400 stroke-yellow-400' : ''}`} />
+                                            <span className="text-xs font-semibold">{stars[skill.id] || 0}</span>
+                                        </button>
                                     </div>
 
                                     <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors mb-2 line-clamp-1">

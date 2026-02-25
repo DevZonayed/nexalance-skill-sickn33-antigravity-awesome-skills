@@ -1,8 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
-import { ArrowLeft, Copy, Check, FileCode, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Star } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 
 export function SkillDetail() {
     const { id } = useParams();
@@ -13,43 +13,87 @@ export function SkillDetail() {
     const [copiedFull, setCopiedFull] = useState(false);
     const [error, setError] = useState(null);
     const [customContext, setCustomContext] = useState('');
+    const [starCount, setStarCount] = useState(0);
 
     useEffect(() => {
-        // 1. Fetch index to get skill metadata and path
-        fetch('/skills.json')
-            .then(res => res.json())
-            .then(skills => {
+        // Fetch index and stars in parallel when possible
+        const loadData = async () => {
+            try {
+                // 1. Fetch index to get skill metadata and path
+                const res = await fetch('/skills.json');
+                const skills = await res.json();
                 const foundSkill = skills.find(s => s.id === id);
+
                 if (foundSkill) {
                     setSkill(foundSkill);
+
+                    // Fetch star count
+                    if (supabase) {
+                        const { data } = await supabase
+                            .from('skill_stars')
+                            .select('star_count')
+                            .eq('skill_id', id)
+                            .single();
+
+                        if (data) {
+                            setStarCount(data.star_count);
+                        }
+                    }
+
                     // 2. Fetch the actual markdown content
-                    // The path in JSON is like "skills/category/name"
-                    // We mapped it to "/skills/..." in public folder
-                    // Remove "skills/" prefix if it exists in path to avoid double
                     const cleanPath = foundSkill.path.startsWith('skills/')
                         ? foundSkill.path.replace('skills/', '')
                         : foundSkill.path;
 
-                    fetch(`/skills/${cleanPath}/SKILL.md`)
-                        .then(res => {
-                            if (!res.ok) throw new Error('Skill file not found');
-                            return res.text();
-                        })
-                        .then(text => {
-                            setContent(text);
-                            setLoading(false);
-                        })
-                        .catch(err => {
-                            console.error("Failed to load skill content", err);
-                            setError("Could not load skill content. File might be missing.");
-                            setLoading(false);
-                        });
+                    const mdRes = await fetch(`/skills/${cleanPath}/SKILL.md`);
+                    if (!mdRes.ok) throw new Error('Skill file not found');
+
+                    const text = await mdRes.text();
+                    setContent(text);
                 } else {
                     setError("Skill not found in registry.");
-                    setLoading(false);
                 }
-            });
+            } catch (err) {
+                console.error("Failed to load skill data", err);
+                setError(err.message || "Could not load skill content.");
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        loadData();
     }, [id]);
+
+    const handleStarClick = async () => {
+        const storedStars = JSON.parse(localStorage.getItem('user_stars') || '{}');
+        if (storedStars[id]) return;
+
+        // Optimistic UI updates
+        setStarCount(prev => prev + 1);
+        localStorage.setItem('user_stars', JSON.stringify({
+            ...storedStars,
+            [id]: true
+        }));
+
+        if (supabase) {
+            const { data } = await supabase
+                .from('skill_stars')
+                .select('star_count')
+                .eq('skill_id', id)
+                .single();
+
+            if (data) {
+                await supabase
+                    .from('skill_stars')
+                    .update({ star_count: data.star_count + 1 })
+                    .eq('skill_id', id);
+            } else {
+                await supabase
+                    .from('skill_stars')
+                    .insert({ skill_id: id, star_count: 1 });
+            }
+        }
+    };
 
     const copyToClipboard = () => {
         const basePrompt = `Use @${skill.name}`;
@@ -112,6 +156,13 @@ export function SkillDetail() {
                                         {skill.source}
                                     </span>
                                 )}
+                                <button
+                                    onClick={handleStarClick}
+                                    className="flex items-center space-x-1.5 px-3 py-1 bg-yellow-50 dark:bg-yellow-900/10 hover:bg-yellow-100 dark:hover:bg-yellow-900/30 text-yellow-700 dark:text-yellow-500 rounded-full text-xs font-bold border border-yellow-200 dark:border-yellow-700/50 transition-colors"
+                                >
+                                    <Star className={`h-3.5 w-3.5 ${JSON.parse(localStorage.getItem('user_stars') || '{}')[id] ? 'fill-yellow-500 stroke-yellow-500' : ''}`} />
+                                    <span>{starCount} Upvotes</span>
+                                </button>
                             </div>
                             <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-slate-50 tracking-tight">
                                 @{skill.name}
