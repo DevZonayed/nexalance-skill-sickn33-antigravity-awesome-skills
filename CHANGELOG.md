@@ -13,20 +13,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 🚀 New Skills
 
-- **Agent Discovery**:
-  - `agentfolio` — Skill for discovering and researching autonomous AI agents via [AgentFolio](https://agentfolio.io), used to map the agent ecosystem before building new workflows (fixes Issue #136).
-- **Sales & Outreach**:
-  - `linkedin-cli` — CLI-based LinkedIn automation skill using `@linkedapi/linkedin-cli` for profile enrichment, outreach, Sales Navigator, and workflow execution.
-- **Deployment & Infrastructure**:
-  - `appdeploy` — Chat-native deployment orchestrator for full-stack apps (frontend, backend, cron, DB, storage, auth, notifications) with instant public URLs.
-  - `grpc-golang` (gRPC Go skill) — Production-grade gRPC patterns in Go: mTLS, streaming, observability, and operations playbook.
-- **Operational Domain Expertise (Evos)**:
-  - `logistics-exception-management`, `carrier-relationship-management`, `customs-trade-compliance`,
-    `inventory-demand-planning`, `production-scheduling`, `returns-reverse-logistics`,
-    `energy-procurement`, `quality-nonconformance` — deeply codified operational playbooks for logistics, manufacturing, retail, and energy buyers.
-- **Andru.ia Consulting Roles**:
-  - `00-andruia-consultant` — Spanish-language solutions architect for initial diagnosis and roadmap definition per workspace.
-  - `20-andruia-niche-intelligence` — Spanish-language niche/domain intelligence strategist that injects sector-specific regulations and patterns after the niche is known.
+### 🔍 [agentfolio](skills/agentfolio/)
+
+**Discover and research autonomous AI agents.**
+Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
+
+- **Key Feature 1**: Discover agents for specific use cases.
+- **Key Feature 2**: Collect concrete examples and benchmarks for agent capabilities.
+
+> **Try it:** `Use AgentFolio to find 3 autonomous AI agents focused on code review.`
+
+### 💼 [linkedin-cli](skills/linkedin-cli/)
+
+**Automate LinkedIn operations via CLI.**
+CLI-based LinkedIn automation skill using `@linkedapi/linkedin-cli` for profile enrichment, outreach, Sales Navigator, and workflow execution.
+
+- **Key Feature 1**: Fetch profiles and search people/companies.
+- **Key Feature 2**: Manage connections and send messages via Sales Navigator.
+
+> **Try it:** `Use linkedin-cli to search for PMs in San Francisco.`
+
+### 🚀 [appdeploy](skills/appdeploy/)
+
+**Deploy full-stack web apps.**
+Deploy web apps with backend APIs, database, and file storage via an HTTP API to get an instant public URL.
+
+- **Key Feature 1**: Chat-native deployment orchestrator.
+- **Key Feature 2**: Support for frontend-only and frontend+backend architectures.
+
+> **Try it:** `Deploy this React-Vite dashboard using appdeploy.`
+
+### 🐹 [grpc-golang](skills/grpc-golang/)
+
+**Production-grade gRPC patterns in Go.**
+Build robust microservices communication using Protobuf with mTLS, streaming, and observability configurations.
+
+- **Key Feature 1**: Standardize API contracts with Protobuf and Buf.
+- **Key Feature 2**: Implement service-to-service authentication and structured metrics.
+
+> **Try it:** `Use grpc-golang to define a user service streaming endpoint with mTLS.`
+
+### 📦 [logistics-exception-management](skills/logistics-exception-management/)
+
+**Expertise for handling freight and carrier disputes.**
+Deeply codified operational playbook for handling shipping exceptions, delays, damages, and claims. Part of the Evos operational domain expertise suite. Additional skills: `carrier-relationship-management`, `customs-trade-compliance`, `inventory-demand-planning`, `production-scheduling`, `returns-reverse-logistics`, `energy-procurement`, `quality-nonconformance`.
+
+- **Key Feature 1**: Provides escalation protocols and severity classification for exceptions.
+- **Key Feature 2**: Delivers templates and decision frameworks for claim management across various delivery modes.
+
+> **Try it:** `We have a delayed LTL shipment for a key customer, how should we handle it per logistics-exception-management?`
+
+### 🏗️ [00-andruia-consultant](skills/00-andruia-consultant/)
+
+**Spanish-language solutions architect.**
+Diagnóstica y traza la hoja de ruta óptima para proyectos de IA en español. Additional skills: `20-andruia-niche-intelligence`.
+
+- **Key Feature 1**: Proporciona entrevistas de diagnóstico para proyectos desde cero o existentes.
+- **Key Feature 2**: Propone el escuadrón de expertos necesario y genera artefactos de backlog en español.
+
+> **Try it:** `Actúa como 00-andruia-consultant y diagnostica este nuevo workspace.`
 
 ## 📦 Improvements
 
