@@ -106,7 +106,17 @@ export function Home() {
         setFilteredSkills(result);
     }, [search, categoryFilter, skills]);
 
-    const categories = ['all', ...new Set(skills.map(s => s.category).filter(Boolean))];
+    // Sort categories by count (most skills first), with 'uncategorized' at the end
+    const categoryStats = {};
+    skills.forEach(skill => {
+        categoryStats[skill.category] = (categoryStats[skill.category] || 0) + 1;
+    });
+
+    const categories = ['all', ...Object.keys(categoryStats)
+        .filter(cat => cat !== 'uncategorized')
+        .sort((a, b) => categoryStats[b] - categoryStats[a]),
+        ...(categoryStats['uncategorized'] ? ['uncategorized'] : [])
+    ];
 
     return (
         <div className="space-y-8">
@@ -136,7 +146,12 @@ export function Home() {
                         onChange={(e) => setCategoryFilter(e.target.value)}
                     >
                         {categories.map(cat => (
-                            <option key={cat} value={cat}>{cat.charAt(0).toUpperCase() + cat.slice(1)}</option>
+                            <option key={cat} value={cat}>
+                                {cat === 'all' 
+                                    ? 'All Categories' 
+                                    : `${cat.charAt(0).toUpperCase() + cat.slice(1)} (${categoryStats[cat] || 0})`
+                                }
+                            </option>
                         ))}
                     </select>
                 </div>
