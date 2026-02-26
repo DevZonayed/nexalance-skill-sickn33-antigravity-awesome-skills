@@ -73,6 +73,7 @@ goto :DEPS_OK
 
 :INSTALL_DEPS
 call npm install
+call npm install @supabase/supabase-js
 if %ERRORLEVEL% NEQ 0 (
     echo [ERROR] Failed to install dependencies. Please check your internet connection.
     pause
