@@ -147,13 +147,18 @@ export function SkillDetail() {
                 <div className="p-6 sm:p-8 border-b border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-950/50">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                         <div>
-                            <div className="flex items-center space-x-3 mb-2">
+                            <div className="flex items-center space-x-3 mb-2 flex-wrap gap-2">
                                 <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400 uppercase tracking-wide">
                                     {skill.category}
                                 </span>
                                 {skill.source && (
                                     <span className="px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
                                         {skill.source}
+                                    </span>
+                                )}
+                                {skill.date_added && (
+                                    <span className="px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/50 dark:text-green-400">
+                                        📅 Added {skill.date_added}
                                     </span>
                                 )}
                                 <button

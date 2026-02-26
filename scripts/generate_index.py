@@ -1,8 +1,15 @@
 import os
 import json
 import re
+import sys
 
 import yaml
+
+# Ensure UTF-8 output for Windows compatibility
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def parse_frontmatter(content):
     """
@@ -59,7 +66,8 @@ def generate_index(skills_dir, output_file):
                 "name": dir_name.replace("-", " ").title(),
                 "description": "",
                 "risk": "unknown",
-                "source": "unknown"
+                "source": "unknown",
+                "date_added": None
             }
             
             try:
@@ -77,6 +85,7 @@ def generate_index(skills_dir, output_file):
             if "description" in metadata: skill_info["description"] = metadata["description"]
             if "risk" in metadata: skill_info["risk"] = metadata["risk"]
             if "source" in metadata: skill_info["source"] = metadata["source"]
+            if "date_added" in metadata: skill_info["date_added"] = metadata["date_added"]
             
             # Fallback for description if missing in frontmatter (legacy support)
             if not skill_info["description"]:

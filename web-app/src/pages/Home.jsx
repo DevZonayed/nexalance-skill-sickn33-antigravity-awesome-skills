@@ -196,7 +196,14 @@ export function Home() {
                                         {skill.description}
                                     </p>
 
-                                    <div className="flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 pt-4 mt-auto border-t border-slate-100 dark:border-slate-800 group-hover:translate-x-1 transition-transform">
+                                    <div className="flex items-center justify-between text-xs text-slate-400 dark:text-slate-500 mb-3 pb-3 border-b border-slate-100 dark:border-slate-800">
+                                        <span>Risk: <span className="font-semibold text-slate-600 dark:text-slate-300">{skill.risk || 'unknown'}</span></span>
+                                        {skill.date_added && (
+                                            <span className="ml-2">📅 {skill.date_added}</span>
+                                        )}
+                                    </div>
+
+                                    <div className="flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 pt-2 mt-auto group-hover:translate-x-1 transition-transform">
                                         Read Skill <ArrowRight className="ml-1 h-4 w-4" />
                                     </div>
                                 </Link>
