@@ -7,6 +7,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.4.1] - 2026-02-27 - "Temporal & Convex Backend Hotfix"
+
+> **Hotfix release: Temporal Go expert skill, Convex reactive backend, and strict-compliant SEO incident/local audit fixes.**
+
+This release builds on 6.4.0 by adding a Temporal Go SDK pro skill, a comprehensive Convex reactive backend skill, and aligning the new SEO incident/local audit skills with the strict validation rules so they ship cleanly via npm.
+
+## 🚀 New Skills
+
+### ⏱️ [temporal-golang-pro](skills/temporal-golang-pro/)
+
+**Temporal Go SDK expert for durable distributed systems.**
+Guides production-grade Temporal Go usage with deterministic workflow rules, mTLS worker configuration, interceptors, testing strategies, and advanced patterns.
+
+- **Key Feature 1**: Covers workflow determinism, versioning, durable concurrency and long-running workflow patterns.
+- **Key Feature 2**: Provides mTLS-secure worker setup, interceptors, and replay/time-skipping test strategies.
+
+> **Try it:** `Use temporal-golang-pro to design a durable subscription billing workflow with safe versioning and mTLS workers.`
+
+### 🔄 [convex](skills/convex/)
+
+**Convex reactive backend for schema, functions, and real-time apps.**
+Full-stack backend skill covering Convex schema design, TypeScript query/mutation/action functions, real-time subscriptions, auth, file storage, scheduling, and deployment flows.
+
+- **Key Feature 1**: End-to-end examples for schema validators, function types, pagination and client integration.
+- **Key Feature 2**: Documents auth options (Convex Auth, Clerk, Better Auth) and operational patterns (cron, storage, environments).
+
+> **Try it:** `Use convex to design a schema and function set for a real-time dashboard with authenticated users and file uploads.`
+
+## 📦 Improvements
+
+- **Strict SEO Skills Compliance**:
+  - `seo-forensic-incident-response` and `local-legal-seo-audit` now include `## When to Use` sections and concise descriptions, and use `risk: safe`, fully passing `validate_skills.py --strict`.
+- **Catalog & Index Sync**:
+  - Updated `CATALOG.md`, `data/catalog.json`, `skills_index.json`, `data/bundles.json`, `data/aliases.json`, and `README.md` to track **950+ skills**, including `temporal-golang-pro`, `convex`, and the new SEO skills.
+
+## 👥 Credits
+
+- **@HuynhNhatKhanh** for the Temporal Go SDK expert skill (`temporal-golang-pro`, PR #148).
+- **@chauey** for the Convex reactive backend skill (`convex`, PR #152).
+- **@talesperito** for the SEO forensic incident response and local legal SEO skills and collaboration on the strict-compliant refinements (PRs #153 / #154).
+
+---
+
 ## [6.4.0] - 2026-02-27 - "SEO Incident Response & Legal Local Audit"
 
 > **Focused release: specialized SEO incident response and legal local SEO audit skills, plus catalog sync.**
