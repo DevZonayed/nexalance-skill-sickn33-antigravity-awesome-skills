@@ -2,7 +2,9 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
+import rehypeHighlight from 'rehype-highlight';
 import { ArrowLeft, Copy, Check, FileCode, AlertTriangle } from 'lucide-react';
+import 'highlight.js/styles/github-dark.css';
 
 export function SkillDetail() {
     const { id } = useParams();
@@ -157,8 +159,8 @@ export function SkillDetail() {
                 </div>
 
                 <div className="p-6 sm:p-8">
-                    <div className="prose prose-slate dark:prose-invert max-w-none">
-                        <Markdown>{content}</Markdown>
+                    <div className="prose prose-slate dark:prose-invert max-w-none prose-code:before:content-none prose-code:after:content-none">
+                        <Markdown rehypePlugins={[rehypeHighlight]}>{content}</Markdown>
                     </div>
                 </div>
             </div>

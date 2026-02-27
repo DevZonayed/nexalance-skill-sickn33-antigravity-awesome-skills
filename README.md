@@ -351,21 +351,52 @@ We have moved the full skill registry to a dedicated catalog to keep this README
 
 ### 🌐 Interactive Skills Web App
 
-You can now easily search, filter, and discover the perfect skills for your agent using our local Web App.
+A modern web interface to explore, search, and use the 950+ skills directly from your browser.
 
-To launch the app:
+#### ✨ Features
 
-1. Double-click the `START_APP.bat` file in the root directory (Windows) or run it from your terminal.
-2. The app will automatically configure everything and open in your default browser.
+- 🔍 **Full-text search** – Search skills by name, description, or content
+- 🏷️ **Category filters** – Frontend, Backend, Security, DevOps, etc.
+- 📝 **Markdown rendering** – View complete documentation with syntax highlighting
+- 📋 **Copy buttons** – Copy `@skill-name` or full content in 1 click
+- 🛠️ **Prompt Builder** – Add custom context before copying
+- 🌙 **Dark mode** – Adaptive light/dark interface
+- ⚡ **Auto-update** – Automatically syncs with upstream repo
 
-#### 🛠️ New: Interactive Prompt Builder
+#### 🚀 Quick Start
 
-The web app is no longer just a static catalog! When you click on any skill, you will see an **Interactive Prompt Builder** box.
-Instead of manually copying `@skill-name` and writing your requirements separately in your IDE:
+**Windows:**
+```bash
+# Double-click or terminal
+START_APP.bat
+```
 
-1. Type your specific project constraints into the text box (e.g., "Use React 19 and Tailwind").
-2. Click **Copy Prompt**.
-3. Your clipboard now has a fully formatted, ready-to-run prompt combining the skill invocation and your custom context!
+**macOS/Linux:**
+```bash
+# 1. Install dependencies (first time)
+cd web-app && npm install
+
+# 2. Setup assets and launch
+npm run app:dev
+```
+
+**Available npm commands:**
+```bash
+npm run app:setup      # Copy skills to web-app/public/
+npm run app:dev        # Start dev server
+npm run app:build      # Production build
+npm run app:preview    # Preview production build
+```
+
+The app automatically opens at `http://localhost:5173` (or alternative port).
+
+#### 🛠️ Prompt Builder
+
+On each skill page you'll find the **Prompt Builder**:
+1. Write specific requirements (e.g., "Use React 19, TypeScript and Tailwind")
+2. Click **Copy Prompt** – copies `@skill-name + context`
+3. Or **Copy Full Content** – copies the full documentation
+4. Paste into your AI assistant (Claude, Cursor, Gemini, etc.)
 
 👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
