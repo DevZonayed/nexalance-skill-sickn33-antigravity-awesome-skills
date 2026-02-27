@@ -7,6 +7,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.4.0] - 2026-02-27 - "SEO Incident Response & Legal Local Audit"
+
+> **Focused release: specialized SEO incident response and legal local SEO audit skills, plus catalog sync.**
+
+This release adds two advanced SEO skills for handling organic traffic incidents and auditing legal/professional services sites, and updates the public catalog to keep discovery aligned with the registry.
+
+## 🚀 New Skills
+
+### 🧪 [seo-forensic-incident-response](skills/seo-forensic-incident-response/)
+
+**Forensic SEO incident response for sudden organic traffic or rankings drops.**
+Guides structured triage, hypothesis-driven investigation, evidence collection and phased recovery plans using GSC, analytics, logs and deployment history.
+
+- **Key Feature 1**: Classifies incidents across algorithmic, technical, manual action, content and demand-change buckets.
+- **Key Feature 2**: Produces a forensic report with 0–3 day, 3–14 day and 2–8 week action plans plus monitoring.
+
+> **Try it:** `We lost 40% of organic traffic last week. Use seo-forensic-incident-response to investigate and propose a recovery plan.`
+
+### ⚖️ [local-legal-seo-audit](skills/local-legal-seo-audit/)
+
+**Local SEO auditing for law firms and legal/professional services.**
+Specialized audit framework for YMYL legal sites covering GBP, E‑E‑A‑T, practice area pages, NAP consistency, legal directories and reputation.
+
+- **Key Feature 1**: Step‑by‑step GBP, directory and NAP audit tailored to legal practices.
+- **Key Feature 2**: Generates a prioritized action plan and content strategy for legal/local search.
+
+> **Try it:** `Audit the local SEO of this law firm website using local-legal-seo-audit and propose the top 10 fixes.`
+
+## 📦 Improvements
+
+- **Catalog Sync**: Updated `CATALOG.md` and `data/catalog.json` to track 947 skills and include `10-andruia-skill-smith` in the general category listing.
+- **Documentation**: README now references the MojoAuth implementation skill in the integrations list.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@talesperito** for the SEO forensic incident response and legal local SEO audit skills (PRs #153 / #154).
+- **@developer-victor** for the MojoAuth implementation README integration (PR #149).
+
+---
+
 ## [6.3.1] - 2026-02-25 - "Validation & Multi-Protocol Hotfix"
 
 > **"Hotfix release to restore missing skills, correct industrial risk labels, and harden validation across the registry."**
