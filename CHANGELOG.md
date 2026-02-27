@@ -7,6 +7,72 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.5.0] - 2026-02-27 - "Community & Experience"
+
+> **Major UX upgrade: Stars feature, auto-updates, interactive prompts, and complete date tracking for all 950+ skills.**
+
+This release introduces significant community-driven enhancements to the web application alongside comprehensive metadata improvements. Users can now upvote skills, build contextual prompts interactively, and benefit from automatic skill updates. All skills now include date tracking for better discoverability.
+
+## 🚀 New Features
+
+### ⭐ Stars & Community Upvotes
+
+**Community-driven skill discovery with star/upvote system.**
+
+- Upvote skills you find valuable — visible to all users
+- Star counts persist via Supabase backend
+- One upvote per browser (localStorage deduplication)
+- Discover popular skills through community ratings
+
+> **Try it:** Browse to any skill and click the ⭐ button to upvote!
+
+### 🔄 Auto-Update Mechanism
+
+**Seamless skill updates via START_APP.bat.**
+
+- Automatic skill synchronization on app startup
+- Git-based fast updates when available
+- PowerShell HTTPS fallback for non-Git environments
+- Surgical updates — only `/skills/` folder to avoid conflicts
+
+> **Try it:** Run `START_APP.bat` to automatically fetch the latest 950+ skills!
+
+### 🛠️ Interactive Prompt Builder
+
+**Build contextual prompts directly in skill detail pages.**
+
+- Add custom context to any skill (e.g., "Use React 19 and Tailwind")
+- Copy formatted prompt with skill invocation + your context
+- Copy full skill content with context overlay
+- Streamlined workflow for AI assistant interactions
+
+> **Try it:** Visit any skill, add context in the text box, click "Copy @Skill"!
+
+### 📅 Date Tracking for All Skills
+
+**Complete `date_added` metadata across the entire registry.**
+
+- All 950+ skills now include `date_added` field
+- Visible badges in skill detail pages
+- Filter and sort by recency
+- Better discoverability of new capabilities
+
+## 📦 Improvements
+
+- **Smart Auto-Categorization**: Categories sorted by skill count with "uncategorized" at the end
+- **Category Stats**: Dropdown shows skill count per category
+- **Enhanced Home Page**: Risk level badges and date display on skill cards
+- **Complete Date Coverage**: All skills updated with `date_added` metadata
+- **Web App Dependencies**: Automatic `@supabase/supabase-js` installation
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@zinzied** for the comprehensive UX enhancement (Stars, Auto-Update, Prompt Builder, Date Tracking, Auto-Categorization — PR #150)
+
+---
+
 ## [6.4.1] - 2026-02-27 - "Temporal & Convex Backend Hotfix"
 
 > **Hotfix release: Temporal Go expert skill, Convex reactive backend, and strict-compliant SEO incident/local audit fixes.**
