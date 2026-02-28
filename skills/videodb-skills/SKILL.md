@@ -1,6 +1,6 @@
 ---
 name: videodb-skills
-description: "The only video skill your agent needs — upload any video, connect real-time streams, search inside by what was said or shown, build complex editing workflows with overlays, generate AI media, add subtitles, and get instant streaming links."
+description: "Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK."
 category: media
 risk: safe
 source: community
@@ -55,51 +55,58 @@ pip install "videodb[capture]" python-dotenv
 
 ## Capabilities
 
-| Capability | Description |
-|---|---|
-| Upload | Ingest videos from YouTube, URLs, or local files |
-| Search | Find moments by speech (semantic/keyword) or visual scenes |
-| Transcripts | Generate timestamped transcripts from any video |
-| Edit | Combine clips, trim, add text/image/audio overlays |
-| Subtitles | Auto-generate and style subtitles |
-| AI Generate | Create images, video, music, sound effects, and voiceovers from text |
-| Capture | Real-time screen and audio capture with AI transcription |
-| Transcode | Change resolution, quality, aspect ratio, or reframe for social platforms |
-| Stream | Get playable HLS links for anything you build |
+| Capability  | Description                                                               |
+| ----------- | ------------------------------------------------------------------------- |
+| Upload      | Ingest videos from YouTube, URLs, or local files                          |
+| Search      | Find moments by speech (semantic/keyword) or visual scenes                |
+| Transcripts | Generate timestamped transcripts from any video                           |
+| Edit        | Combine clips, trim, add text/image/audio overlays                        |
+| Subtitles   | Auto-generate and style subtitles                                         |
+| AI Generate | Create images, video, music, sound effects, and voiceovers from text      |
+| Capture     | Real-time screen and audio capture with AI transcription                  |
+| Transcode   | Change resolution, quality, aspect ratio, or reframe for social platforms |
+| Stream      | Get playable HLS links for anything you build                             |
 
 ## Examples
 
 **Upload and transcribe:**
+
 ```
 "Upload https://www.youtube.com/watch?v=FgrO9ADPZSA and give me a transcript"
 ```
 
 **Search across videos:**
+
 ```
 "Search for 'product demo' in my latest video"
 ```
 
 **Add subtitles:**
+
 ```
 "Add subtitles with white text on black background"
 ```
 
 **Multi-clip editing:**
+
 ```
 "Take clips from 10s-30s and 45s-60s, add a title card, and combine them"
 ```
 
 **AI media generation:**
+
 ```
 "Generate background music and overlay it on my video"
 ```
 
 **Real-time capture:**
+
 ```
 "Capture my screen and transcribe it in real-time"
 ```
 
 **Reframe for social:**
+
 ```
 "Convert this to vertical for Instagram Reels"
 ```

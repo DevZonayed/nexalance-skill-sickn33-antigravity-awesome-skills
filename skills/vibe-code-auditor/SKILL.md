@@ -1,7 +1,7 @@
 ---
 name: vibe-code-auditor
-description: When the user wants to audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. Use when code was written by AI tools, evolved without deliberate architecture, or needs to transition from prototype to production. Triggers include "review my code", "is this production-ready", "audit this codebase", "check for technical debt", or when the user shares code and asks for a quality assessment. For general SEO audits, see seo-audit. For incident response, see seo-forensic-incident-response.
-risk: low
+description: Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+risk: safe
 source: original
 metadata:
   version: 1.0.0
@@ -47,24 +47,28 @@ Evaluate the code across all seven dimensions below. For each finding, record: t
 **Do not invent findings. Do not report issues you cannot substantiate from the code provided.**
 
 ### 1. Architecture & Design
+
 - Separation of concerns violations (e.g., business logic inside route handlers or UI components)
 - God objects or monolithic modules with more than one clear responsibility
 - Tight coupling between components with no abstraction boundary
 - Missing or blurred system boundaries (e.g., database queries scattered across layers)
 
 ### 2. Consistency & Maintainability
+
 - Naming inconsistencies (e.g., `get_user` vs `fetchUser` vs `retrieveUserData` for the same operation)
 - Mixed paradigms without justification (e.g., OOP and procedural code interleaved arbitrarily)
 - Copy-paste logic that should be extracted into a shared function
 - Abstractions that obscure rather than clarify intent
 
 ### 3. Robustness & Error Handling
+
 - Missing input validation on entry points (HTTP handlers, CLI args, file reads)
 - Bare `except` or catch-all error handlers that swallow failures silently
 - Unhandled edge cases (empty collections, null/None returns, zero values)
 - Code that assumes external services always succeed without fallback logic
 
 ### 4. Production Risks
+
 - Hardcoded configuration values (URLs, credentials, timeouts, thresholds)
 - Missing structured logging or observability hooks
 - Unbounded loops, missing pagination, or N+1 query patterns
@@ -72,12 +76,14 @@ Evaluate the code across all seven dimensions below. For each finding, record: t
 - No graceful shutdown or cleanup on process exit
 
 ### 5. Security & Safety
+
 - Unsanitized user input passed to databases, shells, file paths, or `eval`
 - Credentials, API keys, or tokens present in source code or logs
 - Insecure defaults (e.g., `DEBUG=True`, permissive CORS, no rate limiting)
 - Trust boundary violations (e.g., treating external data as internal without validation)
 
 ### 6. Dead or Hallucinated Code
+
 - Functions, classes, or modules that are defined but never called
 - Imports that do not exist in the declared dependencies
 - References to APIs, methods, or fields that do not exist in the used library version
@@ -85,6 +91,7 @@ Evaluate the code across all seven dimensions below. For each finding, record: t
 - Comments that describe behavior inconsistent with the code
 
 ### 7. Technical Debt Hotspots
+
 - Logic that is correct today but will break under realistic load or scale
 - Deep nesting (more than 3-4 levels) that obscures control flow
 - Boolean parameter flags that change function behavior (use separate functions instead)
@@ -109,6 +116,7 @@ Produce the audit report using exactly this structure. Do not omit sections. If 
 Problems that will or are very likely to cause failures, data loss, security incidents, or severe maintenance breakdown.
 
 For each issue:
+
 ```
 [CRITICAL] Short descriptive title
 Location: filename.py, line 42 (or "multiple locations" with examples)
@@ -135,15 +143,16 @@ Score: XX / 100
 
 Provide a score using the rubric below, then write 2-3 sentences justifying it with specific reference to the most impactful findings.
 
-| Range | Meaning |
-|-------|--------|
-| 0-30 | Not deployable. Critical failures are likely under normal use. |
-| 31-50 | High risk. Significant rework required before any production exposure. |
-| 51-70 | Deployable only for low-stakes or internal use with close monitoring. |
-| 71-85 | Production-viable with targeted fixes. Known risks are bounded. |
-| 86-100 | Production-ready. Minor improvements only. |
+| Range  | Meaning                                                                |
+| ------ | ---------------------------------------------------------------------- |
+| 0-30   | Not deployable. Critical failures are likely under normal use.         |
+| 31-50  | High risk. Significant rework required before any production exposure. |
+| 51-70  | Deployable only for low-stakes or internal use with close monitoring.  |
+| 71-85  | Production-viable with targeted fixes. Known risks are bounded.        |
+| 86-100 | Production-ready. Minor improvements only.                             |
 
 Score deductions:
+
 - Each Critical issue: -10 to -20 points depending on blast radius
 - Each High issue: -5 to -10 points
 - Pervasive maintainability debt (3+ Medium issues in one dimension): -5 points
@@ -177,8 +186,8 @@ Effort scale: S = < 1 day, M = 1-3 days, L = > 3 days.
 Before auditing, if not already provided, ask:
 
 1. **Code or files**: Share the source code to audit. Accepted: single file, multiple files, directory listing, or snippet.
-2. **Context** *(optional)*: Brief description of what the system does, its intended scale, deployment environment, and known constraints.
-3. **Target environment** *(optional)*: Target runtime (e.g., production web service, CLI tool, data pipeline). Used to calibrate risk severity.
+2. **Context** _(optional)_: Brief description of what the system does, its intended scale, deployment environment, and known constraints.
+3. **Target environment** _(optional)_: Target runtime (e.g., production web service, CLI tool, data pipeline). Used to calibrate risk severity.
 
 ---
 
