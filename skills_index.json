@@ -330,6 +330,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "android_ui_verification",
+    "path": "skills/android_ui_verification",
+    "category": "uncategorized",
+    "name": "android_ui_verification",
+    "description": "Automated end-to-end UI testing and verification on an Android Emulator using ADB.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "angular",
     "path": "skills/angular",
     "category": "uncategorized",
