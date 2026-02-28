@@ -53,6 +53,7 @@ A huge shoutout to our community contributors:
 - **@kromahlusenii-ops** for `hierarchical-agent-memory`
 - **@0xrohitgarg** for `videodb-skills`
 - **@nedcodes-ok** for `rule-porter` addition
+- **@acbhatt12** for `README.md` improvements (PR #162)
 
 ---
 
