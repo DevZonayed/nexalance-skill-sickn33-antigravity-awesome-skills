@@ -569,6 +569,8 @@ We officially thank the following contributors for their help in making this rep
 - [@zinzied](https://github.com/zinzied)
 - [@code-vj](https://github.com/code-vj)
 - [@thuanlm](https://github.com/thuanlm)
+- [@shmlkv](https://github.com/shmlkv)
+- [@kriptoburak](https://github.com/kriptoburak)
 
 ---
 
