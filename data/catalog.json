@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 956,
+  "total": 968,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -1222,6 +1222,314 @@
         "real"
       ],
       "path": "skills/api-testing-observability-api-mock/SKILL.md"
+    },
+    {
+      "id": "apify-actor-development",
+      "name": "apify-actor-development",
+      "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "actor"
+      ],
+      "triggers": [
+        "apify",
+        "actor",
+        "development",
+        "develop",
+        "debug",
+        "deploy",
+        "actors",
+        "serverless",
+        "cloud",
+        "programs",
+        "web",
+        "scraping"
+      ],
+      "path": "skills/apify-actor-development/SKILL.md"
+    },
+    {
+      "id": "apify-actorization",
+      "name": "apify-actorization",
+      "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "actorization"
+      ],
+      "triggers": [
+        "apify",
+        "actorization",
+        "convert",
+        "existing",
+        "actors",
+        "serverless",
+        "cloud",
+        "programs",
+        "actorize",
+        "javascript",
+        "typescript",
+        "sdk"
+      ],
+      "path": "skills/apify-actorization/SKILL.md"
+    },
+    {
+      "id": "apify-audience-analysis",
+      "name": "apify-audience-analysis",
+      "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
+      "category": "architecture",
+      "tags": [
+        "apify",
+        "audience"
+      ],
+      "triggers": [
+        "apify",
+        "audience",
+        "analysis",
+        "understand",
+        "demographics",
+        "preferences",
+        "behavior",
+        "engagement",
+        "quality",
+        "facebook",
+        "instagram",
+        "youtube"
+      ],
+      "path": "skills/apify-audience-analysis/SKILL.md"
+    },
+    {
+      "id": "apify-brand-reputation-monitoring",
+      "name": "apify-brand-reputation-monitoring",
+      "description": "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "brand",
+        "reputation",
+        "monitoring"
+      ],
+      "triggers": [
+        "apify",
+        "brand",
+        "reputation",
+        "monitoring",
+        "track",
+        "reviews",
+        "ratings",
+        "sentiment",
+        "mentions",
+        "google",
+        "maps",
+        "booking"
+      ],
+      "path": "skills/apify-brand-reputation-monitoring/SKILL.md"
+    },
+    {
+      "id": "apify-competitor-intelligence",
+      "name": "apify-competitor-intelligence",
+      "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+      "category": "business",
+      "tags": [
+        "apify",
+        "competitor",
+        "intelligence"
+      ],
+      "triggers": [
+        "apify",
+        "competitor",
+        "intelligence",
+        "analyze",
+        "content",
+        "pricing",
+        "ads",
+        "market",
+        "positioning",
+        "google",
+        "maps",
+        "booking"
+      ],
+      "path": "skills/apify-competitor-intelligence/SKILL.md"
+    },
+    {
+      "id": "apify-content-analytics",
+      "name": "apify-content-analytics",
+      "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "content",
+        "analytics"
+      ],
+      "triggers": [
+        "apify",
+        "content",
+        "analytics",
+        "track",
+        "engagement",
+        "metrics",
+        "measure",
+        "campaign",
+        "roi",
+        "analyze",
+        "performance",
+        "instagram"
+      ],
+      "path": "skills/apify-content-analytics/SKILL.md"
+    },
+    {
+      "id": "apify-ecommerce",
+      "name": "apify-ecommerce",
+      "description": "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi...",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "ecommerce"
+      ],
+      "triggers": [
+        "apify",
+        "ecommerce",
+        "scrape",
+        "commerce",
+        "data",
+        "pricing",
+        "intelligence",
+        "customer",
+        "reviews",
+        "seller",
+        "discovery",
+        "amazon"
+      ],
+      "path": "skills/apify-ecommerce/SKILL.md"
+    },
+    {
+      "id": "apify-influencer-discovery",
+      "name": "apify-influencer-discovery",
+      "description": "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
+      "category": "workflow",
+      "tags": [
+        "apify",
+        "influencer",
+        "discovery"
+      ],
+      "triggers": [
+        "apify",
+        "influencer",
+        "discovery",
+        "find",
+        "evaluate",
+        "influencers",
+        "brand",
+        "partnerships",
+        "verify",
+        "authenticity",
+        "track",
+        "collaboration"
+      ],
+      "path": "skills/apify-influencer-discovery/SKILL.md"
+    },
+    {
+      "id": "apify-lead-generation",
+      "name": "apify-lead-generation",
+      "description": "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis...",
+      "category": "general",
+      "tags": [
+        "apify",
+        "lead",
+        "generation"
+      ],
+      "triggers": [
+        "apify",
+        "lead",
+        "generation",
+        "generates",
+        "b2b",
+        "b2c",
+        "leads",
+        "scraping",
+        "google",
+        "maps",
+        "websites",
+        "instagram"
+      ],
+      "path": "skills/apify-lead-generation/SKILL.md"
+    },
+    {
+      "id": "apify-market-research",
+      "name": "apify-market-research",
+      "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+      "category": "business",
+      "tags": [
+        "apify",
+        "market",
+        "research"
+      ],
+      "triggers": [
+        "apify",
+        "market",
+        "research",
+        "analyze",
+        "conditions",
+        "geographic",
+        "opportunities",
+        "pricing",
+        "consumer",
+        "behavior",
+        "product",
+        "validation"
+      ],
+      "path": "skills/apify-market-research/SKILL.md"
+    },
+    {
+      "id": "apify-trend-analysis",
+      "name": "apify-trend-analysis",
+      "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+      "category": "general",
+      "tags": [
+        "apify",
+        "trend"
+      ],
+      "triggers": [
+        "apify",
+        "trend",
+        "analysis",
+        "discover",
+        "track",
+        "emerging",
+        "trends",
+        "google",
+        "instagram",
+        "facebook",
+        "youtube",
+        "tiktok"
+      ],
+      "path": "skills/apify-trend-analysis/SKILL.md"
+    },
+    {
+      "id": "apify-ultimate-scraper",
+      "name": "apify-ultimate-scraper",
+      "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener...",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "ultimate",
+        "scraper"
+      ],
+      "triggers": [
+        "apify",
+        "ultimate",
+        "scraper",
+        "universal",
+        "ai",
+        "powered",
+        "web",
+        "any",
+        "platform",
+        "scrape",
+        "data",
+        "instagram"
+      ],
+      "path": "skills/apify-ultimate-scraper/SKILL.md"
     },
     {
       "id": "app-builder",

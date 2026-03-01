@@ -2,14 +2,15 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 956
+Total skills: 968
 
-## architecture (66)
+## architecture (67)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
 | `angular` | Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns. | angular | angular, v20, deep, knowledge, signals, standalone, components, zoneless, applications, ssr, hydration, reactive |
 | `angular-state-management` | Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solu... | angular, state | angular, state, signals, ngrx, rxjs, setting, up, global, managing, component, stores, choosing |
+| `apify-audience-analysis` | Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok. | apify, audience | apify, audience, analysis, understand, demographics, preferences, behavior, engagement, quality, facebook, instagram, youtube |
 | `architect-review` | Master software architect specializing in modern architecture |  | architect, review, software, specializing, architecture |
 | `architecture` | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing ... | architecture | architecture, architectural, decision, making, framework, requirements, analysis, trade, off, evaluation, adr, documentation |
 | `architecture-decision-records` | Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant techn... | architecture, decision, records | architecture, decision, records, write, maintain, adrs, following, technical, documentation, documenting, significant, decisions |
@@ -75,10 +76,12 @@ Total skills: 956
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (41)
+## business (43)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `apify-competitor-intelligence` | Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok. | apify, competitor, intelligence | apify, competitor, intelligence, analyze, content, pricing, ads, market, positioning, google, maps, booking |
+| `apify-market-research` | Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com,... | apify, market, research | apify, market, research, analyze, conditions, geographic, opportunities, pricing, consumer, behavior, product, validation |
 | `competitive-landscape` | This skill should be used when the user asks to \\\"analyze competitors", "assess competitive landscape", "identify differentiation", "evaluate market positi... | competitive, landscape | competitive, landscape, skill, should, used, user, asks, analyze, competitors, assess, identify, differentiation |
 | `competitor-alternatives` | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'v... | competitor, alternatives | competitor, alternatives, user, wants, comparison, alternative, pages, seo, sales, enablement, mentions, page |
 | `conductor-setup` | Initialize project with Conductor artifacts (product definition,
@@ -129,7 +132,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `startup-financial-modeling` | This skill should be used when the user asks to \\\"create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "est... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (174)
+## data-ai (177)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -147,6 +150,9 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `analytics-tracking` | Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. | analytics, tracking | analytics, tracking, audit, improve, produce, reliable, decision, data |
 | `angular-ui-patterns` | Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component ... | angular, ui | angular, ui, loading, states, error, handling, data, display, building, components, async, managing |
 | `api-documenter` | Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build com... | api, documenter | api, documenter, documentation, openapi, ai, powered, developer, experience, interactive, docs, generate, sdks |
+| `apify-content-analytics` | Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok. | apify, content, analytics | apify, content, analytics, track, engagement, metrics, measure, campaign, roi, analyze, performance, instagram |
+| `apify-ecommerce` | Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when us... | apify, ecommerce | apify, ecommerce, scrape, commerce, data, pricing, intelligence, customer, reviews, seller, discovery, amazon |
+| `apify-ultimate-scraper` | Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.... | apify, ultimate, scraper | apify, ultimate, scraper, universal, ai, powered, web, any, platform, scrape, data, instagram |
 | `appdeploy` | Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses ... | appdeploy | appdeploy, deploy, web, apps, backend, apis, database, file, storage, user, asks, publish |
 | `audio-transcriber` | Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration | [audio, transcription, whisper, meeting-minutes, speech-to-text] | [audio, transcription, whisper, meeting-minutes, speech-to-text], audio, transcriber, transform, recordings, professional, markdown, documentation |
 | `autonomous-agent-patterns` | Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use ... | autonomous, agent | autonomous, agent, building, coding, agents, covers, integration, permission, browser, automation, human, loop |
@@ -460,7 +466,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (187)
+## general (189)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -473,6 +479,8 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `angular-best-practices` | Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and... | angular, best, practices | angular, best, practices, performance, optimization, writing, reviewing, refactoring, code, optimal, bundle, size |
 | `angular-migration` | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applicat... | angular, migration | angular, migration, migrate, angularjs, hybrid, mode, incremental, component, rewriting, dependency, injection, updates |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
+| `apify-lead-generation` | Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find lead... | apify, lead, generation | apify, lead, generation, generates, b2b, b2c, leads, scraping, google, maps, websites, instagram |
+| `apify-trend-analysis` | Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy. | apify, trend | apify, trend, analysis, discover, track, emerging, trends, google, instagram, facebook, youtube, tiktok |
 | `app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordina... | app, builder | app, builder, main, application, building, orchestrator, creates, full, stack, applications, natural, language |
 | `app-builder/templates` | Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. | app, builder/templates | app, builder/templates, scaffolding, new, applications, creating, scratch, contains, 12, various, tech, stacks |
 | `arm-cortex-expert` | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). | arm, cortex | arm, cortex, senior, embedded, software, engineer, specializing, firmware, driver, development, microcontrollers, teensy |
@@ -652,13 +660,16 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (111)
+## infrastructure (114)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
 | `agent-evaluation` | Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents... | agent, evaluation | agent, evaluation, testing, benchmarking, llm, agents, including, behavioral, capability, assessment, reliability, metrics |
 | `airflow-dag-patterns` | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating wor... | airflow, dag | airflow, dag, apache, dags, operators, sensors, testing, deployment, creating, data, pipelines, orchestrating |
 | `api-testing-observability-api-mock` | You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and e... | api, observability, mock | api, observability, mock, testing, mocking, specializing, realistic, development, demos, mocks, simulate, real |
+| `apify-actor-development` | Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifyin... | apify, actor | apify, actor, development, develop, debug, deploy, actors, serverless, cloud, programs, web, scraping |
+| `apify-actorization` | Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context man... | apify, actorization | apify, actorization, convert, existing, actors, serverless, cloud, programs, actorize, javascript, typescript, sdk |
+| `apify-brand-reputation-monitoring` | Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user a... | apify, brand, reputation, monitoring | apify, brand, reputation, monitoring, track, reviews, ratings, sentiment, mentions, google, maps, booking |
 | `application-performance-performance-optimization` | Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across... | application, performance, optimization | application, performance, optimization, optimize, profiling, observability, backend, frontend, tuning, coordinating, stack |
 | `aws-serverless` | Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns... | aws, serverless | aws, serverless, specialized, skill, building, applications, covers, lambda, functions, api, gateway, dynamodb |
 | `aws-skills` | AWS development with infrastructure automation and cloud architecture patterns | aws, skills | aws, skills, development, infrastructure, automation, cloud, architecture |
@@ -930,7 +941,7 @@ behavior. Use proactively when encountering any issues. | debugger | debugger, d
 | `wordpress-penetration-testing` | This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugi... | wordpress, penetration | wordpress, penetration, testing, skill, should, used, user, asks, pentest, sites, scan, vulnerabilities |
 | `xss-html-injection` | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exp... | xss, html, injection | xss, html, injection, skill, should, used, user, asks, test, vulnerabilities, perform, cross |
 
-## workflow (86)
+## workflow (87)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -939,6 +950,7 @@ behavior. Use proactively when encountering any issues. | debugger | debugger, d
 | `agent-orchestration-multi-agent-optimize` | Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughpu... | agent, multi, optimize | agent, multi, optimize, orchestration, coordinated, profiling, workload, distribution, cost, aware, improving, performance |
 | `airtable-automation` | Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas. | airtable | airtable, automation, automate, tasks, via, rube, mcp, composio, records, bases, tables, fields |
 | `amplitude-automation` | Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas. | amplitude | amplitude, automation, automate, tasks, via, rube, mcp, composio, events, user, activity, cohorts |
+| `apify-influencer-discovery` | Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok. | apify, influencer, discovery | apify, influencer, discovery, find, evaluate, influencers, brand, partnerships, verify, authenticity, track, collaboration |
 | `asana-automation` | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas. | asana | asana, automation, automate, tasks, via, rube, mcp, composio, sections, teams, workspaces, always |
 | `automate-whatsapp` | Build WhatsApp automations with Kapso workflows: configure WhatsApp triggers, edit workflow graphs, manage executions, deploy functions, and use databases/in... | automate, whatsapp | automate, whatsapp, automations, kapso, configure, triggers, edit, graphs, executions, deploy, functions, databases |
 | `bamboohr-automation` | Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas. | bamboohr | bamboohr, automation, automate, tasks, via, rube, mcp, composio, employees, time, off, benefits |
