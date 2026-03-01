@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 956,
+  "total": 966,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -27,33 +27,6 @@
         "ia"
       ],
       "path": "skills/00-andruia-consultant/SKILL.md"
-    },
-    {
-      "id": "10-andruia-skill-smith",
-      "name": "10-andruia-skill-smith",
-      "description": "Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante.",
-      "category": "general",
-      "tags": [
-        "10",
-        "andruia",
-        "skill",
-        "smith"
-      ],
-      "triggers": [
-        "10",
-        "andruia",
-        "skill",
-        "smith",
-        "ingeniero",
-        "de",
-        "sistemas",
-        "andru",
-        "ia",
-        "dise",
-        "redacta",
-        "despliega"
-      ],
-      "path": "skills/10-andruia-skill-smith/SKILL.md"
     },
     {
       "id": "20-andruia-niche-intelligence",
@@ -538,24 +511,14 @@
     {
       "id": "ai-engineer",
       "name": "ai-engineer",
-      "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "ai"
       ],
       "triggers": [
         "ai",
-        "engineer",
-        "llm",
-        "applications",
-        "rag",
-        "intelligent",
-        "agents",
-        "implements",
-        "vector",
-        "search",
-        "multimodal",
-        "agent"
+        "engineer"
       ],
       "path": "skills/ai-engineer/SKILL.md"
     },
@@ -587,7 +550,7 @@
     {
       "id": "ai-product",
       "name": "ai-product",
-      "description": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production. This skill covers LLM integration patterns, RAG architecture, prompt ...",
+      "description": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt ...",
       "category": "data-ai",
       "tags": [
         "ai",
@@ -759,7 +722,7 @@
     {
       "id": "analytics-tracking",
       "name": "analytics-tracking",
-      "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "analytics",
@@ -767,13 +730,7 @@
       ],
       "triggers": [
         "analytics",
-        "tracking",
-        "audit",
-        "improve",
-        "produce",
-        "reliable",
-        "decision",
-        "data"
+        "tracking"
       ],
       "path": "skills/analytics-tracking/SKILL.md"
     },
@@ -825,24 +782,13 @@
     {
       "id": "angular",
       "name": "angular",
-      "description": "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.",
-      "category": "architecture",
+      "description": "",
+      "category": "general",
       "tags": [
         "angular"
       ],
       "triggers": [
-        "angular",
-        "v20",
-        "deep",
-        "knowledge",
-        "signals",
-        "standalone",
-        "components",
-        "zoneless",
-        "applications",
-        "ssr",
-        "hydration",
-        "reactive"
+        "angular"
       ],
       "path": "skills/angular/SKILL.md"
     },
@@ -1072,25 +1018,15 @@
     {
       "id": "api-documenter",
       "name": "api-documenter",
-      "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "api",
         "documenter"
       ],
       "triggers": [
         "api",
-        "documenter",
-        "documentation",
-        "openapi",
-        "ai",
-        "powered",
-        "developer",
-        "experience",
-        "interactive",
-        "docs",
-        "generate",
-        "sdks"
+        "documenter"
       ],
       "path": "skills/api-documenter/SKILL.md"
     },
@@ -1222,6 +1158,314 @@
         "real"
       ],
       "path": "skills/api-testing-observability-api-mock/SKILL.md"
+    },
+    {
+      "id": "apify-actor-development",
+      "name": "apify-actor-development",
+      "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "actor"
+      ],
+      "triggers": [
+        "apify",
+        "actor",
+        "development",
+        "develop",
+        "debug",
+        "deploy",
+        "actors",
+        "serverless",
+        "cloud",
+        "programs",
+        "web",
+        "scraping"
+      ],
+      "path": "skills/apify-actor-development/SKILL.md"
+    },
+    {
+      "id": "apify-actorization",
+      "name": "apify-actorization",
+      "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "actorization"
+      ],
+      "triggers": [
+        "apify",
+        "actorization",
+        "convert",
+        "existing",
+        "actors",
+        "serverless",
+        "cloud",
+        "programs",
+        "actorize",
+        "javascript",
+        "typescript",
+        "sdk"
+      ],
+      "path": "skills/apify-actorization/SKILL.md"
+    },
+    {
+      "id": "apify-audience-analysis",
+      "name": "apify-audience-analysis",
+      "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
+      "category": "architecture",
+      "tags": [
+        "apify",
+        "audience"
+      ],
+      "triggers": [
+        "apify",
+        "audience",
+        "analysis",
+        "understand",
+        "demographics",
+        "preferences",
+        "behavior",
+        "engagement",
+        "quality",
+        "facebook",
+        "instagram",
+        "youtube"
+      ],
+      "path": "skills/apify-audience-analysis/SKILL.md"
+    },
+    {
+      "id": "apify-brand-reputation-monitoring",
+      "name": "apify-brand-reputation-monitoring",
+      "description": "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze...",
+      "category": "infrastructure",
+      "tags": [
+        "apify",
+        "brand",
+        "reputation",
+        "monitoring"
+      ],
+      "triggers": [
+        "apify",
+        "brand",
+        "reputation",
+        "monitoring",
+        "track",
+        "reviews",
+        "ratings",
+        "sentiment",
+        "mentions",
+        "google",
+        "maps",
+        "booking"
+      ],
+      "path": "skills/apify-brand-reputation-monitoring/SKILL.md"
+    },
+    {
+      "id": "apify-competitor-intelligence",
+      "name": "apify-competitor-intelligence",
+      "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+      "category": "business",
+      "tags": [
+        "apify",
+        "competitor",
+        "intelligence"
+      ],
+      "triggers": [
+        "apify",
+        "competitor",
+        "intelligence",
+        "analyze",
+        "content",
+        "pricing",
+        "ads",
+        "market",
+        "positioning",
+        "google",
+        "maps",
+        "booking"
+      ],
+      "path": "skills/apify-competitor-intelligence/SKILL.md"
+    },
+    {
+      "id": "apify-content-analytics",
+      "name": "apify-content-analytics",
+      "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "content",
+        "analytics"
+      ],
+      "triggers": [
+        "apify",
+        "content",
+        "analytics",
+        "track",
+        "engagement",
+        "metrics",
+        "measure",
+        "campaign",
+        "roi",
+        "analyze",
+        "performance",
+        "instagram"
+      ],
+      "path": "skills/apify-content-analytics/SKILL.md"
+    },
+    {
+      "id": "apify-ecommerce",
+      "name": "apify-ecommerce",
+      "description": "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi...",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "ecommerce"
+      ],
+      "triggers": [
+        "apify",
+        "ecommerce",
+        "scrape",
+        "commerce",
+        "data",
+        "pricing",
+        "intelligence",
+        "customer",
+        "reviews",
+        "seller",
+        "discovery",
+        "amazon"
+      ],
+      "path": "skills/apify-ecommerce/SKILL.md"
+    },
+    {
+      "id": "apify-influencer-discovery",
+      "name": "apify-influencer-discovery",
+      "description": "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
+      "category": "workflow",
+      "tags": [
+        "apify",
+        "influencer",
+        "discovery"
+      ],
+      "triggers": [
+        "apify",
+        "influencer",
+        "discovery",
+        "find",
+        "evaluate",
+        "influencers",
+        "brand",
+        "partnerships",
+        "verify",
+        "authenticity",
+        "track",
+        "collaboration"
+      ],
+      "path": "skills/apify-influencer-discovery/SKILL.md"
+    },
+    {
+      "id": "apify-lead-generation",
+      "name": "apify-lead-generation",
+      "description": "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis...",
+      "category": "general",
+      "tags": [
+        "apify",
+        "lead",
+        "generation"
+      ],
+      "triggers": [
+        "apify",
+        "lead",
+        "generation",
+        "generates",
+        "b2b",
+        "b2c",
+        "leads",
+        "scraping",
+        "google",
+        "maps",
+        "websites",
+        "instagram"
+      ],
+      "path": "skills/apify-lead-generation/SKILL.md"
+    },
+    {
+      "id": "apify-market-research",
+      "name": "apify-market-research",
+      "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+      "category": "business",
+      "tags": [
+        "apify",
+        "market",
+        "research"
+      ],
+      "triggers": [
+        "apify",
+        "market",
+        "research",
+        "analyze",
+        "conditions",
+        "geographic",
+        "opportunities",
+        "pricing",
+        "consumer",
+        "behavior",
+        "product",
+        "validation"
+      ],
+      "path": "skills/apify-market-research/SKILL.md"
+    },
+    {
+      "id": "apify-trend-analysis",
+      "name": "apify-trend-analysis",
+      "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+      "category": "general",
+      "tags": [
+        "apify",
+        "trend"
+      ],
+      "triggers": [
+        "apify",
+        "trend",
+        "analysis",
+        "discover",
+        "track",
+        "emerging",
+        "trends",
+        "google",
+        "instagram",
+        "facebook",
+        "youtube",
+        "tiktok"
+      ],
+      "path": "skills/apify-trend-analysis/SKILL.md"
+    },
+    {
+      "id": "apify-ultimate-scraper",
+      "name": "apify-ultimate-scraper",
+      "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener...",
+      "category": "data-ai",
+      "tags": [
+        "apify",
+        "ultimate",
+        "scraper"
+      ],
+      "triggers": [
+        "apify",
+        "ultimate",
+        "scraper",
+        "universal",
+        "ai",
+        "powered",
+        "web",
+        "any",
+        "platform",
+        "scrape",
+        "data",
+        "instagram"
+      ],
+      "path": "skills/apify-ultimate-scraper/SKILL.md"
     },
     {
       "id": "app-builder",
@@ -1440,7 +1684,7 @@
     {
       "id": "arm-cortex-expert",
       "name": "arm-cortex-expert",
-      "description": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).",
+      "description": "",
       "category": "general",
       "tags": [
         "arm",
@@ -1448,17 +1692,7 @@
       ],
       "triggers": [
         "arm",
-        "cortex",
-        "senior",
-        "embedded",
-        "software",
-        "engineer",
-        "specializing",
-        "firmware",
-        "driver",
-        "development",
-        "microcontrollers",
-        "teensy"
+        "cortex"
       ],
       "path": "skills/arm-cortex-expert/SKILL.md"
     },
@@ -1877,7 +2111,7 @@
     {
       "id": "azure-ai-agents-persistent-dotnet",
       "name": "azure-ai-agents-persistent-dotnet",
-      "description": "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -1891,21 +2125,14 @@
         "ai",
         "agents",
         "persistent",
-        "dotnet",
-        "sdk",
-        "net",
-        "low",
-        "level",
-        "creating",
-        "managing",
-        "threads"
+        "dotnet"
       ],
       "path": "skills/azure-ai-agents-persistent-dotnet/SKILL.md"
     },
     {
       "id": "azure-ai-agents-persistent-java",
       "name": "azure-ai-agents-persistent-java",
-      "description": "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -1919,14 +2146,7 @@
         "ai",
         "agents",
         "persistent",
-        "java",
-        "sdk",
-        "low",
-        "level",
-        "creating",
-        "managing",
-        "threads",
-        "messages"
+        "java"
       ],
       "path": "skills/azure-ai-agents-persistent-java/SKILL.md"
     },
@@ -1987,7 +2207,7 @@
     {
       "id": "azure-ai-contentsafety-py",
       "name": "azure-ai-contentsafety-py",
-      "description": "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -1999,15 +2219,7 @@
         "azure",
         "ai",
         "contentsafety",
-        "py",
-        "content",
-        "safety",
-        "sdk",
-        "python",
-        "detecting",
-        "harmful",
-        "text",
-        "images"
+        "py"
       ],
       "path": "skills/azure-ai-contentsafety-py/SKILL.md"
     },
@@ -2041,7 +2253,7 @@
     {
       "id": "azure-ai-contentunderstanding-py",
       "name": "azure-ai-contentunderstanding-py",
-      "description": "Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2053,22 +2265,14 @@
         "azure",
         "ai",
         "contentunderstanding",
-        "py",
-        "content",
-        "understanding",
-        "sdk",
-        "python",
-        "multimodal",
-        "extraction",
-        "documents",
-        "images"
+        "py"
       ],
       "path": "skills/azure-ai-contentunderstanding-py/SKILL.md"
     },
     {
       "id": "azure-ai-document-intelligence-dotnet",
       "name": "azure-ai-document-intelligence-dotnet",
-      "description": "Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2082,14 +2286,7 @@
         "ai",
         "document",
         "intelligence",
-        "dotnet",
-        "sdk",
-        "net",
-        "extract",
-        "text",
-        "tables",
-        "structured",
-        "data"
+        "dotnet"
       ],
       "path": "skills/azure-ai-document-intelligence-dotnet/SKILL.md"
     },
@@ -2151,7 +2348,7 @@
     {
       "id": "azure-ai-ml-py",
       "name": "azure-ai-ml-py",
-      "description": "Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2163,22 +2360,14 @@
         "azure",
         "ai",
         "ml",
-        "py",
-        "machine",
-        "learning",
-        "sdk",
-        "v2",
-        "python",
-        "workspaces",
-        "jobs",
-        "models"
+        "py"
       ],
       "path": "skills/azure-ai-ml-py/SKILL.md"
     },
     {
       "id": "azure-ai-openai-dotnet",
       "name": "azure-ai-openai-dotnet",
-      "description": "Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2190,22 +2379,14 @@
         "azure",
         "ai",
         "openai",
-        "dotnet",
-        "sdk",
-        "net",
-        "client",
-        "library",
-        "chat",
-        "completions",
-        "embeddings",
-        "image"
+        "dotnet"
       ],
       "path": "skills/azure-ai-openai-dotnet/SKILL.md"
     },
     {
       "id": "azure-ai-projects-dotnet",
       "name": "azure-ai-projects-dotnet",
-      "description": "Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2215,23 +2396,14 @@
       "triggers": [
         "azure",
         "ai",
-        "dotnet",
-        "sdk",
-        "net",
-        "high",
-        "level",
-        "client",
-        "foundry",
-        "including",
-        "agents",
-        "connections"
+        "dotnet"
       ],
       "path": "skills/azure-ai-projects-dotnet/SKILL.md"
     },
     {
       "id": "azure-ai-projects-java",
       "name": "azure-ai-projects-java",
-      "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2241,16 +2413,7 @@
       "triggers": [
         "azure",
         "ai",
-        "java",
-        "sdk",
-        "high",
-        "level",
-        "foundry",
-        "including",
-        "connections",
-        "datasets",
-        "indexes",
-        "evaluations"
+        "java"
       ],
       "path": "skills/azure-ai-projects-java/SKILL.md"
     },
@@ -2309,7 +2472,7 @@
     {
       "id": "azure-ai-textanalytics-py",
       "name": "azure-ai-textanalytics-py",
-      "description": "Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2321,22 +2484,14 @@
         "azure",
         "ai",
         "textanalytics",
-        "py",
-        "text",
-        "analytics",
-        "sdk",
-        "sentiment",
-        "analysis",
-        "entity",
-        "recognition",
-        "key"
+        "py"
       ],
       "path": "skills/azure-ai-textanalytics-py/SKILL.md"
     },
     {
       "id": "azure-ai-transcription-py",
       "name": "azure-ai-transcription-py",
-      "description": "Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2348,22 +2503,14 @@
         "azure",
         "ai",
         "transcription",
-        "py",
-        "sdk",
-        "python",
-        "real",
-        "time",
-        "batch",
-        "speech",
-        "text",
-        "timestamps"
+        "py"
       ],
       "path": "skills/azure-ai-transcription-py/SKILL.md"
     },
     {
       "id": "azure-ai-translation-document-py",
       "name": "azure-ai-translation-document-py",
-      "description": "Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2377,21 +2524,14 @@
         "ai",
         "translation",
         "document",
-        "py",
-        "sdk",
-        "batch",
-        "documents",
-        "format",
-        "preservation",
-        "translating",
-        "word"
+        "py"
       ],
       "path": "skills/azure-ai-translation-document-py/SKILL.md"
     },
     {
       "id": "azure-ai-translation-text-py",
       "name": "azure-ai-translation-text-py",
-      "description": "Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2405,14 +2545,7 @@
         "ai",
         "translation",
         "text",
-        "py",
-        "sdk",
-        "real",
-        "time",
-        "transliteration",
-        "language",
-        "detection",
-        "dictionary"
+        "py"
       ],
       "path": "skills/azure-ai-translation-text-py/SKILL.md"
     },
@@ -2474,7 +2607,7 @@
     {
       "id": "azure-ai-vision-imageanalysis-py",
       "name": "azure-ai-vision-imageanalysis-py",
-      "description": "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2488,21 +2621,14 @@
         "ai",
         "vision",
         "imageanalysis",
-        "py",
-        "image",
-        "analysis",
-        "sdk",
-        "captions",
-        "tags",
-        "objects",
-        "ocr"
+        "py"
       ],
       "path": "skills/azure-ai-vision-imageanalysis-py/SKILL.md"
     },
     {
       "id": "azure-ai-voicelive-dotnet",
       "name": "azure-ai-voicelive-dotnet",
-      "description": "Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2514,22 +2640,14 @@
         "azure",
         "ai",
         "voicelive",
-        "dotnet",
-        "voice",
-        "live",
-        "sdk",
-        "net",
-        "real",
-        "time",
-        "applications",
-        "bidirectional"
+        "dotnet"
       ],
       "path": "skills/azure-ai-voicelive-dotnet/SKILL.md"
     },
     {
       "id": "azure-ai-voicelive-java",
       "name": "azure-ai-voicelive-java",
-      "description": "Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2541,15 +2659,7 @@
         "azure",
         "ai",
         "voicelive",
-        "java",
-        "sdk",
-        "real",
-        "time",
-        "bidirectional",
-        "voice",
-        "conversations",
-        "assistants",
-        "websocket"
+        "java"
       ],
       "path": "skills/azure-ai-voicelive-java/SKILL.md"
     },
@@ -2583,7 +2693,7 @@
     {
       "id": "azure-ai-voicelive-ts",
       "name": "azure-ai-voicelive-ts",
-      "description": "Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2595,22 +2705,14 @@
         "azure",
         "ai",
         "voicelive",
-        "ts",
-        "voice",
-        "live",
-        "sdk",
-        "javascript",
-        "typescript",
-        "real",
-        "time",
-        "applications"
+        "ts"
       ],
       "path": "skills/azure-ai-voicelive-ts/SKILL.md"
     },
     {
       "id": "azure-appconfiguration-java",
       "name": "azure-appconfiguration-java",
-      "description": "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -2620,24 +2722,15 @@
       "triggers": [
         "azure",
         "appconfiguration",
-        "java",
-        "app",
-        "configuration",
-        "sdk",
-        "centralized",
-        "application",
-        "key",
-        "value",
-        "settings",
-        "feature"
+        "java"
       ],
       "path": "skills/azure-appconfiguration-java/SKILL.md"
     },
     {
       "id": "azure-appconfiguration-py",
       "name": "azure-appconfiguration-py",
-      "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "appconfiguration",
@@ -2646,16 +2739,7 @@
       "triggers": [
         "azure",
         "appconfiguration",
-        "py",
-        "app",
-        "configuration",
-        "sdk",
-        "python",
-        "centralized",
-        "feature",
-        "flags",
-        "dynamic",
-        "settings"
+        "py"
       ],
       "path": "skills/azure-appconfiguration-py/SKILL.md"
     },
@@ -2823,7 +2907,7 @@
     {
       "id": "azure-compute-batch-java",
       "name": "azure-compute-batch-java",
-      "description": "Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -2835,23 +2919,15 @@
         "azure",
         "compute",
         "batch",
-        "java",
-        "sdk",
-        "run",
-        "large",
-        "scale",
-        "parallel",
-        "hpc",
-        "jobs",
-        "pools"
+        "java"
       ],
       "path": "skills/azure-compute-batch-java/SKILL.md"
     },
     {
       "id": "azure-containerregistry-py",
       "name": "azure-containerregistry-py",
-      "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "containerregistry",
@@ -2860,15 +2936,7 @@
       "triggers": [
         "azure",
         "containerregistry",
-        "py",
-        "container",
-        "registry",
-        "sdk",
-        "python",
-        "managing",
-        "images",
-        "artifacts",
-        "repositories"
+        "py"
       ],
       "path": "skills/azure-containerregistry-py/SKILL.md"
     },
@@ -2902,8 +2970,8 @@
     {
       "id": "azure-cosmos-java",
       "name": "azure-cosmos-java",
-      "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "cosmos",
@@ -2912,24 +2980,15 @@
       "triggers": [
         "azure",
         "cosmos",
-        "java",
-        "db",
-        "sdk",
-        "nosql",
-        "database",
-        "operations",
-        "global",
-        "distribution",
-        "multi",
-        "model"
+        "java"
       ],
       "path": "skills/azure-cosmos-java/SKILL.md"
     },
     {
       "id": "azure-cosmos-py",
       "name": "azure-cosmos-py",
-      "description": "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "cosmos",
@@ -2938,24 +2997,15 @@
       "triggers": [
         "azure",
         "cosmos",
-        "py",
-        "db",
-        "sdk",
-        "python",
-        "nosql",
-        "api",
-        "document",
-        "crud",
-        "queries",
-        "containers"
+        "py"
       ],
       "path": "skills/azure-cosmos-py/SKILL.md"
     },
     {
       "id": "azure-cosmos-rust",
       "name": "azure-cosmos-rust",
-      "description": "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "cosmos",
@@ -2964,24 +3014,15 @@
       "triggers": [
         "azure",
         "cosmos",
-        "rust",
-        "db",
-        "sdk",
-        "nosql",
-        "api",
-        "document",
-        "crud",
-        "queries",
-        "containers",
-        "globally"
+        "rust"
       ],
       "path": "skills/azure-cosmos-rust/SKILL.md"
     },
     {
       "id": "azure-cosmos-ts",
       "name": "azure-cosmos-ts",
-      "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "cosmos",
@@ -2990,16 +3031,7 @@
       "triggers": [
         "azure",
         "cosmos",
-        "ts",
-        "db",
-        "javascript",
-        "typescript",
-        "sdk",
-        "data",
-        "plane",
-        "operations",
-        "crud",
-        "documents"
+        "ts"
       ],
       "path": "skills/azure-cosmos-ts/SKILL.md"
     },
@@ -3033,7 +3065,7 @@
     {
       "id": "azure-data-tables-py",
       "name": "azure-data-tables-py",
-      "description": "Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -3045,22 +3077,14 @@
         "azure",
         "data",
         "tables",
-        "py",
-        "sdk",
-        "python",
-        "storage",
-        "cosmos",
-        "db",
-        "nosql",
-        "key",
-        "value"
+        "py"
       ],
       "path": "skills/azure-data-tables-py/SKILL.md"
     },
     {
       "id": "azure-eventgrid-dotnet",
       "name": "azure-eventgrid-dotnet",
-      "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3070,16 +3094,7 @@
       "triggers": [
         "azure",
         "eventgrid",
-        "dotnet",
-        "event",
-        "grid",
-        "sdk",
-        "net",
-        "client",
-        "library",
-        "publishing",
-        "consuming",
-        "events"
+        "dotnet"
       ],
       "path": "skills/azure-eventgrid-dotnet/SKILL.md"
     },
@@ -3112,8 +3127,8 @@
     {
       "id": "azure-eventgrid-py",
       "name": "azure-eventgrid-py",
-      "description": "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "eventgrid",
@@ -3122,23 +3137,14 @@
       "triggers": [
         "azure",
         "eventgrid",
-        "py",
-        "event",
-        "grid",
-        "sdk",
-        "python",
-        "publishing",
-        "events",
-        "handling",
-        "cloudevents",
-        "driven"
+        "py"
       ],
       "path": "skills/azure-eventgrid-py/SKILL.md"
     },
     {
       "id": "azure-eventhub-dotnet",
       "name": "azure-eventhub-dotnet",
-      "description": "Azure Event Hubs SDK for .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3148,11 +3154,7 @@
       "triggers": [
         "azure",
         "eventhub",
-        "dotnet",
-        "event",
-        "hubs",
-        "sdk",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-eventhub-dotnet/SKILL.md"
     },
@@ -3185,8 +3187,8 @@
     {
       "id": "azure-eventhub-py",
       "name": "azure-eventhub-py",
-      "description": "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "eventhub",
@@ -3195,24 +3197,15 @@
       "triggers": [
         "azure",
         "eventhub",
-        "py",
-        "event",
-        "hubs",
-        "sdk",
-        "python",
-        "streaming",
-        "high",
-        "throughput",
-        "ingestion",
-        "producers"
+        "py"
       ],
       "path": "skills/azure-eventhub-py/SKILL.md"
     },
     {
       "id": "azure-eventhub-rust",
       "name": "azure-eventhub-rust",
-      "description": "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "eventhub",
@@ -3221,16 +3214,7 @@
       "triggers": [
         "azure",
         "eventhub",
-        "rust",
-        "event",
-        "hubs",
-        "sdk",
-        "sending",
-        "receiving",
-        "events",
-        "streaming",
-        "data",
-        "ingestion"
+        "rust"
       ],
       "path": "skills/azure-eventhub-rust/SKILL.md"
     },
@@ -3288,8 +3272,8 @@
     {
       "id": "azure-identity-dotnet",
       "name": "azure-identity-dotnet",
-      "description": "Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "identity",
@@ -3298,16 +3282,7 @@
       "triggers": [
         "azure",
         "identity",
-        "dotnet",
-        "sdk",
-        "net",
-        "authentication",
-        "library",
-        "clients",
-        "microsoft",
-        "entra",
-        "id",
-        "defaultazurecredential"
+        "dotnet"
       ],
       "path": "skills/azure-identity-dotnet/SKILL.md"
     },
@@ -3339,8 +3314,8 @@
     {
       "id": "azure-identity-py",
       "name": "azure-identity-py",
-      "description": "Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "identity",
@@ -3349,22 +3324,14 @@
       "triggers": [
         "azure",
         "identity",
-        "py",
-        "sdk",
-        "python",
-        "authentication",
-        "defaultazurecredential",
-        "managed",
-        "principals",
-        "token",
-        "caching"
+        "py"
       ],
       "path": "skills/azure-identity-py/SKILL.md"
     },
     {
       "id": "azure-identity-rust",
       "name": "azure-identity-rust",
-      "description": "Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3374,13 +3341,7 @@
       "triggers": [
         "azure",
         "identity",
-        "rust",
-        "sdk",
-        "authentication",
-        "developertoolscredential",
-        "managedidentitycredential",
-        "clientsecretcredential",
-        "token"
+        "rust"
       ],
       "path": "skills/azure-identity-rust/SKILL.md"
     },
@@ -3412,7 +3373,7 @@
     {
       "id": "azure-keyvault-certificates-rust",
       "name": "azure-keyvault-certificates-rust",
-      "description": "Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3424,20 +3385,14 @@
         "azure",
         "keyvault",
         "certificates",
-        "rust",
-        "key",
-        "vault",
-        "sdk",
-        "creating",
-        "importing",
-        "managing"
+        "rust"
       ],
       "path": "skills/azure-keyvault-certificates-rust/SKILL.md"
     },
     {
       "id": "azure-keyvault-keys-rust",
       "name": "azure-keyvault-keys-rust",
-      "description": "Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: \"keyvault keys rust\", \"KeyClient rust\", \"create key rust\", \"encrypt rust\", \"sign rust\".",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3449,15 +3404,7 @@
         "azure",
         "keyvault",
         "keys",
-        "rust",
-        "key",
-        "vault",
-        "sdk",
-        "creating",
-        "managing",
-        "cryptographic",
-        "triggers",
-        "keyclient"
+        "rust"
       ],
       "path": "skills/azure-keyvault-keys-rust/SKILL.md"
     },
@@ -3491,8 +3438,8 @@
     {
       "id": "azure-keyvault-py",
       "name": "azure-keyvault-py",
-      "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "keyvault",
@@ -3501,23 +3448,14 @@
       "triggers": [
         "azure",
         "keyvault",
-        "py",
-        "key",
-        "vault",
-        "sdk",
-        "python",
-        "secrets",
-        "keys",
-        "certificates",
-        "secure",
-        "storage"
+        "py"
       ],
       "path": "skills/azure-keyvault-py/SKILL.md"
     },
     {
       "id": "azure-keyvault-secrets-rust",
       "name": "azure-keyvault-secrets-rust",
-      "description": "Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: \"keyvault secrets rust\", \"SecretClient rust\", \"get secret rust\", \"set secret rust\".",
+      "description": "",
       "category": "security",
       "tags": [
         "azure",
@@ -3529,15 +3467,7 @@
         "azure",
         "keyvault",
         "secrets",
-        "rust",
-        "key",
-        "vault",
-        "sdk",
-        "storing",
-        "retrieving",
-        "passwords",
-        "api",
-        "keys"
+        "rust"
       ],
       "path": "skills/azure-keyvault-secrets-rust/SKILL.md"
     },
@@ -3571,8 +3501,8 @@
     {
       "id": "azure-maps-search-dotnet",
       "name": "azure-maps-search-dotnet",
-      "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "maps",
@@ -3583,15 +3513,7 @@
         "azure",
         "maps",
         "search",
-        "dotnet",
-        "sdk",
-        "net",
-        "location",
-        "including",
-        "geocoding",
-        "routing",
-        "rendering",
-        "geolocation"
+        "dotnet"
       ],
       "path": "skills/azure-maps-search-dotnet/SKILL.md"
     },
@@ -3625,8 +3547,8 @@
     {
       "id": "azure-messaging-webpubsubservice-py",
       "name": "azure-messaging-webpubsubservice-py",
-      "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "messaging",
@@ -3637,22 +3559,14 @@
         "azure",
         "messaging",
         "webpubsubservice",
-        "py",
-        "web",
-        "pubsub",
-        "sdk",
-        "python",
-        "real",
-        "time",
-        "websocket",
-        "connections"
+        "py"
       ],
       "path": "skills/azure-messaging-webpubsubservice-py/SKILL.md"
     },
     {
       "id": "azure-mgmt-apicenter-dotnet",
       "name": "azure-mgmt-apicenter-dotnet",
-      "description": "Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3664,23 +3578,15 @@
         "azure",
         "mgmt",
         "apicenter",
-        "dotnet",
-        "api",
-        "center",
-        "sdk",
-        "net",
-        "centralized",
-        "inventory",
-        "governance",
-        "versioning"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-apicenter-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-apicenter-py",
       "name": "azure-mgmt-apicenter-py",
-      "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "mgmt",
@@ -3691,22 +3597,14 @@
         "azure",
         "mgmt",
         "apicenter",
-        "py",
-        "api",
-        "center",
-        "sdk",
-        "python",
-        "managing",
-        "inventory",
-        "metadata",
-        "governance"
+        "py"
       ],
       "path": "skills/azure-mgmt-apicenter-py/SKILL.md"
     },
     {
       "id": "azure-mgmt-apimanagement-dotnet",
       "name": "azure-mgmt-apimanagement-dotnet",
-      "description": "Azure Resource Manager SDK for API Management in .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3718,20 +3616,15 @@
         "azure",
         "mgmt",
         "apimanagement",
-        "dotnet",
-        "resource",
-        "manager",
-        "sdk",
-        "api",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-apimanagement-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-apimanagement-py",
       "name": "azure-mgmt-apimanagement-py",
-      "description": "Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "mgmt",
@@ -3742,23 +3635,15 @@
         "azure",
         "mgmt",
         "apimanagement",
-        "py",
-        "api",
-        "sdk",
-        "python",
-        "managing",
-        "apim",
-        "apis",
-        "products",
-        "subscriptions"
+        "py"
       ],
       "path": "skills/azure-mgmt-apimanagement-py/SKILL.md"
     },
     {
       "id": "azure-mgmt-applicationinsights-dotnet",
       "name": "azure-mgmt-applicationinsights-dotnet",
-      "description": "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "mgmt",
@@ -3769,23 +3654,15 @@
         "azure",
         "mgmt",
         "applicationinsights",
-        "dotnet",
-        "application",
-        "insights",
-        "sdk",
-        "net",
-        "performance",
-        "monitoring",
-        "observability",
-        "resource"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-applicationinsights-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-arizeaiobservabilityeval-dotnet",
       "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
-      "description": "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "mgmt",
@@ -3796,23 +3673,15 @@
         "azure",
         "mgmt",
         "arizeaiobservabilityeval",
-        "dotnet",
-        "resource",
-        "manager",
-        "sdk",
-        "arize",
-        "ai",
-        "observability",
-        "evaluation",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-botservice-dotnet",
       "name": "azure-mgmt-botservice-dotnet",
-      "description": "Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "mgmt",
@@ -3823,23 +3692,15 @@
         "azure",
         "mgmt",
         "botservice",
-        "dotnet",
-        "resource",
-        "manager",
-        "sdk",
-        "bot",
-        "net",
-        "plane",
-        "operations",
-        "creating"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-botservice-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-botservice-py",
       "name": "azure-mgmt-botservice-py",
-      "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "mgmt",
@@ -3850,21 +3711,14 @@
         "azure",
         "mgmt",
         "botservice",
-        "py",
-        "bot",
-        "sdk",
-        "python",
-        "creating",
-        "managing",
-        "configuring",
-        "resources"
+        "py"
       ],
       "path": "skills/azure-mgmt-botservice-py/SKILL.md"
     },
     {
       "id": "azure-mgmt-fabric-dotnet",
       "name": "azure-mgmt-fabric-dotnet",
-      "description": "Azure Resource Manager SDK for Fabric in .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -3876,19 +3730,15 @@
         "azure",
         "mgmt",
         "fabric",
-        "dotnet",
-        "resource",
-        "manager",
-        "sdk",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-fabric-dotnet/SKILL.md"
     },
     {
       "id": "azure-mgmt-fabric-py",
       "name": "azure-mgmt-fabric-py",
-      "description": "Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "mgmt",
@@ -3899,13 +3749,7 @@
         "azure",
         "mgmt",
         "fabric",
-        "py",
-        "sdk",
-        "python",
-        "managing",
-        "microsoft",
-        "capacities",
-        "resources"
+        "py"
       ],
       "path": "skills/azure-mgmt-fabric-py/SKILL.md"
     },
@@ -3939,8 +3783,8 @@
     {
       "id": "azure-mgmt-weightsandbiases-dotnet",
       "name": "azure-mgmt-weightsandbiases-dotnet",
-      "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "mgmt",
@@ -3951,15 +3795,7 @@
         "azure",
         "mgmt",
         "weightsandbiases",
-        "dotnet",
-        "weights",
-        "biases",
-        "sdk",
-        "net",
-        "ml",
-        "experiment",
-        "tracking",
-        "model"
+        "dotnet"
       ],
       "path": "skills/azure-mgmt-weightsandbiases-dotnet/SKILL.md"
     },
@@ -3993,8 +3829,8 @@
     {
       "id": "azure-monitor-ingestion-java",
       "name": "azure-monitor-ingestion-java",
-      "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "monitor",
@@ -4005,23 +3841,15 @@
         "azure",
         "monitor",
         "ingestion",
-        "java",
-        "sdk",
-        "send",
-        "custom",
-        "logs",
-        "via",
-        "data",
-        "collection",
-        "rules"
+        "java"
       ],
       "path": "skills/azure-monitor-ingestion-java/SKILL.md"
     },
     {
       "id": "azure-monitor-ingestion-py",
       "name": "azure-monitor-ingestion-py",
-      "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "monitor",
@@ -4032,22 +3860,14 @@
         "azure",
         "monitor",
         "ingestion",
-        "py",
-        "sdk",
-        "python",
-        "sending",
-        "custom",
-        "logs",
-        "log",
-        "analytics",
-        "workspace"
+        "py"
       ],
       "path": "skills/azure-monitor-ingestion-py/SKILL.md"
     },
     {
       "id": "azure-monitor-opentelemetry-exporter-java",
       "name": "azure-monitor-opentelemetry-exporter-java",
-      "description": "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -4061,21 +3881,15 @@
         "monitor",
         "opentelemetry",
         "exporter",
-        "java",
-        "export",
-        "traces",
-        "metrics",
-        "logs",
-        "application",
-        "insights"
+        "java"
       ],
       "path": "skills/azure-monitor-opentelemetry-exporter-java/SKILL.md"
     },
     {
       "id": "azure-monitor-opentelemetry-exporter-py",
       "name": "azure-monitor-opentelemetry-exporter-py",
-      "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "monitor",
@@ -4088,21 +3902,15 @@
         "monitor",
         "opentelemetry",
         "exporter",
-        "py",
-        "python",
-        "low",
-        "level",
-        "export",
-        "application",
-        "insights"
+        "py"
       ],
       "path": "skills/azure-monitor-opentelemetry-exporter-py/SKILL.md"
     },
     {
       "id": "azure-monitor-opentelemetry-py",
       "name": "azure-monitor-opentelemetry-py",
-      "description": "Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "monitor",
@@ -4113,15 +3921,7 @@
         "azure",
         "monitor",
         "opentelemetry",
-        "py",
-        "distro",
-        "python",
-        "one",
-        "line",
-        "application",
-        "insights",
-        "setup",
-        "auto"
+        "py"
       ],
       "path": "skills/azure-monitor-opentelemetry-py/SKILL.md"
     },
@@ -4155,8 +3955,8 @@
     {
       "id": "azure-monitor-query-java",
       "name": "azure-monitor-query-java",
-      "description": "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "monitor",
@@ -4167,23 +3967,15 @@
         "azure",
         "monitor",
         "query",
-        "java",
-        "sdk",
-        "execute",
-        "kusto",
-        "queries",
-        "against",
-        "log",
-        "analytics",
-        "workspaces"
+        "java"
       ],
       "path": "skills/azure-monitor-query-java/SKILL.md"
     },
     {
       "id": "azure-monitor-query-py",
       "name": "azure-monitor-query-py",
-      "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "monitor",
@@ -4194,21 +3986,14 @@
         "azure",
         "monitor",
         "query",
-        "py",
-        "sdk",
-        "python",
-        "querying",
-        "log",
-        "analytics",
-        "workspaces",
-        "metrics"
+        "py"
       ],
       "path": "skills/azure-monitor-query-py/SKILL.md"
     },
     {
       "id": "azure-postgres-ts",
       "name": "azure-postgres-ts",
-      "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -4218,24 +4003,15 @@
       "triggers": [
         "azure",
         "postgres",
-        "ts",
-        "connect",
-        "database",
-        "postgresql",
-        "flexible",
-        "server",
-        "node",
-        "js",
-        "typescript",
-        "pg"
+        "ts"
       ],
       "path": "skills/azure-postgres-ts/SKILL.md"
     },
     {
       "id": "azure-resource-manager-cosmosdb-dotnet",
       "name": "azure-resource-manager-cosmosdb-dotnet",
-      "description": "Azure Resource Manager SDK for Cosmos DB in .NET.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "resource",
@@ -4248,18 +4024,14 @@
         "resource",
         "manager",
         "cosmosdb",
-        "dotnet",
-        "sdk",
-        "cosmos",
-        "db",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-cosmosdb-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-durabletask-dotnet",
       "name": "azure-resource-manager-durabletask-dotnet",
-      "description": "Azure Resource Manager SDK for Durable Task Scheduler in .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -4273,19 +4045,14 @@
         "resource",
         "manager",
         "durabletask",
-        "dotnet",
-        "sdk",
-        "durable",
-        "task",
-        "scheduler",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-durabletask-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-mysql-dotnet",
       "name": "azure-resource-manager-mysql-dotnet",
-      "description": "Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -4299,20 +4066,14 @@
         "resource",
         "manager",
         "mysql",
-        "dotnet",
-        "flexible",
-        "server",
-        "sdk",
-        "net",
-        "database",
-        "deployments"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-mysql-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-playwright-dotnet",
       "name": "azure-resource-manager-playwright-dotnet",
-      "description": "Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -4326,19 +4087,15 @@
         "resource",
         "manager",
         "playwright",
-        "dotnet",
-        "sdk",
-        "microsoft",
-        "testing",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-playwright-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-postgresql-dotnet",
       "name": "azure-resource-manager-postgresql-dotnet",
-      "description": "Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "resource",
@@ -4351,20 +4108,14 @@
         "resource",
         "manager",
         "postgresql",
-        "dotnet",
-        "flexible",
-        "server",
-        "sdk",
-        "net",
-        "database",
-        "deployments"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-postgresql-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-redis-dotnet",
       "name": "azure-resource-manager-redis-dotnet",
-      "description": "Azure Resource Manager SDK for Redis in .NET.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -4378,16 +4129,14 @@
         "resource",
         "manager",
         "redis",
-        "dotnet",
-        "sdk",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-redis-dotnet/SKILL.md"
     },
     {
       "id": "azure-resource-manager-sql-dotnet",
       "name": "azure-resource-manager-sql-dotnet",
-      "description": "Azure Resource Manager SDK for Azure SQL in .NET.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -4401,17 +4150,15 @@
         "resource",
         "manager",
         "sql",
-        "dotnet",
-        "sdk",
-        "net"
+        "dotnet"
       ],
       "path": "skills/azure-resource-manager-sql-dotnet/SKILL.md"
     },
     {
       "id": "azure-search-documents-dotnet",
       "name": "azure-search-documents-dotnet",
-      "description": "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "search",
@@ -4422,23 +4169,15 @@
         "azure",
         "search",
         "documents",
-        "dotnet",
-        "ai",
-        "sdk",
-        "net",
-        "building",
-        "applications",
-        "full",
-        "text",
-        "vector"
+        "dotnet"
       ],
       "path": "skills/azure-search-documents-dotnet/SKILL.md"
     },
     {
       "id": "azure-search-documents-py",
       "name": "azure-search-documents-py",
-      "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "search",
@@ -4449,15 +4188,7 @@
         "azure",
         "search",
         "documents",
-        "py",
-        "ai",
-        "sdk",
-        "python",
-        "vector",
-        "hybrid",
-        "semantic",
-        "ranking",
-        "indexing"
+        "py"
       ],
       "path": "skills/azure-search-documents-py/SKILL.md"
     },
@@ -4491,7 +4222,7 @@
     {
       "id": "azure-security-keyvault-keys-dotnet",
       "name": "azure-security-keyvault-keys-dotnet",
-      "description": "Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.",
+      "description": "",
       "category": "security",
       "tags": [
         "azure",
@@ -4505,14 +4236,7 @@
         "security",
         "keyvault",
         "keys",
-        "dotnet",
-        "key",
-        "vault",
-        "sdk",
-        "net",
-        "client",
-        "library",
-        "managing"
+        "dotnet"
       ],
       "path": "skills/azure-security-keyvault-keys-dotnet/SKILL.md"
     },
@@ -4575,8 +4299,8 @@
     {
       "id": "azure-servicebus-dotnet",
       "name": "azure-servicebus-dotnet",
-      "description": "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "azure",
         "servicebus",
@@ -4585,24 +4309,15 @@
       "triggers": [
         "azure",
         "servicebus",
-        "dotnet",
-        "bus",
-        "sdk",
-        "net",
-        "enterprise",
-        "messaging",
-        "queues",
-        "topics",
-        "subscriptions",
-        "sessions"
+        "dotnet"
       ],
       "path": "skills/azure-servicebus-dotnet/SKILL.md"
     },
     {
       "id": "azure-servicebus-py",
       "name": "azure-servicebus-py",
-      "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "servicebus",
@@ -4611,15 +4326,7 @@
       "triggers": [
         "azure",
         "servicebus",
-        "py",
-        "bus",
-        "sdk",
-        "python",
-        "messaging",
-        "queues",
-        "topics",
-        "subscriptions",
-        "enterprise"
+        "py"
       ],
       "path": "skills/azure-servicebus-py/SKILL.md"
     },
@@ -4652,8 +4359,8 @@
     {
       "id": "azure-speech-to-text-rest-py",
       "name": "azure-speech-to-text-rest-py",
-      "description": "Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "speech",
@@ -4668,13 +4375,7 @@
         "to",
         "text",
         "rest",
-        "py",
-        "api",
-        "short",
-        "audio",
-        "python",
-        "simple",
-        "recognition"
+        "py"
       ],
       "path": "skills/azure-speech-to-text-rest-py/SKILL.md"
     },
@@ -4708,8 +4409,8 @@
     {
       "id": "azure-storage-blob-py",
       "name": "azure-storage-blob-py",
-      "description": "Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4720,22 +4421,14 @@
         "azure",
         "storage",
         "blob",
-        "py",
-        "sdk",
-        "python",
-        "uploading",
-        "downloading",
-        "listing",
-        "blobs",
-        "managing",
-        "containers"
+        "py"
       ],
       "path": "skills/azure-storage-blob-py/SKILL.md"
     },
     {
       "id": "azure-storage-blob-rust",
       "name": "azure-storage-blob-rust",
-      "description": "Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.",
+      "description": "",
       "category": "development",
       "tags": [
         "azure",
@@ -4747,21 +4440,15 @@
         "azure",
         "storage",
         "blob",
-        "rust",
-        "sdk",
-        "uploading",
-        "downloading",
-        "managing",
-        "blobs",
-        "containers"
+        "rust"
       ],
       "path": "skills/azure-storage-blob-rust/SKILL.md"
     },
     {
       "id": "azure-storage-blob-ts",
       "name": "azure-storage-blob-ts",
-      "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4772,23 +4459,15 @@
         "azure",
         "storage",
         "blob",
-        "ts",
-        "javascript",
-        "typescript",
-        "sdk",
-        "operations",
-        "uploading",
-        "downloading",
-        "listing",
-        "managing"
+        "ts"
       ],
       "path": "skills/azure-storage-blob-ts/SKILL.md"
     },
     {
       "id": "azure-storage-file-datalake-py",
       "name": "azure-storage-file-datalake-py",
-      "description": "Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4801,22 +4480,15 @@
         "storage",
         "file",
         "datalake",
-        "py",
-        "data",
-        "lake",
-        "gen2",
-        "sdk",
-        "python",
-        "hierarchical",
-        "big"
+        "py"
       ],
       "path": "skills/azure-storage-file-datalake-py/SKILL.md"
     },
     {
       "id": "azure-storage-file-share-py",
       "name": "azure-storage-file-share-py",
-      "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4829,22 +4501,15 @@
         "storage",
         "file",
         "share",
-        "py",
-        "sdk",
-        "python",
-        "smb",
-        "shares",
-        "directories",
-        "operations",
-        "cloud"
+        "py"
       ],
       "path": "skills/azure-storage-file-share-py/SKILL.md"
     },
     {
       "id": "azure-storage-file-share-ts",
       "name": "azure-storage-file-share-ts",
-      "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4857,20 +4522,15 @@
         "storage",
         "file",
         "share",
-        "ts",
-        "javascript",
-        "typescript",
-        "sdk",
-        "smb",
-        "operations"
+        "ts"
       ],
       "path": "skills/azure-storage-file-share-ts/SKILL.md"
     },
     {
       "id": "azure-storage-queue-py",
       "name": "azure-storage-queue-py",
-      "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4881,23 +4541,15 @@
         "azure",
         "storage",
         "queue",
-        "py",
-        "sdk",
-        "python",
-        "reliable",
-        "message",
-        "queuing",
-        "task",
-        "distribution",
-        "asynchronous"
+        "py"
       ],
       "path": "skills/azure-storage-queue-py/SKILL.md"
     },
     {
       "id": "azure-storage-queue-ts",
       "name": "azure-storage-queue-ts",
-      "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "azure",
         "storage",
@@ -4908,15 +4560,7 @@
         "azure",
         "storage",
         "queue",
-        "ts",
-        "javascript",
-        "typescript",
-        "sdk",
-        "message",
-        "operations",
-        "sending",
-        "receiving",
-        "peeking"
+        "ts"
       ],
       "path": "skills/azure-storage-queue-ts/SKILL.md"
     },
@@ -4950,20 +4594,14 @@
     {
       "id": "backend-architect",
       "name": "backend-architect",
-      "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.",
+      "description": "",
       "category": "development",
       "tags": [
         "backend"
       ],
       "triggers": [
         "backend",
-        "architect",
-        "specializing",
-        "scalable",
-        "api",
-        "microservices",
-        "architecture",
-        "distributed"
+        "architect"
       ],
       "path": "skills/backend-architect/SKILL.md"
     },
@@ -5019,7 +4657,7 @@
     {
       "id": "backend-security-coder",
       "name": "backend-security-coder",
-      "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.",
+      "description": "",
       "category": "security",
       "tags": [
         "backend",
@@ -5029,16 +4667,7 @@
       "triggers": [
         "backend",
         "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "input",
-        "validation",
-        "authentication",
-        "api",
-        "proactively",
-        "implementations"
+        "coder"
       ],
       "path": "skills/backend-security-coder/SKILL.md"
     },
@@ -5167,24 +4796,14 @@
     {
       "id": "bash-pro",
       "name": "bash-pro",
-      "description": "Master of defensive Bash scripting for production automation, CI/CD\npipelines, and system utilities. Expert in safe, portable, and testable shell\nscripts.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "bash"
       ],
       "triggers": [
         "bash",
-        "pro",
-        "defensive",
-        "scripting",
-        "automation",
-        "ci",
-        "cd",
-        "pipelines",
-        "utilities",
-        "safe",
-        "portable",
-        "testable"
+        "pro"
       ],
       "path": "skills/bash-pro/SKILL.md"
     },
@@ -5408,24 +5027,14 @@
     {
       "id": "blockchain-developer",
       "name": "blockchain-developer",
-      "description": "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
+      "description": "",
       "category": "general",
       "tags": [
         "blockchain"
       ],
       "triggers": [
         "blockchain",
-        "developer",
-        "web3",
-        "applications",
-        "smart",
-        "contracts",
-        "decentralized",
-        "implements",
-        "defi",
-        "protocols",
-        "nft",
-        "platforms"
+        "developer"
       ],
       "path": "skills/blockchain-developer/SKILL.md"
     },
@@ -5728,25 +5337,15 @@
     {
       "id": "business-analyst",
       "name": "business-analyst",
-      "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
-      "category": "data-ai",
+      "description": "",
+      "category": "business",
       "tags": [
         "business",
         "analyst"
       ],
       "triggers": [
         "business",
-        "analyst",
-        "analysis",
-        "ai",
-        "powered",
-        "analytics",
-        "real",
-        "time",
-        "dashboards",
-        "data",
-        "driven",
-        "insights"
+        "analyst"
       ],
       "path": "skills/business-analyst/SKILL.md"
     },
@@ -5822,7 +5421,7 @@
     {
       "id": "c4-code",
       "name": "c4-code",
-      "description": "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.",
+      "description": "",
       "category": "architecture",
       "tags": [
         "c4",
@@ -5830,24 +5429,14 @@
       ],
       "triggers": [
         "c4",
-        "code",
-        "level",
-        "documentation",
-        "analyzes",
-        "directories",
-        "including",
-        "function",
-        "signatures",
-        "arguments",
-        "dependencies",
-        "structure"
+        "code"
       ],
       "path": "skills/c4-code/SKILL.md"
     },
     {
       "id": "c4-component",
       "name": "c4-component",
-      "description": "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.",
+      "description": "",
       "category": "architecture",
       "tags": [
         "c4",
@@ -5855,23 +5444,14 @@
       ],
       "triggers": [
         "c4",
-        "component",
-        "level",
-        "documentation",
-        "synthesizes",
-        "code",
-        "architecture",
-        "defining",
-        "boundaries",
-        "interfaces",
-        "relationships"
+        "component"
       ],
       "path": "skills/c4-component/SKILL.md"
     },
     {
       "id": "c4-container",
       "name": "c4-container",
-      "description": "Expert C4 Container-level documentation specialist.",
+      "description": "",
       "category": "architecture",
       "tags": [
         "c4",
@@ -5879,33 +5459,21 @@
       ],
       "triggers": [
         "c4",
-        "container",
-        "level",
-        "documentation"
+        "container"
       ],
       "path": "skills/c4-container/SKILL.md"
     },
     {
       "id": "c4-context",
       "name": "c4-context",
-      "description": "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.",
+      "description": "",
       "category": "architecture",
       "tags": [
         "c4"
       ],
       "triggers": [
         "c4",
-        "context",
-        "level",
-        "documentation",
-        "creates",
-        "high",
-        "diagrams",
-        "documents",
-        "personas",
-        "user",
-        "journeys",
-        "features"
+        "context"
       ],
       "path": "skills/c4-context/SKILL.md"
     },
@@ -6009,7 +5577,7 @@
     {
       "id": "carrier-relationship-management",
       "name": "carrier-relationship-management",
-      "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.",
+      "description": "",
       "category": "general",
       "tags": [
         "carrier",
@@ -6017,17 +5585,7 @@
       ],
       "triggers": [
         "carrier",
-        "relationship",
-        "codified",
-        "expertise",
-        "managing",
-        "portfolios",
-        "negotiating",
-        "freight",
-        "rates",
-        "tracking",
-        "performance",
-        "allocating"
+        "relationship"
       ],
       "path": "skills/carrier-relationship-management/SKILL.md"
     },
@@ -6618,24 +6176,14 @@
     {
       "id": "cloud-architect",
       "name": "cloud-architect",
-      "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.",
+      "description": "",
       "category": "infrastructure",
       "tags": [
         "cloud"
       ],
       "triggers": [
         "cloud",
-        "architect",
-        "specializing",
-        "aws",
-        "azure",
-        "gcp",
-        "multi",
-        "infrastructure",
-        "iac",
-        "terraform",
-        "opentofu",
-        "cdk"
+        "architect"
       ],
       "path": "skills/cloud-architect/SKILL.md"
     },
@@ -7111,25 +6659,15 @@
     {
       "id": "competitive-landscape",
       "name": "competitive-landscape",
-      "description": "This skill should be used when the user asks to \\\\\\\"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\",...",
-      "category": "business",
+      "description": "",
+      "category": "general",
       "tags": [
         "competitive",
         "landscape"
       ],
       "triggers": [
         "competitive",
-        "landscape",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "analyze",
-        "competitors",
-        "assess",
-        "identify",
-        "differentiation"
+        "landscape"
       ],
       "path": "skills/competitive-landscape/SKILL.md"
     },
@@ -7367,23 +6905,15 @@
     {
       "id": "conductor-setup",
       "name": "conductor-setup",
-      "description": "Initialize project with Conductor artifacts (product definition,\ntech stack, workflow, style guides)",
-      "category": "business",
+      "description": "",
+      "category": "workflow",
       "tags": [
         "conductor",
         "setup"
       ],
       "triggers": [
         "conductor",
-        "setup",
-        "initialize",
-        "artifacts",
-        "product",
-        "definition",
-        "tech",
-        "stack",
-        "style",
-        "guides"
+        "setup"
       ],
       "path": "skills/conductor-setup/SKILL.md"
     },
@@ -7410,7 +6940,7 @@
     {
       "id": "conductor-validator",
       "name": "conductor-validator",
-      "description": "Validates Conductor project artifacts for completeness,\nconsistency, and correctness. Use after setup, when diagnosing issues, or\nbefore implementation to verify project context.",
+      "description": "",
       "category": "workflow",
       "tags": [
         "conductor",
@@ -7418,17 +6948,7 @@
       ],
       "triggers": [
         "conductor",
-        "validator",
-        "validates",
-        "artifacts",
-        "completeness",
-        "consistency",
-        "correctness",
-        "after",
-        "setup",
-        "diagnosing",
-        "issues",
-        "before"
+        "validator"
       ],
       "path": "skills/conductor-validator/SKILL.md"
     },
@@ -7484,25 +7004,15 @@
     {
       "id": "content-marketer",
       "name": "content-marketer",
-      "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "content",
         "marketer"
       ],
       "triggers": [
         "content",
-        "marketer",
-        "elite",
-        "marketing",
-        "strategist",
-        "specializing",
-        "ai",
-        "powered",
-        "creation",
-        "omnichannel",
-        "distribution",
-        "seo"
+        "marketer"
       ],
       "path": "skills/content-marketer/SKILL.md"
     },
@@ -7548,24 +7058,15 @@
     {
       "id": "context-driven-development",
       "name": "context-driven-development",
-      "description": "Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and...",
-      "category": "business",
+      "description": "",
+      "category": "general",
       "tags": [
         "driven"
       ],
       "triggers": [
         "driven",
         "context",
-        "development",
-        "skill",
-        "working",
-        "conductor",
-        "methodology",
-        "managing",
-        "artifacts",
-        "understanding",
-        "relationship",
-        "between"
+        "development"
       ],
       "path": "skills/context-driven-development/SKILL.md"
     },
@@ -7622,24 +7123,14 @@
     {
       "id": "context-manager",
       "name": "context-manager",
-      "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "manager"
       ],
       "triggers": [
         "manager",
-        "context",
-        "elite",
-        "ai",
-        "engineering",
-        "mastering",
-        "dynamic",
-        "vector",
-        "databases",
-        "knowledge",
-        "graphs",
-        "intelligent"
+        "context"
       ],
       "path": "skills/context-manager/SKILL.md"
     },
@@ -7907,24 +7398,14 @@
     {
       "id": "cpp-pro",
       "name": "cpp-pro",
-      "description": "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.",
+      "description": "",
       "category": "general",
       "tags": [
         "cpp"
       ],
       "triggers": [
         "cpp",
-        "pro",
-        "write",
-        "idiomatic",
-        "code",
-        "features",
-        "raii",
-        "smart",
-        "pointers",
-        "stl",
-        "algorithms",
-        "move"
+        "pro"
       ],
       "path": "skills/cpp-pro/SKILL.md"
     },
@@ -8004,8 +7485,8 @@
     {
       "id": "crypto-bd-agent",
       "name": "crypto-bd-agent",
-      "description": "Autonomous crypto business development patterns — multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain identity, LLM cascade routing, and...",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "crypto",
         "bd",
@@ -8014,40 +7495,21 @@
       "triggers": [
         "crypto",
         "bd",
-        "agent",
-        "autonomous",
-        "business",
-        "development",
-        "multi",
-        "chain",
-        "token",
-        "discovery",
-        "100",
-        "point"
+        "agent"
       ],
       "path": "skills/crypto-bd-agent/SKILL.md"
     },
     {
       "id": "csharp-pro",
       "name": "csharp-pro",
-      "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.",
+      "description": "",
       "category": "development",
       "tags": [
         "csharp"
       ],
       "triggers": [
         "csharp",
-        "pro",
-        "write",
-        "code",
-        "features",
-        "like",
-        "records",
-        "matching",
-        "async",
-        "await",
-        "optimizes",
-        "net"
+        "pro"
       ],
       "path": "skills/csharp-pro/SKILL.md"
     },
@@ -8071,32 +7533,22 @@
     {
       "id": "customer-support",
       "name": "customer-support",
-      "description": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.",
-      "category": "data-ai",
+      "description": "",
+      "category": "business",
       "tags": [
         "customer",
         "support"
       ],
       "triggers": [
         "customer",
-        "support",
-        "elite",
-        "ai",
-        "powered",
-        "mastering",
-        "conversational",
-        "automated",
-        "ticketing",
-        "sentiment",
-        "analysis",
-        "omnichannel"
+        "support"
       ],
       "path": "skills/customer-support/SKILL.md"
     },
     {
       "id": "customs-trade-compliance",
       "name": "customs-trade-compliance",
-      "description": "Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.",
+      "description": "",
       "category": "security",
       "tags": [
         "customs",
@@ -8106,16 +7558,7 @@
       "triggers": [
         "customs",
         "trade",
-        "compliance",
-        "codified",
-        "expertise",
-        "documentation",
-        "tariff",
-        "classification",
-        "duty",
-        "optimisation",
-        "restricted",
-        "party"
+        "compliance"
       ],
       "path": "skills/customs-trade-compliance/SKILL.md"
     },
@@ -8148,24 +7591,14 @@
     {
       "id": "data-engineer",
       "name": "data-engineer",
-      "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "data-ai",
       "tags": [
         "data"
       ],
       "triggers": [
         "data",
-        "engineer",
-        "scalable",
-        "pipelines",
-        "warehouses",
-        "real",
-        "time",
-        "streaming",
-        "architectures",
-        "implements",
-        "apache",
-        "spark"
+        "engineer"
       ],
       "path": "skills/data-engineer/SKILL.md"
     },
@@ -8250,7 +7683,7 @@
     {
       "id": "data-scientist",
       "name": "data-scientist",
-      "description": "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "data",
@@ -8258,17 +7691,7 @@
       ],
       "triggers": [
         "data",
-        "scientist",
-        "analytics",
-        "machine",
-        "learning",
-        "statistical",
-        "modeling",
-        "complex",
-        "analysis",
-        "predictive",
-        "business",
-        "intelligence"
+        "scientist"
       ],
       "path": "skills/data-scientist/SKILL.md"
     },
@@ -8348,46 +7771,29 @@
     {
       "id": "database-admin",
       "name": "database-admin",
-      "description": "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "data-ai",
       "tags": [
         "database",
         "admin"
       ],
       "triggers": [
         "database",
-        "admin",
-        "administrator",
-        "specializing",
-        "cloud",
-        "databases",
-        "automation",
-        "reliability",
-        "engineering"
+        "admin"
       ],
       "path": "skills/database-admin/SKILL.md"
     },
     {
       "id": "database-architect",
       "name": "database-architect",
-      "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "database"
       ],
       "triggers": [
         "database",
-        "architect",
-        "specializing",
-        "data",
-        "layer",
-        "scratch",
-        "technology",
-        "selection",
-        "schema",
-        "modeling",
-        "scalable",
-        "architectures"
+        "architect"
       ],
       "path": "skills/database-architect/SKILL.md"
     },
@@ -8524,7 +7930,7 @@
     {
       "id": "database-optimizer",
       "name": "database-optimizer",
-      "description": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",
+      "description": "",
       "category": "data-ai",
       "tags": [
         "database",
@@ -8532,14 +7938,7 @@
       ],
       "triggers": [
         "database",
-        "optimizer",
-        "specializing",
-        "performance",
-        "tuning",
-        "query",
-        "optimization",
-        "scalable",
-        "architectures"
+        "optimizer"
       ],
       "path": "skills/database-optimizer/SKILL.md"
     },
@@ -8752,23 +8151,13 @@
     {
       "id": "debugger",
       "name": "debugger",
-      "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.",
-      "category": "testing",
+      "description": "",
+      "category": "general",
       "tags": [
         "debugger"
       ],
       "triggers": [
-        "debugger",
-        "debugging",
-        "errors",
-        "test",
-        "failures",
-        "unexpected",
-        "behavior",
-        "proactively",
-        "encountering",
-        "any",
-        "issues"
+        "debugger"
       ],
       "path": "skills/debugger/SKILL.md"
     },
@@ -8919,20 +8308,14 @@
     {
       "id": "deployment-engineer",
       "name": "deployment-engineer",
-      "description": "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.",
+      "description": "",
       "category": "infrastructure",
       "tags": [
         "deployment"
       ],
       "triggers": [
         "deployment",
-        "engineer",
-        "specializing",
-        "ci",
-        "cd",
-        "pipelines",
-        "gitops",
-        "automation"
+        "engineer"
       ],
       "path": "skills/deployment-engineer/SKILL.md"
     },
@@ -9033,22 +8416,17 @@
     {
       "id": "design-orchestration",
       "name": "design-orchestration",
-      "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
+      "description": "Ensure that ideas become designs, designs are reviewed, and only validated designs reach implementation.",
       "category": "workflow",
       "tags": [],
       "triggers": [
         "orchestration",
-        "orchestrates",
-        "routing",
-        "work",
-        "through",
-        "brainstorming",
-        "multi",
-        "agent",
-        "review",
-        "execution",
-        "readiness",
-        "correct"
+        "ideas",
+        "become",
+        "designs",
+        "reviewed",
+        "validated",
+        "reach"
       ],
       "path": "skills/design-orchestration/SKILL.md"
     },
@@ -9076,21 +8454,15 @@
     {
       "id": "devops-troubleshooter",
       "name": "devops-troubleshooter",
-      "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
-      "category": "security",
+      "description": "",
+      "category": "infrastructure",
       "tags": [
         "devops",
         "troubleshooter"
       ],
       "triggers": [
         "devops",
-        "troubleshooter",
-        "specializing",
-        "rapid",
-        "incident",
-        "response",
-        "debugging",
-        "observability"
+        "troubleshooter"
       ],
       "path": "skills/devops-troubleshooter/SKILL.md"
     },
@@ -9224,24 +8596,14 @@
     {
       "id": "django-pro",
       "name": "django-pro",
-      "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "django"
       ],
       "triggers": [
         "django",
-        "pro",
-        "async",
-        "views",
-        "drf",
-        "celery",
-        "channels",
-        "scalable",
-        "web",
-        "applications",
-        "proper",
-        "architecture"
+        "pro"
       ],
       "path": "skills/django-pro/SKILL.md"
     },
@@ -9297,24 +8659,14 @@
     {
       "id": "docs-architect",
       "name": "docs-architect",
-      "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
-      "category": "architecture",
+      "description": "",
+      "category": "general",
       "tags": [
         "docs"
       ],
       "triggers": [
         "docs",
-        "architect",
-        "creates",
-        "technical",
-        "documentation",
-        "existing",
-        "codebases",
-        "analyzes",
-        "architecture",
-        "details",
-        "produce",
-        "long"
+        "architect"
       ],
       "path": "skills/docs-architect/SKILL.md"
     },
@@ -9470,24 +8822,14 @@
     {
       "id": "dotnet-architect",
       "name": "dotnet-architect",
-      "description": "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.",
+      "description": "",
       "category": "development",
       "tags": [
         "dotnet"
       ],
       "triggers": [
         "dotnet",
-        "architect",
-        "net",
-        "backend",
-        "specializing",
-        "asp",
-        "core",
-        "entity",
-        "framework",
-        "dapper",
-        "enterprise",
-        "application"
+        "architect"
       ],
       "path": "skills/dotnet-architect/SKILL.md"
     },
@@ -9566,7 +8908,7 @@
     {
       "id": "dx-optimizer",
       "name": "dx-optimizer",
-      "description": "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.",
+      "description": "",
       "category": "general",
       "tags": [
         "dx",
@@ -9574,17 +8916,7 @@
       ],
       "triggers": [
         "dx",
-        "optimizer",
-        "developer",
-        "experience",
-        "improves",
-        "tooling",
-        "setup",
-        "proactively",
-        "setting",
-        "up",
-        "new",
-        "after"
+        "optimizer"
       ],
       "path": "skills/dx-optimizer/SKILL.md"
     },
@@ -9638,24 +8970,14 @@
     {
       "id": "elixir-pro",
       "name": "elixir-pro",
-      "description": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
-      "category": "architecture",
+      "description": "",
+      "category": "general",
       "tags": [
         "elixir"
       ],
       "triggers": [
         "elixir",
-        "pro",
-        "write",
-        "idiomatic",
-        "code",
-        "otp",
-        "supervision",
-        "trees",
-        "phoenix",
-        "liveview",
-        "masters",
-        "concurrency"
+        "pro"
       ],
       "path": "skills/elixir-pro/SKILL.md"
     },
@@ -9687,7 +9009,7 @@
     {
       "id": "email-systems",
       "name": "email-systems",
-      "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders. This skill cov...",
+      "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill cov...",
       "category": "business",
       "tags": [
         "email"
@@ -9761,7 +9083,7 @@
     {
       "id": "energy-procurement",
       "name": "energy-procurement",
-      "description": "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.",
+      "description": "",
       "category": "general",
       "tags": [
         "energy",
@@ -9769,17 +9091,7 @@
       ],
       "triggers": [
         "energy",
-        "procurement",
-        "codified",
-        "expertise",
-        "electricity",
-        "gas",
-        "tariff",
-        "optimisation",
-        "demand",
-        "charge",
-        "renewable",
-        "ppa"
+        "procurement"
       ],
       "path": "skills/energy-procurement/SKILL.md"
     },
@@ -9881,25 +9193,15 @@
     {
       "id": "error-detective",
       "name": "error-detective",
-      "description": "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.",
-      "category": "architecture",
+      "description": "",
+      "category": "general",
       "tags": [
         "error",
         "detective"
       ],
       "triggers": [
         "error",
-        "detective",
-        "search",
-        "logs",
-        "codebases",
-        "stack",
-        "traces",
-        "anomalies",
-        "correlates",
-        "errors",
-        "identifies",
-        "root"
+        "detective"
       ],
       "path": "skills/error-detective/SKILL.md"
     },
@@ -10273,24 +9575,14 @@
     {
       "id": "fastapi-pro",
       "name": "fastapi-pro",
-      "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
+      "description": "",
       "category": "development",
       "tags": [
         "fastapi"
       ],
       "triggers": [
         "fastapi",
-        "pro",
-        "high",
-        "performance",
-        "async",
-        "apis",
-        "sqlalchemy",
-        "pydantic",
-        "v2",
-        "microservices",
-        "websockets",
-        "python"
+        "pro"
       ],
       "path": "skills/fastapi-pro/SKILL.md"
     },
@@ -10565,22 +9857,15 @@
     {
       "id": "firmware-analyst",
       "name": "firmware-analyst",
-      "description": "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "firmware",
         "analyst"
       ],
       "triggers": [
         "firmware",
-        "analyst",
-        "specializing",
-        "embedded",
-        "iot",
-        "security",
-        "hardware",
-        "reverse",
-        "engineering"
+        "analyst"
       ],
       "path": "skills/firmware-analyst/SKILL.md"
     },
@@ -10609,26 +9894,20 @@
     {
       "id": "flutter-expert",
       "name": "flutter-expert",
-      "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "flutter"
       ],
       "triggers": [
-        "flutter",
-        "development",
-        "dart",
-        "widgets",
-        "multi",
-        "platform",
-        "deployment"
+        "flutter"
       ],
       "path": "skills/flutter-expert/SKILL.md"
     },
     {
       "id": "form-cro",
       "name": "form-cro",
-      "description": "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.",
+      "description": "",
       "category": "general",
       "tags": [
         "form",
@@ -10636,17 +9915,7 @@
       ],
       "triggers": [
         "form",
-        "cro",
-        "optimize",
-        "any",
-        "signup",
-        "account",
-        "registration",
-        "including",
-        "lead",
-        "capture",
-        "contact",
-        "demo"
+        "cro"
       ],
       "path": "skills/form-cro/SKILL.md"
     },
@@ -10934,24 +10203,14 @@
     {
       "id": "frontend-developer",
       "name": "frontend-developer",
-      "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
+      "description": "",
       "category": "development",
       "tags": [
         "frontend"
       ],
       "triggers": [
         "frontend",
-        "developer",
-        "react",
-        "components",
-        "responsive",
-        "layouts",
-        "handle",
-        "client",
-        "side",
-        "state",
-        "masters",
-        "19"
+        "developer"
       ],
       "path": "skills/frontend-developer/SKILL.md"
     },
@@ -11012,7 +10271,7 @@
     {
       "id": "frontend-security-coder",
       "name": "frontend-security-coder",
-      "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.",
+      "description": "",
       "category": "security",
       "tags": [
         "frontend",
@@ -11022,16 +10281,7 @@
       "triggers": [
         "frontend",
         "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "xss",
-        "prevention",
-        "output",
-        "sanitization",
-        "client",
-        "side"
+        "coder"
       ],
       "path": "skills/frontend-security-coder/SKILL.md"
     },
@@ -11913,20 +11163,14 @@
     {
       "id": "golang-pro",
       "name": "golang-pro",
-      "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
+      "description": "",
       "category": "development",
       "tags": [
         "golang"
       ],
       "triggers": [
         "golang",
-        "pro",
-        "go",
-        "21",
-        "concurrency",
-        "performance",
-        "optimization",
-        "microservices"
+        "pro"
       ],
       "path": "skills/golang-pro/SKILL.md"
     },
@@ -12081,24 +11325,14 @@
     {
       "id": "graphql-architect",
       "name": "graphql-architect",
-      "description": "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "graphql"
       ],
       "triggers": [
         "graphql",
-        "architect",
-        "federation",
-        "performance",
-        "optimization",
-        "enterprise",
-        "security",
-        "scalable",
-        "schemas",
-        "caching",
-        "real",
-        "time"
+        "architect"
       ],
       "path": "skills/graphql-architect/SKILL.md"
     },
@@ -12223,7 +11457,7 @@
     {
       "id": "hig-components-content",
       "name": "hig-components-content",
-      "description": "Apple Human Interface Guidelines for content display components.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12233,19 +11467,14 @@
       "triggers": [
         "hig",
         "components",
-        "content",
-        "apple",
-        "human",
-        "interface",
-        "guidelines",
-        "display"
+        "content"
       ],
       "path": "skills/hig-components-content/SKILL.md"
     },
     {
       "id": "hig-components-controls",
       "name": "hig-components-controls",
-      "description": "Apple HIG guidance for selection and input controls including pickers, toggles, sliders, steppers, segmented controls, combo boxes, text fields, text views, labels, token fields, virtual...",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12255,23 +11484,14 @@
       "triggers": [
         "hig",
         "components",
-        "controls",
-        "apple",
-        "guidance",
-        "selection",
-        "input",
-        "including",
-        "pickers",
-        "toggles",
-        "sliders",
-        "steppers"
+        "controls"
       ],
       "path": "skills/hig-components-controls/SKILL.md"
     },
     {
       "id": "hig-components-dialogs",
       "name": "hig-components-dialogs",
-      "description": "Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12281,23 +11501,14 @@
       "triggers": [
         "hig",
         "components",
-        "dialogs",
-        "apple",
-        "guidance",
-        "presentation",
-        "including",
-        "alerts",
-        "action",
-        "sheets",
-        "popovers",
-        "digit"
+        "dialogs"
       ],
       "path": "skills/hig-components-dialogs/SKILL.md"
     },
     {
       "id": "hig-components-layout",
       "name": "hig-components-layout",
-      "description": "Apple Human Interface Guidelines for layout and navigation components.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12307,19 +11518,14 @@
       "triggers": [
         "hig",
         "components",
-        "layout",
-        "apple",
-        "human",
-        "interface",
-        "guidelines",
-        "navigation"
+        "layout"
       ],
       "path": "skills/hig-components-layout/SKILL.md"
     },
     {
       "id": "hig-components-menus",
       "name": "hig-components-menus",
-      "description": "Apple HIG guidance for menu and button components including menus, context menus, dock menus, edit menus, the menu bar, toolbars, action buttons, pop-up buttons, pull-down buttons, disclosure...",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12329,23 +11535,14 @@
       "triggers": [
         "hig",
         "components",
-        "menus",
-        "apple",
-        "guidance",
-        "menu",
-        "button",
-        "including",
-        "context",
-        "dock",
-        "edit",
-        "bar"
+        "menus"
       ],
       "path": "skills/hig-components-menus/SKILL.md"
     },
     {
       "id": "hig-components-search",
       "name": "hig-components-search",
-      "description": "Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12355,23 +11552,14 @@
       "triggers": [
         "hig",
         "components",
-        "search",
-        "apple",
-        "guidance",
-        "navigation",
-        "related",
-        "including",
-        "fields",
-        "page",
-        "controls",
-        "path"
+        "search"
       ],
       "path": "skills/hig-components-search/SKILL.md"
     },
     {
       "id": "hig-components-status",
       "name": "hig-components-status",
-      "description": "Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12381,23 +11569,14 @@
       "triggers": [
         "hig",
         "components",
-        "status",
-        "apple",
-        "guidance",
-        "progress",
-        "ui",
-        "including",
-        "indicators",
-        "bars",
-        "activity",
-        "rings"
+        "status"
       ],
       "path": "skills/hig-components-status/SKILL.md"
     },
     {
       "id": "hig-components-system",
       "name": "hig-components-system",
-      "description": "Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12405,24 +11584,14 @@
       ],
       "triggers": [
         "hig",
-        "components",
-        "apple",
-        "guidance",
-        "experience",
-        "widgets",
-        "live",
-        "activities",
-        "notifications",
-        "complications",
-        "home",
-        "screen"
+        "components"
       ],
       "path": "skills/hig-components-system/SKILL.md"
     },
     {
       "id": "hig-foundations",
       "name": "hig-foundations",
-      "description": "Apple Human Interface Guidelines design foundations.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12430,62 +11599,42 @@
       ],
       "triggers": [
         "hig",
-        "foundations",
-        "apple",
-        "human",
-        "interface",
-        "guidelines"
+        "foundations"
       ],
       "path": "skills/hig-foundations/SKILL.md"
     },
     {
       "id": "hig-inputs",
       "name": "hig-inputs",
-      "description": "Apple HIG guidance for input methods and interaction patterns: gestures, Apple Pencil, keyboards, game controllers, pointers, Digital Crown, eye tracking, focus system, remotes, spatial...",
-      "category": "architecture",
+      "description": "",
+      "category": "general",
       "tags": [
         "hig",
         "inputs"
       ],
       "triggers": [
         "hig",
-        "inputs",
-        "apple",
-        "guidance",
-        "input",
-        "methods",
-        "interaction",
-        "gestures",
-        "pencil",
-        "keyboards",
-        "game",
-        "controllers"
+        "inputs"
       ],
       "path": "skills/hig-inputs/SKILL.md"
     },
     {
       "id": "hig-patterns",
       "name": "hig-patterns",
-      "description": "Apple Human Interface Guidelines interaction and UX patterns.",
+      "description": "",
       "category": "architecture",
       "tags": [
         "hig"
       ],
       "triggers": [
-        "hig",
-        "apple",
-        "human",
-        "interface",
-        "guidelines",
-        "interaction",
-        "ux"
+        "hig"
       ],
       "path": "skills/hig-patterns/SKILL.md"
     },
     {
       "id": "hig-platforms",
       "name": "hig-platforms",
-      "description": "Apple Human Interface Guidelines for platform-specific design.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig",
@@ -12493,60 +11642,36 @@
       ],
       "triggers": [
         "hig",
-        "platforms",
-        "apple",
-        "human",
-        "interface",
-        "guidelines",
-        "platform",
-        "specific"
+        "platforms"
       ],
       "path": "skills/hig-platforms/SKILL.md"
     },
     {
       "id": "hig-project-context",
       "name": "hig-project-context",
-      "description": "Create or update a shared Apple design context document that other HIG skills use to tailor guidance.",
+      "description": "",
       "category": "general",
       "tags": [
         "hig"
       ],
       "triggers": [
         "hig",
-        "context",
-        "update",
-        "shared",
-        "apple",
-        "document",
-        "other",
-        "skills",
-        "tailor",
-        "guidance"
+        "context"
       ],
       "path": "skills/hig-project-context/SKILL.md"
     },
     {
       "id": "hig-technologies",
       "name": "hig-technologies",
-      "description": "Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center,...",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "hig",
         "technologies"
       ],
       "triggers": [
         "hig",
-        "technologies",
-        "apple",
-        "guidance",
-        "technology",
-        "integrations",
-        "siri",
-        "pay",
-        "healthkit",
-        "homekit",
-        "arkit",
-        "machine"
+        "technologies"
       ],
       "path": "skills/hig-technologies/SKILL.md"
     },
@@ -12579,24 +11704,14 @@
     {
       "id": "hr-pro",
       "name": "hr-pro",
-      "description": "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.",
+      "description": "",
       "category": "business",
       "tags": [
         "hr"
       ],
       "triggers": [
         "hr",
-        "pro",
-        "professional",
-        "ethical",
-        "partner",
-        "hiring",
-        "onboarding",
-        "offboarding",
-        "pto",
-        "leave",
-        "performance",
-        "compliant"
+        "pro"
       ],
       "path": "skills/hr-pro/SKILL.md"
     },
@@ -12729,7 +11844,7 @@
     {
       "id": "hybrid-cloud-architect",
       "name": "hybrid-cloud-architect",
-      "description": "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).",
+      "description": "",
       "category": "infrastructure",
       "tags": [
         "hybrid",
@@ -12738,16 +11853,7 @@
       "triggers": [
         "hybrid",
         "cloud",
-        "architect",
-        "specializing",
-        "complex",
-        "multi",
-        "solutions",
-        "aws",
-        "azure",
-        "gcp",
-        "private",
-        "clouds"
+        "architect"
       ],
       "path": "skills/hybrid-cloud-architect/SKILL.md"
     },
@@ -12853,31 +11959,20 @@
     {
       "id": "imagen",
       "name": "imagen",
-      "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "imagen"
       ],
       "triggers": [
-        "imagen",
-        "ai",
-        "image",
-        "generation",
-        "skill",
-        "powered",
-        "google",
-        "gemini",
-        "enabling",
-        "seamless",
-        "visual",
-        "content"
+        "imagen"
       ],
       "path": "skills/imagen/SKILL.md"
     },
     {
       "id": "incident-responder",
       "name": "incident-responder",
-      "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.",
+      "description": "",
       "category": "security",
       "tags": [
         "incident",
@@ -12885,13 +11980,7 @@
       ],
       "triggers": [
         "incident",
-        "responder",
-        "sre",
-        "specializing",
-        "rapid",
-        "problem",
-        "resolution",
-        "observability"
+        "responder"
       ],
       "path": "skills/incident-responder/SKILL.md"
     },
@@ -13139,7 +12228,7 @@
     {
       "id": "inventory-demand-planning",
       "name": "inventory-demand-planning",
-      "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
+      "description": "",
       "category": "general",
       "tags": [
         "inventory",
@@ -13149,40 +12238,21 @@
       "triggers": [
         "inventory",
         "demand",
-        "planning",
-        "codified",
-        "expertise",
-        "forecasting",
-        "safety",
-        "stock",
-        "optimisation",
-        "replenishment",
-        "promotional",
-        "lift"
+        "planning"
       ],
       "path": "skills/inventory-demand-planning/SKILL.md"
     },
     {
       "id": "ios-developer",
       "name": "ios-developer",
-      "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "ios"
       ],
       "triggers": [
         "ios",
-        "developer",
-        "develop",
-        "native",
-        "applications",
-        "swift",
-        "swiftui",
-        "masters",
-        "18",
-        "uikit",
-        "integration",
-        "core"
+        "developer"
       ],
       "path": "skills/ios-developer/SKILL.md"
     },
@@ -13239,24 +12309,14 @@
     {
       "id": "java-pro",
       "name": "java-pro",
-      "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "java"
       ],
       "triggers": [
         "java",
-        "pro",
-        "21",
-        "features",
-        "like",
-        "virtual",
-        "threads",
-        "matching",
-        "spring",
-        "boot",
-        "latest",
-        "ecosystem"
+        "pro"
       ],
       "path": "skills/java-pro/SKILL.md"
     },
@@ -13288,24 +12348,14 @@
     {
       "id": "javascript-pro",
       "name": "javascript-pro",
-      "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.",
+      "description": "",
       "category": "development",
       "tags": [
         "javascript"
       ],
       "triggers": [
         "javascript",
-        "pro",
-        "es6",
-        "async",
-        "node",
-        "js",
-        "apis",
-        "promises",
-        "event",
-        "loops",
-        "browser",
-        "compatibility"
+        "pro"
       ],
       "path": "skills/javascript-pro/SKILL.md"
     },
@@ -13385,20 +12435,14 @@
     {
       "id": "julia-pro",
       "name": "julia-pro",
-      "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.",
+      "description": "",
       "category": "general",
       "tags": [
         "julia"
       ],
       "triggers": [
         "julia",
-        "pro",
-        "10",
-        "features",
-        "performance",
-        "optimization",
-        "multiple",
-        "dispatch"
+        "pro"
       ],
       "path": "skills/julia-pro/SKILL.md"
     },
@@ -13552,24 +12596,14 @@
     {
       "id": "kubernetes-architect",
       "name": "kubernetes-architect",
-      "description": "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.",
+      "description": "",
       "category": "infrastructure",
       "tags": [
         "kubernetes"
       ],
       "triggers": [
         "kubernetes",
-        "architect",
-        "specializing",
-        "cloud",
-        "native",
-        "infrastructure",
-        "gitops",
-        "argocd",
-        "flux",
-        "enterprise",
-        "container",
-        "orchestration"
+        "architect"
       ],
       "path": "skills/kubernetes-architect/SKILL.md"
     },
@@ -13769,7 +12803,7 @@
     {
       "id": "legacy-modernizer",
       "name": "legacy-modernizer",
-      "description": "Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility.",
+      "description": "",
       "category": "general",
       "tags": [
         "legacy",
@@ -13777,42 +12811,22 @@
       ],
       "triggers": [
         "legacy",
-        "modernizer",
-        "refactor",
-        "codebases",
-        "migrate",
-        "outdated",
-        "frameworks",
-        "gradual",
-        "modernization",
-        "technical",
-        "debt",
-        "dependency"
+        "modernizer"
       ],
       "path": "skills/legacy-modernizer/SKILL.md"
     },
     {
       "id": "legal-advisor",
       "name": "legal-advisor",
-      "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
-      "category": "security",
+      "description": "",
+      "category": "business",
       "tags": [
         "legal",
         "advisor"
       ],
       "triggers": [
         "legal",
-        "advisor",
-        "draft",
-        "privacy",
-        "policies",
-        "terms",
-        "disclaimers",
-        "notices",
-        "creates",
-        "gdpr",
-        "compliant",
-        "texts"
+        "advisor"
       ],
       "path": "skills/legal-advisor/SKILL.md"
     },
@@ -14308,7 +13322,7 @@
     {
       "id": "logistics-exception-management",
       "name": "logistics-exception-management",
-      "description": "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience.",
+      "description": "",
       "category": "general",
       "tags": [
         "logistics",
@@ -14316,17 +13330,7 @@
       ],
       "triggers": [
         "logistics",
-        "exception",
-        "codified",
-        "expertise",
-        "handling",
-        "freight",
-        "exceptions",
-        "shipment",
-        "delays",
-        "damages",
-        "losses",
-        "carrier"
+        "exception"
       ],
       "path": "skills/logistics-exception-management/SKILL.md"
     },
@@ -14358,8 +13362,8 @@
     {
       "id": "m365-agents-dotnet",
       "name": "m365-agents-dotnet",
-      "description": "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.",
-      "category": "security",
+      "description": "",
+      "category": "development",
       "tags": [
         "m365",
         "agents",
@@ -14368,24 +13372,15 @@
       "triggers": [
         "m365",
         "agents",
-        "dotnet",
-        "microsoft",
-        "365",
-        "sdk",
-        "net",
-        "multichannel",
-        "teams",
-        "copilot",
-        "studio",
-        "asp"
+        "dotnet"
       ],
       "path": "skills/m365-agents-dotnet/SKILL.md"
     },
     {
       "id": "m365-agents-py",
       "name": "m365-agents-py",
-      "description": "Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "m365",
         "agents",
@@ -14394,24 +13389,15 @@
       "triggers": [
         "m365",
         "agents",
-        "py",
-        "microsoft",
-        "365",
-        "sdk",
-        "python",
-        "multichannel",
-        "teams",
-        "copilot",
-        "studio",
-        "aiohttp"
+        "py"
       ],
       "path": "skills/m365-agents-py/SKILL.md"
     },
     {
       "id": "m365-agents-ts",
       "name": "m365-agents-ts",
-      "description": "Microsoft 365 Agents SDK for TypeScript/Node.js.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "m365",
         "agents",
@@ -14420,13 +13406,7 @@
       "triggers": [
         "m365",
         "agents",
-        "ts",
-        "microsoft",
-        "365",
-        "sdk",
-        "typescript",
-        "node",
-        "js"
+        "ts"
       ],
       "path": "skills/m365-agents-ts/SKILL.md"
     },
@@ -14527,7 +13507,7 @@
     {
       "id": "malware-analyst",
       "name": "malware-analyst",
-      "description": "Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.",
+      "description": "",
       "category": "security",
       "tags": [
         "malware",
@@ -14535,17 +13515,7 @@
       ],
       "triggers": [
         "malware",
-        "analyst",
-        "specializing",
-        "defensive",
-        "research",
-        "threat",
-        "intelligence",
-        "incident",
-        "response",
-        "masters",
-        "sandbox",
-        "analysis"
+        "analyst"
       ],
       "path": "skills/malware-analyst/SKILL.md"
     },
@@ -14576,7 +13546,7 @@
     {
       "id": "market-sizing-analysis",
       "name": "market-sizing-analysis",
-      "description": "This skill should be used when the user asks to \\\\\\\"calculate TAM\\\\\\\", \"determine SAM\", \"estimate SOM\", \"size the market\", \"calculate market opportunity\", \"what's the total addressable market\", or...",
+      "description": "",
       "category": "business",
       "tags": [
         "market",
@@ -14585,16 +13555,7 @@
       "triggers": [
         "market",
         "sizing",
-        "analysis",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "calculate",
-        "tam",
-        "determine",
-        "sam"
+        "analysis"
       ],
       "path": "skills/market-sizing-analysis/SKILL.md"
     },
@@ -14769,24 +13730,13 @@
     {
       "id": "mermaid-expert",
       "name": "mermaid-expert",
-      "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+      "description": "",
       "category": "general",
       "tags": [
         "mermaid"
       ],
       "triggers": [
-        "mermaid",
-        "diagrams",
-        "flowcharts",
-        "sequences",
-        "erds",
-        "architectures",
-        "masters",
-        "syntax",
-        "all",
-        "diagram",
-        "types",
-        "styling"
+        "mermaid"
       ],
       "path": "skills/mermaid-expert/SKILL.md"
     },
@@ -14868,7 +13818,7 @@
     {
       "id": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
       "name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
-      "description": "Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.",
+      "description": "",
       "category": "development",
       "tags": [
         "microsoft",
@@ -14886,12 +13836,7 @@
         "extensions",
         "authentication",
         "events",
-        "dotnet",
-        "entra",
-        "sdk",
-        "net",
-        "functions",
-        "triggers"
+        "dotnet"
       ],
       "path": "skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md"
     },
@@ -14923,7 +13868,7 @@
     {
       "id": "minecraft-bukkit-pro",
       "name": "minecraft-bukkit-pro",
-      "description": "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.",
+      "description": "",
       "category": "general",
       "tags": [
         "minecraft",
@@ -14932,13 +13877,7 @@
       "triggers": [
         "minecraft",
         "bukkit",
-        "pro",
-        "server",
-        "plugin",
-        "development",
-        "spigot",
-        "paper",
-        "apis"
+        "pro"
       ],
       "path": "skills/minecraft-bukkit-pro/SKILL.md"
     },
@@ -14993,24 +13932,14 @@
     {
       "id": "ml-engineer",
       "name": "ml-engineer",
-      "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "data-ai",
       "tags": [
         "ml"
       ],
       "triggers": [
         "ml",
-        "engineer",
-        "pytorch",
-        "tensorflow",
-        "frameworks",
-        "implements",
-        "model",
-        "serving",
-        "feature",
-        "engineering",
-        "testing",
-        "monitoring"
+        "engineer"
       ],
       "path": "skills/ml-engineer/SKILL.md"
     },
@@ -15042,22 +13971,14 @@
     {
       "id": "mlops-engineer",
       "name": "mlops-engineer",
-      "description": "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "mlops"
       ],
       "triggers": [
         "mlops",
-        "engineer",
-        "ml",
-        "pipelines",
-        "experiment",
-        "tracking",
-        "model",
-        "registries",
-        "mlflow",
-        "kubeflow"
+        "engineer"
       ],
       "path": "skills/mlops-engineer/SKILL.md"
     },
@@ -15088,31 +14009,21 @@
     {
       "id": "mobile-developer",
       "name": "mobile-developer",
-      "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.",
+      "description": "",
       "category": "development",
       "tags": [
         "mobile"
       ],
       "triggers": [
         "mobile",
-        "developer",
-        "develop",
-        "react",
-        "native",
-        "flutter",
-        "apps",
-        "architecture",
-        "masters",
-        "cross",
-        "platform",
-        "development"
+        "developer"
       ],
       "path": "skills/mobile-developer/SKILL.md"
     },
     {
       "id": "mobile-security-coder",
       "name": "mobile-security-coder",
-      "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
+      "description": "",
       "category": "security",
       "tags": [
         "mobile",
@@ -15122,14 +14033,7 @@
       "triggers": [
         "mobile",
         "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "input",
-        "validation",
-        "webview",
-        "specific"
+        "coder"
       ],
       "path": "skills/mobile-security-coder/SKILL.md"
     },
@@ -15284,7 +14188,7 @@
     {
       "id": "multi-agent-brainstorming",
       "name": "multi-agent-brainstorming",
-      "description": "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
+      "description": "Transform a single-agent design into a robust, review-validated design by simulating a formal peer-review process using multiple constrained agents.",
       "category": "workflow",
       "tags": [
         "multi",
@@ -15295,15 +14199,15 @@
         "multi",
         "agent",
         "brainstorming",
-        "simulate",
-        "structured",
-        "peer",
+        "transform",
+        "single",
+        "robust",
         "review",
-        "process",
-        "multiple",
-        "specialized",
-        "agents",
-        "validate"
+        "validated",
+        "simulating",
+        "formal",
+        "peer",
+        "process"
       ],
       "path": "skills/multi-agent-brainstorming/SKILL.md"
     },
@@ -15606,21 +14510,14 @@
     {
       "id": "network-engineer",
       "name": "network-engineer",
-      "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
-      "category": "security",
+      "description": "",
+      "category": "infrastructure",
       "tags": [
         "network"
       ],
       "triggers": [
         "network",
-        "engineer",
-        "specializing",
-        "cloud",
-        "networking",
-        "security",
-        "architectures",
-        "performance",
-        "optimization"
+        "engineer"
       ],
       "path": "skills/network-engineer/SKILL.md"
     },
@@ -15903,22 +14800,14 @@
     {
       "id": "observability-engineer",
       "name": "observability-engineer",
-      "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
-      "category": "security",
+      "description": "",
+      "category": "infrastructure",
       "tags": [
         "observability"
       ],
       "triggers": [
         "observability",
-        "engineer",
-        "monitoring",
-        "logging",
-        "tracing",
-        "implements",
-        "sli",
-        "slo",
-        "incident",
-        "response"
+        "engineer"
       ],
       "path": "skills/observability-engineer/SKILL.md"
     },
@@ -16254,7 +15143,7 @@
     {
       "id": "page-cro",
       "name": "page-cro",
-      "description": "Analyze and optimize individual pages for conversion performance.",
+      "description": "",
       "category": "general",
       "tags": [
         "page",
@@ -16262,13 +15151,7 @@
       ],
       "triggers": [
         "page",
-        "cro",
-        "analyze",
-        "optimize",
-        "individual",
-        "pages",
-        "conversion",
-        "performance"
+        "cro"
       ],
       "path": "skills/page-cro/SKILL.md"
     },
@@ -16349,25 +15232,15 @@
     {
       "id": "payment-integration",
       "name": "payment-integration",
-      "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "payment",
         "integration"
       ],
       "triggers": [
         "payment",
-        "integration",
-        "integrate",
-        "stripe",
-        "paypal",
-        "processors",
-        "checkout",
-        "flows",
-        "subscriptions",
-        "webhooks",
-        "pci",
-        "compliance"
+        "integration"
       ],
       "path": "skills/payment-integration/SKILL.md"
     },
@@ -16631,24 +15504,14 @@
     {
       "id": "php-pro",
       "name": "php-pro",
-      "description": "Write idiomatic PHP code with generators, iterators, SPL data\nstructures, and modern OOP features. Use PROACTIVELY for high-performance PHP\napplications.",
-      "category": "data-ai",
+      "description": "",
+      "category": "development",
       "tags": [
         "php"
       ],
       "triggers": [
         "php",
-        "pro",
-        "write",
-        "idiomatic",
-        "code",
-        "generators",
-        "iterators",
-        "spl",
-        "data",
-        "structures",
-        "oop",
-        "features"
+        "pro"
       ],
       "path": "skills/php-pro/SKILL.md"
     },
@@ -16830,7 +15693,7 @@
     {
       "id": "posix-shell-pro",
       "name": "posix-shell-pro",
-      "description": "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
+      "description": "",
       "category": "general",
       "tags": [
         "posix",
@@ -16839,16 +15702,7 @@
       "triggers": [
         "posix",
         "shell",
-        "pro",
-        "strict",
-        "sh",
-        "scripting",
-        "maximum",
-        "portability",
-        "unix",
-        "like",
-        "specializes",
-        "scripts"
+        "pro"
       ],
       "path": "skills/posix-shell-pro/SKILL.md"
     },
@@ -17165,7 +16019,7 @@
     {
       "id": "production-scheduling",
       "name": "production-scheduling",
-      "description": "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.",
+      "description": "",
       "category": "general",
       "tags": [
         "production",
@@ -17173,39 +16027,22 @@
       ],
       "triggers": [
         "production",
-        "scheduling",
-        "codified",
-        "expertise",
-        "job",
-        "sequencing",
-        "line",
-        "balancing",
-        "changeover",
-        "optimisation",
-        "bottleneck",
-        "resolution"
+        "scheduling"
       ],
       "path": "skills/production-scheduling/SKILL.md"
     },
     {
       "id": "programmatic-seo",
       "name": "programmatic-seo",
-      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
-      "category": "data-ai",
+      "description": "",
+      "category": "business",
       "tags": [
         "programmatic",
         "seo"
       ],
       "triggers": [
         "programmatic",
-        "seo",
-        "evaluate",
-        "creating",
-        "driven",
-        "pages",
-        "scale",
-        "structured",
-        "data"
+        "seo"
       ],
       "path": "skills/programmatic-seo/SKILL.md"
     },
@@ -17579,24 +16416,14 @@
     {
       "id": "python-pro",
       "name": "python-pro",
-      "description": "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.",
+      "description": "",
       "category": "development",
       "tags": [
         "python"
       ],
       "triggers": [
         "python",
-        "pro",
-        "12",
-        "features",
-        "async",
-        "programming",
-        "performance",
-        "optimization",
-        "latest",
-        "ecosystem",
-        "including",
-        "uv"
+        "pro"
       ],
       "path": "skills/python-pro/SKILL.md"
     },
@@ -17627,7 +16454,7 @@
     {
       "id": "quality-nonconformance",
       "name": "quality-nonconformance",
-      "description": "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing.",
+      "description": "",
       "category": "general",
       "tags": [
         "quality",
@@ -17635,42 +16462,22 @@
       ],
       "triggers": [
         "quality",
-        "nonconformance",
-        "codified",
-        "expertise",
-        "control",
-        "non",
-        "conformance",
-        "investigation",
-        "root",
-        "cause",
-        "analysis",
-        "corrective"
+        "nonconformance"
       ],
       "path": "skills/quality-nonconformance/SKILL.md"
     },
     {
       "id": "quant-analyst",
       "name": "quant-analyst",
-      "description": "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "quant",
         "analyst"
       ],
       "triggers": [
         "quant",
-        "analyst",
-        "financial",
-        "models",
-        "backtest",
-        "trading",
-        "analyze",
-        "market",
-        "data",
-        "implements",
-        "risk",
-        "metrics"
+        "analyst"
       ],
       "path": "skills/quant-analyst/SKILL.md"
     },
@@ -18095,25 +16902,15 @@
     {
       "id": "reference-builder",
       "name": "reference-builder",
-      "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "reference",
         "builder"
       ],
       "triggers": [
         "reference",
-        "builder",
-        "creates",
-        "exhaustive",
-        "technical",
-        "references",
-        "api",
-        "documentation",
-        "generates",
-        "parameter",
-        "listings",
-        "configuration"
+        "builder"
       ],
       "path": "skills/reference-builder/SKILL.md"
     },
@@ -18239,7 +17036,7 @@
     {
       "id": "returns-reverse-logistics",
       "name": "returns-reverse-logistics",
-      "description": "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.",
+      "description": "",
       "category": "general",
       "tags": [
         "returns",
@@ -18249,47 +17046,28 @@
       "triggers": [
         "returns",
         "reverse",
-        "logistics",
-        "codified",
-        "expertise",
-        "authorisation",
-        "receipt",
-        "inspection",
-        "disposition",
-        "decisions",
-        "refund",
-        "processing"
+        "logistics"
       ],
       "path": "skills/returns-reverse-logistics/SKILL.md"
     },
     {
       "id": "reverse-engineer",
       "name": "reverse-engineer",
-      "description": "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.",
+      "description": "",
       "category": "general",
       "tags": [
         "reverse"
       ],
       "triggers": [
         "reverse",
-        "engineer",
-        "specializing",
-        "binary",
-        "analysis",
-        "disassembly",
-        "decompilation",
-        "software",
-        "masters",
-        "ida",
-        "pro",
-        "ghidra"
+        "engineer"
       ],
       "path": "skills/reverse-engineer/SKILL.md"
     },
     {
       "id": "risk-manager",
       "name": "risk-manager",
-      "description": "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.",
+      "description": "",
       "category": "security",
       "tags": [
         "risk",
@@ -18297,17 +17075,7 @@
       ],
       "triggers": [
         "risk",
-        "manager",
-        "monitor",
-        "portfolio",
-        "multiples",
-        "position",
-        "limits",
-        "creates",
-        "hedging",
-        "calculates",
-        "expectancy",
-        "implements"
+        "manager"
       ],
       "path": "skills/risk-manager/SKILL.md"
     },
@@ -18340,24 +17108,14 @@
     {
       "id": "ruby-pro",
       "name": "ruby-pro",
-      "description": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.",
+      "description": "",
       "category": "development",
       "tags": [
         "ruby"
       ],
       "triggers": [
         "ruby",
-        "pro",
-        "write",
-        "idiomatic",
-        "code",
-        "metaprogramming",
-        "rails",
-        "performance",
-        "optimization",
-        "specializes",
-        "gem",
-        "development"
+        "pro"
       ],
       "path": "skills/ruby-pro/SKILL.md"
     },
@@ -18389,19 +17147,14 @@
     {
       "id": "rust-pro",
       "name": "rust-pro",
-      "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+      "description": "",
       "category": "development",
       "tags": [
         "rust"
       ],
       "triggers": [
         "rust",
-        "pro",
-        "75",
-        "async",
-        "type",
-        "features",
-        "programming"
+        "pro"
       ],
       "path": "skills/rust-pro/SKILL.md"
     },
@@ -18432,7 +17185,7 @@
     {
       "id": "sales-automator",
       "name": "sales-automator",
-      "description": "Draft cold emails, follow-ups, and proposal templates. Creates\npricing pages, case studies, and sales scripts. Use PROACTIVELY for sales\noutreach or lead nurturing.",
+      "description": "",
       "category": "business",
       "tags": [
         "sales",
@@ -18440,17 +17193,7 @@
       ],
       "triggers": [
         "sales",
-        "automator",
-        "draft",
-        "cold",
-        "emails",
-        "follow",
-        "ups",
-        "proposal",
-        "creates",
-        "pricing",
-        "pages",
-        "case"
+        "automator"
       ],
       "path": "skills/sales-automator/SKILL.md"
     },
@@ -18530,24 +17273,14 @@
     {
       "id": "scala-pro",
       "name": "scala-pro",
-      "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "scala"
       ],
       "triggers": [
         "scala",
-        "pro",
-        "enterprise",
-        "grade",
-        "development",
-        "functional",
-        "programming",
-        "distributed",
-        "big",
-        "data",
-        "processing",
-        "apache"
+        "pro"
       ],
       "path": "skills/scala-pro/SKILL.md"
     },
@@ -18578,25 +17311,15 @@
     {
       "id": "schema-markup",
       "name": "schema-markup",
-      "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.",
-      "category": "data-ai",
+      "description": "",
+      "category": "general",
       "tags": [
         "schema",
         "markup"
       ],
       "triggers": [
         "schema",
-        "markup",
-        "validate",
-        "optimize",
-        "org",
-        "structured",
-        "data",
-        "eligibility",
-        "correctness",
-        "measurable",
-        "seo",
-        "impact"
+        "markup"
       ],
       "path": "skills/schema-markup/SKILL.md"
     },
@@ -18742,7 +17465,7 @@
     {
       "id": "security-auditor",
       "name": "security-auditor",
-      "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
+      "description": "",
       "category": "security",
       "tags": [
         "security",
@@ -18750,12 +17473,7 @@
       ],
       "triggers": [
         "security",
-        "auditor",
-        "specializing",
-        "devsecops",
-        "cybersecurity",
-        "compliance",
-        "frameworks"
+        "auditor"
       ],
       "path": "skills/security-auditor/SKILL.md"
     },
@@ -18885,7 +17603,7 @@
     {
       "id": "security-scanning-security-sast",
       "name": "security-scanning-security-sast",
-      "description": "Static Application Security Testing (SAST) for code vulnerability\nanalysis across multiple languages and frameworks",
+      "description": "",
       "category": "security",
       "tags": [
         "security",
@@ -18895,16 +17613,7 @@
       "triggers": [
         "security",
         "scanning",
-        "sast",
-        "static",
-        "application",
-        "testing",
-        "code",
-        "vulnerability",
-        "analysis",
-        "multiple",
-        "languages",
-        "frameworks"
+        "sast"
       ],
       "path": "skills/security-scanning-security-sast/SKILL.md"
     },
@@ -19172,7 +17881,7 @@
     {
       "id": "seo-audit",
       "name": "seo-audit",
-      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19180,23 +17889,15 @@
       ],
       "triggers": [
         "seo",
-        "audit",
-        "diagnose",
-        "issues",
-        "affecting",
-        "crawlability",
-        "indexation",
-        "rankings",
-        "organic",
-        "performance"
+        "audit"
       ],
       "path": "skills/seo-audit/SKILL.md"
     },
     {
       "id": "seo-authority-builder",
       "name": "seo-authority-builder",
-      "description": "Analyzes content for E-E-A-T signals and suggests improvements to\nbuild authority and trust. Identifies missing credibility elements. Use\nPROACTIVELY for YMYL topics.",
-      "category": "security",
+      "description": "",
+      "category": "business",
       "tags": [
         "seo",
         "authority",
@@ -19205,23 +17906,14 @@
       "triggers": [
         "seo",
         "authority",
-        "builder",
-        "analyzes",
-        "content",
-        "signals",
-        "suggests",
-        "improvements",
-        "trust",
-        "identifies",
-        "missing",
-        "credibility"
+        "builder"
       ],
       "path": "skills/seo-authority-builder/SKILL.md"
     },
     {
       "id": "seo-cannibalization-detector",
       "name": "seo-cannibalization-detector",
-      "description": "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19231,23 +17923,14 @@
       "triggers": [
         "seo",
         "cannibalization",
-        "detector",
-        "analyzes",
-        "multiple",
-        "provided",
-        "pages",
-        "identify",
-        "keyword",
-        "overlap",
-        "potential",
-        "issues"
+        "detector"
       ],
       "path": "skills/seo-cannibalization-detector/SKILL.md"
     },
     {
       "id": "seo-content-auditor",
       "name": "seo-content-auditor",
-      "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19257,23 +17940,14 @@
       "triggers": [
         "seo",
         "content",
-        "auditor",
-        "analyzes",
-        "provided",
-        "quality",
-        "signals",
-        "scores",
-        "provides",
-        "improvement",
-        "recommendations",
-        "established"
+        "auditor"
       ],
       "path": "skills/seo-content-auditor/SKILL.md"
     },
     {
       "id": "seo-content-planner",
       "name": "seo-content-planner",
-      "description": "Creates comprehensive content outlines and topic clusters for SEO.\nPlans content calendars and identifies topic gaps. Use PROACTIVELY for content\nstrategy and planning.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19283,23 +17957,14 @@
       "triggers": [
         "seo",
         "content",
-        "planner",
-        "creates",
-        "outlines",
-        "topic",
-        "clusters",
-        "plans",
-        "calendars",
-        "identifies",
-        "gaps",
-        "proactively"
+        "planner"
       ],
       "path": "skills/seo-content-planner/SKILL.md"
     },
     {
       "id": "seo-content-refresher",
       "name": "seo-content-refresher",
-      "description": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19309,23 +17974,14 @@
       "triggers": [
         "seo",
         "content",
-        "refresher",
-        "identifies",
-        "outdated",
-        "elements",
-        "provided",
-        "suggests",
-        "updates",
-        "maintain",
-        "freshness",
-        "finds"
+        "refresher"
       ],
       "path": "skills/seo-content-refresher/SKILL.md"
     },
     {
       "id": "seo-content-writer",
       "name": "seo-content-writer",
-      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19335,16 +17991,7 @@
       "triggers": [
         "seo",
         "content",
-        "writer",
-        "writes",
-        "optimized",
-        "provided",
-        "keywords",
-        "topic",
-        "briefs",
-        "creates",
-        "engaging",
-        "following"
+        "writer"
       ],
       "path": "skills/seo-content-writer/SKILL.md"
     },
@@ -19378,7 +18025,7 @@
     {
       "id": "seo-fundamentals",
       "name": "seo-fundamentals",
-      "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19386,24 +18033,14 @@
       ],
       "triggers": [
         "seo",
-        "fundamentals",
-        "core",
-        "principles",
-        "including",
-        "web",
-        "vitals",
-        "technical",
-        "foundations",
-        "content",
-        "quality",
-        "how"
+        "fundamentals"
       ],
       "path": "skills/seo-fundamentals/SKILL.md"
     },
     {
       "id": "seo-keyword-strategist",
       "name": "seo-keyword-strategist",
-      "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19413,23 +18050,14 @@
       "triggers": [
         "seo",
         "keyword",
-        "strategist",
-        "analyzes",
-        "usage",
-        "provided",
-        "content",
-        "calculates",
-        "density",
-        "suggests",
-        "semantic",
-        "variations"
+        "strategist"
       ],
       "path": "skills/seo-keyword-strategist/SKILL.md"
     },
     {
       "id": "seo-meta-optimizer",
       "name": "seo-meta-optimizer",
-      "description": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19439,23 +18067,14 @@
       "triggers": [
         "seo",
         "meta",
-        "optimizer",
-        "creates",
-        "optimized",
-        "titles",
-        "descriptions",
-        "url",
-        "suggestions",
-        "character",
-        "limits",
-        "generates"
+        "optimizer"
       ],
       "path": "skills/seo-meta-optimizer/SKILL.md"
     },
     {
       "id": "seo-snippet-hunter",
       "name": "seo-snippet-hunter",
-      "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19465,23 +18084,14 @@
       "triggers": [
         "seo",
         "snippet",
-        "hunter",
-        "formats",
-        "content",
-        "eligible",
-        "featured",
-        "snippets",
-        "serp",
-        "features",
-        "creates",
-        "optimized"
+        "hunter"
       ],
       "path": "skills/seo-snippet-hunter/SKILL.md"
     },
     {
       "id": "seo-structure-architect",
       "name": "seo-structure-architect",
-      "description": "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.",
+      "description": "",
       "category": "business",
       "tags": [
         "seo",
@@ -19490,16 +18100,7 @@
       "triggers": [
         "seo",
         "structure",
-        "architect",
-        "analyzes",
-        "optimizes",
-        "content",
-        "including",
-        "header",
-        "hierarchy",
-        "suggests",
-        "schema",
-        "markup"
+        "architect"
       ],
       "path": "skills/seo-structure-architect/SKILL.md"
     },
@@ -19726,24 +18327,14 @@
     {
       "id": "shopify-development",
       "name": "shopify-development",
-      "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.",
-      "category": "development",
+      "description": "",
+      "category": "general",
       "tags": [
         "shopify"
       ],
       "triggers": [
         "shopify",
-        "development",
-        "apps",
-        "extensions",
-        "themes",
-        "graphql",
-        "admin",
-        "api",
-        "cli",
-        "polaris",
-        "ui",
-        "liquid"
+        "development"
       ],
       "path": "skills/shopify-development/SKILL.md"
     },
@@ -20199,24 +18790,14 @@
     {
       "id": "sql-pro",
       "name": "sql-pro",
-      "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "data-ai",
       "tags": [
         "sql"
       ],
       "triggers": [
         "sql",
-        "pro",
-        "cloud",
-        "native",
-        "databases",
-        "oltp",
-        "olap",
-        "optimization",
-        "query",
-        "techniques",
-        "performance",
-        "tuning"
+        "pro"
       ],
       "path": "skills/sql-pro/SKILL.md"
     },
@@ -20298,7 +18879,7 @@
     {
       "id": "startup-analyst",
       "name": "startup-analyst",
-      "description": "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.",
+      "description": "",
       "category": "business",
       "tags": [
         "startup",
@@ -20306,24 +18887,14 @@
       ],
       "triggers": [
         "startup",
-        "analyst",
-        "business",
-        "specializing",
-        "market",
-        "sizing",
-        "financial",
-        "modeling",
-        "competitive",
-        "analysis",
-        "strategic",
-        "planning"
+        "analyst"
       ],
       "path": "skills/startup-analyst/SKILL.md"
     },
     {
       "id": "startup-business-analyst-business-case",
       "name": "startup-business-analyst-business-case",
-      "description": "Generate comprehensive investor-ready business case document with\nmarket, solution, financials, and strategy",
+      "description": "",
       "category": "business",
       "tags": [
         "startup",
@@ -20335,20 +18906,14 @@
         "startup",
         "business",
         "analyst",
-        "case",
-        "generate",
-        "investor",
-        "document",
-        "market",
-        "solution",
-        "financials"
+        "case"
       ],
       "path": "skills/startup-business-analyst-business-case/SKILL.md"
     },
     {
       "id": "startup-business-analyst-financial-projections",
       "name": "startup-business-analyst-financial-projections",
-      "description": "Create detailed 3-5 year financial model with revenue, costs, cash\nflow, and scenarios",
+      "description": "",
       "category": "business",
       "tags": [
         "startup",
@@ -20362,21 +18927,14 @@
         "business",
         "analyst",
         "financial",
-        "projections",
-        "detailed",
-        "year",
-        "model",
-        "revenue",
-        "costs",
-        "cash",
-        "flow"
+        "projections"
       ],
       "path": "skills/startup-business-analyst-financial-projections/SKILL.md"
     },
     {
       "id": "startup-business-analyst-market-opportunity",
       "name": "startup-business-analyst-market-opportunity",
-      "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM\ncalculations",
+      "description": "",
       "category": "business",
       "tags": [
         "startup",
@@ -20390,20 +18948,14 @@
         "business",
         "analyst",
         "market",
-        "opportunity",
-        "generate",
-        "analysis",
-        "tam",
-        "sam",
-        "som",
-        "calculations"
+        "opportunity"
       ],
       "path": "skills/startup-business-analyst-market-opportunity/SKILL.md"
     },
     {
       "id": "startup-financial-modeling",
       "name": "startup-financial-modeling",
-      "description": "This skill should be used when the user asks to \\\\\\\"create financial projections\", \"build a financial model\", \"forecast revenue\", \"calculate burn rate\", \"estimate runway\", \"model cash flow\", or...",
+      "description": "",
       "category": "business",
       "tags": [
         "startup",
@@ -20413,24 +18965,15 @@
       "triggers": [
         "startup",
         "financial",
-        "modeling",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "projections",
-        "model",
-        "forecast",
-        "revenue"
+        "modeling"
       ],
       "path": "skills/startup-financial-modeling/SKILL.md"
     },
     {
       "id": "startup-metrics-framework",
       "name": "startup-metrics-framework",
-      "description": "This skill should be used when the user asks about \\\\\\\"key startup metrics\", \"SaaS metrics\", \"CAC and LTV\", \"unit economics\", \"burn multiple\", \"rule of 40\", \"marketplace metrics\", or requests...",
-      "category": "testing",
+      "description": "",
+      "category": "business",
       "tags": [
         "startup",
         "metrics",
@@ -20439,16 +18982,7 @@
       "triggers": [
         "startup",
         "metrics",
-        "framework",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "about",
-        "key",
-        "saas",
-        "cac"
+        "framework"
       ],
       "path": "skills/startup-metrics-framework/SKILL.md"
     },
@@ -20758,7 +19292,7 @@
     {
       "id": "tdd-orchestrator",
       "name": "tdd-orchestrator",
-      "description": "Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.",
+      "description": "",
       "category": "testing",
       "tags": [
         "tdd",
@@ -20766,17 +19300,7 @@
       ],
       "triggers": [
         "tdd",
-        "orchestrator",
-        "specializing",
-        "red",
-        "green",
-        "refactor",
-        "discipline",
-        "multi",
-        "agent",
-        "coordination",
-        "test",
-        "driven"
+        "orchestrator"
       ],
       "path": "skills/tdd-orchestrator/SKILL.md"
     },
@@ -20935,7 +19459,7 @@
     {
       "id": "team-composition-analysis",
       "name": "team-composition-analysis",
-      "description": "This skill should be used when the user asks to \\\\\\\"plan team structure\", \"determine hiring needs\", \"design org chart\", \"calculate compensation\", \"plan equity allocation\", or requests...",
+      "description": "",
       "category": "general",
       "tags": [
         "team",
@@ -20944,16 +19468,7 @@
       "triggers": [
         "team",
         "composition",
-        "analysis",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "plan",
-        "structure",
-        "determine",
-        "hiring"
+        "analysis"
       ],
       "path": "skills/team-composition-analysis/SKILL.md"
     },
@@ -21061,8 +19576,8 @@
     {
       "id": "temporal-python-pro",
       "name": "temporal-python-pro",
-      "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "development",
       "tags": [
         "temporal",
         "python"
@@ -21070,16 +19585,7 @@
       "triggers": [
         "temporal",
         "python",
-        "pro",
-        "orchestration",
-        "sdk",
-        "implements",
-        "durable",
-        "saga",
-        "distributed",
-        "transactions",
-        "covers",
-        "async"
+        "pro"
       ],
       "path": "skills/temporal-python-pro/SKILL.md"
     },
@@ -21203,44 +19709,27 @@
     {
       "id": "terraform-specialist",
       "name": "terraform-specialist",
-      "description": "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns.",
+      "description": "",
       "category": "infrastructure",
       "tags": [
         "terraform"
       ],
       "triggers": [
-        "terraform",
-        "opentofu",
-        "mastering",
-        "iac",
-        "automation",
-        "state",
-        "enterprise",
-        "infrastructure"
+        "terraform"
       ],
       "path": "skills/terraform-specialist/SKILL.md"
     },
     {
       "id": "test-automator",
       "name": "test-automator",
-      "description": "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "testing",
       "tags": [
         "automator"
       ],
       "triggers": [
         "automator",
-        "test",
-        "ai",
-        "powered",
-        "automation",
-        "frameworks",
-        "self",
-        "healing",
-        "tests",
-        "quality",
-        "engineering",
-        "scalable"
+        "test"
       ],
       "path": "skills/test-automator/SKILL.md"
     },
@@ -21527,24 +20016,13 @@
     {
       "id": "track-management",
       "name": "track-management",
-      "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
-      "category": "workflow",
+      "description": "",
+      "category": "general",
       "tags": [
         "track"
       ],
       "triggers": [
-        "track",
-        "skill",
-        "creating",
-        "managing",
-        "working",
-        "conductor",
-        "tracks",
-        "logical",
-        "work",
-        "units",
-        "features",
-        "bugs"
+        "track"
       ],
       "path": "skills/track-management/SKILL.md"
     },
@@ -21625,24 +20103,14 @@
     {
       "id": "tutorial-engineer",
       "name": "tutorial-engineer",
-      "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.",
+      "description": "",
       "category": "general",
       "tags": [
         "tutorial"
       ],
       "triggers": [
         "tutorial",
-        "engineer",
-        "creates",
-        "step",
-        "tutorials",
-        "educational",
-        "content",
-        "code",
-        "transforms",
-        "complex",
-        "concepts",
-        "progressive"
+        "engineer"
       ],
       "path": "skills/tutorial-engineer/SKILL.md"
     },
@@ -21724,47 +20192,27 @@
     {
       "id": "typescript-expert",
       "name": "typescript-expert",
-      "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.",
+      "description": "",
       "category": "development",
       "tags": [
         "typescript"
       ],
       "triggers": [
-        "typescript",
-        "javascript",
-        "deep",
-        "knowledge",
-        "type",
-        "level",
-        "programming",
-        "performance",
-        "optimization",
-        "monorepo",
-        "migration",
-        "tooling"
+        "typescript"
       ],
       "path": "skills/typescript-expert/SKILL.md"
     },
     {
       "id": "typescript-pro",
       "name": "typescript-pro",
-      "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
+      "description": "",
       "category": "development",
       "tags": [
         "typescript"
       ],
       "triggers": [
         "typescript",
-        "pro",
-        "types",
-        "generics",
-        "strict",
-        "type",
-        "safety",
-        "complex",
-        "decorators",
-        "enterprise",
-        "grade"
+        "pro"
       ],
       "path": "skills/typescript-pro/SKILL.md"
     },
@@ -21792,7 +20240,7 @@
     {
       "id": "ui-ux-designer",
       "name": "ui-ux-designer",
-      "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
+      "description": "",
       "category": "general",
       "tags": [
         "ui",
@@ -21802,15 +20250,7 @@
       "triggers": [
         "ui",
         "ux",
-        "designer",
-        "interface",
-        "designs",
-        "wireframes",
-        "masters",
-        "user",
-        "research",
-        "accessibility",
-        "standards"
+        "designer"
       ],
       "path": "skills/ui-ux-designer/SKILL.md"
     },
@@ -21843,8 +20283,8 @@
     {
       "id": "ui-visual-validator",
       "name": "ui-visual-validator",
-      "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.",
-      "category": "security",
+      "description": "",
+      "category": "general",
       "tags": [
         "ui",
         "visual",
@@ -21853,14 +20293,7 @@
       "triggers": [
         "ui",
         "visual",
-        "validator",
-        "rigorous",
-        "validation",
-        "specializing",
-        "testing",
-        "compliance",
-        "accessibility",
-        "verification"
+        "validator"
       ],
       "path": "skills/ui-visual-validator/SKILL.md"
     },
@@ -21891,24 +20324,14 @@
     {
       "id": "unity-developer",
       "name": "unity-developer",
-      "description": "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment.",
-      "category": "infrastructure",
+      "description": "",
+      "category": "general",
       "tags": [
         "unity"
       ],
       "triggers": [
         "unity",
-        "developer",
-        "games",
-        "optimized",
-        "scripts",
-        "efficient",
-        "rendering",
-        "proper",
-        "asset",
-        "masters",
-        "lts",
-        "urp"
+        "developer"
       ],
       "path": "skills/unity-developer/SKILL.md"
     },
@@ -23102,23 +21525,10 @@
     {
       "id": "workflow-patterns",
       "name": "workflow-patterns",
-      "description": "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.",
+      "description": "",
       "category": "architecture",
       "tags": [],
-      "triggers": [
-        "skill",
-        "implementing",
-        "tasks",
-        "according",
-        "conductor",
-        "tdd",
-        "handling",
-        "phase",
-        "checkpoints",
-        "managing",
-        "git",
-        "commits"
-      ],
+      "triggers": [],
       "path": "skills/workflow-patterns/SKILL.md"
     },
     {
@@ -23208,38 +21618,6 @@
         "twitter"
       ],
       "path": "skills/x-article-publisher-skill/SKILL.md"
-    },
-    {
-      "id": "x-twitter-scraper",
-      "name": "x-twitter-scraper",
-      "description": "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
-      "category": "infrastructure",
-      "tags": [
-        "[twitter",
-        "x-api",
-        "scraping",
-        "mcp",
-        "social-media",
-        "data-extraction",
-        "giveaway",
-        "monitoring",
-        "webhooks]"
-      ],
-      "triggers": [
-        "[twitter",
-        "x-api",
-        "scraping",
-        "mcp",
-        "social-media",
-        "data-extraction",
-        "giveaway",
-        "monitoring",
-        "webhooks]",
-        "twitter",
-        "scraper",
-        "data"
-      ],
-      "path": "skills/x-twitter-scraper/SKILL.md"
     },
     {
       "id": "xlsx-official",
