@@ -510,126 +510,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "apify-actor-development",
-    "path": "skills/apify-actor-development",
-    "category": "uncategorized",
-    "name": "apify-actor-development",
-    "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-actorization",
-    "path": "skills/apify-actorization",
-    "category": "uncategorized",
-    "name": "apify-actorization",
-    "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-audience-analysis",
-    "path": "skills/apify-audience-analysis",
-    "category": "uncategorized",
-    "name": "apify-audience-analysis",
-    "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-brand-reputation-monitoring",
-    "path": "skills/apify-brand-reputation-monitoring",
-    "category": "uncategorized",
-    "name": "apify-brand-reputation-monitoring",
-    "description": "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-competitor-intelligence",
-    "path": "skills/apify-competitor-intelligence",
-    "category": "uncategorized",
-    "name": "apify-competitor-intelligence",
-    "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-content-analytics",
-    "path": "skills/apify-content-analytics",
-    "category": "uncategorized",
-    "name": "apify-content-analytics",
-    "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-ecommerce",
-    "path": "skills/apify-ecommerce",
-    "category": "uncategorized",
-    "name": "apify-ecommerce",
-    "description": "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-influencer-discovery",
-    "path": "skills/apify-influencer-discovery",
-    "category": "uncategorized",
-    "name": "apify-influencer-discovery",
-    "description": "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-lead-generation",
-    "path": "skills/apify-lead-generation",
-    "category": "uncategorized",
-    "name": "apify-lead-generation",
-    "description": "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-market-research",
-    "path": "skills/apify-market-research",
-    "category": "uncategorized",
-    "name": "apify-market-research",
-    "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-trend-analysis",
-    "path": "skills/apify-trend-analysis",
-    "category": "uncategorized",
-    "name": "apify-trend-analysis",
-    "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
-    "id": "apify-ultimate-scraper",
-    "path": "skills/apify-ultimate-scraper",
-    "category": "uncategorized",
-    "name": "apify-ultimate-scraper",
-    "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "app-builder",
     "path": "skills/app-builder",
     "category": "uncategorized",
@@ -3814,7 +3694,7 @@
     "path": "skills/design-orchestration",
     "category": "uncategorized",
     "name": "design-orchestration",
-    "description": "Ensure that ideas become designs, designs are reviewed, and only validated designs reach implementation.",
+    "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6314,7 +6194,7 @@
     "path": "skills/multi-agent-brainstorming",
     "category": "uncategorized",
     "name": "multi-agent-brainstorming",
-    "description": "Transform a single-agent design into a robust, review-validated design by simulating a formal peer-review process using multiple constrained agents.",
+    "description": "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
