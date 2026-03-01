@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 955,
+  "total": 956,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -23208,6 +23208,38 @@
         "twitter"
       ],
       "path": "skills/x-article-publisher-skill/SKILL.md"
+    },
+    {
+      "id": "x-twitter-scraper",
+      "name": "x-twitter-scraper",
+      "description": "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
+      "category": "infrastructure",
+      "tags": [
+        "[twitter",
+        "x-api",
+        "scraping",
+        "mcp",
+        "social-media",
+        "data-extraction",
+        "giveaway",
+        "monitoring",
+        "webhooks]"
+      ],
+      "triggers": [
+        "[twitter",
+        "x-api",
+        "scraping",
+        "mcp",
+        "social-media",
+        "data-extraction",
+        "giveaway",
+        "monitoring",
+        "webhooks]",
+        "twitter",
+        "scraper",
+        "data"
+      ],
+      "path": "skills/x-twitter-scraper/SKILL.md"
     },
     {
       "id": "xlsx-official",

@@ -478,6 +478,7 @@
         "unity-ecs-patterns",
         "using-neon",
         "vector-database-engineer",
+        "x-twitter-scraper",
         "xlsx-official",
         "youtube-automation"
       ]
@@ -558,7 +559,8 @@
         "temporal-python-pro",
         "unity-developer",
         "vercel-deploy-claimable",
-        "vercel-deployment"
+        "vercel-deployment",
+        "x-twitter-scraper"
       ]
     }
   },

@@ -9460,6 +9460,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "x-twitter-scraper",
+    "path": "skills/x-twitter-scraper",
+    "category": "data",
+    "name": "x-twitter-scraper",
+    "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-28"
+  },
+  {
     "id": "xlsx-official",
     "path": "skills/xlsx-official",
     "category": "uncategorized",
