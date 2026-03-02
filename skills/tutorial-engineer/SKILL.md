@@ -1,11 +1,11 @@
 ---
 name: tutorial-engineer
 description: Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.
-risk: unknown
+risk: safe
 source: community
-date_added: '--'
+date_added: '2026-03-02'
 metadata:
-version: ..
+  version: '2.0.0'
 ---
 
 ## Use this skill when
