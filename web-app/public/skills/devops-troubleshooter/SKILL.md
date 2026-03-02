@@ -1,9 +1,16 @@
 ---
 name: devops-troubleshooter
-description: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+description: |
+  Expert DevOps troubleshooter specializing in rapid incident
+  response, advanced debugging, and modern observability. Masters log analysis,
+  distributed tracing, Kubernetes debugging, performance optimization, and root
+  cause analysis. Handles production outages, system reliability, and preventive
+  monitoring. Use PROACTIVELY for debugging, incident response, or system
+  troubleshooting.
+metadata:
+  model: sonnet
 risk: unknown
 source: community
-date_added: '2026-02-27'
 ---
 
 ## Use this skill when

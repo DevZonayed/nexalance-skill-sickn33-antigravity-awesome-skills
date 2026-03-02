@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Markdown from 'react-markdown';
+import rehypeHighlight from 'rehype-highlight';
 import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Star } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import 'highlight.js/styles/github-dark.css';
 
 export function SkillDetail() {
     const { id } = useParams();
@@ -16,10 +18,8 @@ export function SkillDetail() {
     const [starCount, setStarCount] = useState(0);
 
     useEffect(() => {
-        // Fetch index and stars in parallel when possible
         const loadData = async () => {
             try {
-                // 1. Fetch index to get skill metadata and path
                 const res = await fetch('/skills.json');
                 const skills = await res.json();
                 const foundSkill = skills.find(s => s.id === id);
@@ -27,7 +27,6 @@ export function SkillDetail() {
                 if (foundSkill) {
                     setSkill(foundSkill);
 
-                    // Fetch star count
                     if (supabase) {
                         const { data } = await supabase
                             .from('skill_stars')
@@ -40,7 +39,6 @@ export function SkillDetail() {
                         }
                     }
 
-                    // 2. Fetch the actual markdown content
                     const cleanPath = foundSkill.path.startsWith('skills/')
                         ? foundSkill.path.replace('skills/', '')
                         : foundSkill.path;
@@ -68,7 +66,6 @@ export function SkillDetail() {
         const storedStars = JSON.parse(localStorage.getItem('user_stars') || '{}');
         if (storedStars[id]) return;
 
-        // Optimistic UI updates
         setStarCount(prev => prev + 1);
         localStorage.setItem('user_stars', JSON.stringify({
             ...storedStars,
@@ -213,8 +210,8 @@ export function SkillDetail() {
                 </div>
 
                 <div className="p-6 sm:p-8">
-                    <div className="prose prose-slate dark:prose-invert max-w-none">
-                        <Markdown>{content}</Markdown>
+                    <div className="prose prose-slate dark:prose-invert max-w-none prose-code:before:content-none prose-code:after:content-none">
+                        <Markdown rehypePlugins={[rehypeHighlight]}>{content}</Markdown>
                     </div>
                 </div>
             </div>

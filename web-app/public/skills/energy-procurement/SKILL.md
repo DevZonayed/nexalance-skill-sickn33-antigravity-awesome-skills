@@ -1,9 +1,22 @@
 ---
 name: energy-procurement
-description: Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.
+description: >
+  Codified expertise for electricity and gas procurement, tariff optimisation,
+  demand charge management, renewable PPA evaluation, and multi-facility energy
+  cost management. Informed by energy procurement managers with 15+ years
+  experience at large commercial and industrial consumers. Includes market
+  structure analysis, hedging strategies, load profiling, and sustainability
+  reporting frameworks. Use when procuring energy, optimising tariffs, managing
+  demand charges, evaluating PPAs, or developing energy strategies.
+license: Apache-2.0
+version: 1.0.0
+homepage: https://github.com/evos-ai/evos-capabilities
 risk: safe
 source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+metadata:
+  author: evos
+  clawdbot:
+    emoji: "⚡"
 ---
 
 ## When to Use

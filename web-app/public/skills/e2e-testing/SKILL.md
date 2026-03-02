@@ -1,10 +1,11 @@
 ---
 name: e2e-testing
 description: "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration."
-category: granular-workflow-bundle
-risk: safe
 source: personal
-date_added: "2026-02-27"
+risk: safe
+domain: testing-qa
+category: granular-workflow-bundle
+version: 1.0.0
 ---
 
 # E2E Testing Workflow

@@ -1,10 +1,11 @@
 ---
 name: os-scripting
 description: "Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation."
-category: workflow-bundle
-risk: safe
 source: personal
-date_added: "2026-02-27"
+risk: safe
+domain: system-administration
+category: workflow-bundle
+version: 1.0.0
 ---
 
 # OS/Shell Scripting Troubleshooting Workflow Bundle

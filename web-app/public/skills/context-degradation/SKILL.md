@@ -1,9 +1,8 @@
 ---
 name: context-degradation
 description: "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash"
-risk: safe
 source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation"
-date_added: "2026-02-27"
+risk: safe
 ---
 
 ## When to Use This Skill

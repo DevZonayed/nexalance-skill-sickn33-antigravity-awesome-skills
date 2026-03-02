@@ -1,10 +1,11 @@
 ---
 name: react-nextjs-development
 description: "React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns."
-category: granular-workflow-bundle
-risk: safe
 source: personal
-date_added: "2026-02-27"
+risk: safe
+domain: frontend-development
+category: granular-workflow-bundle
+version: 1.0.0
 ---
 
 # React/Next.js Development Workflow

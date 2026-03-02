@@ -2,8 +2,14 @@
 name: dbos-golang
 description: "DBOS Go SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Go code with DBOS, creating workflows and steps, using queues, using the DBOS Clie..."
 risk: safe
-source: "https://docs.dbos.dev/"
-date_added: "2026-02-27"
+source: https://docs.dbos.dev/
+license: MIT
+metadata:
+  author: dbos
+  version: "1.0.0"
+  organization: DBOS
+  date: February 2026
+  abstract: Comprehensive guide for building fault-tolerant Go applications with DBOS. Covers workflows, steps, queues, communication patterns, and best practices for durable execution.
 ---
 
 # DBOS Go Best Practices

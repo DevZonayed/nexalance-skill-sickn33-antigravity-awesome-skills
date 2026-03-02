@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Book, AlertCircle, ArrowRight, Star, RefreshCw } from 'lucide-react';
+import { Search, Filter, Book, AlertCircle, ArrowRight, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '../lib/supabase';
 
@@ -10,21 +10,18 @@ export function Home() {
     const [search, setSearch] = useState('');
     const [categoryFilter, setCategoryFilter] = useState('all');
     const [loading, setLoading] = useState(true);
+    const [displayCount, setDisplayCount] = useState(24);
     const [stars, setStars] = useState({});
-    const [syncing, setSyncing] = useState(false);
-    const [syncMsg, setSyncMsg] = useState(null);
 
     useEffect(() => {
         const fetchSkillsAndStars = async () => {
             try {
-                // Fetch basic skill data
                 const res = await fetch('/skills.json');
                 const data = await res.json();
 
                 setSkills(data);
                 setFilteredSkills(data);
 
-                // Fetch star counts if supabase is configured
                 if (supabase) {
                     const { data: starData, error } = await supabase
                         .from('skill_stars')
@@ -49,26 +46,22 @@ export function Home() {
     }, []);
 
     const handleStarClick = async (e, skillId) => {
-        e.preventDefault(); // Prevent link navigation
+        e.preventDefault();
 
-        // Basic check to prevent spamming from same browser
         const storedStars = JSON.parse(localStorage.getItem('user_stars') || '{}');
         if (storedStars[skillId]) return;
 
-        // Optimistically update UI
         setStars(prev => ({
             ...prev,
             [skillId]: (prev[skillId] || 0) + 1
         }));
 
-        // Remember locally
         localStorage.setItem('user_stars', JSON.stringify({
             ...storedStars,
             [skillId]: true
         }));
 
         if (supabase) {
-            // First try to select existing
             const { data } = await supabase
                 .from('skill_stars')
                 .select('star_count')
@@ -76,13 +69,11 @@ export function Home() {
                 .single();
 
             if (data) {
-                // Update existing
                 await supabase
                     .from('skill_stars')
                     .update({ star_count: data.star_count + 1 })
                     .eq('skill_id', skillId);
             } else {
-                // Insert new
                 await supabase
                     .from('skill_stars')
                     .insert({ skill_id: skillId, star_count: 1 });
@@ -90,15 +81,33 @@ export function Home() {
         }
     };
 
+    const calculateScore = (skill, terms) => {
+        let score = 0;
+        const nameLower = skill.name.toLowerCase();
+        const descLower = (skill.description || '').toLowerCase();
+        const catLower = (skill.category || '').toLowerCase();
+
+        for (const term of terms) {
+            if (nameLower === term) score += 100;
+            else if (nameLower.startsWith(term)) score += 50;
+            else if (nameLower.includes(term)) score += 30;
+            else if (catLower.includes(term)) score += 20;
+            else if (descLower.includes(term)) score += 10;
+        }
+        return score;
+    };
+
     useEffect(() => {
         let result = skills;
 
         if (search) {
-            const lowerSearch = search.toLowerCase();
-            result = result.filter(skill =>
-                skill.name.toLowerCase().includes(lowerSearch) ||
-                skill.description.toLowerCase().includes(lowerSearch)
-            );
+            const terms = search.toLowerCase().trim().split(/\s+/).filter(t => t.length > 0);
+            if (terms.length > 0) {
+                result = result
+                    .map(skill => ({ ...skill, _score: calculateScore(skill, terms) }))
+                    .filter(skill => skill._score > 0)
+                    .sort((a, b) => b._score - a._score);
+            }
         }
 
         if (categoryFilter !== 'all') {
@@ -108,7 +117,10 @@ export function Home() {
         setFilteredSkills(result);
     }, [search, categoryFilter, skills]);
 
-    // Sort categories by count (most skills first), with 'uncategorized' at the end
+    useEffect(() => {
+        setDisplayCount(24);
+    }, [search, categoryFilter]);
+
     const categoryStats = {};
     skills.forEach(skill => {
         categoryStats[skill.category] = (categoryStats[skill.category] || 0) + 1;
@@ -125,47 +137,11 @@ export function Home() {
             <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
                 <div>
                     <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-2">Explore Skills</h1>
-                    <p className="text-slate-500 dark:text-slate-400">Discover {skills.length} agentic capabilities for your AI assistant.</p>
-                </div>
-                <div className="flex items-center gap-3">
-                    {syncMsg && (
-                        <span className={`text-sm font-medium px-3 py-1.5 rounded-full ${syncMsg.type === 'success'
-                                ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                                : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
-                            }`}>
-                            {syncMsg.text}
-                        </span>
-                    )}
-                    <button
-                        onClick={async () => {
-                            setSyncing(true);
-                            setSyncMsg(null);
-                            try {
-                                const res = await fetch('/api/refresh-skills');
-                                const data = await res.json();
-                                if (data.success) {
-                                    setSyncMsg({ type: 'success', text: `✅ Synced ${data.count} skills!` });
-                                    // Reload skills data
-                                    const freshRes = await fetch('/skills.json');
-                                    const freshData = await freshRes.json();
-                                    setSkills(freshData);
-                                    setFilteredSkills(freshData);
-                                } else {
-                                    setSyncMsg({ type: 'error', text: `❌ ${data.error}` });
-                                }
-                            } catch (err) {
-                                setSyncMsg({ type: 'error', text: '❌ Network error' });
-                            } finally {
-                                setSyncing(false);
-                                setTimeout(() => setSyncMsg(null), 5000);
-                            }
-                        }}
-                        disabled={syncing}
-                        className="flex items-center space-x-2 px-4 py-2.5 rounded-lg font-medium text-sm bg-indigo-600 hover:bg-indigo-700 text-white disabled:opacity-50 disabled:cursor-wait transition-colors shadow-sm"
-                    >
-                        <RefreshCw className={`h-4 w-4 ${syncing ? 'animate-spin' : ''}`} />
-                        <span>{syncing ? 'Syncing...' : 'Sync Skills'}</span>
-                    </button>
+                    <p className="text-slate-500 dark:text-slate-400">
+                        {search || categoryFilter !== 'all'
+                            ? `Showing ${filteredSkills.length} of ${skills.length} skills`
+                            : `Discover ${skills.length} agentic capabilities for your AI assistant.`}
+                    </p>
                 </div>
             </div>
 
@@ -174,11 +150,20 @@ export function Home() {
                     <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
                     <input
                         type="text"
-                        placeholder="Search skills (e.g., 'react', 'security', 'python')..."
-                        className="w-full rounded-md border border-slate-200 bg-slate-50 px-9 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50"
+                        placeholder="Search skills (e.g., 'react', 'security', 'python', 'testing')..."
+                        className="w-full rounded-md border border-slate-200 bg-slate-50 px-9 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 pr-9"
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
+                    {search && (
+                        <button
+                            onClick={() => setSearch('')}
+                            className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
+                            title="Clear search"
+                        >
+                            ×
+                        </button>
+                    )}
                 </div>
                 <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
                     <Filter className="h-4 w-4 text-slate-500 shrink-0" />
@@ -213,7 +198,7 @@ export function Home() {
                             <p className="mt-2 text-slate-500 dark:text-slate-400">Try adjusting your search or filter.</p>
                         </div>
                     ) : (
-                        filteredSkills.map((skill) => (
+                        filteredSkills.slice(0, displayCount).map((skill) => (
                             <motion.div
                                 key={skill.id}
                                 layout
@@ -268,6 +253,20 @@ export function Home() {
                         ))
                     )}
                 </AnimatePresence>
+
+                {!loading && filteredSkills.length > displayCount && (
+                    <div className="col-span-full flex justify-center py-8">
+                        <button
+                            onClick={() => setDisplayCount(prev => prev + 24)}
+                            className="flex items-center space-x-2 px-6 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors shadow-sm"
+                        >
+                            <span>Load More</span>
+                            <span className="text-sm text-slate-500 dark:text-slate-400">
+                                ({filteredSkills.length - displayCount} remaining)
+                            </span>
+                        </button>
+                    </div>
+                )}
             </div>
         </div>
     );

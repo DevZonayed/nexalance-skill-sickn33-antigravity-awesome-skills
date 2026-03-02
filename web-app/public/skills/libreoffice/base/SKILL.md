@@ -1,10 +1,11 @@
 ---
 name: base
 description: "Database management, forms, reports, and data operations with LibreOffice Base."
-category: database-processing
-risk: safe
 source: personal
-date_added: "2026-02-27"
+risk: safe
+domain: office-productivity
+category: database-processing
+version: 1.0.0
 ---
 
 # LibreOffice Base

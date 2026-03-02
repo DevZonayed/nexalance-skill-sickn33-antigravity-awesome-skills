@@ -1,9 +1,14 @@
 ---
 name: blockchain-developer
-description: Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
+description: |
+  Build production-ready Web3 applications, smart contracts, and
+  decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and
+  enterprise blockchain integrations. Use PROACTIVELY for smart contracts, Web3
+  apps, DeFi protocols, or blockchain infrastructure.
+metadata:
+  model: opus
 risk: unknown
 source: community
-date_added: '2026-02-27'
 ---
 
 ## Use this skill when

@@ -1,10 +1,11 @@
 ---
 name: draw
 description: "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw."
-category: graphics-processing
-risk: safe
 source: personal
-date_added: "2026-02-27"
+risk: safe
+domain: office-productivity
+category: graphics-processing
+version: 1.0.0
 ---
 
 # LibreOffice Draw
