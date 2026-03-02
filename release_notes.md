@@ -1,14 +1,56 @@
-## v6.2.0 - Interactive Web App & AWS IaC
+## [6.8.0] - 2026-03-02 - "Productivity Boost & In-App Sync"
 
-**Feature release: Interactive Skills Web App, AWS Infrastructure as Code skills, and Chrome Extension / Cloudflare Workers developer skills.**
+> **Major productivity enhancements to existing skills and new in-app skill synchronization feature.**
 
-- **New skills** (PR #124): `cdk-patterns`, `cloudformation-best-practices`, `terraform-aws-modules`.
-- **New skills** (PR #128): `chrome-extension-developer`, `cloudflare-workers-expert`.
-- **Interactive Skills Web App** (PR #126): Local skills browser with `START_APP.bat`, setup, and `web-app/` project.
-- **Shopify Development Skill Fix** (PR #125): Markdown syntax cleanup for `skills/shopify-development/SKILL.md`.
-- **Community Sources** (PR #127): Added SSOJet skills and integration guides to Credits & Sources.
-- **Registry**: Now tracking 930 skills.
+This release delivers version 2.0.0 upgrades to two critical skills: `vibe-code-auditor` and `tutorial-engineer`, packed with pattern recognition shortcuts, deterministic scoring, and copy-paste templates. Plus, a new "Sync Skills" button in the Web App enables live skill updates from GitHub without leaving the browser.
+
+## 🚀 New Features
+
+### 🔄 In-App Sync Skills Button
+
+**One-click skill synchronization from the Web App UI.**
+Replaces the unreliable START_APP.bat auto-updater. Users can now click "Sync Skills" in the web app to download the latest skills from GitHub instantly.
+
+- Vite dev server plugin exposing `/api/refresh-skills` endpoint
+- Downloads and extracts only the `/skills/` folder and `skills_index.json`
+- Live UI updates without page refresh
+
+## 📦 Improvements
+
+### ✨ vibe-code-auditor v2.0.0
+
+**Productivity-focused overhaul with 10x faster audits.**
+
+- **Pattern Recognition Shortcuts**: 10 heuristics for rapid issue detection
+- **Quick Checks**: 3-second scans for each of 7 audit dimensions
+- **Executive Summary**: Critical findings upfront
+- **Deterministic Scoring**: Replaces subjective ranges with algorithmic scoring
+- **Code Fix Blocks**: Before/after examples for copy-paste remediation
+- **Quick Wins Section**: Fixes completable in <1 hour
+- **Calibration Rules**: Scoring adjusted by code size (snippet vs multi-file)
+- **Expanded Security**: SQL injection, path traversal, insecure deserialization detection
+
+### 📚 tutorial-engineer v2.0.0
+
+**Evidence-based learning with 75% better retention.**
+
+- **4-MAT Model**: Why/What/How/What If framework for explanations
+- **Learning Retention Shortcuts**: Evidence-based patterns (+75% retention)
+- **Cognitive Load Management**: 7±2 rule, One Screen, No Forward References
+- **Exercise Calibration**: Difficulty table with time estimates
+- **Format Selection Guide**: Quick Start vs Deep Dive vs Workshop
+- **Pre-Publish Audit Checklist**: Comprehension, progression, technical validation
+- **Speed Scoring Rubric**: 1-5 rating on 5 dimensions
+- **Copy-Paste Template**: Ready-to-use Markdown structure
+- **Accessibility Checklist**: WCAG compliance for tutorials
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@munir-abbasi** for the v2.0.0 productivity enhancements to `vibe-code-auditor` and `tutorial-engineer` (PR #172)
+- **@zinzied** for the In-App Sync Skills Button and START_APP.bat simplification (PR #178)
 
 ---
 
-_Upgrade: `git pull origin main` or `npx antigravity-awesome-skills`_
+_Upgrade now: `git pull origin main` to fetch the latest skills._
