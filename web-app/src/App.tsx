@@ -1,10 +1,9 @@
-
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { SkillDetail } from './pages/SkillDetail';
-import { BookOpen, Search, Github } from 'lucide-react';
+import { BookOpen, Github } from 'lucide-react';
 
-function App() {
+function App(): React.ReactElement {
   return (
     <Router>
       <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-50">
@@ -24,7 +23,7 @@ function App() {
                   className="flex items-center text-slate-600 transition-colors hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-50"
                 >
                   <Github className="h-5 w-5 mr-2" />
-                  GitHubRepository
+                  GitHub Repository
                 </a>
               </nav>
             </div>
