@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [6.9.0] - 2026-03-03 - "Multi-Tool & Agent Infrastructure"
+
+> **Agent capabilities expand with email infrastructure, video intelligence, and multi-tool installer support.**
+
+This release delivers major infrastructure improvements: one-command install for multiple AI tools, email capabilities for agents via AgentMail, and video/audio processing with VideoDB. Plus significant web-app performance optimizations.
+
 ### 🚀 New Skills
 
 ### 📧 AgentMail
@@ -24,14 +32,26 @@ Gives agents real email addresses (`@theagentmail.net`) via REST API. Create acc
 
 > **Try it:** "Create an email account for my agent and send a verification email"
 
+### 📹 VideoDB
+
+**Video and audio perception, indexing, and editing.**
+
+Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.
+
+- Ingest from files, URLs, RTSP/live feeds, or desktop capture
+- Semantic, visual, and spoken word indexes with timestamp search
+- Timeline editing with subtitles, overlays, transcoding
+- AI generation for images, video, music, voiceovers
+
+> **Try it:** "Search for 'product demo' in this video and create a clip with subtitles"
+
 ---
 
 ### 📦 Improvements
 
-- **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`).
-- **Web-App Sync Optimization**: PR #180 merged - Hybrid sync strategy using git fetch for faster updates (5+ min → < 2 sec when no changes).
-- **VideoDB Skill**: PR #181 merged - Added comprehensive video/audio perception, indexing, and editing capabilities.
-- **Registry Update**: Now tracking 970 skills.
+- **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`). Fixes #182.
+- **Web-App Sync Optimization**: Hybrid sync strategy using git fetch for faster updates (5+ min → < 2 sec when no changes). Includes sort by "Most Stars" feature.
+- **Registry Update**: Now tracking 970 skills (+2 new).
 
 ### 👥 Credits
 
