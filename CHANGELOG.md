@@ -9,17 +9,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 🚀 New Skills
+
+### 📧 AgentMail
+
+**Email infrastructure for AI agents.**
+
+Gives agents real email addresses (`@theagentmail.net`) via REST API. Create accounts, send/receive emails, manage webhooks, and check karma balance. Perfect for agents that need to sign up for services, receive verification codes, or communicate via email.
+
+- Create email accounts with karma-based rate limiting
+- Send/receive emails with attachments
+- Webhook signature verification for secure notifications
+- Full SDK examples and API reference
+
+> **Try it:** "Create an email account for my agent and send a verification email"
+
+---
+
 ### 📦 Improvements
 
 - **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`).
 - **Web-App Sync Optimization**: PR #180 merged - Hybrid sync strategy using git fetch for faster updates (5+ min → < 2 sec when no changes).
 - **VideoDB Skill**: PR #181 merged - Added comprehensive video/audio perception, indexing, and editing capabilities.
-- **Registry Update**: Now tracking 969 skills.
+- **Registry Update**: Now tracking 970 skills.
 
 ### 👥 Credits
 
 - **@zinzied** for web-app sync optimization (PR #180)
 - **@0xrohitgarg** for VideoDB skill contribution (PR #181)
+- **@uriva** for AgentMail skill contribution (PR #183)
 
 ---
 
