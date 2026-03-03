@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### 📦 Improvements
+
+- **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`).
+- **Web-App Sync Optimization**: PR #180 merged - Hybrid sync strategy using git fetch for faster updates (5+ min → < 2 sec when no changes).
+- **VideoDB Skill**: PR #181 merged - Added comprehensive video/audio perception, indexing, and editing capabilities.
+- **Registry Update**: Now tracking 969 skills.
+
+### 👥 Credits
+
+- **@zinzied** for web-app sync optimization (PR #180)
+- **@0xrohitgarg** for VideoDB skill contribution (PR #181)
+
+---
+
 ## [6.8.0] - 2026-03-02 - "Productivity Boost & In-App Sync"
 
 > **Major productivity enhancements to existing skills and new in-app skill synchronization feature.**
