@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Filter, Book, AlertCircle, ArrowRight, Star, RefreshCw } from 'lucide-react';
+import { Search, Filter, Book, AlertCircle, ArrowRight, Star, RefreshCw, ArrowUpDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '../lib/supabase';
 
@@ -11,6 +11,7 @@ export function Home() {
     const [categoryFilter, setCategoryFilter] = useState('all');
     const [loading, setLoading] = useState(true);
     const [stars, setStars] = useState({});
+    const [sortBy, setSortBy] = useState('default');
     const [syncing, setSyncing] = useState(false);
     const [syncMsg, setSyncMsg] = useState(null);
 
@@ -105,8 +106,17 @@ export function Home() {
             result = result.filter(skill => skill.category === categoryFilter);
         }
 
+        // Apply sorting
+        if (sortBy === 'stars') {
+            result = [...result].sort((a, b) => (stars[b.id] || 0) - (stars[a.id] || 0));
+        } else if (sortBy === 'newest') {
+            result = [...result].sort((a, b) => (b.date_added || '').localeCompare(a.date_added || ''));
+        } else if (sortBy === 'az') {
+            result = [...result].sort((a, b) => a.name.localeCompare(b.name));
+        }
+
         setFilteredSkills(result);
-    }, [search, categoryFilter, skills]);
+    }, [search, categoryFilter, sortBy, skills, stars]);
 
     // Sort categories by count (most skills first), with 'uncategorized' at the end
     const categoryStats = {};
@@ -201,6 +211,17 @@ export function Home() {
                                 }
                             </option>
                         ))}
+                    </select>
+                    <ArrowUpDown className="h-4 w-4 text-slate-500 shrink-0 ml-2" />
+                    <select
+                        className="h-9 rounded-md border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 min-w-[130px]"
+                        value={sortBy}
+                        onChange={(e) => setSortBy(e.target.value)}
+                    >
+                        <option value="default">Default</option>
+                        <option value="stars">⭐ Most Stars</option>
+                        <option value="newest">🆕 Newest</option>
+                        <option value="az">🔤 A → Z</option>
                     </select>
                 </div>
             </div>
