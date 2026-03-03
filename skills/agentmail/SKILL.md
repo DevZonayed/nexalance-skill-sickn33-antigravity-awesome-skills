@@ -1,6 +1,8 @@
 ---
 name: agentmail
-description: Use when an AI agent needs email capabilities — creating email accounts, sending/receiving email, managing webhooks, or checking karma balance. Triggers on requests like "send an email", "create an email account", "check my inbox", "sign up for a service", or any task requiring programmatic email access.
+description: Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.
+risk: safe
+source: community
 ---
 
 # AgentMail — Email for AI Agents
