@@ -9190,6 +9190,16 @@
     "date_added": "2026-02-28"
   },
   {
+    "id": "videodb",
+    "path": "skills/videodb",
+    "category": "media",
+    "name": "videodb",
+    "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "videodb-skills",
     "path": "skills/videodb-skills",
     "category": "media",

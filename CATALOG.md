@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 968
+Total skills: 969
 
 ## architecture (67)
 
@@ -466,7 +466,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (189)
+## general (190)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -649,6 +649,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with sma... | using, git, worktrees | using, git, worktrees, starting, feature, work, isolation, current, workspace, before, executing, plans |
 | `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions | using, superpowers | using, superpowers, starting, any, conversation, establishes, how, find, skills, requiring, skill, invocation |
 | `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output... | verification, before, completion | verification, before, completion, about, claim, work, complete, fixed, passing, committing, creating, prs |
+| `videodb` | Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add o... | [video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture] | [video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture], videodb, video |
 | `web-performance-optimization` | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance | web, performance, optimization | web, performance, optimization, optimize, website, application, including, loading, speed, core, vitals, bundle |
 | `wiki-architect` | Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate doc... | wiki | wiki, architect, analyzes, code, repositories, generates, hierarchical, documentation, structures, onboarding, guides, user |
 | `wiki-changelog` | Analyzes git commit history and generates structured changelogs categorized by change type. Use when the user asks about recent changes, wants a changelog, o... | wiki, changelog | wiki, changelog, analyzes, git, commit, history, generates, structured, changelogs, categorized, change, type |
