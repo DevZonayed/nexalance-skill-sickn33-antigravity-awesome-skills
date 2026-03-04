@@ -1,61 +1,38 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Search, Filter, Book, AlertCircle, ArrowRight, RefreshCw, ArrowUpDown } from 'lucide-react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+import { Search, Filter, AlertCircle, RefreshCw, ArrowUpDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { supabase } from '../lib/supabase';
-import { SkillStarButton } from '../components/SkillStarButton';
-import type { Skill, StarMap, SyncMessage, CategoryStats } from '../types';
+import { VirtuosoGrid } from 'react-virtuoso';
+import debounce from 'lodash.debounce';
+import { useSkills } from '../context/SkillContext';
+import { SkillCard } from '../components/SkillCard';
+import type { Skill, SyncMessage, CategoryStats } from '../types';
 
 export function Home(): React.ReactElement {
-  const [skills, setSkills] = useState<Skill[]>([]);
-  const [filteredSkills, setFilteredSkills] = useState<Skill[]>([]);
+  const { skills, stars, loading, refreshSkills } = useSkills();
   const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('all');
-  const [loading, setLoading] = useState(true);
-  const [stars, setStars] = useState<StarMap>({});
   const [sortBy, setSortBy] = useState('default');
   const [syncing, setSyncing] = useState(false);
   const [syncMsg, setSyncMsg] = useState<SyncMessage | null>(null);
 
-  useEffect(() => {
-    const fetchSkillsAndStars = async () => {
-      try {
-        // Fetch basic skill data
-        const res = await fetch('/skills.json');
-        const data = await res.json();
-
-        setSkills(data);
-        setFilteredSkills(data);
-
-        // Fetch star counts if supabase is configured
-        if (supabase) {
-          const { data: starData, error } = await supabase
-            .from('skill_stars')
-            .select('skill_id, star_count');
-
-          if (!error && starData) {
-            const starMap: StarMap = {};
-            starData.forEach((item: { skill_id: string; star_count: number }) => {
-              starMap[item.skill_id] = item.star_count;
-            });
-            setStars(starMap);
-          }
-        }
-      } catch (err) {
-        console.error('Failed to load skills', err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchSkillsAndStars();
-  }, []);
+  // Debounce search input to avoid excessive filtering on every keystroke
+  const debouncedSetSearch = useCallback(
+    debounce((value: string) => {
+      setDebouncedSearch(value);
+    }, 300),
+    []
+  );
 
   useEffect(() => {
+    debouncedSetSearch(search);
+  }, [search, debouncedSetSearch]);
+
+  const filteredSkills = useMemo(() => {
     let result = [...skills];
 
-    if (search) {
-      const lowerSearch = search.toLowerCase();
+    if (debouncedSearch) {
+      const lowerSearch = debouncedSearch.toLowerCase();
       result = result.filter(skill =>
         skill.name.toLowerCase().includes(lowerSearch) ||
         skill.description.toLowerCase().includes(lowerSearch)
@@ -75,20 +52,24 @@ export function Home(): React.ReactElement {
       result = [...result].sort((a, b) => a.name.localeCompare(b.name));
     }
 
-    setFilteredSkills(result);
-  }, [search, categoryFilter, sortBy, skills, stars]);
+    return result;
+  }, [debouncedSearch, categoryFilter, sortBy, skills, stars]);
 
   // Sort categories by count (most skills first), with 'uncategorized' at the end
-  const categoryStats: CategoryStats = {};
-  skills.forEach(skill => {
-    categoryStats[skill.category] = (categoryStats[skill.category] || 0) + 1;
-  });
+  const { categories, categoryStats } = useMemo(() => {
+    const stats: CategoryStats = {};
+    skills.forEach(skill => {
+      stats[skill.category] = (stats[skill.category] || 0) + 1;
+    });
 
-  const categories = ['all', ...Object.keys(categoryStats)
-    .filter(cat => cat !== 'uncategorized')
-    .sort((a, b) => categoryStats[b] - categoryStats[a]),
-    ...(categoryStats['uncategorized'] ? ['uncategorized'] : [])
-  ];
+    const cats = ['all', ...Object.keys(stats)
+      .filter(cat => cat !== 'uncategorized')
+      .sort((a, b) => stats[b] - stats[a]),
+      ...(stats['uncategorized'] ? ['uncategorized'] : [])
+    ];
+
+    return { categories: cats, categoryStats: stats };
+  }, [skills]);
 
   const handleSync = async () => {
     setSyncing(true);
@@ -101,11 +82,7 @@ export function Home(): React.ReactElement {
           setSyncMsg({ type: 'info', text: 'ℹ️ Skills are already up to date!' });
         } else {
           setSyncMsg({ type: 'success', text: `✅ Synced ${data.count} skills!` });
-          // Reload skills data only when there are actual updates
-          const freshRes = await fetch('/skills.json');
-          const freshData = await freshRes.json();
-          setSkills(freshData);
-          setFilteredSkills(freshData);
+          await refreshSkills();
         }
       } else {
         setSyncMsg({ type: 'error', text: `❌ ${data.error}` });
@@ -119,7 +96,7 @@ export function Home(): React.ReactElement {
   };
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 flex flex-col h-[calc(100vh-8rem)]">
       <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-2">Explore Skills</h1>
@@ -127,13 +104,12 @@ export function Home(): React.ReactElement {
         </div>
         <div className="flex items-center gap-3">
           {syncMsg && (
-            <span className={`text-sm font-medium px-3 py-1.5 rounded-full ${
-              syncMsg.type === 'success'
-                ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                : syncMsg.type === 'info'
-                  ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
-                  : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
-            }`}>
+            <span className={`text-sm font-medium px-3 py-1.5 rounded-full ${syncMsg.type === 'success'
+              ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+              : syncMsg.type === 'info'
+                ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
+                : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
+              }`}>
               {syncMsg.text}
             </span>
           )}
@@ -189,72 +165,31 @@ export function Home(): React.ReactElement {
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <AnimatePresence>
-          {loading ? (
-            [...Array(8)].map((_, i) => (
+      <div className="flex-1">
+        {loading ? (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {[...Array(8)].map((_, i) => (
               <div key={i} className="animate-pulse rounded-lg border border-slate-200 p-6 h-48 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
               </div>
-            ))
-          ) : filteredSkills.length === 0 ? (
-            <div className="col-span-full py-12 text-center">
-              <AlertCircle className="mx-auto h-12 w-12 text-slate-400" />
-              <h3 className="mt-4 text-lg font-semibold text-slate-900 dark:text-slate-100">No skills found</h3>
-              <p className="mt-2 text-slate-500 dark:text-slate-400">Try adjusting your search or filter.</p>
-            </div>
-          ) : (
-            filteredSkills.map((skill) => (
-              <motion.div
-                key={skill.id}
-                layout
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Link
-                  to={`/skill/${skill.id}`}
-                  className="group flex flex-col h-full rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition-all hover:bg-slate-50 hover:shadow-md dark:border-slate-800 dark:bg-slate-900 dark:hover:border-indigo-500/50"
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center space-x-2">
-                      <div className="p-2 bg-indigo-50 dark:bg-indigo-950/30 rounded-md">
-                        <Book className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
-                      </div>
-                      <span className="text-xs font-medium px-2 py-1 rounded-full bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
-                        {skill.category || 'Uncategorized'}
-                      </span>
-                    </div>
-                    <SkillStarButton
-                      skillId={skill.id}
-                      initialCount={stars[skill.id] || 0}
-                      variant="default"
-                    />
-                  </div>
-
-                  <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors mb-2 line-clamp-1">
-                    @{skill.name}
-                  </h3>
-
-                  <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-3 mb-4 flex-grow">
-                    {skill.description}
-                  </p>
-
-                  <div className="flex items-center justify-between text-xs text-slate-400 dark:text-slate-500 mb-3 pb-3 border-b border-slate-100 dark:border-slate-800">
-                    <span>Risk: <span className="font-semibold text-slate-600 dark:text-slate-300">{skill.risk || 'unknown'}</span></span>
-                    {skill.date_added && (
-                      <span className="ml-2">📅 {skill.date_added}</span>
-                    )}
-                  </div>
-
-                  <div className="flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 pt-2 mt-auto group-hover:translate-x-1 transition-transform">
-                    Read Skill <ArrowRight className="ml-1 h-4 w-4" />
-                  </div>
-                </Link>
-              </motion.div>
-            ))
-          )}
-        </AnimatePresence>
+            ))}
+          </div>
+        ) : filteredSkills.length === 0 ? (
+          <div className="py-12 text-center">
+            <AlertCircle className="mx-auto h-12 w-12 text-slate-400" />
+            <h3 className="mt-4 text-lg font-semibold text-slate-900 dark:text-slate-100">No skills found</h3>
+            <p className="mt-2 text-slate-500 dark:text-slate-400">Try adjusting your search or filter.</p>
+          </div>
+        ) : (
+          <VirtuosoGrid
+            style={{ height: '100%' }}
+            totalCount={filteredSkills.length}
+            listClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8"
+            itemContent={(index) => {
+              const skill = filteredSkills[index];
+              return <SkillCard key={skill.id} skill={skill} starCount={stars[skill.id] || 0} />;
+            }}
+          />
+        )}
       </div>
     </div>
   );
