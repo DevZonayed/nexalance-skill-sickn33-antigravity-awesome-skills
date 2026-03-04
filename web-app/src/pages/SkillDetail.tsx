@@ -1,60 +1,55 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import Markdown from 'react-markdown';
-import { ArrowLeft, Copy, Check, FileCode, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Loader2 } from 'lucide-react';
 import { SkillStarButton } from '../components/SkillStarButton';
-import type { Skill } from '../types';
+import { useSkills } from '../context/SkillContext';
+
+// Lazy load heavy markdown component
+const Markdown = lazy(() => import('react-markdown'));
 
 interface RouteParams {
   id: string;
+  [key: string]: string | undefined;
 }
 
 export function SkillDetail(): React.ReactElement {
-  const { id } = useParams<keyof RouteParams>() as RouteParams;
-  const [skill, setSkill] = useState<Skill | null>(null);
+  const { id } = useParams<RouteParams>();
+  const { skills, stars, loading: contextLoading } = useSkills();
   const [content, setContent] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [contentLoading, setContentLoading] = useState(true);
   const [copied, setCopied] = useState(false);
   const [copiedFull, setCopiedFull] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [customContext, setCustomContext] = useState('');
-  const [initialStarCount] = useState(0);
+
+  const skill = useMemo(() => skills.find(s => s.id === id), [skills, id]);
+  const starCount = useMemo(() => (id ? stars[id] || 0 : 0), [stars, id]);
 
   useEffect(() => {
-    // Fetch index and stars in parallel when possible
-    const loadData = async () => {
+    if (contextLoading || !skill) return;
+
+    const loadMarkdown = async () => {
+      setContentLoading(true);
       try {
-        // 1. Fetch index to get skill metadata and path
-        const res = await fetch('/skills.json');
-        const skills: Skill[] = await res.json();
-        const foundSkill = skills.find(s => s.id === id);
+        const cleanPath = skill.path.startsWith('skills/')
+          ? skill.path.replace('skills/', '')
+          : skill.path;
 
-        if (foundSkill) {
-          setSkill(foundSkill);
+        const mdRes = await fetch(`/skills/${cleanPath}/SKILL.md`);
+        if (!mdRes.ok) throw new Error('Skill file not found');
 
-          // 2. Fetch the actual markdown content
-          const cleanPath = foundSkill.path.startsWith('skills/')
-            ? foundSkill.path.replace('skills/', '')
-            : foundSkill.path;
-
-          const mdRes = await fetch(`/skills/${cleanPath}/SKILL.md`);
-          if (!mdRes.ok) throw new Error('Skill file not found');
-
-          const text = await mdRes.text();
-          setContent(text);
-        } else {
-          setError('Skill not found in registry.');
-        }
+        const text = await mdRes.text();
+        setContent(text);
       } catch (err) {
-        console.error('Failed to load skill data', err);
+        console.error('Failed to load skill content', err);
         setError(err instanceof Error ? err.message : 'Could not load skill content.');
       } finally {
-        setLoading(false);
+        setContentLoading(false);
       }
     };
 
-    loadData();
-  }, [id]);
+    loadMarkdown();
+  }, [skill, contextLoading]);
 
   const copyToClipboard = () => {
     if (!skill) return;
@@ -79,10 +74,10 @@ export function SkillDetail(): React.ReactElement {
     setTimeout(() => setCopiedFull(false), 2000);
   };
 
-  if (loading) {
+  if (contextLoading || (contentLoading && !error)) {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+        <Loader2 className="animate-spin h-8 w-8 text-indigo-600" />
       </div>
     );
   }
@@ -92,7 +87,7 @@ export function SkillDetail(): React.ReactElement {
       <div className="max-w-2xl mx-auto text-center py-12">
         <AlertTriangle className="h-12 w-12 text-red-500 mx-auto mb-4" />
         <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Error Loading Skill</h2>
-        <p className="text-slate-500 mt-2">{error}</p>
+        <p className="text-slate-500 mt-2">{error || 'Skill not found in registry.'}</p>
         <Link to="/" className="mt-8 inline-flex items-center text-indigo-600 font-medium hover:underline">
           <ArrowLeft className="mr-2 h-4 w-4" /> Back to Catalog
         </Link>
@@ -126,7 +121,7 @@ export function SkillDetail(): React.ReactElement {
                 )}
                 <SkillStarButton
                   skillId={skill.id}
-                  initialCount={initialStarCount}
+                  initialCount={starCount}
                   variant="compact"
                 />
               </div>
@@ -175,7 +170,9 @@ export function SkillDetail(): React.ReactElement {
 
         <div className="p-6 sm:p-8">
           <div className="prose prose-slate dark:prose-invert max-w-none">
-            <Markdown>{content}</Markdown>
+            <Suspense fallback={<div className="h-24 animate-pulse bg-slate-100 dark:bg-slate-800 rounded-lg"></div>}>
+              <Markdown>{content}</Markdown>
+            </Suspense>
           </div>
         </div>
       </div>
