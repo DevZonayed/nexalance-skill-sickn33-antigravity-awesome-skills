@@ -2,8 +2,9 @@
 name: skill-router
 description: "Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal."
 risk: safe
-source: community
+source: self
 ---
+
 # Skill Router
 
 ## When to Use
@@ -75,8 +76,6 @@ collaboratively (you stay in the loop)?**
 Based on their answers, recommend **1 primary skill** and up to **2 secondary
 skills**. Structure your recommendation exactly like this:
 
----
-
 **✅ Primary Skill: `@skill-name`**
 *Why:* [1–2 sentences explaining why this is the best fit for what they described]
 *Invoke it like this:*
@@ -102,9 +101,43 @@ everything you learned about their goal from the interview.
 
 ---
 
-## Skill Routing Reference
+## Example Interaction
 
-Use this reference to match user intent to the right skills.
+```
+User: @skill-router I want to build something but I'm not sure where to start
+
+Agent: No problem — let me ask a few quick questions.
+       What is the broad area?
+       (1) Building  (2) Debugging  (3) Security  (4) AI/LLM
+       (5) Marketing  (6) DevOps  (7) Design  (8) Planning
+
+User: 1 - building something
+
+Agent: How specific is the task?
+       (1) Clear spec  (2) Rough idea  (3) Starting from scratch
+
+User: 2 - rough idea
+
+Agent: What tech stack? (React, Node, Python, etc. — or "not sure")
+
+User: Next.js
+
+Agent: ✅ Primary Skill: @brainstorming
+       Why: You have a rough idea that needs shaping before building.
+       Brainstorming asks structured questions and produces a clear spec.
+
+       @brainstorming help me design a [your app idea] using Next.js
+
+       🔁 Also consider:
+       - @plan-writing — once brainstorming produces a spec, break it into tasks
+       - @senior-fullstack — when you are ready to start building
+
+       Want me to write the full prompt for you?
+```
+
+---
+
+## Skill Routing Reference
 
 ### Building a full product or app from scratch
 - Primary: `@app-builder`
@@ -200,8 +233,21 @@ Use this reference to match user intent to the right skills.
 - Always include the exact `@invoke` syntax so users can copy-paste it.
 - If the user's goal spans multiple categories, pick the most upstream skill
   (e.g. `@brainstorming` before `@senior-fullstack`).
-- Do not overwhelm the user with the full skill list. Recommend only what's
+- Do not overwhelm the user with the full skill list. Recommend only what is
   relevant to their specific answers.
-- If the user is totally lost, default to: `@brainstorming` for open-ended
+- If the user is totally lost, default to `@brainstorming` for open-ended
   goals, or `@app-builder` for anything involving building something.
 - After recommending, always offer to write a ready-made prompt for them.
+
+---
+
+## Limitations
+
+- Only recommends skills from the installed library. If a skill is not
+  installed, the recommendation may not work.
+- Routing is based on natural language matching. Highly ambiguous goals
+  may require follow-up clarification.
+- Does not execute the recommended skill — it only recommends it. The user
+  must invoke the skill themselves.
+- The routing reference covers the most common skills but does not include
+  every skill in the library.
