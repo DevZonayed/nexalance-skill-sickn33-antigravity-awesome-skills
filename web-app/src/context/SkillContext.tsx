@@ -22,7 +22,14 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
             // Fetch skills index
             const res = await fetch('/skills.json');
             const data = await res.json();
-            setSkills(data);
+
+            // Incremental loading: set first 50 skills immediately if not a silent refresh
+            if (!silent && data.length > 50) {
+                setSkills(data.slice(0, 50));
+                setLoading(false); // Clear loading state as soon as we have initial content
+            } else {
+                setSkills(data);
+            }
 
             // Fetch stars from Supabase if available
             if (supabase) {
@@ -38,6 +45,14 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
                     setStars(starMap);
                 }
             }
+
+            // Finally set the full set of skills if we did incremental load
+            if (!silent && data.length > 50) {
+                setSkills(data);
+            } else if (silent) {
+                setSkills(data);
+            }
+
         } catch (err) {
             console.error('SkillContext: Failed to load skills', err);
         } finally {
