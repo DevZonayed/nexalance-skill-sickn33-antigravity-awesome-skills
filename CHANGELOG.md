@@ -11,6 +11,109 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.10.0] - 2026-03-04 - "Skill Router & Developer Tools"
+
+> **Intelligent skill discovery, developer marketing, and AI integration tools.**
+
+This release brings a meta-skill for discovering the right skill, proofreading capabilities, Google Gemini integration, prompt optimization, SaaS MVP guidance, and Bitcoin Lightning Network skills. Plus documentation improvements for durable execution patterns.
+
+### 🚀 New Skills
+
+### 🧭 Skill Router
+
+**Intelligent entry point to the skill library.**
+
+Interviews users with a 4-question funnel when they're unsure what to do, then recommends the best skill(s) with exact invoke prompts to copy-paste immediately. Solves the "900+ skills, where do I start?" problem.
+
+- 4-question guided interview (area → specificity → stack → style)
+- Primary + alternative skill recommendations
+- Copy-paste ready invoke prompts
+
+> **Try it:** "@skill-router I want to build something but I'm not sure where to start"
+
+### ✍️ Professional Proofreader
+
+**Structured proofreading and grammar correction.**
+
+Proofreads and corrects grammar, spelling, punctuation, and clarity issues while preserving the author's original voice. Returns a structured modification log.
+
+- Inline text mode with change tracking
+- File processing mode for .docx, .pdf, .txt
+- Preserves original formatting and meaning
+
+> **Try it:** "Proofread this blog post and show me what changed"
+
+### 🤖 Gemini API Integration
+
+**Integrate Google Gemini API into projects.**
+
+Comprehensive guide for Google Gemini API covering model selection, multimodal inputs, streaming, function calling, and production best practices. Supports Node.js and Python.
+
+- Basic generation to advanced multimodal use cases
+- Streaming and function calling patterns
+- Error handling and model selection guide
+
+> **Try it:** "Set up Gemini API with streaming and function calling"
+
+### 🎯 LLM Prompt Optimizer
+
+**Systematic prompt engineering framework.**
+
+Transforms weak prompts into precision-engineered instructions using RSCIT framework, chain-of-thought, few-shot examples, and structured output patterns.
+
+- RSCIT framework for prompt analysis
+- Hallucination reduction techniques
+- Token compression strategies
+
+> **Try it:** "Optimize this prompt to get better JSON outputs"
+
+### 🚀 SaaS MVP Launcher
+
+**End-to-end roadmap for building SaaS MVPs.**
+
+Complete guide for building and launching a SaaS MVP: idea validation, tech stack selection (Next.js/Supabase/Stripe/Clerk), project structure, DB schema, auth, payments, and launch checklist.
+
+- Tech stack recommendations with rationale
+- Database schema templates
+- Pre-launch checklist
+
+> **Try it:** "I have an idea for a SaaS, help me build an MVP"
+
+### ⚡ Lightning Network Skills (3 skills)
+
+**Bitcoin Lightning Network development and architecture.**
+
+Three skills from the SuperScalar project covering channel factories, LSP architectures, and Layer 2 scaling:
+
+- **Lightning Factory Explainer**: SuperScalar protocol and scalable onboarding
+- **Lightning Channel Factories**: Multi-party channels and factory architectures
+- **Lightning Architecture Review**: Protocol design comparison and tradeoffs
+
+> **Try it:** "Explain how Lightning channel factories work"
+
+---
+
+### 📦 Improvements
+
+- **Registry Update**: Now tracking 978 skills.
+- **Documentation**: Added durable execution highlights to architectural skills (ai-agents-architect, architecture-patterns, event-sourcing-architect, saga-orchestration, workflow-automation).
+- **Community**: Added devmarketing-skills to Community Contributors section.
+- **Validation**: Fixed risk level in 3 skills (saas-mvp-launcher, llm-prompt-optimizer, gemini-api-integration).
+
+### 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@lsuryatej** for `skill-router`
+- **@tejasashinde** for `professional-proofreader`
+- **@SnakeEye-sudo** for `gemini-api-integration`, `llm-prompt-optimizer`, `saas-mvp-launcher`
+- **@8144225309** for Lightning Network skills
+- **@maxdml** for durable execution documentation updates
+- **@jonathimer** for devmarketing-skills community link
+- **@copilot-swe-agent** for answering community questions
+
+---
+
 ## [6.9.0] - 2026-03-03 - "Multi-Tool & Agent Infrastructure"
 
 > **Agent capabilities expand with email infrastructure, video intelligence, and multi-tool installer support.**
