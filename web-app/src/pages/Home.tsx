@@ -1,11 +1,10 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Search, Filter, AlertCircle, RefreshCw, ArrowUpDown } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { VirtuosoGrid } from 'react-virtuoso';
 import debounce from 'lodash.debounce';
 import { useSkills } from '../context/SkillContext';
 import { SkillCard } from '../components/SkillCard';
-import type { Skill, SyncMessage, CategoryStats } from '../types';
+import type { SyncMessage, CategoryStats } from '../types';
 
 export function Home(): React.ReactElement {
   const { skills, stars, loading, refreshSkills } = useSkills();
@@ -130,6 +129,7 @@ export function Home(): React.ReactElement {
           <input
             type="text"
             placeholder="Search skills (e.g., 'react', 'security', 'python')..."
+            aria-label="Search skills"
             className="w-full rounded-md border border-slate-200 bg-slate-50 px-9 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -138,6 +138,7 @@ export function Home(): React.ReactElement {
         <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
           <Filter className="h-4 w-4 text-slate-500 shrink-0" />
           <select
+            aria-label="Filter by category"
             className="h-9 rounded-md border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 min-w-[150px]"
             value={categoryFilter}
             onChange={(e) => setCategoryFilter(e.target.value)}
@@ -153,6 +154,7 @@ export function Home(): React.ReactElement {
           </select>
           <ArrowUpDown className="h-4 w-4 text-slate-500 shrink-0 ml-2" />
           <select
+            aria-label="Sort skills"
             className="h-9 rounded-md border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 min-w-[130px]"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
@@ -167,7 +169,7 @@ export function Home(): React.ReactElement {
 
       <div className="flex-1">
         {loading ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div data-testid="loader" className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {[...Array(8)].map((_, i) => (
               <div key={i} className="animate-pulse rounded-lg border border-slate-200 p-6 h-48 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
               </div>
