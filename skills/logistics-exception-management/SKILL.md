@@ -4,7 +4,6 @@ description: Codified expertise for handling freight exceptions, shipment delays
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
-category: database
 ---
 
 ## When to Use

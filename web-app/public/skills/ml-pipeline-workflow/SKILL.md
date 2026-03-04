@@ -1,10 +1,9 @@
 ---
 name: ml-pipeline-workflow
-description: Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating mod...
+description: "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating mod..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
-category: ai-ml
+date_added: "2026-02-27"
 ---
 
 # ML Pipeline Workflow

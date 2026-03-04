@@ -4,7 +4,6 @@ description: Apple HIG guidance for selection and input controls including picke
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: web-development
 ---
 
 # Apple HIG: Selection and Input Controls

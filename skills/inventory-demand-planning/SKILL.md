@@ -4,7 +4,6 @@ description: Codified expertise for demand forecasting, safety stock optimisatio
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
-category: ai-ml
 ---
 
 ## When to Use

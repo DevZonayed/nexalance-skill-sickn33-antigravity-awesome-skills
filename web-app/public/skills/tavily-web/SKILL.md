@@ -1,10 +1,9 @@
 ---
 name: tavily-web
-description: Web search, content extraction, crawling, and research capabilities using Tavily API
+description: "Web search, content extraction, crawling, and research capabilities using Tavily API"
 risk: unknown
 source: community
-date_added: '2026-02-27'
-category: web-development
+date_added: "2026-02-27"
 ---
 
 # tavily-web

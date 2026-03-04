@@ -4,7 +4,6 @@ description: Search logs and codebases for error patterns, stack traces, and ano
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: content
 ---
 
 ## Use this skill when

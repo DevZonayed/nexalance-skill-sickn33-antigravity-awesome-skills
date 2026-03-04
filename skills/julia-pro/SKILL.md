@@ -4,7 +4,6 @@ description: Master Julia 1.10+ with modern features, performance optimization, 
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: database
 ---
 
 ## Use this skill when

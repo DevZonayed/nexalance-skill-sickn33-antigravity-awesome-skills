@@ -4,7 +4,6 @@ description: Azure Key Vault Certificates SDK for Rust. Use for creating, import
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: backend
 ---
 
 # Azure Key Vault Certificates SDK for Rust

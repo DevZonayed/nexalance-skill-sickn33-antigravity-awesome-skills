@@ -1,10 +1,9 @@
 ---
 name: blockrun
-description: Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\"blockrun\", \"use grok\", \"use gpt\", \"da...
+description: "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\\\"blockrun\\\", \\\"use grok\\\", \\\"use gpt\\\", \\\"da..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
-category: ai-ml
+date_added: "2026-02-27"
 ---
 
 # BlockRun

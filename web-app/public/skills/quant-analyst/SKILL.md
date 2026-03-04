@@ -4,7 +4,6 @@ description: Build financial models, backtest trading strategies, and analyze ma
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: data-science
 ---
 
 ## Use this skill when

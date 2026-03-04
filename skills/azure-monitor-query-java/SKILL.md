@@ -4,7 +4,6 @@ description: Azure Monitor Query SDK for Java. Execute Kusto queries against Log
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: backend
 ---
 
 # Azure Monitor Query SDK for Java

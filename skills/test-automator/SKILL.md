@@ -4,7 +4,6 @@ description: Master AI-powered test automation with modern frameworks, self-heal
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: testing
 ---
 
 ## Use this skill when

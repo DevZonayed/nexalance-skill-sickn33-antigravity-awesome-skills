@@ -4,7 +4,6 @@ description: Azure Monitor Ingestion SDK for Python. Use for sending custom logs
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: backend
 ---
 
 # Azure Monitor Ingestion SDK for Python

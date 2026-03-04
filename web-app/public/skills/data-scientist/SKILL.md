@@ -4,7 +4,6 @@ description: Expert data scientist for advanced analytics, machine learning, and
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: data-science
 ---
 
 ## Use this skill when

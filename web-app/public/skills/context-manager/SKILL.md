@@ -4,7 +4,6 @@ description: Elite AI context engineering specialist mastering dynamic context m
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: ai-ml
 ---
 
 ## Use this skill when

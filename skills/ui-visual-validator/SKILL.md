@@ -4,7 +4,6 @@ description: Rigorous visual validation expert specializing in UI testing, desig
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: testing
 ---
 
 ## Use this skill when

@@ -4,7 +4,6 @@ description: Azure OpenAI SDK for .NET. Client library for Azure OpenAI and Open
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: ai-ml
 ---
 
 # Azure.AI.OpenAI (.NET)

@@ -1,10 +1,9 @@
 ---
 name: avalonia-viewmodels-zafiro
-description: Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.
+description: "Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI."
 risk: unknown
 source: community
-date_added: '2026-02-27'
-category: web-development
+date_added: "2026-02-27"
 ---
 
 # Avalonia ViewModels with Zafiro

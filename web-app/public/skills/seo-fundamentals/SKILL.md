@@ -4,7 +4,6 @@ description: Core principles of SEO including E-E-A-T, Core Web Vitals, technica
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: web-development
 ---
 
 ---

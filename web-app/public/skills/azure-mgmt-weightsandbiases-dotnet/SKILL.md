@@ -4,7 +4,6 @@ description: Azure Weights & Biases SDK for .NET. ML experiment tracking and mod
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: backend
 ---
 
 # Azure.ResourceManager.WeightsAndBiases (.NET)

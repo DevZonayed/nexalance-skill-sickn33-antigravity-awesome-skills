@@ -4,7 +4,6 @@ description: This skill should be used when the user asks to \\\"calculate TAM\\
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: game-development
 ---
 
 # Market Sizing Analysis

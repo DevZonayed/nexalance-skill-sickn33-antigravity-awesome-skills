@@ -4,7 +4,6 @@ description: Azure AI Search SDK for .NET (Azure.Search.Documents). Use for buil
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: ai-ml
 ---
 
 # Azure.Search.Documents (.NET)

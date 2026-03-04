@@ -8,7 +8,6 @@ description: 'Initialize project with Conductor artifacts (product definition,
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: automation
 ---
 
 # Conductor Setup

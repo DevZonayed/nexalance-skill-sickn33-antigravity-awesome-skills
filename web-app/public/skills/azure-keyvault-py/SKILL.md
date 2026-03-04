@@ -4,7 +4,6 @@ description: Azure Key Vault SDK for Python. Use for secrets, keys, and certific
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: cloud
 ---
 
 # Azure Key Vault SDK for Python

@@ -4,7 +4,6 @@ description: Orchestrates design workflows by routing work through brainstorming
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: web-development
 ---
 
 # Design Orchestration (Meta-Skill)

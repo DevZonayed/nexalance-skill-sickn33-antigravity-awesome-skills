@@ -4,7 +4,6 @@ description: Apple HIG guidance for status and progress UI components including 
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: web-development
 ---
 
 # Apple HIG: Status Components

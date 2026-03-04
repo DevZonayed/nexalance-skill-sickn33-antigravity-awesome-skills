@@ -4,7 +4,6 @@ description: 'Azure Key Vault Keys SDK for Rust. Use for creating, managing, and
 risk: unknown
 source: community
 date_added: '2026-02-27'
-category: backend
 ---
 
 # Azure Key Vault Keys SDK for Rust

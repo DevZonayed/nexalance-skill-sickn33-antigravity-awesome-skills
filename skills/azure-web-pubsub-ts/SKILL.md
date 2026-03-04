@@ -1,10 +1,9 @@
 ---
 name: azure-web-pubsub-ts
-description: Build real-time messaging applications using Azure Web PubSub SDKs for JavaScript (@azure/web-pubsub, @azure/web-pubsub-client). Use when implementing WebSocket-based real-time features, pub/sub me...
+description: "Build real-time messaging applications using Azure Web PubSub SDKs for JavaScript (@azure/web-pubsub, @azure/web-pubsub-client). Use when implementing WebSocket-based real-time features, pub/sub me..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
-category: web-development
+date_added: "2026-02-27"
 ---
 
 # Azure Web PubSub SDKs for TypeScript

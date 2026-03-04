@@ -1,7 +1,6 @@
 ---
 name: apify-audience-analysis
 description: Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
-category: backend
 ---
 
 # Audience Analysis
