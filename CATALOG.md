@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 973
+Total skills: 978
 
 ## architecture (67)
 
@@ -132,7 +132,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `startup-financial-modeling` | This skill should be used when the user asks to \\\"create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "est... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (178)
+## data-ai (179)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -264,6 +264,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `llm-application-dev-langchain-agent` | You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph. | llm, application, dev, langchain, agent | llm, application, dev, langchain, agent, developer, specializing, grade, ai, langgraph |
 | `llm-application-dev-prompt-optimize` | You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thoug... | llm, application, dev, prompt, optimize | llm, application, dev, prompt, optimize, engineer, specializing, crafting, effective, prompts, llms, through |
 | `llm-evaluation` | Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performanc... | llm, evaluation | llm, evaluation, applications, automated, metrics, human, feedback, benchmarking, testing, performance, measuring, ai |
+| `llm-prompt-optimizer` | Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. | llm, prompt, optimizer | llm, prompt, optimizer, improving, prompts, any, applies, proven, engineering, techniques, boost, output |
 | `mailchimp-automation` | Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first fo... | mailchimp | mailchimp, automation, automate, email, marketing, including, campaigns, audiences, subscribers, segments, analytics, via |
 | `mlops-engineer` | Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. | mlops | mlops, engineer, ml, pipelines, experiment, tracking, model, registries, mlflow, kubeflow |
 | `nanobanana-ppt-skills` | AI-powered PPT generation with document analysis and styled images | nanobanana, ppt, skills | nanobanana, ppt, skills, ai, powered, generation, document, analysis, styled, images |
@@ -317,7 +318,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (145)
+## development (146)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -405,6 +406,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a... | frontend, slides | frontend, slides, stunning, animation, rich, html, presentations, scratch, converting, powerpoint, files, user |
 | `game-development/mobile-games` | Mobile game development principles. Touch input, battery, performance, app stores. | game, development/mobile, games | game, development/mobile, games, mobile, development, principles, touch, input, battery, performance, app, stores |
 | `gemini-api-dev` | Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function... | gemini, api, dev | gemini, api, dev, skill, building, applications, models, working, multimodal, content, text, images |
+| `gemini-api-integration` | Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices. | gemini, api, integration | gemini, api, integration, integrating, google, covers, model, selection, multimodal, inputs, streaming, function |
 | `go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or de... | go, concurrency | go, concurrency, goroutines, channels, sync, primitives, context, building, concurrent, applications, implementing, worker |
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
 | `go-rod-master` | Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. | go, rod, master | go, rod, master, browser, automation, web, scraping, chrome, devtools, protocol, including, stealth |
@@ -584,9 +586,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `julia-pro` | Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. | julia | julia, pro, 10, features, performance, optimization, multiple, dispatch |
 | `last30days` | Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool. | last30days | last30days, research, topic, last, 30, days, reddit, web, become, write, copy, paste |
 | `legacy-modernizer` | Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compati... | legacy, modernizer | legacy, modernizer, refactor, codebases, migrate, outdated, frameworks, gradual, modernization, technical, debt, dependency |
-| `lightning-architecture-review` | Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain f... | lightning, architecture, review | lightning, architecture, review, bitcoin, network, protocol, channel, factory, layer, 2, scaling, tradeoffs |
-| `lightning-channel-factories` | Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers D... | lightning, channel, factories | lightning, channel, factories, network, multi, party, lsp, architectures, bitcoin, layer, 2, scaling |
-| `lightning-factory-explainer` | Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeo... | lightning, factory, explainer | lightning, factory, explainer, bitcoin, channel, factories, superscalar, protocol, scalable, onboarding, shared, utxos |
+| `lightning-factory-explainer` | Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeou... | lightning, factory, explainer | lightning, factory, explainer, explain, bitcoin, channel, factories, superscalar, protocol, scalable, onboarding, shared |
 | `linear-claude-skill` | Manage Linear issues, projects, and teams | linear, claude, skill | linear, claude, skill, issues, teams |
 | `lint-and-validate` | Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Tri... | lint, and, validate | lint, and, validate, automatic, quality, control, linting, static, analysis, procedures, after, every |
 | `linux-privilege-escalation` | This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "a... | linux, privilege, escalation | linux, privilege, escalation, skill, should, used, user, asks, escalate, privileges, find, privesc |
@@ -619,6 +619,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `pptx-official` | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying o... | pptx, official | pptx, official, presentation, creation, editing, analysis, claude, work, presentations, files, creating, new |
 | `privilege-escalation-methods` | This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploi... | privilege, escalation, methods | privilege, escalation, methods, skill, should, used, user, asks, escalate, privileges, get, root |
 | `production-scheduling` | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufa... | production, scheduling | production, scheduling, codified, expertise, job, sequencing, line, balancing, changeover, optimisation, bottleneck, resolution |
+| `professional-proofreader` | Use when a user asks to "proofread", "review and correct", "fix grammar", "improve readability while keeping my voice", and to proofread a document file and ... | professional, proofreader | professional, proofreader, user, asks, proofread, review, correct, fix, grammar, improve, readability, while |
 | `prompt-engineer` | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW) | [prompt-engineering, optimization, frameworks, ai-enhancement] | [prompt-engineering, optimization, frameworks, ai-enhancement], prompt, engineer, transforms, user, prompts, optimized, rtf, risen |
 | `prompt-library` | Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use... | prompt, library | prompt, library, curated, collection, high, quality, prompts, various, cases, includes, role, task |
 | `quality-nonconformance` | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated m... | quality, nonconformance | quality, nonconformance, codified, expertise, control, non, conformance, investigation, root, cause, analysis, corrective |
@@ -637,6 +638,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `signup-flow-cro` | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "reg... | signup, flow, cro | signup, flow, cro, user, wants, optimize, registration, account, creation, trial, activation, flows |
 | `skill-creator` | This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with ... | [automation, scaffolding, skill-creation, meta-skill] | [automation, scaffolding, skill-creation, meta-skill], skill, creator, should, used, user, asks, new, custom |
 | `skill-rails-upgrade` | Analyze Rails apps and provide upgrade assessments | skill, rails, upgrade | skill, rails, upgrade, analyze, apps, provide, assessments |
+| `skill-router` | Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the insta... | skill, router | skill, router, user, unsure, which, where, start, interviews, targeted, questions, recommends, installed |
 | `slack-gif-creator` | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users reques... | slack, gif, creator | slack, gif, creator, knowledge, utilities, creating, animated, gifs, optimized, provides, constraints, validation |
 | `social-content` | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. A... | social, content | social, content, user, wants, creating, scheduling, optimizing, media, linkedin, twitter, instagram, tiktok |
 | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | subagent, driven | subagent, driven, development, executing, plans, independent, tasks, current, session |
@@ -665,7 +667,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (114)
+## infrastructure (115)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -751,6 +753,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `kubernetes-architect` | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. | kubernetes | kubernetes, architect, specializing, cloud, native, infrastructure, gitops, argocd, flux, enterprise, container, orchestration |
 | `kubernetes-deployment` | Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations. | kubernetes, deployment | kubernetes, deployment, container, orchestration, helm, charts, mesh, k8s, configurations |
 | `langfuse` | Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, Lla... | langfuse | langfuse, open, source, llm, observability, platform, covers, tracing, prompt, evaluation, datasets, integration |
+| `lightning-channel-factories` | Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers D... | lightning, channel, factories | lightning, channel, factories, technical, reference, network, multi, party, channels, lsp, architectures, bitcoin |
 | `linux-troubleshooting` | Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures. | linux, troubleshooting | linux, troubleshooting, diagnosing, resolving, issues, performance, problems, failures |
 | `llm-app-patterns` | Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI... | llm, app | llm, app, building, applications, covers, rag, pipelines, agent, architectures, prompt, ides, llmops |
 | `machine-learning-ops-ml-pipeline` | Design and implement a complete ML pipeline for: $ARGUMENTS | machine, learning, ops, ml, pipeline | machine, learning, ops, ml, pipeline, complete, arguments |
@@ -786,7 +789,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (114)
+## security (116)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -844,6 +847,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `laravel-expert` | Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and m... | laravel | laravel, senior, engineer, role, grade, maintainable, idiomatic, solutions, clean, architecture, security, performance |
 | `laravel-security-audit` | Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel sec... | laravel, security, audit | laravel, security, audit, auditor, applications, analyzes, code, vulnerabilities, misconfigurations, insecure, owasp, standards |
 | `legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. | legal, advisor | legal, advisor, draft, privacy, policies, terms, disclaimers, notices, creates, gdpr, compliant, texts |
+| `lightning-architecture-review` | Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain f... | lightning, architecture | lightning, architecture, review, bitcoin, network, protocol, designs, compare, channel, factory, approaches, analyze |
 | `linkerd-patterns` | Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies... | linkerd | linkerd, mesh, lightweight, security, deployments, setting, up, configuring, traffic, policies, implementing, zero |
 | `loki-mode` | Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security... | loki, mode | loki, mode, multi, agent, autonomous, startup, claude, code, triggers, orchestrates, 100, specialized |
 | `m365-agents-dotnet` | Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-base... | m365, agents, dotnet | m365, agents, dotnet, microsoft, 365, sdk, net, multichannel, teams, copilot, studio, asp |
@@ -870,6 +874,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `research-engineer` | An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctnes... | research | research, engineer, uncompromising, academic, operates, absolute, scientific, rigor, objective, criticism, zero, flair |
 | `risk-manager` | Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses. | risk, manager | risk, manager, monitor, portfolio, multiples, position, limits, creates, hedging, calculates, expectancy, implements |
 | `risk-metrics-calculation` | Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or... | risk, metrics, calculation | risk, metrics, calculation, calculate, portfolio, including, var, cvar, sharpe, sortino, drawdown, analysis |
+| `saas-mvp-launcher` | Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist. | saas, mvp, launcher | saas, mvp, launcher, planning, building, scratch, provides, structured, roadmap, covering, tech, stack |
 | `sast-configuration` | Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, ... | sast, configuration | sast, configuration, configure, static, application, security, testing, automated, vulnerability, detection, code, setting |
 | `scanning-tools` | This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wi... | scanning | scanning, skill, should, used, user, asks, perform, vulnerability, scan, networks, open, ports |
 | `secrets-management` | Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentia... | secrets | secrets, secure, ci, cd, pipelines, vault, aws, manager, native, platform, solutions, handling |
