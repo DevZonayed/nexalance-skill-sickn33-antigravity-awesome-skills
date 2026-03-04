@@ -1,33 +1,31 @@
-## v6.9.0 - Multi-Tool & Agent Infrastructure
+## v6.10.0 - "Skill Router & Developer Tools"
 
-> **Agent capabilities expand with email infrastructure, video intelligence, and multi-tool installer support.**
+> **Intelligent skill discovery, developer marketing, and AI integration tools.**
 
-### 🚀 New Skills
+This release brings a meta-skill for discovering the right skill, proofreading capabilities, Google Gemini integration, prompt optimization, SaaS MVP guidance, and Bitcoin Lightning Network skills.
 
-**📧 AgentMail** — Email infrastructure for AI agents
-- Create email accounts with karma-based rate limiting
-- Send/receive emails with attachments
-- Webhook signature verification for secure notifications
-- Full SDK examples and API reference
+### 🚀 New Skills (7)
 
-**📹 VideoDB** — Video and audio perception, indexing, and editing
-- Ingest from files, URLs, RTSP/live feeds, or desktop capture
-- Semantic, visual, and spoken word indexes with timestamp search
-- Timeline editing with subtitles, overlays, transcoding
-- AI generation for images, video, music, voiceovers
+- **skill-router** — Intelligent entry point to the skill library with 4-question funnel
+- **professional-proofreader** — Structured proofreading and grammar correction
+- **gemini-api-integration** — Google Gemini API integration guide
+- **llm-prompt-optimizer** — Systematic prompt engineering framework
+- **saas-mvp-launcher** — End-to-end SaaS MVP roadmap
+- **lightning-factory-explainer** — Bitcoin Lightning channel factories
+- **lightning-channel-factories** — Multi-party channel architectures
+- **lightning-architecture-review** — Layer 2 scaling tradeoffs
 
 ### 📦 Improvements
 
-- **Multi-Tool Install Support**: Install skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`). Fixes #182.
-- **Web-App Sync Optimization**: Hybrid sync strategy using git fetch (5+ min → < 2 sec). Includes sort by "Most Stars".
-- **Registry**: 970 skills (+2 new)
+- Registry now tracking **978 skills**
+- Durable execution documentation updates
+- devmarketing-skills community link
+- Fixed risk levels in 3 skills
 
 ### 👥 Contributors
 
-- @zinzied — Web-app sync optimization (PR #180)
-- @0xrohitgarg — VideoDB skill (PR #181)
-- @uriva — AgentMail skill (PR #183)
+@lsuryatej, @tejasashinde, @SnakeEye-sudo, @8144225309, @maxdml, @jonathimer, @copilot-swe-agent
 
 ---
 
-_Upgrade: `npx antigravity-awesome-skills` or `git pull origin main`_
+_Upgrade: `git pull origin main` or `npx antigravity-awesome-skills update`_
