@@ -590,6 +590,10 @@ We officially thank the following contributors for their help in making this rep
 - [@Silverov](https://github.com/Silverov)
 - [@shmlkv](https://github.com/shmlkv)
 - [@kriptoburak](https://github.com/kriptoburak)
+- [@lsuryatej](https://github.com/lsuryatej)
+- [@tejasashinde](https://github.com/tejasashinde)
+- [@SnakeEye-sudo](https://github.com/SnakeEye-sudo)
+- [@8144225309](https://github.com/8144225309)
 
 ---
 
