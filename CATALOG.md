@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 978
+Total skills: 1002
 
-## architecture (67)
+## architecture (69)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -54,6 +54,8 @@ Total skills: 978
 | `multi-agent-patterns` | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures | multi, agent | multi, agent, orchestrator, peer, hierarchical, architectures |
 | `nerdzao-elite` | Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation. | nerdzao, elite | nerdzao, elite, senior, software, engineer, 15, product, designer, full, planning, architecture, tdd |
 | `nx-workspace-patterns` | Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected com... | nx, workspace | nx, workspace, configure, optimize, monorepo, workspaces, setting, up, configuring, boundaries, optimizing, caching |
+| `odoo-module-developer` | Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices. | odoo, module | odoo, module, developer, creating, custom, modules, covers, manifest, py, model, inheritance, orm |
+| `odoo-orm-expert` | Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques. | odoo, orm | odoo, orm, search, browse, write, domain, filters, computed, fields, performance, safe, query |
 | `on-call-handoff-patterns` | Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting s... | on, call, handoff | on, call, handoff, shift, handoffs, context, transfer, escalation, procedures, documentation, transitioning, responsibilities |
 | `parallel-agents` | Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multi... | parallel, agents | parallel, agents, multi, agent, orchestration, multiple, independent, tasks, run, different, domain, expertise |
 | `powershell-windows` | PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling. | powershell, windows | powershell, windows, critical, pitfalls, operator, syntax, error, handling |
@@ -76,7 +78,7 @@ Total skills: 978
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (43)
+## business (45)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -103,6 +105,8 @@ tech stack, workflow, style guides) | conductor, setup | conductor, setup, initi
 | `marketing-ideas` | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. | marketing, ideas | marketing, ideas, provide, proven, growth, saas, software, products, prioritized, feasibility, scoring |
 | `marketing-psychology` | Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system. | marketing, psychology | marketing, psychology, apply, behavioral, science, mental, models, decisions, prioritized, psychological, leverage, feasibility |
 | `notion-template-business` | Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers templa... | notion, business | notion, business, building, selling, just, making, sustainable, digital, product, covers, pricing, marketplaces |
+| `odoo-ecommerce-configurator` | Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow. | odoo, ecommerce, configurator | odoo, ecommerce, configurator, website, product, catalog, payment, providers, shipping, methods, seo, order |
+| `odoo-hr-payroll-setup` | Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries. | odoo, hr, payroll, setup | odoo, hr, payroll, setup, salary, structures, payslip, rules, leave, policies, employee, contracts |
 | `pricing-strategy` | Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. | pricing | pricing, packaging, monetization, value, customer, willingness, pay, growth, objectives |
 | `sales-automator` | Draft cold emails, follow-ups, and proposal templates. Creates
 pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales
@@ -132,7 +136,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `startup-financial-modeling` | This skill should be used when the user asks to \\\"create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "est... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (179)
+## data-ai (181)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -272,6 +276,8 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `nextjs-app-router-patterns` | Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, impleme... | nextjs, app, router | nextjs, app, router, next, js, 14, server, components, streaming, parallel, routes, data |
 | `nextjs-best-practices` | Next.js App Router principles. Server Components, data fetching, routing patterns. | nextjs, best, practices | nextjs, best, practices, next, js, app, router, principles, server, components, data, fetching |
 | `nodejs-backend-patterns` | Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration,... | nodejs, backend | nodejs, backend, node, js, express, fastify, implementing, middleware, error, handling, authentication, database |
+| `odoo-edi-connector` | Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. | odoo, edi, connector | odoo, edi, connector, implementing, electronic, data, interchange, x12, edifact, document, mapping, partner |
+| `odoo-inventory-optimizer` | Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration. | odoo, inventory, optimizer | odoo, inventory, optimizer, stock, valuation, fifo, avco, reordering, rules, putaway, routes, multi |
 | `php-pro` | Write idiomatic PHP code with generators, iterators, SPL data
 structures, and modern OOP features. Use PROACTIVELY for high-performance PHP
 applications. | php | php, pro, write, idiomatic, code, generators, iterators, spl, data, structures, oop, features |
@@ -318,7 +324,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (146)
+## development (150)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -428,6 +434,10 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `n8n-code-python` | Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Py... | n8n, code, python | n8n, code, python, write, nodes, writing, input, json, node, syntax, working, standard |
 | `n8n-node-configuration` | Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between g... | n8n, node, configuration | n8n, node, configuration, operation, aware, guidance, configuring, nodes, understanding, property, dependencies, determining |
 | `observe-whatsapp` | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when in... | observe, whatsapp | observe, whatsapp, troubleshoot, kapso, debug, message, delivery, inspect, webhook, deliveries, retries, triage |
+| `odoo-migration-helper` | Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration. | odoo, migration, helper | odoo, migration, helper, step, migrating, custom, modules, between, versions, v14, v15, v16 |
+| `odoo-rpc-api` | Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScri... | odoo, rpc, api | odoo, rpc, api, external, json, xml, apis, covers, authentication, model, calls, record |
+| `odoo-shopify-integration` | Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. | odoo, shopify, integration | odoo, shopify, integration, connect, sync, products, inventory, orders, customers, api, external, connector |
+| `odoo-woocommerce-bridge` | Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. | odoo, woocommerce, bridge | odoo, woocommerce, bridge, sync, products, inventory, orders, customers, via, rest, api, external |
 | `product-manager-toolkit` | Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market ... | product, manager | product, manager, toolkit, managers, including, rice, prioritization, customer, interview, analysis, prd, discovery |
 | `python-development-python-scaffold` | You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with mode... | python | python, development, scaffold, architecture, specializing, scaffolding, applications, generate, complete, structures, tooling, uv |
 | `python-fastapi-development` | Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns. | python, fastapi | python, fastapi, development, backend, async, sqlalchemy, pydantic, authentication, api |
@@ -469,7 +479,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (193)
+## general (200)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -603,6 +613,13 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `nft-standards` | Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, ... | nft, standards | nft, standards, erc, 721, 1155, proper, metadata, handling, minting, marketplace, integration, creating |
 | `nosql-expert` | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot ... | nosql | nosql, guidance, distributed, databases, cassandra, dynamodb, mental, models, query, first, modeling, single |
 | `obsidian-clipper-template-creator` | Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format cli... | obsidian, clipper, creator | obsidian, clipper, creator, creating, web, want, new, clipping, understand, available, variables, format |
+| `odoo-accounting-setup` | Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation. | odoo, accounting, setup | odoo, accounting, setup, configuring, chart, accounts, journals, fiscal, positions, taxes, payment, terms |
+| `odoo-manufacturing-advisor` | Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows. | odoo, manufacturing, advisor | odoo, manufacturing, advisor, bills, materials, bom, work, centers, routings, mrp, planning, order |
+| `odoo-performance-tuner` | Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools. | odoo, performance, tuner | odoo, performance, tuner, diagnosing, fixing, issues, slow, queries, worker, configuration, memory, limits |
+| `odoo-project-timesheet` | Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets. | odoo, timesheet | odoo, timesheet, timesheets, task, stages, billable, time, tracking, approval, budget, alerts, invoicing |
+| `odoo-qweb-templates` | Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions. | odoo, qweb | odoo, qweb, templating, pdf, reports, email, website, pages, covers, foreach, field, report |
+| `odoo-upgrade-advisor` | Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation. | odoo, upgrade, advisor | odoo, upgrade, advisor, step, version, pre, checklist, community, vs, enterprise, path, oca |
+| `odoo-xml-views-builder` | Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax. | odoo, xml, views, builder | odoo, xml, views, builder, building, form, list, kanban, search, calendar, graph, generates |
 | `onboarding-cro` | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding ... | onboarding, cro | onboarding, cro, user, wants, optimize, post, signup, activation, first, run, experience, time |
 | `oss-hunter` | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. | oss, hunter | oss, hunter, automatically, hunt, high, impact, contribution, opportunities, trending, repositories |
 | `page-cro` | Analyze and optimize individual pages for conversion performance. | page, cro | page, cro, analyze, optimize, individual, pages, conversion, performance |
@@ -667,7 +684,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (115)
+## infrastructure (119)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -766,6 +783,10 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `network-101` | This skill should be used when the user asks to "set up a web server", "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test n... | network, 101 | network, 101, skill, should, used, user, asks, set, up, web, server, configure |
 | `observability-monitoring-monitor-setup` | You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing... | observability, monitoring, monitor, setup | observability, monitoring, monitor, setup, specializing, implementing, solutions, set, up, metrics, collection, distributed |
 | `observability-monitoring-slo-implement` | You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based practices. Design SLO frameworks, d... | observability, monitoring, slo, implement | observability, monitoring, slo, implement, level, objective, specializing, implementing, reliability, standards, error, budget |
+| `odoo-automated-tests` | Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration. | odoo, automated, tests | odoo, automated, tests, write, run, transactioncase, httpcase, browser, tour, covers, test, data |
+| `odoo-backup-strategy` | Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures. | odoo, backup | odoo, backup, complete, restore, database, dumps, filestore, automated, scheduling, cloud, storage, upload |
+| `odoo-docker-deployment` | Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy. | odoo, docker, deployment | odoo, docker, deployment, compose, setup, postgresql, persistent, volumes, environment, configuration, nginx, reverse |
+| `odoo-sales-crm-expert` | Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting. | odoo, sales, crm | odoo, sales, crm, pipeline, stages, quotation, pricelists, teams, lead, scoring, forecasting |
 | `performance-engineer` | Expert performance engineer specializing in modern observability, | performance | performance, engineer, specializing, observability |
 | `performance-testing-review-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | performance, ai | performance, ai, testing, review, powered, code, combining, automated, static, analysis, intelligent, recognition |
 | `pipedrive-automation` | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search... | pipedrive | pipedrive, automation, automate, crm, operations, including, deals, contacts, organizations, activities, notes, pipeline |
@@ -789,7 +810,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (116)
+## security (118)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -862,6 +883,8 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `nodejs-best-practices` | Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. | nodejs, best, practices | nodejs, best, practices, node, js, development, principles, decision, making, framework, selection, async |
 | `notebooklm` | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automati... | notebooklm | notebooklm, skill, query, google, notebooks, directly, claude, code, source, grounded, citation, backed |
 | `observability-engineer` | Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response... | observability | observability, engineer, monitoring, logging, tracing, implements, sli, slo, incident, response |
+| `odoo-l10n-compliance` | Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup. | odoo, l10n, compliance | odoo, l10n, compliance, country, specific, localization, tax, configuration, invoicing, cfdi, fatturapa, saf |
+| `odoo-security-rules` | Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns. | odoo, security, rules | odoo, security, rules, access, control, ir, model, csv, record, rule, groups, multi |
 | `openapi-spec-generation` | Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs... | openapi, spec, generation | openapi, spec, generation, generate, maintain, specifications, code, first, specs, validation, creating, api |
 | `payment-integration` | Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing paym... | payment, integration | payment, integration, integrate, stripe, paypal, processors, checkout, flows, subscriptions, webhooks, pci, compliance |
 | `pci-compliance` | Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI c... | pci, compliance | pci, compliance, dss, requirements, secure, handling, payment, card, data, securing, processing, achieving |
@@ -951,7 +974,7 @@ behavior. Use proactively when encountering any issues. | debugger | debugger, d
 | `wordpress-penetration-testing` | This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugi... | wordpress, penetration | wordpress, penetration, testing, skill, should, used, user, asks, pentest, sites, scan, vulnerabilities |
 | `xss-html-injection` | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exp... | xss, html, injection | xss, html, injection, skill, should, used, user, asks, test, vulnerabilities, perform, cross |
 
-## workflow (87)
+## workflow (88)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1014,6 +1037,7 @@ before implementation to ve... | conductor, validator | conductor, validator, va
 | `multi-agent-brainstorming` | Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes befor... | multi, agent, brainstorming | multi, agent, brainstorming, simulate, structured, peer, review, process, multiple, specialized, agents, validate |
 | `nerdzao-elite-gemini-high` | Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens. | nerdzao, elite, gemini, high | nerdzao, elite, gemini, high, modo, coder, ux, pixel, perfect, otimizado, especificamente, para |
 | `notion-automation` | Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas. | notion | notion, automation, automate, tasks, via, rube, mcp, composio, pages, databases, blocks, comments |
+| `odoo-purchase-workflow` | Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching. | odoo, purchase | odoo, purchase, rfq, po, receipt, vendor, bill, agreements, price, lists, way, matching |
 | `office-productivity` | Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Offi... | office, productivity | office, productivity, covering, document, creation, spreadsheet, automation, presentation, generation, integration, libreoffice, microsoft |
 | `one-drive-automation` | Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first... | one, drive | one, drive, automation, automate, onedrive, file, search, uploads, downloads, sharing, permissions, folder |
 | `os-scripting` | Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and aut... | os, scripting | os, scripting, operating, shell, troubleshooting, linux, macos, windows, covers, bash, administration, debugging |
