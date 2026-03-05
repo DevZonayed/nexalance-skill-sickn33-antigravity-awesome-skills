@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1006,
+  "total": 1009,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -1117,6 +1117,32 @@
         "sdks"
       ],
       "path": "skills/api-documenter/SKILL.md"
+    },
+    {
+      "id": "api-endpoint-builder",
+      "name": "api-endpoint-builder",
+      "description": "Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability.",
+      "category": "security",
+      "tags": [
+        "api",
+        "endpoint",
+        "builder"
+      ],
+      "triggers": [
+        "api",
+        "endpoint",
+        "builder",
+        "rest",
+        "endpoints",
+        "validation",
+        "error",
+        "handling",
+        "authentication",
+        "documentation",
+        "follows",
+        "security"
+      ],
+      "path": "skills/api-endpoint-builder/SKILL.md"
     },
     {
       "id": "api-fuzzing-bug-bounty",
@@ -5983,6 +6009,31 @@
         "covers"
       ],
       "path": "skills/browser-extension-builder/SKILL.md"
+    },
+    {
+      "id": "bug-hunter",
+      "name": "bug-hunter",
+      "description": "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.",
+      "category": "general",
+      "tags": [
+        "bug",
+        "hunter"
+      ],
+      "triggers": [
+        "bug",
+        "hunter",
+        "systematically",
+        "finds",
+        "fixes",
+        "bugs",
+        "proven",
+        "debugging",
+        "techniques",
+        "traces",
+        "symptoms",
+        "root"
+      ],
+      "path": "skills/bug-hunter/SKILL.md"
     },
     {
       "id": "bullmq-specialist",
@@ -17723,6 +17774,31 @@
         "observability"
       ],
       "path": "skills/performance-engineer/SKILL.md"
+    },
+    {
+      "id": "performance-optimizer",
+      "name": "performance-optimizer",
+      "description": "Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.",
+      "category": "general",
+      "tags": [
+        "performance",
+        "optimizer"
+      ],
+      "triggers": [
+        "performance",
+        "optimizer",
+        "identifies",
+        "fixes",
+        "bottlenecks",
+        "code",
+        "databases",
+        "apis",
+        "measures",
+        "before",
+        "after",
+        "prove"
+      ],
+      "path": "skills/performance-optimizer/SKILL.md"
     },
     {
       "id": "performance-profiling",
