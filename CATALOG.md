@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 978
+Total skills: 980
 
 ## architecture (67)
 
@@ -789,7 +789,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (116)
+## security (118)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -829,6 +829,8 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `docker-expert` | Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and productio... | docker | docker, containerization, deep, knowledge, multi, stage, image, optimization, container, security, compose, orchestration |
 | `dotnet-backend` | Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns. | dotnet, backend | dotnet, backend, asp, net, core, ef, auth, background, jobs, api |
 | `ethical-hacking-methodology` | This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct secur... | ethical, hacking, methodology | ethical, hacking, methodology, skill, should, used, user, asks, learn, understand, penetration, testing |
+| `fda-food-safety-auditor` | Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls. | fda, food, safety, auditor | fda, food, safety, auditor, ai, fsma, haccp, pcqi, compliance, reviews, facility, records |
+| `fda-medtech-compliance-auditor` | Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation. | fda, medtech, compliance, auditor | fda, medtech, compliance, auditor, ai, medical, device, samd, iec, 62304, 21, cfr |
 | `find-bugs` | Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit ... | find, bugs | find, bugs, security, vulnerabilities, code, quality, issues, local, branch, changes, asked, review |
 | `firebase` | Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules a... | firebase | firebase, gives, complete, backend, minutes, auth, database, storage, functions, hosting, ease, setup |
 | `firmware-analyst` | Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. | firmware, analyst | firmware, analyst, specializing, embedded, iot, security, hardware, reverse, engineering |

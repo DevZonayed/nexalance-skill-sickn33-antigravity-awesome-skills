@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 978,
+  "total": 980,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -10675,6 +10675,60 @@
         "backend"
       ],
       "path": "skills/fastapi-templates/SKILL.md"
+    },
+    {
+      "id": "fda-food-safety-auditor",
+      "name": "fda-food-safety-auditor",
+      "description": "Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.",
+      "category": "security",
+      "tags": [
+        "fda",
+        "food",
+        "safety",
+        "auditor"
+      ],
+      "triggers": [
+        "fda",
+        "food",
+        "safety",
+        "auditor",
+        "ai",
+        "fsma",
+        "haccp",
+        "pcqi",
+        "compliance",
+        "reviews",
+        "facility",
+        "records"
+      ],
+      "path": "skills/fda-food-safety-auditor/SKILL.md"
+    },
+    {
+      "id": "fda-medtech-compliance-auditor",
+      "name": "fda-medtech-compliance-auditor",
+      "description": "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.",
+      "category": "security",
+      "tags": [
+        "fda",
+        "medtech",
+        "compliance",
+        "auditor"
+      ],
+      "triggers": [
+        "fda",
+        "medtech",
+        "compliance",
+        "auditor",
+        "ai",
+        "medical",
+        "device",
+        "samd",
+        "iec",
+        "62304",
+        "21",
+        "cfr"
+      ],
+      "path": "skills/fda-medtech-compliance-auditor/SKILL.md"
     },
     {
       "id": "ffuf-claude-skill",
