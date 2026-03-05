@@ -17,7 +17,7 @@
 
 If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **978+ high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **1006+ high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -269,7 +269,7 @@ npx antigravity-awesome-skills
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 950+ skills one by one.
+They help you avoid picking from 1006+ skills one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
@@ -347,7 +347,7 @@ We have moved the full skill registry to a dedicated catalog to keep this README
 
 ### 🌐 Interactive Skills Web App
 
-A modern web interface to explore, search, and use the 950+ skills directly from your browser.
+A modern web interface to explore, search, and use the 1006+ skills directly from your browser.
 
 #### ✨ Features
 
@@ -598,6 +598,9 @@ We officially thank the following contributors for their help in making this rep
 - [@sx4im](https://github.com/sx4im)
 - [@skyruh](https://github.com/skyruh)
 - [@nagisanzenin](https://github.com/nagisanzenin)
+- [@devchangjun](https://github.com/devchangjun)
+- [@raeef1001](https://github.com/raeef1001)
+- [@1bcMax](https://github.com/1bcMax)
 
 ---
 
