@@ -11,6 +11,78 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.11.0] - 2026-03-05 - "Skills Expansion & Docs Polish"
+
+> **28 new skills, web-app performance upgrades, and documentation consistency pass.**
+
+This release adds 28 new skills across database tooling, FDA compliance, Odoo ERP, agent orchestration, and production architecture. It also ships incremental web-app performance improvements and a full documentation emoji-cleanup pass in line with Maintenance V5 rules. Registry count synced to 1006+ across all docs.
+
+## 🚀 New Skills
+
+### 🗄️ [drizzle-orm-expert](skills/drizzle-orm-expert/)
+
+**Type-safe database development with Drizzle ORM.**
+Covers queries, migrations, relations, and adapters for PostgreSQL, MySQL, and SQLite.
+
+> **Try it:** `Use @drizzle-orm-expert to design a schema with relations and run a migration`
+
+---
+
+### 🏭 FDA Compliance Suite (2 skills)
+
+**FDA audit and compliance guidance for food and medtech.**
+
+- **[fda-food-safety-auditor](skills/fda-food-safety-auditor/)**: FSMA, HACCP, and food facility audits with corrective action plans.
+- **[fda-medtech-compliance-auditor](skills/fda-medtech-compliance-auditor/)**: FDA 21 CFR Part 820, QSR, and 510(k) / PMA guidance.
+
+> **Try it:** `Use @fda-food-safety-auditor to audit our production facility`
+
+---
+
+### 🏢 Odoo ERP Suite (24 skills)
+
+**Complete Odoo 17 coverage for development, functional, DevOps, compliance, and integrations.**
+
+Skills include: `odoo-development`, `odoo-functional`, `odoo-devops`, `odoo-l10n-compliance`, `odoo-shopify-integration`, `odoo-woocommerce-bridge`, `odoo-edi-connector`, and 17 more.
+
+> **Try it:** `Use @odoo-development to scaffold a custom Odoo 17 module`
+
+---
+
+### 🤖 Production & Audit Skills (2 skills)
+
+- **[codebase-audit-pre-push](skills/codebase-audit-pre-push/)**: Automated quality gate that runs before every push.
+- **[production-grade](skills/production-grade/)**: 14-agent orchestrator pipeline for end-to-end production-readiness checks.
+
+> **Try it:** `Run @codebase-audit-pre-push before merging this PR`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 1006 skills (+28 since v6.10.0).
+- **Statistics Sync**: All docs (README, GETTING_STARTED, FAQ, package.json) updated to reflect 1006 skills — eliminating 978/954/950/900 drift.
+- **Contributors**: Added `devchangjun`, `raeef1001`, `1bcMax` to Repo Contributors.
+- **Web App Performance** (PR #196): List virtualization, global state, debounced search, lazy loading, incremental loading, and edge-to-edge scrolling.
+- **Docs Polish**: Removed emojis from H2 headers in `GETTING_STARTED`, `SKILL_ANATOMY`, `CONTRIBUTING`, `FAQ` following Maintenance V5 anchor rules.
+- **Star History**: Updated star history chart in README.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@sx4im** for `drizzle-orm-expert`
+- **@nagisanzenin** for `production-grade`
+- **@Mohammad-Faiz-Cloud-Engineer** for docs emoji cleanup across multiple files
+- **@skyruh** for web-app performance improvements (PR #196)
+- **@devchangjun**, **@raeef1001**, **@1bcMax** for community contributions
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
 ## [6.10.0] - 2026-03-04 - "Skill Router & Developer Tools"
 
 > **Intelligent skill discovery, developer marketing, and AI integration tools.**
