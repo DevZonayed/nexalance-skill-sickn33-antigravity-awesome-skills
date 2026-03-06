@@ -7420,6 +7420,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "product-manager",
+    "path": "skills/product-manager",
+    "category": "uncategorized",
+    "name": "product-manager",
+    "description": "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.",
+    "risk": "unknown",
+    "source": "Digidai/product-manager-skills (MIT)",
+    "date_added": "2026-03-06"
+  },
+  {
     "id": "product-manager-toolkit",
     "path": "skills/product-manager-toolkit",
     "category": "uncategorized",
