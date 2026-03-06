@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1007
+Total skills: 1011
 
 ## architecture (69)
 
@@ -481,7 +481,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (200)
+## general (202)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -508,6 +508,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `blockchain-developer` | Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockcha... | blockchain | blockchain, developer, web3, applications, smart, contracts, decentralized, implements, defi, protocols, nft, platforms |
 | `brand-guidelines-anthropic` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand co... | brand, guidelines, anthropic | brand, guidelines, anthropic, applies, official, colors, typography, any, sort, artifact, may, benefit |
 | `brand-guidelines-community` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand co... | brand, guidelines, community | brand, guidelines, community, applies, anthropic, official, colors, typography, any, sort, artifact, may |
+| `bug-hunter` | Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. | bug, hunter | bug, hunter, systematically, finds, fixes, bugs, proven, debugging, techniques, traces, symptoms, root |
 | `busybox-on-windows` | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. | busybox, on, windows | busybox, on, windows, how, win32, run, many, standard, unix, command, line |
 | `c-pro` | Write efficient C code with proper memory management, pointer | c | c, pro, write, efficient, code, proper, memory, pointer |
 | `canvas-design` | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art... | canvas | canvas, beautiful, visual, art, png, pdf, documents, philosophy, should, skill, user, asks |
@@ -630,6 +631,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `paywall-upgrade-cro` | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgr... | paywall, upgrade, cro | paywall, upgrade, cro, user, wants, optimize, app, paywalls, screens, upsell, modals, feature |
 | `pdf-official` | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs ... | pdf, official | pdf, official, manipulation, toolkit, extracting, text, tables, creating, new, pdfs, merging, splitting |
 | `pentest-commands` | This skill should be used when the user asks to "run pentest commands", "scan with nmap", "use metasploit exploits", "crack passwords with hydra or john", "s... | pentest, commands | pentest, commands, skill, should, used, user, asks, run, scan, nmap, metasploit, exploits |
+| `performance-optimizer` | Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements. | performance, optimizer | performance, optimizer, identifies, fixes, bottlenecks, code, databases, apis, measures, before, after, prove |
 | `performance-profiling` | Performance profiling principles. Measurement, analysis, and optimization techniques. | performance, profiling | performance, profiling, principles, measurement, analysis, optimization, techniques |
 | `personal-tool-builder` | Expert in building custom tools that solve your own problems first. The best products often start as personal tools - scratch your own itch, build for yourse... | personal, builder | personal, builder, building, custom, solve, own, problems, first, products, often, start, scratch |
 | `plan-writing` | Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. | plan, writing | plan, writing, structured, task, planning, clear, breakdowns, dependencies, verification, criteria, implementing, features |
@@ -812,7 +814,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (121)
+## security (123)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -820,6 +822,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `active-directory-attacks` | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration"... | active, directory, attacks | active, directory, attacks, skill, should, used, user, asks, attack, exploit, ad, kerberoasting |
 | `agent-memory-systems` | Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-te... | agent, memory | agent, memory, cornerstone, intelligent, agents, without, every, interaction, starts, zero, skill, covers |
 | `antigravity-workflows` | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. | antigravity | antigravity, orchestrate, multiple, skills, through, guided, saas, mvp, delivery, security, audits, ai |
+| `api-endpoint-builder` | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalab... | api, endpoint, builder | api, endpoint, builder, rest, endpoints, validation, error, handling, authentication, documentation, follows, security |
 | `api-fuzzing-bug-bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetrat... | api, fuzzing, bug, bounty | api, fuzzing, bug, bounty, skill, should, used, user, asks, test, security, fuzz |
 | `api-security-best-practices` | Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities | api, security, best, practices | api, security, best, practices, secure, including, authentication, authorization, input, validation, rate, limiting |
 | `api-security-testing` | API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices. | api, security | api, security, testing, rest, graphql, apis, covering, authentication, authorization, rate, limiting, input |
@@ -897,6 +900,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `plaid-fintech` | Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handlin... | plaid, fintech | plaid, fintech, api, integration, including, link, token, flows, transactions, sync, identity, verification |
 | `popup-cro` | Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust. | popup, cro | popup, cro, optimize, popups, modals, overlays, slide, ins, banners, increase, conversions, without |
 | `postmortem-writing` | Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documen... | postmortem, writing | postmortem, writing, write, effective, blameless, postmortems, root, cause, analysis, timelines, action, items |
+| `product-manager` | Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. | product-management, saas, frameworks, metrics, strategy | product-management, saas, frameworks, metrics, strategy, product, manager, senior, pm, agent, knowledge, domains |
 | `quant-analyst` | Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. | quant, analyst | quant, analyst, financial, models, backtest, trading, analyze, market, data, implements, risk, metrics |
 | `red-team-tactics` | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. | red, team, tactics | red, team, tactics, principles, mitre, att, ck, attack, phases, detection, evasion, reporting |
 | `research-engineer` | An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctnes... | research | research, engineer, uncompromising, academic, operates, absolute, scientific, rigor, objective, criticism, zero, flair |

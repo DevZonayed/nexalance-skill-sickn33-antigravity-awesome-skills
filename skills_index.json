@@ -470,6 +470,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "api-endpoint-builder",
+    "path": "skills/api-endpoint-builder",
+    "category": "development",
+    "name": "api-endpoint-builder",
+    "description": "Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-05"
+  },
+  {
     "id": "api-fuzzing-bug-bounty",
     "path": "skills/api-fuzzing-bug-bounty",
     "category": "uncategorized",
@@ -2398,6 +2408,16 @@
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "bug-hunter",
+    "path": "skills/bug-hunter",
+    "category": "development",
+    "name": "bug-hunter",
+    "description": "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-05"
   },
   {
     "id": "bullmq-specialist",
@@ -7180,6 +7200,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "performance-optimizer",
+    "path": "skills/performance-optimizer",
+    "category": "development",
+    "name": "performance-optimizer",
+    "description": "Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-05"
+  },
+  {
     "id": "performance-profiling",
     "path": "skills/performance-profiling",
     "category": "uncategorized",
@@ -7418,6 +7448,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "product-manager",
+    "path": "skills/product-manager",
+    "category": "uncategorized",
+    "name": "product-manager",
+    "description": "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.",
+    "risk": "unknown",
+    "source": "Digidai/product-manager-skills (MIT)",
+    "date_added": "2026-03-06"
   },
   {
     "id": "product-manager-toolkit",
