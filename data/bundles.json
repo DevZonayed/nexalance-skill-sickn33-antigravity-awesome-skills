@@ -251,6 +251,7 @@
         "web-artifacts-builder",
         "webapp-testing",
         "wordpress-plugin-development",
+        "zod-validation-expert",
         "zustand-store-ts"
       ]
     },
