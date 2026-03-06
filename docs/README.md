@@ -9,6 +9,7 @@
 - [`users/workflows.md`](users/workflows.md)
 - [`users/kiro-integration.md`](users/kiro-integration.md)
 - [`users/visual-guide.md`](users/visual-guide.md)
+- [`users/local-config.md`](users/local-config.md)
 
 ## Contributors
 
