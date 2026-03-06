@@ -46,6 +46,11 @@ Use @brainstorming to plan a SaaS MVP.
 | Gemini CLI | `npx antigravity-awesome-skills --gemini` | `Use brainstorming to plan a feature` |
 | Codex CLI | `npx antigravity-awesome-skills --codex` | `Use brainstorming to plan a feature` |
 | Antigravity | `npx antigravity-awesome-skills --antigravity` | `Use @brainstorming to plan a feature` |
+| Kiro CLI | `npx antigravity-awesome-skills --kiro` | `Use brainstorming to plan a feature` |
+| Kiro IDE | `npx antigravity-awesome-skills --path ~/.kiro/skills` | `Use @brainstorming to plan a feature` |
+| GitHub Copilot | _No installer — paste skills or rules manually_ | `Ask Copilot to use brainstorming to plan a feature` |
+| OpenCode | `npx antigravity-awesome-skills --path .agents/skills` | `opencode run @brainstorming help me plan a feature` |
+| AdaL CLI | `npx antigravity-awesome-skills --path .adal/skills` | `Use brainstorming to plan a feature` |
 | Custom path | `npx antigravity-awesome-skills --path ./my-skills` | Depends on your tool |
 
 ## What This Repo Includes
