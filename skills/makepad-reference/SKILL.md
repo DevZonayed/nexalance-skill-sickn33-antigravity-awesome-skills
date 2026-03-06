@@ -5,8 +5,7 @@ description: |
   troubleshoot, error, debug, fix, problem, issue,
   no matching field, parse error, widget not found, UI not updating,
   code quality, refactor, responsive layout, adaptive,
-  api docs, reference, documentation,
-  故障排除, 错误, 调试, 问题, 修复
+  api docs, reference,...
 ---
 
 # Makepad Reference
@@ -17,10 +16,10 @@ This category provides reference materials for debugging, code quality, and adva
 
 | Topic | File | Use When |
 |-------|------|----------|
-| [API Documentation](./api-docs.md) | Official docs index, quick API reference | Finding detailed API info |
-| [Troubleshooting](./troubleshooting.md) | Common errors and fixes | Build fails, runtime errors |
-| [Code Quality](./code-quality.md) | Makepad-aware refactoring | Simplifying code safely |
-| [Adaptive Layout](./adaptive-layout.md) | Desktop/mobile responsive | Cross-platform layouts |
+| API Documentation | Official docs index, quick API reference | Finding detailed API info |
+| Troubleshooting | Common errors and fixes | Build fails, runtime errors |
+| Code Quality | Makepad-aware refactoring | Simplifying code safely |
+| Adaptive Layout | Desktop/mobile responsive | Cross-platform layouts |
 
 ## Common Issues Quick Reference
 

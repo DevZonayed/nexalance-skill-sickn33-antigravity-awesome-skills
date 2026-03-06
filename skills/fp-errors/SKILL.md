@@ -1,5 +1,5 @@
 ---
-name: Practical Error Handling with fp-ts
+name: fp-errors
 description: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
 version: 1.0.0
 author: kadu

@@ -1,5 +1,5 @@
 ---
-name: Pragmatic Functional Programming
+name: fp-pragmatic
 description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
 version: 1.0.0
 author: kadu

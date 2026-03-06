@@ -256,7 +256,7 @@ This skill builds on multi-agent-patterns for agent coordination and tool-design
 ## References
 
 Internal reference:
-- [Infrastructure Patterns](./references/infrastructure-patterns.md) - Detailed implementation patterns
+- Infrastructure Patterns - Detailed implementation patterns
 
 Related skills in this collection:
 - multi-agent-patterns - Coordination patterns for self-spawning agents

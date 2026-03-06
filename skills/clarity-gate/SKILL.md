@@ -60,7 +60,7 @@ This skill implements and references:
 
 | Specification | Version | Location |
 |---------------|---------|----------|
-| Clarity Gate Format (Unified) | v2.1 | [docs/CLARITY_GATE_FORMAT_SPEC.md](../../docs/CLARITY_GATE_FORMAT_SPEC.md) |
+| Clarity Gate Format (Unified) | v2.1 | docs/CLARITY_GATE_FORMAT_SPEC.md |
 
 **Note:** v2.0 unifies CGD and SOT into a single `.cgd.md` format. SOT is now a CGD with an optional `tier:` block.
 
@@ -203,7 +203,7 @@ Clarity Gate **enforces** their presence where epistemically required ("Should u
 
 The 9 Verification Points guide **semantic review** — content quality checks that require judgment (human or AI). They answer questions like "Should this claim be hedged?" and "Are these numbers consistent?"
 
-When review completes, output a CGD file conforming to [CLARITY_GATE_FORMAT_SPEC.md](../../docs/CLARITY_GATE_FORMAT_SPEC.md). The C/S rules in [CLARITY_GATE_FORMAT_SPEC.md](../../docs/CLARITY_GATE_FORMAT_SPEC.md) validate **file structure**, not semantic content.
+When review completes, output a CGD file conforming to CLARITY_GATE_FORMAT_SPEC.md. The C/S rules in CLARITY_GATE_FORMAT_SPEC.md validate **file structure**, not semantic content.
 
 **The connection:**
 1. Semantic findings (9 points) determine what issues exist
@@ -367,7 +367,7 @@ Claim Extracted --> Does Source of Truth Exist?
 
 ## CGD Output Format
 
-When producing a Clarity-Gated Document, use this format per [CLARITY_GATE_FORMAT_SPEC.md](../../docs/CLARITY_GATE_FORMAT_SPEC.md) v2.1:
+When producing a Clarity-Gated Document, use this format per CLARITY_GATE_FORMAT_SPEC.md v2.1:
 
 ```yaml
 ---
@@ -497,13 +497,13 @@ Legacy authentication details that require SME review...
 
 **Important:** Documents with exclusion blocks are **not RAG-ingestable**. They're rejected entirely (no partial ingestion).
 
-See [CLARITY_GATE_FORMAT_SPEC.md §4](../../docs/CLARITY_GATE_FORMAT_SPEC.md) for complete rules.
+See CLARITY_GATE_FORMAT_SPEC.md §4 for complete rules.
 
 ---
 
 ## SOT Validation
 
-When validating a Source of Truth file, the skill checks both **format compliance** (per [CLARITY_GATE_FORMAT_SPEC.md](../../docs/CLARITY_GATE_FORMAT_SPEC.md)) and **content quality** (the 9 points).
+When validating a Source of Truth file, the skill checks both **format compliance** (per CLARITY_GATE_FORMAT_SPEC.md) and **content quality** (the 9 points).
 
 ### Format Compliance (Structural Rules)
 

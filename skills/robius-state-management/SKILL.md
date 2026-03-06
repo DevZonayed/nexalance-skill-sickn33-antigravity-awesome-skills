@@ -30,11 +30,11 @@ For production-ready state management patterns, see the `_base/` directory:
 
 | Pattern | Description |
 |---------|-------------|
-| [06-global-registry](./_base/06-global-registry.md) | Global widget registry with Cx::set_global |
-| [07-radio-navigation](./_base/07-radio-navigation.md) | Tab-style navigation with radio buttons |
-| [10-state-machine](./_base/10-state-machine.md) | Enum-based state machine widgets |
-| [11-theme-switching](./_base/11-theme-switching.md) | Multi-theme support with apply_over |
-| [12-local-persistence](./_base/12-local-persistence.md) | Save/load user preferences |
+| 06-global-registry | Global widget registry with Cx::set_global |
+| 07-radio-navigation | Tab-style navigation with radio buttons |
+| 10-state-machine | Enum-based state machine widgets |
+| 11-theme-switching | Multi-theme support with apply_over |
+| 12-local-persistence | Save/load user preferences |
 
 ## AppState Structure
 

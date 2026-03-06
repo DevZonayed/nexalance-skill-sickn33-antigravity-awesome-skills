@@ -28,9 +28,9 @@ For production-ready animation patterns, see the `_base/` directory:
 
 | Pattern | Description |
 |---------|-------------|
-| [06-animator-basics](./_base/06-animator-basics.md) | Animator fundamentals |
-| [07-easing-functions](./_base/07-easing-functions.md) | Easing and timing |
-| [08-keyframe-animation](./_base/08-keyframe-animation.md) | Complex keyframes |
+| 06-animator-basics | Animator fundamentals |
+| 07-easing-functions | Easing and timing |
+| 08-keyframe-animation | Complex keyframes |
 
 ## IMPORTANT: Documentation Completeness Check
 

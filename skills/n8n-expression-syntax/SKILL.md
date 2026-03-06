@@ -249,7 +249,7 @@ Don't double-wrap expressions:
 
 ## Common Mistakes
 
-For complete error catalog with fixes, see [COMMON_MISTAKES.md](COMMON_MISTAKES.md)
+For complete error catalog with fixes, see COMMON_MISTAKES.md
 
 ### Quick Fixes
 
@@ -266,7 +266,7 @@ For complete error catalog with fixes, see [COMMON_MISTAKES.md](COMMON_MISTAKES.
 
 ## Working Examples
 
-For real workflow examples, see [EXAMPLES.md](EXAMPLES.md)
+For real workflow examples, see EXAMPLES.md
 
 ### Example 1: Webhook to Slack
 
@@ -508,8 +508,8 @@ Hello {{$json.name}}!
 - `{{$node.HTTP Request}}` → Use `{{$node["HTTP Request"]}}`
 
 For more details, see:
-- [COMMON_MISTAKES.md](COMMON_MISTAKES.md) - Complete error catalog
-- [EXAMPLES.md](EXAMPLES.md) - Real workflow examples
+- COMMON_MISTAKES.md - Complete error catalog
+- EXAMPLES.md - Real workflow examples
 
 ---
 

@@ -1,5 +1,10 @@
 ---
 name: build
+description: build
+---
+
+---
+name: build
 description: Feature development pipeline - research, plan, track, and implement major features.
 argument-hint: [subcommand] [name]
 metadata:

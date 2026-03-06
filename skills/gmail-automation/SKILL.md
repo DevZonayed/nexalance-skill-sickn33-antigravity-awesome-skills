@@ -1,11 +1,10 @@
 ---
-name: gmail
+name: gmail-automation
 description: |
   Interact with Gmail - search emails, read messages, send emails, create drafts, and manage labels.
   Use when user asks to: search email, read email, send email, create email draft, mark as read,
-  archive email, star email, or manage Gmail labels. Lightweight alternative to full Google
-  Workspace MCP server with standalone OAuth authentication.
-license: Apache-2.0
+  archive email, star email, or manage Gmail labels. Lightweight alternative...
+--- Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"

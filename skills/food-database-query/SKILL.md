@@ -1,3 +1,8 @@
+---
+name: food-database-query
+description: Food Database Query
+---
+
 # 食物数据库查询技能
 
 **技能名称**: Food Database Query

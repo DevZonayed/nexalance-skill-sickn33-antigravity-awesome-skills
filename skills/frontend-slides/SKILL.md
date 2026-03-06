@@ -1,6 +1,6 @@
 ---
 name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
+description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual...
 ---
 
 # Frontend Slides
@@ -130,7 +130,7 @@ Ask how they want to choose (header: "Style"):
 - "Show me options" (recommended) — Generate 3 previews based on mood
 - "I know what I want" — Pick from preset list directly
 
-**If direct selection:** Show preset picker and skip to Phase 3. Available presets are defined in [STYLE_PRESETS.md](STYLE_PRESETS.md).
+**If direct selection:** Show preset picker and skip to Phase 3. Available presets are defined in STYLE_PRESETS.md.
 
 ### Step 2.1: Mood Selection (Guided Discovery)
 
@@ -143,7 +143,7 @@ What feeling should the audience have? Options:
 
 ### Step 2.2: Generate 3 Style Previews
 
-Based on mood, generate 3 distinct single-slide HTML previews showing typography, colors, animation, and overall aesthetic. Read [STYLE_PRESETS.md](STYLE_PRESETS.md) for available presets and their specifications.
+Based on mood, generate 3 distinct single-slide HTML previews showing typography, colors, animation, and overall aesthetic. Read STYLE_PRESETS.md for available presets and their specifications.
 
 | Mood | Suggested Presets |
 |------|-------------------|
@@ -172,9 +172,9 @@ Generate the full presentation using content from Phase 1 (text, or text + curat
 If images were provided, the slide outline already incorporates them from Step 1.2. If not, CSS-generated visuals (gradients, shapes, patterns) provide visual interest — this is a fully supported first-class path.
 
 **Before generating, read these supporting files:**
-- [html-template.md](html-template.md) — HTML architecture and JS features
-- [viewport-base.css](viewport-base.css) — Mandatory CSS (include in full)
-- [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
+- html-template.md — HTML architecture and JS features
+- viewport-base.css — Mandatory CSS (include in full)
+- animation-patterns.md — Animation reference for the chosen feeling
 
 **Key requirements:**
 - Single self-contained HTML file, all CSS/JS inline
@@ -212,8 +212,8 @@ When converting PowerPoint files:
 
 | File | Purpose | When to Read |
 |------|---------|-------------|
-| [STYLE_PRESETS.md](STYLE_PRESETS.md) | 12 curated visual presets with colors, fonts, and signature elements | Phase 2 (style selection) |
-| [viewport-base.css](viewport-base.css) | Mandatory responsive CSS — copy into every presentation | Phase 3 (generation) |
-| [html-template.md](html-template.md) | HTML structure, JS features, code quality standards | Phase 3 (generation) |
-| [animation-patterns.md](animation-patterns.md) | CSS/JS animation snippets and effect-to-feeling guide | Phase 3 (generation) |
-| [scripts/extract-pptx.py](scripts/extract-pptx.py) | Python script for PPT content extraction | Phase 4 (conversion) |
+| STYLE_PRESETS.md | 12 curated visual presets with colors, fonts, and signature elements | Phase 2 (style selection) |
+| viewport-base.css | Mandatory responsive CSS — copy into every presentation | Phase 3 (generation) |
+| html-template.md | HTML structure, JS features, code quality standards | Phase 3 (generation) |
+| animation-patterns.md | CSS/JS animation snippets and effect-to-feeling guide | Phase 3 (generation) |
+| scripts/extract-pptx.py | Python script for PPT content extraction | Phase 4 (conversion) |

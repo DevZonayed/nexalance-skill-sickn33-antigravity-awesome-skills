@@ -4,11 +4,7 @@ description: >
   Debugs the Buttercup CRS (Cyber Reasoning System) running on Kubernetes.
   Use when diagnosing pod crashes, restart loops, Redis failures, resource pressure,
   disk saturation, DinD issues, or any service misbehavior in the crs namespace.
-  Covers triage, log analysis, queue inspection, and common failure patterns
-  for: redis, fuzzer-bot, coverage-bot, seed-gen, patcher, build-bot, scheduler,
-  task-server, task-downloader, program-model, litellm, dind, tracer-bot,
-  merger-bot, competition-api, pov-reproducer, scratch-cleaner, registry-cache,
-  image-preloader, ui.
+  Covers triage, log analysis,...
 ---
 
 # Debug Buttercup
@@ -254,7 +250,7 @@ Helm values template typos (e.g. wrong key names) silently fall back to chart de
 
 ## Service-Specific Debugging
 
-For detailed per-service symptoms, root causes, and fixes, see [references/failure-patterns.md](references/failure-patterns.md).
+For detailed per-service symptoms, root causes, and fixes, see references/failure-patterns.md.
 
 Quick reference:
 

@@ -4,13 +4,7 @@ description: >
   Performs security-focused differential review of code changes (PRs, commits, diffs).
   Adapts analysis depth to codebase size, uses git history for context, calculates
   blast radius, checks test coverage, and generates comprehensive markdown reports.
-  Automatically detects and prevents security regressions.
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - Bash
+  Automatically...
 ---
 
 # Differential Security Review
@@ -208,13 +202,13 @@ These patterns require adversarial analysis even in quick triage.
 
 ## Supporting Documentation
 
-- **[methodology.md](methodology.md)** - Detailed phase-by-phase workflow (Phases 0-4)
-- **[adversarial.md](adversarial.md)** - Attacker modeling and exploit scenarios (Phase 5)
-- **[reporting.md](reporting.md)** - Report structure and formatting (Phase 6)
-- **[patterns.md](patterns.md)** - Common vulnerability patterns reference
+- **methodology.md** - Detailed phase-by-phase workflow (Phases 0-4)
+- **adversarial.md** - Attacker modeling and exploit scenarios (Phase 5)
+- **reporting.md** - Report structure and formatting (Phase 6)
+- **patterns.md** - Common vulnerability patterns reference
 
 ---
 
-**For first-time users:** Start with [methodology.md](methodology.md) to understand the complete workflow.
+**For first-time users:** Start with methodology.md to understand the complete workflow.
 
 **For experienced users:** Use this page's Quick Reference and Decision Tree to navigate directly to needed content.

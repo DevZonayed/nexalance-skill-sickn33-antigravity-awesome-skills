@@ -220,7 +220,7 @@ function earlyWarnings(trends) {
 3. **ECharts图表配置**：配置6种交互式图表
 4. **保存文件**：保存为独立HTML文件
 
-详细输出格式参见：[数据源说明](data-sources.md)
+详细输出格式参见：数据源说明
 
 ## 输出格式
 
@@ -339,7 +339,7 @@ function earlyWarnings(trends) {
 | 过敏史 | `data/allergies.json` | 过敏原、严重程度 |
 | 辐射记录 | `data/radiation-records.json` | 累积辐射剂量 |
 
-详细数据结构说明请参考：[data-sources.md](data-sources.md)
+详细数据结构说明请参考：data-sources.md
 
 ## 分析算法
 
@@ -363,7 +363,7 @@ function earlyWarnings(trends) {
 - 百分位数（25%, 50%, 75%）
 - 变化率（环比、同比）
 
-详细算法说明请参考：[algorithms.md](algorithms.md)
+详细算法说明请参考：algorithms.md
 
 ## 安全与隐私
 
@@ -418,7 +418,7 @@ function earlyWarnings(trends) {
 **用户**："我的降压药有效吗？"
 **输出**：关联药物开始日期与血压读数、症状改善
 
-更多完整示例请参考：[examples.md](examples.md)
+更多完整示例请参考：examples.md
 
 ## 相关命令
 

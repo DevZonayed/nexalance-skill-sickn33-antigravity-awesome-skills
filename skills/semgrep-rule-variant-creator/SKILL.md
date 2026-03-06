@@ -2,13 +2,7 @@
 name: semgrep-rule-variant-creator
 description: Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
 allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-  - WebFetch
+ ...
 ---
 
 # Semgrep Rule Variant Creator
@@ -121,7 +115,7 @@ Before porting, determine if the pattern applies to the target language.
 - `APPLICABLE_WITH_ADAPTATION` → Proceed but significant changes needed
 - `NOT_APPLICABLE` → Skip this language, document why
 
-See [applicability-analysis.md]({baseDir}/references/applicability-analysis.md) for detailed guidance.
+See applicability-analysis.md for detailed guidance.
 
 ### Phase 2: Test Creation (Test-First)
 
@@ -147,7 +141,7 @@ db.Query("SELECT * FROM users WHERE id = ?", userInput)
 3. **Update metadata**: language key, message, rule ID
 4. **Adapt for idioms**: Handle language-specific constructs
 
-See [language-syntax-guide.md]({baseDir}/references/language-syntax-guide.md) for translation guidance.
+See language-syntax-guide.md for translation guidance.
 
 ### Phase 4: Validation
 
@@ -166,7 +160,7 @@ For taint rule debugging:
 semgrep --dataflow-traces -f rule.yaml test-file
 ```
 
-See [workflow.md]({baseDir}/references/workflow.md) for detailed workflow and troubleshooting.
+See workflow.md for detailed workflow and troubleshooting.
 
 ## Quick Reference
 
@@ -200,6 +194,6 @@ See [workflow.md]({baseDir}/references/workflow.md) for detailed workflow and tr
 
 ## Next Steps
 
-- For applicability analysis guidance, see [applicability-analysis.md]({baseDir}/references/applicability-analysis.md)
-- For language translation guidance, see [language-syntax-guide.md]({baseDir}/references/language-syntax-guide.md)
-- For detailed workflow and examples, see [workflow.md]({baseDir}/references/workflow.md)
+- For applicability analysis guidance, see applicability-analysis.md
+- For language translation guidance, see language-syntax-guide.md
+- For detailed workflow and examples, see workflow.md

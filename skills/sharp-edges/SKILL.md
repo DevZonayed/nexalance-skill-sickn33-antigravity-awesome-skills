@@ -1,10 +1,11 @@
 ---
 name: sharp-edges
-description: "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration."
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
+description: sharp-edges
+---
+
+---
+name: sharp-edges
+description: "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by...
 ---
 
 # Sharp Edges Analysis
@@ -150,7 +151,7 @@ public function __construct(
 ) {}
 ```
 
-See [config-patterns.md](references/config-patterns.md#unvalidated-constructor-parameters) for detailed patterns.
+See config-patterns.md for detailed patterns.
 
 ### 5. Silent Failures
 
@@ -255,28 +256,28 @@ If a finding seems questionable, return to Phase 2 and probe more edge cases.
 
 **By category:**
 
-- **Cryptographic APIs**: See [references/crypto-apis.md](references/crypto-apis.md)
-- **Configuration Patterns**: See [references/config-patterns.md](references/config-patterns.md)
-- **Authentication/Session**: See [references/auth-patterns.md](references/auth-patterns.md)
-- **Real-World Case Studies**: See [references/case-studies.md](references/case-studies.md) (OpenSSL, GMP, etc.)
+- **Cryptographic APIs**: See references/crypto-apis.md
+- **Configuration Patterns**: See references/config-patterns.md
+- **Authentication/Session**: See references/auth-patterns.md
+- **Real-World Case Studies**: See references/case-studies.md (OpenSSL, GMP, etc.)
 
 **By language** (general footguns, not crypto-specific):
 
 | Language | Guide |
 |----------|-------|
-| C/C++ | [references/lang-c.md](references/lang-c.md) |
-| Go | [references/lang-go.md](references/lang-go.md) |
-| Rust | [references/lang-rust.md](references/lang-rust.md) |
-| Swift | [references/lang-swift.md](references/lang-swift.md) |
-| Java | [references/lang-java.md](references/lang-java.md) |
-| Kotlin | [references/lang-kotlin.md](references/lang-kotlin.md) |
-| C# | [references/lang-csharp.md](references/lang-csharp.md) |
-| PHP | [references/lang-php.md](references/lang-php.md) |
-| JavaScript/TypeScript | [references/lang-javascript.md](references/lang-javascript.md) |
-| Python | [references/lang-python.md](references/lang-python.md) |
-| Ruby | [references/lang-ruby.md](references/lang-ruby.md) |
+| C/C++ | references/lang-c.md |
+| Go | references/lang-go.md |
+| Rust | references/lang-rust.md |
+| Swift | references/lang-swift.md |
+| Java | references/lang-java.md |
+| Kotlin | references/lang-kotlin.md |
+| C# | references/lang-csharp.md |
+| PHP | references/lang-php.md |
+| JavaScript/TypeScript | references/lang-javascript.md |
+| Python | references/lang-python.md |
+| Ruby | references/lang-ruby.md |
 
-See also [references/language-specific.md](references/language-specific.md) for a combined quick reference.
+See also references/language-specific.md for a combined quick reference.
 
 ## Quality Checklist
 
@@ -289,4 +290,4 @@ Before concluding analysis:
 - [ ] Considered all three adversary types
 - [ ] Verified error paths don't bypass security
 - [ ] Checked configuration validation
-- [ ] Constructor params validated (not just defaulted) - see [config-patterns.md](references/config-patterns.md#unvalidated-constructor-parameters)
+- [ ] Constructor params validated (not just defaulted) - see config-patterns.md

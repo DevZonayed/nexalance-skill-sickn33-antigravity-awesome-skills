@@ -1,6 +1,6 @@
 ---
 name: n8n-validation-expert
-description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, or the validation loop process.
+description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation...
 ---
 
 # n8n Validation Expert
@@ -662,8 +662,8 @@ n8n_autofix_workflow({
 
 For comprehensive error catalogs and false positive examples:
 
-- **[ERROR_CATALOG.md](ERROR_CATALOG.md)** - Complete list of error types with examples
-- **[FALSE_POSITIVES.md](FALSE_POSITIVES.md)** - When warnings are acceptable
+- **ERROR_CATALOG.md** - Complete list of error types with examples
+- **FALSE_POSITIVES.md** - When warnings are acceptable
 
 ---
 

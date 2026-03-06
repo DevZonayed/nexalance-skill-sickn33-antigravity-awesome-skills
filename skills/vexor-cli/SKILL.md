@@ -12,7 +12,7 @@ Find files by intent (what they do), not exact text.
 ## Use It Like This
 
 - Use `vexor` first for intent-based file discovery.
-- If `vexor` is missing, follow [references/install-vexor.md](references/install-vexor.md).
+- If `vexor` is missing, follow references/install-vexor.md.
 
 ## Command
 

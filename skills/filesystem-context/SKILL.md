@@ -298,7 +298,7 @@ This skill connects to:
 ## References
 
 Internal reference:
-- [Implementation Patterns](./references/implementation-patterns.md) - Detailed pattern implementations
+- Implementation Patterns - Detailed pattern implementations
 
 Related skills in this collection:
 - context-optimization - Token reduction techniques

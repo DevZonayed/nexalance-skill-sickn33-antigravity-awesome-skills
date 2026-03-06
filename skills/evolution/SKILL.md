@@ -4,9 +4,7 @@ description: |
   CRITICAL: Use for makepad-skills self-evolution and contribution. Triggers on:
   evolve, evolution, contribute, contribution, self-improve, self-improvement,
   add pattern, new pattern, capture learning, document solution,
-  hooks, hook system, auto-trigger, skill routing,
-  template, pattern template, shader template, troubleshooting template,
-  演进, 贡献, 自我改进, 添加模式, 记录学习, 文档化解决方案
+  hooks, hook system, auto-trigger, skill...
 ---
 
 # Makepad Skills Evolution
@@ -17,7 +15,7 @@ This skill enables makepad-skills to self-improve continuously during developmen
 
 | Topic | Description |
 |-------|-------------|
-| [Collaboration Guidelines](references/collaboration.md) | **Contributing to makepad-skills** |
+| Collaboration Guidelines | **Contributing to makepad-skills** |
 | [Hooks Setup](#hooks-based-auto-triggering) | Auto-trigger evolution with hooks |
 | [When to Evolve](#when-to-evolve) | Triggers and classification |
 | [Evolution Process](#evolution-process) | Step-by-step guide |

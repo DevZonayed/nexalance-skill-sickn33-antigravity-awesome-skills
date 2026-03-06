@@ -1,6 +1,6 @@
 ---
 name: project-development
-description: This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.
+description: This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing...
 ---
 
 # Project Development Methodology
@@ -290,7 +290,7 @@ After: 2 tools (bash + SQL), 100% success rate, 77s average execution.
 
 Key insight: The semantic layer was already good documentation. Claude just needed access to read files directly.
 
-See [Case Studies](./references/case-studies.md) for detailed analysis.
+See Case Studies for detailed analysis.
 
 ## Guidelines
 
@@ -317,8 +317,8 @@ This skill connects to:
 ## References
 
 Internal references:
-- [Case Studies](./references/case-studies.md) - Karpathy HN Capsule, Vercel d0, Manus patterns
-- [Pipeline Patterns](./references/pipeline-patterns.md) - Detailed pipeline architecture guidance
+- Case Studies - Karpathy HN Capsule, Vercel d0, Manus patterns
+- Pipeline Patterns - Detailed pipeline architecture guidance
 
 Related skills in this collection:
 - tool-design - Tool architecture and reduction patterns

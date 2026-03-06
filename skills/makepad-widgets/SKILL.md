@@ -4,8 +4,7 @@ description: |
   CRITICAL: Use for Makepad widgets and UI components. Triggers on:
   makepad widget, makepad View, makepad Button, makepad Label, makepad Image,
   makepad TextInput, RoundedView, SolidView, ScrollView, "makepad component",
-  makepad Markdown, makepad Html, TextFlow, rich text, 富文本, markdown渲染,
-  makepad 组件, makepad 按钮, makepad 列表, makepad 视图, makepad 输入框
+  makepad Markdown, makepad Html, TextFlow, rich...
 ---
 
 # Makepad Widgets Skill

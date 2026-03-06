@@ -1,5 +1,5 @@
 ---
-name: fp-ts-backend
+name: fp-backend
 description: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 version: 1.0.0
 author: kadu
@@ -754,10 +754,7 @@ const logWithContext =
       RTE.ask<ContextDeps>(),
       RTE.flatMap(({ logger, ctx }) =>
         RTE.fromIO(() =>
-          logger[level](message, {
-            ...meta,
-            requestId: ctx.requestId,
-            userId: O.toUndefined(ctx.userId),
+          loggerlevel,
             elapsed: Date.now() - ctx.startTime,
           })
         )

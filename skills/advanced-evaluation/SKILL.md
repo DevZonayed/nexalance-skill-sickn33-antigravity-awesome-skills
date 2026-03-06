@@ -428,9 +428,9 @@ This skill integrates with:
 ## References
 
 Internal reference:
-- [LLM-as-Judge Implementation Patterns](./references/implementation-patterns.md)
-- [Bias Mitigation Techniques](./references/bias-mitigation.md)
-- [Metric Selection Guide](./references/metrics-guide.md)
+- LLM-as-Judge Implementation Patterns
+- Bias Mitigation Techniques
+- Metric Selection Guide
 
 External research:
 - [Eugene Yan: Evaluating the Effectiveness of LLM-Evaluators](https://eugeneyan.com/writing/llm-evaluators/)

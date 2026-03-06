@@ -540,7 +540,7 @@ When extracting evaluation tables with multiple models (either as columns or row
 
 - Removes markdown formatting (bold `**`, links `[]()`  )
 - Normalizes names (lowercase, replace `-` and `_` with spaces)
-- Compares token sets: `"OLMo-3-32B"` → `{"olmo", "3", "32b"}` matches `"**Olmo 3 32B**"` or `"[Olmo-3-32B](...)`
+- Compares token sets: `"OLMo-3-32B"` → `{"olmo", "3", "32b"}` matches `"**Olmo 3 32B**"` or `"Olmo-3-32B`
 - Only extracts if tokens match exactly (handles different word orders and separators)
 - Fails if no exact match found (rather than guessing from similar names)
 

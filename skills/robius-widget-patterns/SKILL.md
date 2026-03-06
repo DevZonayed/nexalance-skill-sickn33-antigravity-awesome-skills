@@ -30,20 +30,20 @@ For production-ready widget patterns, see the `_base/` directory:
 
 | Pattern | Description |
 |---------|-------------|
-| [01-widget-extension](./_base/01-widget-extension.md) | Add helper methods to widget references |
-| [02-modal-overlay](./_base/02-modal-overlay.md) | Popups, dialogs using DrawList2d overlay |
-| [03-collapsible](./_base/03-collapsible.md) | Expandable/collapsible sections |
-| [04-list-template](./_base/04-list-template.md) | Dynamic lists with LivePtr templates |
-| [05-lru-view-cache](./_base/05-lru-view-cache.md) | Memory-efficient view caching |
-| [14-callout-tooltip](./_base/14-callout-tooltip.md) | Tooltips with arrow positioning |
-| [20-redraw-optimization](./_base/20-redraw-optimization.md) | Efficient redraw patterns |
-| [15-dock-studio-layout](./_base/15-dock-studio-layout.md) | IDE-style resizable panels |
-| [16-hover-effect](./_base/16-hover-effect.md) | Hover effects with instance variables |
-| [17-row-based-grid-layout](./_base/17-row-based-grid-layout.md) | Dynamic grid layouts |
-| [18-drag-drop-reorder](./_base/18-drag-drop-reorder.md) | Drag-and-drop widget reordering |
-| [19-pageflip-optimization](./_base/19-pageflip-optimization.md) | PageFlip 切换优化，即刻销毁/缓存模式 |
-| [21-collapsible-row-portal-list](./_base/21-collapsible-row-portal-list.md) | Auto-grouping consecutive items in portal lists with FoldHeader |
-| [22-dropdown-overlay](./_base/22-dropdown-overlay.md) | Dropdown popups using DrawList2d overlay (no layout push) |
+| 01-widget-extension | Add helper methods to widget references |
+| 02-modal-overlay | Popups, dialogs using DrawList2d overlay |
+| 03-collapsible | Expandable/collapsible sections |
+| 04-list-template | Dynamic lists with LivePtr templates |
+| 05-lru-view-cache | Memory-efficient view caching |
+| 14-callout-tooltip | Tooltips with arrow positioning |
+| 20-redraw-optimization | Efficient redraw patterns |
+| 15-dock-studio-layout | IDE-style resizable panels |
+| 16-hover-effect | Hover effects with instance variables |
+| 17-row-based-grid-layout | Dynamic grid layouts |
+| 18-drag-drop-reorder | Drag-and-drop widget reordering |
+| 19-pageflip-optimization | PageFlip 切换优化，即刻销毁/缓存模式 |
+| 21-collapsible-row-portal-list | Auto-grouping consecutive items in portal lists with FoldHeader |
+| 22-dropdown-overlay | Dropdown popups using DrawList2d overlay (no layout push) |
 
 ## Standard Widget Structure
 

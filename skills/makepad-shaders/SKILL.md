@@ -29,17 +29,17 @@ For production-ready shader patterns, see the `_base/` directory:
 
 | Pattern | Description |
 |---------|-------------|
-| [01-shader-structure](./_base/01-shader-structure.md) | Shader fundamentals |
-| [02-shader-math](./_base/02-shader-math.md) | Mathematical functions |
-| [03-sdf-shapes](./_base/03-sdf-shapes.md) | SDF shape primitives |
-| [04-sdf-drawing](./_base/04-sdf-drawing.md) | Advanced SDF drawing |
-| [05-progress-track](./_base/05-progress-track.md) | Progress indicators |
-| [09-loading-spinner](./_base/09-loading-spinner.md) | Loading animations |
-| [10-hover-effect](./_base/10-hover-effect.md) | Hover visual effects |
-| [11-gradient-effects](./_base/11-gradient-effects.md) | Color gradients |
-| [12-shadow-glow](./_base/12-shadow-glow.md) | Shadow and glow |
-| [13-disabled-state](./_base/13-disabled-state.md) | Disabled visuals |
-| [14-toggle-checkbox](./_base/14-toggle-checkbox.md) | Toggle animations |
+| 01-shader-structure | Shader fundamentals |
+| 02-shader-math | Mathematical functions |
+| 03-sdf-shapes | SDF shape primitives |
+| 04-sdf-drawing | Advanced SDF drawing |
+| 05-progress-track | Progress indicators |
+| 09-loading-spinner | Loading animations |
+| 10-hover-effect | Hover visual effects |
+| 11-gradient-effects | Color gradients |
+| 12-shadow-glow | Shadow and glow |
+| 13-disabled-state | Disabled visuals |
+| 14-toggle-checkbox | Toggle animations |
 
 Community contributions: `./community/`
 

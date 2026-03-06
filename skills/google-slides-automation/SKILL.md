@@ -1,11 +1,10 @@
 ---
-name: google-slides
+name: google-slides-automation
 description: |
   Read and write Google Slides presentations - get text, find presentations, create presentations, add slides,
   replace text, and manage slide content. Use when user asks to: read a presentation, create slides, find slides,
-  add a slide, replace text in a presentation, or manage presentation content. Lightweight integration with
-  standalone OAuth authentication supporting full read/write access.
-license: Apache-2.0
+  add a slide, replace text in a presentation, or...
+--- Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"

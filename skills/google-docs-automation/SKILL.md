@@ -1,11 +1,10 @@
 ---
-name: google-docs
+name: google-docs-automation
 description: |
   Interact with Google Docs - create documents, search by title, read content, and edit text.
   Use when user asks to: create a Google Doc, find a document, read doc content, add text to a doc,
-  or replace text in a document. Lightweight alternative to full Google Workspace MCP server with
-  standalone OAuth authentication.
-license: Apache-2.0
+  or replace text in a document. Lightweight alternative to full Google...
+--- Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"

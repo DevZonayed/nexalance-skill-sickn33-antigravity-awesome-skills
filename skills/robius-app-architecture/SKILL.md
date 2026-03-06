@@ -29,9 +29,9 @@ For production-ready async patterns, see the `_base/` directory:
 
 | Pattern | Description |
 |---------|-------------|
-| [08-async-loading](./_base/08-async-loading.md) | Async data loading with loading states |
-| [09-streaming-results](./_base/09-streaming-results.md) | Incremental results with SignalToUI |
-| [13-tokio-integration](./_base/13-tokio-integration.md) | Full tokio runtime integration |
+| 08-async-loading | Async data loading with loading states |
+| 09-streaming-results | Incremental results with SignalToUI |
+| 13-tokio-integration | Full tokio runtime integration |
 
 ## Core Architecture Pattern
 

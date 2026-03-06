@@ -1,3 +1,8 @@
+---
+name: sexual-health-analyzer
+description: Sexual Health Analyzer
+---
+
 # 性健康分析技能
 
 ## 技能概述

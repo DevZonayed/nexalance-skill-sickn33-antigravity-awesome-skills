@@ -181,7 +181,7 @@ return [{
 }];
 ```
 
-**See**: [DATA_ACCESS.md](DATA_ACCESS.md) for comprehensive guide
+**See**: DATA_ACCESS.md for comprehensive guide
 
 ---
 
@@ -205,7 +205,7 @@ const name = webhookData.name;
 
 **Why**: Webhook node wraps all request data under `body` property. This includes POST data, query parameters, and JSON payloads.
 
-**See**: [DATA_ACCESS.md](DATA_ACCESS.md) for full webhook structure details
+**See**: DATA_ACCESS.md for full webhook structure details
 
 ---
 
@@ -275,7 +275,7 @@ return [{data: value}];  // Should be {json: value}
 
 **Why it matters**: Next nodes expect array format. Incorrect format causes workflow execution to fail.
 
-**See**: [ERROR_PATTERNS.md](ERROR_PATTERNS.md) #3 for detailed error solutions
+**See**: ERROR_PATTERNS.md #3 for detailed error solutions
 
 ---
 
@@ -378,7 +378,7 @@ return [{
 }];
 ```
 
-**See**: [COMMON_PATTERNS.md](COMMON_PATTERNS.md) for 10 detailed production patterns
+**See**: COMMON_PATTERNS.md for 10 detailed production patterns
 
 ---
 
@@ -447,7 +447,7 @@ const email = $json.email;
 const email = $json.body.email;
 ```
 
-**See**: [ERROR_PATTERNS.md](ERROR_PATTERNS.md) for comprehensive error guide
+**See**: ERROR_PATTERNS.md for comprehensive error guide
 
 ---
 
@@ -510,7 +510,7 @@ const names = $jmespath(data, 'users[*].name');
 return [{json: {adults, names}}];
 ```
 
-**See**: [BUILTIN_FUNCTIONS.md](BUILTIN_FUNCTIONS.md) for complete reference
+**See**: BUILTIN_FUNCTIONS.md for complete reference
 
 ---
 
@@ -684,10 +684,10 @@ Before deploying Code nodes, verify:
 ## Additional Resources
 
 ### Related Files
-- [DATA_ACCESS.md](DATA_ACCESS.md) - Comprehensive data access patterns
-- [COMMON_PATTERNS.md](COMMON_PATTERNS.md) - 10 production-tested patterns
-- [ERROR_PATTERNS.md](ERROR_PATTERNS.md) - Top 5 errors and solutions
-- [BUILTIN_FUNCTIONS.md](BUILTIN_FUNCTIONS.md) - Complete built-in reference
+- DATA_ACCESS.md - Comprehensive data access patterns
+- COMMON_PATTERNS.md - 10 production-tested patterns
+- ERROR_PATTERNS.md - Top 5 errors and solutions
+- BUILTIN_FUNCTIONS.md - Complete built-in reference
 
 ### n8n Documentation
 - Code Node Guide: https://docs.n8n.io/code/code-node/

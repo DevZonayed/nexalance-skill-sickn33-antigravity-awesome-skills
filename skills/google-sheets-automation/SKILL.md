@@ -3,9 +3,8 @@ name: google-sheets-automation
 description: |
   Read and write Google Sheets spreadsheets - get content, update cells, append rows, fetch specific ranges,
   search for spreadsheets, and view metadata. Use when user asks to: read a spreadsheet, update cells,
-  add data to Google Sheets, find a spreadsheet, check sheet contents, export spreadsheet data, or get cell values.
-  Lightweight integration with standalone OAuth authentication supporting full read/write access.
-license: Apache-2.0
+  add data to Google Sheets, find a spreadsheet, check sheet...
+--- Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
