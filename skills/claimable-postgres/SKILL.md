@@ -1,13 +1,6 @@
 ---
 name: claimable-postgres
-description: >-
-  Provision instant temporary Postgres databases via Claimable Postgres by Neon
-  (pg.new) with no login, signup, or credit card. Supports REST API, CLI, and
-  SDK. Use when users ask for a quick Postgres environment, a throwaway
-  DATABASE_URL for prototyping/tests, or "just give me a DB now". Triggers
-  include: "quick postgres", "temporary postgres", "no signup database",
-  "no credit card database", "instant DATABASE_URL", "npx get-db", "pg.new",
-  "pg.new API", "claimable postgres API".
+description: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping.
 ---
 
 # Claimable Postgres

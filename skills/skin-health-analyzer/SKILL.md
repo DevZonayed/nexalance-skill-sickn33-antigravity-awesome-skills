@@ -1,5 +1,6 @@
 ---
-description: 分析皮肤健康数据、识别皮肤问题模式、评估皮肤健康状况、提供个性化皮肤健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。
+name: skin-health-analyzer
+description: Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
 ---
 
 # 皮肤健康分析技能

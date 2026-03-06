@@ -415,12 +415,12 @@ saveFile('emergency-card-qr.png', emergencyCard.qr_code);
 
 ## 示例输出
 
-完整示例请参考 [examples.md](examples.md)。
+完整示例请参考相关文档。
 
 ## 测试数据
 
-测试数据文件位于 [test-data/emergency-example.json](test-data/emergency-example.json)。
+测试数据请参考相关文档。
 
 ## 格式说明
 
-详细的输出格式说明请参考 [formats.md](formats.md)。
+详细格式请参考相关文档。
