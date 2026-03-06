@@ -510,6 +510,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts)**: Inspiration for JavaScript Mastery.
 
 ---
+- **[agent-cards/skill](https://github.com/agent-cards/skill)**: Manage prepaid virtual Visa cards for AI agents. Create cards, check balances, view credentials, close cards, and get support via MCP tools.
 
 ## Repo Contributors
 
