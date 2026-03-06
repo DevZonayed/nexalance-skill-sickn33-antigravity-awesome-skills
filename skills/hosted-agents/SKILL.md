@@ -1,6 +1,8 @@
 ---
 name: hosted-agents
 description: Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.
+risk: unknown
+source: community
 ---
 
 # Hosted Agent Infrastructure
@@ -277,3 +279,8 @@ External resources:
 **Last Updated**: 2026-01-12
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

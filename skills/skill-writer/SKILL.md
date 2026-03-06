@@ -1,6 +1,8 @@
 ---
 name: skill-writer
 description: Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
+risk: unknown
+source: community
 ---
 
 # Skill Writer
@@ -101,3 +103,8 @@ Return:
 2. `Changes Made`
 3. `Validation Results`
 4. `Open Gaps`
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

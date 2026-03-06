@@ -119,3 +119,8 @@ npx -y @huggingface/hub upload datasets/<namespace>/<repo> ./local/parquet-folde
 ```
 
 After upload, call `/parquet` to discover `<config>/<split>/<shard>` values for querying with `@~parquet`.
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

@@ -8,6 +8,8 @@ allowed-tools:
   - "Read"
   - "Write"
   - "web_fetch"
+risk: unknown
+source: community
 ---
 
 # Stitch to Remotion Walkthrough Videos
@@ -391,3 +393,8 @@ that shows a walkthrough of the screens.
 - **Remotion Skills**: https://www.remotion.dev/docs/ai/skills
 - **Remotion MCP**: https://www.remotion.dev/docs/ai/mcp
 - **Remotion Transitions**: https://www.remotion.dev/docs/transitions
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

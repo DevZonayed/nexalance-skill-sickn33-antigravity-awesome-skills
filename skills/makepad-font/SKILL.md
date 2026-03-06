@@ -5,6 +5,8 @@ description: |
   makepad font, makepad text, makepad glyph, makepad typography,
   font atlas, text layout, font family, font size, text shaping,
   makepad 字体, makepad 文字, makepad 排版, makepad 字形
+risk: unknown
+source: community
 ---
 
 # Makepad Font Skill
@@ -221,3 +223,8 @@ pub struct rasterizer::Settings {
 4. Use `dep("crate://...")` for embedded font resources
 5. Default font cache size is 4096 glyphs
 6. Atlas sizes: 4096x4096 for grayscale, 2048x2048 for color (emoji)
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

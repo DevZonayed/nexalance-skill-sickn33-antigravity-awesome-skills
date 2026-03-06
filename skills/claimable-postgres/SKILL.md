@@ -1,6 +1,8 @@
 ---
 name: claimable-postgres
 description: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping.
+risk: unknown
+source: community
 ---
 
 # Claimable Postgres
@@ -214,3 +216,8 @@ If the agent needs a database to fulfill a task (e.g. "build me a todo app with 
 - For production workloads, recommend standard Neon provisioning instead of temporary claimable databases.
 - If users need long-term persistence, instruct them to open the claim URL right away.
 - After writing credentials to an .env file, check that it's covered by .gitignore. If not, warn the user. Do not modify `.gitignore` without confirmation.
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.

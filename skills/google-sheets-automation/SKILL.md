@@ -4,6 +4,8 @@ description: |
   Read and write Google Sheets spreadsheets - get content, update cells, append rows, fetch specific ranges,
   search for spreadsheets, and view metadata. Use when user asks to: read a spreadsheet, update cells,
   add data to Google Sheets, find a spreadsheet, check sheet...
+risk: unknown
+source: community
 --- Apache-2.0
 metadata:
   author: sanjay3290
@@ -139,3 +141,8 @@ Tokens stored securely using the system keyring:
 Service name: `google-sheets-skill-oauth`
 
 Tokens automatically refresh when expired using Google's cloud function.
+
+
+## When to Use
+
+Use this skill when tackling tasks related to its primary domain or functionality as described above.
