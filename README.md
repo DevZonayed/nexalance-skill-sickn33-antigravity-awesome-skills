@@ -1,4 +1,4 @@
-<!-- registry-sync: version=7.0.0; skills=1206; stars=20832; updated_at=2026-03-06T14:34:38+00:00 -->
+<!-- registry-sync: version=7.0.1; skills=1206; stars=20837; updated_at=2026-03-06T14:40:02+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,206+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,206+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,206+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Welcome to the V7.0.0 21k Stars Celebration Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Welcome to the V7.0.1 21k Stars Patch Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 > **🌟 21,000+ GitHub Stars Milestone!** Thank you to the community for turning this into one of the largest skill libraries in this category.
 
