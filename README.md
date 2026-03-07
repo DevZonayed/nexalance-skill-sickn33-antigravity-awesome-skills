@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
-- [📖 Complete Usage Guide](docs/USAGE.md) - **Start here if confused after installation!**
+- [📖 Complete Usage Guide](docs/users/usage.md) - **Start here if confused after installation!**
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
 - [🧯 Troubleshooting](#troubleshooting)
@@ -58,7 +58,7 @@ AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **speci
 
 ### 2. ⚡️ Quick Start (1 minute)
 
-Install once; then use Starter Packs in [docs/BUNDLES.md](docs/BUNDLES.md) to focus on your role.
+Install once; then use Starter Packs in [docs/users/bundles.md](docs/users/bundles.md) to focus on your role.
 
 1. **Install**:
 
@@ -89,9 +89,9 @@ Once installed, just ask your agent naturally:
 > "Use the **@brainstorming** skill to help me plan a SaaS."
 > "Run **@lint-and-validate** on this file."
 
-👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
+👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/users/usage.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
 
-👉 **[Full Getting Started Guide](docs/GETTING_STARTED.md)**
+👉 **[Full Getting Started Guide](docs/users/getting-started.md)**
 
 ---
 
@@ -238,11 +238,11 @@ They help you avoid picking from 1006+ skills one by one.
 ### How to use bundles:
 
 1. **Install the repository once** (you already have all skills)
-2. **Browse bundles** in [docs/BUNDLES.md](docs/BUNDLES.md) to find your role
+2. **Browse bundles** in [docs/users/bundles.md](docs/users/bundles.md) to find your role
 3. **Pick 3-5 skills** from that bundle to start using in your prompts
 4. **Reference them in your conversations** with your AI (e.g., "Use @brainstorming...")
 
-For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/USAGE.md).
+For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/users/usage.md).
 
 ### Examples:
 
@@ -259,7 +259,7 @@ Bundles help you choose skills. Workflows help you execute them in order.
 
 Start here:
 
-- [docs/WORKFLOWS.md](docs/WORKFLOWS.md): human-readable playbooks.
+- [docs/users/workflows.md](docs/users/workflows.md): human-readable playbooks.
 - [data/workflows.json](data/workflows.json): machine-readable workflow metadata.
 
 Initial workflows include:
