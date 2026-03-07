@@ -25934,6 +25934,31 @@
       "path": "skills/tailwind-patterns/SKILL.md"
     },
     {
+      "id": "tanstack-query-expert",
+      "name": "tanstack-query-expert",
+      "description": "Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration.",
+      "category": "data-ai",
+      "tags": [
+        "tanstack",
+        "query"
+      ],
+      "triggers": [
+        "tanstack",
+        "query",
+        "react",
+        "asynchronous",
+        "state",
+        "covers",
+        "data",
+        "fetching",
+        "stale",
+        "time",
+        "configuration",
+        "mutations"
+      ],
+      "path": "skills/tanstack-query-expert/SKILL.md"
+    },
+    {
       "id": "tavily-web",
       "name": "tavily-web",
       "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
