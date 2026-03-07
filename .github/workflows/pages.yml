@@ -47,6 +47,12 @@ jobs:
       - name: SPA fallback for client-side routes
         run: cp apps/web-app/dist/${{ github.event.repository.name }}/index.html apps/web-app/dist/${{ github.event.repository.name }}/404.html
 
+      # GitHub serves artifact root at .../repo-name/ — put index at root so homepage loads
+      - name: Expose index at artifact root
+        run: |
+          cp apps/web-app/dist/${{ github.event.repository.name }}/index.html apps/web-app/dist/index.html
+          cp apps/web-app/dist/${{ github.event.repository.name }}/404.html apps/web-app/dist/404.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@3
         with:
