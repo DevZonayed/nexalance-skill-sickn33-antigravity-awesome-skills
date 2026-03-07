@@ -1,4 +1,5 @@
 <!-- registry-sync: version=7.0.1; skills=1260; stars=21186; updated_at=2026-03-07T09:09:22+00:00 -->
+
 # 🌌 Antigravity Awesome Skills: 1,260+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,260+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -67,19 +68,19 @@ Use @brainstorming to plan a SaaS MVP.
 
 ## Choose Your Tool
 
-| Tool | Install | First Use |
-| --- | --- | --- |
-| Claude Code | `npx antigravity-awesome-skills --claude` | `>> /brainstorming help me plan a feature` |
-| Cursor | `npx antigravity-awesome-skills --cursor` | `@brainstorming help me plan a feature` |
-| Gemini CLI | `npx antigravity-awesome-skills --gemini` | `Use brainstorming to plan a feature` |
-| Codex CLI | `npx antigravity-awesome-skills --codex` | `Use brainstorming to plan a feature` |
-| Antigravity | `npx antigravity-awesome-skills --antigravity` | `Use @brainstorming to plan a feature` |
-| Kiro CLI | `npx antigravity-awesome-skills --kiro` | `Use brainstorming to plan a feature` |
-| Kiro IDE | `npx antigravity-awesome-skills --path ~/.kiro/skills` | `Use @brainstorming to plan a feature` |
-| GitHub Copilot | _No installer — paste skills or rules manually_ | `Ask Copilot to use brainstorming to plan a feature` |
-| OpenCode | `npx antigravity-awesome-skills --path .agents/skills` | `opencode run @brainstorming help me plan a feature` |
-| AdaL CLI | `npx antigravity-awesome-skills --path .adal/skills` | `Use brainstorming to plan a feature` |
-| Custom path | `npx antigravity-awesome-skills --path ./my-skills` | Depends on your tool |
+| Tool           | Install                                                | First Use                                            |
+| -------------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| Claude Code    | `npx antigravity-awesome-skills --claude`              | `>> /brainstorming help me plan a feature`           |
+| Cursor         | `npx antigravity-awesome-skills --cursor`              | `@brainstorming help me plan a feature`              |
+| Gemini CLI     | `npx antigravity-awesome-skills --gemini`              | `Use brainstorming to plan a feature`                |
+| Codex CLI      | `npx antigravity-awesome-skills --codex`               | `Use brainstorming to plan a feature`                |
+| Antigravity    | `npx antigravity-awesome-skills --antigravity`         | `Use @brainstorming to plan a feature`               |
+| Kiro CLI       | `npx antigravity-awesome-skills --kiro`                | `Use brainstorming to plan a feature`                |
+| Kiro IDE       | `npx antigravity-awesome-skills --path ~/.kiro/skills` | `Use @brainstorming to plan a feature`               |
+| GitHub Copilot | _No installer — paste skills or rules manually_        | `Ask Copilot to use brainstorming to plan a feature` |
+| OpenCode       | `npx antigravity-awesome-skills --path .agents/skills` | `opencode run @brainstorming help me plan a feature` |
+| AdaL CLI       | `npx antigravity-awesome-skills --path .adal/skills`   | `Use brainstorming to plan a feature`                |
+| Custom path    | `npx antigravity-awesome-skills --path ./my-skills`    | Depends on your tool                                 |
 
 ## What This Repo Includes
 
@@ -92,16 +93,16 @@ Use @brainstorming to plan a SaaS MVP.
 
 ## Project Structure
 
-| Path | Purpose |
-| --- | --- |
-| `skills/` | The canonical skill library |
-| `docs/users/` | Getting started, usage, bundles, workflows, visual guides |
+| Path                 | Purpose                                                   |
+| -------------------- | --------------------------------------------------------- |
+| `skills/`            | The canonical skill library                               |
+| `docs/users/`        | Getting started, usage, bundles, workflows, visual guides |
 | `docs/contributors/` | Templates, anatomy, examples, quality bar, community docs |
-| `docs/maintainers/` | Release, audit, CI drift, metadata maintenance docs |
-| `docs/sources/` | Attribution and licensing references |
-| `apps/web-app/` | Interactive browser for the skill catalog |
-| `tools/` | Installer, validators, generators, and support scripts |
-| `data/` | Generated catalog, aliases, bundles, and workflows |
+| `docs/maintainers/`  | Release, audit, CI drift, metadata maintenance docs       |
+| `docs/sources/`      | Attribution and licensing references                      |
+| `apps/web-app/`      | Interactive browser for the skill catalog                 |
+| `tools/`             | Installer, validators, generators, and support scripts    |
+| `data/`              | Generated catalog, aliases, bundles, and workflows        |
 
 ## Top Starter Skills
 
@@ -140,12 +141,12 @@ Use @doc-coauthoring to rewrite our setup guide for first-time contributors.
 
 ## Documentation
 
-| For Users | For Contributors | For Maintainers |
-| --- | --- | --- |
-| [`docs/users/getting-started.md`](docs/users/getting-started.md) | [`CONTRIBUTING.md`](CONTRIBUTING.md) | [`docs/maintainers/release-process.md`](docs/maintainers/release-process.md) |
-| [`docs/users/usage.md`](docs/users/usage.md) | [`docs/contributors/skill-anatomy.md`](docs/contributors/skill-anatomy.md) | [`docs/maintainers/audit.md`](docs/maintainers/audit.md) |
-| [`docs/users/faq.md`](docs/users/faq.md) | [`docs/contributors/quality-bar.md`](docs/contributors/quality-bar.md) | [`docs/maintainers/ci-drift-fix.md`](docs/maintainers/ci-drift-fix.md) |
-| [`docs/users/visual-guide.md`](docs/users/visual-guide.md) | [`docs/contributors/examples.md`](docs/contributors/examples.md) | [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) |
+| For Users                                                        | For Contributors                                                           | For Maintainers                                                                      |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [`docs/users/getting-started.md`](docs/users/getting-started.md) | [`CONTRIBUTING.md`](CONTRIBUTING.md)                                       | [`docs/maintainers/release-process.md`](docs/maintainers/release-process.md)         |
+| [`docs/users/usage.md`](docs/users/usage.md)                     | [`docs/contributors/skill-anatomy.md`](docs/contributors/skill-anatomy.md) | [`docs/maintainers/audit.md`](docs/maintainers/audit.md)                             |
+| [`docs/users/faq.md`](docs/users/faq.md)                         | [`docs/contributors/quality-bar.md`](docs/contributors/quality-bar.md)     | [`docs/maintainers/ci-drift-fix.md`](docs/maintainers/ci-drift-fix.md)               |
+| [`docs/users/visual-guide.md`](docs/users/visual-guide.md)       | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) |
 
 ## Web App
 
@@ -339,6 +340,10 @@ We officially thank the following contributors for their help in making this rep
 - [@devchangjun](https://github.com/devchangjun)
 - [@raeef1001](https://github.com/raeef1001)
 - [@1bcMax](https://github.com/1bcMax)
+- [@Sayeem3051](https://github.com/Sayeem3051)
+- [@AlmogBaku](https://github.com/AlmogBaku)
+- [@ProgramadorBrasil](https://github.com/ProgramadorBrasil)
+- [@shubhamdevx](https://github.com/shubhamdevx)
 
 ---
 
