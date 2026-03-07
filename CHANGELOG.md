@@ -68,8 +68,16 @@ Code reviews, refactoring, SOLID principles, and design pattern references.
 
 ## 👥 Credits
 
-- **@sickn33** for `figma-to-react`, `stripe-expert`, `tanstack-query-expert`
-- **@sickn33** for `vercel-ai-sdk-expert`, `uncle-bob-craft`, `antigravity-premium-design`
+A huge shoutout to our community contributors:
+
+- **@GuppyTheCat** for `obsidian-clipper-template-creator` (PR #226)
+- **@sraphaz** for `uncle-bob-craft` (PR #225)
+- **@ziuus** for `antigravity-premium-design` (PR #224)
+- **@sx4im** for `git-hooks-automation` (PR #223), `tanstack-query-expert` (PR #222), `vercel-ai-sdk-expert` (PR #220)
+- **@Sayeem3051** for skill filtering utility (PR #219)
+- **@AlmogBaku** for `debug-skill` (PR #218)
+- **@ProgramadorBrasil** for 52 specialized AI agent skills (PR #217)
+- **@shubhamdevx** for web app markdown rendering improvements (PR #213)
 
 ---
 
