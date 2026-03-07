@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1260,
+  "total": 1270,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -1308,6 +1308,30 @@
       "path": "skills/angular-ui-patterns/SKILL.md"
     },
     {
+      "id": "animejs-animation",
+      "name": "animejs-animation",
+      "description": "Advanced JavaScript animation library skill for creating complex, high-performance web animations.",
+      "category": "development",
+      "tags": [
+        "animejs",
+        "animation"
+      ],
+      "triggers": [
+        "animejs",
+        "animation",
+        "javascript",
+        "library",
+        "skill",
+        "creating",
+        "complex",
+        "high",
+        "performance",
+        "web",
+        "animations"
+      ],
+      "path": "skills/animejs-animation/SKILL.md"
+    },
+    {
       "id": "anti-reversing-techniques",
       "name": "anti-reversing-techniques",
       "description": "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti-debugging for authorized analysis, or u...",
@@ -1332,6 +1356,30 @@
         "protected"
       ],
       "path": "skills/anti-reversing-techniques/SKILL.md"
+    },
+    {
+      "id": "antigravity-design-expert",
+      "name": "antigravity-design-expert",
+      "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
+      "category": "general",
+      "tags": [
+        "antigravity"
+      ],
+      "triggers": [
+        "antigravity",
+        "core",
+        "ui",
+        "ux",
+        "engineering",
+        "skill",
+        "building",
+        "highly",
+        "interactive",
+        "spatial",
+        "weightless",
+        "glassmorphism"
+      ],
+      "path": "skills/antigravity-design-expert/SKILL.md"
     },
     {
       "id": "antigravity-workflows",
@@ -9720,6 +9768,22 @@
       "path": "skills/customs-trade-compliance/SKILL.md"
     },
     {
+      "id": "daily",
+      "name": "daily",
+      "description": "Documentation and capabilities reference for Daily",
+      "category": "general",
+      "tags": [
+        "daily"
+      ],
+      "triggers": [
+        "daily",
+        "documentation",
+        "capabilities",
+        "reference"
+      ],
+      "path": "skills/daily/SKILL.md"
+    },
+    {
       "id": "daily-news-report",
       "name": "daily-news-report",
       "description": "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.",
@@ -10691,6 +10755,28 @@
         "correct"
       ],
       "path": "skills/design-orchestration/SKILL.md"
+    },
+    {
+      "id": "design-spells",
+      "name": "design-spells",
+      "description": "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
+      "category": "general",
+      "tags": [
+        "spells"
+      ],
+      "triggers": [
+        "spells",
+        "curated",
+        "micro",
+        "interactions",
+        "details",
+        "add",
+        "magic",
+        "personality",
+        "websites",
+        "apps"
+      ],
+      "path": "skills/design-spells/SKILL.md"
     },
     {
       "id": "devcontainer-setup",
@@ -16012,6 +16098,30 @@
       "path": "skills/i18n-localization/SKILL.md"
     },
     {
+      "id": "iconsax-library",
+      "name": "iconsax-library",
+      "description": "Extensive icon library and AI-driven icon generation skill for premium UI/UX design.",
+      "category": "data-ai",
+      "tags": [
+        "iconsax",
+        "library"
+      ],
+      "triggers": [
+        "iconsax",
+        "library",
+        "extensive",
+        "icon",
+        "ai",
+        "driven",
+        "generation",
+        "skill",
+        "premium",
+        "ui",
+        "ux"
+      ],
+      "path": "skills/iconsax-library/SKILL.md"
+    },
+    {
       "id": "idor-testing",
       "name": "idor-testing",
       "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or obje...",
@@ -18113,6 +18223,57 @@
         "arguments"
       ],
       "path": "skills/machine-learning-ops-ml-pipeline/SKILL.md"
+    },
+    {
+      "id": "magic-animator",
+      "name": "magic-animator",
+      "description": "AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.",
+      "category": "data-ai",
+      "tags": [
+        "magic",
+        "animator"
+      ],
+      "triggers": [
+        "magic",
+        "animator",
+        "ai",
+        "powered",
+        "animation",
+        "creating",
+        "motion",
+        "logos",
+        "ui",
+        "icons",
+        "social",
+        "media"
+      ],
+      "path": "skills/magic-animator/SKILL.md"
+    },
+    {
+      "id": "magic-ui-generator",
+      "name": "magic-ui-generator",
+      "description": "Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.",
+      "category": "general",
+      "tags": [
+        "magic",
+        "ui",
+        "generator"
+      ],
+      "triggers": [
+        "magic",
+        "ui",
+        "generator",
+        "utilizes",
+        "21st",
+        "dev",
+        "generate",
+        "compare",
+        "integrate",
+        "multiple",
+        "component",
+        "variations"
+      ],
+      "path": "skills/magic-ui-generator/SKILL.md"
     },
     {
       "id": "mailchimp-automation",
@@ -26308,6 +26469,32 @@
       "path": "skills/speed/SKILL.md"
     },
     {
+      "id": "spline-3d-integration",
+      "name": "spline-3d-integration",
+      "description": "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.",
+      "category": "data-ai",
+      "tags": [
+        "spline",
+        "3d",
+        "integration"
+      ],
+      "triggers": [
+        "spline",
+        "3d",
+        "integration",
+        "adding",
+        "interactive",
+        "scenes",
+        "web",
+        "including",
+        "react",
+        "embedding",
+        "runtime",
+        "control"
+      ],
+      "path": "skills/spline-3d-integration/SKILL.md"
+    },
+    {
       "id": "sql-injection-testing",
       "name": "sql-injection-testing",
       "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database inform...",
@@ -28755,6 +28942,29 @@
       "path": "skills/unreal-engine-cpp-pro/SKILL.md"
     },
     {
+      "id": "unsplash-integration",
+      "name": "unsplash-integration",
+      "description": "Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.",
+      "category": "general",
+      "tags": [
+        "unsplash",
+        "integration"
+      ],
+      "triggers": [
+        "unsplash",
+        "integration",
+        "skill",
+        "searching",
+        "fetching",
+        "high",
+        "quality",
+        "free",
+        "professional",
+        "photography"
+      ],
+      "path": "skills/unsplash-integration/SKILL.md"
+    },
+    {
       "id": "upgrading-expo",
       "name": "upgrading-expo",
       "description": "Upgrade Expo SDK versions",
@@ -29274,6 +29484,28 @@
         "creators"
       ],
       "path": "skills/viral-generator-builder/SKILL.md"
+    },
+    {
+      "id": "vizcom",
+      "name": "vizcom",
+      "description": "AI-powered product design tool for transforming sketches into full-fidelity 3D renders.",
+      "category": "data-ai",
+      "tags": [
+        "vizcom"
+      ],
+      "triggers": [
+        "vizcom",
+        "ai",
+        "powered",
+        "product",
+        "transforming",
+        "sketches",
+        "full",
+        "fidelity",
+        "3d",
+        "renders"
+      ],
+      "path": "skills/vizcom/SKILL.md"
     },
     {
       "id": "voice-agents",

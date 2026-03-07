@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1260
+Total skills: 1270
 
 ## architecture (78)
 
@@ -165,7 +165,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (222)
+## data-ai (226)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -312,6 +312,7 @@ search for spreadsheets, and view metadata. Use wh... | google, sheets | google,
 | `hugging-face-datasets` | Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset qu... | hugging, face, datasets | hugging, face, datasets, hub, supports, initializing, repos, defining, configs, prompts, streaming, row |
 | `hugging-face-tool-builder` | Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful w... | hugging, face, builder | hugging, face, builder, skill, user, wants, scripts, achieve, task, where, data, api |
 | `hybrid-search-implementation` | Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides... | hybrid, search | hybrid, search, combine, vector, keyword, improved, retrieval, implementing, rag, building, engines, neither |
+| `iconsax-library` | Extensive icon library and AI-driven icon generation skill for premium UI/UX design. | iconsax, library | iconsax, library, extensive, icon, ai, driven, generation, skill, premium, ui, ux |
 | `image-studio` | Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao... | image-generation, routing, ai-art, photography | image-generation, routing, ai-art, photography, image, studio, de, geracao, imagens, inteligente, roteamento, automatico |
 | `imagen` | AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets. | imagen | imagen, ai, image, generation, skill, powered, google, gemini, enabling, seamless, visual, content |
 | `instagram` | Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. | social-media, instagram, graph-api, content | social-media, instagram, graph-api, content, integracao, completa, com, via, graph, api, publicacao, analytics |
@@ -327,6 +328,7 @@ search for spreadsheets, and view metadata. Use wh... | google, sheets | google,
 | `llm-evaluation` | Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performanc... | llm, evaluation | llm, evaluation, applications, automated, metrics, human, feedback, benchmarking, testing, performance, measuring, ai |
 | `llm-ops` | LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para pr... | llm, rag, embeddings, vector-db, fine-tuning | llm, rag, embeddings, vector-db, fine-tuning, ops, operations, vector, databases, fine, tuning, prompt |
 | `llm-prompt-optimizer` | Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage. | llm, prompt, optimizer | llm, prompt, optimizer, improving, prompts, any, applies, proven, engineering, techniques, boost, output |
+| `magic-animator` | AI-powered animation tool for creating motion in logos, UI, icons, and social media assets. | magic, animator | magic, animator, ai, powered, animation, creating, motion, logos, ui, icons, social, media |
 | `mailchimp-automation` | Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first fo... | mailchimp | mailchimp, automation, automate, email, marketing, including, campaigns, audiences, subscribers, segments, analytics, via |
 | `makepad-splash` | CRITICAL: Use for Makepad Splash scripting language. Triggers on:
 splash language, makepad script, makepad scripting, script!, cx.eval,
@@ -374,6 +376,7 @@ Scope::with_data, save state, load state, serde,
 | `skill-seekers` | -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. | skill, seekers | skill, seekers, automatically, convert, documentation, websites, github, repositories, pdfs, claude, ai, skills |
 | `skin-health-analyzer` | Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medi... | skin, health, analyzer | skin, health, analyzer, analyze, data, identify, problem, assess, status, supports, correlation, analysis |
 | `spark-optimization` | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or... | spark, optimization | spark, optimization, optimize, apache, jobs, partitioning, caching, shuffle, memory, tuning, improving, performance |
+| `spline-3d-integration` | Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API. | spline, 3d, integration | spline, 3d, integration, adding, interactive, scenes, web, including, react, embedding, runtime, control |
 | `sql-injection-testing` | This skill should be used when the user asks to "test for SQL injection vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection"... | sql, injection | sql, injection, testing, skill, should, used, user, asks, test, vulnerabilities, perform, sqli |
 | `sql-optimization-patterns` | Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when de... | sql, optimization | sql, optimization, query, indexing, explain, analysis, dramatically, improve, database, performance, eliminate, slow |
 | `sqlmap-database-pentesting` | This skill should be used when the user asks to "automate SQL injection testing," "enumerate database structure," "extract database credentials using sqlmap,... | sqlmap, database, pentesting | sqlmap, database, pentesting, skill, should, used, user, asks, automate, sql, injection, testing |
@@ -393,6 +396,7 @@ Scope::with_data, save state, load state, serde,
 | `vexor` | Vector-powered CLI for semantic file search with a Claude/Codex skill | vexor | vexor, vector, powered, cli, semantic, file, search, claude, codex, skill |
 | `vibe-code-auditor` | Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. | vibe, code, auditor | vibe, code, auditor, audit, rapidly, generated, ai, produced, structural, flaws, fragility, risks |
 | `videodb-skills` | Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK. | [video, editing, transcription, subtitles, search, streaming, ai-generation, media] | [video, editing, transcription, subtitles, search, streaming, ai-generation, media], videodb, skills, upload, stream |
+| `vizcom` | AI-powered product design tool for transforming sketches into full-fidelity 3D renders. | vizcom | vizcom, ai, powered, product, transforming, sketches, full, fidelity, 3d, renders |
 | `voice-agents` | Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis,... | voice, agents | voice, agents, represent, frontier, ai, interaction, humans, speaking, naturally, challenge, isn, just |
 | `voice-ai-development` | Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for... | voice, ai | voice, ai, development, building, applications, real, time, agents, enabled, apps, covers, openai |
 | `voice-ai-engine-development` | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling ... | voice, ai, engine | voice, ai, engine, development, real, time, conversational, engines, async, worker, pipelines, streaming |
@@ -402,7 +406,7 @@ Scope::with_data, save state, load state, serde,
 | `yann-lecun` | Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018. Use quando quiser: perspectivas so... | persona, cnn, meta, ai-safety-critic, open-source | persona, cnn, meta, ai-safety-critic, open-source, yann, lecun, agente, que, simula, inventor, das |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (174)
+## development (175)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -410,6 +414,7 @@ Scope::with_data, save state, load state, serde,
 | `algolia-search` | Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instan... | algolia, search | algolia, search, indexing, react, instantsearch, relevance, tuning, adding, api, functionality |
 | `android-jetpack-compose-expert` | Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3. | android, jetpack, compose | android, jetpack, compose, guidance, building, uis, covering, state, navigation, performance, material |
 | `android_ui_verification` | Automated end-to-end UI testing and verification on an Android Emulator using ADB. | android_ui_verification | android_ui_verification, android, ui, verification, automated, testing, emulator, adb |
+| `animejs-animation` | Advanced JavaScript animation library skill for creating complex, high-performance web animations. | animejs, animation | animejs, animation, javascript, library, skill, creating, complex, high, performance, web, animations |
 | `api-design-principles` | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, revie... | api, principles | api, principles, rest, graphql, intuitive, scalable, maintainable, apis, delight, developers, designing, new |
 | `api-documentation` | API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation. | api, documentation | api, documentation, generating, openapi, specs, creating, developer, guides, maintaining |
 | `api-documentation-generator` | Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices | api, documentation, generator | api, documentation, generator, generate, developer, friendly, code, including, endpoints, parameters, examples |
@@ -585,7 +590,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (318)
+## general (323)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -600,6 +605,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `angular-best-practices` | Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and... | angular, best, practices | angular, best, practices, performance, optimization, writing, reviewing, refactoring, code, optimal, bundle, size |
 | `angular-migration` | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applicat... | angular, migration | angular, migration, migrate, angularjs, hybrid, mode, incremental, component, rewriting, dependency, injection, updates |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
+| `antigravity-design-expert` | Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. | antigravity | antigravity, core, ui, ux, engineering, skill, building, highly, interactive, spatial, weightless, glassmorphism |
 | `apify-lead-generation` | Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find lead... | apify, lead, generation | apify, lead, generation, generates, b2b, b2c, leads, scraping, google, maps, websites, instagram |
 | `apify-trend-analysis` | Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy. | apify, trend | apify, trend, analysis, discover, track, emerging, trends, google, instagram, facebook, youtube, tiktok |
 | `app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordina... | app, builder | app, builder, main, application, building, orchestrator, creates, full, stack, applications, natural, language |
@@ -663,10 +669,12 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `cpp-pro` | Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. | cpp | cpp, pro, write, idiomatic, code, features, raii, smart, pointers, stl, algorithms, move |
 | `create-branch` | Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a n... | create, branch | create, branch, git, following, sentry, naming, conventions, asked, new, start, switch, starting |
 | `culture-index` | Culture Index | culture, index | culture, index |
+| `daily` | Documentation and capabilities reference for Daily | daily | daily, documentation, capabilities, reference |
 | `daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports. | daily, news, report | daily, news, report, scrapes, content, preset, url, list, filters, high, quality, technical |
 | `debugging-strategies` | Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use ... | debugging, strategies | debugging, strategies, systematic, techniques, profiling, root, cause, analysis, efficiently, track, down, bugs |
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
 | `design-md` | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files | md | md, analyze, stitch, synthesize, semantic, files |
+| `design-spells` | Curated micro-interactions and design details that add "magic" and personality to websites and apps. | spells | spells, curated, micro, interactions, details, add, magic, personality, websites, apps |
 | `dispatching-parallel-agents` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | dispatching, parallel, agents | dispatching, parallel, agents, facing, independent, tasks, worked, without, shared, state, sequential, dependencies |
 | `docx-official` | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude ... | docx, official | docx, official, document, creation, editing, analysis, tracked, changes, comments, formatting, preservation, text |
 | `dx-optimizer` | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when developme... | dx, optimizer | dx, optimizer, developer, experience, improves, tooling, setup, proactively, setting, up, new, after |
@@ -759,6 +767,7 @@ a... | evolution | evolution, critical, makepad, skills, self, contribution, tri
 | `linux-shell-scripting` | This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "manage users", or... | linux, shell, scripting | linux, shell, scripting, skill, should, used, user, asks, bash, scripts, automate, tasks |
 | `literature-analysis` | Literature Analysis | literature | literature, analysis |
 | `logistics-exception-management` | Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ year... | logistics, exception | logistics, exception, codified, expertise, handling, freight, exceptions, shipment, delays, damages, losses, carrier |
+| `magic-ui-generator` | Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations. | magic, ui, generator | magic, ui, generator, utilizes, 21st, dev, generate, compare, integrate, multiple, component, variations |
 | `makepad-animation` | CRITICAL: Use for Makepad animation system. Triggers on:
 makepad animation, makepad animator, makepad hover, makepad state,
 makepad transition, "from: { all:... | makepad, animation | makepad, animation, critical, triggers, animator, hover, state, transition, all, forward, pressed |
@@ -902,6 +911,7 @@ matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius
 | `ui-skills` | Opinionated, evolving constraints to guide agents when building interfaces | ui, skills | ui, skills, opinionated, evolving, constraints, agents, building, interfaces |
 | `ui-ux-designer` | Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. | ui, ux, designer | ui, ux, designer, interface, designs, wireframes, masters, user, research, accessibility, standards |
 | `umap` | Umap | umap | umap |
+| `unsplash-integration` | Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash. | unsplash, integration | unsplash, integration, skill, searching, fetching, high, quality, free, professional, photography |
 | `upgrading-expo` | Upgrade Expo SDK versions | upgrading, expo | upgrading, expo, upgrade, sdk, versions |
 | `upstash-qstash` | Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash,... | upstash, qstash | upstash, qstash, serverless, message, queues, scheduled, jobs, reliable, http, task, delivery, without |
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with sma... | using, git, worktrees | using, git, worktrees, starting, feature, work, isolation, current, workspace, before, executing, plans |

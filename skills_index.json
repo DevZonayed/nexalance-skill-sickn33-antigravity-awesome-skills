@@ -540,6 +540,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "animejs-animation",
+    "path": "skills/animejs-animation",
+    "category": "uncategorized",
+    "name": "animejs-animation",
+    "description": "Advanced JavaScript animation library skill for creating complex, high-performance web animations.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
     "id": "anti-reversing-techniques",
     "path": "skills/anti-reversing-techniques",
     "category": "uncategorized",
@@ -548,6 +558,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "antigravity-design-expert",
+    "path": "skills/antigravity-design-expert",
+    "category": "uncategorized",
+    "name": "antigravity-design-expert",
+    "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
   },
   {
     "id": "antigravity-workflows",
@@ -3970,6 +3990,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "daily",
+    "path": "skills/daily",
+    "category": "uncategorized",
+    "name": "daily",
+    "description": "Documentation and capabilities reference for Daily",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
     "id": "daily-news-report",
     "path": "skills/daily-news-report",
     "category": "uncategorized",
@@ -4368,6 +4398,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "design-spells",
+    "path": "skills/design-spells",
+    "category": "uncategorized",
+    "name": "design-spells",
+    "description": "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
   },
   {
     "id": "devcontainer-setup",
@@ -6510,6 +6550,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "iconsax-library",
+    "path": "skills/iconsax-library",
+    "category": "uncategorized",
+    "name": "iconsax-library",
+    "description": "Extensive icon library and AI-driven icon generation skill for premium UI/UX design.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
     "id": "idor-testing",
     "path": "skills/idor-testing",
     "category": "uncategorized",
@@ -7338,6 +7388,26 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "magic-animator",
+    "path": "skills/magic-animator",
+    "category": "uncategorized",
+    "name": "magic-animator",
+    "description": "AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
+    "id": "magic-ui-generator",
+    "path": "skills/magic-ui-generator",
+    "category": "uncategorized",
+    "name": "magic-ui-generator",
+    "description": "Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
   },
   {
     "id": "mailchimp-automation",
@@ -10750,6 +10820,16 @@
     "date_added": null
   },
   {
+    "id": "spline-3d-integration",
+    "path": "skills/spline-3d-integration",
+    "category": "uncategorized",
+    "name": "spline-3d-integration",
+    "description": "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
     "id": "sql-injection-testing",
     "path": "skills/sql-injection-testing",
     "category": "uncategorized",
@@ -11790,6 +11870,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "unsplash-integration",
+    "path": "skills/unsplash-integration",
+    "category": "uncategorized",
+    "name": "unsplash-integration",
+    "description": "Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  {
     "id": "upgrading-expo",
     "path": "skills/upgrading-expo",
     "category": "uncategorized",
@@ -11998,6 +12088,16 @@
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "vizcom",
+    "path": "skills/vizcom",
+    "category": "uncategorized",
+    "name": "vizcom",
+    "description": "AI-powered product design tool for transforming sketches into full-fidelity 3D renders.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
   },
   {
     "id": "voice-agents",
