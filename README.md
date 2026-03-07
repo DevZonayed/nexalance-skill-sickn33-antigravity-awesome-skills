@@ -18,13 +18,6 @@
 [![Web App](https://img.shields.io/badge/Web%20App-Browse%20Skills-blue)](apps/web-app)
 [![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
-<a href="https://github.com/sickn33/antigravity-awesome-skills">
-  <img height="180" align="center" src="./profile/pin.svg" alt="antigravity-awesome-skills" />
-</a>
-<a href="https://github.com/sickn33/antigravity-awesome-skills">
-  <img height="180" align="center" src="./profile/top-langs.svg" alt="Top languages" />
-</a>
-
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,272+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
 **Welcome to the V7.1.0 21k Stars Patch Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
