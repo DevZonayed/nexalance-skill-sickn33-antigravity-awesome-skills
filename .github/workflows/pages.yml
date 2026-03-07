@@ -45,13 +45,9 @@ jobs:
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
 
-      - name: Prepare artifact for Pages (base path = /repo-name/)
+      - name: Prepare artifact (404 + .nojekyll)
         run: |
           cd apps/web-app/dist
-          mkdir -p antigravity-awesome-skills
-          for f in *; do
-            [ "$f" != "index.html" ] && [ "$f" != "antigravity-awesome-skills" ] && mv "$f" antigravity-awesome-skills/ || true
-          done
           cp index.html 404.html
           touch .nojekyll
 
