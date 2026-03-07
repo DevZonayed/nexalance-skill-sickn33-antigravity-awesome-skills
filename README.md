@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,272+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Welcome to the V7.0.1 21k Stars Patch Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Welcome to the V7.1.0 21k Stars Patch Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 > **🌟 21,000+ GitHub Stars Milestone!** Thank you to the community for turning this into one of the largest skill libraries in this category.
 
