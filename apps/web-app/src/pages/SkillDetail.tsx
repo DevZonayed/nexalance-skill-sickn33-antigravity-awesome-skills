@@ -75,7 +75,8 @@ export function SkillDetail(): React.ReactElement {
           ? skill.path.replace('skills/', '')
           : skill.path;
 
-        const mdRes = await fetch(`/skills/${cleanPath}/SKILL.md`);
+        const base = import.meta.env.BASE_URL;
+        const mdRes = await fetch(`${base}skills/${cleanPath}/SKILL.md`);
         if (!mdRes.ok) throw new Error('Skill file not found');
 
         const text = await mdRes.text();
