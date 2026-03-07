@@ -22,7 +22,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -44,17 +45,21 @@ jobs:
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
 
-      - name: SPA fallback for client-side routes
-        run: cp apps/web-app/dist/${{ github.event.repository.name }}/index.html apps/web-app/dist/${{ github.event.repository.name }}/404.html
-
-      # GitHub serves artifact root at .../repo-name/ — put index at root so homepage loads
-      - name: Expose index at artifact root
+      - name: Prepare artifact for Pages (base path = /repo-name/)
         run: |
-          cp apps/web-app/dist/${{ github.event.repository.name }}/index.html apps/web-app/dist/index.html
-          cp apps/web-app/dist/${{ github.event.repository.name }}/404.html apps/web-app/dist/404.html
+          cd apps/web-app/dist
+          mkdir -p antigravity-awesome-skills
+          for f in *; do
+            [ "$f" != "index.html" ] && [ "$f" != "antigravity-awesome-skills" ] && mv "$f" antigravity-awesome-skills/ || true
+          done
+          cp index.html 404.html
+          touch .nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: apps/web-app/dist
 
