@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1270
+Total skills: 1271
 
 ## architecture (78)
 
@@ -165,7 +165,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (226)
+## data-ai (227)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -393,6 +393,7 @@ Scope::with_data, save state, load state, serde,
 | `using-neon` | Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon ... | using, neon | using, neon, guides, working, serverless, postgres, covers, getting, started, local, development, choosing |
 | `vector-database-engineer` | Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applic... | vector, database | vector, database, engineer, databases, embedding, semantic, search, masters, pinecone, weaviate, qdrant, milvus |
 | `vector-index-tuning` | Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector sear... | vector, index, tuning | vector, index, tuning, optimize, performance, latency, recall, memory, hnsw, parameters, selecting, quantization |
+| `vercel-ai-sdk-expert` | Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with Re... | vercel, ai, sdk | vercel, ai, sdk, covers, core, api, generatetext, streamtext, ui, hooks, usechat, usecompletion |
 | `vexor` | Vector-powered CLI for semantic file search with a Claude/Codex skill | vexor | vexor, vector, powered, cli, semantic, file, search, claude, codex, skill |
 | `vibe-code-auditor` | Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks. | vibe, code, auditor | vibe, code, auditor, audit, rapidly, generated, ai, produced, structural, flaws, fragility, risks |
 | `videodb-skills` | Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK. | [video, editing, transcription, subtitles, search, streaming, ai-generation, media] | [video, editing, transcription, subtitles, search, streaming, ai-generation, media], videodb, skills, upload, stream |
