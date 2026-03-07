@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1206
+Total skills: 1207
 
 ## architecture (78)
 
@@ -887,7 +887,7 @@ matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius
 | `yara-authoring` | Yara Authoring | yara, authoring | yara, authoring |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (126)
+## infrastructure (127)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -958,6 +958,7 @@ scripts. | bash | bash, pro, defensive, scripting, automation, ci, cd, pipelines
 | `freshservice-automation` | Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools ... | freshservice | freshservice, automation, automate, itsm, tasks, via, rube, mcp, composio, update, tickets, bulk |
 | `game-development/game-art` | Game art principles. Visual style selection, asset pipeline, animation workflow. | game, development/game, art | game, development/game, art, principles, visual, style, selection, asset, pipeline, animation |
 | `gcp-cloud-run` | Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven)... | gcp, cloud, run | gcp, cloud, run, specialized, skill, building, serverless, applications, covers, containerized, functions, event |
+| `git-hooks-automation` | Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message en... | git, hooks | git, hooks, automation, setup, husky, lint, staged, pre, commit, framework, commitlint, automate |
 | `git-pr-workflows-git-workflow` | Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment r... | git, pr | git, pr, orchestrate, code, review, through, creation, leveraging, specialized, agents, quality, assurance |
 | `github-actions-templates` | Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, ... | github, actions | github, actions, automated, testing, building, deploying, applications, setting, up, ci, cd, automating |
 | `github-automation` | Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio). Manage code workflows, review PRs, search code... | github | github, automation, automate, repositories, issues, pull, requests, branches, ci, cd, permissions, via |
