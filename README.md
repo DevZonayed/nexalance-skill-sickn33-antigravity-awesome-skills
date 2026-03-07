@@ -323,7 +323,7 @@ npm run app:dev
 
 That will copy the generated skill index into `apps/web-app/public/skills.json`, mirror the current `skills/` tree into `apps/web-app/public/skills/`, and start the Vite development server.
 
-**Hosted on GitHub Pages:** The same app is deployed automatically on every push to `main`. Enable it once in the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**. The site will be available at `https://<owner>.github.io/antigravity-awesome-skills/`.
+**Hosted online:** The same app is available at [https://sickn33.github.io/antigravity-awesome-skills/](https://sickn33.github.io/antigravity-awesome-skills/) and is deployed automatically on every push to `main`. To enable it once: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ## Contributing
 
