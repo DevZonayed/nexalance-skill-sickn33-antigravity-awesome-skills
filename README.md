@@ -19,10 +19,10 @@
 [![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
 <a href="https://github.com/sickn33/antigravity-awesome-skills">
-  <img height="180" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sickn33&repo=antigravity-awesome-skills&show_owner=true&theme=default" alt="antigravity-awesome-skills" />
+  <img height="180" align="center" src="./profile/pin.svg" alt="antigravity-awesome-skills" />
 </a>
 <a href="https://github.com/sickn33/antigravity-awesome-skills">
-  <img height="180" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sickn33&layout=compact&langs_count=8&card_width=320" alt="Top languages" />
+  <img height="180" align="center" src="./profile/top-langs.svg" alt="Top languages" />
 </a>
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,272+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
