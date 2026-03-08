@@ -22,8 +22,6 @@
 
 **Welcome to the V7.2.0 Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
-> **🌟 22,000+ GitHub Stars Milestone!** Thank you to the community for turning this into one of the largest skill libraries in this category.
-
 ## Table of Contents
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
