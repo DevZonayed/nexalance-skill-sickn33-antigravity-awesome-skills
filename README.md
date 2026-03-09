@@ -1,4 +1,4 @@
-<!-- registry-sync: version=7.2.0; skills=1232; stars=22023; updated_at=2026-03-09T10:48:20+00:00 -->
+<!-- registry-sync: version=7.2.0; skills=1232; stars=22024; updated_at=2026-03-09T10:48:43+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,232+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,232+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -377,7 +377,6 @@ This collection would not be possible without the incredible work of the Claude 
 - **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)**: Senior Engineering and PM toolkit.
 - **[karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)**: A massive list of verified skills for Claude Code.
 - **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)**: Curated collection of 61 high-quality skills including official team skills from Sentry, Trail of Bits, Expo, Hugging Face, and comprehensive context engineering suite (v4.3.0 integration).
-- **[NoizAI/skills](https://github.com/NoizAI/skills)**: Human-like TTS workflow skills with local/cloud backends, voice style controls, and app delivery scripts.
 - **[zircote/.claude](https://github.com/zircote/.claude)**: Shopify development skill reference.
 - **[vibeforge1111/vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills)**: AI Agents, Integrations, Maker Tools (57 skills, Apache 2.0).
 - **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)**: Marketing skills for CRO, copywriting, SEO, paid ads, and growth (23 skills, MIT).
