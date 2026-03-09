@@ -4360,6 +4360,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "diary",
+    "path": "skills/diary",
+    "category": "uncategorized",
+    "name": "diary",
+    "description": "Unified Diary System: A context-preserving automated logger for multi-project development.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
     "id": "differential-review",
     "path": "skills/differential-review",
     "category": "uncategorized",

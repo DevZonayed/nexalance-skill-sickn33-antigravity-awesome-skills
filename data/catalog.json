@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1233,
+  "total": 1234,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -10740,6 +10740,26 @@
         "observability"
       ],
       "path": "skills/devops-troubleshooter/SKILL.md"
+    },
+    {
+      "id": "diary",
+      "name": "diary",
+      "description": "Unified Diary System: A context-preserving automated logger for multi-project development.",
+      "category": "general",
+      "tags": [
+        "diary"
+      ],
+      "triggers": [
+        "diary",
+        "unified",
+        "context",
+        "preserving",
+        "automated",
+        "logger",
+        "multi",
+        "development"
+      ],
+      "path": "skills/diary/SKILL.md"
     },
     {
       "id": "differential-review",

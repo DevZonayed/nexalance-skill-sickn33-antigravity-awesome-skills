@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1233
+Total skills: 1234
 
 ## architecture (80)
 
@@ -594,7 +594,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (291)
+## general (292)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -671,6 +671,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
 | `design-md` | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files | md | md, analyze, stitch, synthesize, semantic, files |
 | `design-spells` | Curated micro-interactions and design details that add "magic" and personality to websites and apps. | spells | spells, curated, micro, interactions, details, add, magic, personality, websites, apps |
+| `diary` | Unified Diary System: A context-preserving automated logger for multi-project development. | diary | diary, unified, context, preserving, automated, logger, multi, development |
 | `dispatching-parallel-agents` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | dispatching, parallel, agents | dispatching, parallel, agents, facing, independent, tasks, worked, without, shared, state, sequential, dependencies |
 | `docx-official` | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude ... | docx, official | docx, official, document, creation, editing, analysis, tracked, changes, comments, formatting, preservation, text |
 | `dx-optimizer` | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when developme... | dx, optimizer | dx, optimizer, developer, experience, improves, tooling, setup, proactively, setting, up, new, after |
