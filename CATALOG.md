@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1236
+Total skills: 1237
 
 ## architecture (80)
 
@@ -408,7 +408,7 @@ Scope::with_data, save state, load state, serde,
 | `yann-lecun` | Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018. Use quando quiser: perspectivas so... | persona, cnn, meta, ai-safety-critic, open-source | persona, cnn, meta, ai-safety-critic, open-source, yann, lecun, agente, que, simula, inventor, das |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (178)
+## development (179)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -547,6 +547,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `odoo-shopify-integration` | Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules. | odoo, shopify, integration | odoo, shopify, integration, connect, sync, products, inventory, orders, customers, api, external, connector |
 | `odoo-woocommerce-bridge` | Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. | odoo, woocommerce, bridge | odoo, woocommerce, bridge, sync, products, inventory, orders, customers, via, rest, api, external |
 | `pakistan-payments-stack` | Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook... | saas, payments, pakistan, nextjs, b2b, pkr, reconciliation | saas, payments, pakistan, nextjs, b2b, pkr, reconciliation, stack, grade, pakistani, payment, integrations |
+| `pipecat-friday-agent` | Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI. | pipecat, voice, gemini, openai, python | pipecat, voice, gemini, openai, python, friday, agent, low, latency, iron, man, inspired |
 | `playwright-java` | Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution. | playwright, java, e2e-testing, junit5, page-object-model, allure, selenium-alternative | playwright, java, e2e-testing, junit5, page-object-model, allure, selenium-alternative, scaffold, write, debug, enhance, enterprise |
 | `product-manager-toolkit` | Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market ... | product, manager | product, manager, toolkit, managers, including, rice, prioritization, customer, interview, analysis, prd, discovery |
 | `python-development-python-scaffold` | You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with mode... | python | python, development, scaffold, architecture, specializing, scaffolding, applications, generate, complete, structures, tooling, uv |

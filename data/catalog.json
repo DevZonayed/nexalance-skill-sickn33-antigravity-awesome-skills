@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1236,
+  "total": 1237,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -21597,6 +21597,34 @@
         "features"
       ],
       "path": "skills/php-pro/SKILL.md"
+    },
+    {
+      "id": "pipecat-friday-agent",
+      "name": "pipecat-friday-agent",
+      "description": "Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.",
+      "category": "development",
+      "tags": [
+        "pipecat",
+        "voice",
+        "gemini",
+        "openai",
+        "python"
+      ],
+      "triggers": [
+        "pipecat",
+        "voice",
+        "gemini",
+        "openai",
+        "python",
+        "friday",
+        "agent",
+        "low",
+        "latency",
+        "iron",
+        "man",
+        "inspired"
+      ],
+      "path": "skills/pipecat-friday-agent/SKILL.md"
     },
     {
       "id": "pipedrive-automation",
