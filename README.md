@@ -262,6 +262,7 @@ Initial workflows include:
 - Security Audit for a Web App
 - Build an AI Agent System
 - QA and Browser Automation (with optional `@go-playwright` support for Go stacks)
+- Design a DDD Core Domain
 
 ## Features & Categories
 
