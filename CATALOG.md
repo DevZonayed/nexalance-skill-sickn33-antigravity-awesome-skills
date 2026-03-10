@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1237
+Total skills: 1238
 
 ## architecture (80)
 
@@ -167,7 +167,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (226)
+## data-ai (227)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -355,6 +355,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `postgresql-optimization` | PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management. | postgresql, optimization | postgresql, optimization, database, query, tuning, indexing, performance, analysis |
 | `prisma-expert` | Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, m... | prisma | prisma, orm, schema, migrations, query, optimization, relations, modeling, database, operations, proactively, issues |
 | `programmatic-seo` | Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. | programmatic, seo | programmatic, seo, evaluate, creating, driven, pages, scale, structured, data |
+| `progressive-estimation` | Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops | estimation, project-management, pert, sprint-planning, ai-agents | estimation, project-management, pert, sprint-planning, ai-agents, progressive, estimate, ai, assisted, hybrid, human, agent |
 | `prompt-caching` | Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache... | prompt, caching | prompt, caching, llm, prompts, including, anthropic, response, cag, cache, augmented, generation, augm |
 | `prompt-engineering-patterns` | Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, impro... | prompt, engineering | prompt, engineering, techniques, maximize, llm, performance, reliability, controllability, optimizing, prompts, improving, outputs |
 | `pydantic-models-py` | Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schem... | pydantic, models, py | pydantic, models, py, following, multi, model, base, update, response, indb, variants, defining |
