@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1242,
+  "total": 1243,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -17936,6 +17936,31 @@
         "sites"
       ],
       "path": "skills/local-legal-seo-audit/SKILL.md"
+    },
+    {
+      "id": "local-llm-expert",
+      "name": "local-llm-expert",
+      "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
+      "category": "security",
+      "tags": [
+        "local",
+        "llm"
+      ],
+      "triggers": [
+        "local",
+        "llm",
+        "inference",
+        "model",
+        "selection",
+        "vram",
+        "optimization",
+        "deployment",
+        "ollama",
+        "llama",
+        "cpp",
+        "vllm"
+      ],
+      "path": "skills/local-llm-expert/SKILL.md"
     },
     {
       "id": "logistics-exception-management",
