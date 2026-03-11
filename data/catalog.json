@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1244,
+  "total": 1245,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -783,6 +783,31 @@
         "agent"
       ],
       "path": "skills/ai-engineer/SKILL.md"
+    },
+    {
+      "id": "ai-md",
+      "name": "ai-md",
+      "description": "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance.",
+      "category": "security",
+      "tags": [
+        "ai",
+        "md"
+      ],
+      "triggers": [
+        "ai",
+        "md",
+        "convert",
+        "human",
+        "written",
+        "claude",
+        "native",
+        "structured",
+        "label",
+        "format",
+        "battle",
+        "tested"
+      ],
+      "path": "skills/ai-md/SKILL.md"
     },
     {
       "id": "ai-ml",

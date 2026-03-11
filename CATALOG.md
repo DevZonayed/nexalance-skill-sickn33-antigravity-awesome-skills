@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1244
+Total skills: 1245
 
 ## architecture (80)
 
@@ -1059,7 +1059,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (144)
+## security (145)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1068,6 +1068,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `active-directory-attacks` | This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration"... | active, directory, attacks | active, directory, attacks, skill, should, used, user, asks, attack, exploit, ad, kerberoasting |
 | `agent-memory-systems` | Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-te... | agent, memory | agent, memory, cornerstone, intelligent, agents, without, every, interaction, starts, zero, skill, covers |
 | `agentic-actions-auditor` | Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI I... | agentic, actions, auditor | agentic, actions, auditor, audits, github, security, vulnerabilities, ai, agent, integrations, including, claude |
+| `ai-md` | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. | ai, md | ai, md, convert, human, written, claude, native, structured, label, format, battle, tested |
 | `antigravity-workflows` | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. | antigravity | antigravity, orchestrate, multiple, skills, through, guided, saas, mvp, delivery, security, audits, ai |
 | `api-endpoint-builder` | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalab... | api, endpoint, builder | api, endpoint, builder, rest, endpoints, validation, error, handling, authentication, documentation, follows, security |
 | `api-fuzzing-bug-bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetrat... | api, fuzzing, bug, bounty | api, fuzzing, bug, bounty, skill, should, used, user, asks, test, security, fuzz |
