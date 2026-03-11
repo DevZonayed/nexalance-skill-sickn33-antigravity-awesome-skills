@@ -12340,6 +12340,16 @@
     "date_added": "2026-03-06"
   },
   {
+    "id": "yes-md",
+    "path": "skills/yes-md",
+    "category": "uncategorized",
+    "name": "yes-md",
+    "description": "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-11"
+  },
+  {
     "id": "youtube-automation",
     "path": "skills/youtube-automation",
     "category": "uncategorized",
