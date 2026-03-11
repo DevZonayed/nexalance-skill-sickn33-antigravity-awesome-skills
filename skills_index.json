@@ -4940,6 +4940,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "explain-like-socrates",
+    "path": "skills/explain-like-socrates",
+    "category": "uncategorized",
+    "name": "explain-like-socrates",
+    "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.\n",
+    "risk": "safe",
+    "source": "original",
+    "date_added": "2026-03-11"
+  },
+  {
     "id": "expo-api-routes",
     "path": "skills/expo-api-routes",
     "category": "uncategorized",

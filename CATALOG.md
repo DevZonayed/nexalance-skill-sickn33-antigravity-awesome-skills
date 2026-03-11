@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1245
+Total skills: 1246
 
 ## architecture (80)
 
@@ -600,7 +600,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (294)
+## general (295)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -695,6 +695,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 evolve, evolution, contribute, contribution, self-improve, self-improvement,
 a... | evolution | evolution, critical, makepad, skills, self, contribution, triggers, evolve, contribute, improve, improvement, add |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | executing, plans | executing, plans, written, plan, execute, separate, session, review, checkpoints |
+| `explain-like-socrates` | Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates. | explain, like, socrates | explain, like, socrates, explains, concepts, socratic, style, dialogue, user, asks, teach, understand |
 | `expo-dev-client` | Build and distribute Expo development clients locally or via TestFlight | expo, dev, client | expo, dev, client, distribute, development, clients, locally, via, testflight |
 | `expo-ui-jetpack-compose` | expo-ui-jetpack-compose | expo, ui, jetpack, compose | expo, ui, jetpack, compose |
 | `expo-ui-swift-ui` | expo-ui-swift-ui | expo, ui, swift | expo, ui, swift |
