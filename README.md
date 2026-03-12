@@ -1,4 +1,4 @@
-<!-- registry-sync: version=7.6.0; skills=1250; stars=23508; updated_at=2026-03-12T11:49:32+00:00 -->
+<!-- registry-sync: version=7.6.0; skills=1250; stars=23509; updated_at=2026-03-12T12:00:10+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,250+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,250+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -209,7 +209,7 @@ Use @security-auditor to review this API endpoint for auth and validation risks.
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 1,236+ skills one by one.
+They help you avoid picking from 1,250+ skills one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
