@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1249
+Total skills: 1250
 
 ## architecture (80)
 
@@ -600,7 +600,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (296)
+## general (297)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -754,6 +754,7 @@ a... | evolution | evolution, critical, makepad, skills, self, contribution, tri
 | `interactive-portfolio` | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, d... | interactive, portfolio | interactive, portfolio, building, portfolios, actually, land, jobs, clients, just, showing, work, creating |
 | `internal-comms-anthropic` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, anthropic | internal, comms, anthropic, set, resources, me, write, all, kinds, communications, formats, my |
 | `internal-comms-community` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenev... | internal, comms, community | internal, comms, community, set, resources, me, write, all, kinds, communications, formats, my |
+| `interview-coach` | Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state. | interview, job-search, coaching, career, storybank, negotiation | interview, job-search, coaching, career, storybank, negotiation, coach, full, job, search, jd, decoding |
 | `inventory-demand-planning` | Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers. | inventory, demand, planning | inventory, demand, planning, codified, expertise, forecasting, safety, stock, optimisation, replenishment, promotional, lift |
 | `issues` | Interact with GitHub issues - create, list, and view issues. | issues | issues, interact, github, list, view |
 | `julia-pro` | Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. | julia | julia, pro, 10, features, performance, optimization, multiple, dispatch |

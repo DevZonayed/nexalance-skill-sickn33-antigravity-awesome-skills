@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1249,
+  "total": 1250,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -16505,6 +16505,35 @@
         "my"
       ],
       "path": "skills/internal-comms-community/SKILL.md"
+    },
+    {
+      "id": "interview-coach",
+      "name": "interview-coach",
+      "description": "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+      "category": "general",
+      "tags": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation"
+      ],
+      "triggers": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation",
+        "coach",
+        "full",
+        "job",
+        "search",
+        "jd",
+        "decoding"
+      ],
+      "path": "skills/interview-coach/SKILL.md"
     },
     {
       "id": "inventory-demand-planning",

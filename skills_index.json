@@ -6680,6 +6680,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "interview-coach",
+    "path": "skills/interview-coach",
+    "category": "productivity",
+    "name": "interview-coach",
+    "description": "Full job search coaching system \u2014 JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-11"
+  },
+  {
     "id": "inventory-demand-planning",
     "path": "skills/inventory-demand-planning",
     "category": "uncategorized",
