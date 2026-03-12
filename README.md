@@ -1,4 +1,4 @@
-<!-- registry-sync: version=7.5.0; skills=1250; stars=23500; updated_at=2026-03-12T11:29:41+00:00 -->
+<!-- registry-sync: version=7.6.0; skills=1250; stars=23501; updated_at=2026-03-12T11:37:41+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,250+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,250+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -299,6 +299,30 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 | [`docs/users/faq.md`](docs/users/faq.md)                         | [`docs/contributors/quality-bar.md`](docs/contributors/quality-bar.md)     | [`docs/maintainers/ci-drift-fix.md`](docs/maintainers/ci-drift-fix.md)               |
 | [`docs/users/visual-guide.md`](docs/users/visual-guide.md)       | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) · [`.github/MAINTENANCE.md`](.github/MAINTENANCE.md) |
 
+## Troubleshooting
+
+### Windows symlink problems
+
+If Windows does not preserve the official skill symlinks correctly, clone with:
+
+```bash
+git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+```
+
+Or enable Developer Mode in Windows Settings before cloning.
+
+### Windows truncation or context crash loop
+
+If Antigravity or a Jetski/Cortex-based host keeps reopening into a truncation error, use the dedicated recovery guide:
+
+- [`docs/users/windows-truncation-recovery.md`](docs/users/windows-truncation-recovery.md)
+
+That guide includes:
+
+- backup paths before cleanup
+- the storage folders that usually need to be cleared
+- an optional batch helper adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274)
+
 ## Web App
 
 The web app is the fastest way to navigate a large repository like this.
@@ -419,6 +443,11 @@ We officially thank the following contributors for their help in making this rep
 - [@Enreign](https://github.com/Enreign)
 - [@kennyzheng-builds](https://github.com/kennyzheng-builds)
 - [@sickn33](https://github.com/sickn33)
+- [@qcwssss](https://github.com/qcwssss)
+- [@dbhat93](https://github.com/dbhat93)
+- [@rafsilva85](https://github.com/rafsilva85)
+- [@iftikharg786](https://github.com/iftikharg786)
+- [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)
 - [@munir-abbasi](https://github.com/munir-abbasi)
 - [@ssumanbiswas](https://github.com/ssumanbiswas)
 - [@zinzied](https://github.com/zinzied)

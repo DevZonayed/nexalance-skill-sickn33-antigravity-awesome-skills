@@ -116,6 +116,22 @@ git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-s
 
 Or enable "Developer Mode" in Windows Settings.
 
+### I hit a truncation or context crash loop on Windows. How do I recover?
+
+If Antigravity or a Jetski/Cortex-based host keeps reopening into:
+
+> `TrajectoryChatConverter: could not convert a single message before hitting truncation`
+
+use the dedicated Windows recovery guide:
+
+- [`windows-truncation-recovery.md`](windows-truncation-recovery.md)
+
+It includes:
+
+- the manual cleanup steps for broken Local Storage / Session Storage / IndexedDB state
+- the default Antigravity Windows paths to back up first
+- an optional batch script adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274)
+
 ### How do I update skills?
 
 Navigate to your skills directory and pull the latest changes:

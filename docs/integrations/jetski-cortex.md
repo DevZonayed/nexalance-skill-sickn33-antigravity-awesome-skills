@@ -242,9 +242,27 @@ Per ulteriore controllo:
 - spostate le skill non necessarie in `skills/.disabled/` per escluderle in certi ambienti;
 - usate i **bundle** descritti in [`docs/users/bundles.md`](../users/bundles.md) per caricare solo gruppi tematici.
 
+## 8. Recovery su Windows se siete gia in crash loop
+
+Se l’host continua a riaprire la stessa trajectory corrotta dopo un errore di truncation:
+
+- rimuovete la skill o il pacchetto problematico;
+- cancellate Local Storage / Session Storage / IndexedDB usati da Antigravity;
+- svuotate `%TEMP%`;
+- riavviate con un loader lazy e limiti espliciti.
+
+Guida completa:
+
+- [`docs/users/windows-truncation-recovery.md`](../users/windows-truncation-recovery.md)
+
+Per evitare che il problema si ripresenti:
+
+- mantenete `overflowBehavior: "error"` quando preferite un fallimento esplicito;
+- continuate a validare che i path risolti restino dentro `skillsRoot`.
+
 ---
 
-## 8. Riepilogo
+## 9. Riepilogo
 
 - Non concatenate mai tutte le `SKILL.md` in un singolo prompt.
 - Usate `data/skills_index.json` come manifest leggero.

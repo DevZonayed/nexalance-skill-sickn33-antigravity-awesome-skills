@@ -130,6 +130,9 @@ A: You clone the whole repo once; your AI only _reads_ the skills you invoke (or
 **Q: Can I make my own skills?**
 A: Yes! Use the **@skill-creator** skill to build your own.
 
+**Q: What if Antigravity on Windows gets stuck in a truncation crash loop?**
+A: Follow the recovery steps in [windows-truncation-recovery.md](windows-truncation-recovery.md). It explains which Antigravity storage folders to back up and clear, and includes an optional batch helper adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274).
+
 **Q: Is this free?**
 A: Yes, MIT License. Open Source forever.
 
