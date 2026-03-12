@@ -3,7 +3,7 @@
 
 > **The Ultimate Collection of 1,250+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
-[![GitHub stars](https://img.shields.io/badge/⭐%2021%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
+[![GitHub stars](https://img.shields.io/badge/⭐%2024%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,250+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Welcome to the V7.4.0 Release!** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V7.6.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [📦 Features & Categories](#features--categories)
 - [📚 Browse 1,250+ Skills](#browse-1250-skills)
-- [🤝 How to Contribute](#how-to-contribute)
+- [🤝 Contributing](#contributing)
 - [💬 Community](#community)
 - [☕ Support the Project](#support-the-project)
 - [🏆 Credits & Sources](#credits--sources)
@@ -45,11 +45,11 @@
 
 ## New Here? Start Here!
 
-**Welcome to the V7.2.0 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the current interactive web edition.** This isn't just a list of scripts; it's a complete operating system for your AI agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 7.2.0) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 7.6.0) is a broad, production-oriented upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.

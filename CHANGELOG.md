@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## Documentation
+
+- Refreshed `README.md` release copy, star milestone badge, and TOC heading alignment so the top-level docs match the current `7.6.0` repository state.
+
 ## [7.6.0] - 2026-03-12 - "Maintenance Sweep"
 
 > **Merged community PRs, documented Windows truncation recovery, and hardened Metasploit setup guidance**
