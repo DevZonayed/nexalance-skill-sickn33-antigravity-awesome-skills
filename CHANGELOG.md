@@ -15,6 +15,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Aligned the evergreen English docs with the current `7.6.0` / `1,250+ skills` repository state and removed emoji from active H2 headers to keep anchors stable under the maintenance rules.
 - Updated maintainer CI/merge docs and workflow policy so generated registry drift is informational on PRs and auto-synced on `main`, reducing merge friction across concurrent skill submissions.
 
+## [7.7.0] - 2026-03-13 - "Merge Friction Reduction"
+
+> **Shipped four maintained PR outcomes, stabilized generated-file CI, and cut release friction for future contributor merges**
+
+This release turns a noisy maintainer workflow into a predictable one. It merges the latest community skill additions, integrates the cleaned `privacy-by-design` contribution under the maintainer exception path, and removes the biggest source of PR churn by making generated registry drift informational on pull requests while keeping `main` self-healing and strict.
+
+## New Skills
+
+- **llm-structured-output** — structured JSON/schema extraction patterns across OpenAI, Anthropic, and Gemini (PR #280)
+- **electron-development** — secure Electron architecture, IPC hardening, packaging, signing, and updates (PR #282)
+- **privacy-by-design** — privacy-first software design patterns and implementation guidance (PR #283)
+- **antigravity-skill-orchestrator** — meta-skill for selecting and coordinating the best skill set for a task (PR #285)
+
+## Improvements
+
+- **CI determinism**: `tools/scripts/update_readme.py` and `tools/scripts/sync_repo_metadata.py` now preserve volatile README sync metadata during normal runs instead of rewriting stars/timestamps and causing PR drift.
+- **PR merge flow**: `.github/workflows/ci.yml` now reports generated registry drift as informational on PRs while keeping `main` strict and auto-syncing the final artifact set after merge.
+- **Maintainer docs**: Updated `.github/MAINTENANCE.md`, `docs/maintainers/ci-drift-fix.md`, and `docs/maintainers/merging-prs.md` to document the new lower-friction merge procedure.
+- **Windows issue triage**: Clarified that issue `#281` remains open as an installer/symlink problem distinct from truncation-loop issue `#274`, closed `#284` against the shipped recovery guidance, and opened follow-up issue `#286`.
+
+## Credits
+
+- **[@sx4im](https://github.com/sx4im)** for `llm-structured-output` (PR #280)
+- **[@MatheusCampagnolo](https://github.com/MatheusCampagnolo)** for `electron-development` (PR #282)
+- **[@Abdeltoto](https://github.com/Abdeltoto)** for `privacy-by-design` (PR #283)
+- **[@wahidzzz](https://github.com/wahidzzz)** for `antigravity-skill-orchestrator` (PR #285)
+
 ## [7.6.0] - 2026-03-12 - "Maintenance Sweep"
 
 > **Merged community PRs, documented Windows truncation recovery, and hardened Metasploit setup guidance**

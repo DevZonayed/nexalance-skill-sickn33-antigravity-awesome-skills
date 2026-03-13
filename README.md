@@ -1,4 +1,4 @@
-<!-- registry-sync: version=7.6.0; skills=1254; stars=23847; updated_at=2026-03-13T08:15:26+00:00 -->
+<!-- registry-sync: version=7.7.0; skills=1254; stars=23847; updated_at=2026-03-13T08:15:26+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,254+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,254+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,254+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Current release: V7.6.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V7.7.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 7.6.0) is a broad, production-oriented upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 7.7.0) is a broad, production-oriented upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -209,7 +209,7 @@ Use @security-auditor to review this API endpoint for auth and validation risks.
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 1,250+ skills one by one.
+They help you avoid picking from 1,254+ skills one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
