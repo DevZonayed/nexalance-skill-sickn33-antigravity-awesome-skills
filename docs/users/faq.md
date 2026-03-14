@@ -11,7 +11,7 @@
 Skills are specialized instruction files that teach AI assistants how to handle specific tasks. Think of them as expert knowledge modules that your AI can load on-demand.
 **Simple analogy:** Just like you might consult different experts (a lawyer, a doctor, a mechanic), these skills let your AI become an expert in different areas when you need them.
 
-### Do I need to install all 1,254+ skills?
+### Do I need to install every skill?
 
 **No!** When you clone the repository, all skills are available, but your AI only loads them when you explicitly invoke them with `@skill-name`.
 It's like having a library - all books are there, but you only read the ones you need.
@@ -50,7 +50,7 @@ Start from:
 ### How do these skills avoid overflowing the model context?
 
 Some host tools (for example custom agents built on Jetski/Cortex + Gemini) might be tempted to **concatenate every `SKILL.md` file into a single system prompt**.  
-This is **not** how this repository is designed to be used, and it will almost certainly overflow the model’s context window with 1,254+ skills.
+This is **not** how this repository is designed to be used, and it will almost certainly overflow the model’s context window if you concatenate the whole repository into one prompt.
 
 Instead, hosts should:
 
@@ -116,14 +116,13 @@ This repository now includes `.claude-plugin/marketplace.json` and `.claude-plug
 
 ### Does this work with Windows?
 
-**Yes**, but some "Official" skills use **symlinks** which Windows handles poorly by default.
-Run git with:
+**Yes.** Use the standard install flow:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
-Or enable "Developer Mode" in Windows Settings.
+If you have an older clone created around the removed symlink workaround, reinstall into a fresh directory or rerun `npx antigravity-awesome-skills`.
 
 ### I hit a truncation or context crash loop on Windows. How do I recover?
 

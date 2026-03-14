@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,259+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Current release: V7.7.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V7.8.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 7.7.0) is a broad, production-oriented upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 7.8.0) is a broad, production-oriented upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -114,9 +114,8 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 > **Default installer path**: `~/.gemini/antigravity/skills` (Antigravity global). Use `--path ~/.agent/skills` for workspace-specific install. For manual clone, `.agent/skills/` works as workspace path for Antigravity.
 > **OpenCode Path Update**: opencode path is changed to `.agents/skills` for global skills. See [Place Files](https://opencode.ai/docs/skills/#place-files) directive on OpenCode Docs.
 
-> [!WARNING]
-> **Windows Users**: this repository uses **symlinks** for official skills.
-> See [Troubleshooting](#troubleshooting) for the exact fix.
+> [!TIP]
+> **Windows Users**: use the standard install commands. The legacy `core.symlinks=true` / Developer Mode workaround is no longer required for this repository.
 
 ---
 
@@ -220,7 +219,7 @@ Use @security-auditor to review this API endpoint for auth and validation risks.
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 1,254+ skills one by one.
+They help you avoid picking through the full catalog one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
@@ -312,15 +311,15 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 
 ## Troubleshooting
 
-### Windows symlink problems
+### Windows install note
 
-If Windows does not preserve the official skill symlinks correctly, clone with:
+Use the normal install flow on Windows:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
-Or enable Developer Mode in Windows Settings before cloning.
+If you have an older clone created around the removed symlink workaround, reinstall into a fresh directory or rerun the `npx antigravity-awesome-skills` installer.
 
 ### Windows truncation or context crash loop
 
@@ -462,6 +461,13 @@ We officially thank the following contributors for their help in making this rep
 - [@rafsilva85](https://github.com/rafsilva85)
 - [@iftikharg786](https://github.com/iftikharg786)
 - [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)
+- [@ronanguilloux](https://github.com/ronanguilloux)
+- [@yang1002378395-cmyk](https://github.com/yang1002378395-cmyk)
+- [@Gizzant](https://github.com/Gizzant)
+- [@MArbeeGit](https://github.com/MArbeeGit)
+- [@kage-art](https://github.com/kage-art)
+- [@christopherlhammer11-ai](https://github.com/christopherlhammer11-ai)
+- [@hvasconcelos](https://github.com/hvasconcelos)
 - [@munir-abbasi](https://github.com/munir-abbasi)
 - [@ssumanbiswas](https://github.com/ssumanbiswas)
 - [@zinzied](https://github.com/zinzied)

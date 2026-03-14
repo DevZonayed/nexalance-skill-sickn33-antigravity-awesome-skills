@@ -9,11 +9,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## Documentation
+## [7.8.0] - 2026-03-14 - "Marketplace & Merge Sweep"
 
-- Refreshed `README.md` release copy, star milestone badge, and TOC heading alignment so the top-level docs match the current `7.6.0` repository state.
-- Aligned the evergreen English docs with the current `7.6.0` / `1,250+ skills` repository state and removed emoji from active H2 headers to keep anchors stable under the maintenance rules.
-- Updated maintainer CI/merge docs and workflow policy so generated registry drift is informational on PRs and auto-synced on `main`, reducing merge friction across concurrent skill submissions.
+> **Merged seven community PRs, added Claude Code marketplace manifests, and finished the maintainer sync/release pass**
+
+This release closes the active maintenance batch in one pass. It ships a new Claude Code plugin marketplace entrypoint for the whole repository, merges seven open community pull requests after maintainer preflight, removes stale Windows symlink guidance from the user docs, and refreshes the generated registry artifacts on `main` for a single `7.8.0` cut.
+
+## New Skills
+
+- **analyze-project** — root-cause analyst workflow for full-project diagnosis (PR #297)
+- **latex-paper-conversion** — convert academic papers into reusable engineering artifacts (PR #296)
+- **k6-load-testing** — k6-based API and performance testing guidance (PR #287)
+- **tool-use-guardian** — tool-call reliability wrapper with retries, recovery, and failure classification (PR #298)
+- **recallmax** — long-context memory, summarization, and conversation compression for agents (PR #298)
+
+## Improvements
+
+- **Claude Code marketplace support**: Added `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json` so the repository can be installed as a single Claude Code marketplace plugin (PR #302, closes #288).
+- **Windows installer/docs alignment**: Removed the stale `core.symlinks=true` / Developer Mode guidance from user docs after the Windows installer cleanup (PR #299, fixes #286, follow-up #281 closed in release).
+- **NotebookLM cleanup**: Removed unused `typing.Optional` / `typing.List` imports from `skills/notebooklm/scripts/browser_utils.py` (PR #301, closes #300).
+- **README/source maintenance**: Added maintained attribution for external-sourced skills and merged the `uberSKILLS` README addition without generated-file drift (PRs #298 and #293).
+- **Batch merge workflow**: Completed a maintainer preflight for PRs #301, #299, #297, #296, #287, #298, and #293, then regenerated `README.md`, `skills_index.json`, `CATALOG.md`, and `data/*.json` once on `main`.
+- **Issue hygiene**: Closed #288, #300, #286, and #281 from the shipped fixes; documented existing support for #294 in the release follow-up.
+
+## Credits
+
+- **[@ronanguilloux](https://github.com/ronanguilloux)** for the NotebookLM cleanup in PR #301
+- **[@yang1002378395-cmyk](https://github.com/yang1002378395-cmyk)** for the Windows installer cleanup in PR #299
+- **[@Gizzant](https://github.com/Gizzant)** for `analyze-project` in PR #297
+- **[@MArbeeGit](https://github.com/MArbeeGit)** for `latex-paper-conversion` in PR #296
+- **[@kage-art](https://github.com/kage-art)** for `k6-load-testing` in PR #287
+- **[@christopherlhammer11-ai](https://github.com/christopherlhammer11-ai)** for `tool-use-guardian` and `recallmax` in PR #298
+- **[@hvasconcelos](https://github.com/hvasconcelos)** for the `uberSKILLS` README addition in PR #293
 
 ## [7.7.0] - 2026-03-13 - "Merge Friction Reduction"
 

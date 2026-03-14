@@ -33,3 +33,16 @@
 
 - Added root Claude Code plugin marketplace support via `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, exposing the repository as a single plugin entry that points at the existing `skills/` tree.
 - Updated the user onboarding trinity (`README.md`, `docs/users/getting-started.md`, `docs/users/faq.md`) so Claude Code users can install via `/plugin marketplace add sickn33/antigravity-awesome-skills` in addition to the existing `npx` installer flow.
+- Merged PRs `#302`, `#301`, `#299`, `#297`, `#296`, `#287`, `#298`, and `#293` via GitHub squash merge after maintainer preflight, including a maintained follow-up commit on the contributor branch for `#298` and a maintainer conflict-resolution refresh on `#293`.
+- Verified the issue-driven fixes locally before merge:
+  - `#301`: `python3 -m py_compile skills/notebooklm/scripts/browser_utils.py`
+  - `#299`: `node -c tools/bin/install.js`
+- Verified the skill/docs PRs locally before merge:
+  - `#297`, `#296`, `#287`, `#298`: `npm run validate`
+  - `#293`, `#298`: `npm run validate:references`
+- Closed issues `#288`, `#300`, `#286`, and `#281` from the merged fixes and release notes flow; documented `#294` as a release follow-up because the support already exists in the current catalog.
+- Removed stale Windows `core.symlinks=true` / Developer Mode guidance from the user docs after the `#299` installer fix, keeping the Windows path on the standard clone/install flow.
+- Ran the post-merge maintainer sync on `main`:
+  - `npm run chain`
+  - `npm run catalog`
+- Refreshed `CHANGELOG.md`, `README.md`, `docs/users/getting-started.md`, `docs/users/faq.md`, and the contributor acknowledgements to prepare the single `7.8.0` release cut.
