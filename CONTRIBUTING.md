@@ -23,6 +23,9 @@ cp docs/contributors/skill-template.md skills/my-awesome-skill/SKILL.md
 # 5. Edit and validate
 npm run validate
 
+# For SKILL.md with shell/network/credential/mutation guidance:
+npm run security:docs
+
 # 6. Open a PR
 git add skills/my-awesome-skill/
 git commit -m "feat: add my-awesome-skill for [purpose]"

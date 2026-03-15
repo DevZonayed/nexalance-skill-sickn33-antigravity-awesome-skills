@@ -118,6 +118,8 @@ We classify skills so you know what you're running:
 - 🔵 **Safe**: Community skills that are non-destructive (Read-only/Planning).
 - 🔴 **Risk**: Skills that modify systems or perform security tests (Authorized Use Only).
 
+When adding new skills, high-risk guidance is extra-reviewed with repository-wide `security:docs` scanning before release.
+
 _Check the [Skill Catalog](../../CATALOG.md) for the full list._
 
 ---
