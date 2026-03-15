@@ -3,10 +3,13 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const ROOT_DIR = path.resolve(__dirname, '..');
+const require = createRequire(import.meta.url);
+const { resolveSafeRealPath } = require('../../tools/lib/symlink-safety');
+const ROOT_DIR = path.resolve(__dirname, '..', '..');
 
 const UPSTREAM_REPO = 'https://github.com/sickn33/antigravity-awesome-skills.git';
 const UPSTREAM_NAME = 'upstream';
@@ -100,20 +103,6 @@ function checkRemoteSha() {
     });
 }
 
-/** Copy folder recursively. */
-function copyFolderSync(from, to) {
-    if (!fs.existsSync(to)) fs.mkdirSync(to, { recursive: true });
-    for (const element of fs.readdirSync(from)) {
-        const srcPath = path.join(from, element);
-        const destPath = path.join(to, element);
-        if (fs.lstatSync(srcPath).isFile()) {
-            fs.copyFileSync(srcPath, destPath);
-        } else {
-            copyFolderSync(srcPath, destPath);
-        }
-    }
-}
-
 // ─── Sync strategies ───
 
 /**
@@ -186,7 +175,7 @@ async function syncWithArchive() {
 
         if (useTar) {
             execSync(`tar -xzf "${archivePath}" -C "${tempDir}"`, { stdio: 'ignore' });
-        } else if (process.platform === 'win32') {
+        } else if (globalThis.process?.platform === 'win32') {
             execSync(`powershell -Command "Expand-Archive -Path '${archivePath}' -DestinationPath '${tempDir}' -Force"`, { stdio: 'ignore' });
         } else {
             execSync(`unzip -o "${archivePath}" -d "${tempDir}"`, { stdio: 'ignore' });
@@ -242,14 +231,16 @@ export default function refreshSkillsPlugin() {
 
                 const relativePath = decodeURIComponent(req.url.replace(/\?.*$/, ''));
                 const filePath = path.join(ROOT_DIR, relativePath);
+                const safeRealPath = fs.existsSync(filePath)
+                    ? resolveSafeRealPath(path.join(ROOT_DIR, 'skills'), filePath)
+                    : null;
 
-                const resolved = path.resolve(filePath);
-                if (!resolved.startsWith(path.join(ROOT_DIR, 'skills'))) return next();
+                if (!safeRealPath) return next();
 
-                if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+                if (fs.statSync(safeRealPath).isFile()) {
                     const ext = path.extname(filePath).toLowerCase();
                     res.setHeader('Content-Type', MIME_TYPES[ext] || 'application/octet-stream');
-                    fs.createReadStream(filePath).pipe(res);
+                    fs.createReadStream(safeRealPath).pipe(res);
                 } else {
                     next();
                 }
