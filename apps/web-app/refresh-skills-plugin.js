@@ -4,6 +4,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
+import crypto from 'crypto';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,6 +43,57 @@ function isGitAvailable() {
         _gitAvailable = false;
     }
     return _gitAvailable;
+}
+
+function normalizeHost(hostValue = '') {
+    return String(hostValue).trim().toLowerCase().replace(/^\[|\]$/g, '');
+}
+
+function isLoopbackHost(hostname) {
+    const host = normalizeHost(hostname);
+    return host === 'localhost'
+        || host === '::1'
+        || host.startsWith('127.');
+}
+
+function getRequestHost(req) {
+    const hostHeader = req.headers?.host || '';
+
+    if (!hostHeader) {
+        return '';
+    }
+
+    try {
+        return new URL(`http://${hostHeader}`).hostname;
+    } catch {
+        return normalizeHost(hostHeader);
+    }
+}
+
+function isDevLoopbackRequest(req) {
+    return isLoopbackHost(getRequestHost(req));
+}
+
+function isTokenAuthorized(req) {
+    const expectedToken = (process.env.SKILLS_REFRESH_TOKEN || '').trim();
+
+    if (!expectedToken) {
+        return true;
+    }
+
+    const providedToken = req.headers?.['x-skills-refresh-token'];
+    if (typeof providedToken !== 'string' || !providedToken) {
+        return false;
+    }
+
+    const expected = Buffer.from(expectedToken);
+    const provided = Buffer.from(providedToken);
+
+    if (expected.length !== provided.length) {
+        return false;
+    }
+
+    return crypto.timingSafeEqual(expected, provided);
 }
 
 /** Run a git command in the project root. */
@@ -272,9 +324,27 @@ export default function refreshSkillsPlugin() {
                     return;
                 }
 
+                if (!req.headers?.host || !req.headers?.origin) {
+                    res.statusCode = 400;
+                    res.end(JSON.stringify({ success: false, error: 'Missing request host or origin headers' }));
+                    return;
+                }
+
+                if (!isDevLoopbackRequest(req)) {
+                    res.statusCode = 403;
+                    res.end(JSON.stringify({ success: false, error: 'Only local loopback requests are allowed' }));
+                    return;
+                }
+
                 if (!isAllowedDevOrigin(req)) {
                     res.statusCode = 403;
                     res.end(JSON.stringify({ success: false, error: 'Forbidden origin' }));
+                    return;
+                }
+
+                if (!isTokenAuthorized(req)) {
+                    res.statusCode = 401;
+                    res.end(JSON.stringify({ success: false, error: 'Invalid or missing refresh token' }));
                     return;
                 }
 

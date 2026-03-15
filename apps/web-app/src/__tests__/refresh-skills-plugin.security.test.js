@@ -62,6 +62,7 @@ async function loadRefreshHandler() {
 describe('refresh-skills plugin security', () => {
   beforeEach(() => {
     execSync.mockClear();
+    delete process.env.SKILLS_REFRESH_TOKEN;
   });
 
   it('rejects GET requests for the sync endpoint', async () => {
@@ -94,5 +95,88 @@ describe('refresh-skills plugin security', () => {
     await handler(req, res);
 
     expect(res.statusCode).toBe(403);
+  });
+
+  it('rejects non-loopback POST requests for the sync endpoint', async () => {
+    const handler = await loadRefreshHandler();
+    const req = {
+      method: 'POST',
+      headers: {
+        host: '192.168.1.1:5173',
+        origin: 'http://192.168.1.1:5173',
+      },
+    };
+    const res = createResponse();
+
+    await handler(req, res);
+
+    expect(res.statusCode).toBe(403);
+    expect(JSON.parse(res.body).error).toMatch('loopback');
+  });
+
+  it('rejects token-less requests when refresh token is configured', async () => {
+    process.env.SKILLS_REFRESH_TOKEN = 'super-secret-token';
+    const handler = await loadRefreshHandler();
+    const req = {
+      method: 'POST',
+      headers: {
+        host: 'localhost:5173',
+        origin: 'http://localhost:5173',
+      },
+    };
+    const res = createResponse();
+
+    await handler(req, res);
+
+    expect(res.statusCode).toBe(401);
+  });
+
+  it('accepts local requests by default without a refresh token', async () => {
+    const handler = await loadRefreshHandler();
+    const req = {
+      method: 'POST',
+      headers: {
+        host: 'localhost:5173',
+        origin: 'http://localhost:5173',
+      },
+    };
+    const res = createResponse();
+
+    await handler(req, res);
+
+    expect(res.statusCode).toBe(200);
+    expect(JSON.parse(res.body).success).toBe(true);
+  });
+
+  it('accepts IPv6 loopback requests by default without a refresh token', async () => {
+    const handler = await loadRefreshHandler();
+    const req = {
+      method: 'POST',
+      headers: {
+        host: '[::1]:5173',
+        origin: 'http://[::1]:5173',
+      },
+    };
+    const res = createResponse();
+
+    await handler(req, res);
+
+    expect(res.statusCode).toBe(200);
+    expect(JSON.parse(res.body).success).toBe(true);
+  });
+
+  it('rejects POST requests with missing host/origin headers', async () => {
+    const handler = await loadRefreshHandler();
+    const req = {
+      method: 'POST',
+      headers: {
+        host: 'localhost:5173',
+      },
+    };
+    const res = createResponse();
+
+    await handler(req, res);
+
+    expect(res.statusCode).toBe(400);
   });
 });
