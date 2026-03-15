@@ -9,6 +9,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [7.9.1] - 2026-03-15 - "Security Hardening Follow-up"
+
+> **Follow-up release to 7.9.0: same security batch, additional hardening focused on mutating endpoints, markdown rendering, and doc-risk enforcement**
+
+This release is a companion follow-up to `7.9.0` and applies security controls for the web app runtime, runtime refresh endpoint, and documentation quality gates.
+
+## New Skills
+
+- **None in this release** — this is a follow-up security maintenance release.
+
+## Improvements
+
+- **Endpoint hardening (mutating API)**: The `/api/refresh-skills` endpoint is now protected by strict local-only ingress rules, explicit token support (`SKILLS_REFRESH_TOKEN` when configured), explicit method validation, and explicit host/Origin checks before any state-changing logic runs.
+- **Front-end hardening**: Added POST-only sync from UI and removed unsafe HTML passthrough (`rehype-raw`) from `SkillDetail`, reducing the runtime XSS surface.
+- **Documentation risk controls**: Added a full-repo `SKILL.md` security scan for dangerous command patterns (`curl|bash`, `wget|sh`, `irm|iex`, obvious command-line token examples), with opt-in comment allowlisting.
+- **Security test coverage**: Added dedicated security tests for endpoint authorization/host/token behavior and markdown rendering behavior, and wired docs security checks into the shared test and CI pipeline.
+- **Tooling robustness**: Improved YAML date normalization for frontmatter parsing and index generation so unquoted ISO dates remain stable as strings across tooling.
+
+## Credits
+
+- **Internal security hardening pass** covering endpoint, rendering, and docs scanning controls.
+
 ## [7.9.0] - 2026-03-15 - "Codex Security Remediation Sweep"
 
 > **Verified and remediated the active security batch on `main`, with triage and fixes delivered thanks to Codex Security with Codex for OSS**
