@@ -9,6 +9,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [7.9.0] - 2026-03-15 - "Codex Security Remediation Sweep"
+
+> **Verified and remediated the active security batch on `main`, with triage and fixes delivered thanks to Codex Security with Codex for OSS**
+
+This release is a focused security maintenance cut. We used Codex Security with Codex for OSS as the triage input, verified every reported finding against the current default branch, collapsed duplicates and obsolete reports, then shipped the confirmed fixes in remediation buckets before merging the final set onto `main`.
+
+## New Skills
+
+- **None in this release** — `7.9.0` is intentionally a security and maintenance release.
+
+## Improvements
+
+- **Filesystem trust boundaries**: Hardened path, symlink, and archive extraction handling across setup, install, sync, metadata, normalization, indexing, and local dev serving flows.
+- **Auth and integrity defaults**: Disabled shared frontend star writes by default unless explicitly enabled, and restored TLS verification defaults in the `junta-leiloeiros` scrapers with an explicit opt-out for insecure targets.
+- **Shell safety**: Removed pipe-to-shell and token-on-command-line guidance from the Apify docs, and fixed the audio transcription example so shell values are no longer interpolated directly into Python source.
+- **Robustness fixes**: Rejected non-mapping YAML frontmatter in validation paths, moved local state files out of predictable shared `/tmp` locations, repaired malformed metadata, and removed committed Python bytecode artifacts.
+- **Regression coverage**: Added focused JS, Python, and web-app tests that prove the remediations and guard the reported root causes from reappearing.
+- **Security triage artifacts**: Added maintainer-facing triage outputs at `docs/maintainers/security-findings-triage-2026-03-15.{md,csv}` documenting all 33 findings, including why each one was still valid, duplicate, or obsolete on `HEAD`.
+
+## Credits
+
+- **Codex Security with Codex for OSS** for surfacing and structuring the security batch that drove this release.
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
 ## [7.8.0] - 2026-03-14 - "Marketplace & Merge Sweep"
 
 > **Merged seven community PRs, added Claude Code marketplace manifests, and finished the maintainer sync/release pass**
