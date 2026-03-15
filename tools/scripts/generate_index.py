@@ -2,6 +2,7 @@ import os
 import json
 import re
 import sys
+from collections.abc import Mapping
 
 import yaml
 from _project_paths import find_repo_root
@@ -41,7 +42,11 @@ def parse_frontmatter(content):
     sanitized_yaml = '\n'.join(sanitized_lines)
     
     try:
-        return yaml.safe_load(sanitized_yaml) or {}
+        parsed = yaml.safe_load(sanitized_yaml) or {}
+        if not isinstance(parsed, Mapping):
+            print("⚠️ YAML frontmatter must be a mapping/object")
+            return {}
+        return dict(parsed)
     except yaml.YAMLError as e:
         print(f"⚠️ YAML parsing error: {e}")
         return {}
@@ -56,6 +61,9 @@ def generate_index(skills_dir, output_file):
         
         if "SKILL.md" in files:
             skill_path = os.path.join(root, "SKILL.md")
+            if os.path.islink(skill_path):
+                print(f"⚠️ Skipping symlinked SKILL.md: {skill_path}")
+                continue
             dir_name = os.path.basename(root)
             parent_dir = os.path.basename(os.path.dirname(root))
             
