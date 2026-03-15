@@ -178,7 +178,6 @@ These skills are continuously reviewed and hardened, but the collection is not "
 - A repo-wide `SKILL.md` security scan checks for high-risk command patterns (for example `curl|bash`, `wget|sh`, `irm|iex`, command-line token examples) with explicit allowlisting for deliberate exceptions.
 - Maintainer-facing tooling has additional path/symlink checks and parser robustness guards for safer sync, index, and install operations.
 - Security test coverage for endpoint authorization, rendering safety, and doc-risk patterns is part of the normal CI/release validation flow.
-- For the release history and details of the current hardening run, see [MAINTENANCE](.github/MAINTENANCE.md), [CHANGELOG](CHANGELOG.md), and [security findings triage](docs/maintainers/security-findings-triage-2026-03-15.md).
 
 ---
 
