@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## Maintenance Batch
+
+- Merged eight open community PRs via GitHub squash merge after maintainer refresh, checklist normalization, and green CI: `#321` (`webapp-uat`), `#318` (star history asset refresh), `#317` (`ai-native-cli`), `#320` (`awt`), `#314` (`ai-engineering-toolkit`), `#319` (activation-script/docs cleanup), `#305` (`analyze-project` frontmatter repair), and `#322` (`comprehensive-review-pr-enhance` + skill-review CI).
+- Refreshed contributor branches against `origin/main`, resolved the `#318` README conflict by keeping the registry-managed README and preserving the intended asset update, and trimmed unrelated README churn from `#319` before merge.
+- Repaired invalid source content in `#305` by restoring valid YAML frontmatter for `skills/analyze-project/SKILL.md`, then reran validation before merging.
+- Approved and re-triggered required GitHub Actions runs where needed so every merged PR landed with passing `artifact-preview`, `pr-policy`, and `source-validation` checks, plus `review` for `#322`.
+
 ## [7.9.2] - 2026-03-15 - "npm CLI Packaging Fix"
 
 > **Patch release to fix the published npm CLI bundle so `npx antigravity-awesome-skills` resolves its runtime helper modules correctly**
