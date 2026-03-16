@@ -344,6 +344,17 @@ That guide includes:
 - the storage folders that usually need to be cleared
 - an optional batch helper adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274)
 
+### Fixing agent overload (activation scripts)
+
+If your agent is struggling with context window limits due to too many loaded skills, use the activation script. It keeps the full library in a separate archive folder and only activates the bundles or skills you need into the live Antigravity skills directory.
+
+Windows example from the repository root:
+
+```bat
+.\scripts\activate-skills.bat "Web Wizard" "Integration & APIs"
+.\scripts\activate-skills.bat --clear
+```
+
 ## Web App
 
 The web app is the fastest way to navigate a large repository like this.
