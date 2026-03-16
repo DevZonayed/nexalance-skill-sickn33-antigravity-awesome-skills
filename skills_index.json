@@ -340,6 +340,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "ai-engineering-toolkit",
+    "path": "skills/ai-engineering-toolkit",
+    "category": "data-ai",
+    "name": "ai-engineering-toolkit",
+    "description": "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching.",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": "2026-03-15"
+  },
+  {
     "id": "ai-md",
     "path": "skills/ai-md",
     "category": "uncategorized",
@@ -358,6 +368,16 @@
     "risk": "safe",
     "source": "personal",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "ai-native-cli",
+    "path": "skills/ai-native-cli",
+    "category": "uncategorized",
+    "name": "ai-native-cli",
+    "description": "Design spec with 98 rules for building CLI tools that AI agents can safely use. Covers structured JSON output, error handling, input contracts, safety guardrails, exit codes, and agent self-description.",
+    "risk": "safe",
+    "source": "https://github.com/ChaosRealmsAI/agent-cli-spec",
+    "date_added": "2026-03-15"
   },
   {
     "id": "ai-product",
@@ -1178,6 +1198,16 @@
     "risk": "safe",
     "source": "https://github.com/zxkane/aws-skills",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "awt-e2e-testing",
+    "path": "skills/awt-e2e-testing",
+    "category": "uncategorized",
+    "name": "awt-e2e-testing",
+    "description": "AI-powered E2E web testing \u2014 eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "azd-deployment",
@@ -3524,10 +3554,10 @@
     "path": "skills/comprehensive-review-pr-enhance",
     "category": "uncategorized",
     "name": "comprehensive-review-pr-enhance",
-    "description": "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and e...",
+    "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for reviewers.",
     "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "computer-use-agents",
