@@ -9,12 +9,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## Maintenance Batch
+## [8.0.0] - 2026-03-16 - "Community Merge Sweep"
 
-- Merged eight open community PRs via GitHub squash merge after maintainer refresh, checklist normalization, and green CI: `#321` (`webapp-uat`), `#318` (star history asset refresh), `#317` (`ai-native-cli`), `#320` (`awt`), `#314` (`ai-engineering-toolkit`), `#319` (activation-script/docs cleanup), `#305` (`analyze-project` frontmatter repair), and `#322` (`comprehensive-review-pr-enhance` + skill-review CI).
-- Refreshed contributor branches against `origin/main`, resolved the `#318` README conflict by keeping the registry-managed README and preserving the intended asset update, and trimmed unrelated README churn from `#319` before merge.
-- Repaired invalid source content in `#305` by restoring valid YAML frontmatter for `skills/analyze-project/SKILL.md`, then reran validation before merging.
-- Approved and re-triggered required GitHub Actions runs where needed so every merged PR landed with passing `artifact-preview`, `pr-policy`, and `source-validation` checks, plus `review` for `#322`.
+> **Merged eight maintainer-refreshed community PRs, shipped three new skills plus workflow automation improvements, and synced the repository for the next release train**
+
+This release closes the open PR maintenance batch in one pass. It adds new skills for agent-native CLI work, AI-assisted end-to-end testing, and AI engineering workflows; strengthens the review workflow with a dedicated skill-review check; repairs the `analyze-project` skill content; and ships helper scripts plus documentation for resolving activation/context overload issues on local installs.
+
+## New Skills
+
+- **ai-native-cli** — build agent-friendly CLIs with clearer UX, task flows, and distribution guidance (PR #317)
+- **awt-e2e-testing** — AI-powered end-to-end testing patterns and beta workflow guidance (PR #320)
+- **ai-engineering-toolkit** — AI engineering workflow kit for production-oriented implementation loops (PR #314)
+
+## Improvements
+
+- **PR maintenance batch**: Merged PRs #321, #318, #317, #320, #314, #319, #305, and #322 via GitHub squash merge after maintainer refresh, checklist normalization, and green CI.
+- **Credits & sources**: Added `tsilverberg/webapp-uat` to `README.md` as a credited external source and refreshed the repository star history asset (PRs #321 and #318).
+- **Tooling and troubleshooting**: Added `scripts/activate-skills.bat`, `tools/scripts/get-bundle-skills.py`, and related README troubleshooting guidance for activation-script and context-overload recovery (PR #319).
+- **Skill quality repairs**: Restored valid YAML frontmatter and cleaned the structure of `skills/analyze-project/SKILL.md`, preserving the substantive workflow improvements from the contribution (PR #305).
+- **Review workflow hardening**: Improved `skills/comprehensive-review-pr-enhance/SKILL.md` and added a pinned `skill-review` GitHub Actions workflow for PRs that touch `SKILL.md` files (PR #322).
+- **Registry and release sync**: Realigned README/package metadata and generated registry artifacts around the current `1,262+` skill inventory before cutting the release.
+
+## Credits
+
+- **[@tsilverberg](https://github.com/tsilverberg)** for the `webapp-uat` source attribution in PR #321
+- **[@Marvin19700118](https://github.com/Marvin19700118)** for the star-history refresh in PR #318
+- **[@ChaosRealmsAI](https://github.com/ChaosRealmsAI)** for `ai-native-cli` in PR #317
+- **[@ksgisang](https://github.com/ksgisang)** for `awt-e2e-testing` in PR #320
+- **[@viliawang-pm](https://github.com/viliawang-pm)** for `ai-engineering-toolkit` in PR #314
+- **[@AssassinMaeve](https://github.com/AssassinMaeve)** for the activation-script helpers in PR #319
+- **[@Gizzant](https://github.com/Gizzant)** for the `analyze-project` update in PR #305
+- **[@fernandezbaptiste](https://github.com/fernandezbaptiste)** for the review workflow enhancement in PR #322
 
 ## [7.9.2] - 2026-03-15 - "npm CLI Packaging Fix"
 

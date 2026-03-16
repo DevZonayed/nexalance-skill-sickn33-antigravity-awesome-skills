@@ -591,6 +591,13 @@ We officially thank the following contributors for their help in making this rep
 - [@jonathimer](https://github.com/jonathimer)
 - [@qcwssss](https://github.com/qcwssss)
 - [@rcigor](https://github.com/rcigor)
+- [@tsilverberg](https://github.com/tsilverberg)
+- [@Marvin19700118](https://github.com/Marvin19700118)
+- [@ChaosRealmsAI](https://github.com/ChaosRealmsAI)
+- [@ksgisang](https://github.com/ksgisang)
+- [@viliawang-pm](https://github.com/viliawang-pm)
+- [@AssassinMaeve](https://github.com/AssassinMaeve)
+- [@fernandezbaptiste](https://github.com/fernandezbaptiste)
 
 ---
 
