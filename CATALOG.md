@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1262
+Total skills: 1263
 
 ## architecture (82)
 
@@ -928,7 +928,7 @@ matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius
 | `yann-lecun-tecnico` | Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervise... | persona, cnn, jepa, self-supervised, pytorch | persona, cnn, jepa, self-supervised, pytorch, yann, lecun, tecnico, sub, skill, cnica, de |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (135)
+## infrastructure (136)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1049,6 +1049,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `performance-engineer` | Expert performance engineer specializing in modern observability, | performance | performance, engineer, specializing, observability |
 | `performance-testing-review-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | performance, ai | performance, ai, testing, review, powered, code, combining, automated, static, analysis, intelligent, recognition |
 | `pipedrive-automation` | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search... | pipedrive | pipedrive, automation, automate, crm, operations, including, deals, contacts, organizations, activities, notes, pipeline |
+| `progressive-web-app` | Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web ... | pwa, web-dev, service-worker, frontend, offline, caching | pwa, web-dev, service-worker, frontend, offline, caching, progressive, web, app, apps, pwas, installability |
 | `project-development` | This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or men... |  | development, skill, should, used, user, asks, start, llm, batch, pipeline, evaluate, task |
 | `prometheus-configuration` | Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, ... | prometheus, configuration | prometheus, configuration, set, up, metric, collection, storage, monitoring, infrastructure, applications, implementing, metrics |
 | `protocol-reverse-engineering` | Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network tra... | protocol, reverse, engineering | protocol, reverse, engineering, network, including, packet, analysis, dissection, custom, documentation, analyzing, traffic |

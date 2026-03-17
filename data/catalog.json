@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1262,
+  "total": 1263,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -22921,6 +22921,35 @@
         "agent"
       ],
       "path": "skills/progressive-estimation/SKILL.md"
+    },
+    {
+      "id": "progressive-web-app",
+      "name": "progressive-web-app",
+      "description": "Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their web app to work offline, feel native, or be installable.",
+      "category": "infrastructure",
+      "tags": [
+        "pwa",
+        "web-dev",
+        "service-worker",
+        "frontend",
+        "offline",
+        "caching"
+      ],
+      "triggers": [
+        "pwa",
+        "web-dev",
+        "service-worker",
+        "frontend",
+        "offline",
+        "caching",
+        "progressive",
+        "web",
+        "app",
+        "apps",
+        "pwas",
+        "installability"
+      ],
+      "path": "skills/progressive-web-app/SKILL.md"
     },
     {
       "id": "project-development",
