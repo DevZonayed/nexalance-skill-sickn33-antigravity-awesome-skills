@@ -5394,7 +5394,7 @@
     "path": "skills/fixing-metadata",
     "category": "uncategorized",
     "name": "fixing-metadata",
-    "description": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags,...",
+    "description": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags,...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -5994,7 +5994,7 @@
     "path": "skills/gmail-automation",
     "category": "uncategorized",
     "name": "gmail-automation",
-    "description": "Interact with Gmail - search emails, read messages, send emails, create drafts, and manage labels.\nUse when user asks to: search email, read email, send email, create email draft, mark as read,\narchive email, star email, or manage Gmail labels. Lightweight alternative...",
+    "description": "Interact with Gmail - search emails, read messages, send emails, create drafts, and manage labels.\nUse when user asks to: search email, read email, send email, create email draft, mark as read,\narchive email, star email, or manage Gmail labels. Lightweight alternative...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -6084,7 +6084,7 @@
     "path": "skills/google-calendar-automation",
     "category": "uncategorized",
     "name": "google-calendar-automation",
-    "description": "Interact with Google Calendar - list calendars, view events, create/update/delete events, and find free time.\nUse when user asks to: check calendar, schedule a meeting, create an event, find available time, list upcoming events,\ndelete or update a calendar event, or...",
+    "description": "Interact with Google Calendar - list calendars, view events, create/update/delete events, and find free time.\nUse when user asks to: check calendar, schedule a meeting, create an event, find available time, list upcoming events,\ndelete or update a calendar event, or...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -6094,7 +6094,7 @@
     "path": "skills/google-docs-automation",
     "category": "uncategorized",
     "name": "google-docs-automation",
-    "description": "Interact with Google Docs - create documents, search by title, read content, and edit text.\nUse when user asks to: create a Google Doc, find a document, read doc content, add text to a doc,\nor replace text in a document. Lightweight alternative to full Google...",
+    "description": "Interact with Google Docs - create documents, search by title, read content, and edit text.\nUse when user asks to: create a Google Doc, find a document, read doc content, add text to a doc,\nor replace text in a document. Lightweight alternative to full Google...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -6104,7 +6104,7 @@
     "path": "skills/google-drive-automation",
     "category": "uncategorized",
     "name": "google-drive-automation",
-    "description": "Interact with Google Drive - search files, find folders, list contents, download files, upload files,\ncreate folders, move, copy, rename, and trash files. Use when user asks to: search Google Drive,\nfind a file/folder, list Drive contents, download or upload files,...",
+    "description": "Interact with Google Drive - search files, find folders, list contents, download files, upload files,\ncreate folders, move, copy, rename, and trash files. Use when user asks to: search Google Drive,\nfind a file/folder, list Drive contents, download or upload files,...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -6124,7 +6124,7 @@
     "path": "skills/google-slides-automation",
     "category": "uncategorized",
     "name": "google-slides-automation",
-    "description": "Read and write Google Slides presentations - get text, find presentations, create presentations, add slides,\nreplace text, and manage slide content. Use when user asks to: read a presentation, create slides, find slides,\nadd a slide, replace text in a presentation, or...",
+    "description": "Read and write Google Slides presentations - get text, find presentations, create presentations, add slides,\nreplace text, and manage slide content. Use when user asks to: read a presentation, create slides, find slides,\nadd a slide, replace text in a presentation, or...\n",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
