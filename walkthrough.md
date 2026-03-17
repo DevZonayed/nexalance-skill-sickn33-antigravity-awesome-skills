@@ -1,3 +1,21 @@
+# Maintenance Walkthrough - 2026-03-17
+
+- Synced `main` after the six merged community PRs and re-verified all forked PR workflows through GitHub before final release prep.
+- Reopened/approved forked GitHub Actions runs where needed, normalized missing PR quality checklists, and merged PRs `#331`, `#330`, `#326`, `#324`, `#325`, and `#329` with GitHub squash merge.
+- Patched `skills/vibers-code-review/SKILL.md` on the contributor branch for PR `#325` so the skill had valid YAML frontmatter, a `When to Use` section, and explicit limitations; reran CI and merged after green checks.
+- Closed issue `#327` with a release comment pointing to `#331`, and closed issue `#328` as a duplicate of `#269` with links to the README recovery guidance and `docs/users/windows-truncation-recovery.md`.
+- Updated release-facing docs before cutting `v8.1.0`:
+  - `README.md`
+  - `docs/users/getting-started.md`
+  - `CHANGELOG.md`
+  - `walkthrough.md`
+- Refreshed the README contributor acknowledgements to include the latest merged contributors from the maintenance batch.
+- Release workflow to run for `8.1.0`:
+  - `npm run release:preflight`
+  - `npm run security:docs`
+  - `npm run release:prepare -- 8.1.0`
+  - `npm run release:publish -- 8.1.0`
+
 # Maintenance Walkthrough - 2026-03-12
 
 - Merged PRs `#277`, `#272`, `#275`, `#278`, and `#271` via GitHub squash merge after bringing contributor branches into a mergeable state and refreshing PR bodies against the quality checklist in `.github/MAINTENANCE.md`.

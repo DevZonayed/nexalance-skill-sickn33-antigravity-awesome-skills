@@ -9,6 +9,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [8.1.0] - 2026-03-17 - "PR Maintenance and Release Sync"
+
+> **Merged the active PR queue, added three new community skills, repaired metadata drift, and refreshed release-facing docs for the next tagged cut**
+
+This release completes the post-merge maintainer pass for the six open pull requests that landed after `8.0.0`. It adds new skills for progressive web apps, tRPC full-stack development, and external AI code review; repairs malformed YAML frontmatter in legacy skills; fixes a broken `data-scientist` reference; and refreshes README, contributor acknowledgements, and linked onboarding docs before the `v8.1.0` tag.
+
+## New Skills
+
+- **progressive-web-app** — practical PWA implementation guidance for manifests, service workers, caching, offline support, and installability (PR #324)
+- **vibers-code-review** — GitHub-based external human review workflow for AI-generated projects, including setup steps and integration guidance (PR #325)
+- **trpc-fullstack** — end-to-end type-safe API development patterns with tRPC across server, client, auth, and Next.js integration (PR #329)
+
+## Improvements
+
+- **PR maintenance batch**: Merged PRs #331, #330, #326, #324, #325, and #329 via GitHub squash merge after maintainer preflight, workflow approval for forked PRs, and green CI.
+- **Docs alignment**: Updated `docs/users/getting-started.md`, README release messaging, and release-facing notes so the public docs reflect the current post-merge state.
+- **Issue and reference hygiene**: Removed the dead `resources/implementation-playbook.md` reference from `skills/data-scientist/SKILL.md` (PR #331, closes #327) and closed the duplicate truncation report in issue `#328` against the documented fix path in issue `#269`.
+- **FAQ polish**: Aligned FAQ risk-label documentation and added `skill-review` troubleshooting guidance for contributors (PR #330).
+- **Legacy metadata repair**: Normalized malformed YAML frontmatter across `astropy`, `biopython`, `cirq`, `citation-management`, `fixing-metadata`, `gmail-automation`, `google-calendar-automation`, `google-docs-automation`, `google-drive-automation`, `google-sheets-automation`, `google-slides-automation`, `networkx`, `qiskit`, `seaborn`, `sympy`, and `varlock` (PR #326).
+- **Contributor flow hardening**: Repaired `skills/vibers-code-review/SKILL.md` on the contributor branch so the skill met repository validation rules before merge, then reran CI and merged normally (PR #325 maintainer refresh).
+- **Registry and release sync**: Refreshed generated registry artifacts, README counts, package metadata, contributor acknowledgements, and release automation inputs on `main` before tagging `v8.1.0`.
+
+## Credits
+
+- **[@suhaibjanjua](https://github.com/suhaibjanjua)** for the `data-scientist` broken-reference fix in PR #331, the FAQ and getting-started docs alignment in PR #330, and the new `trpc-fullstack` skill in PR #329
+- **[@BenZinaDaze](https://github.com/BenZinaDaze)** for the YAML frontmatter repair sweep in PR #326
+- **[@JaskiratAnand](https://github.com/JaskiratAnand)** for the new `progressive-web-app` skill in PR #324
+- **[@marsiandeployer](https://github.com/marsiandeployer)** for the initial `vibers-code-review` contribution in PR #325
+
 ## Documentation
 
 - Documented the new `skill-review` GitHub Actions workflow across contributor, maintainer, and README guidance so PR expectations stay aligned with the active CI surface for `SKILL.md` changes.

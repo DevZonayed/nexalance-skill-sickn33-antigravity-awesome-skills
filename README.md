@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,265+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Current release: V8.0.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V8.1.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 8.0.0) is a broad, production-oriented upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 8.1.0) is a maintenance-focused upgrade that ships three new community skills, repairs legacy metadata drift, and keeps the docs, review flow, and release path aligned.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -558,6 +558,10 @@ We officially thank the following contributors for their help in making this rep
 - [@Gizzant](https://github.com/Gizzant)
 - [@Digidai](https://github.com/Digidai)
 - [@dbhat93](https://github.com/dbhat93)
+- [@BenZinaDaze](https://github.com/BenZinaDaze)
+- [@JaskiratAnand](https://github.com/JaskiratAnand)
+- [@marsiandeployer](https://github.com/marsiandeployer)
+- [@suhaibjanjua](https://github.com/suhaibjanjua)
 - [@decentraliser](https://github.com/decentraliser)
 - [@MAIOStudio](https://github.com/MAIOStudio)
 - [@conorbronsdon](https://github.com/conorbronsdon)
