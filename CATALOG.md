@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1271
+Total skills: 1272
 
 ## architecture (82)
 
@@ -420,7 +420,7 @@ Scope::with_data, save state, load state, serde,
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (182)
+## development (183)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -536,6 +536,7 @@ Scope::with_data, save state, load state, serde,
 | `javascript-testing-patterns` | Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fi... | javascript | javascript, testing, jest, vitest, library, unit, tests, integration, mocking, fixtures, test, driven |
 | `javascript-typescript-typescript-scaffold` | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project st... | javascript, typescript | javascript, typescript, scaffold, architecture, specializing, scaffolding, node, js, frontend, applications, generate, complete |
 | `junta-leiloeiros` | Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON. | scraping, brazilian-data, auctioneers, api | scraping, brazilian-data, auctioneers, api, junta, leiloeiros, coleta, consulta, dados, de, oficiais, todas |
+| `landing-page-generator` | Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, ... | nextjs, react, tailwind, landing-page, marketing, seo, cro | nextjs, react, tailwind, landing-page, marketing, seo, cro, landing, page, generator, generates, high |
 | `launch-strategy` | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature r... | launch | launch, user, wants, plan, product, feature, announcement, release, mentions, hunt, go, market |
 | `m365-agents-ts` | Microsoft 365 Agents SDK for TypeScript/Node.js. | m365, agents, ts | m365, agents, ts, microsoft, 365, sdk, typescript, node, js |
 | `makepad-platform` | CRITICAL: Use for Makepad cross-platform support. Triggers on:

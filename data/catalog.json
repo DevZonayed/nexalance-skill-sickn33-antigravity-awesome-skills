@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1271,
+  "total": 1272,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -17342,6 +17342,36 @@
         "configurations"
       ],
       "path": "skills/kubernetes-deployment/SKILL.md"
+    },
+    {
+      "id": "landing-page-generator",
+      "name": "landing-page-generator",
+      "description": "Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "react",
+        "tailwind",
+        "landing-page",
+        "marketing",
+        "seo",
+        "cro"
+      ],
+      "triggers": [
+        "nextjs",
+        "react",
+        "tailwind",
+        "landing-page",
+        "marketing",
+        "seo",
+        "cro",
+        "landing",
+        "page",
+        "generator",
+        "generates",
+        "high"
+      ],
+      "path": "skills/landing-page-generator/SKILL.md"
     },
     {
       "id": "langchain-architecture",
