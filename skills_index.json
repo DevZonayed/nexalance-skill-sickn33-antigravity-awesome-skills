@@ -970,6 +970,16 @@
     "date_added": null
   },
   {
+    "id": "astro",
+    "path": "skills/astro",
+    "category": "frontend",
+    "name": "astro",
+    "description": "Build content-focused websites with Astro \u2014 zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
+  },
+  {
     "id": "astropy",
     "path": "skills/astropy",
     "category": "uncategorized",
@@ -6380,6 +6390,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "hono",
+    "path": "skills/hono",
+    "category": "backend",
+    "name": "hono",
+    "description": "Build ultra-fast web APIs and full-stack apps with Hono \u2014 runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
+  },
+  {
     "id": "hosted-agents",
     "path": "skills/hosted-agents",
     "category": "uncategorized",
@@ -9360,6 +9380,16 @@
     "date_added": null
   },
   {
+    "id": "pydantic-ai",
+    "path": "skills/pydantic-ai",
+    "category": "ai-agents",
+    "name": "pydantic-ai",
+    "description": "Build production-ready AI agents with PydanticAI \u2014 type-safe tool use, structured outputs, dependency injection, and multi-model support.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
+  },
+  {
     "id": "pydantic-models-py",
     "path": "skills/pydantic-models-py",
     "category": "uncategorized",
@@ -11038,6 +11068,16 @@
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
+  },
+  {
+    "id": "sveltekit",
+    "path": "skills/sveltekit",
+    "category": "frontend",
+    "name": "sveltekit",
+    "description": "Build full-stack web applications with SvelteKit \u2014 file-based routing, SSR, SSG, API routes, and form actions in one framework.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
   },
   {
     "id": "swiftui-expert-skill",

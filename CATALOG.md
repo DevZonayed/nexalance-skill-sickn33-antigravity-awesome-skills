@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1265
+Total skills: 1269
 
 ## architecture (82)
 
@@ -170,7 +170,7 @@ calculations | startup, business, analyst, market, opportunity | startup, busine
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (233)
+## data-ai (234)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -364,6 +364,7 @@ applications. | php | php, pro, write, idiomatic, code, generators, iterators, s
 | `progressive-estimation` | Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops | estimation, project-management, pert, sprint-planning, ai-agents | estimation, project-management, pert, sprint-planning, ai-agents, progressive, estimate, ai, assisted, hybrid, human, agent |
 | `prompt-caching` | Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache... | prompt, caching | prompt, caching, llm, prompts, including, anthropic, response, cag, cache, augmented, generation, augm |
 | `prompt-engineering-patterns` | Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, impro... | prompt, engineering | prompt, engineering, techniques, maximize, llm, performance, reliability, controllability, optimizing, prompts, improving, outputs |
+| `pydantic-ai` | Build production-ready AI agents with PydanticAI — type-safe tool use, structured outputs, dependency injection, and multi-model support. | pydantic-ai, ai-agents, llm, openai, anthropic, gemini, tool-use, structured-output, python | pydantic-ai, ai-agents, llm, openai, anthropic, gemini, tool-use, structured-output, python, pydantic, ai, agents |
 | `pydantic-models-py` | Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schem... | pydantic, models, py | pydantic, models, py, following, multi, model, base, update, response, indb, variants, defining |
 | `rag-engineer` | Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LL... | rag | rag, engineer, building, retrieval, augmented, generation, masters, embedding, models, vector, databases, chunking |
 | `rag-implementation` | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimiza... | rag | rag, retrieval, augmented, generation, covering, embedding, selection, vector, database, setup, chunking, optimization |
@@ -418,7 +419,7 @@ Scope::with_data, save state, load state, serde,
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (180)
+## development (182)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -525,6 +526,7 @@ Scope::with_data, save state, load state, serde,
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
 | `go-rod-master` | Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. | go, rod, master | go, rod, master, browser, automation, web, scraping, chrome, devtools, protocol, including, stealth |
 | `golang-pro` | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. | golang | golang, pro, go, 21, concurrency, performance, optimization, microservices |
+| `hono` | Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime. | hono, edge, cloudflare-workers, bun, deno, api, typescript, web-standards | hono, edge, cloudflare-workers, bun, deno, api, typescript, web-standards, ultra, fast, web, apis |
 | `hubspot-integration` | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers... | hubspot, integration | hubspot, integration, crm, including, oauth, authentication, objects, associations, batch, operations, webhooks, custom |
 | `hugging-face-dataset-viewer` | Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet UR... | hugging, face, dataset, viewer | hugging, face, dataset, viewer, skill, api, fetch, subset, split, metadata, paginate, rows |
 | `hugging-face-evaluation` | Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis... | hugging, face, evaluation | hugging, face, evaluation, add, results, model, cards, supports, extracting, eval, tables, readme |
@@ -588,6 +590,7 @@ no matching field, parse error, widget... | makepad, reference | makepad, refere
 | `slack-bot-builder` | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event h... | slack, bot, builder | slack, bot, builder, apps, bolt, framework, python, javascript, java, covers, block, kit |
 | `sred-work-summary` | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. | sred, work, summary | sred, work, summary, go, back, through, previous, year, notion, doc, groups, relevant |
 | `statsmodels` | Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inf... | statsmodels | statsmodels, statistical, models, library, python, specific, model, classes, ols, glm, mixed, arima |
+| `sveltekit` | Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework. | svelte, sveltekit, fullstack, ssr, ssg, typescript | svelte, sveltekit, fullstack, ssr, ssg, typescript, full, stack, web, applications, file, routing |
 | `swiftui-expert-skill` | Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use w... | swiftui, skill | swiftui, skill, write, review, improve, code, following, state, view, composition, performance, ios |
 | `sympy` | Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebra... | sympy | sympy, skill, working, symbolic, mathematics, python, should, used, computation, tasks, including, solving |
 | `systems-programming-rust-project` | You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo to... | programming, rust | programming, rust, architecture, specializing, scaffolding, applications, generate, complete, structures, cargo, tooling, proper |
@@ -1075,7 +1078,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (149)
+## security (150)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1091,6 +1094,7 @@ distri... | makepad, deployment | makepad, deployment, critical, packaging, trig
 | `api-fuzzing-bug-bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetrat... | api, fuzzing, bug, bounty | api, fuzzing, bug, bounty, skill, should, used, user, asks, test, security, fuzz |
 | `api-security-best-practices` | Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities | api, security, best, practices | api, security, best, practices, secure, including, authentication, authorization, input, validation, rate, limiting |
 | `api-security-testing` | API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices. | api, security | api, security, testing, rest, graphql, apis, covering, authentication, authorization, rate, limiting, input |
+| `astro` | Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support. | astro, ssg, ssr, islands, content, markdown, mdx, performance | astro, ssg, ssr, islands, content, markdown, mdx, performance, websites, zero, js, default |
 | `attack-tree-construction` | Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to s... | attack, tree, construction | attack, tree, construction, trees, visualize, threat, paths, mapping, scenarios, identifying, defense, gaps |
 | `audit-context-building` | Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding. | audit, building | audit, building, context, enables, ultra, granular, line, code, analysis, deep, architectural, before |
 | `audit-skills` | Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks,... | security, audit, skills, bundles, cross-platform | security, audit, skills, bundles, cross-platform, auditor, ai, performs, non, intrusive, static, analysis |
