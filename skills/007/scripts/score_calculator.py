@@ -403,6 +403,19 @@ def redact_findings_for_report(findings: list[dict]) -> list[dict]:
     return redacted
 
 
+def build_safe_scanner_summaries(scanner_summaries: dict[str, dict]) -> dict[str, dict]:
+    """Return scanner summaries with primitive numeric values only."""
+    safe_summaries: dict[str, dict] = {}
+
+    for scanner_name, summary in scanner_summaries.items():
+        safe_summaries[scanner_name] = {
+            "findings": int(summary.get("findings", 0)),
+            "score": float(summary.get("score", 0)),
+        }
+
+    return safe_summaries
+
+
 def format_text_report(
     target: str,
     domain_scores: dict[str, float],
@@ -608,6 +621,9 @@ def run_score(
     all_findings_raw = secrets_findings + dep_findings + inj_findings + quick_findings
     all_findings = _deduplicate_findings(all_findings_raw)
     total_findings = len(all_findings)
+    safe_findings = redact_findings_for_report(all_findings)
+    safe_total_findings = len(safe_findings)
+    safe_scanner_summaries = build_safe_scanner_summaries(scanner_summaries)
 
     logger.info(
         "Aggregated %d raw findings -> %d unique (deduplicated)",
@@ -657,8 +673,8 @@ def run_score(
         result=f"final_score={final_score}, verdict={verdict['label']}",
         details={
             "domain_scores": domain_scores,
-            "total_findings": total_findings,
-            "scanner_summaries": scanner_summaries,
+            "total_findings": safe_total_findings,
+            "scanner_summaries": safe_scanner_summaries,
             "duration_seconds": round(elapsed, 3),
         },
     )
@@ -671,9 +687,9 @@ def run_score(
         domain_scores=domain_scores,
         final_score=final_score,
         verdict=verdict,
-        scanner_summaries=scanner_summaries,
+        scanner_summaries=safe_scanner_summaries,
         all_findings=all_findings,
-        total_findings=total_findings,
+        total_findings=safe_total_findings,
         elapsed=elapsed,
     )
 
@@ -685,8 +701,8 @@ def run_score(
             domain_scores=domain_scores,
             final_score=final_score,
             verdict=verdict,
-            scanner_summaries=scanner_summaries,
-            total_findings=total_findings,
+            scanner_summaries=safe_scanner_summaries,
+            total_findings=safe_total_findings,
             elapsed=elapsed,
         ))
 

@@ -67,7 +67,7 @@ async def handle_incoming_message(message: dict) -> None:
     from_number = message["from"]
     content = extract_message_content(message)
 
-    logger.info("Received WhatsApp message type=%s message_id=%s", content["type"], message["id"])
+    logger.info("Received WhatsApp message")
 
     # Mark as read
     await whatsapp.mark_as_read(message["id"])
@@ -84,7 +84,7 @@ async def handle_incoming_message(message: dict) -> None:
             await whatsapp.send_text(from_number, "Recebi sua escolha com sucesso.")
 
         case "image" | "document" | "video" | "audio":
-            await whatsapp.send_text(from_number, f"Recebi sua midia ({content['type']}).")
+            await whatsapp.send_text(from_number, "Recebi sua midia com sucesso.")
 
         case _:
             await whatsapp.send_text(from_number, "Desculpe, nao entendi. Como posso ajudar?")

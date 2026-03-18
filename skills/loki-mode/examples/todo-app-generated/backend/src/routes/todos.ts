@@ -1,11 +1,11 @@
 import { Router, Request, Response } from 'express';
+import { rateLimit } from 'express-rate-limit';
 import { getDatabase } from '../db';
 import { ApiResponse, Todo } from '../types/index';
 
 const router = Router();
 const WINDOW_MS = 60_000;
 const MAX_REQUESTS_PER_WINDOW = 60;
-const requestCounts = new Map<string, { count: number; resetAt: number }>();
 const db = getDatabase();
 
 type TodoRow = Omit<Todo, 'completed'> & { completed: number };
@@ -17,27 +17,15 @@ function toTodo(row: TodoRow): Todo {
   };
 }
 
-function rateLimit(req: Request, res: Response, next: () => void): void {
-  const now = Date.now();
-  const clientKey = req.ip || 'unknown';
-  const entry = requestCounts.get(clientKey);
-
-  if (!entry || entry.resetAt <= now) {
-    requestCounts.set(clientKey, { count: 1, resetAt: now + WINDOW_MS });
-    next();
-    return;
-  }
-
-  if (entry.count >= MAX_REQUESTS_PER_WINDOW) {
-    res.status(429).json({ error: 'Too many requests. Please retry later.' });
-    return;
-  }
-
-  entry.count += 1;
-  next();
-}
-
-router.use(rateLimit);
+router.use(
+  rateLimit({
+    windowMs: WINDOW_MS,
+    limit: MAX_REQUESTS_PER_WINDOW,
+    standardHeaders: 'draft-8',
+    legacyHeaders: false,
+    message: { error: 'Too many requests. Please retry later.' },
+  })
+);
 
 // GET /api/todos - Retrieve all todos
 router.get('/todos', (_req: Request, res: Response): void => {

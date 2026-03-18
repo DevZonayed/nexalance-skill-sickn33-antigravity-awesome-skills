@@ -95,7 +95,7 @@ def wait_for_oauth_code() -> Optional[str]:
     """Inicia servidor local e espera pelo código de autorização."""
     server = HTTPServer(("localhost", OAUTH_REDIRECT_PORT), OAuthCallbackHandler)
     server.timeout = 120  # 2 minutos
-    print(f"Aguardando autorização em http://localhost:{OAUTH_REDIRECT_PORT}/callback ...")
+    print("Aguardando autorização no callback OAuth local...")
     print("(Timeout: 2 minutos)\n")
 
     while OAuthCallbackHandler.authorization_code is None:
@@ -297,8 +297,7 @@ async def setup() -> None:
     )
 
     print("\nAbrindo browser para autorização...")
-    print(f"App ID em uso: {_mask_secret(app_id)}")
-    print("A URL de autorização não será exibida para evitar vazamento de credenciais.\n")
+    print("A URL de autorização e o App ID não serão exibidos para evitar vazamento de credenciais.\n")
     webbrowser.open(auth_url)
 
     # Esperar callback
