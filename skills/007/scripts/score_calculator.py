@@ -64,6 +64,17 @@ import quick_scan  # noqa: E402
 # ---------------------------------------------------------------------------
 logger = setup_logging("007-score-calculator")
 
+_SENSITIVE_FINDING_KEYS = {
+    "snippet",
+    "secret",
+    "token",
+    "password",
+    "access_token",
+    "app_secret",
+    "authorization_code",
+    "client_secret",
+}
+
 
 # ---------------------------------------------------------------------------
 # Positive-signal patterns (auth, encryption, resilience, monitoring)
@@ -360,6 +371,38 @@ def _bar(score: float, width: int = 20) -> str:
     return "[" + "#" * filled + "." * (width - filled) + "]"
 
 
+def _redact_report_value(value):
+    """Recursively redact sensitive values from report payloads."""
+    if isinstance(value, dict):
+        return {key: _redact_report_value(value[key]) for key in value}
+    if isinstance(value, list):
+        return [_redact_report_value(item) for item in value]
+    return value
+
+
+def redact_findings_for_report(findings: list[dict]) -> list[dict]:
+    """Return findings safe to serialize in user-facing reports."""
+    redacted: list[dict] = []
+
+    for finding in findings:
+        safe_finding: dict = {}
+        finding_type = str(finding.get("type", "")).lower()
+
+        for key, value in finding.items():
+            key_lower = key.lower()
+            if key_lower in _SENSITIVE_FINDING_KEYS:
+                safe_finding[key] = "[redacted]"
+                continue
+            if finding_type == "secret" and key_lower in {"entropy", "match", "raw", "value"}:
+                safe_finding[key] = "[redacted]"
+                continue
+            safe_finding[key] = _redact_report_value(value)
+
+        redacted.append(safe_finding)
+
+    return redacted
+
+
 def format_text_report(
     target: str,
     domain_scores: dict[str, float],
@@ -430,6 +473,7 @@ def build_json_report(
     elapsed: float,
 ) -> dict:
     """Build a structured JSON report."""
+    safe_findings = redact_findings_for_report(all_findings)
     return {
         "report": "score_calculator",
         "target": target,
@@ -444,7 +488,7 @@ def build_json_report(
             "emoji": verdict["emoji"],
         },
         "scanner_summaries": scanner_summaries,
-        "findings": all_findings,
+        "findings": safe_findings,
     }
 
 

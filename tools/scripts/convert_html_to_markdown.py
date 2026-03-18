@@ -129,8 +129,8 @@ def extract_markdown_from_html(html_content: str) -> Optional[str]:
 def convert_html_to_markdown(html: str) -> str:
     """Basic HTML to markdown conversion."""
     # Remove scripts and styles
-    html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
-    html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
+    html = re.sub(r'<script\b[^>]*>.*?</script\s*>', '', html, flags=re.DOTALL | re.IGNORECASE)
+    html = re.sub(r'<style\b[^>]*>.*?</style\s*>', '', html, flags=re.DOTALL | re.IGNORECASE)
     
     # Headings
     html = re.sub(r'<h1[^>]*>(.*?)</h1>', r'# \1', html, flags=re.DOTALL | re.IGNORECASE)
