@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Next release should include the merged `landing-page-generator` skill from PR #341. The PR landed after `v8.2.0` was already published, so it is intentionally not part of the `8.2.0` npm package.
+
 ## [8.2.0] - 2026-03-18 - "Community Skill Expansion and Plugin Repair"
 
 > **Added six community skills, repaired Claude marketplace metadata, and closed the 2026-03-18 maintainer sweep with refreshed release docs**
