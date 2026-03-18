@@ -1,4 +1,4 @@
-<!-- registry-sync: version=8.1.0; skills=1271; stars=25122; updated_at=2026-03-17T11:32:54+00:00 -->
+<!-- registry-sync: version=8.2.0; skills=1271; stars=25122; updated_at=2026-03-17T11:32:54+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,271+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,271+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -20,7 +20,7 @@
 
 **Antigravity Awesome Skills** is a curated, battle-tested library of **1,271+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
 
-**Current release: V8.1.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V8.2.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 8.1.0) is a maintenance-focused upgrade that ships three new community skills, repairs legacy metadata drift, and keeps the docs, review flow, and release path aligned.
+**Antigravity Awesome Skills** (Release 8.2.0) adds six community skills, repairs Claude marketplace metadata, fixes malformed skill content, and keeps the docs, credits, and release path aligned after the latest maintainer sweep.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -479,6 +479,11 @@ Made with [contrib.rocks](https://contrib.rocks). *(Image may be cached; [view l
 
 We officially thank the following contributors for their help in making this repository awesome!
 
+- [@JayeHarrill](https://github.com/JayeHarrill)
+- [@wd041216-bit](https://github.com/wd041216-bit)
+- [@Champbreed](https://github.com/Champbreed)
+- [@suhaibjanjua](https://github.com/suhaibjanjua)
+- [@Wolfe-Jam](https://github.com/Wolfe-Jam)
 - [@sck000](https://github.com/sck000)
 - [@github-actions[bot]](https://github.com/apps/github-actions)
 - [@sickn33](https://github.com/sickn33)
