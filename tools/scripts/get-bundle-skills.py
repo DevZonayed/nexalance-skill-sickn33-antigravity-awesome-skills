@@ -18,6 +18,7 @@ def format_skills_for_batch(skill_ids):
     safe_skill_ids = filter_safe_skill_ids(skill_ids)
     if not safe_skill_ids:
         return ""
+    # Use newline separator for robustness (avoiding Windows command line length limits)
     return "\n".join(safe_skill_ids) + "\n"
 
 
@@ -26,6 +27,7 @@ def get_bundle_skills(bundle_queries, bundles_path=None):
         bundles_path = Path(__file__).parent.parent.parent / "docs" / "users" / "bundles.md"
     else:
         bundles_path = Path(bundles_path)
+    
     if not bundles_path.exists():
         print(f"Error: {bundles_path} not found", file=sys.stderr)
         return []
@@ -55,6 +57,7 @@ def get_bundle_skills(bundle_queries, bundles_path=None):
                 selected_skills.add(query)
 
     return sorted(list(selected_skills))
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
