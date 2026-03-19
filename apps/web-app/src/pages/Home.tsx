@@ -255,7 +255,7 @@ export function Home(): React.ReactElement {
           </div>
         ) : (
           <VirtuosoGrid
-            style={{ height: '100%', minHeight: '100%' }}
+            useWindowScroll
             totalCount={filteredSkills.length}
             listClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pb-8 px-4"
             itemContent={(index) => {

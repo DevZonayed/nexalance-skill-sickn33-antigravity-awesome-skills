@@ -20,17 +20,19 @@ vi.mock('../../context/SkillContext', async (importOriginal) => {
   return { ...actual, useSkills: vi.fn() };
 });
 
+const virtuosoGridMock = vi.fn(({ totalCount, itemContent }: any) => (
+  <div data-testid="virtuoso-grid">
+    {Array.from({ length: totalCount || 0 }).map((_, index) => (
+      <div key={index} data-testid="skill-item">
+        {itemContent(index)}
+      </div>
+    ))}
+  </div>
+));
+
 // Mock VirtuosoGrid to render items normally for easier testing
 vi.mock('react-virtuoso', () => ({
-  VirtuosoGrid: ({ totalCount, itemContent }: any) => (
-    <div data-testid="virtuoso-grid">
-      {Array.from({ length: totalCount || 0 }).map((_, index) => (
-        <div key={index} data-testid="skill-item">
-          {itemContent(index)}
-        </div>
-      ))}
-    </div>
-  ),
+  VirtuosoGrid: (props: any) => virtuosoGridMock(props),
 }));
 
 describe('Home', () => {
@@ -71,6 +73,10 @@ describe('Home', () => {
         expect(screen.getByText('@Skill 1')).toBeInTheDocument();
         expect(screen.getByText('@Skill 2')).toBeInTheDocument();
       });
+
+      expect(virtuosoGridMock).toHaveBeenCalledWith(
+        expect.objectContaining({ useWindowScroll: true }),
+      );
     });
 
     it('should set homepage SEO metadata', async () => {
