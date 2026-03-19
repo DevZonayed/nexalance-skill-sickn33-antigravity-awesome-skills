@@ -21,8 +21,37 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
         try {
             // Fetch skills index
             const base = import.meta.env.BASE_URL;
-            const res = await fetch(`${base}skills.json`);
-            const data = await res.json();
+            const candidateUrls = [
+                `${base}skills.json`,
+                '/skills.json',
+                `${window.location.origin}/skills.json`,
+            ];
+
+            let data: Skill[] | null = null;
+            let lastError: Error | null = null;
+
+            for (const url of candidateUrls) {
+                try {
+                    const res = await fetch(url);
+                    if (!res.ok) {
+                        throw new Error(`Request failed (${res.status}) for ${url}`);
+                    }
+
+                    const parsed = await res.json();
+                    if (!Array.isArray(parsed) || parsed.length === 0) {
+                        throw new Error(`Invalid or empty payload from ${url}`);
+                    }
+
+                    data = parsed as Skill[];
+                    break;
+                } catch (err) {
+                    lastError = err instanceof Error ? err : new Error(String(err));
+                }
+            }
+
+            if (!Array.isArray(data)) {
+                throw lastError || new Error('Unable to load skills.json from any known source');
+            }
 
             // Incremental loading: set first 50 skills immediately if not a silent refresh
             if (!silent && data.length > 50) {
