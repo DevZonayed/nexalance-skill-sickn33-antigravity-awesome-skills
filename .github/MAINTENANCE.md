@@ -330,6 +330,129 @@ Preflight verification → Changelog → `npm run release:prepare -- X.Y.Z` → 
       gh issue close <ID> --comment "Shipped in vX.Y.Z. See CHANGELOG.md and release notes."
       ```
 
+### GitHub Release Notes Requirements
+
+Every published GitHub Release should work as a discovery page, not just an internal changelog dump.
+
+Required rules:
+
+1. Put the user-facing tool language early:
+   - mention Claude Code, Cursor, Codex CLI, Gemini CLI, or the specific supported tools that matter for that release.
+2. Add a short "Start here" block near the top:
+   - install command
+   - link to `README.md#choose-your-tool`
+   - link to `README.md#best-skills-by-tool`
+   - link to `docs/users/bundles.md`
+   - link to `docs/users/workflows.md`
+3. Keep the first paragraph readable to someone arriving from Google or GitHub Releases.
+4. Prefer plain ASCII section headers in release notes.
+5. Do not rewrite historical releases in bulk. Improve the latest release and all future releases.
+
+### GitHub Release Notes Template
+
+Use this structure for the published GitHub Release object:
+
+```markdown
+## [X.Y.Z] - YYYY-MM-DD - "User-facing title"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+[Brief paragraph explaining what changed and who the release helps.]
+
+## New Skills
+
+- **skill-name** - user-facing summary
+
+## Improvements
+
+- **Area**: user-facing improvement summary
+
+## Who should care
+
+- **Claude Code users** ...
+- **Cursor users** ...
+- **Codex CLI users** ...
+- **Gemini CLI users** ...
+
+## Credits
+
+- **@username** for `skill-name`
+
+Upgrade now: `git pull origin main` to fetch the latest skills.
+```
+
+### Social Preview
+
+If you set a repository social preview image on GitHub, keep these rules:
+
+- focus on the core value proposition;
+- mention the primary supported tools when helpful;
+- avoid dense text or tiny unreadable logos;
+- refresh it when repository positioning changes materially.
+
+Manual upload path on GitHub:
+
+1. Open the repository on GitHub.
+2. Go to **Settings**.
+3. Open the **Social preview** section.
+4. Upload the image you want to use.
+
+### Pinned Discussion Template
+
+Canonical onboarding discussion:
+
+- Title: `Start here: best skills by tool`
+- Current live discussion: `https://github.com/sickn33/antigravity-awesome-skills/discussions/361`
+
+When refreshing or recreating the pinned onboarding discussion, keep this structure:
+
+~~~markdown
+If you are new to **Antigravity Awesome Skills**, start here instead of browsing all skills at random.
+
+## Install in 1 minute
+
+```bash
+npx antigravity-awesome-skills
+```
+
+## Best starting pages by tool
+
+- Claude Code
+- Cursor
+- Codex CLI
+- Gemini CLI
+
+## Start with a bundle
+
+- Bundles
+- Workflows
+- Getting started
+- Usage guide
+
+## Best starter skills for most users
+
+- `@brainstorming`
+- `@lint-and-validate`
+- `@systematic-debugging`
+- `@create-pr`
+- `@security-auditor`
+
+## Compare before you install
+
+- comparison pages
+- best-of pages
+~~~
+
+If GitHub does not support pinning via API, create/update the discussion programmatically if possible and pin it manually in the UI.
+
 ### When to Close an Issue
 
 | Situation                                                | Action                                                                                         |
