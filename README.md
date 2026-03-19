@@ -1,4 +1,4 @@
-<!-- registry-sync: version=8.2.0; skills=1273; stars=25526; updated_at=2026-03-18T11:57:57+00:00 -->
+<!-- registry-sync: version=8.3.0; skills=1273; stars=25526; updated_at=2026-03-19T00:00:00+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,273+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 1,273+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
@@ -18,9 +18,7 @@
 [![Web App](https://img.shields.io/badge/Web%20App-Browse%20Skills-blue)](apps/web-app)
 [![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **1,273+ high-performance agentic skills** designed to work seamlessly across the major AI coding assistants.
-
-**Current release: V8.2.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V8.3.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
 
 ## Table of Contents
 
@@ -50,7 +48,7 @@
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 8.2.0) adds six community skills, repairs Claude marketplace metadata, fixes malformed skill content, and keeps the docs, credits, and release path aligned after the latest maintainer sweep.
+**Antigravity Awesome Skills** (Release 8.3.0) includes the latest maintainer sweep after `8.2.0`, including new onboarding assets, activation hardening, and the `landing-page-generator` and `MAXIA` marketplace-related updates.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.

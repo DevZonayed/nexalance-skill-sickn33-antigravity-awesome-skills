@@ -9,7 +9,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Next release should include the merged `landing-page-generator` skill from PR #341. The PR landed after `v8.2.0` was already published, so it is intentionally not part of the `8.2.0` npm package.
+*None pending.*
+
+## [8.3.0] - 2026-03-19 - "Activation and Skill Expansion"
+
+> **A focused follow-up release for post-8.2.0 reliability, metadata, and marketplace improvements**
+
+This release completes the post-`v8.2.0` maintainer batch by shipping the `landing-page-generator` skill, adding the MAXIA AI-to-AI marketplace guidance, and addressing activation security and metadata stability improvements introduced by late-cycle contributor work.
+
+## New Skills
+
+- **landing-page-generator** — high-converting landing page skillset and campaign-ready templates for product launches and marketing work (PR #341)
+- **maxia-ai-to-ai** — AI-to-AI marketplace interaction skill updates and onboarding guidance (PR #359)
+
+## Improvements
+
+- **Agent safety and activation hardening**: Updated `MAXIA` and activation-related metadata/flows to reduce startup and loading issues across local and plugin-based contexts (PR #359).
+- **Agentic skill metadata quality**: Fixed `agentic-auditor` frontmatter to align risk and quality labels with repository standards (PR #353).
+- **Starter bundles behavior**: Improved starter bundle behavior when resolving all skills for full installs (PR #358).
+- **Catalog and security maintenance**: Included CI/security follow-up fixes and generated registry refreshes to stabilize post-merge CI behavior.
+
+## Credits
+
+- Contributors of merged PRs #341, #353, #358, and #359
 
 ## [8.2.0] - 2026-03-18 - "Community Skill Expansion and Plugin Repair"
 
