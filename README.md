@@ -1,24 +1,28 @@
 <!-- registry-sync: version=8.3.0; skills=1273; stars=25526; updated_at=2026-03-19T00:00:00+00:00 -->
-# 🌌 Antigravity Awesome Skills: 1,273+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 1,273+ Agentic Skills for Claude Code, Cursor, Codex CLI & Gemini CLI
 
-> **The Ultimate Collection of 1,273+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **Installable GitHub library of 1,273+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
+
+Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable `SKILL.md` playbooks. Instead of collecting random prompts, you get a searchable, installable skill library for planning, coding, debugging, testing, security review, infrastructure work, product workflows, and growth tasks across the major AI coding assistants.
+
+**Start here:** [Star the repo](https://github.com/sickn33/antigravity-awesome-skills/stargazers) · [Install in 1 minute](#installation) · [Choose your tool](#choose-your-tool) · [Best skills by tool](#best-skills-by-tool) · [Bundles](docs/users/bundles.md) · [Workflows](docs/users/workflows.md)
 
 [![GitHub stars](https://img.shields.io/badge/⭐%2024%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
-[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
-[![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
-[![Kiro](https://img.shields.io/badge/Kiro-AWS-orange)](https://kiro.dev)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
-[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
-[![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
-[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
-[![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
-[![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
-[![Web App](https://img.shields.io/badge/Web%20App-Browse%20Skills-blue)](apps/web-app)
-[![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
+[![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 
-**Current release: V8.3.0.** This repository gives your agent reusable playbooks for planning, coding, debugging, testing, security review, infrastructure work, product thinking, and much more.
+**Current release: V8.3.0.** Trusted by 25k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
+
+## Why Developers Star This Repo
+
+- **Installable, not just inspirational**: use `npx antigravity-awesome-skills` to put skills where your tool expects them.
+- **Built for major agent workflows**: Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, Kiro, OpenCode, Copilot, and more.
+- **Broad coverage with real utility**: 1,273+ skills across development, testing, security, infrastructure, product, and marketing.
+- **Faster onboarding**: bundles and workflows reduce the time from "I found this repo" to "I used my first skill".
+- **Useful whether you want breadth or curation**: browse the full catalog, start with top bundles, or compare alternatives before installing.
 
 ## Table of Contents
 
@@ -26,10 +30,12 @@
 - [📖 Complete Usage Guide](docs/users/usage.md) - **Start here if confused after installation!**
 - [🔌 Compatibility &amp; Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
+- [🧰 Best Skills By Tool](#best-skills-by-tool)
 - [🛡️ Security Posture](#security-posture)
 - [🧯 Troubleshooting](#troubleshooting)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [🧭 Antigravity Workflows](#antigravity-workflows)
+- [⚖️ Alternatives &amp; Comparisons](#alternatives--comparisons)
 - [📦 Features & Categories](#features--categories)
 - [📚 Browse 1,273+ Skills](#browse-1273-skills)
 - [🤝 Contributing](#contributing)
@@ -44,14 +50,13 @@
 
 ## New Here? Start Here!
 
-**Welcome to the current interactive web edition.** This isn't just a list of scripts; it's a complete operating system for your AI agent.
+If you searched for **Claude Code skills**, **Cursor skills**, **Codex CLI skills**, **Gemini CLI skills**, or **AI agent skills on GitHub**, this is the fastest path to installing a serious working library and using it the same day.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 8.3.0) includes the latest maintainer sweep after `8.2.0`, including new onboarding assets, activation hardening, and the `landing-page-generator` and `MAXIA` marketplace-related updates.
+**Antigravity Awesome Skills** (Release 8.3.0) is a large, installable skill library for AI coding assistants. It includes onboarding docs, bundles, workflows, generated catalogs, and a CLI installer so you can move from discovery to actual usage without manually stitching together dozens of repos.
 
-AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
-**Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
+AI agents are smart, but they still need **task-specific operating instructions**. Skills are focused markdown playbooks that teach an agent how to perform a workflow repeatedly and with better context, whether that means deployment, API design, testing, product strategy, SEO, or documentation.
 
 ### 2. ⚡️ Quick Start (1 minute)
 
@@ -165,6 +170,16 @@ This installs the same repository-backed skill library through Claude Code's plu
 | OpenCode       | `npx antigravity-awesome-skills --path .agents/skills`                 | `opencode run @brainstorming help me plan a feature` |
 | AdaL CLI       | `npx antigravity-awesome-skills --path .adal/skills`                   | `Use brainstorming to plan a feature`                |
 | Custom path    | `npx antigravity-awesome-skills --path ./my-skills`                    | Depends on your tool                                   |
+
+## Best Skills By Tool
+
+If you want a faster answer than "browse all 1,273+ skills", start with a tool-specific guide:
+
+- **[Claude Code skills](docs/users/claude-code-skills.md)**: install paths, starter skills, prompt examples, and plugin marketplace flow.
+- **[Cursor skills](docs/users/cursor-skills.md)**: best starter skills for `.cursor/skills/`, UI-heavy work, and pair-programming flows.
+- **[Codex CLI skills](docs/users/codex-cli-skills.md)**: planning, implementation, debugging, and review skills for local coding loops.
+- **[Gemini CLI skills](docs/users/gemini-cli-skills.md)**: starter stack for research, agent systems, integrations, and engineering workflows.
+- **[AI agent skills guide](docs/users/ai-agent-skills.md)**: how to evaluate skill libraries, choose breadth vs curation, and pick the right starting point.
 
 ## Security Posture
 
@@ -283,6 +298,14 @@ Initial workflows include:
 - QA and Browser Automation (with optional `@go-playwright` support for Go stacks)
 - Design a DDD Core Domain
 
+## Alternatives & Comparisons
+
+Need to compare this repository with other skill libraries before you install? Start here:
+
+- **[Antigravity Awesome Skills vs Awesome Claude Skills](docs/users/antigravity-awesome-skills-vs-awesome-claude-skills.md)** for breadth vs curated-list tradeoffs.
+- **[Best Claude Code skills on GitHub](docs/users/best-claude-code-skills-github.md)** for a high-intent shortlist.
+- **[Best Cursor skills on GitHub](docs/users/best-cursor-skills-github.md)** for Cursor-compatible options and selection criteria.
+
 ## Features & Categories
 
 The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:
@@ -305,6 +328,7 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 
 - Open the interactive browser in [`apps/web-app`](apps/web-app).
 - Read the full catalog in [`CATALOG.md`](CATALOG.md).
+- Start with tool-specific guides in [`docs/users/claude-code-skills.md`](docs/users/claude-code-skills.md), [`docs/users/cursor-skills.md`](docs/users/cursor-skills.md), [`docs/users/codex-cli-skills.md`](docs/users/codex-cli-skills.md), and [`docs/users/gemini-cli-skills.md`](docs/users/gemini-cli-skills.md).
 - Start with role-based bundles in [`docs/users/bundles.md`](docs/users/bundles.md).
 - Follow outcome-driven workflows in [`docs/users/workflows.md`](docs/users/workflows.md).
 - Use the onboarding guides in [`docs/users/getting-started.md`](docs/users/getting-started.md) and [`docs/users/usage.md`](docs/users/usage.md).
@@ -316,7 +340,8 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 | [`docs/users/getting-started.md`](docs/users/getting-started.md) | [`CONTRIBUTING.md`](CONTRIBUTING.md)                                       | [`docs/maintainers/release-process.md`](docs/maintainers/release-process.md)                                                              |
 | [`docs/users/usage.md`](docs/users/usage.md)                     | [`docs/contributors/skill-anatomy.md`](docs/contributors/skill-anatomy.md) | [`docs/maintainers/audit.md`](docs/maintainers/audit.md)                                                                                  |
 | [`docs/users/faq.md`](docs/users/faq.md)                         | [`docs/contributors/quality-bar.md`](docs/contributors/quality-bar.md)     | [`docs/maintainers/ci-drift-fix.md`](docs/maintainers/ci-drift-fix.md)                                                                    |
-| [`docs/users/visual-guide.md`](docs/users/visual-guide.md)       | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) · [`.github/MAINTENANCE.md`](.github/MAINTENANCE.md) |
+| [`docs/users/claude-code-skills.md`](docs/users/claude-code-skills.md) · [`docs/users/cursor-skills.md`](docs/users/cursor-skills.md) · [`docs/users/codex-cli-skills.md`](docs/users/codex-cli-skills.md) · [`docs/users/gemini-cli-skills.md`](docs/users/gemini-cli-skills.md) | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/repo-growth-seo.md`](docs/maintainers/repo-growth-seo.md) · [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) · [`.github/MAINTENANCE.md`](.github/MAINTENANCE.md) |
+| [`docs/users/visual-guide.md`](docs/users/visual-guide.md) · [`docs/users/ai-agent-skills.md`](docs/users/ai-agent-skills.md) · [`docs/users/best-claude-code-skills-github.md`](docs/users/best-claude-code-skills-github.md) · [`docs/users/best-cursor-skills-github.md`](docs/users/best-cursor-skills-github.md) |  |  |
 
 ## Troubleshooting
 
