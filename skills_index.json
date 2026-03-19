@@ -135,9 +135,9 @@
     "category": "uncategorized",
     "name": "advanced-evaluation",
     "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
   },
   {
     "id": "advogado-criminal",
@@ -264,10 +264,10 @@
     "path": "skills/agentic-actions-auditor",
     "category": "uncategorized",
     "name": "agentic-actions-auditor",
-    "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches AI agents running in CI/CD pipelines,...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
+    "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub AI  Inference.  Detects attack vectors where attacker-controlled  input reaches. AI agents running in CI/CD pipelines.\n",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-18"
   },
   {
     "id": "agentmail",
@@ -7705,6 +7705,16 @@
     "category": "uncategorized",
     "name": "matplotlib",
     "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "maxia",
+    "path": "skills/maxia",
+    "category": "uncategorized",
+    "name": "maxia",
+    "description": "Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null

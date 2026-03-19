@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1272,
+  "total": 1273,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -623,7 +623,7 @@
     {
       "id": "agentic-actions-auditor",
       "name": "agentic-actions-auditor",
-      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches AI agents running in CI/CD pipelines,...",
+      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub AI  Inference.  Detects attack vectors where attacker-controlled  input reaches. AI agents running in CI/CD pipelines.",
       "category": "security",
       "tags": [
         "agentic",
@@ -19223,6 +19223,38 @@
         "plot"
       ],
       "path": "skills/matplotlib/SKILL.md"
+    },
+    {
+      "id": "maxia",
+      "name": "maxia",
+      "description": "Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.",
+      "category": "data-ai",
+      "tags": [
+        "solana",
+        "crypto",
+        "marketplace",
+        "ai-agents",
+        "mcp",
+        "defi",
+        "usdc",
+        "web3",
+        "a2a"
+      ],
+      "triggers": [
+        "solana",
+        "crypto",
+        "marketplace",
+        "ai-agents",
+        "mcp",
+        "defi",
+        "usdc",
+        "web3",
+        "a2a",
+        "maxia",
+        "connect",
+        "ai"
+      ],
+      "path": "skills/maxia/SKILL.md"
     },
     {
       "id": "mcp-builder",
