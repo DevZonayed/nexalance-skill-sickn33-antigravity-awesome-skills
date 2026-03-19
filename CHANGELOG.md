@@ -13,25 +13,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [8.3.0] - 2026-03-19 - "Activation and Skill Expansion"
 
-> **A focused follow-up release for post-8.2.0 reliability, metadata, and marketplace improvements**
+> **Focused follow-up release for post-`v8.2.0` reliability, metadata, and marketplace improvements**
 
-This release completes the post-`v8.2.0` maintainer batch by shipping the `landing-page-generator` skill, adding the MAXIA AI-to-AI marketplace guidance, and addressing activation security and metadata stability improvements introduced by late-cycle contributor work.
+This release closes the post-`v8.2.0` maintainer batch and includes the merged `landing-page-generator` skill (#341), activation/security hardening, and metadata updates from late-cycle contributions.
 
-## New Skills
+## 🚀 New Skills
 
-- **landing-page-generator** — high-converting landing page skillset and campaign-ready templates for product launches and marketing work (PR #341)
-- **maxia-ai-to-ai** — AI-to-AI marketplace interaction skill updates and onboarding guidance (PR #359)
+- **landing-page-generator** — high-converting landing-page and campaign copy templates for product launches and marketing work (PR #341)
+- **maxia-ai-to-ai** — MAXIA AI-to-AI marketplace interaction guidance and onboarding patterns (PR #359)
 
-## Improvements
+## 📦 Improvements
 
-- **Agent safety and activation hardening**: Updated `MAXIA` and activation-related metadata/flows to reduce startup and loading issues across local and plugin-based contexts (PR #359).
-- **Agentic skill metadata quality**: Fixed `agentic-auditor` frontmatter to align risk and quality labels with repository standards (PR #353).
-- **Starter bundles behavior**: Improved starter bundle behavior when resolving all skills for full installs (PR #358).
-- **Catalog and security maintenance**: Included CI/security follow-up fixes and generated registry refreshes to stabilize post-merge CI behavior.
+- **Activation reliability**: Improved activation metadata loading paths and bundle startup behavior to reduce overflow/truncation behavior in local and plugin contexts (PR #358, #359).
+- **Metadata repair batch**: Fixed metadata consistency in `agentic-auditor` and `advanced-evaluation` to align risk/quality labels and schema validation (PR #353, #352).
+- **Bundle and security maintenance**: Refined full-bundle resolution and included follow-up CI/security cleanup to stabilize post-merge behavior.
 
-## Credits
+## 👥 Credits
 
-- Contributors of merged PRs #341, #353, #358, and #359
+- Contributors in merged PRs #341, #352, #353, #358, and #359.
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
 
 ## [8.2.0] - 2026-03-18 - "Community Skill Expansion and Plugin Repair"
 
