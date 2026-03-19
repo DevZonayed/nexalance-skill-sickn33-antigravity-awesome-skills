@@ -9,7 +9,7 @@ import { usePageMeta } from '../hooks/usePageMeta';
 import { APP_HOME_CATALOG_COUNT, buildHomeMeta } from '../utils/seo';
 
 export function Home(): React.ReactElement {
-  const { skills, stars, loading, refreshSkills } = useSkills();
+  const { skills, stars, loading, error, refreshSkills } = useSkills();
   const [search, setSearch] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('all');
@@ -234,6 +234,18 @@ export function Home(): React.ReactElement {
               <div key={i} className="animate-pulse rounded-lg border border-slate-200 p-6 h-48 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
               </div>
             ))}
+          </div>
+        ) : error && skills.length === 0 ? (
+          <div className="py-12 text-center px-4 sm:px-6 lg:px-8">
+            <AlertCircle className="mx-auto h-12 w-12 text-red-400" />
+            <h3 className="mt-4 text-lg font-semibold text-slate-900 dark:text-slate-100">Unable to load skills</h3>
+            <p className="mt-2 text-slate-500 dark:text-slate-400">{error}</p>
+            <button
+              onClick={() => void refreshSkills()}
+              className="mt-5 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
+            >
+              Retry loading catalog
+            </button>
           </div>
         ) : filteredSkills.length === 0 ? (
           <div className="py-12 text-center px-4 sm:px-6 lg:px-8">

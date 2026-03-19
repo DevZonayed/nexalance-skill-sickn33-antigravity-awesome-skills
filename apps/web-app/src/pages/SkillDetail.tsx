@@ -11,6 +11,58 @@ import rehypeHighlight from 'rehype-highlight';
 // Lazy load heavy markdown component
 const Markdown = lazy(() => import('react-markdown'));
 
+interface SkillMarkdownUrlInput {
+  baseUrl: string;
+  origin: string;
+  pathname: string;
+  documentBaseUrl?: string;
+  skillPath: string;
+}
+
+function normalizeBasePath(baseUrl: string): string {
+  const normalizedSegments = baseUrl
+    .trim()
+    .split('/')
+    .filter((segment) => segment.length > 0 && segment !== '.');
+
+  const normalizedPath = normalizedSegments.length > 0
+    ? `/${normalizedSegments.join('/')}`
+    : '/';
+
+  return normalizedPath.endsWith('/') ? normalizedPath : `${normalizedPath}/`;
+}
+
+export function getSkillMarkdownCandidateUrls({
+  baseUrl,
+  origin,
+  pathname,
+  documentBaseUrl,
+  skillPath,
+}: SkillMarkdownUrlInput): string[] {
+  const normalizedSkillPath = skillPath
+    .replace(/^\/+/, '')
+    .replace(/\/SKILL\.md$/i, '');
+  const assetPath = `${normalizedSkillPath}/SKILL.md`;
+  const normalizedPathname = pathname.startsWith('/') ? pathname : `/${pathname}`;
+  const pathSegments = normalizedPathname.split('/').filter(Boolean);
+  const pathCandidates = pathSegments.map((_, index) => {
+    const prefix = `/${pathSegments.slice(0, index + 1).join('/')}/`;
+    return `${origin}${prefix}${assetPath}`;
+  });
+
+  return Array.from(new Set([
+    new URL(assetPath, documentBaseUrl || new URL(normalizeBasePath(baseUrl), origin)).href,
+    new URL(assetPath, new URL(normalizeBasePath(baseUrl), origin)).href,
+    `${origin}/${assetPath}`,
+    ...pathCandidates,
+  ]));
+}
+
+function looksLikeHtmlDocument(text: string): boolean {
+  const trimmed = text.trim().toLowerCase();
+  return trimmed.startsWith('<!doctype html') || trimmed.startsWith('<html');
+}
+
 /** Split YAML frontmatter (--- ... ---) and markdown body */
 function splitFrontmatter(md: string): { frontmatter: string; body: string } {
   const match = md.match(/^(---[\s\S]*?---)\s*\n?/);
@@ -61,6 +113,7 @@ export function SkillDetail(): React.ReactElement {
   const [error, setError] = useState<string | null>(null);
   const [customContext, setCustomContext] = useState('');
   const [commandCopied, setCommandCopied] = useState(false);
+  const [retryToken, setRetryToken] = useState(0);
   const installCommand = 'npx antigravity-awesome-skills';
   const skill = useMemo(() => skills.find(s => s.id === id), [skills, id]);
 
@@ -99,17 +152,47 @@ export function SkillDetail(): React.ReactElement {
 
     const loadMarkdown = async () => {
       setContentLoading(true);
+      setError(null);
       try {
         const cleanPath = skill.path.startsWith('skills/')
           ? skill.path.replace('skills/', '')
           : skill.path;
 
-        const base = import.meta.env.BASE_URL;
-        const mdRes = await fetch(`${base}skills/${cleanPath}/SKILL.md`);
-        if (!mdRes.ok) throw new Error('Skill file not found');
+        const candidateUrls = getSkillMarkdownCandidateUrls({
+          baseUrl: import.meta.env.BASE_URL,
+          origin: window.location.origin,
+          pathname: window.location.pathname,
+          documentBaseUrl: window.document.baseURI,
+          skillPath: `skills/${cleanPath}`,
+        });
 
-        const text = await mdRes.text();
-        setContent(text);
+        let markdown: string | null = null;
+        let lastError: Error | null = null;
+
+        for (const url of candidateUrls) {
+          try {
+            const mdRes = await fetch(url);
+            if (!mdRes.ok) {
+              throw new Error(`Request failed (${mdRes.status}) for ${url}`);
+            }
+
+            const text = await mdRes.text();
+            if (looksLikeHtmlDocument(text)) {
+              throw new Error(`HTML fallback returned instead of markdown for ${url}`);
+            }
+
+            markdown = text;
+            break;
+          } catch (err) {
+            lastError = err instanceof Error ? err : new Error(String(err));
+          }
+        }
+
+        if (markdown === null) {
+          throw lastError || new Error('Skill file not found');
+        }
+
+        setContent(markdown);
       } catch (err) {
         console.error('Failed to load skill content', err);
         setError(err instanceof Error ? err.message : 'Could not load skill content.');
@@ -119,7 +202,7 @@ export function SkillDetail(): React.ReactElement {
     };
 
     loadMarkdown();
-  }, [skill, contextLoading]);
+  }, [skill, contextLoading, retryToken]);
 
   const copyToClipboard = () => {
     if (!skill) return;
@@ -175,6 +258,12 @@ export function SkillDetail(): React.ReactElement {
         <AlertTriangle className="h-12 w-12 text-red-500 mx-auto mb-4" />
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Failed to Load Content</h2>
         <p className="text-slate-500 mt-2">{error || 'Skill details could not be loaded.'}</p>
+        <button
+          onClick={() => setRetryToken((value) => value + 1)}
+          className="mt-6 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
+        >
+          Retry loading content
+        </button>
         <Link to="/" className="mt-8 inline-flex items-center text-indigo-600 font-medium hover:underline">
           <ArrowLeft className="mr-2 h-4 w-4" /> Back to Catalog
         </Link>

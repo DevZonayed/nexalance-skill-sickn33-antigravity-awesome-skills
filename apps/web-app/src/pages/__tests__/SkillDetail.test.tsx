@@ -4,6 +4,7 @@ import { SkillDetail } from '../SkillDetail';
 import { renderWithRouter } from '../../utils/testUtils';
 import { createMockSkill } from '../../factories/skill';
 import { useSkills } from '../../context/SkillContext';
+import { getSkillMarkdownCandidateUrls } from '../SkillDetail';
 
 // Mock the SkillStarButton component
 vi.mock('../../components/SkillStarButton', () => ({
@@ -32,6 +33,26 @@ describe('SkillDetail', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     localStorage.clear();
+    window.history.pushState({}, '', '/');
+  });
+
+  describe('Markdown URL resolution', () => {
+    it('builds stable markdown candidates for gh-pages routes', () => {
+      expect(
+        getSkillMarkdownCandidateUrls({
+          baseUrl: '/antigravity-awesome-skills/',
+          origin: 'https://sickn33.github.io',
+          pathname: '/antigravity-awesome-skills/skill/react-patterns',
+          documentBaseUrl: 'https://sickn33.github.io/antigravity-awesome-skills/',
+          skillPath: 'skills/react-patterns',
+        }),
+      ).toEqual([
+        'https://sickn33.github.io/antigravity-awesome-skills/skills/react-patterns/SKILL.md',
+        'https://sickn33.github.io/skills/react-patterns/SKILL.md',
+        'https://sickn33.github.io/antigravity-awesome-skills/skill/skills/react-patterns/SKILL.md',
+        'https://sickn33.github.io/antigravity-awesome-skills/skill/react-patterns/skills/react-patterns/SKILL.md',
+      ]);
+    });
   });
 
   describe('Loading state', () => {
@@ -109,6 +130,104 @@ describe('SkillDetail', () => {
           'content',
           '@react-patterns | Antigravity Awesome Skills',
         );
+        expect(global.fetch).toHaveBeenCalled();
+      });
+    });
+
+    it('falls back to the next markdown candidate when the first response is html', async () => {
+      const mockSkill = createMockSkill({
+        id: 'fallback-skill',
+        name: 'fallback-skill',
+      });
+
+      (useSkills as Mock).mockReturnValue({
+        skills: [mockSkill],
+        stars: {},
+        loading: false,
+      });
+
+      window.history.pushState({}, '', '/skill/fallback-skill');
+
+      global.fetch = vi.fn()
+        .mockResolvedValueOnce({
+          ok: true,
+          text: async () => '<!doctype html><html></html>',
+        })
+        .mockResolvedValueOnce({
+          ok: true,
+          text: async () => '# Loaded from fallback',
+        });
+
+      renderWithRouter(<SkillDetail />, {
+        route: '/skill/fallback-skill',
+        path: '/skill/:id',
+        useProvider: false
+      });
+
+      await waitFor(() => {
+        expect(screen.getByTestId('markdown-content')).toHaveTextContent('Loaded from fallback');
+      });
+    });
+
+    it('shows a retry action when markdown loading fails', async () => {
+      const mockSkill = createMockSkill({
+        id: 'broken-skill',
+        name: 'broken-skill',
+      });
+
+      (useSkills as Mock).mockReturnValue({
+        skills: [mockSkill],
+        stars: {},
+        loading: false,
+      });
+
+      window.history.pushState({}, '', '/skill/broken-skill');
+
+      global.fetch = vi.fn()
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 404,
+          text: async () => '',
+        })
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 404,
+          text: async () => '',
+        })
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 404,
+          text: async () => '',
+        })
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 404,
+          text: async () => '',
+        })
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 404,
+          text: async () => '',
+        })
+        .mockResolvedValueOnce({
+          ok: true,
+          text: async () => '# Recovered content',
+        });
+
+      renderWithRouter(<SkillDetail />, {
+        route: '/skill/broken-skill',
+        path: '/skill/:id',
+        useProvider: false
+      });
+
+      await waitFor(() => {
+        expect(screen.getByText(/Failed to Load Content/i)).toBeInTheDocument();
+      });
+
+      fireEvent.click(screen.getByRole('button', { name: /Retry loading content/i }));
+
+      await waitFor(() => {
+        expect(screen.getByTestId('markdown-content')).toHaveTextContent('Recovered content');
       });
     });
 

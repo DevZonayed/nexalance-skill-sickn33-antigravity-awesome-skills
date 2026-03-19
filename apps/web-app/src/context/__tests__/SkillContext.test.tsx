@@ -30,10 +30,17 @@ describe('getSkillsIndexCandidateUrls', () => {
         baseUrl: '/antigravity-awesome-skills/',
         origin: 'https://sickn33.github.io',
         pathname: '/antigravity-awesome-skills/skill/some-id',
+        documentBaseUrl: 'https://sickn33.github.io/antigravity-awesome-skills/',
       }),
     ).toEqual([
       'https://sickn33.github.io/antigravity-awesome-skills/skills.json',
+      'https://sickn33.github.io/antigravity-awesome-skills/skills.json.backup',
       'https://sickn33.github.io/skills.json',
+      'https://sickn33.github.io/skills.json.backup',
+      'https://sickn33.github.io/antigravity-awesome-skills/skill/skills.json',
+      'https://sickn33.github.io/antigravity-awesome-skills/skill/skills.json.backup',
+      'https://sickn33.github.io/antigravity-awesome-skills/skill/some-id/skills.json',
+      'https://sickn33.github.io/antigravity-awesome-skills/skill/some-id/skills.json.backup',
     ]);
   });
 
@@ -43,10 +50,13 @@ describe('getSkillsIndexCandidateUrls', () => {
         baseUrl: './',
         origin: 'https://sickn33.github.io',
         pathname: '/antigravity-awesome-skills/',
+        documentBaseUrl: 'https://sickn33.github.io/antigravity-awesome-skills/',
       }),
     ).toEqual([
-      'https://sickn33.github.io/skills.json',
       'https://sickn33.github.io/antigravity-awesome-skills/skills.json',
+      'https://sickn33.github.io/antigravity-awesome-skills/skills.json.backup',
+      'https://sickn33.github.io/skills.json',
+      'https://sickn33.github.io/skills.json.backup',
     ]);
   });
 });
@@ -75,8 +85,15 @@ describe('SkillProvider', () => {
         status: 404,
       })
       .mockResolvedValueOnce({
+        ok: false,
+        status: 404,
+      })
+      .mockResolvedValueOnce({
         ok: true,
-        json: async () => mockSkills,
+        headers: {
+          get: () => 'application/json',
+        },
+        text: async () => JSON.stringify(mockSkills),
       });
 
     render(
@@ -92,6 +109,45 @@ describe('SkillProvider', () => {
 
     await act(async () => {
       await Promise.resolve();
+    });
+  });
+
+  it('falls back to the bundled backup catalog when the primary index is invalid', async () => {
+    const mockSkills = [
+      {
+        id: 'skill-backup',
+        path: 'skills/skill-backup',
+        category: 'core',
+        name: 'Backup skill',
+        description: 'Loaded from backup',
+      },
+    ];
+
+    (global.fetch as Mock)
+      .mockResolvedValueOnce({
+        ok: true,
+        headers: {
+          get: () => 'text/html',
+        },
+        text: async () => '<!doctype html><html></html>',
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        headers: {
+          get: () => 'application/json',
+        },
+        text: async () => JSON.stringify(mockSkills),
+      });
+
+    render(
+      <SkillProvider>
+        <SkillsProbe />
+      </SkillProvider>,
+    );
+
+    await waitFor(() => {
+      expect(screen.getByTestId('loading').textContent).toBe('ready');
+      expect(screen.getByTestId('count').textContent).toBe('1');
     });
   });
 });

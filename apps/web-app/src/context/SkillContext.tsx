@@ -6,6 +6,7 @@ interface SkillContextType {
     skills: Skill[];
     stars: StarMap;
     loading: boolean;
+    error: string | null;
     refreshSkills: () => Promise<void>;
 }
 
@@ -13,6 +14,7 @@ interface SkillsIndexUrlInput {
     baseUrl: string;
     origin: string;
     pathname: string;
+    documentBaseUrl?: string;
 }
 
 const SkillContext = createContext<SkillContextType | undefined>(undefined);
@@ -30,37 +32,61 @@ function normalizeBasePath(baseUrl: string): string {
     return normalizedPath.endsWith('/') ? normalizedPath : `${normalizedPath}/`;
 }
 
+function appendBackupCandidates(urls: string[]): string[] {
+    const candidates = new Set<string>();
+
+    urls.forEach((url) => {
+        candidates.add(url);
+
+        if (url.endsWith('skills.json')) {
+            candidates.add(`${url}.backup`);
+        }
+    });
+
+    return Array.from(candidates);
+}
+
 export function getSkillsIndexCandidateUrls({
     baseUrl,
     origin,
     pathname,
+    documentBaseUrl,
 }: SkillsIndexUrlInput): string[] {
     const normalizedPathname = pathname.startsWith('/') ? pathname : `/${pathname}`;
-    const firstSegment = normalizedPathname.split('/').filter(Boolean)[0];
-    const rootPath = firstSegment ? `/${firstSegment}/` : '/';
+    const baseCandidate = new URL(
+        'skills.json',
+        documentBaseUrl || new URL(normalizeBasePath(baseUrl), origin),
+    ).href;
+    const pathSegments = normalizedPathname.split('/').filter(Boolean);
+    const pathCandidates = pathSegments.map((_, index) => {
+        const prefix = `/${pathSegments.slice(0, index + 1).join('/')}/`;
+        return `${origin}${prefix}skills.json`;
+    });
 
-    const candidates = new Set<string>([
+    return appendBackupCandidates([
+        baseCandidate,
         new URL('skills.json', new URL(normalizeBasePath(baseUrl), origin)).href,
         `${origin}/skills.json`,
-        `${origin}${rootPath}skills.json`,
+        ...pathCandidates,
     ]);
-
-    return Array.from(candidates);
 }
 
 export function SkillProvider({ children }: { children: React.ReactNode }) {
     const [skills, setSkills] = useState<Skill[]>([]);
     const [stars, setStars] = useState<StarMap>({});
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
 
     const fetchSkillsAndStars = useCallback(async (silent = false) => {
         if (!silent) setLoading(true);
+        setError(null);
         try {
             // Fetch skills index
             const candidateUrls = getSkillsIndexCandidateUrls({
                 baseUrl: import.meta.env.BASE_URL,
                 origin: window.location.origin,
                 pathname: window.location.pathname,
+                documentBaseUrl: window.document.baseURI,
             });
 
             let data: Skill[] | null = null;
@@ -73,7 +99,16 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
                         throw new Error(`Request failed (${res.status}) for ${url}`);
                     }
 
-                    const parsed = await res.json();
+                    const rawBody = await res.text();
+                    let parsed: unknown;
+
+                    try {
+                        parsed = JSON.parse(rawBody);
+                    } catch {
+                        const contentType = res.headers.get('content-type') || 'unknown content type';
+                        throw new Error(`Non-JSON response from ${url} (${contentType})`);
+                    }
+
                     if (!Array.isArray(parsed) || parsed.length === 0) {
                         throw new Error(`Invalid or empty payload from ${url}`);
                     }
@@ -120,6 +155,8 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
             }
 
         } catch (err) {
+            const message = err instanceof Error ? err.message : 'Unable to load the skills catalog.';
+            setError(message);
             console.error('SkillContext: Failed to load skills', err);
         } finally {
             if (!silent) setLoading(false);
@@ -138,8 +175,9 @@ export function SkillProvider({ children }: { children: React.ReactNode }) {
         skills,
         stars,
         loading,
+        error,
         refreshSkills
-    }), [skills, stars, loading, refreshSkills]);
+    }), [skills, stars, loading, error, refreshSkills]);
 
     return (
         <SkillContext.Provider value={value}>

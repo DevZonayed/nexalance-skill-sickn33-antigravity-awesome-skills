@@ -45,6 +45,7 @@ describe('Home', () => {
         skills: [],
         stars: {},
         loading: true,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -61,6 +62,7 @@ describe('Home', () => {
         skills: mockSkills,
         stars: {},
         loading: false,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -80,6 +82,7 @@ describe('Home', () => {
         skills: mockSkills,
         stars: {},
         loading: false,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -101,6 +104,7 @@ describe('Home', () => {
         skills: [],
         stars: {},
         loading: false,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -134,6 +138,7 @@ describe('Home', () => {
         skills: mockSkills,
         stars: {},
         loading: false,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -158,6 +163,7 @@ describe('Home', () => {
         skills: mockSkills,
         stars: {},
         loading: false,
+        error: null,
       });
 
       renderWithRouter(<Home />, { useProvider: false });
@@ -182,6 +188,7 @@ describe('Home', () => {
         skills: mockSkills,
         stars: { 'skill-1': 5 },
         loading: false,
+        error: null,
         refreshSkills,
       });
 
@@ -200,5 +207,28 @@ describe('Home', () => {
         expect(refreshSkills).toHaveBeenCalled();
       });
     });
+  });
+
+  it('shows a catalog load error instead of a generic empty state', async () => {
+    const refreshSkills = vi.fn().mockResolvedValue(undefined);
+
+    (useSkills as Mock).mockReturnValue({
+      skills: [],
+      stars: {},
+      loading: false,
+      error: 'Non-JSON response from /skills.json (text/html)',
+      refreshSkills,
+    });
+
+    renderWithRouter(<Home />, { useProvider: false });
+
+    await waitFor(() => {
+      expect(screen.getByText(/Unable to load skills/i)).toBeInTheDocument();
+      expect(screen.getByText(/Non-JSON response/i)).toBeInTheDocument();
+    });
+
+    fireEvent.click(screen.getByRole('button', { name: /Retry loading catalog/i }));
+
+    expect(refreshSkills).toHaveBeenCalled();
   });
 });
