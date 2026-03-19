@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
-import { screen, waitFor, fireEvent } from '@testing-library/react';
+import { act, fireEvent, screen, waitFor } from '@testing-library/react';
 import { Home } from '../Home';
 import { renderWithRouter } from '../../utils/testUtils';
 import { createMockSkill } from '../../factories/skill';
@@ -69,6 +69,57 @@ describe('Home', () => {
         expect(screen.getByText('@Skill 1')).toBeInTheDocument();
         expect(screen.getByText('@Skill 2')).toBeInTheDocument();
       });
+    });
+
+    it('should set homepage SEO metadata', async () => {
+      const mockSkills = [
+        createMockSkill({ id: 'skill-1', name: 'Skill 1' }),
+      ];
+
+      (useSkills as Mock).mockReturnValue({
+        skills: mockSkills,
+        stars: {},
+        loading: false,
+      });
+
+      renderWithRouter(<Home />, { useProvider: false });
+
+      await waitFor(() => {
+        expect(document.title).toContain('Antigravity Awesome Skills');
+      });
+
+      expect(screen.getByRole('button', { name: /Copy install command/i })).toBeInTheDocument();
+      expect(screen.getByText(/npx antigravity-awesome-skills/i)).toBeInTheDocument();
+      expect(document.querySelector('meta[property="og:title"]')).toHaveAttribute(
+        'content',
+        expect.stringContaining('Antigravity Awesome Skills'),
+      );
+    });
+
+    it('should copy install command from hero CTA', async () => {
+      (useSkills as Mock).mockReturnValue({
+        skills: [],
+        stars: {},
+        loading: false,
+      });
+
+      renderWithRouter(<Home />, { useProvider: false });
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Copy install command/i })).toBeInTheDocument();
+      });
+
+      vi.useFakeTimers();
+      try {
+        await act(async () => {
+          fireEvent.click(screen.getByRole('button', { name: /Copy install command/i }));
+          await vi.runAllTimersAsync();
+        });
+      } finally {
+        vi.useRealTimers();
+      }
+
+      expect(navigator.clipboard.writeText).toHaveBeenCalledWith('npx antigravity-awesome-skills');
     });
   });
 

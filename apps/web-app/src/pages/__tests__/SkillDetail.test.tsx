@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
-import { screen, waitFor, fireEvent } from '@testing-library/react';
+import { act, fireEvent, screen, waitFor } from '@testing-library/react';
 import { SkillDetail } from '../SkillDetail';
 import { renderWithRouter } from '../../utils/testUtils';
 import { createMockSkill } from '../../factories/skill';
@@ -104,6 +104,11 @@ describe('SkillDetail', () => {
         expect(screen.getByText('@react-patterns')).toBeInTheDocument();
         expect(screen.getByText('React design patterns and best practices')).toBeInTheDocument();
         expect(screen.getByTestId('markdown-content')).toHaveTextContent('This is the skill content.');
+        expect(document.title).toContain('react-patterns');
+        expect(document.querySelector('meta[name=\"twitter:title\"]')).toHaveAttribute(
+          'content',
+          '@react-patterns | Antigravity Awesome Skills',
+        );
       });
     });
 
@@ -123,6 +128,7 @@ describe('SkillDetail', () => {
       await waitFor(() => {
         expect(screen.getByText(/Error Loading Skill/i)).toBeInTheDocument();
         expect(screen.getByText(/Skill not found in registry/i)).toBeInTheDocument();
+        expect(document.title).toContain('nonexistent');
       });
     });
   });
@@ -156,6 +162,43 @@ describe('SkillDetail', () => {
       fireEvent.click(copyButton);
 
       expect(navigator.clipboard.writeText).toHaveBeenCalledWith('Use @click-test');
+    });
+
+    it('should copy install command when copy command CTA is clicked', async () => {
+      const mockSkill = createMockSkill({ id: 'click-install', name: 'click-install' });
+
+      (useSkills as Mock).mockReturnValue({
+        skills: [mockSkill],
+        stars: {},
+        loading: false,
+      });
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        text: async () => 'Content',
+      });
+
+      renderWithRouter(<SkillDetail />, {
+        route: '/skill/click-install',
+        path: '/skill/:id',
+        useProvider: false,
+      });
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Copy command/i })).toBeInTheDocument();
+      });
+
+      vi.useFakeTimers();
+      try {
+        await act(async () => {
+          fireEvent.click(screen.getByRole('button', { name: /Copy command/i }));
+          await vi.runAllTimersAsync();
+        });
+      } finally {
+        vi.useRealTimers();
+      }
+
+      expect(navigator.clipboard.writeText).toHaveBeenCalledWith('npx antigravity-awesome-skills');
     });
   });
 

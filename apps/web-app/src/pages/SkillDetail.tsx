@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Loader2 } from 'lucide-react';
 import { SkillStarButton } from '../components/SkillStarButton';
 import { useSkills } from '../context/SkillContext';
+import { usePageMeta } from '../hooks/usePageMeta';
+import { buildSkillFallbackMeta, buildSkillMeta, selectTopSkills } from '../utils/seo';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 
@@ -58,8 +60,36 @@ export function SkillDetail(): React.ReactElement {
   const [copiedFull, setCopiedFull] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [customContext, setCustomContext] = useState('');
-
+  const [commandCopied, setCommandCopied] = useState(false);
+  const installCommand = 'npx antigravity-awesome-skills';
   const skill = useMemo(() => skills.find(s => s.id === id), [skills, id]);
+
+  const topPrioritySkills = useMemo(() => selectTopSkills(skills), [skills]);
+  const topPrioritySkillSet = useMemo(() => new Set(topPrioritySkills.map(topSkill => topSkill.id)), [topPrioritySkills]);
+
+  const canonicalPath = useMemo(() => {
+    const safeId = id ? id : 'skill';
+    return `/skill/${encodeURIComponent(safeId)}`;
+  }, [id]);
+
+  const isPriority = useMemo(() => {
+    if (!skill) {
+      return false;
+    }
+
+    return topPrioritySkillSet.has(skill.id);
+  }, [skill, topPrioritySkillSet]);
+
+  usePageMeta(
+    useMemo(() => {
+      if (!skill) {
+        return buildSkillFallbackMeta(id || 'skill');
+      }
+
+      return buildSkillMeta(skill, isPriority, canonicalPath);
+    }, [id, skill, isPriority, canonicalPath])
+  );
+
   const starCount = useMemo(() => (id ? stars[id] || 0 : 0), [stars, id]);
   const { frontmatter, body: markdownBody } = useMemo(() => splitFrontmatter(content), [content]);
   const frontmatterRows = useMemo(() => parseFrontmatterRows(frontmatter), [frontmatter]);
@@ -102,6 +132,12 @@ export function SkillDetail(): React.ReactElement {
     navigator.clipboard.writeText(finalPrompt);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const copyInstallCommand = async () => {
+    await navigator.clipboard.writeText(installCommand);
+    setCommandCopied(true);
+    window.setTimeout(() => setCommandCopied(false), 2000);
   };
 
   const copyFullToClipboard = () => {
@@ -201,6 +237,26 @@ export function SkillDetail(): React.ReactElement {
         </div>
 
         <div className="mt-6 bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div className="rounded-lg border border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900 p-4 mb-4">
+            <p className="text-xs uppercase tracking-wide text-slate-500 dark:text-slate-400 font-semibold">
+              Use it now
+            </p>
+            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Start quickly: install the package, open your workspace, and run this skill prompt directly.
+            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              <code className="inline-block rounded-md bg-slate-900 text-slate-50 px-3 py-2 text-sm font-mono border border-slate-800">
+                {installCommand}
+              </code>
+              <button
+                onClick={copyInstallCommand}
+                className="inline-flex items-center text-sm font-medium text-indigo-700 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200"
+              >
+                {commandCopied ? 'Copied' : 'Copy command'}
+              </button>
+            </div>
+          </div>
+
           <label htmlFor="context" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
             Interactive Prompt Builder (Optional)
           </label>
