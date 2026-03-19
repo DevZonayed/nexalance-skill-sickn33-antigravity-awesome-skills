@@ -109,7 +109,7 @@ export function Home(): React.ReactElement {
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-8rem)]">
+    <div className="flex flex-col min-h-[calc(100vh-8rem)]">
       <div className="space-y-8 mb-8">
         <section className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 sm:p-7 shadow-sm">
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">
@@ -227,7 +227,7 @@ export function Home(): React.ReactElement {
         </div>
       </div>
 
-      <div className="flex-1 min-h-0 -mx-4">
+      <div className="flex-1 min-h-[60vh] sm:min-h-[68vh] lg:min-h-[72vh] -mx-4">
         {loading ? (
           <div data-testid="loader" className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4">
             {[...Array(8)].map((_, i) => (
@@ -243,9 +243,9 @@ export function Home(): React.ReactElement {
           </div>
         ) : (
           <VirtuosoGrid
-            style={{ height: '100%' }}
+            style={{ height: '100%', minHeight: '100%' }}
             totalCount={filteredSkills.length}
-            listClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8 px-4"
+            listClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pb-8 px-4"
             itemContent={(index) => {
               const skill = filteredSkills[index];
               return <SkillCard key={skill.id} skill={skill} starCount={stars[skill.id] || 0} />;
