@@ -72,7 +72,48 @@ function escapeHtml(value) {
 }
 
 function escapeScriptJson(value) {
-  return String(value).replace(/<\/script/gi, '<\\/script');
+  return String(value)
+    .replaceAll('<', '\\u003c')
+    .replaceAll('>', '\\u003e')
+    .replaceAll('&', '\\u0026')
+    .replaceAll('\u2028', '\\u2028')
+    .replaceAll('\u2029', '\\u2029');
+}
+
+function removeExistingJsonLdScripts(html) {
+  const marker = 'data-seo-jsonld="true"';
+  let remaining = html;
+  let lowered = html.toLowerCase();
+
+  while (true) {
+    const markerIndex = lowered.indexOf(marker);
+    if (markerIndex === -1) {
+      return remaining;
+    }
+
+    const openTagStart = lowered.lastIndexOf('<script', markerIndex);
+    if (openTagStart === -1) {
+      return remaining;
+    }
+
+    const openTagEnd = lowered.indexOf('>', markerIndex);
+    if (openTagEnd === -1) {
+      return remaining;
+    }
+
+    const closeTagStart = lowered.indexOf('</script', openTagEnd + 1);
+    if (closeTagStart === -1) {
+      return remaining;
+    }
+
+    const closeTagEnd = lowered.indexOf('>', closeTagStart + 8);
+    if (closeTagEnd === -1) {
+      return remaining;
+    }
+
+    remaining = `${remaining.slice(0, openTagStart)}${remaining.slice(closeTagEnd + 1)}`;
+    lowered = remaining.toLowerCase();
+  }
 }
 
 function replaceHtmlTag(html, pattern, replacement, insertionPoint) {
@@ -103,7 +144,7 @@ function setTitleTag(html, title) {
 }
 
 function setJsonLdTag(html, payload) {
-  const cleaned = html.replace(/<script\b[^>]*data-seo-jsonld="true"[^>]*>[\s\S]*?<\/script>\s*/g, '');
+  const cleaned = removeExistingJsonLdScripts(html);
   const tag = `<script type="application/ld+json" data-seo-jsonld="true">${escapeScriptJson(JSON.stringify(payload))}</script>`;
   return cleaned.replace('</head>', `\n${tag}\n</head>`);
 }
