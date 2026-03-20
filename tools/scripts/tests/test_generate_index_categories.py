@@ -20,10 +20,10 @@ generate_index = load_module("tools/scripts/generate_index.py", "generate_index_
 
 
 class GenerateIndexCategoryTests(unittest.TestCase):
-    def test_normalize_category_maps_legacy_labels(self):
-        self.assertEqual(generate_index.normalize_category("front-end"), "web-development")
-        self.assertEqual(generate_index.normalize_category("ai-agents"), "ai-ml")
-        self.assertEqual(generate_index.normalize_category("document-processing"), "productivity")
+    def test_normalize_category_preserves_specialized_labels(self):
+        self.assertEqual(generate_index.normalize_category(" Front-End "), "front-end")
+        self.assertEqual(generate_index.normalize_category("Ai-Agents"), "ai-agents")
+        self.assertEqual(generate_index.normalize_category("Document-Processing"), "document-processing")
 
     def test_infer_category_returns_none_for_weak_signal(self):
         inferred = generate_index.infer_category(
@@ -97,9 +97,9 @@ class GenerateIndexCategoryTests(unittest.TestCase):
 
             self.assertEqual(categories["explicit-skill"], "custom")
             self.assertEqual(categories["nested-skill"], "bundles")
-            self.assertEqual(categories["playwright-skill"], "testing")
+            self.assertEqual(categories["playwright-skill"], "test-automation")
 
-    def test_generate_index_normalizes_explicit_legacy_category(self):
+    def test_generate_index_preserves_explicit_specialized_category(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             base = pathlib.Path(temp_dir)
             skills_dir = base / "skills"
@@ -113,7 +113,23 @@ class GenerateIndexCategoryTests(unittest.TestCase):
             )
 
             skills = generate_index.generate_index(str(skills_dir), str(output_file))
-            self.assertEqual(skills[0]["category"], "web-development")
+            self.assertEqual(skills[0]["category"], "front-end")
+
+    def test_generate_index_applies_curated_override(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = pathlib.Path(temp_dir)
+            skills_dir = base / "skills"
+            output_file = base / "skills_index.json"
+
+            override_dir = skills_dir / "playwright-skill"
+            override_dir.mkdir(parents=True)
+            (override_dir / "SKILL.md").write_text(
+                "---\nname: playwright-skill\ncategory: custom\ndescription: Browser automation\n---\nbody\n",
+                encoding="utf-8",
+            )
+
+            skills = generate_index.generate_index(str(skills_dir), str(output_file))
+            self.assertEqual(skills[0]["category"], "test-automation")
 
 
 if __name__ == "__main__":

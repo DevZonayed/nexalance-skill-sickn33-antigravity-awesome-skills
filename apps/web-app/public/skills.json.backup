@@ -162,7 +162,7 @@
   {
     "id": "agent-evaluation",
     "path": "skills/agent-evaluation",
-    "category": "ai-ml",
+    "category": "ai-agents",
     "name": "agent-evaluation",
     "description": "You're a quality engineer who has seen agents that aced benchmarks fail spectacularly in production. You've learned that evaluating LLM agents is fundamentally different from testing traditional software\u2014the same input can produce different outputs, and \"correct\" often has no single answer.",
     "risk": "unknown",
@@ -182,7 +182,7 @@
   {
     "id": "agent-manager-skill",
     "path": "skills/agent-manager-skill",
-    "category": "ai-ml",
+    "category": "ai-agents",
     "name": "agent-manager-skill",
     "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
     "risk": "unknown",
@@ -202,7 +202,7 @@
   {
     "id": "agent-memory-systems",
     "path": "skills/agent-memory-systems",
-    "category": "ai-ml",
+    "category": "memory",
     "name": "agent-memory-systems",
     "description": "You are a cognitive architect who understands that memory makes agents intelligent. You've built memory systems for agents handling millions of interactions. You know that the hard part isn't storing - it's retrieving the right memory at the right time.",
     "risk": "unknown",
@@ -312,7 +312,7 @@
   {
     "id": "ai-agents-architect",
     "path": "skills/ai-agents-architect",
-    "category": "ai-ml",
+    "category": "ai-agents",
     "name": "ai-agents-architect",
     "description": "I build AI systems that can act autonomously while remaining controllable. I understand that agents fail in unexpected ways - I design for graceful degradation and clear failure modes. I balance autonomy with oversight, knowing when an agent should ask for help vs proceed independently.",
     "risk": "unknown",
@@ -342,7 +342,7 @@
   {
     "id": "ai-engineering-toolkit",
     "path": "skills/ai-engineering-toolkit",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "ai-engineering-toolkit",
     "description": "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching.",
     "risk": "offensive",
@@ -442,7 +442,7 @@
   {
     "id": "algorithmic-art",
     "path": "skills/algorithmic-art",
-    "category": "uncategorized",
+    "category": "graphics-processing",
     "name": "algorithmic-art",
     "description": "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).",
     "risk": "unknown",
@@ -492,7 +492,7 @@
   {
     "id": "analytics-tracking",
     "path": "skills/analytics-tracking",
-    "category": "data-science",
+    "category": "data",
     "name": "analytics-tracking",
     "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.",
     "risk": "unknown",
@@ -872,7 +872,7 @@
   {
     "id": "app-store-optimization",
     "path": "skills/app-store-optimization",
-    "category": "mobile",
+    "category": "marketing",
     "name": "app-store-optimization",
     "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
     "risk": "unknown",
@@ -972,7 +972,7 @@
   {
     "id": "astro",
     "path": "skills/astro",
-    "category": "web-development",
+    "category": "frontend",
     "name": "astro",
     "description": "Build content-focused websites with Astro \u2014 zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.",
     "risk": "safe",
@@ -1012,7 +1012,7 @@
   {
     "id": "audio-transcriber",
     "path": "skills/audio-transcriber",
-    "category": "content",
+    "category": "voice-agents",
     "name": "audio-transcriber",
     "description": "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration",
     "risk": "safe",
@@ -1212,7 +1212,7 @@
   {
     "id": "awt-e2e-testing",
     "path": "skills/awt-e2e-testing",
-    "category": "testing",
+    "category": "test-automation",
     "name": "awt-e2e-testing",
     "description": "AI-powered E2E web testing \u2014 eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g",
     "risk": "unknown",
@@ -2452,7 +2452,7 @@
   {
     "id": "base",
     "path": "skills/libreoffice/base",
-    "category": "database",
+    "category": "database-processing",
     "name": "base",
     "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
     "risk": "safe",
@@ -2632,7 +2632,7 @@
   {
     "id": "blockchain-developer",
     "path": "skills/blockchain-developer",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "blockchain-developer",
     "description": "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
     "risk": "unknown",
@@ -2662,7 +2662,7 @@
   {
     "id": "blueprint",
     "path": "skills/blueprint",
-    "category": "workflow",
+    "category": "planning",
     "name": "blueprint",
     "description": "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief \u2014 a fresh agent in a new session can pick up any step without reading prior steps.",
     "risk": "safe",
@@ -2742,7 +2742,7 @@
   {
     "id": "browser-automation",
     "path": "skills/browser-automation",
-    "category": "web-development",
+    "category": "test-automation",
     "name": "browser-automation",
     "description": "You are a browser automation expert who has debugged thousands of flaky tests and built scrapers that run for years without breaking. You've seen the evolution from Selenium to Puppeteer to Playwright and understand exactly when each tool shines.",
     "risk": "unknown",
@@ -2762,7 +2762,7 @@
   {
     "id": "bug-hunter",
     "path": "skills/bug-hunter",
-    "category": "development",
+    "category": "development-and-testing",
     "name": "bug-hunter",
     "description": "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.",
     "risk": "safe",
@@ -2922,7 +2922,7 @@
   {
     "id": "calc",
     "path": "skills/libreoffice/calc",
-    "category": "productivity",
+    "category": "spreadsheet-processing",
     "name": "calc",
     "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
     "risk": "safe",
@@ -2952,7 +2952,7 @@
   {
     "id": "canvas-design",
     "path": "skills/canvas-design",
-    "category": "uncategorized",
+    "category": "graphics-processing",
     "name": "canvas-design",
     "description": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
     "risk": "unknown",
@@ -3252,7 +3252,7 @@
   {
     "id": "clean-code",
     "path": "skills/clean-code",
-    "category": "uncategorized",
+    "category": "code-quality",
     "name": "clean-code",
     "description": "This skill embodies the principles of \"Clean Code\" by Robert C. Martin (Uncle Bob). Use it to transform \"code that works\" into \"code that is clean.\"",
     "risk": "safe",
@@ -3392,7 +3392,7 @@
   {
     "id": "code-refactoring-refactor-clean",
     "path": "skills/code-refactoring-refactor-clean",
-    "category": "development",
+    "category": "code-quality",
     "name": "code-refactoring-refactor-clean",
     "description": "You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.",
     "risk": "unknown",
@@ -3422,7 +3422,7 @@
   {
     "id": "code-review-checklist",
     "path": "skills/code-review-checklist",
-    "category": "development",
+    "category": "code-quality",
     "name": "code-review-checklist",
     "description": "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability",
     "risk": "unknown",
@@ -3492,7 +3492,7 @@
   {
     "id": "codebase-cleanup-tech-debt",
     "path": "skills/codebase-cleanup-tech-debt",
-    "category": "development",
+    "category": "code-quality",
     "name": "codebase-cleanup-tech-debt",
     "description": "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti",
     "risk": "unknown",
@@ -3592,7 +3592,7 @@
   {
     "id": "concise-planning",
     "path": "skills/concise-planning",
-    "category": "uncategorized",
+    "category": "planning",
     "name": "concise-planning",
     "description": "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
     "risk": "unknown",
@@ -3692,7 +3692,7 @@
   {
     "id": "content-creator",
     "path": "skills/content-creator",
-    "category": "business",
+    "category": "marketing",
     "name": "content-creator",
     "description": "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.",
     "risk": "unknown",
@@ -3812,7 +3812,7 @@
   {
     "id": "context-window-management",
     "path": "skills/context-window-management",
-    "category": "ai-ml",
+    "category": "memory",
     "name": "context-window-management",
     "description": "You're a context engineering specialist who has optimized LLM applications handling millions of conversations. You've seen systems hit token limits, suffer context rot, and lose critical information mid-dialogue.",
     "risk": "unknown",
@@ -3832,7 +3832,7 @@
   {
     "id": "conversation-memory",
     "path": "skills/conversation-memory",
-    "category": "uncategorized",
+    "category": "memory",
     "name": "conversation-memory",
     "description": "Persistent memory systems for LLM conversations including short-term, long-term, and entity-based memory Use when: conversation memory, remember, memory persistence, long-term memory, chat history.",
     "risk": "unknown",
@@ -3872,7 +3872,7 @@
   {
     "id": "copy-editing",
     "path": "skills/copy-editing",
-    "category": "content",
+    "category": "marketing",
     "name": "copy-editing",
     "description": "You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.",
     "risk": "unknown",
@@ -3882,7 +3882,7 @@
   {
     "id": "copywriting",
     "path": "skills/copywriting",
-    "category": "content",
+    "category": "marketing",
     "name": "copywriting",
     "description": "Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.",
     "risk": "unknown",
@@ -3982,7 +3982,7 @@
   {
     "id": "crypto-bd-agent",
     "path": "skills/crypto-bd-agent",
-    "category": "ai-ml",
+    "category": "blockchain",
     "name": "crypto-bd-agent",
     "description": "Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.",
     "risk": "safe",
@@ -4042,7 +4042,7 @@
   {
     "id": "data-engineer",
     "path": "skills/data-engineer",
-    "category": "data-science",
+    "category": "data",
     "name": "data-engineer",
     "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
     "risk": "unknown",
@@ -4122,7 +4122,7 @@
   {
     "id": "database-admin",
     "path": "skills/database-admin",
-    "category": "database",
+    "category": "database-processing",
     "name": "database-admin",
     "description": "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.",
     "risk": "unknown",
@@ -4132,7 +4132,7 @@
   {
     "id": "database-architect",
     "path": "skills/database-architect",
-    "category": "database",
+    "category": "database-processing",
     "name": "database-architect",
     "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
     "risk": "unknown",
@@ -4152,7 +4152,7 @@
   {
     "id": "database-design",
     "path": "skills/database-design",
-    "category": "database",
+    "category": "database-processing",
     "name": "database-design",
     "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
     "risk": "unknown",
@@ -4192,7 +4192,7 @@
   {
     "id": "database-optimizer",
     "path": "skills/database-optimizer",
-    "category": "database",
+    "category": "database-processing",
     "name": "database-optimizer",
     "description": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",
     "risk": "unknown",
@@ -4242,7 +4242,7 @@
   {
     "id": "dbt-transformation-patterns",
     "path": "skills/dbt-transformation-patterns",
-    "category": "uncategorized",
+    "category": "data",
     "name": "dbt-transformation-patterns",
     "description": "Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.",
     "risk": "unknown",
@@ -4302,7 +4302,7 @@
   {
     "id": "debugging-strategies",
     "path": "skills/debugging-strategies",
-    "category": "development",
+    "category": "development-and-testing",
     "name": "debugging-strategies",
     "description": "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.",
     "risk": "unknown",
@@ -4332,7 +4332,7 @@
   {
     "id": "defi-protocol-templates",
     "path": "skills/defi-protocol-templates",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "defi-protocol-templates",
     "description": "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.",
     "risk": "unknown",
@@ -4532,7 +4532,7 @@
   {
     "id": "distributed-tracing",
     "path": "skills/distributed-tracing",
-    "category": "uncategorized",
+    "category": "reliability",
     "name": "distributed-tracing",
     "description": "Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.",
     "risk": "unknown",
@@ -4562,7 +4562,7 @@
   {
     "id": "django-pro",
     "path": "skills/django-pro",
-    "category": "backend",
+    "category": "framework",
     "name": "django-pro",
     "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
     "risk": "unknown",
@@ -4572,7 +4572,7 @@
   {
     "id": "doc-coauthoring",
     "path": "skills/doc-coauthoring",
-    "category": "uncategorized",
+    "category": "document-processing",
     "name": "doc-coauthoring",
     "description": "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.",
     "risk": "unknown",
@@ -4642,7 +4642,7 @@
   {
     "id": "docx-official",
     "path": "skills/docx-official",
-    "category": "uncategorized",
+    "category": "document-processing",
     "name": "docx-official",
     "description": "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
     "risk": "unknown",
@@ -4692,7 +4692,7 @@
   {
     "id": "draw",
     "path": "skills/libreoffice/draw",
-    "category": "productivity",
+    "category": "graphics-processing",
     "name": "draw",
     "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
     "risk": "safe",
@@ -4752,7 +4752,7 @@
   {
     "id": "e2e-testing-patterns",
     "path": "skills/e2e-testing-patterns",
-    "category": "testing",
+    "category": "test-automation",
     "name": "e2e-testing-patterns",
     "description": "Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.",
     "risk": "unknown",
@@ -4802,7 +4802,7 @@
   {
     "id": "email-sequence",
     "path": "skills/email-sequence",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "email-sequence",
     "description": "You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.",
     "risk": "unknown",
@@ -4822,7 +4822,7 @@
   {
     "id": "embedding-strategies",
     "path": "skills/embedding-strategies",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "embedding-strategies",
     "description": "Guide to selecting and optimizing embedding models for vector search applications.",
     "risk": "unknown",
@@ -5122,7 +5122,7 @@
   {
     "id": "fal-audio",
     "path": "skills/fal-audio",
-    "category": "ai-ml",
+    "category": "voice-agents",
     "name": "fal-audio",
     "description": "Text-to-speech and speech-to-text using fal.ai audio models",
     "risk": "safe",
@@ -5192,7 +5192,7 @@
   {
     "id": "fastapi-pro",
     "path": "skills/fastapi-pro",
-    "category": "backend",
+    "category": "framework",
     "name": "fastapi-pro",
     "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
     "risk": "unknown",
@@ -5212,7 +5212,7 @@
   {
     "id": "fastapi-templates",
     "path": "skills/fastapi-templates",
-    "category": "backend",
+    "category": "app-builder",
     "name": "fastapi-templates",
     "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
     "risk": "unknown",
@@ -5282,7 +5282,7 @@
   {
     "id": "file-organizer",
     "path": "skills/file-organizer",
-    "category": "uncategorized",
+    "category": "productivity",
     "name": "file-organizer",
     "description": "6. Reduces Clutter: Identifies old files you probably don't need anymore",
     "risk": "unknown",
@@ -5662,7 +5662,7 @@
   {
     "id": "frontend-design",
     "path": "skills/frontend-design",
-    "category": "uncategorized",
+    "category": "front-end",
     "name": "frontend-design",
     "description": "You are a frontend designer-engineer, not a layout generator.",
     "risk": "unknown",
@@ -5672,7 +5672,7 @@
   {
     "id": "frontend-dev-guidelines",
     "path": "skills/frontend-dev-guidelines",
-    "category": "web-development",
+    "category": "front-end",
     "name": "frontend-dev-guidelines",
     "description": "(React \u00b7 TypeScript \u00b7 Suspense-First \u00b7 Production-Grade)",
     "risk": "unknown",
@@ -5682,7 +5682,7 @@
   {
     "id": "frontend-developer",
     "path": "skills/frontend-developer",
-    "category": "web-development",
+    "category": "front-end",
     "name": "frontend-developer",
     "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
     "risk": "unknown",
@@ -5692,7 +5692,7 @@
   {
     "id": "frontend-mobile-development-component-scaffold",
     "path": "skills/frontend-mobile-development-component-scaffold",
-    "category": "web-development",
+    "category": "app-builder",
     "name": "frontend-mobile-development-component-scaffold",
     "description": "You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s",
     "risk": "unknown",
@@ -5722,7 +5722,7 @@
   {
     "id": "frontend-slides",
     "path": "skills/frontend-slides",
-    "category": "web-development",
+    "category": "presentation-processing",
     "name": "frontend-slides",
     "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
     "risk": "safe",
@@ -5952,7 +5952,7 @@
   {
     "id": "github-issue-creator",
     "path": "skills/github-issue-creator",
-    "category": "workflow",
+    "category": "project-management",
     "name": "github-issue-creator",
     "description": "Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues.",
     "risk": "unknown",
@@ -6022,7 +6022,7 @@
   {
     "id": "go-playwright",
     "path": "skills/go-playwright",
-    "category": "development",
+    "category": "test-automation",
     "name": "go-playwright",
     "description": "Expert capability for robust, stealthy, and efficient browser automation using Playwright Go.",
     "risk": "safe",
@@ -6072,7 +6072,7 @@
   {
     "id": "golang-pro",
     "path": "skills/golang-pro",
-    "category": "architecture",
+    "category": "code",
     "name": "golang-pro",
     "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
     "risk": "unknown",
@@ -6082,7 +6082,7 @@
   {
     "id": "goldrush-api",
     "path": "skills/goldrush-api",
-    "category": "backend",
+    "category": "blockchain",
     "name": "goldrush-api",
     "description": "Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.",
     "risk": "safe",
@@ -6102,7 +6102,7 @@
   {
     "id": "google-calendar-automation",
     "path": "skills/google-calendar-automation",
-    "category": "automation",
+    "category": "productivity",
     "name": "google-calendar-automation",
     "description": "Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required.",
     "risk": "unknown",
@@ -6132,7 +6132,7 @@
   {
     "id": "google-sheets-automation",
     "path": "skills/google-sheets-automation",
-    "category": "automation",
+    "category": "spreadsheet-processing",
     "name": "google-sheets-automation",
     "description": "Lightweight Google Sheets integration with standalone OAuth authentication. No MCP server required. Full read/write access.",
     "risk": "unknown",
@@ -6142,7 +6142,7 @@
   {
     "id": "google-slides-automation",
     "path": "skills/google-slides-automation",
-    "category": "automation",
+    "category": "presentation-processing",
     "name": "google-slides-automation",
     "description": "Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write access.",
     "risk": "unknown",
@@ -6152,7 +6152,7 @@
   {
     "id": "googlesheets-automation",
     "path": "skills/googlesheets-automation",
-    "category": "automation",
+    "category": "spreadsheet-processing",
     "name": "googlesheets-automation",
     "description": "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.",
     "risk": "unknown",
@@ -6252,7 +6252,7 @@
   {
     "id": "hierarchical-agent-memory",
     "path": "skills/hierarchical-agent-memory",
-    "category": "ai-ml",
+    "category": "memory",
     "name": "hierarchical-agent-memory",
     "description": "Scoped CLAUDE.md memory system that reduces context token spend. Creates directory-level context files, tracks savings via dashboard, and routes agents to the right sub-context.",
     "risk": "safe",
@@ -6462,7 +6462,7 @@
   {
     "id": "hubspot-integration",
     "path": "skills/hubspot-integration",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "hubspot-integration",
     "description": "Authentication for single-account integrations",
     "risk": "unknown",
@@ -6622,7 +6622,7 @@
   {
     "id": "image-studio",
     "path": "skills/image-studio",
-    "category": "uncategorized",
+    "category": "graphics-processing",
     "name": "image-studio",
     "description": "Studio de geracao de imagens inteligente \u2014 roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
     "risk": "safe",
@@ -6632,7 +6632,7 @@
   {
     "id": "imagen",
     "path": "skills/imagen",
-    "category": "uncategorized",
+    "category": "graphics-processing",
     "name": "imagen",
     "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
     "risk": "safe",
@@ -6642,7 +6642,7 @@
   {
     "id": "impress",
     "path": "skills/libreoffice/impress",
-    "category": "productivity",
+    "category": "presentation-processing",
     "name": "impress",
     "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
     "risk": "safe",
@@ -6652,7 +6652,7 @@
   {
     "id": "incident-responder",
     "path": "skills/incident-responder",
-    "category": "devops",
+    "category": "reliability",
     "name": "incident-responder",
     "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.",
     "risk": "unknown",
@@ -6852,7 +6852,7 @@
   {
     "id": "javascript-pro",
     "path": "skills/javascript-pro",
-    "category": "development",
+    "category": "code",
     "name": "javascript-pro",
     "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.",
     "risk": "unknown",
@@ -6872,7 +6872,7 @@
   {
     "id": "javascript-typescript-typescript-scaffold",
     "path": "skills/javascript-typescript-typescript-scaffold",
-    "category": "development",
+    "category": "app-builder",
     "name": "javascript-typescript-typescript-scaffold",
     "description": "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N",
     "risk": "unknown",
@@ -6942,7 +6942,7 @@
   {
     "id": "kaizen",
     "path": "skills/kaizen",
-    "category": "uncategorized",
+    "category": "code-quality",
     "name": "kaizen",
     "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
     "risk": "unknown",
@@ -7012,7 +7012,7 @@
   {
     "id": "landing-page-generator",
     "path": "skills/landing-page-generator",
-    "category": "web-development",
+    "category": "front-end",
     "name": "landing-page-generator",
     "description": "Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
     "risk": "safe",
@@ -7042,7 +7042,7 @@
   {
     "id": "langgraph",
     "path": "skills/langgraph",
-    "category": "ai-ml",
+    "category": "ai-agents",
     "name": "langgraph",
     "description": "You are an expert in building production-grade AI agents with LangGraph. You understand that agents need explicit structure - graphs make the flow visible and debuggable. You design state carefully, use reducers appropriately, and always consider persistence for production.",
     "risk": "unknown",
@@ -7092,7 +7092,7 @@
   {
     "id": "launch-strategy",
     "path": "skills/launch-strategy",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "launch-strategy",
     "description": "You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.",
     "risk": "unknown",
@@ -7232,7 +7232,7 @@
   {
     "id": "linear-claude-skill",
     "path": "skills/linear-claude-skill",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "linear-claude-skill",
     "description": "Manage Linear issues, projects, and teams",
     "risk": "safe",
@@ -7312,7 +7312,7 @@
   {
     "id": "llm-app-patterns",
     "path": "skills/llm-app-patterns",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "llm-app-patterns",
     "description": "Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.",
     "risk": "unknown",
@@ -7402,7 +7402,7 @@
   {
     "id": "local-llm-expert",
     "path": "skills/local-llm-expert",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "local-llm-expert",
     "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
     "risk": "unknown",
@@ -7762,7 +7762,7 @@
   {
     "id": "memory-systems",
     "path": "skills/memory-systems",
-    "category": "uncategorized",
+    "category": "memory",
     "name": "memory-systems",
     "description": "Design short-term, long-term, and graph-based memory architectures",
     "risk": "safe",
@@ -8042,7 +8042,7 @@
   {
     "id": "multi-agent-patterns",
     "path": "skills/multi-agent-patterns",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "multi-agent-patterns",
     "description": "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.",
     "risk": "unknown",
@@ -8202,7 +8202,7 @@
   {
     "id": "nestjs-expert",
     "path": "skills/nestjs-expert",
-    "category": "development",
+    "category": "framework",
     "name": "nestjs-expert",
     "description": "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.",
     "risk": "unknown",
@@ -8252,7 +8252,7 @@
   {
     "id": "nextjs-app-router-patterns",
     "path": "skills/nextjs-app-router-patterns",
-    "category": "uncategorized",
+    "category": "framework",
     "name": "nextjs-app-router-patterns",
     "description": "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.",
     "risk": "unknown",
@@ -8262,7 +8262,7 @@
   {
     "id": "nextjs-best-practices",
     "path": "skills/nextjs-best-practices",
-    "category": "uncategorized",
+    "category": "frontend",
     "name": "nextjs-best-practices",
     "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
     "risk": "unknown",
@@ -8372,7 +8372,7 @@
   {
     "id": "observability-engineer",
     "path": "skills/observability-engineer",
-    "category": "devops",
+    "category": "reliability",
     "name": "observability-engineer",
     "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
     "risk": "unknown",
@@ -8662,7 +8662,7 @@
   {
     "id": "office-productivity",
     "path": "skills/office-productivity",
-    "category": "workflow-bundle",
+    "category": "productivity",
     "name": "office-productivity",
     "description": "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.",
     "risk": "safe",
@@ -8712,7 +8712,7 @@
   {
     "id": "openclaw-github-repo-commander",
     "path": "skills/openclaw-github-repo-commander",
-    "category": "development",
+    "category": "development-and-testing",
     "name": "openclaw-github-repo-commander",
     "description": "7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis",
     "risk": "safe",
@@ -8802,7 +8802,7 @@
   {
     "id": "pakistan-payments-stack",
     "path": "skills/pakistan-payments-stack",
-    "category": "backend",
+    "category": "api-integration",
     "name": "pakistan-payments-stack",
     "description": "Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.",
     "risk": "safe",
@@ -8832,7 +8832,7 @@
   {
     "id": "paypal-integration",
     "path": "skills/paypal-integration",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "paypal-integration",
     "description": "Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.",
     "risk": "unknown",
@@ -8872,7 +8872,7 @@
   {
     "id": "pdf-official",
     "path": "skills/pdf-official",
-    "category": "uncategorized",
+    "category": "document-processing",
     "name": "pdf-official",
     "description": "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions.",
     "risk": "unknown",
@@ -8972,7 +8972,7 @@
   {
     "id": "pipecat-friday-agent",
     "path": "skills/pipecat-friday-agent",
-    "category": "ai-ml",
+    "category": "voice-agents",
     "name": "pipecat-friday-agent",
     "description": "Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.",
     "risk": "safe",
@@ -8992,7 +8992,7 @@
   {
     "id": "plaid-fintech",
     "path": "skills/plaid-fintech",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "plaid-fintech",
     "description": "Create a linktoken for Plaid Link, exchange publictoken for accesstoken. Link tokens are short-lived, one-time use. Access tokens don't expire but may need updating when users change passwords.",
     "risk": "unknown",
@@ -9012,7 +9012,7 @@
   {
     "id": "planning-with-files",
     "path": "skills/planning-with-files",
-    "category": "uncategorized",
+    "category": "planning",
     "name": "planning-with-files",
     "description": "Work like Manus: Use persistent markdown files as your \"working memory on disk.\"",
     "risk": "unknown",
@@ -9022,7 +9022,7 @@
   {
     "id": "playwright-java",
     "path": "skills/playwright-java",
-    "category": "testing",
+    "category": "test-automation",
     "name": "playwright-java",
     "description": "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.",
     "risk": "safe",
@@ -9032,7 +9032,7 @@
   {
     "id": "playwright-skill",
     "path": "skills/playwright-skill",
-    "category": "uncategorized",
+    "category": "test-automation",
     "name": "playwright-skill",
     "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.",
     "risk": "unknown",
@@ -9142,7 +9142,7 @@
   {
     "id": "postmortem-writing",
     "path": "skills/postmortem-writing",
-    "category": "uncategorized",
+    "category": "reliability",
     "name": "postmortem-writing",
     "description": "Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.",
     "risk": "unknown",
@@ -9162,7 +9162,7 @@
   {
     "id": "pptx-official",
     "path": "skills/pptx-official",
-    "category": "uncategorized",
+    "category": "presentation-processing",
     "name": "pptx-official",
     "description": "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.",
     "risk": "unknown",
@@ -9292,7 +9292,7 @@
   {
     "id": "programmatic-seo",
     "path": "skills/programmatic-seo",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "programmatic-seo",
     "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
     "risk": "unknown",
@@ -9302,7 +9302,7 @@
   {
     "id": "progressive-estimation",
     "path": "skills/progressive-estimation",
-    "category": "workflow",
+    "category": "project-management",
     "name": "progressive-estimation",
     "description": "Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops",
     "risk": "safe",
@@ -9422,7 +9422,7 @@
   {
     "id": "pydantic-ai",
     "path": "skills/pydantic-ai",
-    "category": "ai-ml",
+    "category": "ai-agents",
     "name": "pydantic-ai",
     "description": "Build production-ready AI agents with PydanticAI \u2014 type-safe tool use, structured outputs, dependency injection, and multi-model support.",
     "risk": "safe",
@@ -9502,7 +9502,7 @@
   {
     "id": "python-pro",
     "path": "skills/python-pro",
-    "category": "development",
+    "category": "code",
     "name": "python-pro",
     "description": "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.",
     "risk": "unknown",
@@ -9562,7 +9562,7 @@
   {
     "id": "rag-engineer",
     "path": "skills/rag-engineer",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "rag-engineer",
     "description": "I bridge the gap between raw documents and LLM understanding. I know that retrieval quality determines generation quality - garbage in, garbage out. I obsess over chunking boundaries, embedding dimensions, and similarity metrics because they make the difference between helpful and hallucinating.",
     "risk": "unknown",
@@ -9642,7 +9642,7 @@
   {
     "id": "react-patterns",
     "path": "skills/react-patterns",
-    "category": "web-development",
+    "category": "frontend",
     "name": "react-patterns",
     "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
     "risk": "unknown",
@@ -9682,7 +9682,7 @@
   {
     "id": "recallmax",
     "path": "skills/recallmax",
-    "category": "ai-ml",
+    "category": "memory",
     "name": "recallmax",
     "description": "FREE \u2014 God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.",
     "risk": "safe",
@@ -9772,7 +9772,7 @@
   {
     "id": "remotion-best-practices",
     "path": "skills/remotion-best-practices",
-    "category": "uncategorized",
+    "category": "media",
     "name": "remotion-best-practices",
     "description": "Best practices for Remotion - Video creation in React",
     "risk": "unknown",
@@ -9912,7 +9912,7 @@
   {
     "id": "rust-pro",
     "path": "skills/rust-pro",
-    "category": "uncategorized",
+    "category": "code",
     "name": "rust-pro",
     "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
     "risk": "unknown",
@@ -9982,7 +9982,7 @@
   {
     "id": "sankhya-dashboard-html-jsp-custom-best-pratices",
     "path": "skills/sankhya-dashboard-html-jsp-custom-best-pratices",
-    "category": "development",
+    "category": "code",
     "name": "sankhya-dashboard-html-jsp-custom-best-pratices",
     "description": "This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.",
     "risk": "safe",
@@ -10202,7 +10202,7 @@
   {
     "id": "seek-and-analyze-video",
     "path": "skills/seek-and-analyze-video",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "seek-and-analyze-video",
     "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
     "risk": "safe",
@@ -10742,7 +10742,7 @@
   {
     "id": "slo-implementation",
     "path": "skills/slo-implementation",
-    "category": "uncategorized",
+    "category": "reliability",
     "name": "slo-implementation",
     "description": "Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.",
     "risk": "unknown",
@@ -10872,7 +10872,7 @@
   {
     "id": "sql-pro",
     "path": "skills/sql-pro",
-    "category": "database",
+    "category": "data",
     "name": "sql-pro",
     "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
     "risk": "unknown",
@@ -11062,7 +11062,7 @@
   {
     "id": "stripe-integration",
     "path": "skills/stripe-integration",
-    "category": "automation",
+    "category": "api-integration",
     "name": "stripe-integration",
     "description": "Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds.",
     "risk": "unknown",
@@ -11112,7 +11112,7 @@
   {
     "id": "sveltekit",
     "path": "skills/sveltekit",
-    "category": "web-development",
+    "category": "frontend",
     "name": "sveltekit",
     "description": "Build full-stack web applications with SvelteKit \u2014 file-based routing, SSR, SSG, API routes, and form actions in one framework.",
     "risk": "safe",
@@ -11142,7 +11142,7 @@
   {
     "id": "systematic-debugging",
     "path": "skills/systematic-debugging",
-    "category": "uncategorized",
+    "category": "development-and-testing",
     "name": "systematic-debugging",
     "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
     "risk": "unknown",
@@ -11172,7 +11172,7 @@
   {
     "id": "tailwind-patterns",
     "path": "skills/tailwind-patterns",
-    "category": "uncategorized",
+    "category": "frontend",
     "name": "tailwind-patterns",
     "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
     "risk": "unknown",
@@ -11282,7 +11282,7 @@
   {
     "id": "team-collaboration-issue",
     "path": "skills/team-collaboration-issue",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "team-collaboration-issue",
     "description": "You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows. Your expertise spans issue triage, root cause an",
     "risk": "unknown",
@@ -11292,7 +11292,7 @@
   {
     "id": "team-collaboration-standup-notes",
     "path": "skills/team-collaboration-standup-notes",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "team-collaboration-standup-notes",
     "description": "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns.",
     "risk": "unknown",
@@ -11352,7 +11352,7 @@
   {
     "id": "templates",
     "path": "skills/app-builder/templates",
-    "category": "development",
+    "category": "app-builder",
     "name": "templates",
     "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
     "risk": "unknown",
@@ -11442,7 +11442,7 @@
   {
     "id": "test-automator",
     "path": "skills/test-automator",
-    "category": "testing",
+    "category": "test-automation",
     "name": "test-automator",
     "description": "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.",
     "risk": "unknown",
@@ -11462,7 +11462,7 @@
   {
     "id": "test-fixing",
     "path": "skills/test-fixing",
-    "category": "testing",
+    "category": "development-and-testing",
     "name": "test-fixing",
     "description": "Systematically identify and fix all failing tests using smart grouping strategies.",
     "risk": "unknown",
@@ -11662,7 +11662,7 @@
   {
     "id": "tool-use-guardian",
     "path": "skills/tool-use-guardian",
-    "category": "devops",
+    "category": "reliability",
     "name": "tool-use-guardian",
     "description": "FREE \u2014 Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures.",
     "risk": "safe",
@@ -11682,7 +11682,7 @@
   {
     "id": "track-management",
     "path": "skills/track-management",
-    "category": "uncategorized",
+    "category": "planning",
     "name": "track-management",
     "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
     "risk": "unknown",
@@ -11722,7 +11722,7 @@
   {
     "id": "trpc-fullstack",
     "path": "skills/trpc-fullstack",
-    "category": "development",
+    "category": "framework",
     "name": "trpc-fullstack",
     "description": "Build end-to-end type-safe APIs with tRPC \u2014 routers, procedures, middleware, subscriptions, and Next.js/React integration patterns.",
     "risk": "none",
@@ -11752,7 +11752,7 @@
   {
     "id": "twilio-communications",
     "path": "skills/twilio-communications",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "twilio-communications",
     "description": "Basic pattern for sending SMS messages with Twilio. Handles the fundamentals: phone number formatting, message delivery, and delivery status callbacks.",
     "risk": "unknown",
@@ -11782,7 +11782,7 @@
   {
     "id": "typescript-expert",
     "path": "skills/typescript-expert",
-    "category": "development",
+    "category": "framework",
     "name": "typescript-expert",
     "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.",
     "risk": "unknown",
@@ -11792,7 +11792,7 @@
   {
     "id": "typescript-pro",
     "path": "skills/typescript-pro",
-    "category": "uncategorized",
+    "category": "code",
     "name": "typescript-pro",
     "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
     "risk": "unknown",
@@ -11822,7 +11822,7 @@
   {
     "id": "ui-ux-pro-max",
     "path": "skills/ui-ux-pro-max",
-    "category": "web-development",
+    "category": "front-end",
     "name": "ui-ux-pro-max",
     "description": "Comprehensive design guide for web and mobile applications. Contains 50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines, and 25 chart types across 9 technology stacks. Searchable database with priority-based recommendations.",
     "risk": "unknown",
@@ -11842,7 +11842,7 @@
   {
     "id": "uncle-bob-craft",
     "path": "skills/uncle-bob-craft",
-    "category": "development",
+    "category": "code-quality",
     "name": "uncle-bob-craft",
     "description": "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.",
     "risk": "safe",
@@ -12002,7 +12002,7 @@
   {
     "id": "vector-database-engineer",
     "path": "skills/vector-database-engineer",
-    "category": "ai-ml",
+    "category": "data-ai",
     "name": "vector-database-engineer",
     "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar",
     "risk": "unknown",
@@ -12252,7 +12252,7 @@
   {
     "id": "web-scraper",
     "path": "skills/web-scraper",
-    "category": "uncategorized",
+    "category": "data",
     "name": "web-scraper",
     "description": "Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.",
     "risk": "safe",
@@ -12272,7 +12272,7 @@
   {
     "id": "web3-testing",
     "path": "skills/web3-testing",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "web3-testing",
     "description": "Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns.",
     "risk": "unknown",
@@ -12282,7 +12282,7 @@
   {
     "id": "webapp-testing",
     "path": "skills/webapp-testing",
-    "category": "testing",
+    "category": "test-automation",
     "name": "webapp-testing",
     "description": "To test local web applications, write native Python Playwright scripts.",
     "risk": "unknown",
@@ -12522,7 +12522,7 @@
   {
     "id": "writer",
     "path": "skills/libreoffice/writer",
-    "category": "productivity",
+    "category": "document-processing",
     "name": "writer",
     "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
     "risk": "safe",
@@ -12562,7 +12562,7 @@
   {
     "id": "x-twitter-scraper",
     "path": "skills/x-twitter-scraper",
-    "category": "data-science",
+    "category": "data",
     "name": "x-twitter-scraper",
     "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
     "risk": "safe",
@@ -12572,7 +12572,7 @@
   {
     "id": "xlsx-official",
     "path": "skills/xlsx-official",
-    "category": "uncategorized",
+    "category": "spreadsheet-processing",
     "name": "xlsx-official",
     "description": "Unless otherwise stated by the user or existing template",
     "risk": "unknown",
