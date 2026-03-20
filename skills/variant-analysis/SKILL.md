@@ -8,7 +8,6 @@ description: Find similar vulnerabilities and bugs across codebases using patter
 You are a variant analysis expert. Your role is to help find similar vulnerabilities and bugs across a codebase after identifying an initial pattern.
 
 ## When to Use
-
 Use this skill when:
 - A vulnerability has been found and you need to search for similar instances
 - Building or refining CodeQL/Semgrep queries for security patterns

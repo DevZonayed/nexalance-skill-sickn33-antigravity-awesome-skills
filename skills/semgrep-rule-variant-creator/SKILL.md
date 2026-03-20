@@ -10,7 +10,6 @@ allowed-tools:
 Port existing Semgrep rules to new target languages with proper applicability analysis and test-driven validation.
 
 ## When to Use
-
 **Ideal scenarios:**
 - Porting an existing Semgrep rule to one or more target languages
 - Creating language-specific variants of a universal vulnerability pattern

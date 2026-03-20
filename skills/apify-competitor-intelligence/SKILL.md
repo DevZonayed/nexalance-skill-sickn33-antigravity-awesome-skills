@@ -121,7 +121,6 @@ After completion, report:
 - Key competitive insights
 - Suggested next steps (deeper analysis, benchmarking)
 
-
 ## Error Handling
 
 `APIFY_TOKEN not found` - Ask user to create `.env` with `APIFY_TOKEN=your_token`

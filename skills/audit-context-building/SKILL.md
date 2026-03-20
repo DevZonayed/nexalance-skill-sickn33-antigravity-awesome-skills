@@ -20,8 +20,7 @@ This skill defines a structured analysis format (see Example: Function Micro-Ana
 
 ---
 
-## 2. When to Use This Skill
-
+## When to Use
 Use when:
 - Deep comprehension is needed before bug or vulnerability discovery.
 - You want bottom-up understanding instead of high-level guessing.

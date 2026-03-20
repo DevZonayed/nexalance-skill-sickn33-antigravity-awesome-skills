@@ -4,7 +4,6 @@ description: Verifies code implements exactly what documentation specifies for b
 ---
 
 ## When to Use
-
 Use this skill when you need to:
 - Verify code implements exactly what documentation specifies
 - Audit smart contracts against whitepapers or design documents

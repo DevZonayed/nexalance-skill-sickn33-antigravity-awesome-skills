@@ -14,7 +14,6 @@ allowed-tools:
 Activates when the user says "audit this project's dependencies".
 
 ## When to Use
-
 - Assessing dependency risk before a security audit
 - Evaluating supply chain attack surface of a project
 - Identifying unmaintained or risky dependencies

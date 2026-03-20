@@ -187,7 +187,6 @@ Clarity Gate **enforces** their presence where epistemically required ("Should u
 ---
 
 ## When to Use
-
 - Before ingesting documents into RAG systems
 - Before sharing documents with other AI systems
 - After writing specifications, state docs, or methodology descriptions

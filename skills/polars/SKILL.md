@@ -382,4 +382,3 @@ This skill includes comprehensive reference documentation:
 - `best_practices.md` - Performance optimization tips and common patterns
 
 Load these references as needed when users require detailed information about specific topics.
-

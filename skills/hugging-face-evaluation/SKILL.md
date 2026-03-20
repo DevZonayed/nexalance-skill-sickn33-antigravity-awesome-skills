@@ -70,7 +70,6 @@ file.**
 > Before running any script, first `cd` to that directory or use the full
 path.
 
-
 **Use `--help` for the latest workflow guidance.** Works with plain Python or `uv run`:
 ```bash
 uv run scripts/evaluation_manager.py --help

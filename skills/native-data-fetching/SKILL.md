@@ -19,7 +19,6 @@ references/
 ```
 
 ## When to Use
-
 Use this skill when:
 
 - Implementing API requests
