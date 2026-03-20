@@ -5998,8 +5998,8 @@
     {
       "id": "backend-dev-guidelines",
       "name": "backend-dev-guidelines",
-      "description": "(Node.js · Express · TypeScript · Microservices)",
-      "category": "development",
+      "description": "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.",
+      "category": "data-ai",
       "tags": [
         "backend",
         "dev",
@@ -6009,11 +6009,15 @@
         "backend",
         "dev",
         "guidelines",
-        "node",
-        "js",
-        "express",
-        "typescript",
-        "microservices"
+        "senior",
+        "engineer",
+        "operating",
+        "grade",
+        "under",
+        "strict",
+        "architectural",
+        "reliability",
+        "constraints"
       ],
       "path": "skills/backend-dev-guidelines/SKILL.md"
     },
@@ -7456,7 +7460,7 @@
     {
       "id": "cc-skill-security-review",
       "name": "cc-skill-security-review",
-      "description": "This skill ensures all code follows security best practices and identifies potential vulnerabilities.",
+      "description": "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints.",
       "category": "security",
       "tags": [
         "cc",
@@ -7474,7 +7478,8 @@
         "follows",
         "identifies",
         "potential",
-        "vulnerabilities"
+        "vulnerabilities",
+        "implementing"
       ],
       "path": "skills/cc-skill-security-review/SKILL.md"
     },
@@ -8618,7 +8623,7 @@
     {
       "id": "codex-review",
       "name": "codex-review",
-      "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
+      "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.",
       "category": "data-ai",
       "tags": [
         "codex"
@@ -8632,7 +8637,10 @@
         "changelog",
         "generation",
         "integrated",
-        "ai"
+        "ai",
+        "want",
+        "before",
+        "commits"
       ],
       "path": "skills/codex-review/SKILL.md"
     },
@@ -9363,7 +9371,7 @@
     {
       "id": "context7-auto-research",
       "name": "context7-auto-research",
-      "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+      "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library.",
       "category": "development",
       "tags": [
         "context7",
@@ -10317,7 +10325,7 @@
     {
       "id": "dbos-golang",
       "name": "dbos-golang",
-      "description": "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows.",
+      "description": "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control.",
       "category": "development",
       "tags": [
         "dbos",
@@ -10332,14 +10340,17 @@
         "tolerant",
         "go",
         "applications",
-        "durable"
+        "durable",
+        "adding",
+        "existing",
+        "code"
       ],
       "path": "skills/dbos-golang/SKILL.md"
     },
     {
       "id": "dbos-python",
       "name": "dbos-python",
-      "description": "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows.",
+      "description": "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.",
       "category": "development",
       "tags": [
         "dbos",
@@ -10353,14 +10364,18 @@
         "fault",
         "tolerant",
         "applications",
-        "durable"
+        "durable",
+        "adding",
+        "existing",
+        "code",
+        "creating"
       ],
       "path": "skills/dbos-python/SKILL.md"
     },
     {
       "id": "dbos-typescript",
       "name": "dbos-typescript",
-      "description": "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows.",
+      "description": "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control.",
       "category": "development",
       "tags": [
         "dbos",
@@ -10374,7 +10389,11 @@
         "fault",
         "tolerant",
         "applications",
-        "durable"
+        "durable",
+        "adding",
+        "existing",
+        "code",
+        "creating"
       ],
       "path": "skills/dbos-typescript/SKILL.md"
     },
@@ -10486,7 +10505,7 @@
     {
       "id": "debug-buttercup",
       "name": "debug-buttercup",
-      "description": "All pods run in namespace crs. Key services:",
+      "description": "All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.",
       "category": "general",
       "tags": [
         "debug",
@@ -10500,7 +10519,11 @@
         "run",
         "namespace",
         "crs",
-        "key"
+        "crashloopbackoff",
+        "oomkilled",
+        "restarting",
+        "multiple",
+        "restart"
       ],
       "path": "skills/debug-buttercup/SKILL.md"
     },
@@ -12120,15 +12143,24 @@
     {
       "id": "evaluation",
       "name": "evaluation",
-      "description": "Build evaluation frameworks for agent systems",
-      "category": "general",
+      "description": "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.",
+      "category": "testing",
       "tags": [
         "evaluation"
       ],
       "triggers": [
         "evaluation",
         "frameworks",
-        "agent"
+        "agent",
+        "testing",
+        "performance",
+        "systematically",
+        "validating",
+        "context",
+        "engineering",
+        "choices",
+        "measuring",
+        "improvements"
       ],
       "path": "skills/evaluation/SKILL.md"
     },
@@ -12206,7 +12238,7 @@
     {
       "id": "exa-search",
       "name": "exa-search",
-      "description": "Semantic search, similar content discovery, and structured research using Exa API",
+      "description": "Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.).",
       "category": "development",
       "tags": [
         "exa",
@@ -12221,7 +12253,10 @@
         "discovery",
         "structured",
         "research",
-        "api"
+        "api",
+        "embeddings",
+        "finding",
+        "searching"
       ],
       "path": "skills/exa-search/SKILL.md"
     },
@@ -12950,7 +12985,7 @@
     {
       "id": "firecrawl-scraper",
       "name": "firecrawl-scraper",
-      "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API",
+      "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.",
       "category": "development",
       "tags": [
         "firecrawl",
@@ -12967,7 +13002,8 @@
         "parsing",
         "website",
         "crawling",
-        "api"
+        "api",
+        "content"
       ],
       "path": "skills/firecrawl-scraper/SKILL.md"
     },
@@ -13778,8 +13814,8 @@
     {
       "id": "frontend-dev-guidelines",
       "name": "frontend-dev-guidelines",
-      "description": "(React · TypeScript · Suspense-First · Production-Grade)",
-      "category": "development",
+      "description": "You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.",
+      "category": "data-ai",
       "tags": [
         "frontend",
         "dev",
@@ -13789,11 +13825,15 @@
         "frontend",
         "dev",
         "guidelines",
-        "react",
-        "typescript",
-        "suspense",
-        "first",
-        "grade"
+        "senior",
+        "engineer",
+        "operating",
+        "under",
+        "strict",
+        "architectural",
+        "performance",
+        "standards",
+        "creating"
       ],
       "path": "skills/frontend-dev-guidelines/SKILL.md"
     },
@@ -14560,7 +14600,7 @@
     {
       "id": "git-pushing",
       "name": "git-pushing",
-      "description": "Stage all changes, create a conventional commit, and push to the remote branch.",
+      "description": "Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitly asks to push changes (\"push this\", \"commit and push\"), mentions saving work to remote (\"save to github\", \"push to remote\"), or completes a feature and wants to share it.",
       "category": "general",
       "tags": [
         "git",
@@ -14576,7 +14616,9 @@
         "commit",
         "push",
         "remote",
-        "branch"
+        "branch",
+        "explicitly",
+        "asks"
       ],
       "path": "skills/git-pushing/SKILL.md"
     },
@@ -19135,7 +19177,7 @@
     {
       "id": "memory-systems",
       "name": "memory-systems",
-      "description": "Design short-term, long-term, and graph-based memory architectures",
+      "description": "Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge.",
       "category": "general",
       "tags": [
         "memory"
@@ -19146,7 +19188,13 @@
         "term",
         "long",
         "graph",
-        "architectures"
+        "architectures",
+        "building",
+        "agents",
+        "must",
+        "persist",
+        "sessions",
+        "needing"
       ],
       "path": "skills/memory-systems/SKILL.md"
     },
@@ -23490,8 +23538,8 @@
     {
       "id": "react-best-practices",
       "name": "react-best-practices",
-      "description": "Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Contains 45 rules across 8 categories, prioritized by impact to guide automated refactoring and code generation.",
-      "category": "development",
+      "description": "Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.",
+      "category": "data-ai",
       "tags": [
         "react",
         "best",
@@ -23508,8 +23556,8 @@
         "applications",
         "maintained",
         "vercel",
-        "contains",
-        "45"
+        "writing",
+        "new"
       ],
       "path": "skills/react-best-practices/SKILL.md"
     },
@@ -26099,7 +26147,7 @@
     {
       "id": "skill-improver",
       "name": "skill-improver",
-      "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.",
+      "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.",
       "category": "general",
       "tags": [
         "skill",
@@ -27535,7 +27583,7 @@
     {
       "id": "tavily-web",
       "name": "tavily-web",
-      "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
+      "description": "Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.",
       "category": "development",
       "tags": [
         "tavily",
@@ -27550,7 +27598,10 @@
         "crawling",
         "research",
         "capabilities",
-        "api"
+        "api",
+        "current",
+        "information",
+        "extracting"
       ],
       "path": "skills/tavily-web/SKILL.md"
     },
@@ -28105,7 +28156,7 @@
     {
       "id": "test-fixing",
       "name": "test-fixing",
-      "description": "Systematically identify and fix all failing tests using smart grouping strategies.",
+      "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.",
       "category": "testing",
       "tags": [
         "fixing"
@@ -28120,7 +28171,9 @@
         "failing",
         "tests",
         "smart",
-        "grouping"
+        "grouping",
+        "explicitly",
+        "asks"
       ],
       "path": "skills/test-fixing/SKILL.md"
     },
@@ -28570,7 +28623,7 @@
     {
       "id": "tool-design",
       "name": "tool-design",
-      "description": "Build tools that agents can use effectively, including architectural reduction patterns",
+      "description": "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance.",
       "category": "architecture",
       "tags": [],
       "triggers": [
@@ -28578,7 +28631,14 @@
         "effectively",
         "including",
         "architectural",
-        "reduction"
+        "reduction",
+        "creating",
+        "new",
+        "agent",
+        "debugging",
+        "related",
+        "failures",
+        "misuse"
       ],
       "path": "skills/tool-design/SKILL.md"
     },
@@ -28979,8 +29039,8 @@
     {
       "id": "ui-ux-pro-max",
       "name": "ui-ux-pro-max",
-      "description": "Comprehensive design guide for web and mobile applications. Contains 50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines, and 25 chart types across 9 technology stacks. Searchable database with priority-based recommendations.",
-      "category": "data-ai",
+      "description": "Comprehensive design guide for web and mobile applications. Use when designing new UI components or pages, choosing color palettes and typography, or reviewing code for UX issues.",
+      "category": "development",
       "tags": [
         "ui",
         "ux",
@@ -28994,11 +29054,11 @@
         "web",
         "mobile",
         "applications",
-        "contains",
-        "50",
-        "styles",
-        "97",
-        "color"
+        "designing",
+        "new",
+        "components",
+        "pages",
+        "choosing"
       ],
       "path": "skills/ui-ux-pro-max/SKILL.md"
     },
@@ -29538,7 +29598,7 @@
     {
       "id": "verification-before-completion",
       "name": "verification-before-completion",
-      "description": "Claiming work is complete without verification is dishonesty, not efficiency.",
+      "description": "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.",
       "category": "general",
       "tags": [
         "verification",
@@ -29554,7 +29614,10 @@
         "complete",
         "without",
         "dishonesty",
-        "efficiency"
+        "efficiency",
+        "any",
+        "variation",
+        "success"
       ],
       "path": "skills/verification-before-completion/SKILL.md"
     },
@@ -30219,7 +30282,7 @@
     {
       "id": "wiki-changelog",
       "name": "wiki-changelog",
-      "description": "Generate structured changelogs from git history.",
+      "description": "Generate structured changelogs from git history. Use when user asks \"what changed recently\", \"generate a changelog\", \"summarize commits\" or user wants to understand recent development activity.",
       "category": "general",
       "tags": [
         "wiki",
@@ -30232,14 +30295,19 @@
         "structured",
         "changelogs",
         "git",
-        "history"
+        "history",
+        "user",
+        "asks",
+        "what",
+        "changed",
+        "recently"
       ],
       "path": "skills/wiki-changelog/SKILL.md"
     },
     {
       "id": "wiki-onboarding",
       "name": "wiki-onboarding",
-      "description": "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase.",
+      "description": "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase.",
       "category": "general",
       "tags": [
         "wiki",
@@ -30289,7 +30357,7 @@
     {
       "id": "wiki-qa",
       "name": "wiki-qa",
-      "description": "Answer repository questions grounded entirely in source code evidence.",
+      "description": "Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific file, function, or component, or user asks \"how does X work\" or \"where is Y defined\".",
       "category": "testing",
       "tags": [
         "wiki",
@@ -30305,15 +30373,17 @@
         "entirely",
         "source",
         "code",
-        "evidence"
+        "evidence",
+        "user",
+        "asks"
       ],
       "path": "skills/wiki-qa/SKILL.md"
     },
     {
       "id": "wiki-researcher",
       "name": "wiki-researcher",
-      "description": "You are an expert software engineer and systems analyst. Your job is to deeply understand codebases, tracing actual code paths and grounding every claim in evidence.",
-      "category": "infrastructure",
+      "description": "You are an expert software engineer and systems analyst. Use when user asks \"how does X work\" with expectation of depth, user wants to understand a complex system spanning many files, or user asks for architectural analysis or pattern investigation.",
+      "category": "general",
       "tags": [
         "wiki",
         "researcher"
@@ -30324,20 +30394,20 @@
         "software",
         "engineer",
         "analyst",
-        "job",
-        "deeply",
-        "understand",
-        "codebases",
-        "tracing",
-        "actual",
-        "code"
+        "user",
+        "asks",
+        "how",
+        "does",
+        "work",
+        "expectation",
+        "depth"
       ],
       "path": "skills/wiki-researcher/SKILL.md"
     },
     {
       "id": "wiki-vitepress",
       "name": "wiki-vitepress",
-      "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams.",
+      "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.",
       "category": "general",
       "tags": [
         "wiki",

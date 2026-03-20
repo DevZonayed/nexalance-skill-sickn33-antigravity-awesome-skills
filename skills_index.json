@@ -2404,7 +2404,7 @@
     "path": "skills/backend-dev-guidelines",
     "category": "backend",
     "name": "backend-dev-guidelines",
-    "description": "(Node.js \u00b7 Express \u00b7 TypeScript \u00b7 Microservices)",
+    "description": "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3034,7 +3034,7 @@
     "path": "skills/cc-skill-security-review",
     "category": "meta",
     "name": "cc-skill-security-review",
-    "description": "This skill ensures all code follows security best practices and identifies potential vulnerabilities.",
+    "description": "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3504,7 +3504,7 @@
     "path": "skills/codex-review",
     "category": "code-quality",
     "name": "codex-review",
-    "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
+    "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3824,7 +3824,7 @@
     "path": "skills/context7-auto-research",
     "category": "meta",
     "name": "context7-auto-research",
-    "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+    "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4214,7 +4214,7 @@
     "path": "skills/dbos-golang",
     "category": "development",
     "name": "dbos-golang",
-    "description": "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows.",
+    "description": "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control.",
     "risk": "safe",
     "source": "https://docs.dbos.dev/",
     "date_added": "2026-02-27"
@@ -4224,7 +4224,7 @@
     "path": "skills/dbos-python",
     "category": "development",
     "name": "dbos-python",
-    "description": "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows.",
+    "description": "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.",
     "risk": "safe",
     "source": "https://docs.dbos.dev/",
     "date_added": "2026-02-27"
@@ -4234,7 +4234,7 @@
     "path": "skills/dbos-typescript",
     "category": "development",
     "name": "dbos-typescript",
-    "description": "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows.",
+    "description": "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control.",
     "risk": "safe",
     "source": "https://docs.dbos.dev/",
     "date_added": "2026-02-27"
@@ -4284,7 +4284,7 @@
     "path": "skills/debug-buttercup",
     "category": "uncategorized",
     "name": "debug-buttercup",
-    "description": "All pods run in namespace crs. Key services:",
+    "description": "All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.",
     "risk": "unknown",
     "source": "community",
     "date_added": null
@@ -4984,7 +4984,7 @@
     "path": "skills/evaluation",
     "category": "ai-ml",
     "name": "evaluation",
-    "description": "Build evaluation frameworks for agent systems",
+    "description": "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.",
     "risk": "safe",
     "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
     "date_added": "2026-02-27"
@@ -5024,7 +5024,7 @@
     "path": "skills/exa-search",
     "category": "data-ai",
     "name": "exa-search",
-    "description": "Semantic search, similar content discovery, and structured research using Exa API",
+    "description": "Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.).",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5354,7 +5354,7 @@
     "path": "skills/firecrawl-scraper",
     "category": "data",
     "name": "firecrawl-scraper",
-    "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API",
+    "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content extraction from web pages, page interaction is required (clicking, scrolling, etc.), or you want screenshots or PDF parsing.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5674,7 +5674,7 @@
     "path": "skills/frontend-dev-guidelines",
     "category": "front-end",
     "name": "frontend-dev-guidelines",
-    "description": "(React \u00b7 TypeScript \u00b7 Suspense-First \u00b7 Production-Grade)",
+    "description": "You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5924,7 +5924,7 @@
     "path": "skills/git-pushing",
     "category": "workflow",
     "name": "git-pushing",
-    "description": "Stage all changes, create a conventional commit, and push to the remote branch.",
+    "description": "Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitly asks to push changes (\"push this\", \"commit and push\"), mentions saving work to remote (\"save to github\", \"push to remote\"), or completes a feature and wants to share it.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7764,7 +7764,7 @@
     "path": "skills/memory-systems",
     "category": "memory",
     "name": "memory-systems",
-    "description": "Design short-term, long-term, and graph-based memory architectures",
+    "description": "Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge.",
     "risk": "safe",
     "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems",
     "date_added": "2026-02-27"
@@ -9584,7 +9584,7 @@
     "path": "skills/react-best-practices",
     "category": "web-development",
     "name": "react-best-practices",
-    "description": "Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Contains 45 rules across 8 categories, prioritized by impact to guide automated refactoring and code generation.",
+    "description": "Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10614,7 +10614,7 @@
     "path": "skills/skill-improver",
     "category": "meta",
     "name": "skill-improver",
-    "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.",
+    "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.",
     "risk": "unknown",
     "source": "community",
     "date_added": null
@@ -11204,7 +11204,7 @@
     "path": "skills/tavily-web",
     "category": "data-ai",
     "name": "tavily-web",
-    "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
+    "description": "Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11464,7 +11464,7 @@
     "path": "skills/test-fixing",
     "category": "development-and-testing",
     "name": "test-fixing",
-    "description": "Systematically identify and fix all failing tests using smart grouping strategies.",
+    "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11652,9 +11652,9 @@
   {
     "id": "tool-design",
     "path": "skills/tool-design",
-    "category": "uncategorized",
+    "category": "ai-ml",
     "name": "tool-design",
-    "description": "Build tools that agents can use effectively, including architectural reduction patterns",
+    "description": "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance.",
     "risk": "safe",
     "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design",
     "date_added": "2026-02-27"
@@ -11824,7 +11824,7 @@
     "path": "skills/ui-ux-pro-max",
     "category": "front-end",
     "name": "ui-ux-pro-max",
-    "description": "Comprehensive design guide for web and mobile applications. Contains 50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines, and 25 chart types across 9 technology stacks. Searchable database with priority-based recommendations.",
+    "description": "Comprehensive design guide for web and mobile applications. Use when designing new UI components or pages, choosing color palettes and typography, or reviewing code for UX issues.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12054,7 +12054,7 @@
     "path": "skills/verification-before-completion",
     "category": "workflow",
     "name": "verification-before-completion",
-    "description": "Claiming work is complete without verification is dishonesty, not efficiency.",
+    "description": "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12354,7 +12354,7 @@
     "path": "skills/wiki-changelog",
     "category": "content",
     "name": "wiki-changelog",
-    "description": "Generate structured changelogs from git history.",
+    "description": "Generate structured changelogs from git history. Use when user asks \"what changed recently\", \"generate a changelog\", \"summarize commits\" or user wants to understand recent development activity.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12364,7 +12364,7 @@
     "path": "skills/wiki-onboarding",
     "category": "content",
     "name": "wiki-onboarding",
-    "description": "Generate two complementary onboarding documents that together give any engineer \u2014 from newcomer to principal \u2014 a complete understanding of a codebase.",
+    "description": "Generate two complementary onboarding documents that together give any engineer \u2014 from newcomer to principal \u2014 a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12384,7 +12384,7 @@
     "path": "skills/wiki-qa",
     "category": "content",
     "name": "wiki-qa",
-    "description": "Answer repository questions grounded entirely in source code evidence.",
+    "description": "Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific file, function, or component, or user asks \"how does X work\" or \"where is Y defined\".",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12394,7 +12394,7 @@
     "path": "skills/wiki-researcher",
     "category": "content",
     "name": "wiki-researcher",
-    "description": "You are an expert software engineer and systems analyst. Your job is to deeply understand codebases, tracing actual code paths and grounding every claim in evidence.",
+    "description": "You are an expert software engineer and systems analyst. Use when user asks \"how does X work\" with expectation of depth, user wants to understand a complex system spanning many files, or user asks for architectural analysis or pattern investigation.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12404,7 +12404,7 @@
     "path": "skills/wiki-vitepress",
     "category": "content",
     "name": "wiki-vitepress",
-    "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams.",
+    "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
