@@ -142,7 +142,7 @@
   {
     "id": "advogado-criminal",
     "path": "skills/advogado-criminal",
-    "category": "uncategorized",
+    "category": "legal",
     "name": "advogado-criminal",
     "description": "Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal.",
     "risk": "safe",
@@ -152,7 +152,7 @@
   {
     "id": "advogado-especialista",
     "path": "skills/advogado-especialista",
-    "category": "uncategorized",
+    "category": "legal",
     "name": "advogado-especialista",
     "description": "Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, trabalhista, tributario, consumidor, imobiliario, empresarial, civil e constitucional.",
     "risk": "safe",
@@ -612,7 +612,7 @@
   {
     "id": "antigravity-design-expert",
     "path": "skills/antigravity-design-expert",
-    "category": "web-development",
+    "category": "design",
     "name": "antigravity-design-expert",
     "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
     "risk": "safe",
@@ -2692,7 +2692,7 @@
   {
     "id": "brand-guidelines",
     "path": "skills/brand-guidelines",
-    "category": "content",
+    "category": "marketing",
     "name": "brand-guidelines",
     "description": "Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.",
     "risk": "unknown",
@@ -2702,7 +2702,7 @@
   {
     "id": "brand-guidelines-anthropic",
     "path": "skills/brand-guidelines-anthropic",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "brand-guidelines-anthropic",
     "description": "To access Anthropic's official brand identity and style resources, use this skill.",
     "risk": "unknown",
@@ -2712,7 +2712,7 @@
   {
     "id": "brand-guidelines-community",
     "path": "skills/brand-guidelines-community",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "brand-guidelines-community",
     "description": "To access Anthropic's official brand identity and style resources, use this skill.",
     "risk": "unknown",
@@ -3552,7 +3552,7 @@
   {
     "id": "comprehensive-review-full-review",
     "path": "skills/comprehensive-review-full-review",
-    "category": "uncategorized",
+    "category": "code-quality",
     "name": "comprehensive-review-full-review",
     "description": "Use when working with comprehensive review full review",
     "risk": "unknown",
@@ -3562,7 +3562,7 @@
   {
     "id": "comprehensive-review-pr-enhance",
     "path": "skills/comprehensive-review-pr-enhance",
-    "category": "uncategorized",
+    "category": "code-quality",
     "name": "comprehensive-review-pr-enhance",
     "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says \"write a PR description\", \"improve this PR\", \"summarize my changes\", \"PR review\", \"pull request\", or asks to document a diff for reviewers.\n",
     "risk": "unknown",
@@ -4012,7 +4012,7 @@
   {
     "id": "customs-trade-compliance",
     "path": "skills/customs-trade-compliance",
-    "category": "uncategorized",
+    "category": "legal",
     "name": "customs-trade-compliance",
     "description": "Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.",
     "risk": "safe",
@@ -4402,7 +4402,7 @@
   {
     "id": "design-md",
     "path": "skills/design-md",
-    "category": "uncategorized",
+    "category": "design",
     "name": "design-md",
     "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
     "risk": "safe",
@@ -4412,7 +4412,7 @@
   {
     "id": "design-orchestration",
     "path": "skills/design-orchestration",
-    "category": "uncategorized",
+    "category": "design",
     "name": "design-orchestration",
     "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
     "risk": "unknown",
@@ -4422,7 +4422,7 @@
   {
     "id": "design-spells",
     "path": "skills/design-spells",
-    "category": "uncategorized",
+    "category": "design",
     "name": "design-spells",
     "description": "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
     "risk": "safe",
@@ -4522,7 +4522,7 @@
   {
     "id": "distributed-debugging-debug-trace",
     "path": "skills/distributed-debugging-debug-trace",
-    "category": "uncategorized",
+    "category": "reliability",
     "name": "distributed-debugging-debug-trace",
     "description": "You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production environments.",
     "risk": "unknown",
@@ -4852,7 +4852,7 @@
   {
     "id": "employment-contract-templates",
     "path": "skills/employment-contract-templates",
-    "category": "uncategorized",
+    "category": "legal",
     "name": "employment-contract-templates",
     "description": "Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.",
     "risk": "unknown",
@@ -5252,7 +5252,7 @@
   {
     "id": "ffuf-claude-skill",
     "path": "skills/ffuf-claude-skill",
-    "category": "uncategorized",
+    "category": "security",
     "name": "ffuf-claude-skill",
     "description": "Web fuzzing with ffuf",
     "risk": "safe",
@@ -5262,7 +5262,7 @@
   {
     "id": "ffuf-web-fuzzing",
     "path": "skills/ffuf-web-fuzzing",
-    "category": "uncategorized",
+    "category": "security",
     "name": "ffuf-web-fuzzing",
     "description": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
     "risk": "unknown",
@@ -5292,7 +5292,7 @@
   {
     "id": "file-path-traversal",
     "path": "skills/file-path-traversal",
-    "category": "uncategorized",
+    "category": "security",
     "name": "file-path-traversal",
     "description": "Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially including sensitive configuration files, credentials, and source code.",
     "risk": "unknown",
@@ -5302,7 +5302,7 @@
   {
     "id": "file-uploads",
     "path": "skills/file-uploads",
-    "category": "uncategorized",
+    "category": "security",
     "name": "file-uploads",
     "description": "Careful about security and performance. Never trusts file extensions. Knows that large uploads need special handling. Prefers presigned URLs over server proxying.",
     "risk": "unknown",
@@ -5392,7 +5392,7 @@
   {
     "id": "fixing-accessibility",
     "path": "skills/fixing-accessibility",
-    "category": "uncategorized",
+    "category": "front-end",
     "name": "fixing-accessibility",
     "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
     "risk": "unknown",
@@ -5402,7 +5402,7 @@
   {
     "id": "fixing-metadata",
     "path": "skills/fixing-metadata",
-    "category": "uncategorized",
+    "category": "front-end",
     "name": "fixing-metadata",
     "description": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding or reviewing SEO and social metadata.",
     "risk": "unknown",
@@ -5412,7 +5412,7 @@
   {
     "id": "fixing-motion-performance",
     "path": "skills/fixing-motion-performance",
-    "category": "uncategorized",
+    "category": "front-end",
     "name": "fixing-motion-performance",
     "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
     "risk": "unknown",
@@ -5632,7 +5632,7 @@
   {
     "id": "free-tool-strategy",
     "path": "skills/free-tool-strategy",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "free-tool-strategy",
     "description": "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.",
     "risk": "unknown",
@@ -5652,7 +5652,7 @@
   {
     "id": "freshservice-automation",
     "path": "skills/freshservice-automation",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "freshservice-automation",
     "description": "Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -6192,7 +6192,7 @@
   {
     "id": "growth-engine",
     "path": "skills/growth-engine",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "growth-engine",
     "description": "Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.",
     "risk": "none",
@@ -6412,7 +6412,7 @@
   {
     "id": "hosted-agents",
     "path": "skills/hosted-agents",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "hosted-agents",
     "description": "Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.",
     "risk": "unknown",
@@ -6422,7 +6422,7 @@
   {
     "id": "hosted-agents-v2-py",
     "path": "skills/hosted-agents-v2-py",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "hosted-agents-v2-py",
     "description": "Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry.",
     "risk": "unknown",
@@ -6712,7 +6712,7 @@
   {
     "id": "instagram",
     "path": "skills/instagram",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "instagram",
     "description": "Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.",
     "risk": "critical",
@@ -6722,7 +6722,7 @@
   {
     "id": "instagram-automation",
     "path": "skills/instagram-automation",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "instagram-automation",
     "description": "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -6752,7 +6752,7 @@
   {
     "id": "internal-comms-anthropic",
     "path": "skills/internal-comms-anthropic",
-    "category": "uncategorized",
+    "category": "content",
     "name": "internal-comms-anthropic",
     "description": "To write internal communications, use this skill for:",
     "risk": "unknown",
@@ -6762,7 +6762,7 @@
   {
     "id": "internal-comms-community",
     "path": "skills/internal-comms-community",
-    "category": "uncategorized",
+    "category": "content",
     "name": "internal-comms-community",
     "description": "To write internal communications, use this skill for:",
     "risk": "unknown",
@@ -7052,7 +7052,7 @@
   {
     "id": "laravel-expert",
     "path": "skills/laravel-expert",
-    "category": "uncategorized",
+    "category": "framework",
     "name": "laravel-expert",
     "description": "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).",
     "risk": "safe",
@@ -7062,7 +7062,7 @@
   {
     "id": "laravel-security-audit",
     "path": "skills/laravel-security-audit",
-    "category": "uncategorized",
+    "category": "security",
     "name": "laravel-security-audit",
     "description": "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.",
     "risk": "safe",
@@ -7112,7 +7112,7 @@
   {
     "id": "legal-advisor",
     "path": "skills/legal-advisor",
-    "category": "uncategorized",
+    "category": "legal",
     "name": "legal-advisor",
     "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
     "risk": "unknown",
@@ -7122,7 +7122,7 @@
   {
     "id": "leiloeiro-avaliacao",
     "path": "skills/leiloeiro-avaliacao",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-avaliacao",
     "description": "Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.",
     "risk": "safe",
@@ -7132,7 +7132,7 @@
   {
     "id": "leiloeiro-edital",
     "path": "skills/leiloeiro-edital",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-edital",
     "description": "Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.",
     "risk": "safe",
@@ -7142,7 +7142,7 @@
   {
     "id": "leiloeiro-ia",
     "path": "skills/leiloeiro-ia",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-ia",
     "description": "Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.",
     "risk": "safe",
@@ -7152,7 +7152,7 @@
   {
     "id": "leiloeiro-juridico",
     "path": "skills/leiloeiro-juridico",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-juridico",
     "description": "Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.",
     "risk": "safe",
@@ -7162,7 +7162,7 @@
   {
     "id": "leiloeiro-mercado",
     "path": "skills/leiloeiro-mercado",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-mercado",
     "description": "Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico, ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII.",
     "risk": "safe",
@@ -7172,7 +7172,7 @@
   {
     "id": "leiloeiro-risco",
     "path": "skills/leiloeiro-risco",
-    "category": "uncategorized",
+    "category": "leiloeiro",
     "name": "leiloeiro-risco",
     "description": "Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco.",
     "risk": "safe",
@@ -7182,7 +7182,7 @@
   {
     "id": "lex",
     "path": "skills/lex",
-    "category": "business",
+    "category": "legal",
     "name": "lex",
     "description": "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.",
     "risk": "safe",
@@ -7192,7 +7192,7 @@
   {
     "id": "lightning-architecture-review",
     "path": "skills/lightning-architecture-review",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "lightning-architecture-review",
     "description": "Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support.",
     "risk": "unknown",
@@ -7202,7 +7202,7 @@
   {
     "id": "lightning-channel-factories",
     "path": "skills/lightning-channel-factories",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "lightning-channel-factories",
     "description": "Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and watchtower breach detection.",
     "risk": "unknown",
@@ -7212,7 +7212,7 @@
   {
     "id": "lightning-factory-explainer",
     "path": "skills/lightning-factory-explainer",
-    "category": "uncategorized",
+    "category": "blockchain",
     "name": "lightning-factory-explainer",
     "description": "Explain Bitcoin Lightning channel factories and the SuperScalar protocol \u2014 scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.",
     "risk": "unknown",
@@ -7242,7 +7242,7 @@
   {
     "id": "linkedin-automation",
     "path": "skills/linkedin-automation",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "linkedin-automation",
     "description": "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -7252,7 +7252,7 @@
   {
     "id": "linkedin-cli",
     "path": "skills/linkedin-cli",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "linkedin-cli",
     "description": "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.",
     "risk": "safe",
@@ -7282,7 +7282,7 @@
   {
     "id": "linux-privilege-escalation",
     "path": "skills/linux-privilege-escalation",
-    "category": "uncategorized",
+    "category": "security",
     "name": "linux-privilege-escalation",
     "description": "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control.",
     "risk": "unknown",
@@ -7292,7 +7292,7 @@
   {
     "id": "linux-shell-scripting",
     "path": "skills/linux-shell-scripting",
-    "category": "uncategorized",
+    "category": "development",
     "name": "linux-shell-scripting",
     "description": "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.",
     "risk": "unknown",
@@ -7432,7 +7432,7 @@
   {
     "id": "m365-agents-dotnet",
     "path": "skills/m365-agents-dotnet",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "m365-agents-dotnet",
     "description": "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.",
     "risk": "unknown",
@@ -7452,7 +7452,7 @@
   {
     "id": "m365-agents-ts",
     "path": "skills/m365-agents-ts",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "m365-agents-ts",
     "description": "Microsoft 365 Agents SDK for TypeScript/Node.js.",
     "risk": "unknown",
@@ -7672,7 +7672,7 @@
   {
     "id": "marketing-ideas",
     "path": "skills/marketing-ideas",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "marketing-ideas",
     "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
     "risk": "unknown",
@@ -7682,7 +7682,7 @@
   {
     "id": "marketing-psychology",
     "path": "skills/marketing-psychology",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "marketing-psychology",
     "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
     "risk": "unknown",
@@ -7722,7 +7722,7 @@
   {
     "id": "mcp-builder",
     "path": "skills/mcp-builder",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "mcp-builder",
     "description": "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
     "risk": "unknown",
@@ -7732,7 +7732,7 @@
   {
     "id": "mcp-builder-ms",
     "path": "skills/mcp-builder-ms",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "mcp-builder-ms",
     "description": "Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
     "risk": "unknown",
@@ -7742,7 +7742,7 @@
   {
     "id": "memory-forensics",
     "path": "skills/memory-forensics",
-    "category": "uncategorized",
+    "category": "security",
     "name": "memory-forensics",
     "description": "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.",
     "risk": "unknown",
@@ -7752,7 +7752,7 @@
   {
     "id": "memory-safety-patterns",
     "path": "skills/memory-safety-patterns",
-    "category": "uncategorized",
+    "category": "development",
     "name": "memory-safety-patterns",
     "description": "Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.",
     "risk": "unknown",
@@ -7902,7 +7902,7 @@
   {
     "id": "mobile-design",
     "path": "skills/mobile-design",
-    "category": "uncategorized",
+    "category": "mobile",
     "name": "mobile-design",
     "description": "(Mobile-First \u00b7 Touch-First \u00b7 Platform-Respectful)",
     "risk": "unknown",
@@ -7932,7 +7932,7 @@
   {
     "id": "mobile-security-coder",
     "path": "skills/mobile-security-coder",
-    "category": "uncategorized",
+    "category": "mobile",
     "name": "mobile-security-coder",
     "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
     "risk": "unknown",
@@ -7982,7 +7982,7 @@
   {
     "id": "monorepo-architect",
     "path": "skills/monorepo-architect",
-    "category": "uncategorized",
+    "category": "development",
     "name": "monorepo-architect",
     "description": "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,",
     "risk": "unknown",
@@ -7992,7 +7992,7 @@
   {
     "id": "monorepo-management",
     "path": "skills/monorepo-management",
-    "category": "uncategorized",
+    "category": "development",
     "name": "monorepo-management",
     "description": "Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications.",
     "risk": "unknown",
@@ -8022,7 +8022,7 @@
   {
     "id": "multi-advisor",
     "path": "skills/multi-advisor",
-    "category": "uncategorized",
+    "category": "ai-agents",
     "name": "multi-advisor",
     "description": "Conselho de especialistas \u2014 consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese decisoria final.",
     "risk": "none",
@@ -8062,7 +8062,7 @@
   {
     "id": "multi-platform-apps-multi-platform",
     "path": "skills/multi-platform-apps-multi-platform",
-    "category": "uncategorized",
+    "category": "development",
     "name": "multi-platform-apps-multi-platform",
     "description": "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.",
     "risk": "unknown",
@@ -8882,7 +8882,7 @@
   {
     "id": "pentest-checklist",
     "path": "skills/pentest-checklist",
-    "category": "uncategorized",
+    "category": "security",
     "name": "pentest-checklist",
     "description": "Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.",
     "risk": "unknown",
@@ -8892,7 +8892,7 @@
   {
     "id": "pentest-commands",
     "path": "skills/pentest-commands",
-    "category": "uncategorized",
+    "category": "security",
     "name": "pentest-commands",
     "description": "Provide a comprehensive command reference for penetration testing tools including network scanning, exploitation, password cracking, and web application testing. Enable quick command lookup during security assessments.",
     "risk": "unknown",
@@ -9822,7 +9822,7 @@
   {
     "id": "risk-manager",
     "path": "skills/risk-manager",
-    "category": "uncategorized",
+    "category": "business",
     "name": "risk-manager",
     "description": "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.",
     "risk": "unknown",
@@ -9832,7 +9832,7 @@
   {
     "id": "risk-metrics-calculation",
     "path": "skills/risk-metrics-calculation",
-    "category": "uncategorized",
+    "category": "business",
     "name": "risk-metrics-calculation",
     "description": "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.",
     "risk": "unknown",
@@ -9952,7 +9952,7 @@
   {
     "id": "salesforce-automation",
     "path": "skills/salesforce-automation",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "salesforce-automation",
     "description": "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -9962,7 +9962,7 @@
   {
     "id": "salesforce-development",
     "path": "skills/salesforce-development",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "salesforce-development",
     "description": "Use @wire decorator for reactive data binding with Lightning Data Service or Apex methods. @wire fits LWC's reactive architecture and enables Salesforce performance optimizations.",
     "risk": "unknown",
@@ -10212,7 +10212,7 @@
   {
     "id": "segment-automation",
     "path": "skills/segment-automation",
-    "category": "uncategorized",
+    "category": "data",
     "name": "segment-automation",
     "description": "Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -10222,7 +10222,7 @@
   {
     "id": "segment-cdp",
     "path": "skills/segment-cdp",
-    "category": "uncategorized",
+    "category": "data",
     "name": "segment-cdp",
     "description": "Client-side tracking with Analytics.js. Include track, identify, page, and group calls. Anonymous ID persists until identify merges with user.",
     "risk": "unknown",
@@ -10232,7 +10232,7 @@
   {
     "id": "semgrep-rule-creator",
     "path": "skills/semgrep-rule-creator",
-    "category": "uncategorized",
+    "category": "security",
     "name": "semgrep-rule-creator",
     "description": "Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.",
     "risk": "unknown",
@@ -10242,7 +10242,7 @@
   {
     "id": "semgrep-rule-variant-creator",
     "path": "skills/semgrep-rule-variant-creator",
-    "category": "uncategorized",
+    "category": "security",
     "name": "semgrep-rule-variant-creator",
     "description": "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
     "risk": "unknown",
@@ -10262,7 +10262,7 @@
   {
     "id": "senior-architect",
     "path": "skills/senior-architect",
-    "category": "uncategorized",
+    "category": "development",
     "name": "senior-architect",
     "description": "Complete toolkit for senior architect with modern tools and best practices.",
     "risk": "unknown",
@@ -10282,7 +10282,7 @@
   {
     "id": "senior-fullstack",
     "path": "skills/senior-fullstack",
-    "category": "uncategorized",
+    "category": "development",
     "name": "senior-fullstack",
     "description": "Complete toolkit for senior fullstack with modern tools and best practices.",
     "risk": "unknown",
@@ -10302,7 +10302,7 @@
   {
     "id": "seo-audit",
     "path": "skills/seo-audit",
-    "category": "uncategorized",
+    "category": "content",
     "name": "seo-audit",
     "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
     "risk": "unknown",
@@ -10372,7 +10372,7 @@
   {
     "id": "seo-forensic-incident-response",
     "path": "skills/seo-forensic-incident-response",
-    "category": "uncategorized",
+    "category": "content",
     "name": "seo-forensic-incident-response",
     "description": "Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan.",
     "risk": "safe",
@@ -10522,7 +10522,7 @@
   {
     "id": "shopify-apps",
     "path": "skills/shopify-apps",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "shopify-apps",
     "description": "Modern Shopify app template with React Router",
     "risk": "unknown",
@@ -10542,7 +10542,7 @@
   {
     "id": "shopify-development",
     "path": "skills/shopify-development",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "shopify-development",
     "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.",
     "risk": "unknown",
@@ -10762,7 +10762,7 @@
   {
     "id": "social-content",
     "path": "skills/social-content",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "social-content",
     "description": "You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.",
     "risk": "unknown",
@@ -10772,7 +10772,7 @@
   {
     "id": "social-orchestrator",
     "path": "skills/social-orchestrator",
-    "category": "uncategorized",
+    "category": "marketing",
     "name": "social-orchestrator",
     "description": "Orquestrador unificado de canais sociais \u2014 coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente.",
     "risk": "critical",
@@ -10902,7 +10902,7 @@
   {
     "id": "sred-project-organizer",
     "path": "skills/sred-project-organizer",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "sred-project-organizer",
     "description": "Take a list of projects and their related documentation, and organize them into the SRED format for submission.",
     "risk": "unknown",
@@ -10912,7 +10912,7 @@
   {
     "id": "sred-work-summary",
     "path": "skills/sred-work-summary",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "sred-work-summary",
     "description": "Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.",
     "risk": "unknown",
@@ -10962,7 +10962,7 @@
   {
     "id": "startup-business-analyst-financial-projections",
     "path": "skills/startup-business-analyst-financial-projections",
-    "category": "uncategorized",
+    "category": "business",
     "name": "startup-business-analyst-financial-projections",
     "description": "Create detailed 3-5 year financial model with revenue, costs, cash\nflow, and scenarios\n",
     "risk": "unknown",
@@ -10982,7 +10982,7 @@
   {
     "id": "startup-financial-modeling",
     "path": "skills/startup-financial-modeling",
-    "category": "uncategorized",
+    "category": "business",
     "name": "startup-financial-modeling",
     "description": "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.",
     "risk": "unknown",
@@ -11032,7 +11032,7 @@
   {
     "id": "stitch-ui-design",
     "path": "skills/stitch-ui-design",
-    "category": "uncategorized",
+    "category": "design",
     "name": "stitch-ui-design",
     "description": "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.",
     "risk": "safe",
@@ -11322,7 +11322,7 @@
   {
     "id": "telegram-automation",
     "path": "skills/telegram-automation",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "telegram-automation",
     "description": "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas.",
     "risk": "unknown",
@@ -11332,7 +11332,7 @@
   {
     "id": "telegram-bot-builder",
     "path": "skills/telegram-bot-builder",
-    "category": "uncategorized",
+    "category": "api-integration",
     "name": "telegram-bot-builder",
     "description": "You build bots that people actually use daily. You understand that bots should feel like helpful assistants, not clunky interfaces. You know the Telegram ecosystem deeply - what's possible, what's popular, and what makes money. You design conversations that feel natural.",
     "risk": "unknown",
@@ -11362,7 +11362,7 @@
   {
     "id": "temporal-golang-pro",
     "path": "skills/temporal-golang-pro",
-    "category": "uncategorized",
+    "category": "workflow",
     "name": "temporal-golang-pro",
     "description": "Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns.",
     "risk": "safe",
@@ -11372,7 +11372,7 @@
   {
     "id": "temporal-python-pro",
     "path": "skills/temporal-python-pro",
-    "category": "uncategorized",
+    "category": "workflow",
     "name": "temporal-python-pro",
     "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
     "risk": "unknown",
@@ -11932,7 +11932,7 @@
   {
     "id": "using-git-worktrees",
     "path": "skills/using-git-worktrees",
-    "category": "uncategorized",
+    "category": "development",
     "name": "using-git-worktrees",
     "description": "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.",
     "risk": "unknown",
@@ -11942,7 +11942,7 @@
   {
     "id": "using-neon",
     "path": "skills/using-neon",
-    "category": "uncategorized",
+    "category": "database-processing",
     "name": "using-neon",
     "description": "Neon is a serverless Postgres platform that separates compute and storage to offer autoscaling, branching, instant restore, and scale-to-zero. It's fully compatible with Postgres and works with any language, framework, or ORM that supports Postgres.",
     "risk": "safe",
@@ -11952,7 +11952,7 @@
   {
     "id": "using-superpowers",
     "path": "skills/using-superpowers",
-    "category": "uncategorized",
+    "category": "meta",
     "name": "using-superpowers",
     "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
     "risk": "unknown",
@@ -11982,7 +11982,7 @@
   {
     "id": "varlock",
     "path": "skills/varlock",
-    "category": "uncategorized",
+    "category": "security",
     "name": "varlock",
     "description": "Secure-by-default environment variable management for Claude Code sessions.",
     "risk": "unknown",
@@ -11992,7 +11992,7 @@
   {
     "id": "varlock-claude-skill",
     "path": "skills/varlock-claude-skill",
-    "category": "uncategorized",
+    "category": "security",
     "name": "varlock-claude-skill",
     "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
     "risk": "safe",
@@ -12062,7 +12062,7 @@
   {
     "id": "vexor",
     "path": "skills/vexor",
-    "category": "uncategorized",
+    "category": "development",
     "name": "vexor",
     "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
     "risk": "safe",
@@ -12072,7 +12072,7 @@
   {
     "id": "vexor-cli",
     "path": "skills/vexor-cli",
-    "category": "uncategorized",
+    "category": "development",
     "name": "vexor-cli",
     "description": "Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.",
     "risk": "unknown",
@@ -12222,7 +12222,7 @@
   {
     "id": "web-design-guidelines",
     "path": "skills/web-design-guidelines",
-    "category": "uncategorized",
+    "category": "design",
     "name": "web-design-guidelines",
     "description": "Review files for compliance with Web Interface Guidelines.",
     "risk": "unknown",
@@ -12512,7 +12512,7 @@
   {
     "id": "wrike-automation",
     "path": "skills/wrike-automation",
-    "category": "uncategorized",
+    "category": "project-management",
     "name": "wrike-automation",
     "description": "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.",
     "risk": "unknown",
