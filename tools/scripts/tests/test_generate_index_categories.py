@@ -20,6 +20,11 @@ generate_index = load_module("tools/scripts/generate_index.py", "generate_index_
 
 
 class GenerateIndexCategoryTests(unittest.TestCase):
+    def test_normalize_category_maps_legacy_labels(self):
+        self.assertEqual(generate_index.normalize_category("front-end"), "web-development")
+        self.assertEqual(generate_index.normalize_category("ai-agents"), "ai-ml")
+        self.assertEqual(generate_index.normalize_category("document-processing"), "productivity")
+
     def test_infer_category_returns_none_for_weak_signal(self):
         inferred = generate_index.infer_category(
             "mystery-skill",
@@ -93,6 +98,22 @@ class GenerateIndexCategoryTests(unittest.TestCase):
             self.assertEqual(categories["explicit-skill"], "custom")
             self.assertEqual(categories["nested-skill"], "bundles")
             self.assertEqual(categories["playwright-skill"], "testing")
+
+    def test_generate_index_normalizes_explicit_legacy_category(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = pathlib.Path(temp_dir)
+            skills_dir = base / "skills"
+            output_file = base / "skills_index.json"
+
+            legacy_dir = skills_dir / "legacy-skill"
+            legacy_dir.mkdir(parents=True)
+            (legacy_dir / "SKILL.md").write_text(
+                "---\nname: legacy-skill\ncategory: front-end\ndescription: Example\n---\nbody\n",
+                encoding="utf-8",
+            )
+
+            skills = generate_index.generate_index(str(skills_dir), str(output_file))
+            self.assertEqual(skills[0]["category"], "web-development")
 
 
 if __name__ == "__main__":

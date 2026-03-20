@@ -205,6 +205,34 @@ FAMILY_CATEGORY_RULES = [
     ("terraform-", "devops"),
 ]
 
+CATEGORY_ALIASES = {
+    # Legacy/specialized labels normalized to broader catalog buckets
+    "ai-agents": "ai-ml",
+    "voice-agents": "ai-ml",
+    "data-ai": "ai-ml",
+    "memory": "ai-ml",
+    "api-integration": "backend",
+    "blockchain": "backend",
+    "front-end": "web-development",
+    "frontend": "web-development",
+    "app-builder": "development",
+    "code": "development",
+    "code-quality": "development",
+    "development-and-testing": "development",
+    "framework": "development",
+    "database-processing": "database",
+    "document-processing": "productivity",
+    "spreadsheet-processing": "productivity",
+    "presentation-processing": "productivity",
+    "graphics-processing": "productivity",
+    "data": "data-science",
+    "marketing": "business",
+    "planning": "workflow",
+    "project-management": "workflow",
+    "reliability": "devops",
+    "test-automation": "testing",
+}
+
 
 def tokenize(text):
     return re.findall(r"[a-z0-9]+", text.lower())
@@ -253,6 +281,13 @@ def infer_category(skill_id, skill_name, description):
         return None
 
     return best_category
+
+
+def normalize_category(category):
+    if not isinstance(category, str):
+        return category
+    normalized = category.strip().lower()
+    return CATEGORY_ALIASES.get(normalized, normalized)
 
 def normalize_yaml_value(value):
     if isinstance(value, Mapping):
@@ -359,6 +394,7 @@ def generate_index(skills_dir, output_file):
                     skill_info["description"],
                 )
                 skill_info["category"] = inferred_category or "uncategorized"
+            skill_info["category"] = normalize_category(skill_info["category"])
             
             # Fallback for description if missing in frontmatter (legacy support)
             if not skill_info["description"]:

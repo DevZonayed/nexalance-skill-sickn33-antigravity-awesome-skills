@@ -342,7 +342,7 @@
   {
     "id": "ai-engineering-toolkit",
     "path": "skills/ai-engineering-toolkit",
-    "category": "data-ai",
+    "category": "ai-ml",
     "name": "ai-engineering-toolkit",
     "description": "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching.",
     "risk": "offensive",
@@ -972,7 +972,7 @@
   {
     "id": "astro",
     "path": "skills/astro",
-    "category": "frontend",
+    "category": "web-development",
     "name": "astro",
     "description": "Build content-focused websites with Astro \u2014 zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.",
     "risk": "safe",
@@ -2452,7 +2452,7 @@
   {
     "id": "base",
     "path": "skills/libreoffice/base",
-    "category": "database-processing",
+    "category": "database",
     "name": "base",
     "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
     "risk": "safe",
@@ -2662,7 +2662,7 @@
   {
     "id": "blueprint",
     "path": "skills/blueprint",
-    "category": "planning",
+    "category": "workflow",
     "name": "blueprint",
     "description": "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief \u2014 a fresh agent in a new session can pick up any step without reading prior steps.",
     "risk": "safe",
@@ -2922,7 +2922,7 @@
   {
     "id": "calc",
     "path": "skills/libreoffice/calc",
-    "category": "spreadsheet-processing",
+    "category": "productivity",
     "name": "calc",
     "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
     "risk": "safe",
@@ -3692,7 +3692,7 @@
   {
     "id": "content-creator",
     "path": "skills/content-creator",
-    "category": "marketing",
+    "category": "business",
     "name": "content-creator",
     "description": "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.",
     "risk": "unknown",
@@ -4692,7 +4692,7 @@
   {
     "id": "draw",
     "path": "skills/libreoffice/draw",
-    "category": "graphics-processing",
+    "category": "productivity",
     "name": "draw",
     "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
     "risk": "safe",
@@ -6082,7 +6082,7 @@
   {
     "id": "goldrush-api",
     "path": "skills/goldrush-api",
-    "category": "blockchain",
+    "category": "backend",
     "name": "goldrush-api",
     "description": "Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.",
     "risk": "safe",
@@ -6642,7 +6642,7 @@
   {
     "id": "impress",
     "path": "skills/libreoffice/impress",
-    "category": "presentation-processing",
+    "category": "productivity",
     "name": "impress",
     "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
     "risk": "safe",
@@ -7012,7 +7012,7 @@
   {
     "id": "landing-page-generator",
     "path": "skills/landing-page-generator",
-    "category": "front-end",
+    "category": "web-development",
     "name": "landing-page-generator",
     "description": "Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
     "risk": "safe",
@@ -7402,7 +7402,7 @@
   {
     "id": "local-llm-expert",
     "path": "skills/local-llm-expert",
-    "category": "data-ai",
+    "category": "ai-ml",
     "name": "local-llm-expert",
     "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
     "risk": "unknown",
@@ -8202,7 +8202,7 @@
   {
     "id": "nestjs-expert",
     "path": "skills/nestjs-expert",
-    "category": "framework",
+    "category": "development",
     "name": "nestjs-expert",
     "description": "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.",
     "risk": "unknown",
@@ -8712,7 +8712,7 @@
   {
     "id": "openclaw-github-repo-commander",
     "path": "skills/openclaw-github-repo-commander",
-    "category": "development-and-testing",
+    "category": "development",
     "name": "openclaw-github-repo-commander",
     "description": "7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis",
     "risk": "safe",
@@ -8802,7 +8802,7 @@
   {
     "id": "pakistan-payments-stack",
     "path": "skills/pakistan-payments-stack",
-    "category": "api-integration",
+    "category": "backend",
     "name": "pakistan-payments-stack",
     "description": "Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.",
     "risk": "safe",
@@ -8972,7 +8972,7 @@
   {
     "id": "pipecat-friday-agent",
     "path": "skills/pipecat-friday-agent",
-    "category": "voice-agents",
+    "category": "ai-ml",
     "name": "pipecat-friday-agent",
     "description": "Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.",
     "risk": "safe",
@@ -9022,7 +9022,7 @@
   {
     "id": "playwright-java",
     "path": "skills/playwright-java",
-    "category": "test-automation",
+    "category": "testing",
     "name": "playwright-java",
     "description": "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.",
     "risk": "safe",
@@ -9302,7 +9302,7 @@
   {
     "id": "progressive-estimation",
     "path": "skills/progressive-estimation",
-    "category": "project-management",
+    "category": "workflow",
     "name": "progressive-estimation",
     "description": "Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops",
     "risk": "safe",
@@ -9422,7 +9422,7 @@
   {
     "id": "pydantic-ai",
     "path": "skills/pydantic-ai",
-    "category": "ai-agents",
+    "category": "ai-ml",
     "name": "pydantic-ai",
     "description": "Build production-ready AI agents with PydanticAI \u2014 type-safe tool use, structured outputs, dependency injection, and multi-model support.",
     "risk": "safe",
@@ -9682,7 +9682,7 @@
   {
     "id": "recallmax",
     "path": "skills/recallmax",
-    "category": "memory",
+    "category": "ai-ml",
     "name": "recallmax",
     "description": "FREE \u2014 God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.",
     "risk": "safe",
@@ -9982,7 +9982,7 @@
   {
     "id": "sankhya-dashboard-html-jsp-custom-best-pratices",
     "path": "skills/sankhya-dashboard-html-jsp-custom-best-pratices",
-    "category": "code",
+    "category": "development",
     "name": "sankhya-dashboard-html-jsp-custom-best-pratices",
     "description": "This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.",
     "risk": "safe",
@@ -10202,7 +10202,7 @@
   {
     "id": "seek-and-analyze-video",
     "path": "skills/seek-and-analyze-video",
-    "category": "data-ai",
+    "category": "ai-ml",
     "name": "seek-and-analyze-video",
     "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
     "risk": "safe",
@@ -11112,7 +11112,7 @@
   {
     "id": "sveltekit",
     "path": "skills/sveltekit",
-    "category": "frontend",
+    "category": "web-development",
     "name": "sveltekit",
     "description": "Build full-stack web applications with SvelteKit \u2014 file-based routing, SSR, SSG, API routes, and form actions in one framework.",
     "risk": "safe",
@@ -11352,7 +11352,7 @@
   {
     "id": "templates",
     "path": "skills/app-builder/templates",
-    "category": "app-builder",
+    "category": "development",
     "name": "templates",
     "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
     "risk": "unknown",
@@ -11662,7 +11662,7 @@
   {
     "id": "tool-use-guardian",
     "path": "skills/tool-use-guardian",
-    "category": "reliability",
+    "category": "devops",
     "name": "tool-use-guardian",
     "description": "FREE \u2014 Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures.",
     "risk": "safe",
@@ -11722,7 +11722,7 @@
   {
     "id": "trpc-fullstack",
     "path": "skills/trpc-fullstack",
-    "category": "framework",
+    "category": "development",
     "name": "trpc-fullstack",
     "description": "Build end-to-end type-safe APIs with tRPC \u2014 routers, procedures, middleware, subscriptions, and Next.js/React integration patterns.",
     "risk": "none",
@@ -11782,7 +11782,7 @@
   {
     "id": "typescript-expert",
     "path": "skills/typescript-expert",
-    "category": "framework",
+    "category": "development",
     "name": "typescript-expert",
     "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.",
     "risk": "unknown",
@@ -11842,7 +11842,7 @@
   {
     "id": "uncle-bob-craft",
     "path": "skills/uncle-bob-craft",
-    "category": "code-quality",
+    "category": "development",
     "name": "uncle-bob-craft",
     "description": "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.",
     "risk": "safe",
@@ -12522,7 +12522,7 @@
   {
     "id": "writer",
     "path": "skills/libreoffice/writer",
-    "category": "document-processing",
+    "category": "productivity",
     "name": "writer",
     "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
     "risk": "safe",
@@ -12562,7 +12562,7 @@
   {
     "id": "x-twitter-scraper",
     "path": "skills/x-twitter-scraper",
-    "category": "data",
+    "category": "data-science",
     "name": "x-twitter-scraper",
     "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
     "risk": "safe",
