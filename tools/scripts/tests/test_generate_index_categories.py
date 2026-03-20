@@ -159,6 +159,9 @@ class GenerateIndexCategoryTests(unittest.TestCase):
                 "datadog-automation": "reliability",
                 "business-analyst": "business",
                 "zod-validation-expert": "framework",
+                "architect-review": "architecture",
+                "family-health-analyzer": "health",
+                "astropy": "science",
             }
 
             for skill_id in fixtures:
