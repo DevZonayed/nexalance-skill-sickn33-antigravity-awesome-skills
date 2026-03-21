@@ -80,7 +80,20 @@ Before ANY commit that adds/modifies skills, run the chain:
     npm run catalog
     ```
 
-3.  **COMMIT GENERATED FILES**:
+3.  **Optional maintainer sweep shortcut**:
+    ```bash
+    npm run sync:repo-state
+    ```
+    This wraps `chain + catalog + sync:contributors + audit:consistency` for a full local repo-state refresh.
+
+    When you need the live GitHub repo metadata updated too, run:
+
+    ```bash
+    npm run sync:github-about
+    npm run audit:consistency:github
+    ```
+
+4.  **COMMIT GENERATED FILES**:
     ```bash
     git add README.md skills_index.json data/skills_index.json data/catalog.json data/bundles.json data/aliases.json CATALOG.md
     git commit -m "chore: sync generated files"
@@ -180,8 +193,9 @@ We used this flow for PRs [#220](https://github.com/sickn33/antigravity-awesome-
 After you have merged several PRs or before cutting a release:
 
 1.  **Sync Contributors List**:
-    - Run: `git shortlog -sn --all`
-    - Update `## Repo Contributors` in README.md.
+    - Run: `npm run sync:contributors`
+    - This refreshes `## Repo Contributors` in `README.md` from the live GitHub contributor list while preserving custom bot/app links.
+    - If you are already doing a full maintainer sweep, prefer `npm run sync:repo-state`.
 
 2.  **Verify Table of Contents**:
     - Ensure all new headers have clean anchors.
