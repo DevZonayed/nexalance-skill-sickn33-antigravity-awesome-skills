@@ -1,5 +1,5 @@
-<!-- registry-sync: version=8.4.0; skills=1273; stars=26132; updated_at=2026-03-20T17:14:14+00:00 -->
-# 🌌 Antigravity Awesome Skills: 1,273+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+<!-- registry-sync: version=8.4.0; skills=1304; stars=26132; updated_at=2026-03-20T17:14:14+00:00 -->
+# 🌌 Antigravity Awesome Skills: 1,304+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **Installable GitHub library of 1,273+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
 
@@ -43,7 +43,7 @@ Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [⚖️ Alternatives &amp; Comparisons](#alternatives--comparisons)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 1,273+ Skills](#browse-1273-skills)
+- [📚 Browse 1,304+ Skills](#browse-1304-skills)
 - [🤝 Contributing](#contributing)
 - [💬 Community](#community)
 - [☕ Support the Project](#support-the-project)
@@ -330,7 +330,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 1,273+ Skills
+## Browse 1,304+ Skills
 
 - Open the interactive browser in [`apps/web-app`](apps/web-app).
 - Read the full catalog in [`CATALOG.md`](CATALOG.md).

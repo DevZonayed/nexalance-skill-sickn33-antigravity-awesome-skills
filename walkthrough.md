@@ -1,3 +1,30 @@
+# Maintenance Walkthrough - 2026-03-21
+
+- Imported and normalized a new batch of external skills into `skills/`, covering Anthropic Claude API/internal comms entries, marketing workflows, SEO orchestration/sub-skills, and Obsidian-focused file-format/CLI skills.
+- Added and standardized the following imported skill families:
+  - `claude-api`, `internal-comms`
+  - `ad-creative`, `ai-seo`, `churn-prevention`, `cold-email`, `content-strategy`, `lead-magnets`, `product-marketing-context`, `revops`, `sales-enablement`, `site-architecture`
+  - `seo`, `seo-competitor-pages`, `seo-content`, `seo-dataforseo`, `seo-geo`, `seo-hreflang`, `seo-image-gen`, `seo-images`, `seo-page`, `seo-plan`, `seo-programmatic`, `seo-schema`, `seo-sitemap`, `seo-technical`
+  - `defuddle`, `json-canvas`, `obsidian-bases`, `obsidian-cli`, `obsidian-markdown`
+- Preserved the existing `docx`, `pdf`, `pptx`, and `xlsx` aliases as the repository's symlinked `*-official` entries instead of duplicating those directories.
+- Normalized imported frontmatter so the new skills align with repository validation expectations:
+  - shortened oversized descriptions
+  - added missing `risk`, `source`, and `date_added` fields where needed
+  - added `## When to Use` sections across the new imports
+  - removed or rewrote imported dangling links that referenced non-existent upstream paths in this repository
+- Added maintainer provenance notes in `docs/maintainers/skills-import-2026-03-21.md` so the source repository for each imported skill group is documented for future maintenance.
+- Regenerated maintainer-owned derived artifacts after the import:
+  - `README.md`
+  - `skills_index.json`
+  - `CATALOG.md`
+  - `data/catalog.json`
+  - `data/bundles.json`
+- Verified the direct-`main` maintenance flow with:
+  - `npm run validate`
+  - `npm run index`
+  - `npm run catalog`
+  - `npm run chain`
+
 # Maintenance Walkthrough - 2026-03-18
 
 - Fixed issue `#344` by correcting `.claude-plugin/marketplace.json` so the marketplace plugin entry uses `source: "./"` instead of `"."`, matching Claude Code's relative-path schema requirement for marketplace entries.
