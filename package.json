@@ -32,7 +32,7 @@
     "audit:consistency:github": "node tools/scripts/run-python.js tools/scripts/audit_consistency.py --check-github-about",
     "audit:maintainer": "node tools/scripts/run-python.js tools/scripts/maintainer_audit.py",
     "security:docs": "node tools/scripts/tests/docs_security_content.test.js",
-    "pr:preflight": "node tools/scripts/pr_preflight.js",
+    "pr:preflight": "node tools/scripts/pr_preflight.cjs",
     "release:preflight": "node tools/scripts/release_workflow.js preflight",
     "release:prepare": "node tools/scripts/release_workflow.js prepare",
     "release:publish": "node tools/scripts/release_workflow.js publish",

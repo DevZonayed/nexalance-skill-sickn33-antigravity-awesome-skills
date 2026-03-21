@@ -151,6 +151,26 @@ If you want a faster answer than "browse all 1,273+ skills", start with a tool-s
         self.assertIn("names[]=claude-code", topics_args)
         self.assertIn("names[]=skill-library", topics_args)
 
+    def test_update_text_file_skips_symlinked_targets(self):
+        metadata = {"version": "8.4.0"}
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            outside = root / "outside.md"
+            outside.write_text("original", encoding="utf-8")
+            linked = root / "README.md"
+            linked.symlink_to(outside)
+
+            changed = sync_repo_metadata.update_text_file(
+                linked,
+                lambda content, current_metadata: "rewritten",
+                metadata,
+                dry_run=False,
+            )
+
+            self.assertFalse(changed)
+            self.assertEqual(outside.read_text(encoding="utf-8"), "original")
+
 
 if __name__ == "__main__":
     unittest.main()

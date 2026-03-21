@@ -218,7 +218,7 @@ def sync_regex_text(content: str, replacements: list[tuple[str, str]]) -> str:
 
 
 def update_text_file(path: Path, transform, metadata: dict, dry_run: bool) -> bool:
-    if not path.is_file():
+    if not path.is_file() or path.is_symlink():
         return False
 
     original = path.read_text(encoding="utf-8")
