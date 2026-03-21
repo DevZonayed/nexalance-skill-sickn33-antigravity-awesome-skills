@@ -19,6 +19,14 @@ assert.ok(
   "package.json should expose a deterministic release-state sync command",
 );
 assert.ok(
+  packageJson.scripts["check:warning-budget"],
+  "package.json should expose a warning-budget guardrail command",
+);
+assert.ok(
+  packageJson.scripts["audit:maintainer"],
+  "package.json should expose a maintainer audit command",
+);
+assert.ok(
   packageJson.scripts["sync:web-assets"],
   "package.json should expose a web-asset sync command for tracked web artifacts",
 );
@@ -28,9 +36,19 @@ assert.match(
   "sync:release-state should refresh tracked web assets before auditing release drift",
 );
 assert.match(
+  packageJson.scripts["sync:release-state"],
+  /check:warning-budget/,
+  "sync:release-state should enforce the frozen validation warning budget",
+);
+assert.match(
   packageJson.scripts["sync:repo-state"],
   /sync:web-assets/,
   "sync:repo-state should refresh tracked web assets before maintainer audits",
+);
+assert.match(
+  packageJson.scripts["sync:repo-state"],
+  /check:warning-budget/,
+  "sync:repo-state should enforce the frozen validation warning budget",
 );
 
 for (const filePath of [

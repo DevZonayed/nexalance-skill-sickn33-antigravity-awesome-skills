@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Automated metadata propagation for curated docs and package copy so `npm run chain` now keeps README, package description, and the main count-sensitive user/maintainer docs aligned when the skill catalog changes.
 - Added an explicit `sync:github-about` automation path so GitHub About description, homepage, and topics can be refreshed from the same metadata source instead of being updated manually.
 - Added contributor sync plus repo-state audit automation: `sync:contributors`, `sync:web-assets`, `check:stale-claims`, `audit:consistency`, `sync:release-state`, and `sync:repo-state` now cover contributor acknowledgements, tracked web artifacts, stale count/version drift, deterministic release-state verification, and end-to-end maintainer sanity checks. Main CI, the weekly `Repo Hygiene` workflow, and the npm publish workflow now reuse those paths instead of maintaining separate ad hoc sync steps.
+- Added a frozen validation warning budget (`135`) plus a read-only maintainer audit command so the accepted legacy warnings stay stable while maintainers can get a one-command repo health summary without mutating files.
 
 ## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
 

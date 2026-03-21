@@ -86,12 +86,17 @@ Before ANY commit that adds/modifies skills, run the chain:
     ```
     This wraps `chain + catalog + sync:web-assets + sync:contributors + audit:consistency` for a full local repo-state refresh.
     The scheduled GitHub Actions workflow `Repo Hygiene` runs this same sweep weekly to catch slow drift on `main`.
+    It also enforces the frozen validation warning budget, so new warnings do not creep in silently while the legacy `135` known warnings remain accepted.
 
     When you need the live GitHub repo metadata updated too, run:
 
     ```bash
     npm run sync:github-about
     npm run audit:consistency:github
+    ```
+    For a read-only summary of current repo health, run:
+    ```bash
+    npm run audit:maintainer
     ```
 
 4.  **COMMIT GENERATED FILES**:
