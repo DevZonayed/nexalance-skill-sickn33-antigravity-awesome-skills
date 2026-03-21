@@ -106,3 +106,22 @@
   - `npm run chain`
   - `npm run catalog`
 - Refreshed `CHANGELOG.md`, `README.md`, `docs/users/getting-started.md`, `docs/users/faq.md`, and the contributor acknowledgements to prepare the single `7.8.0` release cut.
+
+# Maintenance Walkthrough - 2026-03-21
+
+- Imported the missing external skill coverage identified from `travisvn/awesome-claude-skills`, `anthropics/skills`, `coreyhaines31/marketingskills`, `AgriciDaniel/claude-seo`, and `kepano/obsidian-skills`, bringing the indexed registry to `1,304` skills on `main`.
+- Added maintainer attribution notes in `docs/maintainers/skills-import-2026-03-21.md` and refreshed the generated registry artifacts after the import batch.
+- Re-aligned the public documentation surface to the current repository state:
+  - `README.md`
+  - `package.json`
+  - `docs/users/getting-started.md`
+  - `docs/users/usage.md`
+  - `docs/users/claude-code-skills.md`
+  - `docs/users/gemini-cli-skills.md`
+  - `docs/users/visual-guide.md`
+  - `docs/users/bundles.md`
+  - `docs/users/kiro-integration.md`
+  - `docs/integrations/jetski-cortex.md`
+  - `docs/maintainers/repo-growth-seo.md`
+  - `docs/maintainers/skills-update-guide.md`
+- Updated the changelog `Unreleased` section so the post-`v8.4.0` main branch state documents both the imported skill families and the docs/About realignment.

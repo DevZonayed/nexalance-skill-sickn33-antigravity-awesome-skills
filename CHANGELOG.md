@@ -9,7 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-*None pending.*
+## Added
+
+- Imported external marketing, SEO, Obsidian, and Anthropic-adjacent skill coverage from the latest maintainer comparison pass, bringing the live library to `1,304` indexed skills on `main`.
+
+## Changed
+
+- Realigned README, package metadata, user docs, and GitHub About guidance to the current `1,304+` catalog state and `v8.4.0` release copy.
 
 ## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
 
