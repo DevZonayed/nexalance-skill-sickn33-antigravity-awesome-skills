@@ -84,7 +84,8 @@ Before ANY commit that adds/modifies skills, run the chain:
     ```bash
     npm run sync:repo-state
     ```
-    This wraps `chain + catalog + sync:contributors + audit:consistency` for a full local repo-state refresh.
+    This wraps `chain + catalog + sync:web-assets + sync:contributors + audit:consistency` for a full local repo-state refresh.
+    The scheduled GitHub Actions workflow `Repo Hygiene` runs this same sweep weekly to catch slow drift on `main`.
 
     When you need the live GitHub repo metadata updated too, run:
 
@@ -305,6 +306,7 @@ Preflight verification → Changelog → `npm run release:prepare -- X.Y.Z` → 
     ```bash
     npm run release:preflight
     ```
+    This now runs the deterministic `sync:release-state` path, refreshes tracked web assets, executes the local test suite, runs the web-app build, and performs `npm pack --dry-run --json` before a release is considered healthy.
     Optional diagnostic pass:
     ```bash
     npm run validate:strict
@@ -326,6 +328,7 @@ Preflight verification → Changelog → `npm run release:prepare -- X.Y.Z` → 
     ```
 
     **Important:** The release tag must match `package.json`'s version. The [Publish to npm](workflows/publish-npm.yml) workflow runs on **Release published** and will run `npm publish`; npm rejects republishing the same version.
+    Before publishing, that workflow re-runs `sync:release-state`, checks for canonical drift with `git diff --exit-code`, runs tests/docs security/web build, and performs `npm pack --dry-run --json`.
 
     _Or create the release manually via GitHub UI > Releases > Draft a new release, then publish._
 
