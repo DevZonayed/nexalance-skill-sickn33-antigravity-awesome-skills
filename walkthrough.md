@@ -126,3 +126,4 @@
   - `docs/maintainers/skills-update-guide.md`
 - Updated the changelog `Unreleased` section so the post-`v8.4.0` main branch state documents both the imported skill families and the docs/About realignment.
 - Automated the recurring docs metadata maintenance by extending `tools/scripts/sync_repo_metadata.py`, wiring it into `npm run chain`, and adding a regression test so future skill-count/version updates propagate through the curated docs surface without manual patching.
+- Added a remote GitHub About sync path (`npm run sync:github-about`) backed by `gh repo edit` + `gh api .../topics` so the public repository metadata can be refreshed from the same source of truth on demand.

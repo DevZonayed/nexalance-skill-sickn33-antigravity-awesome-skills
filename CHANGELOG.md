@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Realigned README, package metadata, user docs, and GitHub About guidance to the current `1,304+` catalog state and `v8.4.0` release copy.
 - Automated metadata propagation for curated docs and package copy so `npm run chain` now keeps README, package description, and the main count-sensitive user/maintainer docs aligned when the skill catalog changes.
+- Added an explicit `sync:github-about` automation path so GitHub About description, homepage, and topics can be refreshed from the same metadata source instead of being updated manually.
 
 ## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
 

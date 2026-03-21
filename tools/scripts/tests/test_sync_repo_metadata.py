@@ -120,6 +120,37 @@ If you want a faster answer than "browse all 1,273+ skills", start with a tool-s
         self.assertIn("1,304+ agentic skills", description)
         self.assertIn("installer CLI", description)
 
+    def test_sync_github_about_builds_expected_commands(self):
+        calls = []
+
+        def fake_runner(args, dry_run=False):
+            calls.append((args, dry_run))
+
+        sync_repo_metadata.sync_github_about(
+            {
+                "repo": "sickn33/antigravity-awesome-skills",
+                "total_skills_label": "1,304+",
+            },
+            dry_run=True,
+            runner=fake_runner,
+        )
+
+        self.assertEqual(len(calls), 2)
+        repo_edit_args, repo_edit_dry_run = calls[0]
+        topics_args, topics_dry_run = calls[1]
+
+        self.assertTrue(repo_edit_dry_run)
+        self.assertTrue(topics_dry_run)
+        self.assertEqual(repo_edit_args[:4], ["gh", "repo", "edit", "sickn33/antigravity-awesome-skills"])
+        self.assertIn("--description", repo_edit_args)
+        self.assertIn("--homepage", repo_edit_args)
+        self.assertIn("https://sickn33.github.io/antigravity-awesome-skills/", repo_edit_args)
+
+        self.assertEqual(topics_args[:4], ["gh", "api", "repos/sickn33/antigravity-awesome-skills/topics", "--method"])
+        self.assertIn("PUT", topics_args)
+        self.assertIn("names[]=claude-code", topics_args)
+        self.assertIn("names[]=skill-library", topics_args)
+
 
 if __name__ == "__main__":
     unittest.main()

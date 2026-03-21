@@ -16,6 +16,7 @@
     "index": "node tools/scripts/run-python.js tools/scripts/generate_index.py",
     "readme": "node tools/scripts/run-python.js tools/scripts/update_readme.py",
     "sync:metadata": "node tools/scripts/run-python.js tools/scripts/sync_repo_metadata.py",
+    "sync:github-about": "node tools/scripts/run-python.js tools/scripts/sync_repo_metadata.py --apply-github-about",
     "chain": "npm run validate && npm run index && npm run sync:metadata",
     "sync:all": "npm run chain",
     "catalog": "node tools/scripts/build-catalog.js",

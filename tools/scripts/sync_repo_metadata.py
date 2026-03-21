@@ -3,6 +3,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -10,6 +11,29 @@ from update_readme import configure_utf8_output, find_repo_root, load_metadata, 
 
 
 ABOUT_DESCRIPTION_RE = re.compile(r'"description"\s*:\s*"([^"]*)"')
+GITHUB_HOMEPAGE_URL = "https://sickn33.github.io/antigravity-awesome-skills/"
+RECOMMENDED_TOPICS = [
+    "agentic-skills",
+    "agent-skills",
+    "ai-agents",
+    "ai-agent-skills",
+    "awesome-list",
+    "awesome-lists",
+    "antigravity",
+    "antigravity-skills",
+    "autonomous-coding",
+    "claude-code",
+    "claude-code-skills",
+    "codex-cli",
+    "codex-skills",
+    "cursor-skills",
+    "developer-tools",
+    "gemini-cli",
+    "gemini-skills",
+    "mcp",
+    "ai-workflows",
+    "skill-library",
+]
 README_TAGLINE_RE = re.compile(
     r"^> \*\*Installable GitHub library of \d[\d,]*\+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants\.\*\*$",
     re.MULTILINE,
@@ -42,6 +66,55 @@ def build_about_description(metadata: dict) -> str:
         "Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. "
         "Includes installer CLI, bundles, workflows, and official/community skill collections."
     )
+
+
+def build_about_topics() -> list[str]:
+    return list(RECOMMENDED_TOPICS)
+
+
+def run_cli_command(args: list[str], dry_run: bool = False) -> None:
+    if dry_run:
+        print(f"[dry-run] {' '.join(args)}")
+        return
+
+    subprocess.run(args, check=True)
+
+
+def sync_github_about(
+    metadata: dict,
+    dry_run: bool,
+    runner=run_cli_command,
+) -> None:
+    description = build_about_description(metadata)
+    repo = metadata["repo"]
+
+    runner(
+        [
+            "gh",
+            "repo",
+            "edit",
+            repo,
+            "--description",
+            description,
+            "--homepage",
+            GITHUB_HOMEPAGE_URL,
+        ],
+        dry_run=dry_run,
+    )
+
+    topic_command = [
+        "gh",
+        "api",
+        f"repos/{repo}/topics",
+        "--method",
+        "PUT",
+    ]
+    for topic in build_about_topics():
+        topic_command.extend(["-f", f"names[]={topic}"])
+    runner(topic_command, dry_run=dry_run)
+
+    if not dry_run:
+        print(f"✅ Synced GitHub About settings for {repo}")
 
 
 def replace_if_present(content: str, pattern: re.Pattern[str], replacement: str) -> tuple[str, bool]:
@@ -271,7 +344,8 @@ def print_manual_github_about(metadata: dict) -> None:
     description = build_about_description(metadata)
     print("\nManual GitHub repo settings update:")
     print(f"- About description: {description}")
-    print("- Suggested topics: claude-code, cursor, gemini-cli, codex-cli, github-copilot, antigravity")
+    print(f"- Homepage: {GITHUB_HOMEPAGE_URL}")
+    print(f"- Suggested topics: {', '.join(build_about_topics())}")
 
 
 def parse_args() -> argparse.Namespace:
@@ -283,6 +357,11 @@ def parse_args() -> argparse.Namespace:
         "--refresh-volatile",
         action="store_true",
         help="Refresh live star count and updated_at when syncing README metadata.",
+    )
+    parser.add_argument(
+        "--apply-github-about",
+        action="store_true",
+        help="Apply the GitHub About description, homepage, and topics to the remote repository via gh CLI.",
     )
     return parser.parse_args()
 
@@ -300,6 +379,8 @@ def main() -> int:
     )
     package_updated = update_package_description(base_dir, metadata, args.dry_run)
     docs_updated = sync_curated_docs(base_dir, metadata, args.dry_run)
+    if args.apply_github_about:
+        sync_github_about(metadata, dry_run=args.dry_run)
     print_manual_github_about(readme_metadata)
 
     if args.dry_run and not package_updated:
