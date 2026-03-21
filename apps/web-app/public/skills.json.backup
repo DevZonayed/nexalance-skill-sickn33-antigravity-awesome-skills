@@ -2570,6 +2570,26 @@
     "date_added": null
   },
   {
+    "id": "bdistill-behavioral-xray",
+    "path": "skills/bdistill-behavioral-xray",
+    "category": "ai-testing",
+    "name": "bdistill-behavioral-xray",
+    "description": "X-ray any AI model's behavioral patterns \u2014 refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-20"
+  },
+  {
+    "id": "bdistill-knowledge-extraction",
+    "path": "skills/bdistill-knowledge-extraction",
+    "category": "ai-research",
+    "name": "bdistill-knowledge-extraction",
+    "description": "Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-20"
+  },
+  {
     "id": "beautiful-prose",
     "path": "skills/beautiful-prose",
     "category": "content",

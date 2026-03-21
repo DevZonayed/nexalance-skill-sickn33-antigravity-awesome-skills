@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1304,
+  "total": 1306,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -6387,6 +6387,65 @@
         "belief"
       ],
       "path": "skills/bdi-mental-states/SKILL.md"
+    },
+    {
+      "id": "bdistill-behavioral-xray",
+      "name": "bdistill-behavioral-xray",
+      "description": "X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed.",
+      "category": "security",
+      "tags": [
+        "ai",
+        "testing",
+        "behavioral-analysis",
+        "model-evaluation",
+        "red-team",
+        "compliance",
+        "mcp"
+      ],
+      "triggers": [
+        "ai",
+        "testing",
+        "behavioral-analysis",
+        "model-evaluation",
+        "red-team",
+        "compliance",
+        "mcp",
+        "bdistill",
+        "behavioral",
+        "xray",
+        "ray",
+        "any"
+      ],
+      "path": "skills/bdistill-behavioral-xray/SKILL.md"
+    },
+    {
+      "id": "bdistill-knowledge-extraction",
+      "name": "bdistill-knowledge-extraction",
+      "description": "Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed.",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "knowledge-extraction",
+        "domain-specific",
+        "data-moat",
+        "mcp",
+        "reference-data"
+      ],
+      "triggers": [
+        "ai",
+        "knowledge-extraction",
+        "domain-specific",
+        "data-moat",
+        "mcp",
+        "reference-data",
+        "bdistill",
+        "knowledge",
+        "extraction",
+        "extract",
+        "structured",
+        "domain"
+      ],
+      "path": "skills/bdistill-knowledge-extraction/SKILL.md"
     },
     {
       "id": "beautiful-prose",

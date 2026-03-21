@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1304
+Total skills: 1306
 
 ## architecture (87)
 
@@ -170,7 +170,7 @@ Total skills: 1304
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (244)
+## data-ai (245)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -259,6 +259,7 @@ Total skills: 1304
 | `azure-storage-file-datalake-py` | Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations. | azure, storage, file, datalake, py | azure, storage, file, datalake, py, data, lake, gen2, sdk, python, hierarchical, big |
 | `backend-dev-guidelines` | You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, s... | backend, dev, guidelines | backend, dev, guidelines, senior, engineer, operating, grade, under, strict, architectural, reliability, constraints |
 | `bdi-mental-states` | This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transfor... | bdi, mental, states | bdi, mental, states, skill, should, used, user, asks, model, agent, architecture, belief |
+| `bdistill-knowledge-extraction` | Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key needed. | ai, knowledge-extraction, domain-specific, data-moat, mcp, reference-data | ai, knowledge-extraction, domain-specific, data-moat, mcp, reference-data, bdistill, knowledge, extraction, extract, structured, domain |
 | `beautiful-prose` | A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean,... | beautiful, prose | beautiful, prose, hard, edged, writing, style, contract, timeless, forceful, english, without, ai |
 | `behavioral-modes` | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. | behavioral, modes | behavioral, modes, ai, operational, brainstorm, debug, review, teach, ship, orchestrate, adapt, behavior |
 | `biopython` | Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, ... | biopython | biopython, set, freely, available, python, biological, computation, provides, functionality, sequence, manipulation, file |
@@ -1047,7 +1048,7 @@ Total skills: 1304
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (161)
+## security (162)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1075,6 +1076,7 @@ Total skills: 1304
 | `azure-security-keyvault-keys-java` | Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify ope... | azure, security, keyvault, keys, java | azure, security, keyvault, keys, java, key, vault, sdk, cryptographic, creating, managing, rsa |
 | `azure-security-keyvault-secrets-java` | Azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive... | azure, security, keyvault, secrets, java | azure, security, keyvault, secrets, java, key, vault, sdk, secret, storing, retrieving, managing |
 | `backend-security-coder` | Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementa... | backend, security, coder | backend, security, coder, secure, coding, specializing, input, validation, authentication, api, proactively, implementations |
+| `bdistill-behavioral-xray` | X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. | ai, testing, behavioral-analysis, model-evaluation, red-team, compliance, mcp | ai, testing, behavioral-analysis, model-evaluation, red-team, compliance, mcp, bdistill, behavioral, xray, ray, any |
 | `broken-authentication` | Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 ... | broken, authentication | broken, authentication, identify, exploit, session, vulnerabilities, web, applications, consistently, ranks, owasp, top |
 | `browser-extension-builder` | You extend the browser to give users superpowers. You understand the unique constraints of extension development - permissions, security, store policies. You... | browser, extension, builder | browser, extension, builder, extend, give, users, superpowers, understand, unique, constraints, development, permissions |
 | `burp-suite-testing` | Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request a... | burp, suite | burp, suite, testing, execute, web, application, security, integrated, toolset, including, http, traffic |
