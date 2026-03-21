@@ -54,6 +54,7 @@ def count_documented_bundles(content: str) -> int:
 
 
 def sync_readme_copy(content: str, metadata: dict) -> str:
+    star_celebration = metadata.get("star_celebration", "25k")
     replacements = [
         (
             README_TAGLINE_RE,
@@ -65,7 +66,7 @@ def sync_readme_copy(content: str, metadata: dict) -> str:
         (
             README_RELEASE_RE,
             (
-                f"**Current release: V{metadata['version']}.** Trusted by 25k+ GitHub stargazers, "
+                f"**Current release: V{metadata['version']}.** Trusted by {star_celebration}+ GitHub stargazers, "
                 "this repository combines official and community skill collections with bundles, "
                 "workflows, installation paths, and docs that help you go from first install to daily use quickly."
             ),
