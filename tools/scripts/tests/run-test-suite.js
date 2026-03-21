@@ -27,6 +27,7 @@ const LOCAL_TEST_COMMANDS = [
   [path.join(TOOL_SCRIPTS, "run-python.js"), path.join(TOOL_TESTS, "test_generate_index_categories.py")],
   [path.join(TOOL_SCRIPTS, "run-python.js"), path.join(TOOL_TESTS, "test_repair_description_usage_summaries.py")],
   [path.join(TOOL_SCRIPTS, "run-python.js"), path.join(TOOL_TESTS, "test_sync_microsoft_skills_security.py")],
+  [path.join(TOOL_SCRIPTS, "run-python.js"), path.join(TOOL_TESTS, "test_sync_repo_metadata.py")],
   [path.join(TOOL_SCRIPTS, "run-python.js"), path.join(TOOL_TESTS, "test_validate_skills_headings.py")],
 ];
 const NETWORK_TEST_COMMANDS = [

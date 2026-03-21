@@ -125,3 +125,4 @@
   - `docs/maintainers/repo-growth-seo.md`
   - `docs/maintainers/skills-update-guide.md`
 - Updated the changelog `Unreleased` section so the post-`v8.4.0` main branch state documents both the imported skill families and the docs/About realignment.
+- Automated the recurring docs metadata maintenance by extending `tools/scripts/sync_repo_metadata.py`, wiring it into `npm run chain`, and adding a regression test so future skill-count/version updates propagate through the curated docs surface without manual patching.
