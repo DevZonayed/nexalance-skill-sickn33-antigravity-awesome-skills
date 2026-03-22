@@ -667,7 +667,9 @@ We officially thank the following contributors for their help in making this rep
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+Original code and tooling are licensed under the MIT License. See [LICENSE](LICENSE).
+
+Original documentation and other non-code written content are licensed under [CC BY 4.0](LICENSE-CONTENT), unless a more specific upstream notice says otherwise. See [docs/sources/sources.md](docs/sources/sources.md) for attributions and third-party license details.
 
 ---
 
