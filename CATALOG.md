@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1306
+Total skills: 1307
 
 ## architecture (87)
 
@@ -170,7 +170,7 @@ Total skills: 1306
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (245)
+## data-ai (246)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -313,6 +313,7 @@ Total skills: 1306
 | `fp-ts-react` | Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works ... | fp, ts, react | fp, ts, react, practical, hooks, state, forms, data, fetching, building, apps, functional |
 | `frontend-dev-guidelines` | You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features... | frontend, dev, guidelines | frontend, dev, guidelines, senior, engineer, operating, under, strict, architectural, performance, standards, creating |
 | `frontend-ui-dark-ts` | A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphi... | frontend, ui, dark, ts | frontend, ui, dark, ts, themed, react, tailwind, css, framer, motion, designed, dashboards |
+| `gdb-cli` | GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation | debugging, gdb, core-dump, crash-analysis, c++, c | debugging, gdb, core-dump, crash-analysis, c++, c, cli, assistant, ai, agents, analyze, core |
 | `gemini-api-dev` | The Gemini API provides access to Google's most advanced AI models. Key capabilities include: | gemini, api, dev | gemini, api, dev, provides, access, google, most, ai, models, key, capabilities, include |
 | `geo-fundamentals` | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity). | geo, fundamentals | geo, fundamentals, generative, engine, optimization, ai, search, engines, chatgpt, claude, perplexity |
 | `goldrush-api` | Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent. | blockchain, crypto, web3, api, defi, wallet, multi-chain | blockchain, crypto, web3, api, defi, wallet, multi-chain, goldrush, query, data, 100, chains |
