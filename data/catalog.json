@@ -15222,36 +15222,6 @@
       "path": "skills/golang-pro/SKILL.md"
     },
     {
-      "id": "goldrush-api",
-      "name": "goldrush-api",
-      "description": "Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.",
-      "category": "data-ai",
-      "tags": [
-        "blockchain",
-        "crypto",
-        "web3",
-        "api",
-        "defi",
-        "wallet",
-        "multi-chain"
-      ],
-      "triggers": [
-        "blockchain",
-        "crypto",
-        "web3",
-        "api",
-        "defi",
-        "wallet",
-        "multi-chain",
-        "goldrush",
-        "query",
-        "data",
-        "100",
-        "chains"
-      ],
-      "path": "skills/goldrush-api/SKILL.md"
-    },
-    {
       "id": "google-analytics-automation",
       "name": "google-analytics-automation",
       "description": "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.",

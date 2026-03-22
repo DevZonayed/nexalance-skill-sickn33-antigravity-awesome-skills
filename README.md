@@ -276,7 +276,7 @@ They help you avoid picking through the full catalog one by one.
 
 - ❌ Separate installations or downloads
 - ❌ Different git commands
-- ❌ Something you need to "activate"
+- ❌ Something most users need to activate during normal install
 
 ### How to use bundles:
 
@@ -284,6 +284,8 @@ They help you avoid picking through the full catalog one by one.
 2. **Browse bundles** in [docs/users/bundles.md](docs/users/bundles.md) to find your role
 3. **Pick 3-5 skills** from that bundle to start using in your prompts
 4. **Reference them in your conversations** with your AI (e.g., "Use @brainstorming...")
+
+If Antigravity starts hitting context limits with too many active skills, the optional activation scripts in [`docs/users/agent-overload-recovery.md`](docs/users/agent-overload-recovery.md) can materialize only the bundles or skill ids you want in the live Antigravity directory.
 
 For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/users/usage.md).
 
@@ -382,15 +384,34 @@ That guide includes:
 - the storage folders that usually need to be cleared
 - an optional batch helper adapted from [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274)
 
+### Linux and macOS agent overload
+
+If Antigravity becomes unstable only when too many skills are active at once, use the cross-platform overload guide:
+
+- [`docs/users/agent-overload-recovery.md`](docs/users/agent-overload-recovery.md)
+
 ### Fixing agent overload (activation scripts)
 
-If your agent is struggling with context window limits due to too many loaded skills, use the activation script. It keeps the full library in a separate archive folder and only activates the bundles or skills you need into the live Antigravity skills directory.
+If your agent is struggling with context window limits due to too many loaded skills, use the activation scripts. They keep the full library in a separate archive folder and only activate the bundles or skills you need into the live Antigravity skills directory.
 
 **Important Usage Instructions:**
 
 1. **First, manually close the repository** (e.g., exit your AI agent or close your IDE).
 2. Open a terminal inside the folder where you cloned this repository (NOTE: repository has to be cloned).
 3. Run the script located in the `scripts` folder.
+
+macOS/Linux examples:
+
+```bash
+# Activate specific bundles
+./scripts/activate-skills.sh "Web Wizard" "Integration & APIs"
+
+# Activate literal skill ids
+./scripts/activate-skills.sh brainstorming systematic-debugging
+
+# Clear and reset (archives the live directory first)
+./scripts/activate-skills.sh --clear
+```
 
 Windows examples:
 

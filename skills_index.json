@@ -6180,16 +6180,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "goldrush-api",
-    "path": "skills/goldrush-api",
-    "category": "blockchain",
-    "name": "goldrush-api",
-    "description": "Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-03-17"
-  },
-  {
     "id": "google-analytics-automation",
     "path": "skills/google-analytics-automation",
     "category": "automation",
