@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1306
+Total skills: 1309
 
 ## architecture (87)
 
@@ -170,7 +170,7 @@ Total skills: 1306
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (245)
+## data-ai (246)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -345,6 +345,7 @@ Total skills: 1306
 | `maxia` | Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug... | solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a | solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a, maxia, connect, ai |
 | `mlops-engineer` | Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. | mlops | mlops, engineer, ml, pipelines, experiment, tracking, model, registries, mlflow, kubeflow |
 | `molykit` | CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformSend, spawn(), ThreadToken, cross-platfor... | molykit | molykit, critical, ai, chat, toolkit, triggers, botclient, openai, sse, streaming, platformsend, spawn |
+| `moyu` | Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstractions, or changes files the user did not request. | moyu | moyu, anti, engineering, guardrail, activates, ai, coding, agent, expands, scope, adds, abstractions |
 | `n8n-expression-syntax` | Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting e... | n8n, expression, syntax | n8n, expression, syntax, validate, fix, common, errors, writing, expressions, accessing, json, node |
 | `nanobanana-ppt-skills` | AI-powered PPT generation with document analysis and styled images | nanobanana, ppt, skills | nanobanana, ppt, skills, ai, powered, generation, document, analysis, styled, images |
 | `neon-postgres` | Configure Prisma for Neon with connection pooling. | neon, postgres | neon, postgres, configure, prisma, connection, pooling |
@@ -603,7 +604,7 @@ Total skills: 1306
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (316)
+## general (317)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -915,6 +916,7 @@ Total skills: 1306
 | `wiki-page-writer` | You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth. | wiki, page, writer | wiki, page, writer, senior, documentation, engineer, generates, technical, pages, evidence, depth |
 | `wiki-researcher` | You are an expert software engineer and systems analyst. Use when user asks "how does X work" with expectation of depth, user wants to understand a complex s... | wiki, researcher | wiki, researcher, software, engineer, analyst, user, asks, how, does, work, expectation, depth |
 | `wiki-vitepress` | Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to "build ... | wiki, vitepress | wiki, vitepress, transform, generated, markdown, files, polished, static, site, dark, theme, interactive |
+| `windows-shell-reliability` | Reliable command execution on Windows: paths, encoding, and common binary pitfalls. | windows, shell, reliability | windows, shell, reliability, reliable, command, execution, paths, encoding, common, binary, pitfalls |
 | `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | writing, plans | writing, plans, spec, requirements, multi, step, task, before, touching, code |
 | `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
@@ -1251,7 +1253,7 @@ Total skills: 1306
 | `wiki-qa` | Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific ... | wiki, qa | wiki, qa, answer, repository, questions, grounded, entirely, source, code, evidence, user, asks |
 | `windows-privilege-escalation` | Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements. | windows, privilege, escalation | windows, privilege, escalation, provide, systematic, methodologies, discovering, exploiting, vulnerabilities, during, penetration, testing |
 
-## workflow (99)
+## workflow (100)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1305,6 +1307,7 @@ Total skills: 1306
 | `instagram-automation` | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for c... | instagram | instagram, automation, automate, tasks, via, rube, mcp, composio, posts, carousels, media, get |
 | `intercom-automation` | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas. | intercom | intercom, automation, automate, tasks, via, rube, mcp, composio, conversations, contacts, companies, segments |
 | `jira-automation` | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas. | jira | jira, automation, automate, tasks, via, rube, mcp, composio, issues, sprints, boards, comments |
+| `jobgpt` | Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server. | jobgpt | jobgpt, job, search, automation, auto, apply, resume, generation, application, tracking, salary, intelligence |
 | `kaizen` | Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss proce... | kaizen | kaizen, continuous, improvement, error, proofing, standardization, skill, user, wants, improve, code, quality |
 | `klaviyo-automation` | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools... | klaviyo | klaviyo, automation, automate, tasks, via, rube, mcp, composio, email, sms, campaigns, inspect |
 | `libreoffice/impress` | Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress. | libreoffice/impress | libreoffice/impress, impress, presentation, creation, format, conversion, odp, pptx, pdf, slide, automation, libreoffice |
