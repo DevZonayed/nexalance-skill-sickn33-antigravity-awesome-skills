@@ -170,6 +170,16 @@
     "date_added": "2026-03-06"
   },
   {
+    "id": "aegisops-ai",
+    "path": "skills/aegisops-ai",
+    "category": "devops",
+    "name": "aegisops-ai",
+    "description": "Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-24"
+  },
+  {
     "id": "agent-evaluation",
     "path": "skills/agent-evaluation",
     "category": "ai-agents",
@@ -12948,6 +12958,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "xvary-stock-research",
+    "path": "skills/xvary-stock-research",
+    "category": "uncategorized",
+    "name": "xvary-stock-research",
+    "description": "Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /score, /compare workflows with bundled Python tools (Claude Code, Cursor, Codex).",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-03-23"
   },
   {
     "id": "yann-lecun",
