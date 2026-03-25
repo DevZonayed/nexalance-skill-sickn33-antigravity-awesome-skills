@@ -25,6 +25,7 @@
 - Merged PR `#395` via GitHub squash merge after maintainer refresh of forked workflow approvals and PR body normalization; this added the new `snowflake-development` skill.
 - Merged PR `#394` via GitHub squash merge after converting the contributor branch back to source-only, normalizing the PR checklist body, and shortening an oversized `wordpress-penetration-testing` description so CI passed.
 - Patched `skills/snowflake-development/SKILL.md` on `main` with a `## When to Use` section so the repository stayed within the frozen validation warning budget after the PR merge batch.
+- Reworked `/apply-optimize` automation to address GitHub code scanning alert `#36`: the public `issue_comment` trigger now only queues a trusted workflow, while the privileged branch checkout/apply logic runs in a separate `workflow_dispatch` path limited to same-repository branches.
 - Ran the required direct-`main` maintainer sync flow after touching `skills/`:
   - `npm run chain`
   - `npm run check:warning-budget`
