@@ -9,6 +9,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [8.9.0] - 2026-03-25 - "Apple Workflow Expansion and Data Platform Additions"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release combines a curated import from `Dimillian/Skills` with two merged community pull requests on `main`. It expands Apple-platform workflows, GitHub/refactor guidance, and SwiftUI performance coverage, adds a new Snowflake engineering skill, updates WordPress skills for 7.0, and refreshes the registry/docs surface to `1,326+` indexed skills.
+
+## New Skills
+
+- **app-store-changelog** - turn git history into concise, user-facing App Store release notes.
+- **github** - use the `gh` CLI for pull requests, issues, workflow runs, and GitHub API queries.
+- **ios-debugger-agent** - debug iOS apps on booted simulators with XcodeBuildMCP.
+- **macos-menubar-tuist-app** - build and maintain SwiftUI macOS menubar apps with Tuist-first workflows.
+- **macos-spm-app-packaging** - scaffold and package SwiftPM macOS apps without Xcode projects.
+- **orchestrate-batch-refactor** - plan large refactors with dependency-aware work packets and parallel analysis.
+- **project-skill-audit** - audit a project and recommend the highest-value skills to add or update.
+- **react-component-performance** - diagnose slow React components and apply targeted performance fixes.
+- **simplify-code** - review diffs for clarity and safe simplifications.
+- **snowflake-development** - Snowflake SQL, pipelines, Cortex AI, Snowpark, performance, and security guidance (PR #395).
+- **swift-concurrency-expert** - fix actor isolation, `Sendable`, and Swift concurrency issues.
+- **swiftui-liquid-glass** - implement and review SwiftUI Liquid Glass APIs correctly.
+- **swiftui-performance-audit** - audit SwiftUI runtime performance from code and profiling evidence.
+- **swiftui-ui-patterns** - apply proven SwiftUI patterns for navigation, sheets, and async state.
+- **swiftui-view-refactor** - refactor SwiftUI views into smaller components with explicit data flow.
+
+## Improvements
+
+- **WordPress 7.0 coverage**: merged PR #394 to expand `wordpress`, `wordpress-plugin-development`, `wordpress-theme-development`, `wordpress-woocommerce-development`, and `wordpress-penetration-testing` with WordPress 7.0 collaboration, AI, admin, and security guidance.
+- **Maintainer PR flow**: brought both open PRs into compliance with the source-only policy and PR template requirements before merging them via GitHub squash merge.
+- **Registry sync**: refreshed README/catalog metadata, contributor sync, and count-sensitive docs so `main` now reflects `1,326+` indexed skills.
+- **Warning-budget preservation**: normalized imported and newly merged skills so the repository remains within the frozen validation budget at `135/135`.
+
+## Who should care
+
+- **Claude Code and Codex CLI users** get a larger set of high-signal workflow skills for GitHub, refactoring, project audits, and Swift/SwiftUI maintenance.
+- **Apple-platform developers** get a meaningful jump in coverage across iOS debugging, Swift concurrency, SwiftUI architecture, Liquid Glass, performance, and macOS packaging/menubar patterns.
+- **Data and platform engineers** get a new `snowflake-development` skill plus richer WordPress 7.0 documentation for modern content/admin workflows.
+- **Maintainers** benefit from a clean post-merge registry state, contributor sync, and release-ready validation posture.
+
+## Credits
+
+- **[@jamescha-earley](https://github.com/jamescha-earley)** for the new `snowflake-development` skill in PR #395
+- **[@munir-abbasi](https://github.com/munir-abbasi)** for the WordPress 7.0 documentation update in PR #394
+
+Upgrade now: `git pull origin main` to fetch the latest skills.
+
 ## [8.8.0] - 2026-03-24 - "Review Automation and Research Expansion"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.

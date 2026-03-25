@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1311
+Total skills: 1326
 
-## architecture (87)
+## architecture (88)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -83,6 +83,7 @@ Total skills: 1311
 | `site-architecture` | Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but... | site, architecture | site, architecture, plan, restructure, website, hierarchy, navigation, url, breadcrumbs, internal, linking, mapping |
 | `slack-bot-builder` | The Bolt framework is Slack's recommended approach for building apps. It handles authentication, event routing, request verification, and HTTP request proces... | slack, bot, builder | slack, bot, builder, bolt, framework, recommended, approach, building, apps, authentication, event, routing |
 | `software-architecture` | Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that... | software, architecture | software, architecture, quality, skill, should, used, users, want, write, code, analyze, any |
+| `swiftui-ui-patterns` | Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens. | swiftui, ui | swiftui, ui, apply, proven, navigation, sheets, async, state, reusable, screens |
 | `tailwind-design-system` | Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility. | tailwind | tailwind, css, including, tokens, component, variants, responsive, accessibility |
 | `tailwind-patterns` | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. | tailwind | tailwind, css, v4, principles, first, configuration, container, queries, token, architecture |
 | `testing-patterns` | Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-gr... |  | testing, jest, factory, functions, mocking, tdd, writing, unit, tests, creating, test, factories |
@@ -170,7 +171,7 @@ Total skills: 1311
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (249)
+## data-ai (250)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -400,6 +401,7 @@ Total skills: 1311
 | `stability-ai` | Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos. | image-generation, stable-diffusion, ai-art, api | image-generation, stable-diffusion, ai-art, api, stability, ai, geracao, de, imagens, via, sd3, ultra |
 | `stitch-ui-design` | Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable pr... | stitch, ui | stitch, ui, guidance, crafting, effective, prompts, google, ai, powered, labs, skill, helps |
 | `supabase-automation` | Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always sear... | supabase | supabase, automation, automate, database, queries, table, administration, storage, edge, functions, sql, execution |
+| `swiftui-view-refactor` | Refactor SwiftUI views into smaller components with stable, explicit data flow. | swiftui, view, refactor | swiftui, view, refactor, views, smaller, components, stable, explicit, data, flow |
 | `tanstack-query-expert` | Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Ne... | tanstack, query | tanstack, query, react, asynchronous, state, covers, data, fetching, stale, time, configuration, mutations |
 | `team-collaboration-standup-notes` | You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remo... | team, collaboration, standup, notes | team, collaboration, standup, notes, communication, async, first, ai, assisted, note, generation, commit |
 | `travel-health-analyzer` | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 | travel, health, analyzer | travel, health, analyzer, who, cdc |
@@ -424,7 +426,7 @@ Total skills: 1311
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 | `zapier-make-patterns` | You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies... | zapier, make | zapier, make, no, code, automation, architect, who, built, thousands, zaps, scenarios, businesses |
 
-## development (178)
+## development (181)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -522,6 +524,7 @@ Total skills: 1311
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. | frontend, slides | frontend, slides, stunning, animation, rich, html, presentations, scratch, converting, powerpoint, files |
 | `game-development/mobile-games` | Mobile game development principles. Touch input, battery, performance, app stores. | game, development/mobile, games | game, development/mobile, games, mobile, development, principles, touch, input, battery, performance, app, stores |
 | `gemini-api-integration` | Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices. | gemini, api, integration | gemini, api, integration, integrating, google, covers, model, selection, multimodal, inputs, streaming, function |
+| `github` | Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. | github | github, gh, cli, issues, pull, requests, actions, runs, api, queries |
 | `go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or de... | go, concurrency | go, concurrency, goroutines, channels, sync, primitives, context, building, concurrent, applications, implementing, worker |
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
 | `go-rod-master` | Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. | go, rod, master | go, rod, master, browser, automation, web, scraping, chrome, devtools, protocol, including, stealth |
@@ -530,6 +533,7 @@ Total skills: 1311
 | `hugging-face-dataset-viewer` | Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet UR... | hugging, face, dataset, viewer | hugging, face, dataset, viewer, skill, api, fetch, subset, split, metadata, paginate, rows |
 | `hugging-face-evaluation` | Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis... | hugging, face, evaluation | hugging, face, evaluation, add, results, model, cards, supports, extracting, eval, tables, readme |
 | `hugging-face-tool-builder` | Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate proce... | hugging, face, builder | hugging, face, builder, purpose, now, reusable, command, line, scripts, utilities, api, allowing |
+| `ios-debugger-agent` | Debug the current iOS project on a booted simulator with XcodeBuildMCP. | ios, debugger, agent | ios, debugger, agent, debug, current, booted, simulator, xcodebuildmcp |
 | `javascript-mastery` | 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts). | javascript, mastery | javascript, mastery, 33, essential, concepts, every, developer, should, know, inspired, js, https |
 | `javascript-pro` | Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. | javascript | javascript, pro, es6, async, node, js, apis, promises, event, loops, browser, compatibility |
 | `javascript-testing-patterns` | Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices. | javascript | javascript, testing, implementing, robust, typescript, applications, frameworks |
@@ -570,6 +574,7 @@ Total skills: 1311
 | `python-performance-optimization` | Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottleneck... | python, performance, optimization | python, performance, optimization, profile, optimize, code, cprofile, memory, profilers, debugging, slow, optimizing |
 | `python-pro` | Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem ... | python | python, pro, 12, features, async, programming, performance, optimization, latest, ecosystem, including, uv |
 | `python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites... | python | python, testing, pytest, fixtures, mocking, test, driven, development, writing, tests, setting, up |
+| `react-component-performance` | Diagnose slow React components and suggest targeted performance fixes. | react, component, performance | react, component, performance, diagnose, slow, components, suggest, targeted, fixes |
 | `react-flow-architect` | Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management. | react, flow | react, flow, architect, reactflow, applications, hierarchical, navigation, performance, optimization, state |
 | `react-flow-node-ts` | Create React Flow node components following established patterns with proper TypeScript types and store integration. | react, flow, node, ts | react, flow, node, ts, components, following, established, proper, typescript, types, store, integration |
 | `react-modernization` | Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation. | react, modernization | react, modernization, version, upgrades, class, hooks, migration, concurrent, features, adoption, codemods, automated |
@@ -607,7 +612,7 @@ Total skills: 1311
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (317)
+## general (325)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -631,6 +636,7 @@ Total skills: 1311
 | `apify-trend-analysis` | Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy. | apify, trend | apify, trend, analysis, discover, track, emerging, trends, google, instagram, facebook, youtube, tiktok |
 | `app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordina... | app, builder | app, builder, main, application, building, orchestrator, creates, full, stack, applications, natural, language |
 | `app-builder/templates` | Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. | app, builder/templates | app, builder/templates, scaffolding, new, applications, creating, scratch, contains, 12, various, tech, stacks |
+| `app-store-changelog` | Generate user-facing App Store release notes from git history since the last tag. | app, store, changelog | app, store, changelog, generate, user, facing, release, notes, git, history, since, last |
 | `arm-cortex-expert` | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). | arm, cortex | arm, cortex, senior, embedded, software, engineer, specializing, firmware, driver, development, microcontrollers, teensy |
 | `ask-questions-if-underspecified` | Clarify requirements before implementing. Use when serious doubts arise. | ask, questions, if, underspecified | ask, questions, if, underspecified, clarify, requirements, before, implementing, serious, doubts, arise |
 | `avalonia-layout-zafiro` | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy. | avalonia, layout, zafiro | avalonia, layout, zafiro, guidelines, ui, emphasizing, shared, styles, generic, components, avoiding, xaml |
@@ -790,6 +796,8 @@ Total skills: 1311
 | `linear-claude-skill` | Manage Linear issues, projects, and teams | linear, claude, skill | linear, claude, skill, issues, teams |
 | `lint-and-validate` | MANDATORY: Run appropriate validation tools after EVERY code change. Do not finish a task until the code is error-free. | lint, and, validate | lint, and, validate, mandatory, run, appropriate, validation, after, every, code, change, do |
 | `logistics-exception-management` | Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ year... | logistics, exception | logistics, exception, codified, expertise, handling, freight, exceptions, shipment, delays, damages, losses, carrier |
+| `macos-menubar-tuist-app` | Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. | macos, menubar, tuist, app | macos, menubar, tuist, app, refactor, review, swiftui, apps |
+| `macos-spm-app-packaging` | Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects. | macos, spm, app, packaging | macos, spm, app, packaging, scaffold, sign, package, swiftpm, apps, without, xcode |
 | `magic-ui-generator` | Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations. | magic, ui, generator | magic, ui, generator, utilizes, 21st, dev, generate, compare, integrate, multiple, component, variations |
 | `makepad-animation` | CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad state, makepad transition, "from: { all:... | makepad, animation | makepad, animation, critical, triggers, animator, hover, state, transition, all, forward, pressed |
 | `makepad-basics` | CRITICAL: Use for Makepad getting started and app structure. Triggers on: makepad, makepad getting started, makepad tutorial, live_design!, app_main!, makepa... | makepad, basics | makepad, basics, critical, getting, started, app, structure, triggers, tutorial, live, main, setup |
@@ -826,6 +834,7 @@ Total skills: 1311
 | `odoo-xml-views-builder` | Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax. | odoo, xml, views, builder | odoo, xml, views, builder, building, form, list, kanban, search, calendar, graph, generates |
 | `onboarding-cro` | You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lea... | onboarding, cro | onboarding, cro, user, activation, goal, users, reach, aha, moment, quickly, possible, establish |
 | `oral-health-analyzer` | 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。 | oral, health, analyzer | oral, health, analyzer |
+| `orchestrate-batch-refactor` | Plan and execute large refactors with dependency-aware work packets and parallel analysis. | orchestrate, batch, refactor | orchestrate, batch, refactor, plan, execute, large, refactors, dependency, aware, work, packets, parallel |
 | `oss-hunter` | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. | oss, hunter | oss, hunter, automatically, hunt, high, impact, contribution, opportunities, trending, repositories |
 | `page-cro` | Analyze and optimize individual pages for conversion performance. | page, cro | page, cro, analyze, optimize, individual, pages, conversion, performance |
 | `paypal-integration` | Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows. | paypal, integration | paypal, integration, payment, including, express, checkout, ipn, handling, recurring, billing, refund |
@@ -843,6 +852,7 @@ Total skills: 1311
 | `pr-writer` | Create pull requests following Sentry's engineering practices. | pr, writer | pr, writer, pull, requests, following, sentry, engineering |
 | `production-scheduling` | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufa... | production, scheduling | production, scheduling, codified, expertise, job, sequencing, line, balancing, changeover, optimisation, bottleneck, resolution |
 | `professional-proofreader` | Use when a user asks to "proofread", "review and correct", "fix grammar", "improve readability while keeping my voice", and to proofread a document file and ... | professional, proofreader | professional, proofreader, user, asks, proofread, review, correct, fix, grammar, improve, readability, while |
+| `project-skill-audit` | Audit a project and recommend the highest-value skills to add or update. | skill, audit | skill, audit, recommend, highest, value, skills, add, update |
 | `prompt-engineer` | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW) | [prompt-engineering, optimization, frameworks, ai-enhancement] | [prompt-engineering, optimization, frameworks, ai-enhancement], prompt, engineer, transforms, user, prompts, optimized, rtf, risen |
 | `prompt-library` | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best pr... | prompt, library | prompt, library, collection, battle, tested, prompts, inspired, awesome, chatgpt, https, github, com |
 | `qiskit` | Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on sim... | qiskit | qiskit, world, most, popular, open, source, quantum, computing, framework, 13m, downloads, circuits |
@@ -880,6 +890,9 @@ Total skills: 1311
 | `stitch-loop` | Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern | stitch, loop | stitch, loop, teaches, agents, iteratively, websites, autonomous, baton, passing |
 | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | subagent, driven | subagent, driven, development, executing, plans, independent, tasks, current, session |
 | `superpowers-lab` | Lab environment for Claude superpowers | superpowers, lab | superpowers, lab, environment, claude |
+| `swift-concurrency-expert` | Review and fix Swift concurrency issues such as actor isolation and Sendable violations. | swift, concurrency | swift, concurrency, review, fix, issues, such, actor, isolation, sendable, violations |
+| `swiftui-liquid-glass` | Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order. | swiftui, liquid, glass | swiftui, liquid, glass, review, apis, correct, fallbacks, modifier, order |
+| `swiftui-performance-audit` | Audit SwiftUI performance issues from code review and profiling evidence. | swiftui, performance, audit | swiftui, performance, audit, issues, code, review, profiling, evidence |
 | `tcm-constitution-analyzer` | 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。 | tcm, constitution, analyzer | tcm, constitution, analyzer |
 | `team-composition-analysis` | Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A. | team, composition | team, composition, analysis, optimal, structures, hiring, plans, compensation, equity, allocation, early, stage |
 | `telegram-bot-builder` | You build bots that people actually use daily. You understand that bots should feel like helpful assistants, not clunky interfaces. You know the Telegram eco... | telegram, bot, builder | telegram, bot, builder, bots, people, actually, daily, understand, should, feel, like, helpful |
@@ -1053,7 +1066,7 @@ Total skills: 1311
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (162)
+## security (164)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1191,9 +1204,11 @@ Total skills: 1311
 | `seo-forensic-incident-response` | Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. | seo, forensic, incident, response | seo, forensic, incident, response, investigate, sudden, drops, organic, traffic, rankings, run, structured |
 | `seo-technical` | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform s... | seo, technical | seo, technical, audit, crawlability, indexability, security, urls, mobile, core, web, vitals, structured |
 | `service-mesh-expert` | Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observabil... | service, mesh | service, mesh, architect, specializing, istio, linkerd, cloud, native, networking, masters, traffic, security |
+| `simplify-code` | Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. | simplify, code | simplify, code, review, diff, clarity, safe, simplifications, then, optionally, apply, low, risk |
 | `skill-creator` | To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template applicati... | [automation, scaffolding, skill-creation, meta-skill] | [automation, scaffolding, skill-creation, meta-skill], skill, creator, new, cli, skills, following, anthropic, official |
 | `skill-scanner` | Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks. | skill, scanner | skill, scanner, scan, agent, skills, security, issues, before, adoption, detects, prompt, injection |
 | `smtp-penetration-testing` | Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeratio... | smtp, penetration | smtp, penetration, testing, conduct, security, assessments, simple, mail, transfer, protocol, servers, identify |
+| `snowflake-development` | Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI functio... | snowflake | snowflake, development, assistant, covering, sql, data, pipeline, dynamic, tables, streams, tasks, snowpipe |
 | `solidity-security` | Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. | solidity, security | solidity, security, smart, contract, vulnerability, prevention, secure, development |
 | `spec-to-code-compliance` | Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs ... | spec, to, code, compliance | spec, to, code, compliance, verifies, implements, exactly, what, documentation, specifies, blockchain, audits |
 | `sql-injection-testing` | Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, a... | sql, injection | sql, injection, testing, execute, vulnerability, assessments, web, applications, identify, database, security, flaws |
