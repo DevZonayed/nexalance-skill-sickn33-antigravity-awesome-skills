@@ -11,6 +11,7 @@ const LOCAL_TEST_COMMANDS = [
     [path.join(TOOL_TESTS, "activate_skills_shell.test.js")],
     [path.join(TOOL_TESTS, "activate_skills_batch_security.test.js")],
     [path.join(TOOL_TESTS, "automation_workflows.test.js")],
+    [path.join(TOOL_TESTS, "apply_skill_optimization_security.test.js")],
     [path.join(TOOL_TESTS, "build_catalog_bundles.test.js")],
     [path.join(TOOL_TESTS, "claude_plugin_marketplace.test.js")],
     [path.join(TOOL_TESTS, "installer_antigravity_guidance.test.js")],

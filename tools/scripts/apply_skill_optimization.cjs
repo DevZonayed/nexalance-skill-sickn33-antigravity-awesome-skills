@@ -5,6 +5,8 @@ const path = require('node:path');
 const { execFileSync } = require('node:child_process');
 
 const REVIEW_HEADING = '## Tessl Skill Review';
+const TRUSTED_AUTHOR_ASSOCIATIONS = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
+const DEFAULT_ALLOWED_REVIEW_BOT_LOGINS = ['github-actions[bot]'];
 
 function getRequiredEnv(name) {
   const value = process.env[name];
@@ -88,7 +90,46 @@ function ensureRepoRelative(filePath) {
   return resolved;
 }
 
-async function findLatestReviewComment(owner, repo, prNumber) {
+function parseAllowedReviewBotLogins(envValue = process.env.APPLY_OPTIMIZE_ALLOWED_REVIEW_BOT_LOGINS) {
+  if (!envValue) {
+    return DEFAULT_ALLOWED_REVIEW_BOT_LOGINS;
+  }
+
+  const logins = envValue
+    .split(',')
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  return logins.length > 0 ? logins : DEFAULT_ALLOWED_REVIEW_BOT_LOGINS;
+}
+
+function isTrustedReviewComment(comment, allowedBotLogins = DEFAULT_ALLOWED_REVIEW_BOT_LOGINS) {
+  if (!comment?.body || !comment.body.includes(REVIEW_HEADING)) {
+    return false;
+  }
+
+  if (TRUSTED_AUTHOR_ASSOCIATIONS.has(comment.author_association)) {
+    return true;
+  }
+
+  const login = comment.user?.login;
+  const userType = comment.user?.type;
+  return Boolean(login && userType === 'Bot' && allowedBotLogins.includes(login));
+}
+
+function selectLatestTrustedReviewComment(comments, allowedBotLogins = DEFAULT_ALLOWED_REVIEW_BOT_LOGINS) {
+  let latest = null;
+
+  for (const comment of comments) {
+    if (isTrustedReviewComment(comment, allowedBotLogins)) {
+      latest = comment;
+    }
+  }
+
+  return latest;
+}
+
+async function findLatestTrustedReviewComment(owner, repo, prNumber, allowedBotLogins) {
   let page = 1;
   let latest = null;
 
@@ -97,11 +138,7 @@ async function findLatestReviewComment(owner, repo, prNumber) {
       `/repos/${owner}/${repo}/issues/${prNumber}/comments?per_page=100&page=${page}`,
     );
 
-    for (const comment of comments) {
-      if (comment.body && comment.body.includes(REVIEW_HEADING)) {
-        latest = comment;
-      }
-    }
+    latest = selectLatestTrustedReviewComment(comments, allowedBotLogins) ?? latest;
 
     if (comments.length < 100) {
       return latest;
@@ -133,6 +170,7 @@ async function main() {
   }
 
   const pr = await githubRequest(`/repos/${owner}/${repo}/pulls/${prNumber}`);
+  const allowedReviewBotLogins = parseAllowedReviewBotLogins();
 
   if (pr.head.repo.full_name !== repoSlug) {
     throw new Error(
@@ -140,9 +178,16 @@ async function main() {
     );
   }
 
-  const reviewComment = await findLatestReviewComment(owner, repo, prNumber);
+  const reviewComment = await findLatestTrustedReviewComment(
+    owner,
+    repo,
+    prNumber,
+    allowedReviewBotLogins,
+  );
   if (!reviewComment || !reviewComment.body) {
-    throw new Error('No Tessl skill review comment found on this PR. Run the review first.');
+    throw new Error(
+      'No trusted Tessl skill review comment found on this PR. Run the review first.',
+    );
   }
 
   const optimizedFiles = extractOptimizedContent(reviewComment.body);
@@ -205,7 +250,18 @@ async function main() {
   await postComment(owner, repo, prNumber, body);
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.stack : String(error));
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.stack : String(error));
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  DEFAULT_ALLOWED_REVIEW_BOT_LOGINS,
+  REVIEW_HEADING,
+  findLatestTrustedReviewComment,
+  isTrustedReviewComment,
+  parseAllowedReviewBotLogins,
+  selectLatestTrustedReviewComment,
+};
