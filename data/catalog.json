@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1327,
+  "total": 1328,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -7948,6 +7948,35 @@
         "qualified"
       ],
       "path": "skills/clarity-gate/SKILL.md"
+    },
+    {
+      "id": "clarvia-aeo-check",
+      "name": "clarvia-aeo-check",
+      "description": "Score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to your workflow.",
+      "category": "development",
+      "tags": [
+        "mcp",
+        "aeo",
+        "tool-quality",
+        "agent-readiness",
+        "api-scoring",
+        "clarvia"
+      ],
+      "triggers": [
+        "mcp",
+        "aeo",
+        "tool-quality",
+        "agent-readiness",
+        "api-scoring",
+        "clarvia",
+        "check",
+        "score",
+        "any",
+        "server",
+        "api",
+        "cli"
+      ],
+      "path": "skills/clarvia-aeo-check/SKILL.md"
     },
     {
       "id": "claude-ally-health",

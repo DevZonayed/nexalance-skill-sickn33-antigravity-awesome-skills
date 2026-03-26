@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1327
+Total skills: 1328
 
 ## architecture (88)
 
@@ -427,7 +427,7 @@ Total skills: 1327
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 | `zapier-make-patterns` | You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies... | zapier, make | zapier, make, no, code, automation, architect, who, built, thousands, zaps, scenarios, businesses |
 
-## development (181)
+## development (182)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -489,6 +489,7 @@ Total skills: 1327
 | `bun-development` | Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun). | bun | bun, development, fast, javascript, typescript, runtime, inspired, oven, sh, https, github, com |
 | `cc-skill-coding-standards` | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. | cc, skill, coding, standards | cc, skill, coding, standards, universal, typescript, javascript, react, node, js, development |
 | `cc-skill-frontend-patterns` | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. | cc, skill, frontend | cc, skill, frontend, development, react, next, js, state, performance, optimization, ui |
+| `clarvia-aeo-check` | Score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to y... | mcp, aeo, tool-quality, agent-readiness, api-scoring, clarvia | mcp, aeo, tool-quality, agent-readiness, api-scoring, clarvia, check, score, any, server, api, cli |
 | `context7-auto-research` | Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and fra... | context7, auto, research | context7, auto, research, automatically, fetch, latest, library, framework, documentation, claude, code, via |
 | `copilot-sdk` | Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools... | copilot, sdk | copilot, sdk, applications, programmatically, interact, github, wraps, cli, via, json, rpc, providing |
 | `csharp-pro` | Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and... | csharp | csharp, pro, write, code, features, like, records, matching, async, await, optimizes, net |
