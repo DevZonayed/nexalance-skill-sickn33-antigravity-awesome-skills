@@ -34,9 +34,12 @@ Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
 - [📖 Complete Usage Guide](docs/users/usage.md) - **Start here if confused after installation!**
+- [🧠 Core Concepts](#core-concepts)
 - [🔌 Compatibility &amp; Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
+- [🧭 Integration Guides](#integration-guides)
 - [🧰 Best Skills By Tool](#best-skills-by-tool)
+- [❓ Quick FAQ](#quick-faq)
 - [🛡️ Security Posture](#security-posture)
 - [🧯 Troubleshooting](#troubleshooting)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
@@ -99,6 +102,53 @@ Once installed, just ask your agent naturally:
 👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/users/usage.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
 
 👉 **[Full Getting Started Guide](docs/users/getting-started.md)**
+
+---
+
+## Core Concepts
+
+Before you compare bundles or start installing tool-specific paths, it helps to separate four ideas:
+
+- **Skills**: reusable `SKILL.md` playbooks that teach an AI assistant how to execute a workflow well.
+- **MCP tools**: integrations and external capabilities the assistant can call. Tools provide actions; skills provide operating instructions.
+- **Bundles**: curated recommendations for which skills to start with for a role or domain.
+- **Workflows**: ordered execution playbooks that show how to combine multiple skills step by step.
+
+If you want the clearest explanation of **skills vs MCP/tools**, start here:
+
+- [Skills vs MCP Tools](docs/users/skills-vs-mcp-tools.md)
+- [Bundles](docs/users/bundles.md)
+- [Workflows](docs/users/workflows.md)
+
+## Integration Guides
+
+If your real question is "how do I use Antigravity Awesome Skills with my tool?", use the matching guide:
+
+- **[Claude Code](docs/users/claude-code-skills.md)**: install paths, starter prompts, plugin marketplace flow, and first-use guidance.
+- **[Cursor](docs/users/cursor-skills.md)**: chat-first usage, frontend/full-stack starter skills, and practical prompts.
+- **[Codex CLI](docs/users/codex-cli-skills.md)**: planning, implementation, debugging, testing, and review loops for local coding work.
+- **[Gemini CLI](docs/users/gemini-cli-skills.md)**: broad engineering, agent systems, integrations, and AI workflow coverage.
+- **[AI agent skills guide](docs/users/ai-agent-skills.md)**: how to evaluate this repo against broader or narrower alternatives.
+
+## Quick FAQ
+
+### What is Antigravity Awesome Skills?
+
+It is an installable GitHub library of reusable `SKILL.md` playbooks for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+### How do I install it?
+
+Use `npx antigravity-awesome-skills`, or a tool-specific flag like `--codex`, `--cursor`, `--gemini`, or `--claude` when you want the installer to target a specific skills directory.
+
+### What is the difference between skills and MCP tools?
+
+Skills are reusable playbooks that tell an AI assistant how to execute a workflow. MCP tools expose external systems or actions the assistant can call. Skills guide behavior; MCP tools provide capabilities.
+
+### What is the difference between bundles and workflows?
+
+Bundles are curated sets of recommended skills. Workflows are ordered execution playbooks for concrete outcomes.
+
+For the expanded version, read [FAQ](docs/users/faq.md).
 
 ---
 
