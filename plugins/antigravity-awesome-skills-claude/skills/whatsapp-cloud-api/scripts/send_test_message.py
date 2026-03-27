@@ -10,7 +10,6 @@ Usage:
 """
 
 import argparse
-import json
 import os
 import sys
 
@@ -78,17 +77,11 @@ def send_test(to: str, message: str) -> None:
             error = data.get("error", {})
             print(f"Error sending message:")
             print(f"  Code: {error.get('code', '?')}")
-            print(f"  Message: {error.get('message', 'Unknown error')}")
-            if error.get("error_data"):
-                print(f"  Details: {error['error_data'].get('details', '')}")
+            print(f"  Status: {response.status_code}")
+            print("  Message: Request rejected by WhatsApp Cloud API.")
 
         print()
-        print("Full response:")
-        # Mask token in response output to prevent credential leakage
-        response_str = json.dumps(data, indent=2)
-        if token and token in response_str:
-            response_str = response_str.replace(token, _mask_secret(token))
-        print(response_str)
+        print("Response details omitted to avoid exposing sensitive API data.")
 
     except httpx.ConnectError:
         print("Error: Connection failed. Check your internet connection.")
@@ -96,10 +89,8 @@ def send_test(to: str, message: str) -> None:
     except httpx.TimeoutException:
         print("Error: Request timed out.")
         sys.exit(1)
-    except Exception as e:
-        # Mask token in error output to prevent credential leakage
-        safe_err = str(e).replace(token, _mask_secret(token)) if token else str(e)
-        print(f"Error: {safe_err}")
+    except Exception:
+        print("Error: Unexpected failure while sending the message.")
         sys.exit(1)
 
 
