@@ -211,6 +211,15 @@ If you use Claude Code and prefer the plugin marketplace flow, this repository n
 
 This installs the same repository-backed skill library through Claude Code's plugin marketplace entrypoint.
 
+### Option C: Codex plugin marketplace metadata
+
+If you use Codex and prefer a marketplace-style plugin source instead of copying skills into `.codex/skills/`, this repository now ships:
+
+- `.agents/plugins/marketplace.json`
+- `plugins/antigravity-awesome-skills/.codex-plugin/plugin.json`
+
+The Codex plugin points at the same curated `skills/` tree through a repo-local plugin entry, so the library can be exposed as an installable Codex plugin source without duplicating the catalog.
+
 ## Choose Your Tool
 
 | Tool           | Install                                                                  | First Use                                              |
