@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1328,
+  "total": 1329,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -1132,6 +1132,35 @@
         "fields"
       ],
       "path": "skills/airtable-automation/SKILL.md"
+    },
+    {
+      "id": "akf-trust-metadata",
+      "name": "akf-trust-metadata",
+      "description": "The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.",
+      "category": "security",
+      "tags": [
+        "trust",
+        "metadata",
+        "provenance",
+        "compliance",
+        "file-format",
+        "ai-native"
+      ],
+      "triggers": [
+        "trust",
+        "metadata",
+        "provenance",
+        "compliance",
+        "file-format",
+        "ai-native",
+        "akf",
+        "ai",
+        "native",
+        "file",
+        "format",
+        "exif"
+      ],
+      "path": "skills/akf-trust-metadata/SKILL.md"
     },
     {
       "id": "algolia-search",

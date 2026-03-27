@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1328
+Total skills: 1329
 
 ## architecture (88)
 
@@ -1068,7 +1068,7 @@ Total skills: 1328
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks] | [twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks], twitter, scraper, data |
 
-## security (164)
+## security (165)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1077,6 +1077,7 @@ Total skills: 1328
 | `agentic-actions-auditor` | Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations  including Claude Code Action,  Gemini CLI, OpenAI Codex, and GitHub AI... | agentic, actions, auditor | agentic, actions, auditor, audits, github, security, vulnerabilities, ai, agent, integrations, including, claude |
 | `ai-engineering-toolkit` | 6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-... | prompt-engineering, rag, security, evaluation, ai-engineering, llm | prompt-engineering, rag, security, evaluation, ai-engineering, llm, ai, engineering, toolkit, prompt, dimension, scoring |
 | `ai-md` | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance. | ai, md | ai, md, convert, human, written, claude, native, structured, label, format, battle, tested |
+| `akf-trust-metadata` | The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF,... | trust, metadata, provenance, compliance, file-format, ai-native | trust, metadata, provenance, compliance, file-format, ai-native, akf, ai, native, file, format, exif |
 | `anti-reversing-techniques` | AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1. | anti, reversing, techniques | anti, reversing, techniques, authorized, skill, contains, dual, security, before, proceeding, any, bypass |
 | `antigravity-workflows` | Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA. | antigravity | antigravity, orchestrate, multiple, skills, through, guided, saas, mvp, delivery, security, audits, ai |
 | `api-endpoint-builder` | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalab... | api, endpoint, builder | api, endpoint, builder, rest, endpoints, validation, error, handling, authentication, documentation, follows, security |

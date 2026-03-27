@@ -315,6 +315,7 @@
         "agentic-actions-auditor",
         "ai-engineering-toolkit",
         "ai-md",
+        "akf-trust-metadata",
         "anti-reversing-techniques",
         "antigravity-workflows",
         "api-endpoint-builder",
@@ -1229,6 +1230,7 @@
     "docs-core": {
       "description": "Documents, spreadsheets, presentations, and office workflows.",
       "skills": [
+        "akf-trust-metadata",
         "azure-ai-translation-document-py",
         "canvas-design",
         "create-pr",

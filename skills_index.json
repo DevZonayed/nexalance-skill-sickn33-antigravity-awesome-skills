@@ -1040,6 +1040,28 @@
     }
   },
   {
+    "id": "akf-trust-metadata",
+    "path": "skills/akf-trust-metadata",
+    "category": "uncategorized",
+    "name": "akf-trust-metadata",
+    "description": "The AI native file format. EXIF for AI \u2014 stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "algolia-search",
     "path": "skills/algolia-search",
     "category": "api-integration",

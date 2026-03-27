@@ -868,6 +868,25 @@
       "runtime_files": []
     },
     {
+      "id": "akf-trust-metadata",
+      "path": "skills/akf-trust-metadata",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "algolia-search",
       "path": "skills/algolia-search",
       "targets": {
@@ -25394,10 +25413,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1328,
+    "total_skills": 1329,
     "supported": {
-      "codex": 1299,
-      "claude": 1314
+      "codex": 1300,
+      "claude": 1315
     },
     "blocked": {
       "codex": 29,

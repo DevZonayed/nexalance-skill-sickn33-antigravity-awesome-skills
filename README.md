@@ -1,11 +1,11 @@
-<!-- registry-sync: version=8.10.0; skills=1328; stars=27571; updated_at=2026-03-26T16:15:39+00:00 -->
-# 🌌 Antigravity Awesome Skills: 1,328+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+<!-- registry-sync: version=8.10.0; skills=1329; stars=27571; updated_at=2026-03-26T16:15:39+00:00 -->
+# 🌌 Antigravity Awesome Skills: 1,329+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **Installable GitHub library of 1,328+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
+> **Installable GitHub library of 1,329+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
 
 Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable `SKILL.md` playbooks. Instead of collecting random prompts, you get a searchable, installable skill library for planning, coding, debugging, testing, security review, infrastructure work, product workflows, and growth tasks across the major AI coding assistants.
 
-**Start here:** [Star the repo](https://github.com/sickn33/antigravity-awesome-skills/stargazers) · [Install in 1 minute](#installation) · [Choose your tool](#choose-your-tool) · [Best skills by tool](#best-skills-by-tool) · [Bundles](docs/users/bundles.md) · [Workflows](docs/users/workflows.md)
+**Start here:** [Star the repo](https://github.com/sickn33/antigravity-awesome-skills/stargazers) · [Install in 1 minute](#installation) · [Plugins for Claude Code and Codex](docs/users/plugins.md) · [Choose your tool](#choose-your-tool) · [Best skills by tool](#best-skills-by-tool) · [Bundles](docs/users/bundles.md) · [Workflows](docs/users/workflows.md)
 
 [![GitHub stars](https://img.shields.io/badge/⭐%2028%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -20,13 +20,13 @@ Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray?style=for-the-badge)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-AI%20IDE-red?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Current release: V8.10.0.** Trusted by 28k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
+**Current release: V9.0.0.** Trusted by 28k+ GitHub stargazers, this repository now includes first-class **Claude Code** and **Codex** plugin distributions alongside the full installable library, bundles, workflows, and onboarding docs that help you go from first install to daily use quickly.
 
 ## Why Developers Star This Repo
 
 - **Installable, not just inspirational**: use `npx antigravity-awesome-skills` to put skills where your tool expects them.
 - **Built for major agent workflows**: Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, Kiro, OpenCode, Copilot, and more.
-- **Broad coverage with real utility**: 1,328+ skills across development, testing, security, infrastructure, product, and marketing.
+- **Broad coverage with real utility**: 1,329+ skills across development, testing, security, infrastructure, product, and marketing.
 - **Faster onboarding**: bundles and workflows reduce the time from "I found this repo" to "I used my first skill".
 - **Useful whether you want breadth or curation**: browse the full catalog, start with top bundles, or compare alternatives before installing.
 
@@ -37,6 +37,7 @@ Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable
 - [🧠 Core Concepts](#core-concepts)
 - [🔌 Compatibility &amp; Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
+- [🧩 Plugins For Claude Code And Codex](#plugins-for-claude-code-and-codex)
 - [🧭 Integration Guides](#integration-guides)
 - [🧰 Best Skills By Tool](#best-skills-by-tool)
 - [❓ Quick FAQ](#quick-faq)
@@ -46,7 +47,7 @@ Antigravity Awesome Skills is a GitHub repository and installer CLI for reusable
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [⚖️ Alternatives &amp; Comparisons](#alternatives--comparisons)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 1,328+ Skills](#browse-1328-skills)
+- [📚 Browse 1,329+ Skills](#browse-1329-skills)
 - [🤝 Contributing](#contributing)
 - [💬 Community](#community)
 - [☕ Support the Project](#support-the-project)
@@ -63,7 +64,7 @@ If you searched for **Claude Code skills**, **Cursor skills**, **Codex CLI skill
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 8.10.0) is a large, installable skill library for AI coding assistants. It includes onboarding docs, bundles, workflows, generated catalogs, and a CLI installer so you can move from discovery to actual usage without manually stitching together dozens of repos.
+**Antigravity Awesome Skills** (Release 9.0.0) is a large, installable skill library for AI coding assistants. It now includes onboarding docs, bundles, workflows, generated catalogs, a CLI installer, and new **plugin distributions for Claude Code and Codex** so you can move from discovery to actual usage without manually stitching together dozens of repos.
 
 AI agents are smart, but they still need **task-specific operating instructions**. Skills are focused markdown playbooks that teach an agent how to perform a workflow repeatedly and with better context, whether that means deployment, API design, testing, product strategy, SEO, or documentation.
 
@@ -111,12 +112,14 @@ Before you compare bundles or start installing tool-specific paths, it helps to 
 
 - **Skills**: reusable `SKILL.md` playbooks that teach an AI assistant how to execute a workflow well.
 - **MCP tools**: integrations and external capabilities the assistant can call. Tools provide actions; skills provide operating instructions.
+- **Plugins**: installable, marketplace-friendly distributions of the repository for Claude Code and Codex, including root plugins and curated bundle plugins.
 - **Bundles**: curated recommendations for which skills to start with for a role or domain.
 - **Workflows**: ordered execution playbooks that show how to combine multiple skills step by step.
 
 If you want the clearest explanation of **skills vs MCP/tools**, start here:
 
 - [Skills vs MCP Tools](docs/users/skills-vs-mcp-tools.md)
+- [Plugins for Claude Code and Codex](docs/users/plugins.md)
 - [Bundles](docs/users/bundles.md)
 - [Workflows](docs/users/workflows.md)
 
@@ -226,6 +229,19 @@ Bundle users can also install focused Claude Code and Codex bundle plugins from 
 
 Like the Claude distribution, the Codex plugin only exposes plugin-safe skills. Repo-only skills are still available through clone or installer flows while they are being hardened for marketplace use.
 
+## Plugins for Claude Code and Codex
+
+Release `9.0.0` formalizes plugins as a first-class distribution model for this repository.
+
+- The **full library install** remains the broadest path: use `npx antigravity-awesome-skills --claude` or `--codex` when you want the largest available catalog.
+- The **root plugin** gives Claude Code or Codex a marketplace-friendly installable distribution of the repository.
+- **Bundle plugins** give you narrower role-based installs such as `Essentials`, `Security Engineer`, or `Web Wizard`.
+- Plugin distributions are intentionally **plugin-safe**. Skills that still depend on host-specific paths, undeclared setup, or extra hardening remain in the repository, but stay out of marketplace publication until they are ready.
+
+If you want the full explanation of root plugins, bundle plugins, full-library installs, and the difference between Claude Code and Codex plugin surfaces, read:
+
+- [Plugins for Claude Code and Codex](docs/users/plugins.md)
+
 ## Choose Your Tool
 
 | Tool           | Install                                                                  | First Use                                              |
@@ -244,7 +260,7 @@ Like the Claude distribution, the Codex plugin only exposes plugin-safe skills. 
 
 ## Best Skills By Tool
 
-If you want a faster answer than "browse all 1,328+ skills", start with a tool-specific guide:
+If you want a faster answer than "browse all 1,329+ skills", start with a tool-specific guide:
 
 - **[Claude Code skills](docs/users/claude-code-skills.md)**: install paths, starter skills, prompt examples, and plugin marketplace flow.
 - **[Cursor skills](docs/users/cursor-skills.md)**: best starter skills for `.cursor/skills/`, UI-heavy work, and pair-programming flows.
@@ -409,7 +425,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 1,328+ Skills
+## Browse 1,329+ Skills
 
 - Open the interactive browser in [`apps/web-app`](apps/web-app).
 - Read the full catalog in [`CATALOG.md`](CATALOG.md).
@@ -425,7 +441,8 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 | [`docs/users/getting-started.md`](docs/users/getting-started.md) | [`CONTRIBUTING.md`](CONTRIBUTING.md)                                       | [`docs/maintainers/release-process.md`](docs/maintainers/release-process.md)                                                              |
 | [`docs/users/usage.md`](docs/users/usage.md)                     | [`docs/contributors/skill-anatomy.md`](docs/contributors/skill-anatomy.md) | [`docs/maintainers/audit.md`](docs/maintainers/audit.md)                                                                                  |
 | [`docs/users/faq.md`](docs/users/faq.md)                         | [`docs/contributors/quality-bar.md`](docs/contributors/quality-bar.md)     | [`docs/maintainers/ci-drift-fix.md`](docs/maintainers/ci-drift-fix.md)                                                                    |
-| [`docs/users/claude-code-skills.md`](docs/users/claude-code-skills.md) · [`docs/users/cursor-skills.md`](docs/users/cursor-skills.md) · [`docs/users/codex-cli-skills.md`](docs/users/codex-cli-skills.md) · [`docs/users/gemini-cli-skills.md`](docs/users/gemini-cli-skills.md) | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/repo-growth-seo.md`](docs/maintainers/repo-growth-seo.md) · [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) · [`.github/MAINTENANCE.md`](.github/MAINTENANCE.md) |
+| [`docs/users/plugins.md`](docs/users/plugins.md)                 | [`docs/contributors/examples.md`](docs/contributors/examples.md)           | [`docs/maintainers/repo-growth-seo.md`](docs/maintainers/repo-growth-seo.md) · [`docs/maintainers/skills-update-guide.md`](docs/maintainers/skills-update-guide.md) · [`.github/MAINTENANCE.md`](.github/MAINTENANCE.md) |
+| [`docs/users/claude-code-skills.md`](docs/users/claude-code-skills.md) · [`docs/users/cursor-skills.md`](docs/users/cursor-skills.md) · [`docs/users/codex-cli-skills.md`](docs/users/codex-cli-skills.md) · [`docs/users/gemini-cli-skills.md`](docs/users/gemini-cli-skills.md) |  |  |
 | [`docs/users/visual-guide.md`](docs/users/visual-guide.md) · [`docs/users/ai-agent-skills.md`](docs/users/ai-agent-skills.md) · [`docs/users/best-claude-code-skills-github.md`](docs/users/best-claude-code-skills-github.md) · [`docs/users/best-cursor-skills-github.md`](docs/users/best-cursor-skills-github.md) |  |  |
 
 ## Troubleshooting
