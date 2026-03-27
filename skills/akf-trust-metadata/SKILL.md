@@ -18,6 +18,10 @@ tags:
 
 Every photo has EXIF. Every song has ID3. AKF is the native metadata format for AI-generated content.
 
+## When to Use
+
+Use this skill when you need to stamp, inspect, or audit provenance and trust metadata on AI-generated or AI-modified files for compliance, review, or handoff workflows.
+
 ## After creating or modifying files
 
 ```bash
