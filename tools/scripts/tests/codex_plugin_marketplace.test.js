@@ -7,10 +7,12 @@ const projectRoot = findProjectRoot(__dirname);
 const marketplacePath = path.join(projectRoot, ".agents", "plugins", "marketplace.json");
 const editorialBundlesPath = path.join(projectRoot, "data", "editorial-bundles.json");
 const compatibilityPath = path.join(projectRoot, "data", "plugin-compatibility.json");
+const packageJsonPath = path.join(projectRoot, "package.json");
 const marketplace = JSON.parse(fs.readFileSync(marketplacePath, "utf8"));
 const editorialBundles = JSON.parse(fs.readFileSync(editorialBundlesPath, "utf8")).bundles || [];
 const compatibility = JSON.parse(fs.readFileSync(compatibilityPath, "utf8")).skills || [];
 const compatibilityById = new Map(compatibility.map((skill) => [skill.id, skill]));
+const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf8"));
 
 assert.strictEqual(
   marketplace.name,
@@ -61,7 +63,7 @@ const pluginManifestPath = path.join(pluginRoot, ".codex-plugin", "plugin.json")
 const pluginManifest = JSON.parse(fs.readFileSync(pluginManifestPath, "utf8"));
 
 assert.strictEqual(pluginManifest.name, "antigravity-awesome-skills");
-assert.strictEqual(pluginManifest.version, "8.10.0");
+assert.strictEqual(pluginManifest.version, packageJson.version);
 assert.strictEqual(pluginManifest.skills, "./skills/");
 
 const pluginSkillsPath = path.join(pluginRoot, "skills");
