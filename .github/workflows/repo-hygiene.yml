@@ -40,7 +40,11 @@ jobs:
         run: |
           set -euo pipefail
 
-          managed_files=$(node tools/scripts/generated_files.js --shell --include-mixed)
+          mapfile -t managed_files < <(node tools/scripts/generated_files.js --include-mixed)
+          if [ "${#managed_files[@]}" -eq 0 ]; then
+            echo "No managed files resolved from generated_files contract."
+            exit 1
+          fi
 
           if git diff --quiet; then
             echo "No repo-state drift detected."
@@ -49,7 +53,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add $managed_files || true
+          git add -- "${managed_files[@]}" || true
 
           if git diff --cached --quiet; then
             echo "Repo hygiene produced unmanaged drift."

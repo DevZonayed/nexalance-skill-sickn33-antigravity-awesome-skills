@@ -143,8 +143,12 @@ jobs:
 
       - name: Report generated drift
         run: |
-          managed_files=$(node tools/scripts/generated_files.js --shell --include-mixed)
-          drift_files=$(git diff --name-only -- $managed_files)
+          mapfile -t managed_files < <(node tools/scripts/generated_files.js --include-mixed)
+          if [ "${#managed_files[@]}" -eq 0 ]; then
+            echo "::error::No managed files resolved from generated_files contract."
+            exit 1
+          fi
+          drift_files=$(git diff --name-only -- "${managed_files[@]}")
 
           {
             echo "## Artifact Preview"
@@ -232,11 +236,15 @@ jobs:
       - name: Auto-commit canonical artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          managed_files=$(node tools/scripts/generated_files.js --shell --include-mixed)
+          mapfile -t managed_files < <(node tools/scripts/generated_files.js --include-mixed)
+          if [ "${#managed_files[@]}" -eq 0 ]; then
+            echo "No managed files resolved from generated_files contract."
+            exit 1
+          fi
 
           git diff --quiet && exit 0
 
-          git add $managed_files || true
+          git add -- "${managed_files[@]}" || true
 
           git diff --cached --quiet && exit 0
 

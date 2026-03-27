@@ -130,8 +130,8 @@ assert.match(
 );
 assert.match(
   hygieneWorkflow,
-  /generated_files\.js --shell --include-mixed/,
-  "repo hygiene workflow should stage the mixed generated files contract",
+  /generated_files\.js --include-mixed/,
+  "repo hygiene workflow should resolve and stage the mixed generated files contract",
 );
 
 assert.match(publishWorkflow, /run: npm ci/, "npm publish workflow should install dependencies");

@@ -8,6 +8,7 @@ const { resolveSafeRealPath } = require("../lib/symlink-safety");
 
 const REPO = "https://github.com/sickn33/antigravity-awesome-skills.git";
 const HOME = process.env.HOME || process.env.USERPROFILE || "";
+const INSTALL_MANIFEST_FILE = ".antigravity-install-manifest.json";
 
 function resolveDir(p) {
   if (!p) return null;
@@ -170,23 +171,114 @@ function copyRecursiveSync(src, dest, rootDir = src, skipGit = true) {
 }
 
 /** Copy contents of repo's skills/ into target so each skill is target/skill-name/ (for Claude Code etc.). */
-function installSkillsIntoTarget(tempDir, target) {
+function getInstallEntries(tempDir) {
   const repoSkills = path.join(tempDir, "skills");
   if (!fs.existsSync(repoSkills)) {
     console.error("Cloned repo has no skills/ directory.");
     process.exit(1);
   }
-  fs.readdirSync(repoSkills).forEach((name) => {
+  const entries = fs.readdirSync(repoSkills);
+  if (fs.existsSync(path.join(tempDir, "docs"))) {
+    entries.push("docs");
+  }
+  return entries;
+}
+
+function installSkillsIntoTarget(tempDir, target, installEntries) {
+  const repoSkills = path.join(tempDir, "skills");
+  installEntries.forEach((name) => {
+    if (name === "docs") {
+      const repoDocs = path.join(tempDir, "docs");
+      const docsDest = path.join(target, "docs");
+      if (!fs.existsSync(docsDest)) fs.mkdirSync(docsDest, { recursive: true });
+      copyRecursiveSync(repoDocs, docsDest, repoDocs);
+      return;
+    }
     const src = path.join(repoSkills, name);
     const dest = path.join(target, name);
     copyRecursiveSync(src, dest, repoSkills);
   });
-  const repoDocs = path.join(tempDir, "docs");
-  if (fs.existsSync(repoDocs)) {
-    const docsDest = path.join(target, "docs");
-    if (!fs.existsSync(docsDest)) fs.mkdirSync(docsDest, { recursive: true });
-    copyRecursiveSync(repoDocs, docsDest, repoDocs);
+}
+
+function resolveManagedPath(targetPath, entry) {
+  const resolvedTargetPath = path.resolve(targetPath);
+  const candidate = path.resolve(targetPath, entry);
+  const relative = path.relative(resolvedTargetPath, candidate);
+  if (relative.startsWith("..") || path.isAbsolute(relative)) {
+    return null;
   }
+  return candidate;
+}
+
+function readInstallManifest(targetPath) {
+  const manifestPath = path.join(targetPath, INSTALL_MANIFEST_FILE);
+  if (!fs.existsSync(manifestPath)) {
+    return [];
+  }
+  try {
+    const parsed = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    if (!parsed || !Array.isArray(parsed.entries)) {
+      return [];
+    }
+    return parsed.entries.filter((entry) => typeof entry === "string");
+  } catch (error) {
+    console.warn(`  Ignoring invalid install manifest at ${manifestPath}`);
+    return [];
+  }
+}
+
+function writeInstallManifest(targetPath, installEntries) {
+  const manifestPath = path.join(targetPath, INSTALL_MANIFEST_FILE);
+  fs.writeFileSync(
+    manifestPath,
+    JSON.stringify(
+      {
+        schemaVersion: 1,
+        updatedAt: new Date().toISOString(),
+        entries: installEntries.slice().sort(),
+      },
+      null,
+      2,
+    ) + "\n",
+    "utf8",
+  );
+}
+
+function pruneRemovedEntries(targetPath, previousEntries, installEntries) {
+  const next = new Set(installEntries);
+  for (const entry of previousEntries) {
+    if (next.has(entry)) {
+      continue;
+    }
+    const candidate = resolveManagedPath(targetPath, entry);
+    if (!candidate) {
+      console.warn(`  Skipping unsafe managed entry path from manifest: ${entry}`);
+      continue;
+    }
+    fs.rmSync(candidate, { recursive: true, force: true });
+    console.log(`  Removed stale managed entry: ${entry}`);
+  }
+}
+
+function ensureTargetIsDirectory(targetPath) {
+  if (!fs.existsSync(targetPath)) {
+    return;
+  }
+  const stats = fs.lstatSync(targetPath);
+  if (stats.isDirectory()) {
+    return;
+  }
+  if (stats.isSymbolicLink()) {
+    try {
+      if (fs.statSync(targetPath).isDirectory()) {
+        return;
+      }
+    } catch (error) {
+      // Fall through to the error below for dangling links or non-directory targets.
+    }
+  }
+  console.error(`  Install path exists but is not a directory: ${targetPath}`);
+  process.exit(1);
 }
 
 function run(cmd, args, opts = {}) {
@@ -196,6 +288,7 @@ function run(cmd, args, opts = {}) {
 
 function installForTarget(tempDir, target) {
   if (fs.existsSync(target.path)) {
+    ensureTargetIsDirectory(target.path);
     const gitDir = path.join(target.path, ".git");
     if (fs.existsSync(gitDir)) {
       console.log(`  Migrating from full-repo install to skills-only layout…`);
@@ -232,7 +325,11 @@ function installForTarget(tempDir, target) {
     fs.mkdirSync(target.path, { recursive: true });
   }
 
-  installSkillsIntoTarget(tempDir, target.path);
+  const installEntries = getInstallEntries(tempDir);
+  const previousEntries = readInstallManifest(target.path);
+  pruneRemovedEntries(target.path, previousEntries, installEntries);
+  installSkillsIntoTarget(tempDir, target.path, installEntries);
+  writeInstallManifest(target.path, installEntries);
   console.log(`  ✓ Installed to ${target.path}`);
 }
 
@@ -322,7 +419,11 @@ if (require.main === module) {
 module.exports = {
   copyRecursiveSync,
   getPostInstallMessages,
+  getInstallEntries,
   installSkillsIntoTarget,
   installForTarget,
   main,
+  pruneRemovedEntries,
+  readInstallManifest,
+  writeInstallManifest,
 };
