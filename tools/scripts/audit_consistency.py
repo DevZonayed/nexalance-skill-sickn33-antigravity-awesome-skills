@@ -8,7 +8,6 @@ import sys
 from pathlib import Path
 
 from _project_paths import find_repo_root
-from sync_editorial_bundles import load_editorial_bundles, render_bundles_doc
 import sync_repo_metadata
 from update_readme import configure_utf8_output, load_metadata, apply_metadata
 
@@ -33,21 +32,7 @@ def _expected_getting_started(content: str, metadata: dict) -> str:
 
 
 def _expected_bundles(content: str, metadata: dict, root: Path) -> str:
-    manifest_path = root / "data" / "editorial-bundles.json"
-    template_path = root / "tools" / "templates" / "editorial-bundles.md.tmpl"
-    if manifest_path.is_file() and template_path.is_file():
-        bundles = load_editorial_bundles(root)
-        return render_bundles_doc(root, metadata, bundles)
-
-    bundle_count = sync_repo_metadata.count_documented_bundles(content)
-    if bundle_count == 0:
-        bundle_count = 36
-    expected, _ = sync_repo_metadata.replace_if_present(
-        content,
-        sync_repo_metadata.BUNDLES_FOOTER_RE,
-        f"_Last updated: March 2026 | Total Skills: {metadata['total_skills_label']} | Total Bundles: {bundle_count}_",
-    )
-    return expected
+    return sync_repo_metadata.sync_bundles_doc(content, metadata, root)
 
 
 def _expected_regex_sync(content: str, replacements: list[tuple[str, str]]) -> str:
