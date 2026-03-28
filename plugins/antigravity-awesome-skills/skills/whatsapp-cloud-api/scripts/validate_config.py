@@ -47,11 +47,14 @@ def check_env_vars() -> tuple[bool, list[str]]:
     return len(missing) == 0, missing
 
 
-def _mask_secret(value: str) -> str:
-    """Return a masked version of a secret for safe logging."""
-    if not value or len(value) < 8:
-        return "***masked***"
-    return f"{value[:6]}...masked"
+def _format_api_failure(response: httpx.Response) -> str:
+    """Return a sanitized API failure message without echoing sensitive payloads."""
+    try:
+        error = response.json().get("error", {})
+    except ValueError:
+        error = {}
+    error_code = error.get("code", "?")
+    return f"API request failed (status {response.status_code}, code {error_code})."
 
 
 def test_api_connection() -> tuple[bool, str]:
@@ -76,17 +79,14 @@ def test_api_connection() -> tuple[bool, str]:
                 f"  Quality: {data.get('quality_rating', 'N/A')}"
             )
         else:
-            error = response.json().get("error", {})
-            return False, f"API Error {error.get('code', '?')}: {error.get('message', 'Unknown')}"
+            return False, _format_api_failure(response)
 
     except httpx.ConnectError:
         return False, "Connection failed. Check your internet connection."
     except httpx.TimeoutException:
         return False, "Request timed out after 10 seconds."
-    except Exception as e:
-        # Mask token in error output to prevent credential leakage
-        safe_err = str(e).replace(token, _mask_secret(token)) if token else str(e)
-        return False, f"Unexpected error: {safe_err}"
+    except Exception as exc:
+        return False, f"Unexpected {exc.__class__.__name__} while contacting the Graph API."
 
 
 def test_waba_access() -> tuple[bool, str]:
@@ -106,13 +106,10 @@ def test_waba_access() -> tuple[bool, str]:
             count = len(data.get("data", []))
             return True, f"WABA accessible. {count} phone number(s) found."
         else:
-            error = response.json().get("error", {})
-            return False, f"API Error {error.get('code', '?')}: {error.get('message', 'Unknown')}"
+            return False, _format_api_failure(response)
 
-    except Exception as e:
-        # Mask token in error output to prevent credential leakage
-        safe_err = str(e).replace(token, _mask_secret(token)) if token else str(e)
-        return False, f"Error: {safe_err}"
+    except Exception as exc:
+        return False, f"Unexpected {exc.__class__.__name__} while checking WABA access."
 
 
 def main():
