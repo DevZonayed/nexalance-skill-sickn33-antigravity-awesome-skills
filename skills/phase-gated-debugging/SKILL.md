@@ -14,6 +14,15 @@ AI coding agents see an error and immediately edit code. They guess at fixes, ge
 
 Based on [claude-debug](https://github.com/krabat-l/claude-debug) (full plugin with PreToolUse hook enforcement).
 
+## When to Use
+
+Use this skill when:
+
+- a bug keeps getting "fixed" without resolving the underlying issue
+- you need to slow an agent down and force disciplined debugging before code edits
+- the failure is intermittent, a regression, performance-related, or otherwise hard to isolate
+- you want an explicit user confirmation checkpoint before any fix is applied
+
 ## The Protocol
 
 ### Phase 1: REPRODUCE
