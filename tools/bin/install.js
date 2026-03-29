@@ -121,7 +121,7 @@ antigravity-awesome-skills — installer
 
   npx antigravity-awesome-skills [install] [options]
 
-  Clones the skills repo into your agent's skills directory.
+  Shallow-clones the skills repo into your agent's skills directory.
 
 Options:
   --cursor       Install to ~/.cursor/skills (Cursor)
@@ -131,8 +131,8 @@ Options:
   --kiro         Install to ~/.kiro/skills (Kiro CLI)
   --antigravity  Install to ~/.gemini/antigravity/skills (Antigravity)
   --path <dir>   Install to <dir> (default: ~/.gemini/antigravity/skills)
-  --version <ver>  After clone, checkout tag v<ver> (e.g. 4.6.0 -> v4.6.0)
-  --tag <tag>      After clone, checkout this tag (e.g. v4.6.0)
+  --version <ver>  Clone tag v<ver> (e.g. 4.6.0 -> v4.6.0)
+  --tag <tag>      Clone this tag or branch (e.g. v4.6.0)
 
 Examples:
   npx antigravity-awesome-skills
@@ -286,6 +286,15 @@ function run(cmd, args, opts = {}) {
   if (r.status !== 0) process.exit(r.status == null ? 1 : r.status);
 }
 
+function buildCloneArgs(repo, tempDir, ref = null) {
+  const args = ["clone", "--depth", "1"];
+  if (ref) {
+    args.push("--branch", ref);
+  }
+  args.push(repo, tempDir);
+  return args;
+}
+
 function installForTarget(tempDir, target) {
   if (fs.existsSync(target.path)) {
     ensureTargetIsDirectory(target.path);
@@ -353,6 +362,13 @@ function getPostInstallMessages(targets) {
 function main() {
   const opts = parseArgs();
   const { tagArg, versionArg } = opts;
+  const ref =
+    tagArg ||
+    (versionArg
+      ? versionArg.startsWith("v")
+        ? versionArg
+        : `v${versionArg}`
+      : null);
 
   if (opts.help) {
     printHelp();
@@ -372,21 +388,10 @@ function main() {
 
   try {
     console.log("Cloning repository…");
-    run("git", ["clone", REPO, tempDir]);
-
-    const ref =
-      tagArg ||
-      (versionArg
-        ? versionArg.startsWith("v")
-          ? versionArg
-          : `v${versionArg}`
-        : null);
     if (ref) {
-      console.log(`Checking out ${ref}…`);
-      process.chdir(tempDir);
-      run("git", ["checkout", ref]);
-      process.chdir(originalCwd);
+      console.log(`Cloning repository at ${ref}…`);
     }
+    run("git", buildCloneArgs(REPO, tempDir, ref));
 
     console.log(`\nInstalling for ${targets.length} target(s):`);
     for (const target of targets) {
@@ -419,6 +424,7 @@ if (require.main === module) {
 module.exports = {
   copyRecursiveSync,
   getPostInstallMessages,
+  buildCloneArgs,
   getInstallEntries,
   installSkillsIntoTarget,
   installForTarget,
