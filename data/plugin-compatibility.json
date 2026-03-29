@@ -24272,6 +24272,25 @@
       "runtime_files": []
     },
     {
+      "id": "viboscope",
+      "path": "skills/viboscope",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "videodb",
       "path": "skills/videodb",
       "targets": {
@@ -25451,10 +25470,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1331,
+    "total_skills": 1332,
     "supported": {
-      "codex": 1302,
-      "claude": 1317
+      "codex": 1303,
+      "claude": 1318
     },
     "blocked": {
       "codex": 29,

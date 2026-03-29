@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1331
+Total skills: 1332
 
 ## architecture (88)
 
@@ -1276,7 +1276,7 @@ Total skills: 1331
 | `wiki-qa` | Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific ... | wiki, qa | wiki, qa, answer, repository, questions, grounded, entirely, source, code, evidence, user, asks |
 | `windows-privilege-escalation` | Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements. | windows, privilege, escalation | windows, privilege, escalation, provide, systematic, methodologies, discovering, exploiting, vulnerabilities, during, penetration, testing |
 
-## workflow (99)
+## workflow (100)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1372,6 +1372,7 @@ Total skills: 1331
 | `trello-automation` | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards programmatically. | trello | trello, automation, automate, boards, cards, via, rube, mcp, composio, lists, assign, members |
 | `twitter-automation` | Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas. | twitter | twitter, automation, automate, tasks, via, rube, mcp, composio, posts, search, users, bookmarks |
 | `vercel-automation` | Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas. | vercel | vercel, automation, automate, tasks, via, rube, mcp, composio, deployments, domains, dns, env |
+| `viboscope` | Psychological compatibility matching — find cofounders, collaborators, and friends through validated psychometrics | matching, psychology, compatibility, networking, collaboration | matching, psychology, compatibility, networking, collaboration, viboscope, psychological, find, cofounders, collaborators, friends, through |
 | `web-scraper` | Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON. | scraping, data-extraction, automation, csv | scraping, data-extraction, automation, csv, web, scraper, inteligente, multi, estrategia, extrai, dados, estruturados |
 | `webflow-automation` | Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first fo... | webflow | webflow, automation, automate, cms, collections, site, publishing, page, asset, uploads, ecommerce, orders |
 | `workflow-automation` | You are a workflow automation architect who has seen both the promise and the pain of these platforms. You've migrated teams from brittle cron jobs to durabl... |  | automation, architect, who, seen, both, promise, pain, these, platforms, ve, migrated, teams |
