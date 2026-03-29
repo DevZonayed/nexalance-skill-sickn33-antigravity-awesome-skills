@@ -109,6 +109,9 @@ jobs:
           ENABLE_NETWORK_TESTS: "1"
         run: npm run test
 
+      - name: Install web-app dependencies
+        run: npm run app:install
+
       - name: Run web app coverage
         run: npm run app:test:coverage
 
@@ -228,6 +231,9 @@ jobs:
         env:
           ENABLE_NETWORK_TESTS: "1"
         run: npm run test
+
+      - name: Install web-app dependencies
+        run: npm run app:install
 
       - name: Run web app coverage
         run: npm run app:test:coverage
