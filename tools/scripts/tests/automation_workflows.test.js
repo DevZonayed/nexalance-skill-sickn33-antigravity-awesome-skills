@@ -60,12 +60,23 @@ assert.strictEqual(
 for (const filePath of [
   "apps/web-app/public/sitemap.xml",
   "apps/web-app/public/skills.json.backup",
+  "data/plugin-compatibility.json",
+  ".agents/plugins/",
+  ".claude-plugin/",
+  "plugins/",
 ]) {
   assert.ok(
     generatedFiles.derivedFiles.includes(filePath),
     `generated-files derivedFiles should include ${filePath}`,
   );
 }
+
+const webAppGitignore = readText("apps/web-app/.gitignore");
+assert.match(
+  webAppGitignore,
+  /^coverage$/m,
+  "web-app coverage output should be ignored so maintainer sync jobs stay clean",
+);
 
 for (const filePath of [
   "README.md",
