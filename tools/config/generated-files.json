@@ -10,7 +10,8 @@
     "apps/web-app/public/sitemap.xml",
     "apps/web-app/public/skills.json.backup",
     ".agents/plugins/",
-    ".claude-plugin/",
+    ".claude-plugin/plugin.json",
+    ".claude-plugin/marketplace.json",
     "plugins/"
   ],
   "mixedFiles": [

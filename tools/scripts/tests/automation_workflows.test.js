@@ -62,7 +62,8 @@ for (const filePath of [
   "apps/web-app/public/skills.json.backup",
   "data/plugin-compatibility.json",
   ".agents/plugins/",
-  ".claude-plugin/",
+  ".claude-plugin/plugin.json",
+  ".claude-plugin/marketplace.json",
   "plugins/",
 ]) {
   assert.ok(
