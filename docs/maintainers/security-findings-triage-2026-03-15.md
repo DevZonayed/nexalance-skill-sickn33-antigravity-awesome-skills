@@ -1,5 +1,7 @@
 # Security Findings Triage (2026-03-15)
 
+Maintainer note: later fixes changed the status of several findings after this baseline snapshot. See [`security-findings-triage-2026-03-29-addendum.md`](security-findings-triage-2026-03-29-addendum.md) before using this file as the current source of truth.
+
 - Baseline: `origin/main@226f10c2a62fc182b4e93458bddea2e60f9b0cb9`
 - Input CSV was treated as triage input only, not as ground truth.
 - Status meanings: `still present and exploitable`, `still present but low practical risk`, `obsolete/not reproducible on current HEAD`, `duplicate of another finding`.

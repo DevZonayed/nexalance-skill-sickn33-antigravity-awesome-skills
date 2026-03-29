@@ -8,6 +8,7 @@ This app is the static catalog and skill browser for `antigravity-awesome-skills
 - Renders home, category, bundle, and skill detail routes for the published library.
 - Adds SEO metadata, sitemap-backed URLs, and static asset resolution for GitHub Pages.
 - Supports a local-only "refresh skills" developer flow through the Vite dev server plugin.
+- Treats save/star interactions as browser-local UX, even when optional read-only Supabase counts are configured.
 
 ## Architecture
 
@@ -19,12 +20,18 @@ This app is the static catalog and skill browser for `antigravity-awesome-skills
 
 The app intentionally assumes a static hosting model in production. Anything that depends on `/api/*` is development-only unless it is backed by a real serverless or backend implementation.
 
+The hosted Pages build should be understood as a public catalog, not a control plane:
+
+- `Sync Skills` is a maintainer/development affordance and must stay hidden unless `VITE_ENABLE_SKILLS_SYNC=true`.
+- save/star interactions are local-only unless the project gains a real backend write contract with abuse controls and deployment support.
+
 ## Development
 
 From the repo root:
 
 ```bash
 npm run app:install
+npm run app:test:coverage
 npm run app:dev
 ```
 
@@ -79,12 +86,15 @@ The high-level maintainer flow is:
 From the repo root:
 
 ```bash
+npm run app:test:coverage
 cd apps/web-app && npm run test
 cd apps/web-app && npm run test:coverage
 npm run test
 ```
 
 The repo-level test suite also contains workflow and documentation guardrails outside `src/`, so changes to this app can fail tests in `tools/scripts/tests/` even when the React code itself is untouched.
+
+`main`/release CI also runs `npm run app:test:coverage`, so coverage thresholds are part of the real shipping contract for this app rather than an optional local extra.
 
 ## Troubleshooting
 

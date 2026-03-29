@@ -78,6 +78,7 @@ Install once; then use Starter Packs in [docs/users/bundles.md](docs/users/bundl
    # Default: ~/.gemini/antigravity/skills (Antigravity global). Use --path for other locations.
    npx antigravity-awesome-skills
    ```
+   The npm installer uses a shallow clone by default so first-run installs stay lighter than a full repository history checkout.
 2. **Verify**:
 
    ```bash
@@ -273,6 +274,8 @@ If you want a faster answer than "browse all 1,331+ skills", start with a tool-s
 These skills are continuously reviewed and hardened, but the collection is not "safe by default". They are instructions and examples that can include risky operations by design.
 
 - Runtime hardening now protects the `/api/refresh-skills` mutation flow (method/host checks and optional token gate) before any repo mutation.
+- The published GitHub Pages catalog runs in static public-catalog mode, so the maintainer-only `/api/refresh-skills` flow is hidden in production unless you are using the local Vite dev server with the explicit sync flag.
+- Skill saves in the web UI are intentionally browser-local today. Optional Supabase configuration is read-only and should not be treated as a shared write path or authoritative leaderboard.
 - Markdown rendering in the web app avoids raw HTML passthrough (`rehype-raw`) and follows safer defaults for skill content display.
 - A repo-wide `SKILL.md` security scan checks for high-risk command patterns (for example `curl|bash`, `wget|sh`, `irm|iex`, command-line token examples) with explicit allowlisting for deliberate exceptions.
 - Pull requests that touch `SKILL.md` files now also run an automated `skill-review` GitHub Actions check, so contributors and maintainers get a second pass focused on skill structure and review quality.
@@ -521,6 +524,8 @@ npm run app:dev
 
 That will copy the generated skill index into `apps/web-app/public/skills.json`, mirror the current `skills/` tree into `apps/web-app/public/skills/`, and start the Vite development server.
 
+On the hosted GitHub Pages site, the same app runs as a static public catalog: dev-only sync controls stay hidden there, and save/star actions remain local to the browser.
+
 **Hosted online:** The same app is available at [https://sickn33.github.io/antigravity-awesome-skills/](https://sickn33.github.io/antigravity-awesome-skills/) and is deployed automatically on every push to `main`. To enable it once: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ## Contributing
@@ -531,6 +536,7 @@ That will copy the generated skill index into `apps/web-app/public/skills.json`,
 - Validate with `npm run validate` before opening a PR.
 - Keep community PRs source-only: do not commit generated registry artifacts like `CATALOG.md`, `skills_index.json`, or `data/*.json`.
 - If your PR changes `SKILL.md`, expect the automated `skill-review` check on GitHub in addition to the usual validation and security scans.
+- If your PR changes skills or risky guidance, manual logic review is still required even when the automated checks are green.
 
 ## Community
 

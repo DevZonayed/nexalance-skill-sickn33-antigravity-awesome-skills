@@ -1,3 +1,19 @@
+# Maintenance Walkthrough - 2026-03-29
+
+- Fixed the remaining production/documentation drift introduced by the web-app and CI hardening work:
+  - clarified that the hosted GitHub Pages app runs in static public-catalog mode
+  - documented that `Sync Skills` is development-only unless explicitly enabled in local maintainer runs
+  - documented that web-app save/star interactions are intentionally browser-local today
+- Hardened the maintainer documentation so release and CI expectations now match the live workflows:
+  - release docs now mention the shared `tools/requirements.txt` install path, the web-app coverage gate, and blocking `npm audit --audit-level=high` on publish
+  - maintainer docs now document the narrow canonical-artifact auto-sync contract on `main`
+- Expanded the documented risk-maintenance workflow after the new automation landed:
+  - `audit:skills` exposes `suggested_risk`
+  - `sync:risk-labels` supports conservative high-confidence legacy cleanup
+  - offensive auto-promotions now also insert the canonical `AUTHORIZED USE ONLY` notice
+- Updated user-facing install docs to mention that the npm installer now uses a shallow clone for lighter first-run installs.
+- Updated the onboarding/trust docs to reflect the real `risk` taxonomy (`unknown`, `none`, `safe`, `critical`, `offensive`) instead of the older simplified wording.
+
 # Maintenance Walkthrough - 2026-03-25
 
 - Imported 14 skills from [Dimillian/Skills](https://github.com/Dimillian/Skills) into `skills/`:
