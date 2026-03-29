@@ -14598,10 +14598,32 @@
     "path": "skills/hugging-face-cli",
     "category": "ai-ml",
     "name": "hugging-face-cli",
-    "description": "The hf CLI provides direct terminal access to the Hugging Face Hub for downloading, uploading, and managing repositories, cache, and compute resources.",
-    "risk": "safe",
-    "source": "https://github.com/huggingface/skills/tree/main/skills/hugging-face-cli",
-    "date_added": "2026-02-27",
+    "description": "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/hf-cli",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hugging-face-community-evals",
+    "path": "skills/hugging-face-community-evals",
+    "category": "ai-ml",
+    "name": "hugging-face-community-evals",
+    "description": "Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-community-evals",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14620,9 +14642,9 @@
     "path": "skills/hugging-face-dataset-viewer",
     "category": "ai-ml",
     "name": "hugging-face-dataset-viewer",
-    "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+    "description": "Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links.",
     "risk": "unknown",
-    "source": "community",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-datasets",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -14682,14 +14704,36 @@
     }
   },
   {
+    "id": "hugging-face-gradio",
+    "path": "skills/hugging-face-gradio",
+    "category": "ai-ml",
+    "name": "hugging-face-gradio",
+    "description": "Build or edit Gradio apps, layouts, components, and chat interfaces in Python.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "hugging-face-jobs",
     "path": "skills/hugging-face-jobs",
     "category": "ai-ml",
     "name": "hugging-face-jobs",
-    "description": "Run any workload on fully managed Hugging Face infrastructure. No local setup required\u2014jobs run on cloud CPUs, GPUs, or TPUs and can persist results to the Hugging Face Hub.",
-    "risk": "safe",
-    "source": "https://github.com/huggingface/skills/tree/main/skills/hugging-face-jobs",
-    "date_added": "2026-02-27",
+    "description": "Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-jobs",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14708,9 +14752,9 @@
     "path": "skills/hugging-face-model-trainer",
     "category": "ai-ml",
     "name": "hugging-face-model-trainer",
-    "description": "Train language models using TRL (Transformer Reinforcement Learning) on fully managed Hugging Face infrastructure. No local GPU setup required\u2014models train on cloud GPUs and results are automatically saved to the Hugging Face Hub.",
+    "description": "Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO, GRPO, and GGUF export.",
     "risk": "unknown",
-    "source": "community",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-llm-trainer",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -14732,7 +14776,29 @@
     "name": "hugging-face-paper-publisher",
     "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
     "risk": "unknown",
-    "source": "community",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-paper-publisher",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hugging-face-papers",
+    "path": "skills/hugging-face-papers",
+    "category": "ai-ml",
+    "name": "hugging-face-papers",
+    "description": "Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-papers",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -14755,6 +14821,50 @@
     "description": "Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate processing where helpful. You can access the API directly, as well as use the hf command line tool.",
     "risk": "unknown",
     "source": "community",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hugging-face-trackio",
+    "path": "skills/hugging-face-trackio",
+    "category": "ai-ml",
+    "name": "hugging-face-trackio",
+    "description": "Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-trackio",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hugging-face-vision-trainer",
+    "path": "skills/hugging-face-vision-trainer",
+    "category": "ai-ml",
+    "name": "hugging-face-vision-trainer",
+    "description": "Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -15570,6 +15680,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "jq",
+    "path": "skills/jq",
+    "category": "development",
+    "name": "jq",
+    "description": "Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-28",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -26898,6 +27030,28 @@
     }
   },
   {
+    "id": "tmux",
+    "path": "skills/tmux",
+    "category": "development",
+    "name": "tmux",
+    "description": "Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-28",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "todoist-automation",
     "path": "skills/todoist-automation",
     "category": "project-management",
@@ -26994,6 +27148,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "transformers-js",
+    "path": "skills/transformers-js",
+    "category": "web-development",
+    "name": "transformers-js",
+    "description": "Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser.",
+    "risk": "unknown",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/transformers-js",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",

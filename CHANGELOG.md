@@ -9,6 +9,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.2.0] - 2026-03-29 - "Hugging Face Ecosystem and Shell Workflow Expansion"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release expands practical day-to-day coverage for Claude Code, Cursor, Codex CLI, Gemini CLI, and similar agent workflows. It adds a full batch of Hugging Face ecosystem skills, new shell and terminal expertise for `jq` and `tmux`, a new `viboscope` collaboration skill, and stronger Odoo guidance for safer credentials and more reliable EDI flows.
+
+## New Skills
+
+- **hugging-face-community-evals** - run local Hugging Face Hub model evaluations with `inspect-ai` and `lighteval`.
+- **hugging-face-gradio** - build and edit Gradio demos, layouts, and chat interfaces in Python.
+- **hugging-face-papers** - read and analyze Hugging Face paper pages and arXiv-linked metadata.
+- **hugging-face-trackio** - track ML experiments with Trackio logging, alerts, and CLI metric retrieval.
+- **hugging-face-vision-trainer** - train and fine-tune detection, classification, and SAM or SAM2 vision models on Hugging Face Jobs.
+- **transformers-js** - run Hugging Face models in JavaScript and TypeScript with Transformers.js.
+- **jq** - add expert JSON querying, transformation, and shell pipeline guidance for terminal-first workflows (PR #414).
+- **tmux** - add advanced session, pane, scripting, and remote terminal workflow guidance (PR #414).
+- **viboscope** - add psychological compatibility matching guidance for cofounder, collaborator, and relationship discovery workflows (PR #415).
+
+## Improvements
+
+- **Hugging Face official skill sync** - refreshed local Hugging Face coverage and attribution for `hugging-face-cli`, `hugging-face-dataset-viewer`, `hugging-face-jobs`, `hugging-face-model-trainer`, and `hugging-face-paper-publisher`, while packaging the missing official ecosystem skills into the repo.
+- **Odoo security hardening** - merged safer credential handling for `odoo-woocommerce-bridge` by replacing hardcoded secrets with environment-variable lookups (PR #413).
+- **Odoo EDI resilience** - improved `odoo-edi-connector` with idempotency checks, partner verification, dynamic X12 date handling, and safer environment-based configuration (PR #416).
+- **Maintainer and release docs** - folded in the latest maintainer guidance around risk-label sync, repo-state hygiene, and release/CI workflow consistency.
+
+## Who should care
+
+- **Claude Code, Codex CLI, Cursor, and Gemini CLI users** get broader Hugging Face ecosystem coverage for datasets, Jobs, evaluations, papers, Trackio, and Transformers.js workflows.
+- **Terminal-heavy developers and infra teams** get stronger `jq` and `tmux` guidance for JSON processing, session management, and scripted shell workflows.
+- **Odoo integrators** get safer bridge examples and more production-ready EDI connector patterns.
+- **Builders looking for collaborator-matching workflows** get a new `viboscope` skill for compatibility-driven discovery.
+
+## Credits
+
+- **[@kostakost2](https://github.com/kostakost2)** for the new `jq` and `tmux` skills in PR #414
+- **[@ivankoriako](https://github.com/ivankoriako)** for the new `viboscope` skill in PR #415
+- **[@Champbreed](https://github.com/Champbreed)** for Odoo security and EDI improvements in PRs #413 and #416
+- **[Hugging Face](https://github.com/huggingface/skills)** for the upstream official skill collection synced into this release
+
 ### Changed
 
 - **Risk maintenance workflow**: expanded the legacy `risk:` cleanup flow so maintainers can sync explicit high-confidence `none`, `safe`, `critical`, and `offensive` labels from audit suggestions, including auto-inserting the required `AUTHORIZED USE ONLY` notice when a legacy skill is promoted to `offensive`.

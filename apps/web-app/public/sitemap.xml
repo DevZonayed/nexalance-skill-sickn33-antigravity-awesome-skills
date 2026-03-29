@@ -13,6 +13,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://localhost/skill/jq</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://localhost/skill/phase-gated-debugging</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -20,6 +26,12 @@
   </url>
   <url>
     <loc>http://localhost/skill/saas-multi-tenant</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost/skill/tmux</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -230,18 +242,6 @@
   </url>
   <url>
     <loc>http://localhost/skill/obsidian-cli</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/obsidian-markdown</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/product-marketing-context</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
