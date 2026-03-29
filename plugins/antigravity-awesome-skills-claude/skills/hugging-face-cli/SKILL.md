@@ -5,7 +5,8 @@ description: "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manag
 risk: unknown
 ---
 
-Install: `curl -LsSf https://hf.co/cli/install.sh | bash -s`.
+Install by downloading the installer script first, reviewing it, and then running it locally. Example:
+`curl -LsSf https://hf.co/cli/install.sh -o /tmp/hf-install.sh && less /tmp/hf-install.sh && bash /tmp/hf-install.sh`
 
 ## When to Use
 
@@ -181,7 +182,8 @@ Generated with `huggingface_hub v1.8.0`. Run `hf skills add --force` to regenera
 
 To mount Hub repositories or buckets as local filesystems — no download, no copy, no waiting — use `hf-mount`. Files are fetched on demand. GitHub: https://github.com/huggingface/hf-mount
 
-Install: `curl -fsSL https://raw.githubusercontent.com/huggingface/hf-mount/main/install.sh | sh`
+Install by downloading the installer locally, reviewing it, and then running it. Example:
+`curl -fsSL https://raw.githubusercontent.com/huggingface/hf-mount/main/install.sh -o /tmp/hf-mount-install.sh && less /tmp/hf-mount-install.sh && sh /tmp/hf-mount-install.sh`
 
 Some command examples:
 - `hf-mount start repo openai-community/gpt2 /tmp/gpt2` — mount a repo (read-only)
