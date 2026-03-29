@@ -40,7 +40,7 @@ Use `git commit` and `git push` once the branch is ready.
 """
         metadata = {"name": "commit", "description": "commit changes safely", "risk": "unknown"}
 
-        decision = sync_risk_labels.choose_synced_risk(content, metadata)
+        decision = sync_risk_labels.choose_synced_risk(content, metadata, skill_id="commit")
 
         self.assertIsNotNone(decision)
         assert decision is not None
@@ -61,7 +61,7 @@ Review search quality signals and analyze page structure.
 """
         metadata = {"name": "seo-fundamentals", "description": "Learn the core principles of SEO.", "risk": "unknown"}
 
-        decision = sync_risk_labels.choose_synced_risk(content, metadata)
+        decision = sync_risk_labels.choose_synced_risk(content, metadata, skill_id="seo-fundamentals")
 
         self.assertIsNotNone(decision)
         assert decision is not None
@@ -79,11 +79,11 @@ Use this skill to analyze package setup and install dependencies if needed.
 """
         metadata = {"name": "package-setup", "description": "Explain how to inspect package setup.", "risk": "unknown"}
 
-        decision = sync_risk_labels.choose_synced_risk(content, metadata)
+        decision = sync_risk_labels.choose_synced_risk(content, metadata, skill_id="package-setup")
 
         self.assertIsNone(decision)
 
-    def test_choose_synced_risk_requires_explicit_disclaimer_for_offensive(self):
+    def test_choose_synced_risk_promotes_explicit_offensive_skill(self):
         content = """---
 name: pentest-checklist
 description: penetration testing checklist
@@ -95,9 +95,29 @@ Plan a penetration testing engagement and define red team scope.
 """
         metadata = {"name": "pentest-checklist", "description": "penetration testing checklist", "risk": "unknown"}
 
-        decision = sync_risk_labels.choose_synced_risk(content, metadata)
+        decision = sync_risk_labels.choose_synced_risk(content, metadata, skill_id="pentest-checklist")
 
-        self.assertIsNone(decision)
+        self.assertIsNotNone(decision)
+        assert decision is not None
+        self.assertEqual(decision[0], "offensive")
+
+    def test_choose_synced_risk_promotes_explicit_none_skill(self):
+        content = """---
+name: architecture-patterns
+description: backend architecture patterns
+risk: unknown
+source: community
+---
+
+Explain architecture trade-offs and design principles.
+"""
+        metadata = {"name": "architecture-patterns", "description": "backend architecture patterns", "risk": "unknown"}
+
+        decision = sync_risk_labels.choose_synced_risk(content, metadata, skill_id="architecture-patterns")
+
+        self.assertIsNotNone(decision)
+        assert decision is not None
+        self.assertEqual(decision[0], "none")
 
     def test_update_skill_file_rewrites_frontmatter(self):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -123,6 +143,33 @@ Use `git commit` before `git push`.
             updated = skill_path.read_text(encoding="utf-8")
             self.assertIn("risk: critical", updated)
             self.assertNotIn("risk: unknown", updated)
+
+    def test_update_skill_file_adds_offensive_disclaimer_when_needed(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            skill_path = Path(temp_dir) / "pentest-checklist" / "SKILL.md"
+            skill_path.parent.mkdir(parents=True, exist_ok=True)
+            skill_path.write_text(
+                """---
+name: pentest-checklist
+description: penetration testing checklist
+risk: unknown
+source: community
+---
+
+# Pentest Checklist
+
+Plan a penetration testing engagement and define red team scope.
+""",
+                encoding="utf-8",
+            )
+
+            changed, new_risk, _ = sync_risk_labels.update_skill_file(skill_path)
+
+            self.assertTrue(changed)
+            self.assertEqual(new_risk, "offensive")
+            updated = skill_path.read_text(encoding="utf-8")
+            self.assertIn("risk: offensive", updated)
+            self.assertIn("AUTHORIZED USE ONLY", updated)
 
 
 if __name__ == "__main__":
