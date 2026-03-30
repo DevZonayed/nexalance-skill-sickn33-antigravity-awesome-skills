@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import argparse
+import errno
 import json
 import re
 import shutil
+import time
 from pathlib import Path
 from typing import Any
 
@@ -568,11 +570,27 @@ def _render_codex_marketplace(
     }
 
 
+def _remove_tree(path: Path, retries: int = 3, delay_seconds: float = 0.1) -> None:
+    last_error: OSError | None = None
+    for attempt in range(retries):
+        try:
+            shutil.rmtree(path)
+            return
+        except OSError as exc:
+            if exc.errno != errno.ENOTEMPTY or attempt == retries - 1:
+                raise
+            last_error = exc
+            time.sleep(delay_seconds * (attempt + 1))
+
+    if last_error is not None:
+        raise last_error
+
+
 def _materialize_plugin_skills(root: Path, destination_root: Path, skill_ids: list[str]) -> None:
     if destination_root.is_symlink() or destination_root.is_file():
         destination_root.unlink()
     elif destination_root.exists():
-        shutil.rmtree(destination_root)
+        _remove_tree(destination_root)
     destination_root.mkdir(parents=True, exist_ok=True)
 
     for skill_id in skill_ids:
@@ -628,7 +646,7 @@ def _sync_bundle_plugin_directory(
     plugin_name = _bundle_plugin_name(bundle["id"])
     plugin_root = root / "plugins" / plugin_name
     if plugin_root.exists():
-        shutil.rmtree(plugin_root)
+        _remove_tree(plugin_root)
 
     bundle_skills_root = plugin_root / "skills"
     bundle_skills_root.mkdir(parents=True, exist_ok=True)

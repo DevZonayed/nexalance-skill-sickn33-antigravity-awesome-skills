@@ -1,6 +1,8 @@
 import importlib.util
+import errno
 import pathlib
 import sys
+from unittest import mock
 import unittest
 
 
@@ -141,6 +143,22 @@ class EditorialBundlesTests(unittest.TestCase):
                 compatibility["targets"]["claude"] == "supported",
                 f"Claude root plugin inclusion mismatch for {skill_id}",
             )
+
+    def test_remove_tree_retries_on_enotempty(self):
+        target = REPO_ROOT / "plugins" / "antigravity-awesome-skills" / "skills"
+        calls = {"count": 0}
+
+        def flaky_rmtree(path):
+            calls["count"] += 1
+            if calls["count"] == 1:
+                raise OSError(errno.ENOTEMPTY, "Directory not empty")
+
+        with mock.patch.object(editorial_bundles.shutil, "rmtree", side_effect=flaky_rmtree):
+            with mock.patch.object(editorial_bundles.time, "sleep") as sleep_mock:
+                editorial_bundles._remove_tree(target)
+
+        self.assertEqual(calls["count"], 2)
+        sleep_mock.assert_called_once()
 
 
 if __name__ == "__main__":
