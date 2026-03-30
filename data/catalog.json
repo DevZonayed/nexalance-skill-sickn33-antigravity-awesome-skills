@@ -15078,7 +15078,7 @@
     {
       "id": "github-issue-creator",
       "name": "github-issue-creator",
-      "description": "Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues.",
+      "description": "Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence.",
       "category": "general",
       "tags": [
         "github",
@@ -15089,15 +15089,15 @@
         "github",
         "issue",
         "creator",
-        "transform",
-        "messy",
-        "input",
+        "turn",
         "error",
         "logs",
+        "screenshots",
         "voice",
         "notes",
-        "screenshots",
-        "clean"
+        "rough",
+        "bug",
+        "reports"
       ],
       "path": "skills/github-issue-creator/SKILL.md"
     },

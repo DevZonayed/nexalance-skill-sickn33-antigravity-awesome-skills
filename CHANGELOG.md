@@ -21,7 +21,7 @@ Start here:
 - Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
 - Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
 
-This release makes the repository much easier to use for Chinese-speaking developers while tightening contributor docs and expanding community-skill discovery. It ships the full `docs_zh-CN` translation batch, folds in a markdown fence fix for contributor documentation, and adds `SoulPass` to the README's community-contributed listings.
+This release makes the repository much easier to use for Chinese-speaking developers while tightening contributor docs and expanding community-skill discovery. It ships the full `docs_zh-CN` translation batch, folds in a markdown fence fix for contributor documentation, strengthens `github-issue-creator` discoverability metadata, and carries forward the recent `SoulPass` community listing on `main`.
 
 ## New
 
@@ -30,14 +30,14 @@ This release makes the repository much easier to use for Chinese-speaking develo
 ## Improvements
 
 - **Contributor docs formatting** - merged PR #418 to correct nested fenced-code examples in `docs/contributors/skill-anatomy.md`, making the markdown examples render correctly for contributors.
-- **Community discovery** - added `SoulPass` to the Community Contributed Skills section in `README.md` so Solana wallet, trading, and agent-identity workflows are easier to discover.
+- **Community discovery** - current `main` includes the `SoulPass` Community Contributed Skills listing requested in issue #421, keeping Solana wallet, trading, and agent-identity workflows easy to discover.
 - **Issue triage cleanup** - improved `github-issue-creator` metadata and usage guidance so external discovery tools can classify and recommend it more accurately.
 
 ## Who should care
 
 - **Chinese-speaking Claude Code, Cursor, Codex CLI, and Gemini CLI users** now have much broader first-party repo documentation coverage without relying on machine-translated pages.
 - **Contributors** get clearer markdown examples in the skill anatomy guide when authoring nested code fences and documentation snippets.
-- **Users exploring community additions** get easier discovery of `SoulPass` in the main README.
+- **Users exploring community additions** get easier discovery of `SoulPass` in the main README and clearer routing metadata for `github-issue-creator`.
 
 ## Credits
 
