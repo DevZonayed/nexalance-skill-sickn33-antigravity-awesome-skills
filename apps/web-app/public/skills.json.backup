@@ -13474,7 +13474,7 @@
     "path": "skills/github-issue-creator",
     "category": "project-management",
     "name": "github-issue-creator",
-    "description": "Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues.",
+    "description": "Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHub issues with repro steps, impact, and evidence.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
