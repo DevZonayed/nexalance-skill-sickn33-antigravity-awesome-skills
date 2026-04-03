@@ -343,6 +343,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)**: Frontend slide-creation skills for web-based presentations (MIT).
 - **[zxkane/aws-skills](https://github.com/zxkane/aws-skills)**: AWS-focused Claude agent skills (MIT).
 - **[UrRhb/agentflow](https://github.com/UrRhb/agentflow)**: Kanban-driven AI development pipeline for orchestrating multi-worker Claude Code workflows with deterministic quality gates, adversarial review, cost tracking, and crash-proof execution (MIT).
+- **[AgentPhone-AI/skills](https://github.com/AgentPhone-AI/skills)**: AgentPhone plugin for Claude Code — API-first telephony workflows for AI agents, including phone calls, SMS, phone-number management, voice-agent setup, streaming webhooks, and tool-calling patterns.
 
 ### Inspirations
 
@@ -408,7 +409,7 @@ We officially thank the following contributors for their help in making this rep
 - [@Wittlesus](https://github.com/Wittlesus)
 - [@wahidzzz](https://github.com/wahidzzz)
 - [@Vonfry](https://github.com/Vonfry)
-- [@qcwssss](https://github.com/qcwssss)
+- [@yubing744](https://github.com/yubing744)
 - [@vprudnikoff](https://github.com/vprudnikoff)
 - [@viktor-ferenczi](https://github.com/viktor-ferenczi)
 - [@code-vj](https://github.com/code-vj)
@@ -458,11 +459,11 @@ We officially thank the following contributors for their help in making this rep
 - [@ziuus](https://github.com/ziuus)
 - [@Cerdore](https://github.com/Cerdore)
 - [@Wolfe-Jam](https://github.com/Wolfe-Jam)
+- [@qcwssss](https://github.com/qcwssss)
 - [@ivankoriako](https://github.com/ivankoriako)
 - [@rcigor](https://github.com/rcigor)
 - [@hvasconcelos](https://github.com/hvasconcelos)
 - [@Guilherme-ruy](https://github.com/Guilherme-ruy)
-- [@FrancyJGLisboa](https://github.com/FrancyJGLisboa)
 - [@framunoz](https://github.com/framunoz)
 - [@Digidai](https://github.com/Digidai)
 - [@dbhat93](https://github.com/dbhat93)
@@ -484,8 +485,6 @@ We officially thank the following contributors for their help in making this rep
 - [@ALEKGG1](https://github.com/ALEKGG1)
 - [@8144225309](https://github.com/8144225309)
 - [@1bcMax](https://github.com/1bcMax)
-- [@yubing744](https://github.com/yubing744)
-- [@olgasafonova](https://github.com/olgasafonova)
 - [@sharmanilay](https://github.com/sharmanilay)
 - [@KhaiTrang1995](https://github.com/KhaiTrang1995)
 - [@LocNguyenSGU](https://github.com/LocNguyenSGU)
