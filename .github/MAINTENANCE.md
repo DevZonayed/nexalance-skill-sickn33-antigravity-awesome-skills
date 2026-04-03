@@ -13,7 +13,7 @@ It covers the **Quality Bar**, **Documentation Consistency**, and **Release Work
 
 **AGENTS MUST READ AND FOLLOW THIS SECTION BEFORE MARKING ANY TASK AS COMPLETE.**
 
-There are 3 things that usually fail/get forgotten. **DO NOT FORGET THEM:**
+There are 5 things that usually fail/get forgotten. **DO NOT FORGET THEM:**
 
 ### 1. 📤 ALWAYS PUSH (Non-Negotiable)
 
@@ -57,6 +57,21 @@ it means the repository could not auto-sync generated artifacts cleanly and main
 - **ALWAYS use the `main` branch.**
 - NEVER create feature branches (e.g., `feat/new-skill`).
 - We commit directly to `main` to keep history linear and simple.
+
+### 5. 📦 RUNTIME DEPENDENCIES MUST BE RUNTIME DEPENDENCIES
+
+If you change the published npm installer surface:
+
+- `tools/bin/install.js`
+- `tools/lib/**/*.js` used by the installer
+- `package.json` `bin` entry or packaged files
+
+…then every imported package needed by `npx antigravity-awesome-skills` must live in `dependencies`, **not** `devDependencies`.
+
+- `npm pack --dry-run` is **not enough** to prove this.
+- A local repo test can pass while `npx` still fails in a clean environment.
+- If installer/runtime imports change, add or update a package-contents/runtime test in `tools/scripts/tests/`.
+- Treat `Cannot find module 'X'` from a clean `npx` install as a release-blocking packaging failure.
 
 ---
 
@@ -347,6 +362,7 @@ Preflight verification → Changelog → `npm run release:prepare -- X.Y.Z` → 
     npm run release:preflight
     ```
     This now runs the deterministic `sync:release-state` path, refreshes tracked web assets, executes the local test suite, runs the web-app build, and performs `npm pack --dry-run --json` before a release is considered healthy.
+    If the installer or packaged runtime code changed, you must also verify that new imports are satisfied by `dependencies` rather than `devDependencies`, and ensure the npm-package/runtime tests cover that path. `npm pack --dry-run` alone will not catch missing runtime deps in a clean `npx` environment.
     Optional diagnostic pass:
     ```bash
     npm run validate:strict
