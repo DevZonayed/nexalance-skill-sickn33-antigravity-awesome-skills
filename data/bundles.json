@@ -650,6 +650,7 @@
       "skills": [
         "007",
         "acceptance-orchestrator",
+        "agentflow",
         "ai-engineering-toolkit",
         "airflow-dag-patterns",
         "api-testing-observability-api-mock",

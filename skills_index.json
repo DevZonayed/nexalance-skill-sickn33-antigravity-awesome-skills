@@ -618,6 +618,30 @@
     }
   },
   {
+    "id": "agentflow",
+    "path": "skills/agentflow",
+    "category": "uncategorized",
+    "name": "agentflow",
+    "description": "Orchestrate autonomous AI development pipelines through your Kanban board (Asana, GitHub Projects, Linear). Manages multi-worker Claude Code dispatch, deterministic quality gates, adversarial review, per-task cost tracking, and crash-proof pipeline execution.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-02",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
+    }
+  },
+  {
     "id": "agentfolio",
     "path": "skills/agentfolio",
     "category": "ai-ml",
