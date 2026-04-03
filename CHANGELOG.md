@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.5.1] - 2026-04-03 - "npm Runtime Dependency Fix"
+
+> **Patch release to restore `npx antigravity-awesome-skills` installs after the published CLI started failing to resolve `yaml` at runtime**
+
+This release fixes a packaging regression in `9.5.0`. The installer entrypoint loads `tools/lib/skill-utils.js`, which depends on `yaml`, but the published npm package declared that module only as a development dependency. In clean `npx` environments this caused the installer to crash immediately with `Error: Cannot find module 'yaml'`, as reported in issue `#445`.
+
+## New Skills
+
+- **None in this release** — `9.5.1` is a focused patch release for the published npm installer.
+
+## Improvements
+
+- **Runtime dependency fix**: moved `yaml` from `devDependencies` to runtime `dependencies` so the published CLI bundle installs everything required by `tools/bin/install.js` and `tools/lib/skill-utils.js`.
+- **Packaging regression coverage**: extended the npm package contents test to assert that `yaml` remains declared as a runtime dependency for the installer contract.
+- **Installer verification**: re-ran the package dry-run and installer-focused tests to confirm the published artifact and filtered install flow no longer reproduce the missing-module failure from issue `#445`.
+
+## Credits
+
+- **Issue #445 reporter** for isolating the `yaml` packaging regression in the published npm CLI artifact.
+
 ## [9.5.0] - 2026-04-03 - "Selective Installs and 30K Stars"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, OpenCode, and related AI coding assistants.
