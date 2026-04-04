@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1344,
+  "total": 1352,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -26493,6 +26493,225 @@
         "search"
       ],
       "path": "skills/seo/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-blog-writer",
+      "name": "seo-aeo-blog-writer",
+      "description": "Writes long-form blog posts with TL;DR block, definition sentence, comparison table, and 5-question FAQ for SEO ranking and AEO citation. Activate when the user wants to write a blog post, article, or long-form content piece.",
+      "category": "business",
+      "tags": [
+        "seo",
+        "aeo",
+        "blog",
+        "writer"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "blog",
+        "writer",
+        "writes",
+        "long",
+        "form",
+        "posts",
+        "tl",
+        "dr",
+        "block",
+        "definition"
+      ],
+      "path": "skills/seo-aeo-blog-writer/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-content-cluster",
+      "name": "seo-aeo-content-cluster",
+      "description": "Builds a topical authority map with a pillar page, prioritised cluster articles, content types, internal link map, and content gap analysis. Activate when the user wants to build a content cluster, topic map, or content strategy.",
+      "category": "business",
+      "tags": [
+        "seo",
+        "aeo",
+        "content",
+        "cluster"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "content",
+        "cluster",
+        "topical",
+        "authority",
+        "map",
+        "pillar",
+        "page",
+        "prioritised",
+        "articles",
+        "types"
+      ],
+      "path": "skills/seo-aeo-content-cluster/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-content-quality-auditor",
+      "name": "seo-aeo-content-quality-auditor",
+      "description": "Audits content for SEO and AEO performance with scored reports, severity-ranked fix lists, and projected scores after fixes. Activate when the user wants to audit, review, or score content for SEO or AEO compliance.",
+      "category": "security",
+      "tags": [
+        "seo",
+        "aeo",
+        "content",
+        "quality",
+        "auditor"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "content",
+        "quality",
+        "auditor",
+        "audits",
+        "performance",
+        "scored",
+        "reports",
+        "severity",
+        "ranked",
+        "fix"
+      ],
+      "path": "skills/seo-aeo-content-quality-auditor/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-internal-linking",
+      "name": "seo-aeo-internal-linking",
+      "description": "Maps internal link opportunities between pages with anchor text, placement instructions, orphan page detection, and cannibalization checks. Activate when the user wants to build an internal linking strategy or find link opportunities.",
+      "category": "business",
+      "tags": [
+        "seo",
+        "aeo",
+        "internal",
+        "linking"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "internal",
+        "linking",
+        "maps",
+        "link",
+        "opportunities",
+        "between",
+        "pages",
+        "anchor",
+        "text",
+        "placement"
+      ],
+      "path": "skills/seo-aeo-internal-linking/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-keyword-research",
+      "name": "seo-aeo-keyword-research",
+      "description": "Researches and prioritises SEO keywords with AEO question queries, difficulty tiers, cannibalization checks, and a content map. Activate when the user wants to find keywords, research search terms, or build a keyword strategy.",
+      "category": "business",
+      "tags": [
+        "seo",
+        "aeo",
+        "keyword",
+        "research"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "keyword",
+        "research",
+        "researches",
+        "prioritises",
+        "keywords",
+        "question",
+        "queries",
+        "difficulty",
+        "tiers",
+        "cannibalization"
+      ],
+      "path": "skills/seo-aeo-keyword-research/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-landing-page-writer",
+      "name": "seo-aeo-landing-page-writer",
+      "description": "Writes complete, structured landing pages optimized for SEO ranking, AEO citation, and visitor conversion. Activate when the user wants to write or generate a landing page for a product, service, or offer.",
+      "category": "infrastructure",
+      "tags": [
+        "seo",
+        "aeo",
+        "landing",
+        "page",
+        "writer"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "landing",
+        "page",
+        "writer",
+        "writes",
+        "complete",
+        "structured",
+        "pages",
+        "optimized",
+        "ranking",
+        "citation"
+      ],
+      "path": "skills/seo-aeo-landing-page-writer/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-meta-description-generator",
+      "name": "seo-aeo-meta-description-generator",
+      "description": "Writes 3 title tag variants and 3 meta description variants per page with SERP preview, OG tags, and Twitter Card tags. Activate when the user wants to write meta tags, title tags, or social sharing tags for any page.",
+      "category": "business",
+      "tags": [
+        "seo",
+        "aeo",
+        "meta",
+        "description",
+        "generator"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "meta",
+        "description",
+        "generator",
+        "writes",
+        "title",
+        "tag",
+        "variants",
+        "per",
+        "page",
+        "serp"
+      ],
+      "path": "skills/seo-aeo-meta-description-generator/SKILL.md"
+    },
+    {
+      "id": "seo-aeo-schema-generator",
+      "name": "seo-aeo-schema-generator",
+      "description": "Generates valid JSON-LD structured data for 10 schema types with rich result eligibility validation and implementation-ready script blocks. Activate when the user wants to generate schema markup, JSON-LD, or structured data for any page.",
+      "category": "data-ai",
+      "tags": [
+        "seo",
+        "aeo",
+        "schema",
+        "generator"
+      ],
+      "triggers": [
+        "seo",
+        "aeo",
+        "schema",
+        "generator",
+        "generates",
+        "valid",
+        "json",
+        "ld",
+        "structured",
+        "data",
+        "10",
+        "types"
+      ],
+      "path": "skills/seo-aeo-schema-generator/SKILL.md"
     },
     {
       "id": "seo-audit",

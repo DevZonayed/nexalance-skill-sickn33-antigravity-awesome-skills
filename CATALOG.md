@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1344
+Total skills: 1352
 
 ## architecture (88)
 
@@ -97,7 +97,7 @@ Total skills: 1344
 | `workflow-orchestration-patterns` | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliabl... |  | orchestration, architecture, temporal, covering, fundamental, decisions, resilience, building, reliable, distributed |
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 
-## business (69)
+## business (74)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -143,6 +143,11 @@ Total skills: 1344
 | `sales-automator` | Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nur... | sales, automator | sales, automator, draft, cold, emails, follow, ups, proposal, creates, pricing, pages, case |
 | `sales-enablement` | Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that h... | sales, enablement | sales, enablement, collateral, such, decks, one, pagers, objection, docs, demo, scripts, playbooks |
 | `screenshots` | Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or ... | screenshots | screenshots, generate, marketing, app, playwright, user, wants, product, hunt, social, media, landing |
+| `seo-aeo-blog-writer` | Writes long-form blog posts with TL;DR block, definition sentence, comparison table, and 5-question FAQ for SEO ranking and AEO citation. Activate when the u... | seo, aeo, blog, writer | seo, aeo, blog, writer, writes, long, form, posts, tl, dr, block, definition |
+| `seo-aeo-content-cluster` | Builds a topical authority map with a pillar page, prioritised cluster articles, content types, internal link map, and content gap analysis. Activate when th... | seo, aeo, content, cluster | seo, aeo, content, cluster, topical, authority, map, pillar, page, prioritised, articles, types |
+| `seo-aeo-internal-linking` | Maps internal link opportunities between pages with anchor text, placement instructions, orphan page detection, and cannibalization checks. Activate when the... | seo, aeo, internal, linking | seo, aeo, internal, linking, maps, link, opportunities, between, pages, anchor, text, placement |
+| `seo-aeo-keyword-research` | Researches and prioritises SEO keywords with AEO question queries, difficulty tiers, cannibalization checks, and a content map. Activate when the user wants ... | seo, aeo, keyword, research | seo, aeo, keyword, research, researches, prioritises, keywords, question, queries, difficulty, tiers, cannibalization |
+| `seo-aeo-meta-description-generator` | Writes 3 title tag variants and 3 meta description variants per page with SERP preview, OG tags, and Twitter Card tags. Activate when the user wants to write... | seo, aeo, meta, description, generator | seo, aeo, meta, description, generator, writes, title, tag, variants, per, page, serp |
 | `seo-audit` | Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. | seo, audit | seo, audit, diagnose, issues, affecting, crawlability, indexation, rankings, organic, performance |
 | `seo-cannibalization-detector` | Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when ... | seo, cannibalization, detector | seo, cannibalization, detector, analyzes, multiple, provided, pages, identify, keyword, overlap, potential, issues |
 | `seo-competitor-pages` | Generate SEO-optimized competitor comparison and alternatives pages. Covers "X vs Y" layouts, "alternatives to X" pages, feature matrices, schema markup, and... | seo, competitor, pages | seo, competitor, pages, generate, optimized, comparison, alternatives, covers, vs, layouts, feature, matrices |
@@ -171,7 +176,7 @@ Total skills: 1344
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (255)
+## data-ai (256)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -389,6 +394,7 @@ Total skills: 1344
 | `segment-cdp` | Client-side tracking with Analytics.js. Include track, identify, page, and group calls. Anonymous ID persists until identify merges with user. | segment, cdp | segment, cdp, client, side, tracking, analytics, js, include, track, identify, page, group |
 | `sendgrid-automation` | Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analyt... | sendgrid | sendgrid, automation, automate, email, delivery, including, marketing, campaigns, single, sends, contact, list |
 | `seo` | Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the ... | seo | seo, run, broad, audit, technical, page, schema, sitemaps, content, quality, ai, search |
+| `seo-aeo-schema-generator` | Generates valid JSON-LD structured data for 10 schema types with rich result eligibility validation and implementation-ready script blocks. Activate when the... | seo, aeo, schema, generator | seo, aeo, schema, generator, generates, valid, json, ld, structured, data, 10, types |
 | `seo-content` | Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says "content quality", "E-E-A-T", "content analysis", "readability... | seo, content | seo, content, quality, analysis, ai, citation, readiness, assessment, user, says, readability, check |
 | `seo-dataforseo` | Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO ... | seo, dataforseo | seo, dataforseo, live, serps, keyword, metrics, backlinks, competitor, analysis, page, checks, ai |
 | `seo-geo` | Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler access... | seo, geo | seo, geo, optimize, content, ai, overviews, chatgpt, perplexity, other, search, improving, citations |
@@ -953,7 +959,7 @@ Total skills: 1344
 | `yann-lecun-tecnico` | Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervise... | persona, cnn, jepa, self-supervised, pytorch | persona, cnn, jepa, self-supervised, pytorch, yann, lecun, tecnico, sub, skill, cnica, de |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (120)
+## infrastructure (121)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1061,6 +1067,7 @@ Total skills: 1344
 | `prometheus-configuration` | Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. | prometheus, configuration | prometheus, configuration, complete, setup, metric, collection, scrape, recording, rules |
 | `pubmed-database` | Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopyth... | pubmed, database | pubmed, database, direct, rest, api, access, boolean, mesh, queries, utilities, batch, processing |
 | `salesforce-development` | Use @wire decorator for reactive data binding with Lightning Data Service or Apex methods. @wire fits LWC's reactive architecture and enables Salesforce perf... | salesforce | salesforce, development, wire, decorator, reactive, data, binding, lightning, apex, methods, fits, lwc |
+| `seo-aeo-landing-page-writer` | Writes complete, structured landing pages optimized for SEO ranking, AEO citation, and visitor conversion. Activate when the user wants to write or generate ... | seo, aeo, landing, page, writer | seo, aeo, landing, page, writer, writes, complete, structured, pages, optimized, ranking, citation |
 | `server-management` | Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. | server | server, principles, decision, making, process, monitoring, scaling, decisions, teaches, thinking, commands |
 | `service-mesh-observability` | Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. | service, mesh, observability | service, mesh, observability, complete, istio, linkerd, deployments |
 | `skill-installer` | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. | skill-management, deployment, validation, installation | skill-management, deployment, validation, installation, skill, installer, instala, valida, registra, verifica, novas, skills |
@@ -1078,7 +1085,7 @@ Total skills: 1344
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks, scraper, data, platform |
 
-## security (167)
+## security (168)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1215,6 +1222,7 @@ Total skills: 1344
 | `security/aws-secrets-rotation` | Automate AWS secrets rotation for RDS, API keys, and credentials | aws, secrets-manager, security, automation, kiro-cli, credentials | aws, secrets-manager, security, automation, kiro-cli, credentials, secrets, rotation, automate, rds, api, keys |
 | `security/aws-security-audit` | Comprehensive AWS security posture assessment using AWS CLI and security best practices | aws, security, audit, compliance, kiro-cli, security-assessment | aws, security, audit, compliance, kiro-cli, security-assessment, posture, assessment, cli |
 | `semgrep-rule-creator` | Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom stati... | semgrep, rule, creator | semgrep, rule, creator, creates, custom, rules, detecting, security, vulnerabilities, bug, code, writing |
+| `seo-aeo-content-quality-auditor` | Audits content for SEO and AEO performance with scored reports, severity-ranked fix lists, and projected scores after fixes. Activate when the user wants to ... | seo, aeo, content, quality, auditor | seo, aeo, content, quality, auditor, audits, performance, scored, reports, severity, ranked, fix |
 | `seo-authority-builder` | Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMY... | seo, authority, builder | seo, authority, builder, analyzes, content, signals, suggests, improvements, trust, identifies, missing, credibility |
 | `seo-forensic-incident-response` | Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan. | seo, forensic, incident, response | seo, forensic, incident, response, investigate, sudden, drops, organic, traffic, rankings, run, structured |
 | `seo-technical` | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform s... | seo, technical | seo, technical, audit, crawlability, indexability, security, urls, mobile, core, web, vitals, structured |
