@@ -2656,6 +2656,28 @@
     }
   },
   {
+    "id": "awareness-stage-mapper",
+    "path": "skills/awareness-stage-mapper",
+    "category": "uncategorized",
+    "name": "awareness-stage-mapper",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "aws-compliance-checker",
     "path": "skills/security/aws-compliance-checker",
     "category": "security",
@@ -6224,6 +6246,28 @@
     }
   },
   {
+    "id": "brand-perception-psychologist",
+    "path": "skills/brand-perception-psychologist",
+    "category": "uncategorized",
+    "name": "brand-perception-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "brevo-automation",
     "path": "skills/brevo-automation",
     "category": "marketing",
@@ -8916,6 +8960,28 @@
     }
   },
   {
+    "id": "copywriting-psychologist",
+    "path": "skills/copywriting-psychologist",
+    "category": "content",
+    "name": "copywriting-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "core-components",
     "path": "skills/core-components",
     "category": "web-development",
@@ -9144,6 +9210,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "customer-psychographic-profiler",
+    "path": "skills/customer-psychographic-profiler",
+    "category": "uncategorized",
+    "name": "customer-psychographic-profiler",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -11038,6 +11126,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "emotional-arc-designer",
+    "path": "skills/emotional-arc-designer",
+    "category": "uncategorized",
+    "name": "emotional-arc-designer",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14088,6 +14198,28 @@
     }
   },
   {
+    "id": "headline-psychologist",
+    "path": "skills/headline-psychologist",
+    "category": "uncategorized",
+    "name": "headline-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "health-trend-analyzer",
     "path": "skills/health-trend-analyzer",
     "category": "health",
@@ -15058,6 +15190,28 @@
     }
   },
   {
+    "id": "identity-mirror",
+    "path": "skills/identity-mirror",
+    "category": "uncategorized",
+    "name": "identity-mirror",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "idor-testing",
     "path": "skills/idor-testing",
     "category": "security",
@@ -15748,6 +15902,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "jobs-to-be-done-analyst",
+    "path": "skills/jobs-to-be-done-analyst",
+    "category": "uncategorized",
+    "name": "jobs-to-be-done-analyst",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -17019,6 +17195,28 @@
       "reasons": [
         "target_specific_home_path"
       ]
+    }
+  },
+  {
+    "id": "loss-aversion-designer",
+    "path": "skills/loss-aversion-designer",
+    "category": "uncategorized",
+    "name": "loss-aversion-designer",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
     }
   },
   {
@@ -19163,6 +19361,28 @@
     }
   },
   {
+    "id": "objection-preemptor",
+    "path": "skills/objection-preemptor",
+    "category": "uncategorized",
+    "name": "objection-preemptor",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "observability-engineer",
     "path": "skills/observability-engineer",
     "category": "reliability",
@@ -19933,6 +20153,28 @@
     }
   },
   {
+    "id": "onboarding-psychologist",
+    "path": "skills/onboarding-psychologist",
+    "category": "uncategorized",
+    "name": "onboarding-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "one-drive-automation",
     "path": "skills/one-drive-automation",
     "category": "productivity",
@@ -20637,6 +20879,28 @@
     }
   },
   {
+    "id": "pitch-psychologist",
+    "path": "skills/pitch-psychologist",
+    "category": "uncategorized",
+    "name": "pitch-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "plaid-fintech",
     "path": "skills/plaid-fintech",
     "category": "api-integration",
@@ -21041,6 +21305,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "price-psychology-strategist",
+    "path": "skills/price-psychology-strategist",
+    "category": "uncategorized",
+    "name": "price-psychology-strategist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -23060,6 +23346,28 @@
     }
   },
   {
+    "id": "scarcity-urgency-psychologist",
+    "path": "skills/scarcity-urgency-psychologist",
+    "category": "uncategorized",
+    "name": "scarcity-urgency-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "schema-markup",
     "path": "skills/schema-markup",
     "category": "marketing",
@@ -24426,6 +24734,28 @@
     }
   },
   {
+    "id": "sequence-psychologist",
+    "path": "skills/sequence-psychologist",
+    "category": "uncategorized",
+    "name": "sequence-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "server-management",
     "path": "skills/server-management",
     "category": "reliability",
@@ -25270,6 +25600,28 @@
     }
   },
   {
+    "id": "social-proof-architect",
+    "path": "skills/social-proof-architect",
+    "category": "uncategorized",
+    "name": "social-proof-architect",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "software-architecture",
     "path": "skills/software-architecture",
     "category": "architecture",
@@ -25918,6 +26270,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "subject-line-psychologist",
+    "path": "skills/subject-line-psychologist",
+    "category": "uncategorized",
+    "name": "subject-line-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -27516,6 +27890,28 @@
     }
   },
   {
+    "id": "trust-calibrator",
+    "path": "skills/trust-calibrator",
+    "category": "uncategorized",
+    "name": "trust-calibrator",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "turborepo-caching",
     "path": "skills/turborepo-caching",
     "category": "development",
@@ -28046,6 +28442,28 @@
     }
   },
   {
+    "id": "ux-persuasion-engineer",
+    "path": "skills/ux-persuasion-engineer",
+    "category": "uncategorized",
+    "name": "ux-persuasion-engineer",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "uxui-principles",
     "path": "skills/uxui-principles",
     "category": "design",
@@ -28430,6 +28848,28 @@
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "visual-emotion-engineer",
+    "path": "skills/visual-emotion-engineer",
+    "category": "uncategorized",
+    "name": "visual-emotion-engineer",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04",
     "plugin": {
       "targets": {
         "codex": "supported",
