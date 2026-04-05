@@ -24,6 +24,14 @@ assert.ok(
   "package.json should expose a warning-budget guardrail command",
 );
 assert.ok(
+  packageJson.scripts["check:readme-credits"],
+  "package.json should expose a README credit validation command",
+);
+assert.ok(
+  packageJson.scripts["merge:batch"],
+  "package.json should expose a maintainer merge-batch command",
+);
+assert.ok(
   packageJson.scripts["audit:maintainer"],
   "package.json should expose a maintainer audit command",
 );
@@ -124,6 +132,11 @@ assert.match(
   ciWorkflow,
   /- name: Audit npm dependencies[\s\S]*?run: npm audit --audit-level=high/,
   "CI should run npm audit at high severity",
+);
+assert.match(
+  ciWorkflow,
+  /- name: Verify README source credits for changed skills[\s\S]*?run: npm run check:readme-credits -- --base "origin\/\$\{\{ github\.base_ref \}\}" --head HEAD/,
+  "PR CI should verify README source credits for changed skills",
 );
 assert.match(
   ciWorkflow,

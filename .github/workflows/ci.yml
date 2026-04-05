@@ -97,6 +97,12 @@ jobs:
       - name: Validate source changes
         run: npm run validate
 
+      - name: Enforce validation warning budget
+        run: npm run check:warning-budget
+
+      - name: Verify README source credits for changed skills
+        run: npm run check:readme-credits -- --base "origin/${{ github.base_ref }}" --head HEAD
+
       - name: Validate references
         if: needs.pr-policy.outputs.requires_references == 'true'
         run: npm run validate:references
