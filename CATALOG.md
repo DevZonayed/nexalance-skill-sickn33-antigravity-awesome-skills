@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1372
+Total skills: 1373
 
 ## architecture (88)
 
@@ -1278,7 +1278,7 @@ Total skills: 1372
 | `xss-html-injection` | Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation ... | xss, html, injection | xss, html, injection, execute, client, side, vulnerability, assessments, web, applications, identify, flaws |
 | `zeroize-audit` | Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and ... | zeroize, audit | zeroize, audit, detects, missing, zeroization, sensitive, data, source, code, identifies, removed, compiler |
 
-## testing (31)
+## testing (32)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1294,6 +1294,7 @@ Total skills: 1372
 | `ffuf-web-fuzzing` | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis | ffuf, web, fuzzing | ffuf, web, fuzzing, guidance, during, penetration, testing, including, authenticated, raw, requests, auto |
 | `idor-testing` | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications. | idor | idor, testing, provide, systematic, methodologies, identifying, exploiting, insecure, direct, object, reference, vulnerabilities |
 | `leiloeiro-risco` | Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco. | risk-analysis, scoring, stress-test, brazilian | risk-analysis, scoring, stress-test, brazilian, leiloeiro, risco, analise, de, em, leiloes, imoveis, score |
+| `merge-batch-e2e-test` | Synthetic skill used to exercise the maintainer merge workflow end-to-end. | merge, batch, e2e | merge, batch, e2e, test, synthetic, skill, used, exercise, maintainer |
 | `performance-testing-review-multi-agent-review` | Use when working with performance testing review multi agent review | performance, multi, agent | performance, multi, agent, testing, review, working |
 | `privilege-escalation-methods` | Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. ... | privilege, escalation, methods | privilege, escalation, methods, provide, techniques, escalating, privileges, low, privileged, user, root, administrator |
 | `pypict-skill` | Pairwise test generation | pypict, skill | pypict, skill, pairwise, test, generation |

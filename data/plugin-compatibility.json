@@ -15698,6 +15698,25 @@
       "runtime_files": []
     },
     {
+      "id": "merge-batch-e2e-test",
+      "path": "skills/merge-batch-e2e-test",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "mermaid-expert",
       "path": "skills/mermaid-expert",
       "targets": {
@@ -26234,10 +26253,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1372,
+    "total_skills": 1373,
     "supported": {
-      "codex": 1342,
-      "claude": 1358
+      "codex": 1343,
+      "claude": 1359
     },
     "blocked": {
       "codex": 30,

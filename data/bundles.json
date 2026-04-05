@@ -848,6 +848,7 @@
         "linux-troubleshooting",
         "mailchimp-automation",
         "make-automation",
+        "merge-batch-e2e-test",
         "microsoft-teams-automation",
         "miro-automation",
         "mixpanel-automation",
