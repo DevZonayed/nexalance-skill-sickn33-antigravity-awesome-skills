@@ -135,8 +135,23 @@ assert.match(
 );
 assert.match(
   ciWorkflow,
+  /source-validation:[\s\S]*?- uses: actions\/checkout@v4[\s\S]*?with:[\s\S]*?fetch-depth: 0/,
+  "source-validation should use an unshallowed checkout so base-branch diffs have a merge base",
+);
+assert.match(
+  ciWorkflow,
+  /source-validation:[\s\S]*?- name: Fetch base branch[\s\S]*?run: git fetch origin "\$\{\{ github\.base_ref \}\}"/,
+  "source-validation should fetch the PR base branch before changed-skill README credit checks",
+);
+assert.match(
+  ciWorkflow,
   /- name: Verify README source credits for changed skills[\s\S]*?run: npm run check:readme-credits -- --base "origin\/\$\{\{ github\.base_ref \}\}" --head HEAD/,
   "PR CI should verify README source credits for changed skills",
+);
+assert.match(
+  ciWorkflow,
+  /source-validation:[\s\S]*?- name: Fetch base branch[\s\S]*?- name: Install npm dependencies[\s\S]*?- name: Verify README source credits for changed skills/,
+  "source-validation should fetch the base branch before running the changed-skill README credit check",
 );
 assert.match(
   ciWorkflow,
