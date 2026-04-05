@@ -18816,7 +18816,7 @@
       "id": "project-skill-audit",
       "path": "skills/project-skill-audit",
       "targets": {
-        "codex": "blocked",
+        "codex": "supported",
         "claude": "blocked"
       },
       "setup": {
@@ -18825,15 +18825,11 @@
         "docs": null
       },
       "reasons": [
-        "absolute_host_path",
         "target_specific_home_path"
       ],
       "blocked_reasons": {
-        "codex": [
-          "absolute_host_path"
-        ],
+        "codex": [],
         "claude": [
-          "absolute_host_path",
           "target_specific_home_path"
         ]
       },
@@ -26236,11 +26232,11 @@
   "summary": {
     "total_skills": 1372,
     "supported": {
-      "codex": 1342,
+      "codex": 1343,
       "claude": 1358
     },
     "blocked": {
-      "codex": 30,
+      "codex": 29,
       "claude": 14
     },
     "manual_setup": 1
