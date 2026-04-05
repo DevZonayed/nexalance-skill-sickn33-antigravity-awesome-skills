@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1373,
+  "total": 1372,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20202,29 +20202,6 @@
         "analyzer"
       ],
       "path": "skills/mental-health-analyzer/SKILL.md"
-    },
-    {
-      "id": "merge-batch-e2e-test",
-      "name": "merge-batch-e2e-test",
-      "description": "Synthetic skill used to exercise the maintainer merge workflow end-to-end.",
-      "category": "testing",
-      "tags": [
-        "merge",
-        "batch",
-        "e2e"
-      ],
-      "triggers": [
-        "merge",
-        "batch",
-        "e2e",
-        "test",
-        "synthetic",
-        "skill",
-        "used",
-        "exercise",
-        "maintainer"
-      ],
-      "path": "skills/merge-batch-e2e-test/SKILL.md"
     },
     {
       "id": "mermaid-expert",

@@ -18036,28 +18036,6 @@
     }
   },
   {
-    "id": "merge-batch-e2e-test",
-    "path": "skills/merge-batch-e2e-test",
-    "category": "testing",
-    "name": "merge-batch-e2e-test",
-    "description": "Synthetic skill used to exercise the maintainer merge workflow end-to-end.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-04-05",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "mermaid-expert",
     "path": "skills/mermaid-expert",
     "category": "content",
