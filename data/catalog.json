@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1376,
+  "total": 1377,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -15356,6 +15356,35 @@
         "deployments"
       ],
       "path": "skills/gitops-workflow/SKILL.md"
+    },
+    {
+      "id": "global-chat-agent-discovery",
+      "name": "global-chat-agent-discovery",
+      "description": "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.",
+      "category": "data-ai",
+      "tags": [
+        "mcp",
+        "ai-agents",
+        "agent-discovery",
+        "agents-txt",
+        "a2a",
+        "developer-tools"
+      ],
+      "triggers": [
+        "mcp",
+        "ai-agents",
+        "agent-discovery",
+        "agents-txt",
+        "a2a",
+        "developer-tools",
+        "global",
+        "chat",
+        "agent",
+        "discovery",
+        "discover",
+        "search"
+      ],
+      "path": "skills/global-chat-agent-discovery/SKILL.md"
     },
     {
       "id": "gmail-automation",

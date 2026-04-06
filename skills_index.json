@@ -13736,6 +13736,28 @@
     }
   },
   {
+    "id": "global-chat-agent-discovery",
+    "path": "skills/global-chat-agent-discovery",
+    "category": "development",
+    "name": "global-chat-agent-discovery",
+    "description": "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "gmail-automation",
     "path": "skills/gmail-automation",
     "category": "productivity",

@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1376
+Total skills: 1377
 
 ## architecture (88)
 
@@ -177,7 +177,7 @@ Total skills: 1376
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (256)
+## data-ai (257)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -325,6 +325,7 @@ Total skills: 1376
 | `gdb-cli` | GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation | debugging, gdb, core-dump, crash-analysis, c++, c | debugging, gdb, core-dump, crash-analysis, c++, c, cli, assistant, ai, agents, analyze, core |
 | `gemini-api-dev` | The Gemini API provides access to Google's most advanced AI models. Key capabilities include: | gemini, api, dev | gemini, api, dev, provides, access, google, most, ai, models, key, capabilities, include |
 | `geo-fundamentals` | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity). | geo, fundamentals | geo, fundamentals, generative, engine, optimization, ai, search, engines, chatgpt, claude, perplexity |
+| `global-chat-agent-discovery` | Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server. | mcp, ai-agents, agent-discovery, agents-txt, a2a, developer-tools | mcp, ai-agents, agent-discovery, agents-txt, a2a, developer-tools, global, chat, agent, discovery, discover, search |
 | `google-analytics-automation` | Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for cu... | google, analytics | google, analytics, automation, automate, tasks, via, rube, mcp, composio, run, reports, list |
 | `googlesheets-automation` | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting,... | googlesheets | googlesheets, automation, automate, google, sheets, operations, read, write, format, filter, spreadsheets, via |
 | `hosted-agents-v2-py` | Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry. | hosted, agents, v2, py | hosted, agents, v2, py, azure, ai, sdk, imagebasedhostedagentdefinition, creating, container, foundry |

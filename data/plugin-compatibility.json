@@ -11897,6 +11897,25 @@
       "runtime_files": []
     },
     {
+      "id": "global-chat-agent-discovery",
+      "path": "skills/global-chat-agent-discovery",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "gmail-automation",
       "path": "skills/gmail-automation",
       "targets": {
@@ -26306,10 +26325,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1376,
+    "total_skills": 1377,
     "supported": {
-      "codex": 1347,
-      "claude": 1362
+      "codex": 1348,
+      "claude": 1363
     },
     "blocked": {
       "codex": 29,
