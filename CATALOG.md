@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1373
+Total skills: 1374
 
 ## architecture (88)
 
@@ -628,7 +628,7 @@ Total skills: 1373
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (345)
+## general (346)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -885,6 +885,7 @@ Total skills: 1373
 | `project-skill-audit` | Audit a project and recommend the highest-value skills to add or update. | skill, audit | skill, audit, recommend, highest, value, skills, add, update |
 | `prompt-engineer` | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW) | prompt-engineering, optimization, frameworks, ai-enhancement | prompt-engineering, optimization, frameworks, ai-enhancement, prompt, engineer, transforms, user, prompts, optimized, rtf, risen |
 | `prompt-library` | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best pr... | prompt, library | prompt, library, collection, battle, tested, prompts, inspired, awesome, chatgpt, https, github, com |
+| `protect-mcp-governance` | Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt verification. | protect, mcp, governance | protect, mcp, governance, agent, skill, calls, cedar, policy, authoring, shadow, enforce, rollout |
 | `qiskit` | Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on sim... | qiskit | qiskit, world, most, popular, open, source, quantum, computing, framework, 13m, downloads, circuits |
 | `quality-nonconformance` | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated m... | quality, nonconformance | quality, nonconformance, codified, expertise, control, non, conformance, investigation, root, cause, analysis, corrective |
 | `readme` | You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of docu... | readme | readme, technical, writer, creating, documentation, goal, write, md, absurdly, thorough, kind, wish |

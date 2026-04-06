@@ -18969,6 +18969,25 @@
       "runtime_files": []
     },
     {
+      "id": "protect-mcp-governance",
+      "path": "skills/protect-mcp-governance",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "protocol-reverse-engineering",
       "path": "skills/protocol-reverse-engineering",
       "targets": {
@@ -26249,10 +26268,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1373,
+    "total_skills": 1374,
     "supported": {
-      "codex": 1344,
-      "claude": 1359
+      "codex": 1345,
+      "claude": 1360
     },
     "blocked": {
       "codex": 29,
