@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1375
+Total skills: 1376
 
 ## architecture (88)
 
@@ -980,7 +980,7 @@ Total skills: 1375
 | `yann-lecun-tecnico` | Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervise... | persona, cnn, jepa, self-supervised, pytorch | persona, cnn, jepa, self-supervised, pytorch, yann, lecun, tecnico, sub, skill, cnica, de |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (121)
+## infrastructure (122)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1073,6 +1073,7 @@ Total skills: 1375
 | `ml-engineer` | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. | ml | ml, engineer, pytorch, tensorflow, frameworks, implements, model, serving, feature, engineering, testing, monitoring |
 | `ml-pipeline-workflow` | Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment. | ml, pipeline | ml, pipeline, complete, mlops, orchestration, data, preparation, through, model, deployment |
 | `moodle-external-api-development` | This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards. | moodle, external, api | moodle, external, api, development, skill, guides, through, creating, custom, web, apis, lms |
+| `multi-agent-task-orchestrator` | Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring | multi-agent, orchestration, task-routing, quality-gates, anti-duplication | multi-agent, orchestration, task-routing, quality-gates, anti-duplication, multi, agent, task, orchestrator, route, tasks, specialized |
 | `multi-cloud-architecture` | Decision framework and patterns for architecting applications across AWS, Azure, and GCP. | multi, cloud, architecture | multi, cloud, architecture, decision, framework, architecting, applications, aws, azure, gcp |
 | `native-data-fetching` | Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline supp... | native, data, fetching | native, data, fetching, implementing, debugging, any, network, request, api, call, covers, fetch |
 | `observability-monitoring-monitor-setup` | You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing... | observability, monitoring, monitor, setup | observability, monitoring, monitor, setup, specializing, implementing, solutions, set, up, metrics, collection, distributed |

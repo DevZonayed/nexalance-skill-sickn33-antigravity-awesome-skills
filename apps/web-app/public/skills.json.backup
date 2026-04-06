@@ -18654,6 +18654,28 @@
     }
   },
   {
+    "id": "multi-agent-task-orchestrator",
+    "path": "skills/multi-agent-task-orchestrator",
+    "category": "agent-orchestration",
+    "name": "multi-agent-task-orchestrator",
+    "description": "Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-09",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "multi-cloud-architecture",
     "path": "skills/multi-cloud-architecture",
     "category": "cloud",

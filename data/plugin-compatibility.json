@@ -16217,6 +16217,25 @@
       "runtime_files": []
     },
     {
+      "id": "multi-agent-task-orchestrator",
+      "path": "skills/multi-agent-task-orchestrator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "multi-cloud-architecture",
       "path": "skills/multi-cloud-architecture",
       "targets": {
@@ -26287,10 +26306,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1375,
+    "total_skills": 1376,
     "supported": {
-      "codex": 1346,
-      "claude": 1361
+      "codex": 1347,
+      "claude": 1362
     },
     "blocked": {
       "codex": 29,

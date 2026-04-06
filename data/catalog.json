@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1375,
+  "total": 1376,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20866,6 +20866,34 @@
         "multiple"
       ],
       "path": "skills/multi-agent-patterns/SKILL.md"
+    },
+    {
+      "id": "multi-agent-task-orchestrator",
+      "name": "multi-agent-task-orchestrator",
+      "description": "Route tasks to specialized AI agents with anti-duplication, quality gates, and 30-minute heartbeat monitoring",
+      "category": "infrastructure",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "task-routing",
+        "quality-gates",
+        "anti-duplication"
+      ],
+      "triggers": [
+        "multi-agent",
+        "orchestration",
+        "task-routing",
+        "quality-gates",
+        "anti-duplication",
+        "multi",
+        "agent",
+        "task",
+        "orchestrator",
+        "route",
+        "tasks",
+        "specialized"
+      ],
+      "path": "skills/multi-agent-task-orchestrator/SKILL.md"
     },
     {
       "id": "multi-cloud-architecture",
