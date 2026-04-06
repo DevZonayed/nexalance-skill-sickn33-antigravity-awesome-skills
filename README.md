@@ -471,7 +471,6 @@ We officially thank the following contributors for their help in making this rep
 - [@Cerdore](https://github.com/Cerdore)
 - [@Wolfe-Jam](https://github.com/Wolfe-Jam)
 - [@jamescha-earley](https://github.com/jamescha-earley)
-- [@qcwssss](https://github.com/qcwssss)
 - [@ivankoriako](https://github.com/ivankoriako)
 - [@rcigor](https://github.com/rcigor)
 - [@hvasconcelos](https://github.com/hvasconcelos)
@@ -527,7 +526,6 @@ We officially thank the following contributors for their help in making this rep
 - [@JaskiratAnand](https://github.com/JaskiratAnand)
 - [@Al-Garadi](https://github.com/Al-Garadi)
 - [@olgasafonova](https://github.com/olgasafonova)
-- [@spideyashith](https://github.com/spideyashith)
 - [@tomjwxf](https://github.com/tomjwxf)
 
 ## Star History
