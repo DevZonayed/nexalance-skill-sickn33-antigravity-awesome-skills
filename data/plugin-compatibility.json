@@ -19159,6 +19159,25 @@
       "runtime_files": []
     },
     {
+      "id": "python-pptx-generator",
+      "path": "skills/python-pptx-generator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "python-pro",
       "path": "skills/python-pro",
       "targets": {
@@ -26230,10 +26249,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1372,
+    "total_skills": 1373,
     "supported": {
-      "codex": 1343,
-      "claude": 1358
+      "codex": 1344,
+      "claude": 1359
     },
     "blocked": {
       "codex": 29,

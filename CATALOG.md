@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1372
+Total skills: 1373
 
 ## architecture (88)
 
@@ -437,7 +437,7 @@ Total skills: 1372
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 | `zapier-make-patterns` | You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies... | zapier, make | zapier, make, no, code, automation, architect, who, built, thousands, zaps, scenarios, businesses |
 
-## development (185)
+## development (186)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -586,6 +586,7 @@ Total skills: 1372
 | `python-packaging` | Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI. | python, packaging | python, packaging, creating, structuring, distributing, packages, pyproject, toml, publishing, pypi |
 | `python-patterns` | Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying. | python | python, development, principles, decision, making, framework, selection, async, type, hints, structure, teaches |
 | `python-performance-optimization` | Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottleneck... | python, performance, optimization | python, performance, optimization, profile, optimize, code, cprofile, memory, profilers, debugging, slow, optimizing |
+| `python-pptx-generator` | Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content. | python, powerpoint, python-pptx, presentations, slide-decks | python, powerpoint, python-pptx, presentations, slide-decks, pptx, generator, generate, complete, scripts, polished, decks |
 | `python-pro` | Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem ... | python | python, pro, 12, features, async, programming, performance, optimization, latest, ecosystem, including, uv |
 | `python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites... | python | python, testing, pytest, fixtures, mocking, test, driven, development, writing, tests, setting, up |
 | `react-component-performance` | Diagnose slow React components and suggest targeted performance fixes. | react, component, performance | react, component, performance, diagnose, slow, components, suggest, targeted, fixes |
