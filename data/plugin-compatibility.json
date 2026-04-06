@@ -23464,6 +23464,25 @@
       "runtime_files": []
     },
     {
+      "id": "technical-change-tracker",
+      "path": "skills/technical-change-tracker",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "telegram",
       "path": "skills/telegram",
       "targets": {
@@ -26268,10 +26287,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1374,
+    "total_skills": 1375,
     "supported": {
-      "codex": 1345,
-      "claude": 1360
+      "codex": 1346,
+      "claude": 1361
     },
     "blocked": {
       "codex": 29,

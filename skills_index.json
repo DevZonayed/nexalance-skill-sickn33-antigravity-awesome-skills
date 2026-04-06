@@ -26965,6 +26965,28 @@
     }
   },
   {
+    "id": "technical-change-tracker",
+    "path": "skills/technical-change-tracker",
+    "category": "development",
+    "name": "technical-change-tracker",
+    "description": "Track code changes with structured JSON records, state machine enforcement, and AI session handoff for bot continuity",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "telegram",
     "path": "skills/telegram",
     "category": "backend",

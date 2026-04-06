@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1374
+Total skills: 1375
 
 ## architecture (88)
 
@@ -177,7 +177,7 @@ Total skills: 1374
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (255)
+## data-ai (256)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -414,6 +414,7 @@ Total skills: 1374
 | `swiftui-view-refactor` | Refactor SwiftUI views into smaller components with stable, explicit data flow. | swiftui, view, refactor | swiftui, view, refactor, views, smaller, components, stable, explicit, data, flow |
 | `tanstack-query-expert` | Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Ne... | tanstack, query | tanstack, query, react, asynchronous, state, covers, data, fetching, stale, time, configuration, mutations |
 | `team-collaboration-standup-notes` | You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remo... | team, collaboration, standup, notes | team, collaboration, standup, notes, communication, async, first, ai, assisted, note, generation, commit |
+| `technical-change-tracker` | Track code changes with structured JSON records, state machine enforcement, and AI session handoff for bot continuity | change-tracking, session-handoff, documentation, accessibility, state-machine | change-tracking, session-handoff, documentation, accessibility, state-machine, technical, change, tracker, track, code, changes, structured |
 | `travel-health-analyzer` | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 | travel, health, analyzer | travel, health, analyzer, who, cdc |
 | `uniprot-database` | Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bio... | uniprot, database | uniprot, database, direct, rest, api, access, protein, searches, fasta, retrieval, id, mapping |
 | `unity-ecs-patterns` | Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler. | unity, ecs | unity, ecs, data, oriented, technology, stack, dots, including, entity, component, job, burst |
