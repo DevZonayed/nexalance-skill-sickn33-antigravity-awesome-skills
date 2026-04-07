@@ -20261,6 +20261,25 @@
       "runtime_files": []
     },
     {
+      "id": "satori",
+      "path": "skills/satori",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "scala-pro",
       "path": "skills/scala-pro",
       "targets": {
@@ -26325,10 +26344,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1377,
+    "total_skills": 1378,
     "supported": {
-      "codex": 1348,
-      "claude": 1363
+      "codex": 1349,
+      "claude": 1364
     },
     "blocked": {
       "codex": 29,

@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1377
+Total skills: 1378
 
 ## architecture (91)
 
@@ -641,7 +641,7 @@ Total skills: 1377
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (336)
+## general (337)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -904,6 +904,7 @@ Total skills: 1377
 | `reverse-engineer` | Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and mod... | reverse | reverse, engineer, specializing, binary, analysis, disassembly, decompilation, software, masters, ida, pro, ghidra |
 | `robius-matrix-integration` | CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on: Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix, mat... | robius, matrix, integration | robius, matrix, integration, critical, sdk, makepad, triggers, sliding, sync, matrixrequest, timeline, client |
 | `sam-altman` | Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI. | persona, startups, agi, yc, fundraising | persona, startups, agi, yc, fundraising, sam, altman, agente, que, simula, ceo, da |
+| `satori` | Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner | mental-health, psychology, wisdom, philosophy, ifs, stoicism, jungian, conversation | mental-health, psychology, wisdom, philosophy, ifs, stoicism, jungian, conversation, satori, clinically, informed, companion |
 | `scarcity-urgency-psychologist` | One sentence - what this skill does and when to invoke it | scarcity, urgency, psychologist | scarcity, urgency, psychologist, one, sentence, what, skill, does, invoke |
 | `search-specialist` | Expert web researcher using advanced search techniques and | search | search, web, researcher, techniques |
 | `senior-architect` | Complete toolkit for senior architect with modern tools and best practices. | senior | senior, architect, complete, toolkit |

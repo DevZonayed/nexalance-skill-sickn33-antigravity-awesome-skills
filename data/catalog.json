@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1377,
+  "total": 1378,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -26050,6 +26050,37 @@
         "multiple"
       ],
       "path": "skills/sast-configuration/SKILL.md"
+    },
+    {
+      "id": "satori",
+      "name": "satori",
+      "description": "Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner",
+      "category": "general",
+      "tags": [
+        "mental-health",
+        "psychology",
+        "wisdom",
+        "philosophy",
+        "ifs",
+        "stoicism",
+        "jungian",
+        "conversation"
+      ],
+      "triggers": [
+        "mental-health",
+        "psychology",
+        "wisdom",
+        "philosophy",
+        "ifs",
+        "stoicism",
+        "jungian",
+        "conversation",
+        "satori",
+        "clinically",
+        "informed",
+        "companion"
+      ],
+      "path": "skills/satori/SKILL.md"
     },
     {
       "id": "scala-pro",
