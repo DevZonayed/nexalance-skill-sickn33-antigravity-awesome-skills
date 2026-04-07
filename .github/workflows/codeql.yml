@@ -26,6 +26,8 @@ jobs:
           # analyze them on GitHub-hosted runners without bespoke build steps.
           - language: actions
             build-mode: none
+          - language: c-cpp
+            build-mode: none
           - language: go
             build-mode: autobuild
           - language: java-kotlin
