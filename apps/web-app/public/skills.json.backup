@@ -11756,6 +11756,50 @@
     }
   },
   {
+    "id": "faf-expert",
+    "path": "skills/faf-expert",
+    "category": "coding",
+    "name": "faf-expert",
+    "description": "Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-07",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "faf-wizard",
+    "path": "skills/faf-wizard",
+    "category": "productivity",
+    "name": "faf-wizard",
+    "description": "Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-07",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "fal-audio",
     "path": "skills/fal-audio",
     "category": "voice-agents",

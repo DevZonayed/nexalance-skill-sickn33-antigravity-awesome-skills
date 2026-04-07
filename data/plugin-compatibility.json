@@ -10054,6 +10054,44 @@
       "runtime_files": []
     },
     {
+      "id": "faf-expert",
+      "path": "skills/faf-expert",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "faf-wizard",
+      "path": "skills/faf-wizard",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "fal-audio",
       "path": "skills/fal-audio",
       "targets": {
@@ -26363,10 +26401,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1379,
+    "total_skills": 1381,
     "supported": {
-      "codex": 1350,
-      "claude": 1365
+      "codex": 1352,
+      "claude": 1367
     },
     "blocked": {
       "codex": 29,

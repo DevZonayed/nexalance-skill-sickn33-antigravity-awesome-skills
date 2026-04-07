@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1379,
+  "total": 1381,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -12980,6 +12980,62 @@
         "swift"
       ],
       "path": "skills/expo-ui-swift-ui/SKILL.md"
+    },
+    {
+      "id": "faf-expert",
+      "name": "faf-expert",
+      "description": "Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.",
+      "category": "data-ai",
+      "tags": [
+        "faf",
+        "ai-context",
+        "project-management",
+        "mcp",
+        "iana"
+      ],
+      "triggers": [
+        "faf",
+        "ai-context",
+        "project-management",
+        "mcp",
+        "iana",
+        "foundational",
+        "ai",
+        "context",
+        "format",
+        "registered",
+        "server",
+        "config"
+      ],
+      "path": "skills/faf-expert/SKILL.md"
+    },
+    {
+      "id": "faf-wizard",
+      "name": "faf-wizard",
+      "description": "Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere.",
+      "category": "data-ai",
+      "tags": [
+        "faf",
+        "automation",
+        "project-setup",
+        "ai-context",
+        "productivity"
+      ],
+      "triggers": [
+        "faf",
+        "automation",
+        "project-setup",
+        "ai-context",
+        "productivity",
+        "wizard",
+        "done",
+        "generator",
+        "one",
+        "click",
+        "ai",
+        "context"
+      ],
+      "path": "skills/faf-wizard/SKILL.md"
     },
     {
       "id": "fal-audio",

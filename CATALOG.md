@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1379
+Total skills: 1381
 
 ## architecture (91)
 
@@ -181,7 +181,7 @@ Total skills: 1379
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (260)
+## data-ai (262)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -313,6 +313,8 @@ Total skills: 1379
 | `drizzle-orm-expert` | Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe databa... | drizzle, orm | drizzle, orm, typescript, schema, relational, queries, migrations, serverless, database, integration, building, type |
 | `dwarf-expert` | Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, ... | dwarf | dwarf, provides, expertise, analyzing, debug, files, understanding, format, standard, v3, v5, triggers |
 | `embedding-strategies` | Guide to selecting and optimizing embedding models for vector search applications. | embedding, strategies | embedding, strategies, selecting, optimizing, models, vector, search, applications |
+| `faf-expert` | Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync. | faf, ai-context, project-management, mcp, iana | faf, ai-context, project-management, mcp, iana, foundational, ai, context, format, registered, server, config |
+| `faf-wizard` | Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere. | faf, automation, project-setup, ai-context, productivity | faf, automation, project-setup, ai-context, productivity, wizard, done, generator, one, click, ai, context |
 | `fal-audio` | Text-to-speech and speech-to-text using fal.ai audio models | fal, audio | fal, audio, text, speech, ai, models |
 | `fal-generate` | Generate images and videos using fal.ai AI models | fal, generate | fal, generate, images, videos, ai, models |
 | `fal-image-edit` | AI-powered image editing with style transfer and object removal | fal, image, edit | fal, image, edit, ai, powered, editing, style, transfer, object, removal |
