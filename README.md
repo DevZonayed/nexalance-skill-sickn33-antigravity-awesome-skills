@@ -429,7 +429,6 @@ We officially thank the following contributors for their help in making this rep
 - [@vprudnikoff](https://github.com/vprudnikoff)
 - [@Vonfry](https://github.com/Vonfry)
 - [@wahidzzz](https://github.com/wahidzzz)
-- [@Wittlesus](https://github.com/Wittlesus)
 - [@vuth-dogo](https://github.com/vuth-dogo)
 - [@terryspitz](https://github.com/terryspitz)
 - [@Onsraa](https://github.com/Onsraa)
@@ -472,7 +471,6 @@ We officially thank the following contributors for their help in making this rep
 - [@antbotlab](https://github.com/antbotlab)
 - [@amalsam](https://github.com/amalsam)
 - [@ziuus](https://github.com/ziuus)
-- [@Cerdore](https://github.com/Cerdore)
 - [@Wolfe-Jam](https://github.com/Wolfe-Jam)
 - [@jamescha-earley](https://github.com/jamescha-earley)
 - [@ivankoriako](https://github.com/ivankoriako)
@@ -535,8 +533,6 @@ We officially thank the following contributors for their help in making this rep
 - [@spideyashith](https://github.com/spideyashith)
 - [@tomjwxf](https://github.com/tomjwxf)
 - [@globalchatapp](https://github.com/globalchatapp)
-- [@MetcalfSolutions](https://github.com/MetcalfSolutions)
-- [@warmskull](https://github.com/warmskull)
 
 ## Star History
 
