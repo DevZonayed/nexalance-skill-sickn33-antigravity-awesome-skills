@@ -533,6 +533,10 @@ We officially thank the following contributors for their help in making this rep
 - [@spideyashith](https://github.com/spideyashith)
 - [@tomjwxf](https://github.com/tomjwxf)
 - [@globalchatapp](https://github.com/globalchatapp)
+- [@Cerdore](https://github.com/Cerdore)
+- [@MetcalfSolutions](https://github.com/MetcalfSolutions)
+- [@warmskull](https://github.com/warmskull)
+- [@Wittlesus](https://github.com/Wittlesus)
 
 ## Star History
 
