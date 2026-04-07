@@ -28,7 +28,11 @@ function runCommand(cmd) {
 }
 
 function fetchText(url) {
-  return runCommand(`curl -fsSL --max-time 30 ${JSON.stringify(url)}`);
+  return cp.execFileSync("curl", ["-fsSL", "--max-time", "30", url], {
+    encoding: "utf8",
+    maxBuffer: 32 * 1024 * 1024,
+    cwd: ROOT,
+  });
 }
 
 function parseOptionalYaml(relPath) {
