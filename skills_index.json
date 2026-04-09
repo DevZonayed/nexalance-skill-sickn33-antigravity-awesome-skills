@@ -17836,6 +17836,30 @@
     }
   },
   {
+    "id": "manage-skills",
+    "path": "skills/manage-skills",
+    "category": "ai-ml",
+    "name": "manage-skills",
+    "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
+    }
+  },
+  {
     "id": "manifest",
     "path": "skills/manifest",
     "category": "uncategorized",

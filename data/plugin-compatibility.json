@@ -15523,6 +15523,31 @@
       "runtime_files": []
     },
     {
+      "id": "manage-skills",
+      "path": "skills/manage-skills",
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ],
+      "blocked_reasons": {
+        "codex": [
+          "target_specific_home_path"
+        ],
+        "claude": [
+          "target_specific_home_path"
+        ]
+      },
+      "runtime_files": []
+    },
+    {
       "id": "manifest",
       "path": "skills/manifest",
       "targets": {
@@ -26686,14 +26711,14 @@
     }
   ],
   "summary": {
-    "total_skills": 1396,
+    "total_skills": 1397,
     "supported": {
       "codex": 1367,
       "claude": 1382
     },
     "blocked": {
-      "codex": 29,
-      "claude": 14
+      "codex": 30,
+      "claude": 15
     },
     "manual_setup": 1
   }
