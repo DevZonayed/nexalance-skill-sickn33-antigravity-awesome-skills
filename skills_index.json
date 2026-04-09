@@ -18610,6 +18610,94 @@
     }
   },
   {
+    "id": "monte-carlo-monitor-creation",
+    "path": "skills/monte-carlo-monitor-creation",
+    "category": "data",
+    "name": "monte-carlo-monitor-creation",
+    "description": "Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-08",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "monte-carlo-prevent",
+    "path": "skills/monte-carlo-prevent",
+    "category": "data",
+    "name": "monte-carlo-prevent",
+    "description": "Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-08",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "monte-carlo-push-ingestion",
+    "path": "skills/monte-carlo-push-ingestion",
+    "category": "data",
+    "name": "monte-carlo-push-ingestion",
+    "description": "Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-08",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "monte-carlo-validation-notebook",
+    "path": "skills/monte-carlo-validation-notebook",
+    "category": "data",
+    "name": "monte-carlo-validation-notebook",
+    "description": "Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-08",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "moodle-external-api-development",
     "path": "skills/moodle-external-api-development",
     "category": "api-integration",

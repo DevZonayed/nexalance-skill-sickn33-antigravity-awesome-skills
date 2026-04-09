@@ -16179,6 +16179,82 @@
       "runtime_files": []
     },
     {
+      "id": "monte-carlo-monitor-creation",
+      "path": "skills/monte-carlo-monitor-creation",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "monte-carlo-prevent",
+      "path": "skills/monte-carlo-prevent",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "monte-carlo-push-ingestion",
+      "path": "skills/monte-carlo-push-ingestion",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "monte-carlo-validation-notebook",
+      "path": "skills/monte-carlo-validation-notebook",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "moodle-external-api-development",
       "path": "skills/moodle-external-api-development",
       "targets": {
@@ -26610,10 +26686,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1392,
+    "total_skills": 1396,
     "supported": {
-      "codex": 1363,
-      "claude": 1378
+      "codex": 1367,
+      "claude": 1382
     },
     "blocked": {
       "codex": 29,

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1392,
+  "total": 1396,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20827,6 +20827,117 @@
         "multiple"
       ],
       "path": "skills/monorepo-management/SKILL.md"
+    },
+    {
+      "id": "monte-carlo-monitor-creation",
+      "name": "monte-carlo-monitor-creation",
+      "description": "Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.",
+      "category": "infrastructure",
+      "tags": [
+        "data-observability",
+        "monitoring",
+        "monte-carlo",
+        "monitors-as-code"
+      ],
+      "triggers": [
+        "data-observability",
+        "monitoring",
+        "monte-carlo",
+        "monitors-as-code",
+        "monte",
+        "carlo",
+        "monitor",
+        "creation",
+        "guides",
+        "monitors",
+        "via",
+        "mcp"
+      ],
+      "path": "skills/monte-carlo-monitor-creation/SKILL.md"
+    },
+    {
+      "id": "monte-carlo-prevent",
+      "name": "monte-carlo-prevent",
+      "description": "Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits.",
+      "category": "infrastructure",
+      "tags": [
+        "data-observability",
+        "dbt",
+        "schema",
+        "monte-carlo",
+        "lineage"
+      ],
+      "triggers": [
+        "data-observability",
+        "dbt",
+        "schema",
+        "monte-carlo",
+        "lineage",
+        "monte",
+        "carlo",
+        "prevent",
+        "surfaces",
+        "data",
+        "observability",
+        "context"
+      ],
+      "path": "skills/monte-carlo-prevent/SKILL.md"
+    },
+    {
+      "id": "monte-carlo-push-ingestion",
+      "name": "monte-carlo-push-ingestion",
+      "description": "Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse.",
+      "category": "data-ai",
+      "tags": [
+        "data-observability",
+        "ingestion",
+        "monte-carlo",
+        "pycarlo",
+        "metadata"
+      ],
+      "triggers": [
+        "data-observability",
+        "ingestion",
+        "monte-carlo",
+        "pycarlo",
+        "metadata",
+        "monte",
+        "carlo",
+        "push",
+        "pushing",
+        "lineage",
+        "query",
+        "logs"
+      ],
+      "path": "skills/monte-carlo-push-ingestion/SKILL.md"
+    },
+    {
+      "id": "monte-carlo-validation-notebook",
+      "name": "monte-carlo-validation-notebook",
+      "description": "Generates SQL validation notebooks for dbt PR changes with before/after comparison queries.",
+      "category": "data-ai",
+      "tags": [
+        "data-observability",
+        "validation",
+        "dbt",
+        "monte-carlo",
+        "sql-notebook"
+      ],
+      "triggers": [
+        "data-observability",
+        "validation",
+        "dbt",
+        "monte-carlo",
+        "sql-notebook",
+        "monte",
+        "carlo",
+        "notebook",
+        "generates",
+        "sql",
+        "notebooks",
+        "pr"
+      ],
+      "path": "skills/monte-carlo-validation-notebook/SKILL.md"
     },
     {
       "id": "moodle-external-api-development",

@@ -94,6 +94,8 @@
     "llm-application-optimize": "llm-application-dev-prompt-optimize",
     "machine-learning-pipeline": "machine-learning-ops-ml-pipeline",
     "microsoft-azure-dotnet": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+    "monte-carlo-creation": "monte-carlo-monitor-creation",
+    "monte-carlo-notebook": "monte-carlo-validation-notebook",
     "moodle-external-development": "moodle-external-api-development",
     "multi-agent-orchestrator": "multi-agent-task-orchestrator",
     "multi-platform-apps": "multi-platform-apps-multi-platform",
