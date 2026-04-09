@@ -538,6 +538,7 @@ We officially thank the following contributors for their help in making this rep
 - [@MetcalfSolutions](https://github.com/MetcalfSolutions)
 - [@warmskull](https://github.com/warmskull)
 - [@Wittlesus](https://github.com/Wittlesus)
+- [@digitamaz](https://github.com/digitamaz)
 
 ## Star History
 
