@@ -535,7 +535,6 @@ We officially thank the following contributors for their help in making this rep
 - [@qcwssss](https://github.com/qcwssss)
 - [@spideyashith](https://github.com/spideyashith)
 - [@tomjwxf](https://github.com/tomjwxf)
-- [@globalchatapp](https://github.com/globalchatapp)
 - [@Cerdore](https://github.com/Cerdore)
 - [@MetcalfSolutions](https://github.com/MetcalfSolutions)
 - [@warmskull](https://github.com/warmskull)
