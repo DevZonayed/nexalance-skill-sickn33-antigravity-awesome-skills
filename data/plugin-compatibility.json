@@ -22276,6 +22276,31 @@
       "runtime_files": []
     },
     {
+      "id": "skill-optimizer",
+      "path": "skills/skill-optimizer",
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ],
+      "blocked_reasons": {
+        "codex": [
+          "target_specific_home_path"
+        ],
+        "claude": [
+          "target_specific_home_path"
+        ]
+      },
+      "runtime_files": []
+    },
+    {
       "id": "skill-rails-upgrade",
       "path": "skills/skill-rails-upgrade",
       "targets": {
@@ -26768,14 +26793,14 @@
     }
   ],
   "summary": {
-    "total_skills": 1400,
+    "total_skills": 1401,
     "supported": {
       "codex": 1370,
       "claude": 1385
     },
     "blocked": {
-      "codex": 30,
-      "claude": 15
+      "codex": 31,
+      "claude": 16
     },
     "manual_setup": 1
   }

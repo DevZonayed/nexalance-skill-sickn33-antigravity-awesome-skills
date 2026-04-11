@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1400
+Total skills: 1401
 
 ## architecture (94)
 
@@ -184,7 +184,7 @@ Total skills: 1400
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (265)
+## data-ai (266)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -417,6 +417,7 @@ Total skills: 1400
 | `seo-schema` | Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says "schema", "structured data", "rich results", "JSON-LD... | seo, schema | seo, schema, detect, validate, generate, org, structured, data, json, ld, format, preferred |
 | `similarity-search-patterns` | Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieva... | similarity, search | similarity, search, efficient, vector, databases, building, semantic, implementing, nearest, neighbor, queries, optimizing |
 | `skill-creator-ms` | Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating exi... | skill, creator, ms | skill, creator, ms, creating, effective, skills, ai, coding, agents, working, azure, sdks |
+| `skill-optimizer` | Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills... | skill, optimizer | skill, optimizer, diagnose, optimize, agent, skills, md, real, session, data, research, backed |
 | `skill-seekers` | -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. | skill, seekers | skill, seekers, automatically, convert, documentation, websites, github, repositories, pdfs, claude, ai, skills |
 | `skin-health-analyzer` | Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medi... | skin, health, analyzer | skin, health, analyzer, analyze, data, identify, problem, assess, status, supports, correlation, analysis |
 | `spark-optimization` | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or... | spark, optimization | spark, optimization, optimize, apache, jobs, partitioning, caching, shuffle, memory, tuning, improving, performance |
