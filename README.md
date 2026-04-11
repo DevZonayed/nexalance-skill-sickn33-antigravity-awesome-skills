@@ -543,8 +543,6 @@ We officially thank the following contributors for their help in making this rep
 - [@digitamaz](https://github.com/digitamaz)
 - [@cryptoque](https://github.com/cryptoque)
 - [@umutbozdag](https://github.com/umutbozdag)
-- [@fruitwyatt](https://github.com/fruitwyatt)
-- [@playbookTV](https://github.com/playbookTV)
 
 ## Star History
 
