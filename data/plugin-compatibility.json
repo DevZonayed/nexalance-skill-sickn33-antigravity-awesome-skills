@@ -19222,6 +19222,25 @@
       "runtime_files": []
     },
     {
+      "id": "puzzle-activity-planner",
+      "path": "skills/puzzle-activity-planner",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "pydantic-ai",
       "path": "skills/pydantic-ai",
       "targets": {
@@ -26749,10 +26768,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1399,
+    "total_skills": 1400,
     "supported": {
-      "codex": 1369,
-      "claude": 1384
+      "codex": 1370,
+      "claude": 1385
     },
     "blocked": {
       "codex": 30,

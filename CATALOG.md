@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1399
+Total skills: 1400
 
-## architecture (93)
+## architecture (94)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -75,6 +75,7 @@ Total skills: 1399
 | `production-code-audit` | Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-le... | production, code, audit | production, code, audit, autonomously, deep, scan, entire, codebase, line, understand, architecture, then |
 | `projection-patterns` | Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in ... | projection | projection, read, models, projections, event, streams, implementing, cqrs, sides, building, materialized, views |
 | `prompt-engineering` | Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies,... | prompt, engineering | prompt, engineering, optimization, techniques, user, wants, improve, prompts, learn, prompting, debug, agent |
+| `puzzle-activity-planner` | Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links | education, puzzle, classroom, activity-planning, event | education, puzzle, classroom, activity-planning, event, activity, planner, plan, activities, classrooms, parties, events |
 | `radix-ui-design-system` | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for productio... | radix, ui | radix, ui, accessible, primitives, headless, component, customization, theming, compound, grade, libraries |
 | `robius-app-architecture` | CRITICAL: Use for Robius app architecture patterns. Triggers on: Tokio, async, submit_async_request, 异步, 架构, SignalToUI, Cx::post_action, worker task, app st... | robius, app, architecture | robius, app, architecture, critical, triggers, tokio, async, submit, request, signaltoui, cx, post |
 | `robius-event-action` | CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widge... | robius, event, action | robius, event, action, critical, triggers, custom, matchevent, post, cx, widget, handle, actions |
