@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1402,
+  "total": 1404,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -9007,6 +9007,33 @@
         "uncover"
       ],
       "path": "skills/codebase-cleanup-tech-debt/SKILL.md"
+    },
+    {
+      "id": "codebase-to-wordpress-converter",
+      "name": "codebase-to-wordpress-converter",
+      "description": "Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.",
+      "category": "development",
+      "tags": [
+        "codebase",
+        "to",
+        "wordpress",
+        "converter"
+      ],
+      "triggers": [
+        "codebase",
+        "to",
+        "wordpress",
+        "converter",
+        "skill",
+        "converting",
+        "any",
+        "react",
+        "html",
+        "next",
+        "js",
+        "pixel"
+      ],
+      "path": "skills/codebase-to-wordpress-converter/SKILL.md"
     },
     {
       "id": "codex-review",
@@ -33119,6 +33146,33 @@
         "streaming"
       ],
       "path": "skills/voice-ai-engine-development/SKILL.md"
+    },
+    {
+      "id": "vscode-extension-guide-en",
+      "name": "vscode-extension-guide-en",
+      "description": "Guide for VS Code extension development from scaffolding to Marketplace publication",
+      "category": "development",
+      "tags": [
+        "vscode",
+        "extension",
+        "ide",
+        "typescript",
+        "marketplace"
+      ],
+      "triggers": [
+        "vscode",
+        "extension",
+        "ide",
+        "typescript",
+        "marketplace",
+        "en",
+        "vs",
+        "code",
+        "development",
+        "scaffolding",
+        "publication"
+      ],
+      "path": "skills/vscode-extension-guide-en/SKILL.md"
     },
     {
       "id": "vulnerability-scanner",

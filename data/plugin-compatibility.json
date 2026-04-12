@@ -6873,6 +6873,25 @@
       "runtime_files": []
     },
     {
+      "id": "codebase-to-wordpress-converter",
+      "path": "skills/codebase-to-wordpress-converter",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "codex-review",
       "path": "skills/codex-review",
       "targets": {
@@ -25747,6 +25766,25 @@
       "runtime_files": []
     },
     {
+      "id": "vscode-extension-guide-en",
+      "path": "skills/vscode-extension-guide-en",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "vulnerability-scanner",
       "path": "skills/vulnerability-scanner",
       "targets": {
@@ -26812,10 +26850,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1402,
+    "total_skills": 1404,
     "supported": {
-      "codex": 1371,
-      "claude": 1386
+      "codex": 1373,
+      "claude": 1388
     },
     "blocked": {
       "codex": 31,

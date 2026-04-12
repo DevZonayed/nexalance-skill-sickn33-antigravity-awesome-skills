@@ -42,6 +42,7 @@
     "code-refactoring-restore": "code-refactoring-context-restore",
     "code-refactoring-clean": "code-refactoring-refactor-clean",
     "codebase-cleanup-clean": "codebase-cleanup-refactor-clean",
+    "codebase-to-converter": "codebase-to-wordpress-converter",
     "comprehensive-review-full": "comprehensive-review-full-review",
     "comprehensive-review-enhance": "comprehensive-review-pr-enhance",
     "context-management-restore": "context-management-context-restore",
