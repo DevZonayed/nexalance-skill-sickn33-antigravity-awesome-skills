@@ -15564,6 +15564,28 @@
     }
   },
   {
+    "id": "indexing-issue-auditor",
+    "path": "skills/indexing-issue-auditor",
+    "category": "growth",
+    "name": "indexing-issue-auditor",
+    "description": "High-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-04-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "infinite-gratitude",
     "path": "skills/infinite-gratitude",
     "category": "ai-ml",

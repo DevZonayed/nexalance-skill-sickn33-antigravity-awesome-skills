@@ -13459,6 +13459,25 @@
       "runtime_files": []
     },
     {
+      "id": "indexing-issue-auditor",
+      "path": "skills/indexing-issue-auditor",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "infinite-gratitude",
       "path": "skills/infinite-gratitude",
       "targets": {
@@ -26926,10 +26945,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1408,
+    "total_skills": 1409,
     "supported": {
-      "codex": 1377,
-      "claude": 1392
+      "codex": 1378,
+      "claude": 1393
     },
     "blocked": {
       "codex": 31,

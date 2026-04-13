@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1408
+Total skills: 1409
 
-## architecture (94)
+## architecture (95)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -56,6 +56,7 @@ Total skills: 1408
 | `godot-gdscript-patterns` | Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or le... | godot, gdscript | godot, gdscript, including, signals, scenes, state, machines, optimization, building, games, implementing, game |
 | `hig-patterns` | Apple Human Interface Guidelines interaction and UX patterns. | hig | hig, apple, human, interface, guidelines, interaction, ux |
 | `i18n-localization` | Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. | i18n, localization | i18n, localization, internationalization, detecting, hardcoded, strings, managing, translations, locale, files, rtl |
+| `indexing-issue-auditor` | High-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors. | seo, architecture, indexing, crawler, sitemap | seo, architecture, indexing, crawler, sitemap, issue, auditor, high, level, technical, site, invoke |
 | `inngest` | Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. | inngest | inngest, serverless, first, background, jobs, event, driven, durable, execution, without, managing, queues |
 | `kotlin-coroutines-expert` | Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing. | kotlin, coroutines | kotlin, coroutines, flow, covering, structured, concurrency, error, handling, testing |
 | `kpi-dashboard-design` | Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions. | kpi, dashboard | kpi, dashboard, designing, effective, key, performance, indicator, dashboards, drive, business, decisions |
