@@ -553,6 +553,8 @@ We officially thank the following contributors for their help in making this rep
 - [@HMAKT99](https://github.com/HMAKT99)
 - [@nickdesi](https://github.com/nickdesi)
 - [@connerlambden](https://github.com/connerlambden)
+- [@1bcMax](https://github.com/1bcMax)
+- [@zhangyanxs](https://github.com/zhangyanxs)
 
 ## Star History
 
