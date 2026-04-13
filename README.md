@@ -551,7 +551,6 @@ We officially thank the following contributors for their help in making this rep
 - [@sebastiondev](https://github.com/sebastiondev)
 - [@WHOISABHISHEKADHIKARI](https://github.com/WHOISABHISHEKADHIKARI)
 - [@HMAKT99](https://github.com/HMAKT99)
-- [@zhangyanxs](https://github.com/zhangyanxs)
 
 ## Star History
 
