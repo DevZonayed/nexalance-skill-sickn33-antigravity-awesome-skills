@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1405
+Total skills: 1406
 
 ## architecture (94)
 
@@ -661,7 +661,7 @@ Total skills: 1405
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (341)
+## general (342)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -689,6 +689,7 @@ Total skills: 1405
 | `awareness-stage-mapper` | One sentence - what this skill does and when to invoke it | awareness, stage, mapper | awareness, stage, mapper, one, sentence, what, skill, does, invoke |
 | `aws-cost-cleanup` | Automated cleanup of unused AWS resources to reduce costs | aws, cost, cleanup | aws, cost, cleanup, automated, unused, resources, reduce, costs |
 | `aws-cost-optimizer` | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer | aws, cost, optimizer | aws, cost, optimizer, analysis, optimization, recommendations, cli, explorer |
+| `axiom` | First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebui... | axiom | axiom, first, principles, assumption, auditor, classifies, each, hidden, fact, convention, belief, interest |
 | `azure-appconfiguration-ts` | Centralized configuration management with feature flags and dynamic refresh. | azure, appconfiguration, ts | azure, appconfiguration, ts, centralized, configuration, feature, flags, dynamic, refresh |
 | `azure-identity-ts` | Authenticate to Azure services with various credential types. | azure, identity, ts | azure, identity, ts, authenticate, various, credential, types |
 | `azure-servicebus-ts` | Enterprise messaging with queues, topics, and subscriptions. | azure, servicebus, ts | azure, servicebus, ts, enterprise, messaging, queues, topics, subscriptions |

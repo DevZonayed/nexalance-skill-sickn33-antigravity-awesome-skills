@@ -2898,6 +2898,28 @@
     }
   },
   {
+    "id": "axiom",
+    "path": "skills/axiom",
+    "category": "uncategorized",
+    "name": "axiom",
+    "description": "First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility \u00d7 impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "azd-deployment",
     "path": "skills/azd-deployment",
     "category": "cloud",

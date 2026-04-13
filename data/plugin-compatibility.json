@@ -2433,6 +2433,25 @@
       "runtime_files": []
     },
     {
+      "id": "axiom",
+      "path": "skills/axiom",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "azd-deployment",
       "path": "skills/azd-deployment",
       "targets": {
@@ -26869,10 +26888,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1405,
+    "total_skills": 1406,
     "supported": {
-      "codex": 1374,
-      "claude": 1389
+      "codex": 1375,
+      "claude": 1390
     },
     "blocked": {
       "codex": 31,

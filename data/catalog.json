@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1405,
+  "total": 1406,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -3148,6 +3148,30 @@
         "scenarios"
       ],
       "path": "skills/awt-e2e-testing/SKILL.md"
+    },
+    {
+      "id": "axiom",
+      "name": "axiom",
+      "description": "First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.",
+      "category": "general",
+      "tags": [
+        "axiom"
+      ],
+      "triggers": [
+        "axiom",
+        "first",
+        "principles",
+        "assumption",
+        "auditor",
+        "classifies",
+        "each",
+        "hidden",
+        "fact",
+        "convention",
+        "belief",
+        "interest"
+      ],
+      "path": "skills/axiom/SKILL.md"
     },
     {
       "id": "azd-deployment",
