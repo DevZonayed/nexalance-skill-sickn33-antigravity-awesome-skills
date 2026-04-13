@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1407,
+  "total": 1408,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -16020,6 +16020,36 @@
         "echarts"
       ],
       "path": "skills/health-trend-analyzer/SKILL.md"
+    },
+    {
+      "id": "helium-mcp",
+      "name": "helium-mcp",
+      "description": "Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources",
+      "category": "data-ai",
+      "tags": [
+        "mcp",
+        "news",
+        "media-bias",
+        "stocks",
+        "options",
+        "finance",
+        "research"
+      ],
+      "triggers": [
+        "mcp",
+        "news",
+        "media-bias",
+        "stocks",
+        "options",
+        "finance",
+        "research",
+        "helium",
+        "connect",
+        "server",
+        "media",
+        "bias"
+      ],
+      "path": "skills/helium-mcp/SKILL.md"
     },
     {
       "id": "helm-chart-scaffolding",

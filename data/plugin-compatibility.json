@@ -12429,6 +12429,25 @@
       "runtime_files": []
     },
     {
+      "id": "helium-mcp",
+      "path": "skills/helium-mcp",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "helm-chart-scaffolding",
       "path": "skills/helm-chart-scaffolding",
       "targets": {
@@ -26907,10 +26926,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1407,
+    "total_skills": 1408,
     "supported": {
-      "codex": 1376,
-      "claude": 1391
+      "codex": 1377,
+      "claude": 1392
     },
     "blocked": {
       "codex": 31,

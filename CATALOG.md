@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1407
+Total skills: 1408
 
 ## architecture (94)
 
@@ -186,7 +186,7 @@ Total skills: 1407
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (267)
+## data-ai (268)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -341,6 +341,7 @@ Total skills: 1407
 | `google-analytics-automation` | Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for cu... | google, analytics | google, analytics, automation, automate, tasks, via, rube, mcp, composio, run, reports, list |
 | `googlesheets-automation` | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting,... | googlesheets | googlesheets, automation, automate, google, sheets, operations, read, write, format, filter, spreadsheets, via |
 | `graphql` | GraphQL gives clients exactly the data they need - no more, no less. One endpoint, typed schema, introspection. But the flexibility that makes it powerful al... | graphql | graphql, gives, clients, exactly, data, no, less, one, endpoint, typed, schema, introspection |
+| `helium-mcp` | Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ artic... | mcp, news, media-bias, stocks, options, finance, research | mcp, news, media-bias, stocks, options, finance, research, helium, connect, server, media, bias |
 | `hosted-agents-v2-py` | Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry. | hosted, agents, v2, py | hosted, agents, v2, py, azure, ai, sdk, imagebasedhostedagentdefinition, creating, container, foundry |
 | `hugging-face-community-evals` | Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval. | hugging, face, community, evals | hugging, face, community, evals, run, local, evaluations, hub, models, inspect, ai, lighteval |
 | `hugging-face-datasets` | Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset qu... | hugging, face, datasets | hugging, face, datasets, hub, supports, initializing, repos, defining, configs, prompts, streaming, row |
