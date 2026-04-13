@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1404
+Total skills: 1405
 
 ## architecture (94)
 
@@ -103,7 +103,7 @@ Total skills: 1404
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (77)
+## business (78)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -133,6 +133,7 @@ Total skills: 1404
 | `launch-strategy` | You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and co... | launch | launch, saas, product, launches, feature, announcements, goal, users, plan, momentum, capture, attention |
 | `leiloeiro-juridico` | Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia. | legal, auction-law, brazilian, judicial | legal, auction-law, brazilian, judicial, leiloeiro, juridico, analise, juridica, de, leiloes, nulidades, bem |
 | `linkedin-cli` | Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator. | linkedin, cli | linkedin, cli, automating, via, fetch, profiles, search, people, companies, send, messages, connections |
+| `linkedin-profile-optimizer` | High-intent expert for LinkedIn profile checks, authority building, and SEO optimization. Invoke to audit, rewrite, and enhance profiles for top 1% positioning. | linkedin, branding, career, growth, personal-brand | linkedin, branding, career, growth, personal-brand, profile, optimizer, high, intent, checks, authority, building |
 | `local-legal-seo-audit` | Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directorie... | local, legal, seo, audit | local, legal, seo, audit, improve, law, firms, attorneys, forensic, experts, professional, sites |
 | `market-sizing-analysis` | Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Mark... | market, sizing | market, sizing, analysis, methodologies, calculating, total, addressable, tam, serviceable, available, sam, obtainable |
 | `marketing-ideas` | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. | marketing, ideas | marketing, ideas, provide, proven, growth, saas, software, products, prioritized, feasibility, scoring |

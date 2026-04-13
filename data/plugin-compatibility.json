@@ -14740,6 +14740,25 @@
       "runtime_files": []
     },
     {
+      "id": "linkedin-profile-optimizer",
+      "path": "skills/linkedin-profile-optimizer",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "linkerd-patterns",
       "path": "skills/linkerd-patterns",
       "targets": {
@@ -26850,10 +26869,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1404,
+    "total_skills": 1405,
     "supported": {
-      "codex": 1373,
-      "claude": 1388
+      "codex": 1374,
+      "claude": 1389
     },
     "blocked": {
       "codex": 31,

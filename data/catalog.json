@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1404,
+  "total": 1405,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -18991,6 +18991,34 @@
         "connections"
       ],
       "path": "skills/linkedin-cli/SKILL.md"
+    },
+    {
+      "id": "linkedin-profile-optimizer",
+      "name": "linkedin-profile-optimizer",
+      "description": "High-intent expert for LinkedIn profile checks, authority building, and SEO optimization. Invoke to audit, rewrite, and enhance profiles for top 1% positioning.",
+      "category": "business",
+      "tags": [
+        "linkedin",
+        "branding",
+        "career",
+        "growth",
+        "personal-brand"
+      ],
+      "triggers": [
+        "linkedin",
+        "branding",
+        "career",
+        "growth",
+        "personal-brand",
+        "profile",
+        "optimizer",
+        "high",
+        "intent",
+        "checks",
+        "authority",
+        "building"
+      ],
+      "path": "skills/linkedin-profile-optimizer/SKILL.md"
     },
     {
       "id": "linkerd-patterns",

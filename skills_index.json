@@ -16932,6 +16932,28 @@
     }
   },
   {
+    "id": "linkedin-profile-optimizer",
+    "path": "skills/linkedin-profile-optimizer",
+    "category": "growth",
+    "name": "linkedin-profile-optimizer",
+    "description": "High-intent expert for LinkedIn profile checks, authority building, and SEO optimization. Invoke to audit, rewrite, and enhance profiles for top 1% positioning.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-04-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "linkerd-patterns",
     "path": "skills/linkerd-patterns",
     "category": "uncategorized",
