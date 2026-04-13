@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1406
+Total skills: 1407
 
 ## architecture (94)
 
@@ -186,7 +186,7 @@ Total skills: 1406
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (266)
+## data-ai (267)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -456,6 +456,7 @@ Total skills: 1406
 | `yann-lecun` | Agente que simula Yann LeCun — inventor das Convolutional Neural Networks, Chief AI Scientist da Meta, Prêmio Turing 2018. | persona, cnn, meta, ai-safety-critic, open-source | persona, cnn, meta, ai-safety-critic, open-source, yann, lecun, agente, que, simula, inventor, das |
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
+| `zipai-optimizer` | Behavioral protocol engineered for extreme AI agent token optimization, eliminating I/O noise via context-aware truncation and strict conciseness. | zipai, optimizer | zipai, optimizer, behavioral, protocol, engineered, extreme, ai, agent, token, optimization, eliminating, noise |
 
 ## development (199)
 

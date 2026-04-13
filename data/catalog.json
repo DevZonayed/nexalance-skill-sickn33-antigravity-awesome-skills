@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1406,
+  "total": 1407,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -34488,6 +34488,31 @@
         "compiler"
       ],
       "path": "skills/zeroize-audit/SKILL.md"
+    },
+    {
+      "id": "zipai-optimizer",
+      "name": "zipai-optimizer",
+      "description": "Behavioral protocol engineered for extreme AI agent token optimization, eliminating I/O noise via context-aware truncation and strict conciseness.",
+      "category": "data-ai",
+      "tags": [
+        "zipai",
+        "optimizer"
+      ],
+      "triggers": [
+        "zipai",
+        "optimizer",
+        "behavioral",
+        "protocol",
+        "engineered",
+        "extreme",
+        "ai",
+        "agent",
+        "token",
+        "optimization",
+        "eliminating",
+        "noise"
+      ],
+      "path": "skills/zipai-optimizer/SKILL.md"
     },
     {
       "id": "zod-validation-expert",

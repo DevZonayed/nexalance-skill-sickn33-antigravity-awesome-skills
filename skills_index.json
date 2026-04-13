@@ -30911,6 +30911,28 @@
     }
   },
   {
+    "id": "zipai-optimizer",
+    "path": "skills/zipai-optimizer",
+    "category": "agent-behavior",
+    "name": "zipai-optimizer",
+    "description": "Behavioral protocol engineered for extreme AI agent token optimization, eliminating I/O noise via context-aware truncation and strict conciseness.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "zod-validation-expert",
     "path": "skills/zod-validation-expert",
     "category": "framework",
