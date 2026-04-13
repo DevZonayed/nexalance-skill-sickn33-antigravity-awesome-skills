@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Backfilled missing `## Limitations` sections across canonical skills and generated plugin mirrors, eliminating the repo-wide `missing_limitations` audit finding tracked by issue `#499`.
+- Added regression coverage for repo-wide limitations auditing and extended the section repair script plus contributor templates so future skill additions include explicit constraints.
+
 ## [10.0.0] - 2026-04-13 - "Audit Skills, Protocols, and Web App Branding"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
