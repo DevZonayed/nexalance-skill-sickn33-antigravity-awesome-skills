@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1409,
+  "total": 1410,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20775,6 +20775,31 @@
         "kubeflow"
       ],
       "path": "skills/mlops-engineer/SKILL.md"
+    },
+    {
+      "id": "mmx-cli",
+      "name": "mmx-cli",
+      "description": "Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.",
+      "category": "data-ai",
+      "tags": [
+        "mmx",
+        "cli"
+      ],
+      "triggers": [
+        "mmx",
+        "cli",
+        "generate",
+        "text",
+        "images",
+        "video",
+        "speech",
+        "music",
+        "via",
+        "minimax",
+        "ai",
+        "platform"
+      ],
+      "path": "skills/mmx-cli/SKILL.md"
     },
     {
       "id": "mobile-design",

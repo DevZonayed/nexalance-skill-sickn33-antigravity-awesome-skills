@@ -16122,6 +16122,25 @@
       "runtime_files": []
     },
     {
+      "id": "mmx-cli",
+      "path": "skills/mmx-cli",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "mobile-design",
       "path": "skills/mobile-design",
       "targets": {
@@ -26945,10 +26964,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1409,
+    "total_skills": 1410,
     "supported": {
-      "codex": 1378,
-      "claude": 1393
+      "codex": 1379,
+      "claude": 1394
     },
     "blocked": {
       "codex": 31,
