@@ -555,6 +555,7 @@ We officially thank the following contributors for their help in making this rep
 - [@connerlambden](https://github.com/connerlambden)
 - [@1bcMax](https://github.com/1bcMax)
 - [@zhangyanxs](https://github.com/zhangyanxs)
+- [@818cortex](https://github.com/818cortex)
 
 ## Star History
 
