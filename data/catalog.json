@@ -34575,8 +34575,8 @@
     {
       "id": "zipai-optimizer",
       "name": "zipai-optimizer",
-      "description": "Behavioral protocol engineered for extreme AI agent token optimization, eliminating I/O noise via context-aware truncation and strict conciseness.",
-      "category": "data-ai",
+      "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.",
+      "category": "general",
       "tags": [
         "zipai",
         "optimizer"
@@ -34584,16 +34584,16 @@
       "triggers": [
         "zipai",
         "optimizer",
-        "behavioral",
-        "protocol",
-        "engineered",
-        "extreme",
-        "ai",
-        "agent",
+        "adaptive",
         "token",
-        "optimization",
-        "eliminating",
-        "noise"
+        "intelligent",
+        "filtering",
+        "surgical",
+        "output",
+        "ambiguity",
+        "first",
+        "context",
+        "window"
       ],
       "path": "skills/zipai-optimizer/SKILL.md"
     },

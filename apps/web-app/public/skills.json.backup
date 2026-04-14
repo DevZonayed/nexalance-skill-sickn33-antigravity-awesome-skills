@@ -30981,7 +30981,7 @@
     "path": "skills/zipai-optimizer",
     "category": "agent-behavior",
     "name": "zipai-optimizer",
-    "description": "Behavioral protocol engineered for extreme AI agent token optimization, eliminating I/O noise via context-aware truncation and strict conciseness.",
+    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.",
     "risk": "safe",
     "source": "unknown",
     "date_added": null,
