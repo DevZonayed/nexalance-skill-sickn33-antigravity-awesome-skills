@@ -275,6 +275,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[openai/skills](https://github.com/openai/skills)**: OpenAI Codex skills catalog - Agent skills, Skill Creator, Concise Planning.
 - **[supabase/agent-skills](https://github.com/supabase/agent-skills)**: Supabase official skills - Postgres Best Practices.
 - **[microsoft/skills](https://github.com/microsoft/skills)**: Official Microsoft skills - Azure cloud services, Bot Framework, Cognitive Services, and enterprise development patterns across .NET, Python, TypeScript, Go, Rust, and Java.
+- **[MiniMax-AI/cli](https://github.com/MiniMax-AI/cli)**: Official MiniMax CLI - text, image, video, speech, music, vision, and web-search workflows for MiniMax models and APIs.
 - **[google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)**: Official Gemini skills - Gemini API, SDK and model interactions.
 - **[apify/agent-skills](https://github.com/apify/agent-skills)**: Official Apify skills - Web scraping, data extraction and automation.
 - **[expo/skills](https://github.com/expo/skills)**: Official Expo skills - Expo project workflows and Expo Application Services guidance.
@@ -556,6 +557,7 @@ We officially thank the following contributors for their help in making this rep
 - [@1bcMax](https://github.com/1bcMax)
 - [@zhangyanxs](https://github.com/zhangyanxs)
 - [@818cortex](https://github.com/818cortex)
+- [@octo-patch](https://github.com/octo-patch)
 
 ## Star History
 
