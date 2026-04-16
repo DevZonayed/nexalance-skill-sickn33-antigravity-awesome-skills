@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1411,
+  "total": 1412,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -18327,6 +18327,42 @@
         "configurations"
       ],
       "path": "skills/kubernetes-deployment/SKILL.md"
+    },
+    {
+      "id": "lambdatest-agent-skills",
+      "name": "lambdatest-agent-skills",
+      "description": "Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in 15+ languages.",
+      "category": "infrastructure",
+      "tags": [
+        "testing",
+        "test-automation",
+        "e2e",
+        "unit-testing",
+        "mobile-testing",
+        "bdd",
+        "selenium",
+        "playwright",
+        "cypress",
+        "jest",
+        "pytest",
+        "appium",
+        "lambdatest"
+      ],
+      "triggers": [
+        "testing",
+        "test-automation",
+        "e2e",
+        "unit-testing",
+        "mobile-testing",
+        "bdd",
+        "selenium",
+        "playwright",
+        "cypress",
+        "jest",
+        "pytest",
+        "appium"
+      ],
+      "path": "skills/lambdatest-agent-skills/SKILL.md"
     },
     {
       "id": "landing-page-generator",

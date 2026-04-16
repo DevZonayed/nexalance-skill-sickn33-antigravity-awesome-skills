@@ -14219,6 +14219,25 @@
       "runtime_files": []
     },
     {
+      "id": "lambdatest-agent-skills",
+      "path": "skills/lambdatest-agent-skills",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "landing-page-generator",
       "path": "skills/landing-page-generator",
       "targets": {
@@ -26983,10 +27002,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1411,
+    "total_skills": 1412,
     "supported": {
-      "codex": 1380,
-      "claude": 1395
+      "codex": 1381,
+      "claude": 1396
     },
     "blocked": {
       "codex": 31,

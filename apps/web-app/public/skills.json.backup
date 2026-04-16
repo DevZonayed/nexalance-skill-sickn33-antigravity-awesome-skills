@@ -16444,6 +16444,28 @@
     }
   },
   {
+    "id": "lambdatest-agent-skills",
+    "path": "skills/lambdatest-agent-skills",
+    "category": "testing",
+    "name": "lambdatest-agent-skills",
+    "description": "Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in 15+ languages.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "landing-page-generator",
     "path": "skills/landing-page-generator",
     "category": "front-end",
