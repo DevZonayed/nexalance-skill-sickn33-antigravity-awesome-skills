@@ -559,6 +559,7 @@ We officially thank the following contributors for their help in making this rep
 - [@818cortex](https://github.com/818cortex)
 - [@octo-patch](https://github.com/octo-patch)
 - [@fruitwyatt](https://github.com/fruitwyatt)
+- [@jiawei248](https://github.com/jiawei248)
 
 ## Star History
 
