@@ -560,6 +560,7 @@ We officially thank the following contributors for their help in making this rep
 - [@octo-patch](https://github.com/octo-patch)
 - [@fruitwyatt](https://github.com/fruitwyatt)
 - [@jiawei248](https://github.com/jiawei248)
+- [@tanveer-farooq](https://github.com/tanveer-farooq)
 
 ## Star History
 
