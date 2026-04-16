@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1410
+Total skills: 1411
 
 ## architecture (95)
 
@@ -1012,7 +1012,7 @@ Total skills: 1410
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (126)
+## infrastructure (127)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1053,6 +1053,7 @@ Total skills: 1410
 | `cloud-devops` | Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development. | cloud, devops | cloud, devops, infrastructure, covering, aws, azure, gcp, kubernetes, terraform, ci, cd, monitoring |
 | `code-review-ai-ai-review` | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Levera... | code, ai | code, ai, review, powered, combining, automated, static, analysis, intelligent, recognition, devops, leverage |
 | `cost-optimization` | Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP. | cost, optimization | cost, optimization, optimizing, cloud, costs, aws, azure, gcp |
+| `daily-gift` | Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in... | creative, gift, personalization, h5, image-generation, video-generation, relationship | creative, gift, personalization, h5, image-generation, video-generation, relationship, daily, aware, engine, five, stage |
 | `data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data pl... | data | data, engineer, scalable, pipelines, warehouses, real, time, streaming, architectures, implements, apache, spark |
 | `data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing. | data, engineering, pipeline | data, engineering, pipeline, architecture, specializing, scalable, reliable, cost, effective, pipelines, batch, streaming |
 | `database-admin` | Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. | database, admin | database, admin, administrator, specializing, cloud, databases, automation, reliability, engineering |

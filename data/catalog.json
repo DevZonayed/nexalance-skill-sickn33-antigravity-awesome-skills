@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1410,
+  "total": 1411,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -10403,6 +10403,36 @@
         "reference"
       ],
       "path": "skills/daily/SKILL.md"
+    },
+    {
+      "id": "daily-gift",
+      "name": "daily-gift",
+      "description": "Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video",
+      "category": "infrastructure",
+      "tags": [
+        "creative",
+        "gift",
+        "personalization",
+        "h5",
+        "image-generation",
+        "video-generation",
+        "relationship"
+      ],
+      "triggers": [
+        "creative",
+        "gift",
+        "personalization",
+        "h5",
+        "image-generation",
+        "video-generation",
+        "relationship",
+        "daily",
+        "aware",
+        "engine",
+        "five",
+        "stage"
+      ],
+      "path": "skills/daily-gift/SKILL.md"
     },
     {
       "id": "daily-news-report",

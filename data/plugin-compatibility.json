@@ -7994,6 +7994,25 @@
       "runtime_files": []
     },
     {
+      "id": "daily-gift",
+      "path": "skills/daily-gift",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "daily-news-report",
       "path": "skills/daily-news-report",
       "targets": {
@@ -26964,10 +26983,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1410,
+    "total_skills": 1411,
     "supported": {
-      "codex": 1379,
-      "claude": 1394
+      "codex": 1380,
+      "claude": 1395
     },
     "blocked": {
       "codex": 31,
