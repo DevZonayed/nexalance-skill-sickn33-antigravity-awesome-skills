@@ -840,6 +840,28 @@
     }
   },
   {
+    "id": "ai-dev-jobs-mcp",
+    "path": "skills/ai-dev-jobs-mcp",
+    "category": "mcp",
+    "name": "ai-dev-jobs-mcp",
+    "description": "Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP",
+    "risk": "safe",
+    "source": "https://aidevboard.com",
+    "date_added": "2026-04-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "ai-engineer",
     "path": "skills/ai-engineer",
     "category": "ai-ml",
@@ -19786,6 +19808,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "not-human-search-mcp",
+    "path": "skills/not-human-search-mcp",
+    "category": "mcp",
+    "name": "not-human-search-mcp",
+    "description": "Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server",
+    "risk": "safe",
+    "source": "https://nothumansearch.ai",
+    "date_added": "2026-04-16",
     "plugin": {
       "targets": {
         "codex": "supported",

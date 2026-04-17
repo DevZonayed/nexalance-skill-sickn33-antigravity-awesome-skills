@@ -562,6 +562,8 @@ We officially thank the following contributors for their help in making this rep
 - [@fruitwyatt](https://github.com/fruitwyatt)
 - [@jiawei248](https://github.com/jiawei248)
 - [@tanveer-farooq](https://github.com/tanveer-farooq)
+- [@emanoelCarvalho](https://github.com/emanoelCarvalho)
+- [@unitedideas](https://github.com/unitedideas)
 
 ## Star History
 
