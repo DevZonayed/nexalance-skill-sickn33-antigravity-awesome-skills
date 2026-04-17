@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1420,
+  "total": 1421,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20909,6 +20909,35 @@
         "notes"
       ],
       "path": "skills/miro-automation/SKILL.md"
+    },
+    {
+      "id": "mise-configurator",
+      "name": "mise-configurator",
+      "description": "Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.",
+      "category": "infrastructure",
+      "tags": [
+        "mise",
+        "devops",
+        "ci-cd",
+        "toolchain",
+        "runtimes",
+        "automation"
+      ],
+      "triggers": [
+        "mise",
+        "devops",
+        "ci-cd",
+        "toolchain",
+        "runtimes",
+        "automation",
+        "configurator",
+        "generate",
+        "toml",
+        "setups",
+        "local",
+        "development"
+      ],
+      "path": "skills/mise-configurator/SKILL.md"
     },
     {
       "id": "mixpanel-automation",

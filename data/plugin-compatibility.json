@@ -16198,6 +16198,25 @@
       "runtime_files": []
     },
     {
+      "id": "mise-configurator",
+      "path": "skills/mise-configurator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "mixpanel-automation",
       "path": "skills/mixpanel-automation",
       "targets": {
@@ -27154,10 +27173,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1420,
+    "total_skills": 1421,
     "supported": {
-      "codex": 1389,
-      "claude": 1404
+      "codex": 1390,
+      "claude": 1405
     },
     "blocked": {
       "codex": 31,
