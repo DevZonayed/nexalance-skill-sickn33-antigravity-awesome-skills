@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1421,
+  "total": 1423,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -905,6 +905,36 @@
         "analyzer"
       ],
       "path": "skills/ai-analyzer/SKILL.md"
+    },
+    {
+      "id": "ai-dev-jobs-mcp",
+      "name": "ai-dev-jobs-mcp",
+      "description": "Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP",
+      "category": "data-ai",
+      "tags": [
+        "mcp",
+        "jobs",
+        "ai-jobs",
+        "ml-jobs",
+        "recruiting",
+        "job-search",
+        "career"
+      ],
+      "triggers": [
+        "mcp",
+        "jobs",
+        "ai-jobs",
+        "ml-jobs",
+        "recruiting",
+        "job-search",
+        "career",
+        "ai",
+        "dev",
+        "search",
+        "400",
+        "ml"
+      ],
+      "path": "skills/ai-dev-jobs-mcp/SKILL.md"
     },
     {
       "id": "ai-engineer",
@@ -22173,6 +22203,35 @@
         "single"
       ],
       "path": "skills/nosql-expert/SKILL.md"
+    },
+    {
+      "id": "not-human-search-mcp",
+      "name": "not-human-search-mcp",
+      "description": "Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server",
+      "category": "data-ai",
+      "tags": [
+        "mcp",
+        "search",
+        "ai-discovery",
+        "api-discovery",
+        "mcp-verification",
+        "agent-tools"
+      ],
+      "triggers": [
+        "mcp",
+        "search",
+        "ai-discovery",
+        "api-discovery",
+        "mcp-verification",
+        "agent-tools",
+        "human",
+        "ai",
+        "websites",
+        "inspect",
+        "indexed",
+        "site"
+      ],
+      "path": "skills/not-human-search-mcp/SKILL.md"
     },
     {
       "id": "notebooklm",

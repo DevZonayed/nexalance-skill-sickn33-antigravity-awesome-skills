@@ -693,6 +693,25 @@
       "runtime_files": []
     },
     {
+      "id": "ai-dev-jobs-mcp",
+      "path": "skills/ai-dev-jobs-mcp",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "ai-engineer",
       "path": "skills/ai-engineer",
       "targets": {
@@ -17192,6 +17211,25 @@
       "runtime_files": []
     },
     {
+      "id": "not-human-search-mcp",
+      "path": "skills/not-human-search-mcp",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "notebooklm",
       "path": "skills/notebooklm",
       "targets": {
@@ -27173,10 +27211,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1421,
+    "total_skills": 1423,
     "supported": {
-      "codex": 1390,
-      "claude": 1405
+      "codex": 1392,
+      "claude": 1407
     },
     "blocked": {
       "codex": 31,

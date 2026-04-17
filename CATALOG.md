@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1421
+Total skills: 1423
 
 ## architecture (95)
 
@@ -187,7 +187,7 @@ Total skills: 1421
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (269)
+## data-ai (271)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -203,6 +203,7 @@ Total skills: 1421
 | `ai-agent-development` | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents. | ai, agent | ai, agent, development, building, autonomous, agents, multi, orchestration, crewai, langgraph, custom |
 | `ai-agents-architect` | Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. | ai, agents | ai, agents, architect, designing, building, autonomous, masters, memory, planning, multi, agent, orchestration |
 | `ai-analyzer` | AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 | ai, analyzer | ai, analyzer |
+| `ai-dev-jobs-mcp` | Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and market stats via AI Dev Jobs MCP | mcp, jobs, ai-jobs, ml-jobs, recruiting, job-search, career | mcp, jobs, ai-jobs, ml-jobs, recruiting, job-search, career, ai, dev, search, 400, ml |
 | `ai-engineer` | Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and ente... | ai | ai, engineer, llm, applications, rag, intelligent, agents, implements, vector, search, multimodal, agent |
 | `ai-ml` | AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features. | ai, ml | ai, ml, machine, learning, covering, llm, application, development, rag, agent, architecture, pipelines |
 | `ai-native-cli` | Design spec with 98 rules for building CLI tools that AI agents can safely use. Covers structured JSON output, error handling, input contracts, safety guardr... | ai, native, cli | ai, native, cli, spec, 98, rules, building, agents, safely, covers, structured, json |
@@ -383,6 +384,7 @@ Total skills: 1421
 | `neon-postgres` | Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration | neon, postgres | neon, postgres, serverless, branching, connection, pooling, prisma, drizzle, integration |
 | `nestjs-expert` | You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware,... | nestjs | nestjs, nest, js, deep, knowledge, enterprise, grade, node, application, architecture, dependency, injection |
 | `nextjs-best-practices` | Next.js App Router principles. Server Components, data fetching, routing patterns. | nextjs, best, practices | nextjs, best, practices, next, js, app, router, principles, server, components, data, fetching |
+| `not-human-search-mcp` | Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the Not Human Search MCP server | mcp, search, ai-discovery, api-discovery, mcp-verification, agent-tools | mcp, search, ai-discovery, api-discovery, mcp-verification, agent-tools, human, ai, websites, inspect, indexed, site |
 | `obsidian-bases` | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of... | obsidian, bases | obsidian, bases, edit, base, files, views, filters, formulas, summaries, working, creating, database |
 | `odoo-edi-connector` | Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. | odoo, edi, connector | odoo, edi, connector, implementing, electronic, data, interchange, x12, edifact, document, mapping, partner |
 | `odoo-inventory-optimizer` | Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration. | odoo, inventory, optimizer | odoo, inventory, optimizer, stock, valuation, fifo, avco, reordering, rules, putaway, routes, multi |
