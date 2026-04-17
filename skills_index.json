@@ -10280,6 +10280,28 @@
     }
   },
   {
+    "id": "design-taste-frontend",
+    "path": "skills/design-taste-frontend",
+    "category": "frontend",
+    "name": "design-taste-frontend",
+    "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "devcontainer-setup",
     "path": "skills/devcontainer-setup",
     "category": "development",
@@ -13230,6 +13252,28 @@
     }
   },
   {
+    "id": "full-output-enforcement",
+    "path": "skills/full-output-enforcement",
+    "category": "frontend",
+    "name": "full-output-enforcement",
+    "description": "Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "full-stack-orchestration-full-stack-feature",
     "path": "skills/full-stack-orchestration-full-stack-feature",
     "category": "workflow",
@@ -14198,6 +14242,28 @@
     }
   },
   {
+    "id": "gpt-taste",
+    "path": "skills/gpt-taste",
+    "category": "frontend",
+    "name": "gpt-taste",
+    "description": "Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "grafana-dashboards",
     "path": "skills/grafana-dashboards",
     "category": "devops",
@@ -14758,6 +14824,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "high-end-visual-design",
+    "path": "skills/high-end-visual-design",
+    "category": "frontend",
+    "name": "high-end-visual-design",
+    "description": "Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15594,6 +15682,28 @@
     "risk": "safe",
     "source": "self",
     "date_added": "2026-04-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "industrial-brutalist-ui",
+    "path": "skills/industrial-brutalist-ui",
+    "category": "frontend",
+    "name": "industrial-brutalist-ui",
+    "description": "Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18442,6 +18552,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "minimalist-ui",
+    "path": "skills/minimalist-ui",
+    "category": "frontend",
+    "name": "minimalist-ui",
+    "description": "Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -23127,6 +23259,28 @@
     }
   },
   {
+    "id": "redesign-existing-projects",
+    "path": "skills/redesign-existing-projects",
+    "category": "frontend",
+    "name": "redesign-existing-projects",
+    "description": "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "reference-builder",
     "path": "skills/reference-builder",
     "category": "content",
@@ -26691,6 +26845,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "stitch-design-taste",
+    "path": "skills/stitch-design-taste",
+    "category": "frontend",
+    "name": "stitch-design-taste",
+    "description": "Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-17",
     "plugin": {
       "targets": {
         "codex": "supported",

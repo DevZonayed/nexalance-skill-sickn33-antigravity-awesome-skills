@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1412,
+  "total": 1420,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -11430,6 +11430,33 @@
       "path": "skills/design-spells/SKILL.md"
     },
     {
+      "id": "design-taste-frontend",
+      "name": "design-taste-frontend",
+      "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "design",
+        "ui",
+        "react"
+      ],
+      "triggers": [
+        "frontend",
+        "design",
+        "ui",
+        "react",
+        "taste",
+        "building",
+        "high",
+        "agency",
+        "interfaces",
+        "strict",
+        "calibrated",
+        "color"
+      ],
+      "path": "skills/design-taste-frontend/SKILL.md"
+    },
+    {
       "id": "devcontainer-setup",
       "name": "devcontainer-setup",
       "description": "Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.",
@@ -14654,6 +14681,32 @@
       "path": "skills/frontend-ui-dark-ts/SKILL.md"
     },
     {
+      "id": "full-output-enforcement",
+      "name": "full-output-enforcement",
+      "description": "Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.",
+      "category": "general",
+      "tags": [
+        "output",
+        "code-generation",
+        "quality"
+      ],
+      "triggers": [
+        "output",
+        "code-generation",
+        "quality",
+        "full",
+        "enforcement",
+        "task",
+        "requires",
+        "exhaustive",
+        "unabridged",
+        "complete",
+        "files",
+        "strict"
+      ],
+      "path": "skills/full-output-enforcement/SKILL.md"
+    },
+    {
       "id": "full-stack-orchestration-full-stack-feature",
       "name": "full-stack-orchestration-full-stack-feature",
       "description": "Use when working with full stack orchestration full stack feature",
@@ -15876,6 +15929,33 @@
       "path": "skills/googlesheets-automation/SKILL.md"
     },
     {
+      "id": "gpt-taste",
+      "name": "gpt-taste",
+      "description": "Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "design",
+        "gsap",
+        "motion"
+      ],
+      "triggers": [
+        "frontend",
+        "design",
+        "gsap",
+        "motion",
+        "gpt",
+        "taste",
+        "generating",
+        "elite",
+        "heavy",
+        "pages",
+        "strict",
+        "aida"
+      ],
+      "path": "skills/gpt-taste/SKILL.md"
+    },
+    {
       "id": "grafana-dashboards",
       "name": "grafana-dashboards",
       "description": "Create and manage production-ready Grafana dashboards for comprehensive system observability.",
@@ -16485,6 +16565,33 @@
         "ask"
       ],
       "path": "skills/hig-technologies/SKILL.md"
+    },
+    {
+      "id": "high-end-visual-design",
+      "name": "high-end-visual-design",
+      "description": "Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "visual-design",
+        "motion",
+        "ui"
+      ],
+      "triggers": [
+        "frontend",
+        "visual-design",
+        "motion",
+        "ui",
+        "high",
+        "visual",
+        "designing",
+        "expensive",
+        "agency",
+        "grade",
+        "interfaces",
+        "premium"
+      ],
+      "path": "skills/high-end-visual-design/SKILL.md"
     },
     {
       "id": "hono",
@@ -17417,6 +17524,33 @@
         "invoke"
       ],
       "path": "skills/indexing-issue-auditor/SKILL.md"
+    },
+    {
+      "id": "industrial-brutalist-ui",
+      "name": "industrial-brutalist-ui",
+      "description": "Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.",
+      "category": "data-ai",
+      "tags": [
+        "frontend",
+        "design",
+        "brutalism",
+        "ui"
+      ],
+      "triggers": [
+        "frontend",
+        "design",
+        "brutalism",
+        "ui",
+        "industrial",
+        "brutalist",
+        "creating",
+        "raw",
+        "tactical",
+        "telemetry",
+        "uis",
+        "rigid"
+      ],
+      "path": "skills/industrial-brutalist-ui/SKILL.md"
     },
     {
       "id": "infinite-gratitude",
@@ -20724,6 +20858,33 @@
         "apis"
       ],
       "path": "skills/minecraft-bukkit-pro/SKILL.md"
+    },
+    {
+      "id": "minimalist-ui",
+      "name": "minimalist-ui",
+      "description": "Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "design",
+        "minimalism",
+        "ui"
+      ],
+      "triggers": [
+        "frontend",
+        "design",
+        "minimalism",
+        "ui",
+        "minimalist",
+        "creating",
+        "clean",
+        "editorial",
+        "interfaces",
+        "warm",
+        "monochrome",
+        "palettes"
+      ],
+      "path": "skills/minimalist-ui/SKILL.md"
     },
     {
       "id": "miro-automation",
@@ -25853,6 +26014,33 @@
       "path": "skills/reddit-automation/SKILL.md"
     },
     {
+      "id": "redesign-existing-projects",
+      "name": "redesign-existing-projects",
+      "description": "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "redesign",
+        "design-audit",
+        "ui"
+      ],
+      "triggers": [
+        "frontend",
+        "redesign",
+        "design-audit",
+        "ui",
+        "existing",
+        "upgrading",
+        "websites",
+        "apps",
+        "auditing",
+        "generic",
+        "applying",
+        "premium"
+      ],
+      "path": "skills/redesign-existing-projects/SKILL.md"
+    },
+    {
       "id": "reference-builder",
       "name": "reference-builder",
       "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
@@ -29943,6 +30131,33 @@
         "apple"
       ],
       "path": "skills/steve-jobs/SKILL.md"
+    },
+    {
+      "id": "stitch-design-taste",
+      "name": "stitch-design-taste",
+      "description": "Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.",
+      "category": "development",
+      "tags": [
+        "stitch",
+        "design-system",
+        "frontend",
+        "ui"
+      ],
+      "triggers": [
+        "stitch",
+        "design-system",
+        "frontend",
+        "ui",
+        "taste",
+        "generating",
+        "google",
+        "md",
+        "premium",
+        "typography",
+        "color",
+        "layout"
+      ],
+      "path": "skills/stitch-design-taste/SKILL.md"
     },
     {
       "id": "stitch-loop",

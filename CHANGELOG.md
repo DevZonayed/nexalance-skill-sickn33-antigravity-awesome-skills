@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## New Skills
+
+- **design-taste-frontend** - imports the main Taste Skill high-agency frontend design protocol for calibrated typography, color, layout, motion, and responsive UI quality.
+- **gpt-taste** - adds the GSAP-heavy AIDA landing-page protocol with wide hero typography, gapless bento grids, scroll pinning, and strict preflight checks.
+- **redesign-existing-projects** - adds the Taste Skill redesign audit workflow for upgrading existing websites and apps without rewriting their stack.
+- **high-end-visual-design** - adds the agency-grade visual design protocol for premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+- **minimalist-ui** - adds the clean editorial UI protocol for warm monochrome interfaces, restrained motion, crisp borders, and flat bento layouts.
+- **industrial-brutalist-ui** - adds the raw Swiss industrial and tactical telemetry interface protocol for rigid grids, CRT effects, and high-density data.
+- **stitch-design-taste** - adds a Google Stitch-compatible semantic design system skill plus its `DESIGN.md` export.
+- **full-output-enforcement** - adds the output-completeness protocol that bans placeholders, skipped code, and partial deliverables.
+
+## Credits
+
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** for the upstream Taste Skill collection.
+
 ## [10.2.0] - 2026-04-16 - "Daily Gifts and LambdaTest Automation"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.

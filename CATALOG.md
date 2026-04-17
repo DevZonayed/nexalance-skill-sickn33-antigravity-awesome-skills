@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1412
+Total skills: 1420
 
 ## architecture (95)
 
@@ -187,7 +187,7 @@ Total skills: 1412
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (268)
+## data-ai (269)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -351,6 +351,7 @@ Total skills: 1412
 | `iconsax-library` | Extensive icon library and AI-driven icon generation skill for premium UI/UX design. | iconsax, library | iconsax, library, extensive, icon, ai, driven, generation, skill, premium, ui, ux |
 | `image-studio` | Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao... | image-generation, routing, ai-art, photography | image-generation, routing, ai-art, photography, image, studio, de, geracao, imagens, inteligente, roteamento, automatico |
 | `imagen` | AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets. | imagen | imagen, ai, image, generation, skill, powered, google, gemini, enabling, seamless, visual, content |
+| `industrial-brutalist-ui` | Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data. | frontend, design, brutalism, ui | frontend, design, brutalism, ui, industrial, brutalist, creating, raw, tactical, telemetry, uis, rigid |
 | `instagram` | Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. | social-media, instagram, graph-api, content | social-media, instagram, graph-api, content, integracao, completa, com, via, graph, api, publicacao, analytics |
 | `ios-developer` | Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. | ios | ios, developer, develop, native, applications, swift, swiftui, masters, 18, uikit, integration, core |
 | `langchain-architecture` | Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration. | langchain, architecture | langchain, architecture, framework, building, sophisticated, llm, applications, agents, chains, memory, integration |
@@ -460,7 +461,7 @@ Total skills: 1412
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (199)
+## development (205)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -532,6 +533,7 @@ Total skills: 1412
 | `dbos-golang` | Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and ste... | dbos, golang | dbos, golang, building, reliable, fault, tolerant, go, applications, durable, adding, existing, code |
 | `dbos-python` | Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows... | dbos, python | dbos, python, building, reliable, fault, tolerant, applications, durable, adding, existing, code, creating |
 | `dbos-typescript` | Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating w... | dbos, typescript | dbos, typescript, building, reliable, fault, tolerant, applications, durable, adding, existing, code, creating |
+| `design-taste-frontend` | Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules. | frontend, design, ui, react | frontend, design, ui, react, taste, building, high, agency, interfaces, strict, calibrated, color |
 | `devcontainer-setup` | Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a pr... | devcontainer, setup | devcontainer, setup, creates, devcontainers, claude, code, language, specific, tooling, python, node, rust |
 | `development` | Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application ... |  | development, web, mobile, backend, bundling, frontend, full, stack, skills, application, delivery |
 | `discord-bot-architect` | Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactiv... | discord, bot | discord, bot, architect, specialized, skill, building, bots, covers, js, javascript, pycord, python |
@@ -567,6 +569,8 @@ Total skills: 1412
 | `go-playwright` | Expert capability for robust, stealthy, and efficient browser automation using Playwright Go. | go, playwright | go, playwright, capability, robust, stealthy, efficient, browser, automation |
 | `go-rod-master` | Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns. | go, rod, master | go, rod, master, browser, automation, web, scraping, chrome, devtools, protocol, including, stealth |
 | `golang-pro` | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. | golang | golang, pro, go, 21, concurrency, performance, optimization, microservices |
+| `gpt-taste` | Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids. | frontend, design, gsap, motion | frontend, design, gsap, motion, gpt, taste, generating, elite, heavy, pages, strict, aida |
+| `high-end-visual-design` | Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions. | frontend, visual-design, motion, ui | frontend, visual-design, motion, ui, high, visual, designing, expensive, agency, grade, interfaces, premium |
 | `hono` | Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime. | hono, edge, cloudflare-workers, bun, deno, api, typescript, web-standards | hono, edge, cloudflare-workers, bun, deno, api, typescript, web-standards, ultra, fast, web, apis |
 | `hubspot-integration` | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers... | hubspot, integration | hubspot, integration, crm, including, oauth, authentication, objects, associations, batch, operations, webhooks, custom |
 | `hugging-face-dataset-viewer` | Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links. | hugging, face, dataset, viewer | hugging, face, dataset, viewer, query, datasets, through, api, splits, rows, search, filters |
@@ -587,6 +591,7 @@ Total skills: 1412
 | `matplotlib` | Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots. | matplotlib | matplotlib, python, foundational, visualization, library, creating, static, animated, interactive, plots |
 | `mcp-builder-ms` | Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). | mcp, builder, ms | mcp, builder, ms, skill, building, servers, integrate, external, apis, whether, python, fastmcp |
 | `microsoft-azure-webjobs-extensions-authentication-events-dotnet` | Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. | microsoft, azure, webjobs, extensions, authentication, events, dotnet | microsoft, azure, webjobs, extensions, authentication, events, dotnet, entra, sdk, net, functions, triggers |
+| `minimalist-ui` | Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts. | frontend, design, minimalism, ui | frontend, design, minimalism, ui, minimalist, creating, clean, editorial, interfaces, warm, monochrome, palettes |
 | `mobile-design` | (Mobile-First · Touch-First · Platform-Respectful) | mobile | mobile, first, touch, platform, respectful |
 | `mobile-developer` | Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync... | mobile | mobile, developer, develop, react, native, flutter, apps, architecture, masters, cross, platform, development |
 | `modern-javascript-patterns` | Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and... | modern, javascript | modern, javascript, mastering, es6, features, functional, programming, writing, clean, maintainable, performant, code |
@@ -624,6 +629,7 @@ Total skills: 1412
 | `react-nextjs-development` | React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns. | react, nextjs | react, nextjs, development, next, js, 14, application, app, router, server, components, typescript |
 | `react-patterns` | Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. | react | react, principles, hooks, composition, performance, typescript |
 | `react-state-management` | Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosin... | react, state | react, state, redux, toolkit, zustand, jotai, query, setting, up, global, managing, server |
+| `redesign-existing-projects` | Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites. | frontend, redesign, design-audit, ui | frontend, redesign, design-audit, ui, existing, upgrading, websites, apps, auditing, generic, applying, premium |
 | `reference-builder` | Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference mat... | reference, builder | reference, builder, creates, exhaustive, technical, references, api, documentation, generates, parameter, listings, configuration |
 | `remotion-best-practices` | Best practices for Remotion - Video creation in React | remotion, video, react, animation, composition | remotion, video, react, animation, composition, creation |
 | `ruby-pro` | Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing fram... | ruby | ruby, pro, write, idiomatic, code, metaprogramming, rails, performance, optimization, specializes, gem, development |
@@ -636,6 +642,7 @@ Total skills: 1412
 | `slack-bot-builder` | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event h... | slack, bot, builder | slack, bot, builder, apps, bolt, framework, python, javascript, java, covers, block, kit |
 | `sred-work-summary` | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. | sred, work, summary | sred, work, summary, go, back, through, previous, year, notion, doc, groups, relevant |
 | `statsmodels` | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistic... | statsmodels | statsmodels, python, premier, library, statistical, modeling, providing, estimation, inference, diagnostics, wide, range |
+| `stitch-design-taste` | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules. | stitch, design-system, frontend, ui | stitch, design-system, frontend, ui, taste, generating, google, md, premium, typography, color, layout |
 | `sveltekit` | Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework. | svelte, sveltekit, fullstack, ssr, ssg, typescript | svelte, sveltekit, fullstack, ssr, ssg, typescript, full, stack, web, applications, file, routing |
 | `swiftui-expert-skill` | Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use w... | swiftui, skill | swiftui, skill, write, review, improve, code, following, state, view, composition, performance, ios |
 | `sympy` | SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations. | sympy | sympy, python, library, symbolic, mathematics, enables, exact, computation, mathematical, symbols, rather, than |
@@ -664,7 +671,7 @@ Total skills: 1412
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (343)
+## general (344)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -788,6 +795,7 @@ Total skills: 1412
 | `form-cro` | Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. | form, cro | form, cro, optimize, any, signup, account, registration, including, lead, capture, contact, demo |
 | `fp-either-ref` | Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors. | fp-ts, either, error-handling, validation, quick-reference | fp-ts, either, error-handling, validation, quick-reference, fp, ref, quick, reference, type, user, error |
 | `framework-migration-code-migrate` | You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migrat... | framework, migration, code, migrate | framework, migration, code, migrate, specializing, transitioning, codebases, between, frameworks, languages, versions, platforms |
+| `full-output-enforcement` | Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code. | output, code-generation, quality | output, code-generation, quality, full, enforcement, task, requires, exhaustive, unabridged, complete, files, strict |
 | `game-development` | Game development orchestrator. Routes to platform-specific skills based on project needs. | game | game, development, orchestrator, routes, platform, specific, skills |
 | `game-development/2d-games` | 2D game development principles. Sprites, tilemaps, physics, camera. | game, development/2d, games | game, development/2d, games, 2d, development, principles, sprites, tilemaps, physics, camera |
 | `game-development/3d-games` | 3D game development principles. Rendering, shaders, physics, cameras. | game, development/3d, games | game, development/3d, games, 3d, development, principles, rendering, shaders, physics, cameras |
