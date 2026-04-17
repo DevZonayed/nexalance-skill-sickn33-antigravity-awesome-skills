@@ -19,6 +19,12 @@ tools: [claude, cursor, codex, antigravity]
 - Use when the task is to audit current frontend code and make targeted visual improvements without changing the product architecture.
 - Use when the design feels generic, AI-generated, poorly spaced, visually flat, or missing responsive, interactive, loading, empty, or error states.
 
+## Limitations
+
+- This skill upgrades existing UI but does not authorize framework migrations, information-architecture rewrites, or product-scope expansion by default.
+- Preserve working behavior, routing, data flows, accessibility semantics, and tests while making visual changes.
+- Validate redesigned screens in the actual app across supported browsers and viewport sizes before considering the work complete.
+
 
 ## How This Works
 

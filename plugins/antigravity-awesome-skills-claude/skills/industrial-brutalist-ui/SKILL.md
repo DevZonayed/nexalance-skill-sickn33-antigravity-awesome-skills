@@ -19,6 +19,12 @@ tools: [claude, cursor, codex, antigravity]
 - Use when building data-heavy dashboards, portfolios, editorial pages, or command-center UIs that should feel raw and mechanical.
 - Use when a design must reject soft gradients, rounded consumer UI, glassmorphism, and generic SaaS card layouts.
 
+## Limitations
+
+- This style is intentionally severe and may not fit consumer products, accessibility-sensitive flows, or brands that require warmth and softness.
+- CRT, halftone, dithering, and degradation effects must be tested for readability, contrast, and motion sensitivity.
+- Do not mix the light industrial and dark telemetry palettes in the same interface unless the user explicitly asks for a controlled hybrid.
+
 
 ## 1. Skill Meta
 **Name:** Industrial Brutalism & Tactical Telemetry Interface Engineering

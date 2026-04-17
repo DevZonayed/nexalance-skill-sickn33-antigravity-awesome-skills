@@ -19,6 +19,12 @@ tools: [claude, cursor, codex, antigravity]
 - Use when designing warm monochrome interfaces with crisp borders, generous whitespace, muted pastel accents, and quiet motion.
 - Use when the task should avoid gradients, heavy shadows, saturated colors, pill-heavy components, and generic SaaS visuals.
 
+## Limitations
+
+- Minimalism can hide hierarchy when content is dense; validate scannability, contrast, and navigation clarity with real content.
+- This skill assumes the product can support restrained palettes and typography-led layouts; do not override an established brand system without cause.
+- Subtle motion and flat surfaces still need responsive, keyboard, and screen-reader verification in the target project.
+
 
 ## 1. Protocol Overview
 Name: Premium Utilitarian Minimalism & Editorial UI

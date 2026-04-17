@@ -19,6 +19,12 @@ tools: [claude, cursor, codex, antigravity]
 - Use when React, Next.js, Tailwind, motion, component states, typography, spacing, color, or responsive behavior need senior-level design judgment.
 - Use when the output must override common LLM UI biases such as centered heroes, purple gradients, card overuse, poor states, and fragile layouts.
 
+## Limitations
+
+- This skill provides frontend design and implementation guidance; it does not replace project-specific product requirements, accessibility review, or user testing.
+- Verify framework versions, installed dependencies, responsive behavior, and build output in the target repository before treating generated UI as production-ready.
+- Do not force these design rules when the existing product, brand system, or platform conventions require a different visual direction.
+
 
 ## 1. ACTIVE BASELINE CONFIGURATION
 * DESIGN_VARIANCE: 8 (1=Perfect Symmetry, 10=Artsy Chaos)

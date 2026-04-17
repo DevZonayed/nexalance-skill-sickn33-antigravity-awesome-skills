@@ -19,6 +19,12 @@ tools: [claude, cursor, codex, antigravity]
 - Use when building a landing page, portfolio, SaaS UI, consumer product page, or app surface that needs premium depth and motion.
 - Use when the design must avoid generic fonts, harsh shadows, static layouts, default navbars, and ordinary Bootstrap-style grids.
 
+## Limitations
+
+- This skill is visual-design focused; it does not replace brand strategy, conversion research, accessibility validation, or production QA.
+- Premium fonts, icon sets, images, and motion libraries must exist in the target project or be added intentionally before generated code is used.
+- Avoid applying luxury motion and heavy visual treatments to constrained dashboards, regulated products, or low-performance environments.
+
 
 ## 1. Meta Information & Core Directive
 - **Persona:** `Vanguard_UI_Architect`
