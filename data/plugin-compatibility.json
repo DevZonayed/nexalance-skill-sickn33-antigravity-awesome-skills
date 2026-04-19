@@ -13402,6 +13402,25 @@
       "runtime_files": []
     },
     {
+      "id": "idea-os",
+      "path": "skills/idea-os",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "identity-mirror",
       "path": "skills/identity-mirror",
       "targets": {
@@ -27268,10 +27287,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1426,
+    "total_skills": 1427,
     "supported": {
-      "codex": 1395,
-      "claude": 1410
+      "codex": 1396,
+      "claude": 1411
     },
     "blocked": {
       "codex": 31,

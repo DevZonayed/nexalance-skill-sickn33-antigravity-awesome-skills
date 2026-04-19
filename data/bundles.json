@@ -742,6 +742,7 @@
         "grafana-dashboards",
         "grpc-golang",
         "hugging-face-trackio",
+        "idea-os",
         "incident-responder",
         "incident-response-incident-response",
         "incident-response-smart-fix",

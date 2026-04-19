@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1426
+Total skills: 1427
 
 ## architecture (95)
 
@@ -1025,7 +1025,7 @@ Total skills: 1426
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (129)
+## infrastructure (130)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1104,6 +1104,7 @@ Total skills: 1426
 | `hugging-face-trackio` | Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval. | hugging, face, trackio | hugging, face, trackio, track, ml, experiments, python, logging, alerts, cli, metric, retrieval |
 | `hybrid-cloud-architect` | Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). | hybrid, cloud | hybrid, cloud, architect, specializing, complex, multi, solutions, aws, azure, gcp, private, clouds |
 | `hybrid-cloud-networking` | Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute. | hybrid, cloud, networking | hybrid, cloud, networking, configure, secure, high, performance, connectivity, between, premises, environments, vpn |
+| `idea-os` | Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with ... | product-management, prd, market-research, mvp, idea-validation, jtbd, swot, competitor-analysis, founder, non-technical | product-management, prd, market-research, mvp, idea-validation, jtbd, swot, competitor-analysis, founder, non-technical, idea, os |
 | `istio-traffic-management` | Comprehensive guide to Istio traffic management for production service mesh deployments. | istio, traffic | istio, traffic, mesh, deployments |
 | `iterate-pr` | Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automa... | iterate, pr | iterate, pr, until, ci, passes, fix, failures, address, review, feedback, continuously, push |
 | `java-pro` | Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Proj... | java | java, pro, 21, features, like, virtual, threads, matching, spring, boot, latest, ecosystem |

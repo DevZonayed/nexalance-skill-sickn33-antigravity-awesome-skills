@@ -15476,6 +15476,28 @@
     }
   },
   {
+    "id": "idea-os",
+    "path": "skills/idea-os",
+    "category": "product-management",
+    "name": "idea-os",
+    "description": "Five-phase pipeline (triage \u2192 clarify \u2192 research \u2192 PRD \u2192 plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals and metrics, and a phased execution plan with mermaid user journey and kill criteria.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-18",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "identity-mirror",
     "path": "skills/identity-mirror",
     "category": "uncategorized",
