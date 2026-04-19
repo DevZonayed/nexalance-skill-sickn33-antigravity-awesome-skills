@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1427
+Total skills: 1431
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1427
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (271)
+## data-ai (273)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -358,6 +358,8 @@ Total skills: 1427
 | `industrial-brutalist-ui` | Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data. | frontend, design, brutalism, ui | frontend, design, brutalism, ui, industrial, brutalist, creating, raw, tactical, telemetry, uis, rigid |
 | `instagram` | Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator. | social-media, instagram, graph-api, content | social-media, instagram, graph-api, content, integracao, completa, com, via, graph, api, publicacao, analytics |
 | `ios-developer` | Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. | ios | ios, developer, develop, native, applications, swift, swiftui, masters, 18, uikit, integration, core |
+| `it-manager-pro` | Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era. | it, manager | it, manager, pro, elite, advisor, specializing, data, driven, executive, communication, human, centric |
+| `itil-expert` | Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation. | itil | itil, advisor, 2026, digital, product, paradigm, specialized, ai, native, governance, sustainability, value |
 | `langchain-architecture` | Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration. | langchain, architecture | langchain, architecture, framework, building, sophisticated, llm, applications, agents, chains, memory, integration |
 | `langgraph` | Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles ... | langgraph | langgraph, grade, framework, building, stateful, multi, actor, ai, applications, covers, graph, construction |
 | `libreoffice/base` | Database management, forms, reports, and data operations with LibreOffice Base. | libreoffice/base | libreoffice/base, base, database, forms, reports, data, operations, libreoffice |
@@ -466,7 +468,7 @@ Total skills: 1427
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (205)
+## development (206)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -644,6 +646,7 @@ Total skills: 1427
 | `senior-frontend` | Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance,... | senior, frontend | senior, frontend, development, skill, react, next, js, typescript, tailwind, css, applications, building |
 | `shopify-apps` | Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris co... | shopify, apps | shopify, apps, app, development, including, remix, react, router, embedded, bridge, webhook, handling |
 | `shopify-development` | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. | shopify | shopify, development, apps, extensions, themes, graphql, admin, api, cli, polaris, ui, liquid |
+| `skills/x402-express-wrapper` | Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios q... | x402, defi, monetization, express, mcp | x402, defi, monetization, express, mcp, wrapper, oficial, de, m2mcent, node, js, para |
 | `slack-bot-builder` | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event h... | slack, bot, builder | slack, bot, builder, apps, bolt, framework, python, javascript, java, covers, block, kit |
 | `sred-work-summary` | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. | sred, work, summary | sred, work, summary, go, back, through, previous, year, notion, doc, groups, relevant |
 | `statsmodels` | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistic... | statsmodels | statsmodels, python, premier, library, statistical, modeling, providing, estimation, inference, diagnostics, wide, range |
@@ -676,7 +679,7 @@ Total skills: 1427
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (344)
+## general (345)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -850,6 +853,7 @@ Total skills: 1427
 | `interview-coach` | Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state. | interview, job-search, coaching, career, storybank, negotiation | interview, job-search, coaching, career, storybank, negotiation, coach, full, job, search, jd, decoding |
 | `inventory-demand-planning` | Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers. | inventory, demand, planning | inventory, demand, planning, codified, expertise, forecasting, safety, stock, optimisation, replenishment, promotional, lift |
 | `issues` | Interact with GitHub issues - create, list, and view issues. | issues | issues, interact, github, list, view |
+| `it-manager-hospital` | World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems. | it, manager, hospital | it, manager, hospital, world, class, advisor, specializing, clinical, safety, digital, maturity, himss |
 | `jobs-to-be-done-analyst` | One sentence - what this skill does and when to invoke it | jobs, to, be, done, analyst | jobs, to, be, done, analyst, one, sentence, what, skill, does, invoke |
 | `json-canvas` | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind m... | json, canvas | json, canvas, edit, files, nodes, edges, groups, connections, working, creating, visual, canvases |
 | `julia-pro` | Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. | julia | julia, pro, 10, features, performance, optimization, multiple, dispatch |

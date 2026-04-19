@@ -13915,8 +13915,65 @@
       "runtime_files": []
     },
     {
+      "id": "it-manager-hospital",
+      "path": "skills/it-manager-hospital",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "it-manager-pro",
+      "path": "skills/it-manager-pro",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "iterate-pr",
       "path": "skills/iterate-pr",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "itil-expert",
+      "path": "skills/itil-expert",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -22818,6 +22875,25 @@
       "runtime_files": []
     },
     {
+      "id": "skills/x402-express-wrapper",
+      "path": "skills/skills/x402-express-wrapper",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "skin-health-analyzer",
       "path": "skills/skin-health-analyzer",
       "targets": {
@@ -27287,10 +27363,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1427,
+    "total_skills": 1431,
     "supported": {
-      "codex": 1396,
-      "claude": 1411
+      "codex": 1400,
+      "claude": 1415
     },
     "blocked": {
       "codex": 31,
