@@ -566,8 +566,6 @@ We officially thank the following contributors for their help in making this rep
 - [@emanoelCarvalho](https://github.com/emanoelCarvalho)
 - [@unitedideas](https://github.com/unitedideas)
 - [@globalchatapp](https://github.com/globalchatapp)
-- [@justmiroslav](https://github.com/justmiroslav)
-- [@Imasaikiran](https://github.com/Imasaikiran)
 
 ## Star History
 
