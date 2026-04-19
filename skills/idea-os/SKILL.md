@@ -62,6 +62,13 @@ Write `PRD.md` with: falsifiable problem statement, named personas, ranked JTBD,
 
 Write `plan.md` with: user journey (text + mermaid), platform recommendation tied to research findings, stack in conservative/modern/cutting-edge matrix, phased build (MVP → v1 → target) with kill criteria per phase and first-100-users distribution per phase, metrics per phase, and 3–5 immediate next actions.
 
+## Limitations
+
+- Requires user input between phases for best results; if answers are missing, outputs depend on explicit assumptions.
+- Produces planning artifacts (`questions.md`, `research.md`, `PRD.md`, `plan.md`) but does not execute build or deployment work.
+- Source quality determines output quality; weak or outdated references can reduce recommendation accuracy.
+- Better suited to new-idea validation and early planning than late-stage optimization of an existing shipped product.
+
 ## Examples
 
 ### Example 1: Non-technical founder with a consumer-app idea
