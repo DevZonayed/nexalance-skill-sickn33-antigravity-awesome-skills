@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1433,
+  "total": 1434,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -14511,6 +14511,34 @@
         "bulk"
       ],
       "path": "skills/freshservice-automation/SKILL.md"
+    },
+    {
+      "id": "frontend-api-integration-patterns",
+      "name": "frontend-api-integration-patterns",
+      "description": "Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "api-integration",
+        "javascript",
+        "react",
+        "async"
+      ],
+      "triggers": [
+        "frontend",
+        "api-integration",
+        "javascript",
+        "react",
+        "async",
+        "api",
+        "integration",
+        "integrating",
+        "applications",
+        "backend",
+        "apis",
+        "including"
+      ],
+      "path": "skills/frontend-api-integration-patterns/SKILL.md"
     },
     {
       "id": "frontend-design",

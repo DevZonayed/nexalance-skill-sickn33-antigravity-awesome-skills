@@ -67,6 +67,7 @@
     "framework-migration-migrate": "framework-migration-code-migrate",
     "framework-migration-upgrade": "framework-migration-deps-upgrade",
     "framework-migration-modernize": "framework-migration-legacy-modernize",
+    "frontend-api-patterns": "frontend-api-integration-patterns",
     "frontend-mobile-scaffold": "frontend-mobile-development-component-scaffold",
     "frontend-mobile-scan": "frontend-mobile-security-xss-scan",
     "full-stack-feature": "full-stack-orchestration-full-stack-feature",

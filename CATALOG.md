@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1433
+Total skills: 1434
 
 ## architecture (95)
 
@@ -469,7 +469,7 @@ Total skills: 1433
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (206)
+## development (207)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -566,6 +566,7 @@ Total skills: 1433
 | `fp-ts-errors` | Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with f... | fp, ts, errors | fp, ts, errors, handle, values, either, taskeither, cleaner, predictable, typescript, code, implementing |
 | `fp-ts-pragmatic` | A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScr... | fp, ts, pragmatic | fp, ts, pragmatic, practical, jargon, free, functional, programming, 80, 20, approach, gets |
 | `fp-types-ref` | Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports. | fp-ts, typescript, quick-reference, option, either, task | fp-ts, typescript, quick-reference, option, either, task, fp, types, ref, quick, reference, ts |
+| `frontend-api-integration-patterns` | Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies,... | frontend, api-integration, javascript, react, async | frontend, api-integration, javascript, react, async, api, integration, integrating, applications, backend, apis, including |
 | `frontend-design` | You are a frontend designer-engineer, not a layout generator. | frontend | frontend, designer, engineer, layout, generator |
 | `frontend-developer` | Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. | frontend | frontend, developer, react, components, responsive, layouts, handle, client, side, state, masters, 19 |
 | `frontend-mobile-development-component-scaffold` | You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete componen... | frontend, mobile, component | frontend, mobile, component, development, scaffold, react, architecture, specializing, scaffolding, accessible, performant, components |

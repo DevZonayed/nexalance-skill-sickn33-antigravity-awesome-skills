@@ -11213,6 +11213,25 @@
       "runtime_files": []
     },
     {
+      "id": "frontend-api-integration-patterns",
+      "path": "skills/frontend-api-integration-patterns",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "frontend-design",
       "path": "skills/frontend-design",
       "targets": {
@@ -27401,10 +27420,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1433,
+    "total_skills": 1434,
     "supported": {
-      "codex": 1402,
-      "claude": 1417
+      "codex": 1403,
+      "claude": 1418
     },
     "blocked": {
       "codex": 31,
