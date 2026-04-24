@@ -26327,6 +26327,28 @@
     }
   },
   {
+    "id": "skyvern-browser-automation",
+    "path": "skills/skyvern-browser-automation",
+    "category": "browser-automation",
+    "name": "skyvern-browser-automation",
+    "description": "AI-powered browser automation \u2014 navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "slack-automation",
     "path": "skills/slack-automation",
     "category": "automation",

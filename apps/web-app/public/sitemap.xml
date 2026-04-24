@@ -13,6 +13,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://localhost/skill/skyvern-browser-automation</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://localhost/skill/idea-os</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -236,12 +242,6 @@
   </url>
   <url>
     <loc>http://localhost/skill/ui-component</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/ui-page</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

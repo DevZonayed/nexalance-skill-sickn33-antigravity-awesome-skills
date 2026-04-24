@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1432
+Total skills: 1433
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1432
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate... | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, user, asks |
 
-## data-ai (273)
+## data-ai (274)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -433,6 +433,7 @@ Total skills: 1432
 | `skill-optimizer` | Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills... | skill, optimizer | skill, optimizer, diagnose, optimize, agent, skills, md, real, session, data, research, backed |
 | `skill-seekers` | -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. | skill, seekers | skill, seekers, automatically, convert, documentation, websites, github, repositories, pdfs, claude, ai, skills |
 | `skin-health-analyzer` | Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medi... | skin, health, analyzer | skin, health, analyzer, analyze, data, identify, problem, assess, status, supports, correlation, analysis |
+| `skyvern-browser-automation` | AI-powered browser automation — navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows. | browser-automation, mcp, web-scraping, form-filling, ai-agents, workflow-automation | browser-automation, mcp, web-scraping, form-filling, ai-agents, workflow-automation, skyvern, browser, automation, ai, powered, navigate |
 | `spark-optimization` | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or... | spark, optimization | spark, optimization, optimize, apache, jobs, partitioning, caching, shuffle, memory, tuning, improving, performance |
 | `spline-3d-integration` | Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API. | spline, 3d, integration | spline, 3d, integration, adding, interactive, scenes, web, including, react, embedding, runtime, control |
 | `sql-optimization-patterns` | Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis. | sql, optimization | sql, optimization, transform, slow, database, queries, lightning, fast, operations, through, systematic, proper |
