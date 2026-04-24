@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1431
+Total skills: 1432
 
 ## architecture (95)
 
@@ -679,7 +679,7 @@ Total skills: 1431
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (345)
+## general (346)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -857,6 +857,7 @@ Total skills: 1431
 | `jobs-to-be-done-analyst` | One sentence - what this skill does and when to invoke it | jobs, to, be, done, analyst | jobs, to, be, done, analyst, one, sentence, what, skill, does, invoke |
 | `json-canvas` | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind m... | json, canvas | json, canvas, edit, files, nodes, edges, groups, connections, working, creating, visual, canvases |
 | `julia-pro` | Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. | julia | julia, pro, 10, features, performance, optimization, multiple, dispatch |
+| `lambda-lang` | Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains... | agent-to-agent, communication, protocol, compression, multi-agent | agent-to-agent, communication, protocol, compression, multi-agent, lambda, lang, native, agent, language, compact, multi |
 | `last30days` | Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool. | last30days | last30days, research, topic, last, 30, days, reddit, web, become, write, copy, paste |
 | `latex-paper-conversion` | This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, IPOL) to another format (e.g., MDPI, IEEE... | latex, paper, conversion | latex, paper, conversion, skill, should, used, user, asks, convert, academic, one, format |
 | `lead-magnets` | Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or oth... | lead, magnets | lead, magnets, plan, optimize, email, capture, generation, designing, gated, content, checklists, downloadable |

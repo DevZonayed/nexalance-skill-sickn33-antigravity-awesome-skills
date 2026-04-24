@@ -14428,6 +14428,25 @@
       "runtime_files": []
     },
     {
+      "id": "lambda-lang",
+      "path": "skills/lambda-lang",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "lambdatest-agent-skills",
       "path": "skills/lambdatest-agent-skills",
       "targets": {
@@ -27363,10 +27382,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1431,
+    "total_skills": 1432,
     "supported": {
-      "codex": 1400,
-      "claude": 1415
+      "codex": 1401,
+      "claude": 1416
     },
     "blocked": {
       "codex": 31,
