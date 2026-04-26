@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1435
+Total skills: 1436
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1435
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (274)
+## data-ai (275)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -450,6 +450,7 @@ Total skills: 1435
 | `trigger-dev` | Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. | trigger, dev | trigger, dev, background, jobs, ai, reliable, async, execution, excellent, developer, experience, typescript |
 | `uniprot-database` | Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bio... | uniprot, database | uniprot, database, direct, rest, api, access, protein, searches, fasta, retrieval, id, mapping |
 | `unity-ecs-patterns` | Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler. | unity, ecs | unity, ecs, data, oriented, technology, stack, dots, including, entity, component, job, burst |
+| `unslop` | Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing | writing, content-quality, ai-writing, text-processing, cli, publishing | writing, content-quality, ai-writing, text-processing, cli, publishing, unslop, post, process, ai, generated, text |
 | `uxui-principles` | Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI coding sessions. | ux, ui, design, evaluation, principles, antipatterns, accessibility | ux, ui, design, evaluation, principles, antipatterns, accessibility, uxui, evaluate, interfaces, against, 168 |
 | `vector-database-engineer` | Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applic... | vector, database | vector, database, engineer, databases, embedding, semantic, search, masters, pinecone, weaviate, qdrant, milvus |
 | `vector-index-tuning` | Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector sear... | vector, index, tuning | vector, index, tuning, optimize, performance, latency, recall, memory, hnsw, parameters, selecting, quantization |

@@ -29499,6 +29499,28 @@
     }
   },
   {
+    "id": "unslop",
+    "path": "skills/unslop",
+    "category": "writing",
+    "name": "unslop",
+    "description": "Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-25",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "unsplash-integration",
     "path": "skills/unsplash-integration",
     "category": "api-integration",

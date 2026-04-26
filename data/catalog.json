@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1435,
+  "total": 1436,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -33102,6 +33102,35 @@
         "performance"
       ],
       "path": "skills/unreal-engine-cpp-pro/SKILL.md"
+    },
+    {
+      "id": "unslop",
+      "name": "unslop",
+      "description": "Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing",
+      "category": "data-ai",
+      "tags": [
+        "writing",
+        "content-quality",
+        "ai-writing",
+        "text-processing",
+        "cli",
+        "publishing"
+      ],
+      "triggers": [
+        "writing",
+        "content-quality",
+        "ai-writing",
+        "text-processing",
+        "cli",
+        "publishing",
+        "unslop",
+        "post",
+        "process",
+        "ai",
+        "generated",
+        "text"
+      ],
+      "path": "skills/unslop/SKILL.md"
     },
     {
       "id": "unsplash-integration",

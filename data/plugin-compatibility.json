@@ -25661,6 +25661,25 @@
       "runtime_files": []
     },
     {
+      "id": "unslop",
+      "path": "skills/unslop",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "unsplash-integration",
       "path": "skills/unsplash-integration",
       "targets": {
@@ -27439,10 +27458,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1435,
+    "total_skills": 1436,
     "supported": {
-      "codex": 1404,
-      "claude": 1419
+      "codex": 1405,
+      "claude": 1420
     },
     "blocked": {
       "codex": 31,
