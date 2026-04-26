@@ -35275,7 +35275,7 @@
     {
       "id": "zipai-optimizer",
       "name": "zipai-optimizer",
-      "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.",
+      "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware.",
       "category": "general",
       "tags": [
         "zipai",

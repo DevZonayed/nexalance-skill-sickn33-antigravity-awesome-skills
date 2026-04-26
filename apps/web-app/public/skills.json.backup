@@ -31531,7 +31531,7 @@
     "path": "skills/zipai-optimizer",
     "category": "agent-behavior",
     "name": "zipai-optimizer",
-    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.",
+    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware.",
     "risk": "safe",
     "source": "unknown",
     "date_added": null,
