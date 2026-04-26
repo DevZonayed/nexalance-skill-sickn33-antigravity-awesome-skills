@@ -22932,25 +22932,6 @@
       "runtime_files": []
     },
     {
-      "id": "skills/x402-express-wrapper",
-      "path": "skills/skills/x402-express-wrapper",
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [],
-      "blocked_reasons": {
-        "codex": [],
-        "claude": []
-      },
-      "runtime_files": []
-    },
-    {
       "id": "skin-health-analyzer",
       "path": "skills/skin-health-analyzer",
       "targets": {
@@ -27098,6 +27079,25 @@
     {
       "id": "x-twitter-scraper",
       "path": "skills/x-twitter-scraper",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "x402-express-wrapper",
+      "path": "skills/x402-express-wrapper",
       "targets": {
         "codex": "supported",
         "claude": "supported"

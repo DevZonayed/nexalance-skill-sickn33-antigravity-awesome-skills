@@ -29616,34 +29616,6 @@
       "path": "skills/skill-writer/SKILL.md"
     },
     {
-      "id": "skills/x402-express-wrapper",
-      "name": "x402-express-wrapper",
-      "description": "Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetización máquina a máquina.",
-      "category": "development",
-      "tags": [
-        "x402",
-        "defi",
-        "monetization",
-        "express",
-        "mcp"
-      ],
-      "triggers": [
-        "x402",
-        "defi",
-        "monetization",
-        "express",
-        "mcp",
-        "wrapper",
-        "oficial",
-        "de",
-        "m2mcent",
-        "node",
-        "js",
-        "para"
-      ],
-      "path": "skills/skills/x402-express-wrapper/SKILL.md"
-    },
-    {
       "id": "skin-health-analyzer",
       "name": "skin-health-analyzer",
       "description": "Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.",
@@ -34968,6 +34940,34 @@
         "platform"
       ],
       "path": "skills/x-twitter-scraper/SKILL.md"
+    },
+    {
+      "id": "x402-express-wrapper",
+      "name": "x402-express-wrapper",
+      "description": "Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetización máquina a máquina.",
+      "category": "development",
+      "tags": [
+        "x402",
+        "defi",
+        "monetization",
+        "express",
+        "mcp"
+      ],
+      "triggers": [
+        "x402",
+        "defi",
+        "monetization",
+        "express",
+        "mcp",
+        "wrapper",
+        "oficial",
+        "de",
+        "m2mcent",
+        "node",
+        "js",
+        "para"
+      ],
+      "path": "skills/x402-express-wrapper/SKILL.md"
     },
     {
       "id": "xlsx-official",
