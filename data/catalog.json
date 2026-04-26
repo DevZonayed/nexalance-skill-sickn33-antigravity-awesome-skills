@@ -29918,24 +29918,25 @@
       "description": "Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook.",
       "category": "business",
       "tags": [
-        "social",
-        "post",
-        "writer",
-        "seo"
+        "social-media",
+        "marketing",
+        "content-writing",
+        "seo",
+        "growth"
       ],
       "triggers": [
+        "social-media",
+        "marketing",
+        "content-writing",
+        "seo",
+        "growth",
         "social",
         "post",
         "writer",
-        "seo",
         "media",
         "strategist",
         "content",
-        "creates",
-        "clear",
-        "engaging",
-        "posts",
-        "instagram"
+        "creates"
       ],
       "path": "skills/social-post-writer-seo/SKILL.md"
     },
@@ -34633,7 +34634,7 @@
     {
       "id": "wordpress-centric-high-seo-optimized-blogwriting-skill",
       "name": "wordpress-centric-high-seo-optimized-blogwriting-skill",
-      "description": "Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate information, and outputs direct WordPress-ready content.",
+      "description": "Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema.",
       "category": "business",
       "tags": [
         "writing",
@@ -34653,8 +34654,8 @@
         "optimized",
         "blogwriting",
         "skill",
-        "user",
-        "asks"
+        "long",
+        "form"
       ],
       "path": "skills/wordpress-centric-high-seo-optimized-blogwriting-skill/SKILL.md"
     },
