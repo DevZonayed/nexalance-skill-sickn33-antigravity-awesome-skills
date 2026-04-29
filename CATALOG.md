@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1439
+Total skills: 1440
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1439
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (276)
+## data-ai (277)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -289,6 +289,7 @@ Total skills: 1439
 | `brooks-lint` | AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks. | code-review, architecture, software-design, refactoring, claude-code | code-review, architecture, software-design, refactoring, claude-code, brooks, lint, ai, code, reviewer, grounded, classic |
 | `browser-automation` | Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to underst... | browser | browser, automation, powers, web, testing, scraping, ai, agent, interactions, difference, between, flaky |
 | `business-analyst` | Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive mod... | business, analyst | business, analyst, analysis, ai, powered, analytics, real, time, dashboards, data, driven, insights |
+| `buywhere-product-catalog` | Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. | buywhere, ecommerce, shopping, mcp, api, product-catalog | buywhere, ecommerce, shopping, mcp, api, product-catalog, product, catalog, surfaces, add, search, price |
 | `cc-skill-backend-patterns` | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. | cc, skill, backend | cc, skill, backend, architecture, api, database, optimization, server, side, node, js, express |
 | `cc-skill-clickhouse-io` | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. | cc, skill, clickhouse, io | cc, skill, clickhouse, io, database, query, optimization, analytics, data, engineering, high, performance |
 | `cirq` | Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators. | cirq | cirq, google, quantum, ai, open, source, framework, designing, simulating, running, circuits, computers |

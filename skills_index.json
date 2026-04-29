@@ -6642,6 +6642,28 @@
     }
   },
   {
+    "id": "buywhere-product-catalog",
+    "path": "skills/buywhere-product-catalog",
+    "category": "ecommerce",
+    "name": "buywhere-product-catalog",
+    "description": "Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "c-pro",
     "path": "skills/c-pro",
     "category": "code",

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1439,
+  "total": 1440,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -7477,6 +7477,35 @@
         "line"
       ],
       "path": "skills/busybox-on-windows/SKILL.md"
+    },
+    {
+      "id": "buywhere-product-catalog",
+      "name": "buywhere-product-catalog",
+      "description": "Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.",
+      "category": "data-ai",
+      "tags": [
+        "buywhere",
+        "ecommerce",
+        "shopping",
+        "mcp",
+        "api",
+        "product-catalog"
+      ],
+      "triggers": [
+        "buywhere",
+        "ecommerce",
+        "shopping",
+        "mcp",
+        "api",
+        "product-catalog",
+        "product",
+        "catalog",
+        "surfaces",
+        "add",
+        "search",
+        "price"
+      ],
+      "path": "skills/buywhere-product-catalog/SKILL.md"
     },
     {
       "id": "c-pro",
