@@ -351,6 +351,8 @@ This collection would not be possible without the incredible work of the Claude 
 - **[fruitwyatt/puzzle-activity-planner](https://github.com/fruitwyatt/puzzle-activity-planner)**: Puzzle activity-planning skill for classrooms, parties, and events with generator-link workflows.
 - **[gokapso/agent-skills](https://github.com/gokapso/agent-skills)**: Kapso/WhatsApp-oriented agent skills.
 - **[huifer/WellAlly-health](https://github.com/huifer/WellAlly-health)**: Healthcare assistant project cited in release history as a source for health-focused agent capabilities (MIT).
+- **[hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint)**: AI code-review skill grounded in classic software engineering books for design-smell, coupling, and architecture review.
+- **[hyhmrright/logic-lens](https://github.com/hyhmrright/logic-lens)**: AI code-review skill for formal logic inspection across bugs, race conditions, security risks, and API contract issues.
 - **[ibelick/ui-skills](https://github.com/ibelick/ui-skills)**: UI-polish skills for improving interfaces built by agents (MIT).
 - **[jackjin1997/ClawForge](https://github.com/jackjin1997/ClawForge)**: Resource hub of skills, MCP servers, and agent tooling for OpenClaw.
 - **[jthack/ffuf_claude_skill](https://github.com/jthack/ffuf_claude_skill)**: FFUF skill for web fuzzing workflows in Claude.
