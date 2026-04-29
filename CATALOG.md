@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1437
+Total skills: 1439
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1437
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (275)
+## data-ai (276)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -286,6 +286,7 @@ Total skills: 1437
 | `beautiful-prose` | A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean,... | beautiful, prose | beautiful, prose, hard, edged, writing, style, contract, timeless, forceful, english, without, ai |
 | `behavioral-modes` | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. | behavioral, modes | behavioral, modes, ai, operational, brainstorm, debug, review, teach, ship, orchestrate, adapt, behavior |
 | `biopython` | Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, ... | biopython | biopython, set, freely, available, python, biological, computation, provides, functionality, sequence, manipulation, file |
+| `brooks-lint` | AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks. | code-review, architecture, software-design, refactoring, claude-code | code-review, architecture, software-design, refactoring, claude-code, brooks, lint, ai, code, reviewer, grounded, classic |
 | `browser-automation` | Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to underst... | browser | browser, automation, powers, web, testing, scraping, ai, agent, interactions, difference, between, flaky |
 | `business-analyst` | Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive mod... | business, analyst | business, analyst, analysis, ai, powered, analytics, real, time, dashboards, data, driven, insights |
 | `cc-skill-backend-patterns` | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. | cc, skill, backend | cc, skill, backend, architecture, api, database, optimization, server, side, node, js, express |
@@ -1170,7 +1171,7 @@ Total skills: 1437
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks, scraper, data, platform |
 
-## security (171)
+## security (172)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1258,6 +1259,7 @@ Total skills: 1437
 | `linux-privilege-escalation` | Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses ... | linux, privilege, escalation | linux, privilege, escalation, execute, systematic, assessments, identify, exploit, misconfigurations, vulnerable, security, weaknesses |
 | `linux-shell-scripting` | Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, an... | linux, shell, scripting | linux, shell, scripting, provide, script, common, administration, tasks, including, backups, monitoring, user |
 | `local-llm-expert` | Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization for... | local, llm | local, llm, inference, model, selection, vram, optimization, deployment, ollama, llama, cpp, vllm |
+| `logic-lens` | AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks bey... | code-review, logic-analysis, debugging, security-review, claude-code | code-review, logic-analysis, debugging, security-review, claude-code, logic, lens, ai, powered, claude, code, skill |
 | `loki-mode` | Version 2.35.0 \| PRD to Production \| Zero Human Intervention > Research-enhanced: OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025) | loki, mode | loki, mode, version, 35, prd, zero, human, intervention, research, enhanced, openai, sdk |
 | `m365-agents-dotnet` | Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-base... | m365, agents, dotnet | m365, agents, dotnet, microsoft, 365, sdk, net, multichannel, teams, copilot, studio, asp |
 | `m365-agents-py` | Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming respon... | m365, agents, py | m365, agents, py, microsoft, 365, sdk, python, multichannel, teams, copilot, studio, aiohttp |

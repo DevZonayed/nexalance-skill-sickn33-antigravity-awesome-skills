@@ -6356,6 +6356,28 @@
     }
   },
   {
+    "id": "brooks-lint",
+    "path": "skills/brooks-lint",
+    "category": "development",
+    "name": "brooks-lint",
+    "description": "AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "browser-automation",
     "path": "skills/browser-automation",
     "category": "test-automation",
@@ -17710,6 +17732,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "logic-lens",
+    "path": "skills/logic-lens",
+    "category": "development",
+    "name": "logic-lens",
+    "description": "AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
     "plugin": {
       "targets": {
         "codex": "supported",

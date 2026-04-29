@@ -7,6 +7,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://localhost/skill/brooks-lint</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost/skill/logic-lens</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://localhost/skill/kubestellar-console</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -230,18 +242,6 @@
   </url>
   <url>
     <loc>http://localhost/skill/rayden-use</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/multi-agent-task-orchestrator</loc>
-    <lastmod>2026-04-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/monte-carlo-monitor-creation</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
