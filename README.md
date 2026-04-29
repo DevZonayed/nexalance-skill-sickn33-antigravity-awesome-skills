@@ -573,7 +573,6 @@ We officially thank the following contributors for their help in making this rep
 - [@Evozim](https://github.com/Evozim)
 - [@Imasaikiran](https://github.com/Imasaikiran)
 - [@justmiroslav](https://github.com/justmiroslav)
-- [@1bcMax](https://github.com/1bcMax)
 - [@xiaolai](https://github.com/xiaolai)
 - [@avij1109](https://github.com/avij1109)
 - [@mark1ian](https://github.com/mark1ian)
