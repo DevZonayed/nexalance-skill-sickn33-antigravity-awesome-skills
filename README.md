@@ -583,9 +583,6 @@ We officially thank the following contributors for their help in making this rep
 - [@mark1ian](https://github.com/mark1ian)
 - [@voidborne-d](https://github.com/voidborne-d)
 - [@MohamedAbdallah-14](https://github.com/MohamedAbdallah-14)
-- [@BuyWhere](https://github.com/BuyWhere)
-- [@clubanderson](https://github.com/clubanderson)
-- [@hyhmrright](https://github.com/hyhmrright)
 
 ## Star History
 
