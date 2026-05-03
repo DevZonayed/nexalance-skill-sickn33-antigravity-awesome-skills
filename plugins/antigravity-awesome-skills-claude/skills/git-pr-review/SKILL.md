@@ -1,6 +1,11 @@
 ---
 name: git-pr-review
 description: Generate a concise and structured PR description from commit history with minimal token usage
+risk: safe
+source: community
+source_type: community
+date_added: "2026-05-03"
+author: community
 ---
 
 ## Objective

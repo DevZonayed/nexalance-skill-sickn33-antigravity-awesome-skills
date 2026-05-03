@@ -22760,6 +22760,25 @@
       "runtime_files": []
     },
     {
+      "id": "skill-audit",
+      "path": "skills/skill-audit",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "skill-check",
       "path": "skills/skill-check",
       "targets": {
@@ -27572,10 +27591,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1442,
+    "total_skills": 1443,
     "supported": {
-      "codex": 1411,
-      "claude": 1426
+      "codex": 1412,
+      "claude": 1427
     },
     "blocked": {
       "codex": 31,

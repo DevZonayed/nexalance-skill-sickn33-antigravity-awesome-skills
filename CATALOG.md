@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1442
+Total skills: 1443
 
 ## architecture (95)
 
@@ -1174,7 +1174,7 @@ Total skills: 1442
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks, scraper, data, platform |
 
-## security (172)
+## security (173)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1319,6 +1319,7 @@ Total skills: 1442
 | `seo-technical` | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform s... | seo, technical | seo, technical, audit, crawlability, indexability, security, urls, mobile, core, web, vitals, structured |
 | `service-mesh-expert` | Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observabil... | service, mesh | service, mesh, architect, specializing, istio, linkerd, cloud, native, networking, masters, traffic, security |
 | `simplify-code` | Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. | simplify, code | simplify, code, review, diff, clarity, safe, simplifications, then, optionally, apply, low, risk |
+| `skill-audit` | Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. | security, audit, pre-install, malicious-detection, supply-chain | security, audit, pre-install, malicious-detection, supply-chain, skill, pre, install, scanner, ai, agent, skills |
 | `skill-creator` | To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template applicati... | automation, scaffolding, skill-creation, meta-skill | automation, scaffolding, skill-creation, meta-skill, skill, creator, new, cli, skills, following, anthropic, official |
 | `skill-scanner` | Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks. | skill, scanner | skill, scanner, scan, agent, skills, security, issues, before, adoption, detects, prompt, injection |
 | `smtp-penetration-testing` | Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeratio... | smtp, penetration | smtp, penetration, testing, conduct, security, assessments, simple, mail, transfer, protocol, servers, identify |
