@@ -588,6 +588,8 @@ We officially thank the following contributors for their help in making this rep
 - [@clubanderson](https://github.com/clubanderson)
 - [@flyingsquirrel0419](https://github.com/flyingsquirrel0419)
 - [@hyhmrright](https://github.com/hyhmrright)
+- [@aptratcn](https://github.com/aptratcn)
+- [@kench001](https://github.com/kench001)
 
 ## Star History
 
