@@ -1,4 +1,4 @@
-<!-- registry-sync: version=10.8.0; skills=1443; stars=35690; updated_at=2026-04-29T16:59:33+00:00 -->
+<!-- registry-sync: version=10.9.0; skills=1443; stars=36115; updated_at=2026-05-03T06:51:10+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,443+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **Installable GitHub library of 1,443+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
@@ -22,7 +22,7 @@ You can use this repo to install a broad multi-tool skill library, start from ro
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray?style=for-the-badge)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-AI%20IDE-red?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Current release: V10.8.0.** Trusted by 36k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
+**Current release: V10.9.0.** Trusted by 36k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
 
 ## Why This Repo
 
