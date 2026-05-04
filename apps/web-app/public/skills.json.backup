@@ -22443,6 +22443,28 @@
     }
   },
   {
+    "id": "production-audit",
+    "path": "skills/production-audit",
+    "category": "security",
+    "name": "production-audit",
+    "description": "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "production-code-audit",
     "path": "skills/production-code-audit",
     "category": "architecture",

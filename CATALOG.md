@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1444
+Total skills: 1445
 
 ## architecture (95)
 
@@ -1175,7 +1175,7 @@ Total skills: 1444
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks, scraper, data, platform |
 
-## security (173)
+## security (174)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1290,6 +1290,7 @@ Total skills: 1444
 | `postmortem-writing` | Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence. | postmortem, writing | postmortem, writing, effective, blameless, postmortems, drive, organizational, learning, prevent, incident, recurrence |
 | `privacy-by-design` | Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption. | privacy, by | privacy, by, building, apps, collect, user, data, ensures, protections, built, start, minimization |
 | `product-manager` | Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts. | product-management, saas, frameworks, metrics, strategy | product-management, saas, frameworks, metrics, strategy, product, manager, senior, pm, agent, knowledge, domains |
+| `production-audit` | Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health. | security, audit, production, vibe-coding, rls, webhook, stripe, supabase, mobile | security, audit, production, vibe-coding, rls, webhook, stripe, supabase, mobile, shipped, repo, readiness |
 | `protocol-reverse-engineering` | Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging. | protocol, reverse, engineering | protocol, reverse, engineering, techniques, capturing, analyzing, documenting, network, protocols, security, research, interoperability |
 | `quant-analyst` | Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. | quant, analyst | quant, analyst, financial, models, backtest, trading, analyze, market, data, implements, risk, metrics |
 | `red-team-tactics` | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. | red, team, tactics | red, team, tactics, principles, mitre, att, ck, attack, phases, detection, evasion, reporting |
