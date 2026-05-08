@@ -1,12 +1,12 @@
 ---
 name: multi-agent-architect
 description: "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows."
+risk: safe
+source: community
 metadata:
   category: ai-engineering
-  risk: safe
-  source: self
   source_repo: pravin-python/antigravity-awesome-skills
-  source_type: official
+  source_type: community
   date_added: "2025-05-07"
   author: community
   tags: [langgraph, langchain, multi-agent, orchestration, deepagents, rag, tool-calling]

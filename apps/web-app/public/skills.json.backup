@@ -19497,8 +19497,8 @@
     "category": "ai-ml",
     "name": "multi-agent-architect",
     "description": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
-    "risk": "unknown",
-    "source": "unknown",
+    "risk": "safe",
+    "source": "community",
     "date_added": null,
     "plugin": {
       "targets": {
