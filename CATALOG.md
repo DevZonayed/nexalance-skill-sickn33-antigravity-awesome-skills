@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1449
+Total skills: 1450
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1449
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (280)
+## data-ai (281)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -454,6 +454,7 @@ Total skills: 1449
 | `travel-health-analyzer` | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 | travel, health, analyzer | travel, health, analyzer, who, cdc |
 | `trigger-dev` | Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. | trigger, dev | trigger, dev, background, jobs, ai, reliable, async, execution, excellent, developer, experience, typescript |
 | `uniprot-database` | Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bio... | uniprot, database | uniprot, database, direct, rest, api, access, protein, searches, fasta, retrieval, id, mapping |
+| `unity-ai-game-creator` | Transform raw game ideas into complete Unity projects with AI-powered asset generation, scene blueprints, music/SFX prompts, and step-by-step development pro... | unity, game-development, ai-generation, asset-pipeline, scene-design, music-generation, game-design-document | unity, game-development, ai-generation, asset-pipeline, scene-design, music-generation, game-design-document, ai, game, creator, transform, raw |
 | `unity-ecs-patterns` | Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler. | unity, ecs | unity, ecs, data, oriented, technology, stack, dots, including, entity, component, job, burst |
 | `unslop` | Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing | writing, content-quality, ai-writing, text-processing, cli, publishing | writing, content-quality, ai-writing, text-processing, cli, publishing, unslop, post, process, ai, generated, text |
 | `uxui-principles` | Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI coding sessions. | ux, ui, design, evaluation, principles, antipatterns, accessibility | ux, ui, design, evaluation, principles, antipatterns, accessibility, uxui, evaluate, interfaces, against, 168 |

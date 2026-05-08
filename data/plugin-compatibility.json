@@ -25832,6 +25832,25 @@
       "runtime_files": []
     },
     {
+      "id": "unity-ai-game-creator",
+      "path": "skills/unity-ai-game-creator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "unity-developer",
       "path": "skills/unity-developer",
       "targets": {
@@ -27705,10 +27724,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1449,
+    "total_skills": 1450,
     "supported": {
-      "codex": 1418,
-      "claude": 1433
+      "codex": 1419,
+      "claude": 1434
     },
     "blocked": {
       "codex": 31,
