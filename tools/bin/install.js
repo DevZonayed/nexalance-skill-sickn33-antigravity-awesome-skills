@@ -314,9 +314,8 @@ function installSkillsIntoTarget(tempDir, target, installEntries) {
       copyRecursiveSync(repoDocs, docsDest, repoDocs);
       return;
     }
-    const srcName = normalizeInstallEntry(name);
-    const src = path.join(repoSkills, srcName);
-    const destName = srcName;
+    const src = path.join(repoSkills, name);
+    const destName = normalizeInstallEntry(name);
     const dest = path.join(target, destName);
     copyRecursiveSync(src, dest, repoSkills);
   });
