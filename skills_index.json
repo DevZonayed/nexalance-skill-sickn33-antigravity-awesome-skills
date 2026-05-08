@@ -23941,6 +23941,28 @@
     }
   },
   {
+    "id": "rich-elicitation",
+    "path": "skills/rich-elicitation",
+    "category": "productivity",
+    "name": "rich-elicitation",
+    "description": "Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.",
+    "risk": "none",
+    "source": "self",
+    "date_added": "2026-05-07",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "risk-manager",
     "path": "skills/risk-manager",
     "category": "business",

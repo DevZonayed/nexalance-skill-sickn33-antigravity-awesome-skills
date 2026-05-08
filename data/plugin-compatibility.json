@@ -20761,6 +20761,25 @@
       "runtime_files": []
     },
     {
+      "id": "rich-elicitation",
+      "path": "skills/rich-elicitation",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "risk-manager",
       "path": "skills/risk-manager",
       "targets": {
@@ -27648,10 +27667,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1446,
+    "total_skills": 1447,
     "supported": {
-      "codex": 1415,
-      "claude": 1430
+      "codex": 1416,
+      "claude": 1431
     },
     "blocked": {
       "codex": 31,
