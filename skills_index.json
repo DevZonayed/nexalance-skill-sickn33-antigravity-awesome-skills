@@ -22514,7 +22514,7 @@
     "category": "security",
     "name": "production-audit",
     "description": "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.",
-    "risk": "safe",
+    "risk": "critical",
     "source": "community",
     "date_added": "2026-05-04",
     "plugin": {

@@ -36,6 +36,7 @@ This release merges PRs #575, #577, #578, #579, and #581 through the maintainer 
 ## Improvements
 
 - **skill-writer references restored** - adds the missing `references/` workflow files and example profile so `skills/skill-writer/SKILL.md` can be followed end to end.
+- **security hardening** - pins `production-audit` to `commitshow@0.3.23`, marks it critical because it executes external npm code, adds prompt-injection guardrails to `git-pr-review`, tightens KubeStellar `kc-agent` RBAC guidance, normalizes installer manifest cleanup for flattened `skills/` paths, and updates Loki example backend dependencies to clear the open `ip-address` Dependabot alerts.
 - **source provenance and credits** - adds README source coverage for Aomi, Rich Elicitation, and MockHunter, and normalizes the `multi-agent-architect` risk/source metadata before release.
 - **generated artifact sync** - refreshes catalog, skill index, plugin mirrors, web assets, package metadata, and visible skill counts to `1,450+`.
 
