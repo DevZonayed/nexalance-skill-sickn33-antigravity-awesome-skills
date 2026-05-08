@@ -16654,6 +16654,25 @@
       "runtime_files": []
     },
     {
+      "id": "mock-hunter",
+      "path": "skills/mock-hunter",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "modern-javascript-patterns",
       "path": "skills/modern-javascript-patterns",
       "targets": {
@@ -27667,10 +27686,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1447,
+    "total_skills": 1448,
     "supported": {
-      "codex": 1416,
-      "claude": 1431
+      "codex": 1417,
+      "claude": 1432
     },
     "blocked": {
       "codex": 31,

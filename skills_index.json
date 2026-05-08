@@ -19160,6 +19160,28 @@
     }
   },
   {
+    "id": "mock-hunter",
+    "path": "skills/mock-hunter",
+    "category": "testing",
+    "name": "mock-hunter",
+    "description": "Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-07",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "modern-javascript-patterns",
     "path": "skills/modern-javascript-patterns",
     "category": "development",

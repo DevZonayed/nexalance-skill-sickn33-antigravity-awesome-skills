@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1447,
+  "total": 1448,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -21542,6 +21542,37 @@
         "specific"
       ],
       "path": "skills/mobile-security-coder/SKILL.md"
+    },
+    {
+      "id": "mock-hunter",
+      "name": "mock-hunter",
+      "description": "Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value.",
+      "category": "data-ai",
+      "tags": [
+        "testing",
+        "qa",
+        "playwright",
+        "mock-detection",
+        "web-audit",
+        "ai-testing",
+        "vibe-coding",
+        "claude-code"
+      ],
+      "triggers": [
+        "testing",
+        "qa",
+        "playwright",
+        "mock-detection",
+        "web-audit",
+        "ai-testing",
+        "vibe-coding",
+        "claude-code",
+        "mock",
+        "hunter",
+        "audit",
+        "live"
+      ],
+      "path": "skills/mock-hunter/SKILL.md"
     },
     {
       "id": "modern-javascript-patterns",

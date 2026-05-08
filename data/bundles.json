@@ -634,6 +634,7 @@
         "mailchimp-automation",
         "microservices-patterns",
         "ml-pipeline-workflow",
+        "mock-hunter",
         "monte-carlo-prevent",
         "monte-carlo-push-ingestion",
         "monte-carlo-validation-notebook",

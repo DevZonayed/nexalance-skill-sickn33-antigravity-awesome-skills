@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1447
+Total skills: 1448
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1447
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (278)
+## data-ai (279)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -382,6 +382,7 @@ Total skills: 1447
 | `maxia` | Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug... | solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a | solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a, maxia, connect, ai |
 | `mlops-engineer` | Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. | mlops | mlops, engineer, ml, pipelines, experiment, tracking, model, registries, mlflow, kubeflow |
 | `mmx-cli` | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax mo... | mmx, cli | mmx, cli, generate, text, images, video, speech, music, via, minimax, ai, platform |
+| `mock-hunter` | Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken end... | testing, qa, playwright, mock-detection, web-audit, ai-testing, vibe-coding, claude-code | testing, qa, playwright, mock-detection, web-audit, ai-testing, vibe-coding, claude-code, mock, hunter, audit, live |
 | `molykit` | CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformSend, spawn(), ThreadToken, cross-platfor... | molykit | molykit, critical, ai, chat, toolkit, triggers, botclient, openai, sse, streaming, platformsend, spawn |
 | `monte-carlo-push-ingestion` | Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse. | data-observability, ingestion, monte-carlo, pycarlo, metadata | data-observability, ingestion, monte-carlo, pycarlo, metadata, monte, carlo, push, pushing, lineage, query, logs |
 | `monte-carlo-validation-notebook` | Generates SQL validation notebooks for dbt PR changes with before/after comparison queries. | data-observability, validation, dbt, monte-carlo, sql-notebook | data-observability, validation, dbt, monte-carlo, sql-notebook, monte, carlo, notebook, generates, sql, notebooks, pr |
