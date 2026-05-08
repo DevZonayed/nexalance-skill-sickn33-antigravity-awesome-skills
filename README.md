@@ -595,6 +595,11 @@ We officially thank the following contributors for their help in making this rep
 - [@aptratcn](https://github.com/aptratcn)
 - [@kench001](https://github.com/kench001)
 - [@commitshow](https://github.com/commitshow)
+- [@CeciliaZ030](https://github.com/CeciliaZ030)
+- [@CyberZenithX](https://github.com/CyberZenithX)
+- [@Mann-Makhecha](https://github.com/Mann-Makhecha)
+- [@memurcie](https://github.com/memurcie)
+- [@pravin-python](https://github.com/pravin-python)
 
 ## Star History
 
