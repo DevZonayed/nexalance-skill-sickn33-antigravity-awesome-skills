@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1448
+Total skills: 1449
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1448
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (279)
+## data-ai (280)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -387,6 +387,7 @@ Total skills: 1448
 | `monte-carlo-push-ingestion` | Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse. | data-observability, ingestion, monte-carlo, pycarlo, metadata | data-observability, ingestion, monte-carlo, pycarlo, metadata, monte, carlo, push, pushing, lineage, query, logs |
 | `monte-carlo-validation-notebook` | Generates SQL validation notebooks for dbt PR changes with before/after comparison queries. | data-observability, validation, dbt, monte-carlo, sql-notebook | data-observability, validation, dbt, monte-carlo, sql-notebook, monte, carlo, notebook, generates, sql, notebooks, pr |
 | `moyu` | Anti-over-engineering guardrail that activates when an AI coding agent expands scope, adds abstractions, or changes files the user did not request. | moyu | moyu, anti, engineering, guardrail, activates, ai, coding, agent, expands, scope, adds, abstractions |
+| `multi-agent-architect` | Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows. | langgraph, langchain, multi-agent, orchestration, deepagents, rag, tool-calling | langgraph, langchain, multi-agent, orchestration, deepagents, rag, tool-calling, multi, agent, architect, optimize, grade |
 | `n8n-expression-syntax` | Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting e... | n8n, expression, syntax | n8n, expression, syntax, validate, fix, common, errors, writing, expressions, accessing, json, node |
 | `nanobanana-ppt-skills` | AI-powered PPT generation with document analysis and styled images | nanobanana, ppt, skills | nanobanana, ppt, skills, ai, powered, generation, document, analysis, styled, images |
 | `neon-postgres` | Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration | neon, postgres | neon, postgres, serverless, branching, connection, pooling, prisma, drizzle, integration |

@@ -19492,6 +19492,28 @@
     }
   },
   {
+    "id": "multi-agent-architect",
+    "path": "skills/multi-agent-architect",
+    "category": "ai-ml",
+    "name": "multi-agent-architect",
+    "description": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "multi-agent-brainstorming",
     "path": "skills/multi-agent-brainstorming",
     "category": "ai-ml",

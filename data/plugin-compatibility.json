@@ -16945,6 +16945,25 @@
       "runtime_files": []
     },
     {
+      "id": "multi-agent-architect",
+      "path": "skills/multi-agent-architect",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "multi-agent-brainstorming",
       "path": "skills/multi-agent-brainstorming",
       "targets": {
@@ -27686,10 +27705,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1448,
+    "total_skills": 1449,
     "supported": {
-      "codex": 1417,
-      "claude": 1432
+      "codex": 1418,
+      "claude": 1433
     },
     "blocked": {
       "codex": 31,

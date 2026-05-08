@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1448,
+  "total": 1449,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -21935,6 +21935,36 @@
         "agentes"
       ],
       "path": "skills/multi-advisor/SKILL.md"
+    },
+    {
+      "id": "multi-agent-architect",
+      "name": "multi-agent-architect",
+      "description": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
+      "category": "data-ai",
+      "tags": [
+        "langgraph",
+        "langchain",
+        "multi-agent",
+        "orchestration",
+        "deepagents",
+        "rag",
+        "tool-calling"
+      ],
+      "triggers": [
+        "langgraph",
+        "langchain",
+        "multi-agent",
+        "orchestration",
+        "deepagents",
+        "rag",
+        "tool-calling",
+        "multi",
+        "agent",
+        "architect",
+        "optimize",
+        "grade"
+      ],
+      "path": "skills/multi-agent-architect/SKILL.md"
     },
     {
       "id": "multi-agent-brainstorming",
