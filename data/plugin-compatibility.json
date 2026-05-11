@@ -16714,18 +16714,24 @@
       "id": "mock-hunter",
       "path": "skills/mock-hunter",
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": [],
+      "reasons": [
+        "explicit_target_restriction"
+      ],
       "blocked_reasons": {
-        "codex": [],
-        "claude": []
+        "codex": [
+          "explicit_target_restriction"
+        ],
+        "claude": [
+          "explicit_target_restriction"
+        ]
       },
       "runtime_files": []
     },
@@ -27783,12 +27789,12 @@
   "summary": {
     "total_skills": 1453,
     "supported": {
-      "codex": 1422,
-      "claude": 1437
+      "codex": 1421,
+      "claude": 1436
     },
     "blocked": {
-      "codex": 31,
-      "claude": 16
+      "codex": 32,
+      "claude": 17
     },
     "manual_setup": 3
   }
