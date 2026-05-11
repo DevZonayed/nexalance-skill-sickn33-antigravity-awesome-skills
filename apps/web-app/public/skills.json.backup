@@ -15960,6 +15960,28 @@
     }
   },
   {
+    "id": "ingest-youtube",
+    "path": "skills/ingest-youtube",
+    "category": "uncategorized",
+    "name": "ingest-youtube",
+    "description": "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-09",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "inngest",
     "path": "skills/inngest",
     "category": "workflow",

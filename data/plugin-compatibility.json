@@ -13801,6 +13801,25 @@
       "runtime_files": []
     },
     {
+      "id": "ingest-youtube",
+      "path": "skills/ingest-youtube",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "inngest",
       "path": "skills/inngest",
       "targets": {
@@ -27762,10 +27781,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1452,
+    "total_skills": 1453,
     "supported": {
-      "codex": 1421,
-      "claude": 1436
+      "codex": 1422,
+      "claude": 1437
     },
     "blocked": {
       "codex": 31,

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1452,
+  "total": 1453,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -17861,6 +17861,31 @@
         "tested"
       ],
       "path": "skills/infinite-gratitude/SKILL.md"
+    },
+    {
+      "id": "ingest-youtube",
+      "name": "ingest-youtube",
+      "description": "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.",
+      "category": "general",
+      "tags": [
+        "ingest",
+        "youtube"
+      ],
+      "triggers": [
+        "ingest",
+        "youtube",
+        "pull",
+        "video",
+        "transcript",
+        "queryable",
+        "markdown",
+        "vault",
+        "yt",
+        "dlp",
+        "subtitle",
+        "discovery"
+      ],
+      "path": "skills/ingest-youtube/SKILL.md"
     },
     {
       "id": "inngest",

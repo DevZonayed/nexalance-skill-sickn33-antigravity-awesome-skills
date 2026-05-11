@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1452
+Total skills: 1453
 
 ## architecture (95)
 
@@ -688,7 +688,7 @@ Total skills: 1452
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (350)
+## general (351)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -859,6 +859,7 @@ Total skills: 1452
 | `identity-mirror` | One sentence - what this skill does and when to invoke it | identity, mirror | identity, mirror, one, sentence, what, skill, does, invoke |
 | `ilya-sutskever` | Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consci... | persona, agi, safety, scaling-laws, openai | persona, agi, safety, scaling-laws, openai, ilya, sutskever, agente, que, simula, co, fundador |
 | `infinite-gratitude` | Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). | infinite, gratitude | infinite, gratitude, multi, agent, research, skill, parallel, execution, 10, agents, battle, tested |
+| `ingest-youtube` | Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. | ingest, youtube | ingest, youtube, pull, video, transcript, queryable, markdown, vault, yt, dlp, subtitle, discovery |
 | `interactive-portfolio` | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, d... | interactive, portfolio | interactive, portfolio, building, portfolios, actually, land, jobs, clients, just, showing, work, creating |
 | `internal-comms-anthropic` | To write internal communications, use this skill for: | internal, comms, anthropic | internal, comms, anthropic, write, communications, skill |
 | `internal-comms-community` | To write internal communications, use this skill for: | internal, comms, community | internal, comms, community, write, communications, skill |
