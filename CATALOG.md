@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1451
+Total skills: 1452
 
 ## architecture (95)
 
@@ -1359,7 +1359,7 @@ Total skills: 1451
 | `xss-html-injection` | Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation ... | xss, html, injection | xss, html, injection, execute, client, side, vulnerability, assessments, web, applications, identify, flaws |
 | `zeroize-audit` | Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and ... | zeroize, audit | zeroize, audit, detects, missing, zeroization, sensitive, data, source, code, identifies, removed, compiler |
 
-## testing (31)
+## testing (32)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1371,6 +1371,7 @@ Total skills: 1451
 | `debugger` | Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues. | debugger | debugger, debugging, errors, test, failures, unexpected, behavior, proactively, encountering, any, issues |
 | `dependency-upgrade` | Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches. | dependency, upgrade | dependency, upgrade, major, version, upgrades, compatibility, analysis, staged, testing, approaches |
 | `doc-coauthoring` | This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stag... | doc, coauthoring | doc, coauthoring, skill, provides, structured, guiding, users, through, collaborative, document, creation, act |
+| `ejentum-reasoning-harness` | MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, proced... | ejentum, reasoning, harness | ejentum, reasoning, harness, mcp, server, exposing, four, cognitive, modes, code, anti, deception |
 | `evaluation` | Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improv... | evaluation | evaluation, frameworks, agent, testing, performance, systematically, validating, context, engineering, choices, measuring, improvements |
 | `ffuf-web-fuzzing` | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis | ffuf, web, fuzzing | ffuf, web, fuzzing, guidance, during, penetration, testing, including, authenticated, raw, requests, auto |
 | `idor-testing` | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications. | idor | idor, testing, provide, systematic, methodologies, identifying, exploiting, insecure, direct, object, reference, vulnerabilities |

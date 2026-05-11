@@ -9560,6 +9560,25 @@
       "runtime_files": []
     },
     {
+      "id": "ejentum-reasoning-harness",
+      "path": "skills/ejentum-reasoning-harness",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat).",
+        "docs": "https://github.com/ejentum/ejentum-mcp#installation"
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "electron-development",
       "path": "skills/electron-development",
       "targets": {
@@ -27743,15 +27762,15 @@
     }
   ],
   "summary": {
-    "total_skills": 1451,
+    "total_skills": 1452,
     "supported": {
-      "codex": 1420,
-      "claude": 1435
+      "codex": 1421,
+      "claude": 1436
     },
     "blocked": {
       "codex": 31,
       "claude": 16
     },
-    "manual_setup": 2
+    "manual_setup": 3
   }
 }

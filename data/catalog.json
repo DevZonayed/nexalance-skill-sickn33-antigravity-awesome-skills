@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1451,
+  "total": 1452,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -12418,6 +12418,32 @@
         "connects"
       ],
       "path": "skills/earllm-build/SKILL.md"
+    },
+    {
+      "id": "ejentum-reasoning-harness",
+      "name": "ejentum-reasoning-harness",
+      "description": "MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before generating.",
+      "category": "testing",
+      "tags": [
+        "ejentum",
+        "reasoning",
+        "harness"
+      ],
+      "triggers": [
+        "ejentum",
+        "reasoning",
+        "harness",
+        "mcp",
+        "server",
+        "exposing",
+        "four",
+        "cognitive",
+        "modes",
+        "code",
+        "anti",
+        "deception"
+      ],
+      "path": "skills/ejentum-reasoning-harness/SKILL.md"
     },
     {
       "id": "electron-development",
