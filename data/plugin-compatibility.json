@@ -16293,6 +16293,25 @@
       "runtime_files": []
     },
     {
+      "id": "mcp-tool-developer",
+      "path": "skills/mcp-tool-developer",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "memory-forensics",
       "path": "skills/memory-forensics",
       "targets": {
@@ -26912,6 +26931,25 @@
       "runtime_files": []
     },
     {
+      "id": "wechat-official-account-strategist",
+      "path": "skills/wechat-official-account-strategist",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "weightloss-analyzer",
       "path": "skills/weightloss-analyzer",
       "targets": {
@@ -27463,6 +27501,25 @@
       "runtime_files": []
     },
     {
+      "id": "xiaohongshu-content-strategist",
+      "path": "skills/xiaohongshu-content-strategist",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "xlsx-official",
       "path": "skills/xlsx-official",
       "targets": {
@@ -27806,10 +27863,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1454,
+    "total_skills": 1457,
     "supported": {
-      "codex": 1422,
-      "claude": 1437
+      "codex": 1425,
+      "claude": 1440
     },
     "blocked": {
       "codex": 32,

@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1454
+Total skills: 1457
 
-## architecture (95)
+## architecture (96)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -99,12 +99,13 @@ Total skills: 1454
 | `ux-flow` | Design user flows and screen structure using StyleSeed UX patterns such as progressive disclosure, hub-and-spoke navigation, and information pyramids. | ux, flows, navigation, product-design, styleseed | ux, flows, navigation, product-design, styleseed, flow, user, screen, structure, such, progressive, disclosure |
 | `wcag-audit-patterns` | Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies. | wcag, audit | wcag, audit, auditing, web, content, against, guidelines, actionable, remediation |
 | `web3-testing` | Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns. | web3 | web3, testing, smart, contracts, hardhat, foundry |
+| `wechat-official-account-strategist` | Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration. | wechat, chinese-market, content-strategy, marketing, 公众号, 微信 | wechat, chinese-market, content-strategy, marketing, 公众号, 微信, official, account, strategist, grow, accounts, high |
 | `wordpress-theme-development` | WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPre... | wordpress, theme | wordpress, theme, development, covering, architecture, hierarchy, custom, post, types, block, editor, responsive |
 | `workflow-orchestration-patterns` | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliabl... |  | orchestration, architecture, temporal, covering, fundamental, decisions, resilience, building, reliable, distributed |
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (81)
+## business (82)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -189,6 +190,7 @@ Total skills: 1454
 | `warren-buffett` | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Char... | persona, investing, value-investing, business | persona, investing, value-investing, business, warren, buffett, agente, que, simula, maior, investidor, do |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
+| `xiaohongshu-content-strategist` | Create viral Xiaohongshu (小红书) content with platform-native strategy, save-rate optimization, trending formats, and search SEO for China's #1 lifestyle platf... | xiaohongshu, chinese-market, content-strategy, social-media, marketing, 红书, 小红书 | xiaohongshu, chinese-market, content-strategy, social-media, marketing, 红书, 小红书, content, strategist, viral, platform, native |
 
 ## data-ai (281)
 
@@ -1044,7 +1046,7 @@ Total skills: 1454
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (132)
+## infrastructure (133)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1140,6 +1142,7 @@ Total skills: 1454
 | `machine-learning-ops-ml-pipeline` | Design and implement a complete ML pipeline for: $ARGUMENTS | machine, learning, ops, ml, pipeline | machine, learning, ops, ml, pipeline, complete, arguments |
 | `makepad-deployment` | CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, 打包, 部署, cargo-packager, cargo-makepad, WASM, Android, iOS, distri... | makepad, deployment | makepad, deployment, critical, packaging, triggers, deploy, package, apk, ipa, cargo, packager, wasm |
 | `manifest` | Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin. | manifest | manifest, install, configure, observability, plugin, agents, setting, up, telemetry, configuring, api, keys |
+| `mcp-tool-developer` | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publi... | mcp, ai-agent, tool-development, typescript, python, llm, model-context-protocol | mcp, ai-agent, tool-development, typescript, python, llm, model-context-protocol, developer, model, context, protocol, servers |
 | `microservices-patterns` | Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building d... | microservices | microservices, architecture, including, boundaries, inter, communication, data, resilience, building, distributed |
 | `mise-configurator` | Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization. | mise, devops, ci-cd, toolchain, runtimes, automation | mise, devops, ci-cd, toolchain, runtimes, automation, configurator, generate, toml, setups, local, development |
 | `ml-engineer` | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. | ml | ml, engineer, pytorch, tensorflow, frameworks, implements, model, serving, feature, engineering, testing, monitoring |

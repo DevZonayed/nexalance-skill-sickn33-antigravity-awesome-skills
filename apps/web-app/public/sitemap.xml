@@ -7,6 +7,24 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://localhost/skill/mcp-tool-developer</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost/skill/wechat-official-account-strategist</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost/skill/xiaohongshu-content-strategist</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://localhost/skill/tokenwise</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -224,24 +242,6 @@
   </url>
   <url>
     <loc>http://localhost/skill/stitch-design-taste</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/ai-dev-jobs-mcp</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/lambdatest-agent-skills</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://localhost/skill/mise-configurator</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
