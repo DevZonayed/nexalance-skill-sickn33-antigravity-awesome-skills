@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1453
+Total skills: 1454
 
 ## architecture (95)
 
@@ -1181,7 +1181,7 @@ Total skills: 1453
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (174)
+## security (175)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1342,6 +1342,7 @@ Total skills: 1453
 | `temporal-golang-pro` | Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns. | temporal, golang | temporal, golang, pro, building, durable, distributed, go, sdk, covers, deterministic, rules, mtls |
 | `threat-mitigation-mapping` | Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validatin... | threat, mitigation, mapping | threat, mitigation, mapping, map, identified, threats, appropriate, security, controls, mitigations, prioritizing, investments |
 | `threat-modeling-expert` | Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement ext... | threat, modeling | threat, modeling, methodologies, security, architecture, review, risk, assessment, masters, stride, pasta, attack |
+| `tokenwise` | Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper t... | model-routing, token-optimization, cost-reduction, anthropic, haiku, sonnet, opus, claude-code, ab-testing, measurement | model-routing, token-optimization, cost-reduction, anthropic, haiku, sonnet, opus, claude-code, ab-testing, measurement, tokenwise, driven |
 | `top-web-vulnerabilities` | Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic ... | top, web, vulnerabilities | top, web, vulnerabilities, provide, structured, reference, 100, most, critical, application, organized, category |
 | `trust-calibrator` | One sentence - what this skill does and when to invoke it | trust, calibrator | trust, calibrator, one, sentence, what, skill, does, invoke |
 | `ui-review` | Review UI code for StyleSeed design-system compliance, accessibility, mobile ergonomics, spacing discipline, and implementation quality. | ui, review, design-system, accessibility, styleseed | ui, review, design-system, accessibility, styleseed, code, compliance, mobile, ergonomics, spacing, discipline, quality |

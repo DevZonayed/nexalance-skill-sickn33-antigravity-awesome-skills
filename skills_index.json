@@ -29105,6 +29105,28 @@
     }
   },
   {
+    "id": "tokenwise",
+    "path": "skills/tokenwise",
+    "category": "developer-tools",
+    "name": "tokenwise",
+    "description": "Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-12",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "tool-design",
     "path": "skills/tool-design",
     "category": "ai-ml",
