@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1457,
+  "total": 1459,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -22597,6 +22597,34 @@
       "path": "skills/new-rails-project/SKILL.md"
     },
     {
+      "id": "news-sentiment-engine",
+      "name": "news-sentiment-engine",
+      "description": "Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output",
+      "category": "general",
+      "tags": [
+        "news",
+        "rss",
+        "sentiment-analysis",
+        "briefing",
+        "research"
+      ],
+      "triggers": [
+        "news",
+        "rss",
+        "sentiment-analysis",
+        "briefing",
+        "research",
+        "sentiment",
+        "engine",
+        "multi",
+        "source",
+        "aggregation",
+        "claude",
+        "powered"
+      ],
+      "path": "skills/news-sentiment-engine/SKILL.md"
+    },
+    {
       "id": "nextjs-app-router-patterns",
       "name": "nextjs-app-router-patterns",
       "description": "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.",
@@ -23920,6 +23948,34 @@
         "repo"
       ],
       "path": "skills/openclaw-github-repo-commander/SKILL.md"
+    },
+    {
+      "id": "options-flow-analyzer",
+      "name": "options-flow-analyzer",
+      "description": "Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise",
+      "category": "general",
+      "tags": [
+        "options",
+        "sentiment-analysis",
+        "trading",
+        "polygon",
+        "market-analysis"
+      ],
+      "triggers": [
+        "options",
+        "sentiment-analysis",
+        "trading",
+        "polygon",
+        "market-analysis",
+        "flow",
+        "analyzer",
+        "real",
+        "vs",
+        "lottery",
+        "call",
+        "separation"
+      ],
+      "path": "skills/options-flow-analyzer/SKILL.md"
     },
     {
       "id": "oral-health-analyzer",

@@ -17464,6 +17464,25 @@
       "runtime_files": []
     },
     {
+      "id": "news-sentiment-engine",
+      "path": "skills/news-sentiment-engine",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "nextjs-app-router-patterns",
       "path": "skills/nextjs-app-router-patterns",
       "targets": {
@@ -18464,6 +18483,25 @@
     {
       "id": "openclaw-github-repo-commander",
       "path": "skills/openclaw-github-repo-commander",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "options-flow-analyzer",
+      "path": "skills/options-flow-analyzer",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -27863,10 +27901,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1457,
+    "total_skills": 1459,
     "supported": {
-      "codex": 1425,
-      "claude": 1440
+      "codex": 1427,
+      "claude": 1442
     },
     "blocked": {
       "codex": 32,

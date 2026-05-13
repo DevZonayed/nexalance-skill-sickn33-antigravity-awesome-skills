@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1457
+Total skills: 1459
 
 ## architecture (96)
 
@@ -690,7 +690,7 @@ Total skills: 1457
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (351)
+## general (353)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -907,6 +907,7 @@ Total skills: 1457
 | `multi-advisor` | Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especial... | multi-agent, advisory, parallel-analysis, synthesis | multi-agent, advisory, parallel-analysis, synthesis, multi, advisor, conselho, de, especialistas, consulta, multiplos, agentes |
 | `n8n-validation-expert` | Expert guide for interpreting and fixing n8n validation errors. | n8n, validation | n8n, validation, interpreting, fixing, errors |
 | `new-rails-project` | Create a new Rails project | new, rails | new, rails |
+| `news-sentiment-engine` | Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output | news, rss, sentiment-analysis, briefing, research | news, rss, sentiment-analysis, briefing, research, sentiment, engine, multi, source, aggregation, claude, powered |
 | `nft-standards` | Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. | nft, standards | nft, standards, erc, 721, 1155, metadata, features |
 | `nosql-expert` | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot ... | nosql | nosql, guidance, distributed, databases, cassandra, dynamodb, mental, models, query, first, modeling, single |
 | `notebooklm` | Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answ... | notebooklm | notebooklm, interact, google, query, documentation, gemini, source, grounded, answers, each, question, opens |
@@ -925,6 +926,7 @@ Total skills: 1457
 | `odoo-xml-views-builder` | Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax. | odoo, xml, views, builder | odoo, xml, views, builder, building, form, list, kanban, search, calendar, graph, generates |
 | `onboarding-cro` | You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lea... | onboarding, cro | onboarding, cro, user, activation, goal, users, reach, aha, moment, quickly, possible, establish |
 | `onboarding-psychologist` | One sentence - what this skill does and when to invoke it | onboarding, psychologist | onboarding, psychologist, one, sentence, what, skill, does, invoke |
+| `options-flow-analyzer` | Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise | options, sentiment-analysis, trading, polygon, market-analysis | options, sentiment-analysis, trading, polygon, market-analysis, flow, analyzer, real, vs, lottery, call, separation |
 | `oral-health-analyzer` | 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。 | oral, health, analyzer | oral, health, analyzer |
 | `orchestrate-batch-refactor` | Plan and execute large refactors with dependency-aware work packets and parallel analysis. | orchestrate, batch, refactor | orchestrate, batch, refactor, plan, execute, large, refactors, dependency, aware, work, packets, parallel |
 | `oss-hunter` | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. | oss, hunter | oss, hunter, automatically, hunt, high, impact, contribution, opportunities, trending, repositories |
