@@ -607,8 +607,6 @@ We officially thank the following contributors for their help in making this rep
 - [@adelaidasofia](https://github.com/adelaidasofia)
 - [@ejentum](https://github.com/ejentum)
 - [@luoyuctl](https://github.com/luoyuctl)
-- [@demo112](https://github.com/demo112)
-- [@tellmefrankie](https://github.com/tellmefrankie)
 
 ## Star History
 
