@@ -35429,7 +35429,7 @@
     {
       "id": "x-twitter-scraper",
       "name": "x-twitter-scraper",
-      "description": "X/Twitter automation skill for tweet search, follower export, media download, posting, replies, DMs, webhooks, MCP, SDKs, and the TweetClaw OpenClaw plugin.",
+      "description": "X/Twitter automation skill for tweet search, follower export, posting, DMs, webhooks, MCP, SDKs, Hermes Tweet, and TweetClaw.",
       "category": "workflow",
       "tags": [
         "twitter",
@@ -35442,6 +35442,8 @@
         "mcp",
         "sdk",
         "webhooks",
+        "hermes-agent",
+        "hermes-tweet",
         "openclaw",
         "tweetclaw"
       ],
@@ -35456,8 +35458,8 @@
         "mcp",
         "sdk",
         "webhooks",
-        "openclaw",
-        "tweetclaw"
+        "hermes-agent",
+        "hermes-tweet"
       ],
       "path": "skills/x-twitter-scraper/SKILL.md"
     },
