@@ -604,6 +604,9 @@ We officially thank the following contributors for their help in making this rep
 - [@Mann-Makhecha](https://github.com/Mann-Makhecha)
 - [@memurcie](https://github.com/memurcie)
 - [@pravin-python](https://github.com/pravin-python)
+- [@adelaidasofia](https://github.com/adelaidasofia)
+- [@ejentum](https://github.com/ejentum)
+- [@luoyuctl](https://github.com/luoyuctl)
 
 ## Star History
 
