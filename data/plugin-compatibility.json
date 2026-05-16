@@ -20634,6 +20634,25 @@
       "runtime_files": []
     },
     {
+      "id": "recsys-pipeline-architect",
+      "path": "skills/recsys-pipeline-architect",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "recursive-context-pruning-token-budgeting",
       "path": "skills/recursive-context-pruning-token-budgeting",
       "targets": {
@@ -27901,10 +27920,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1459,
+    "total_skills": 1460,
     "supported": {
-      "codex": 1427,
-      "claude": 1442
+      "codex": 1428,
+      "claude": 1443
     },
     "blocked": {
       "codex": 32,

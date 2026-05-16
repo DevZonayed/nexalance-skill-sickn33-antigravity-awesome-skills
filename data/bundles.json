@@ -791,6 +791,7 @@
         "postmortem-writing",
         "production-audit",
         "prometheus-configuration",
+        "recsys-pipeline-architect",
         "risk-metrics-calculation",
         "seo-forensic-incident-response",
         "server-management",

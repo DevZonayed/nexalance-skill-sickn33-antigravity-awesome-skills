@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1459,
+  "total": 1460,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -26700,6 +26700,37 @@
         "performance"
       ],
       "path": "skills/receiving-code-review/SKILL.md"
+    },
+    {
+      "id": "recsys-pipeline-architect",
+      "name": "recsys-pipeline-architect",
+      "description": "Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework",
+      "category": "infrastructure",
+      "tags": [
+        "recommender-system",
+        "ranking",
+        "feed-algorithm",
+        "recsys",
+        "personalization",
+        "for-you-feed",
+        "rag-reranker",
+        "pipeline-architecture"
+      ],
+      "triggers": [
+        "recommender-system",
+        "ranking",
+        "feed-algorithm",
+        "recsys",
+        "personalization",
+        "for-you-feed",
+        "rag-reranker",
+        "pipeline-architecture",
+        "pipeline",
+        "architect",
+        "designs",
+        "composable"
+      ],
+      "path": "skills/recsys-pipeline-architect/SKILL.md"
     },
     {
       "id": "recursive-context-pruning-token-budgeting",
