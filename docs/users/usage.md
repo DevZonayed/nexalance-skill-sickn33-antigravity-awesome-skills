@@ -347,12 +347,18 @@ No. Even though you have 1,459+ skills installed locally, you should **not** con
 
 The intended pattern is:
 
-- use `data/skills_index.json` (the manifest) to discover which skills exist; and
+- use `skills_index.json` (canonical discovery manifest) to discover which skills exist; and
+- use `data/skills_index.json` only when your host reads from `data/` for compatibility;
 - only load the `SKILL.md` files for the specific `@skill-id` values you actually use in a conversation.
 
 If you are building your own host/agent (e.g. Jetski/Cortex + Gemini), see:
 
 - [`docs/integrations/jetski-cortex.md`](../integrations/jetski-cortex.md)
+
+The v1 manifest shape is defined in:
+
+- [`schemas/skills-index.v1.schema.json`](../../schemas/skills-index.v1.schema.json)
+- [`discovery-manifest.md`](discovery-manifest.md)
 
 ### "Can I create my own skills?"
 

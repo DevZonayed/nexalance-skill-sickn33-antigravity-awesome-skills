@@ -1,6 +1,7 @@
 import os
 import json
 import pathlib
+import shutil
 import re
 import sys
 from collections.abc import Mapping
@@ -985,8 +986,23 @@ def generate_index(skills_dir, output_file, compatibility_report=None):
     print(f"✅ Generated rich index with {len(skills)} skills at: {output_file}")
     return skills
 
+def mirror_canonical_index(output_path):
+    """Mirror the root public manifest into data/ for compatibility consumers."""
+    output_path = pathlib.Path(output_path)
+    root = pathlib.Path(find_repo_root(__file__))
+    root_index = root / "skills_index.json"
+    if output_path.resolve() != root_index.resolve():
+        return None
+
+    data_index = root / "data" / "skills_index.json"
+    data_index.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(output_path, data_index)
+    print(f"✅ Mirrored canonical index to: {data_index}")
+    return data_index
+
 if __name__ == "__main__":
     base_dir = str(find_repo_root(__file__))
     skills_path = os.path.join(base_dir, "skills")
     output_path = os.path.join(base_dir, "skills_index.json")
     generate_index(skills_path, output_path)
+    mirror_canonical_index(output_path)

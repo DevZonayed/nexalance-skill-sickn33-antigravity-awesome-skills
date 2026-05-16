@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-_No unreleased changes yet._
+- Added a stable `skills_index.json` manifest contract with an exact `data/skills_index.json` compatibility mirror, schema documentation, and CI-safe drift checks.
 
 ## [11.2.0] - 2026-05-13 - "Market Intelligence, Token Routing, and Chinese Growth Skills"
 
