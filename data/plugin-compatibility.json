@@ -27523,18 +27523,24 @@
       "id": "x-twitter-scraper",
       "path": "skills/x-twitter-scraper",
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": [],
+      "reasons": [
+        "explicit_target_restriction"
+      ],
       "blocked_reasons": {
-        "codex": [],
-        "claude": []
+        "codex": [
+          "explicit_target_restriction"
+        ],
+        "claude": [
+          "explicit_target_restriction"
+        ]
       },
       "runtime_files": []
     },
@@ -27922,12 +27928,12 @@
   "summary": {
     "total_skills": 1460,
     "supported": {
-      "codex": 1428,
-      "claude": 1443
+      "codex": 1427,
+      "claude": 1442
     },
     "blocked": {
-      "codex": 32,
-      "claude": 17
+      "codex": 33,
+      "claude": 18
     },
     "manual_setup": 3
   }
