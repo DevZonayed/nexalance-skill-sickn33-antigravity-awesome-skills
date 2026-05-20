@@ -19032,6 +19032,25 @@
       "runtime_files": []
     },
     {
+      "id": "photopea-embedded-editor",
+      "path": "skills/photopea-embedded-editor",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "php-pro",
       "path": "skills/php-pro",
       "targets": {
@@ -27945,10 +27964,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1461,
+    "total_skills": 1462,
     "supported": {
-      "codex": 1428,
-      "claude": 1443
+      "codex": 1429,
+      "claude": 1444
     },
     "blocked": {
       "codex": 33,

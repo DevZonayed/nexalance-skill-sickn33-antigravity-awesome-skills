@@ -21939,6 +21939,28 @@
     }
   },
   {
+    "id": "photopea-embedded-editor",
+    "path": "skills/photopea-embedded-editor",
+    "category": "uncategorized",
+    "name": "photopea-embedded-editor",
+    "description": "Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-20",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "php-pro",
     "path": "skills/php-pro",
     "category": "code",

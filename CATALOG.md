@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1461
+Total skills: 1462
 
 ## architecture (96)
 
@@ -192,7 +192,7 @@ Total skills: 1461
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 | `xiaohongshu-content-strategist` | Create viral Xiaohongshu (小红书) content with platform-native strategy, save-rate optimization, trending formats, and search SEO for China's #1 lifestyle platf... | xiaohongshu, chinese-market, content-strategy, social-media, marketing, 红书, 小红书 | xiaohongshu, chinese-market, content-strategy, social-media, marketing, 红书, 小红书, content, strategist, viral, platform, native |
 
-## data-ai (281)
+## data-ai (282)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -399,6 +399,7 @@ Total skills: 1461
 | `obsidian-bases` | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of... | obsidian, bases | obsidian, bases, edit, base, files, views, filters, formulas, summaries, working, creating, database |
 | `odoo-edi-connector` | Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing. | odoo, edi, connector | odoo, edi, connector, implementing, electronic, data, interchange, x12, edifact, document, mapping, partner |
 | `odoo-inventory-optimizer` | Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration. | odoo, inventory, optimizer | odoo, inventory, optimizer, stock, valuation, fifo, avco, reordering, rules, putaway, routes, multi |
+| `photopea-embedded-editor` | Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API. | photopea, embedded, editor | photopea, embedded, editor, embed, web, apps, js, covers, embedding, file, scripting, exporting |
 | `php-pro` | Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications. | php | php, pro, write, idiomatic, code, generators, iterators, spl, data, structures, oop, features |
 | `polars` | Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution... | polars | polars, fast, memory, dataframe, library, datasets, fit, ram, pandas, too, slow, data |
 | `postgres-best-practices` | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, o... | postgres, best, practices | postgres, best, practices, performance, optimization, supabase, skill, writing, reviewing, optimizing, queries, schema |
