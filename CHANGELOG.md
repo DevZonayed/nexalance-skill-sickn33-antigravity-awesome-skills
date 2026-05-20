@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.4.1] - 2026-05-20 - "Installer Supply-Chain Hardening"
+
+> Patch release for the npm installer used by Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+This release hardens the npm installer after reviewing Socket.dev's AI-detected code-anomaly warning for `tools/bin/install.js`.
+
+## Improvements
+
+- **release-pinned installs** - default `npx antigravity-awesome-skills` installs now clone the matching package release tag instead of the repository tip, reducing drift between npm package contents and installed skills.
+- **git ref validation** - `--tag` and `--version` refs are validated before invoking `git clone`, while still allowing explicit branch installs such as `--tag main`.
+- **installer docs and regression coverage** - documents the release-pinned default and adds installer tests for release-tag resolution and unsafe ref rejection.
+
+## Who should care
+
+- **npm users** get installer behavior that is pinned to the published package version by default.
+- **security scanners and maintainers** get a narrower supply-chain surface for the installer path Socket flagged.
+
 ## [11.4.0] - 2026-05-20 - "Mercury MCP, Photopea Embeds, and Codex Bundle Names"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
