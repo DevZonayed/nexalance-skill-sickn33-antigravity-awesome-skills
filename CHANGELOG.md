@@ -37,6 +37,11 @@ This release hardens plugin-safe distribution boundaries, resolves the current D
 - **Vault users** get safer YouTube transcript ingestion with stricter URL and markdown handling.
 - **Agent workflow builders** get two new community skills for parallel agent coordination and formula-backed workbook automation.
 
+## Credits
+
+- **[@sulavmgr456-byte](https://github.com/sulavmgr456-byte)** for PR #604 (`subagent-orchestrator`).
+- **[@gregkonush](https://github.com/gregkonush)** for PR #605 (`bilig-workpaper`).
+
 ## [11.4.1] - 2026-05-20 - "Installer Supply-Chain Hardening"
 
 > Patch release for the npm installer used by Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
