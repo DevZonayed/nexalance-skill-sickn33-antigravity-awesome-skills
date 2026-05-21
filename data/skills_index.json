@@ -11194,15 +11194,17 @@
     "date_added": "2026-05-10",
     "plugin": {
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "manual",
         "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat).",
         "docs": "https://github.com/ejentum/ejentum-mcp#installation"
       },
-      "reasons": []
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -15974,9 +15976,9 @@
         "claude": "supported"
       },
       "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
+        "type": "manual",
+        "summary": "Install yt-dlp locally before running ingest.py; the script only accepts http(s) YouTube video URLs and writes markdown into the selected vault.",
+        "docs": "SKILL.md"
       },
       "reasons": []
     }
@@ -20137,20 +20139,22 @@
     "category": "research",
     "name": "news-sentiment-engine",
     "description": "Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output",
-    "risk": "safe",
+    "risk": "critical",
     "source": "community",
     "date_added": "2026-05-13",
     "plugin": {
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": []
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -29242,20 +29246,22 @@
     "category": "developer-tools",
     "name": "tokenwise",
     "description": "Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.",
-    "risk": "safe",
+    "risk": "critical",
     "source": "community",
     "date_added": "2026-05-12",
     "plugin": {
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": []
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {

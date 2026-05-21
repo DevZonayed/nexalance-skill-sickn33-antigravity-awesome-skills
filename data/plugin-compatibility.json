@@ -9563,18 +9563,24 @@
       "id": "ejentum-reasoning-harness",
       "path": "skills/ejentum-reasoning-harness",
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "manual",
         "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat).",
         "docs": "https://github.com/ejentum/ejentum-mcp#installation"
       },
-      "reasons": [],
+      "reasons": [
+        "explicit_target_restriction"
+      ],
       "blocked_reasons": {
-        "codex": [],
-        "claude": []
+        "codex": [
+          "explicit_target_restriction"
+        ],
+        "claude": [
+          "explicit_target_restriction"
+        ]
       },
       "runtime_files": []
     },
@@ -13808,9 +13814,9 @@
         "claude": "supported"
       },
       "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
+        "type": "manual",
+        "summary": "Install yt-dlp locally before running ingest.py; the script only accepts http(s) YouTube video URLs and writes markdown into the selected vault.",
+        "docs": "SKILL.md"
       },
       "reasons": [],
       "blocked_reasons": {
@@ -17486,18 +17492,24 @@
       "id": "news-sentiment-engine",
       "path": "skills/news-sentiment-engine",
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": [],
+      "reasons": [
+        "explicit_target_restriction"
+      ],
       "blocked_reasons": {
-        "codex": [],
-        "claude": []
+        "codex": [
+          "explicit_target_restriction"
+        ],
+        "claude": [
+          "explicit_target_restriction"
+        ]
       },
       "runtime_files": []
     },
@@ -25423,18 +25435,24 @@
       "id": "tokenwise",
       "path": "skills/tokenwise",
       "targets": {
-        "codex": "supported",
-        "claude": "supported"
+        "codex": "blocked",
+        "claude": "blocked"
       },
       "setup": {
         "type": "none",
         "summary": "",
         "docs": null
       },
-      "reasons": [],
+      "reasons": [
+        "explicit_target_restriction"
+      ],
       "blocked_reasons": {
-        "codex": [],
-        "claude": []
+        "codex": [
+          "explicit_target_restriction"
+        ],
+        "claude": [
+          "explicit_target_restriction"
+        ]
       },
       "runtime_files": []
     },
@@ -27966,13 +27984,13 @@
   "summary": {
     "total_skills": 1462,
     "supported": {
-      "codex": 1429,
-      "claude": 1444
+      "codex": 1426,
+      "claude": 1441
     },
     "blocked": {
-      "codex": 33,
-      "claude": 18
+      "codex": 36,
+      "claude": 21
     },
-    "manual_setup": 3
+    "manual_setup": 4
   }
 }
