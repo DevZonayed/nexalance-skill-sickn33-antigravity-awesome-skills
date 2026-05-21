@@ -5112,6 +5112,25 @@
       "runtime_files": []
     },
     {
+      "id": "bilig-workpaper",
+      "path": "skills/bilig-workpaper",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "bill-gates",
       "path": "skills/bill-gates",
       "targets": {
@@ -24216,6 +24235,25 @@
       "runtime_files": []
     },
     {
+      "id": "subagent-orchestrator",
+      "path": "skills/subagent-orchestrator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "subject-line-psychologist",
       "path": "skills/subject-line-psychologist",
       "targets": {
@@ -27982,10 +28020,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1462,
+    "total_skills": 1464,
     "supported": {
-      "codex": 1426,
-      "claude": 1441
+      "codex": 1428,
+      "claude": 1443
     },
     "blocked": {
       "codex": 36,
