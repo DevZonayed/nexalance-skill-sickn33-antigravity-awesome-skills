@@ -193,3 +193,9 @@ See `examples/` folder:
 - `nextjs-feature.md` — Building a full Next.js feature with 3 parallel agents
 - `api-plus-frontend.md` — Backend API agent + Frontend UI agent running in parallel
 - `debug-mission.md` — Repair mission for a broken build using minimal quota
+
+## Limitations
+
+- This skill coordinates agent planning; it does not provide a runtime scheduler or enforce quota limits automatically.
+- Parallel agents still need explicit scoping, review, and integration by the parent agent.
+- Do not use it when a single focused edit or direct answer would be faster and clearer.

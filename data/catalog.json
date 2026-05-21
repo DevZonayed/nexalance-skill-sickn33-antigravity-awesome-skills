@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1462,
+  "total": 1464,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -6812,6 +6812,34 @@
         "scheduling"
       ],
       "path": "skills/bevy-ecs-expert/SKILL.md"
+    },
+    {
+      "id": "bilig-workpaper",
+      "name": "bilig-workpaper",
+      "description": "Use formula-backed WorkPaper JSON and MCP tools for agent spreadsheet tasks without driving Excel or a browser UI.",
+      "category": "development",
+      "tags": [
+        "spreadsheets",
+        "formulas",
+        "mcp",
+        "xlsx",
+        "typescript"
+      ],
+      "triggers": [
+        "spreadsheets",
+        "formulas",
+        "mcp",
+        "xlsx",
+        "typescript",
+        "bilig",
+        "workpaper",
+        "formula",
+        "backed",
+        "json",
+        "agent",
+        "spreadsheet"
+      ],
+      "path": "skills/bilig-workpaper/SKILL.md"
     },
     {
       "id": "bill-gates",
@@ -31314,6 +31342,34 @@
         "session"
       ],
       "path": "skills/subagent-driven-development/SKILL.md"
+    },
+    {
+      "id": "subagent-orchestrator",
+      "name": "subagent-orchestrator",
+      "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+      "category": "workflow",
+      "tags": [
+        "subagents",
+        "orchestration",
+        "quota",
+        "parallel",
+        "multi-agent"
+      ],
+      "triggers": [
+        "subagents",
+        "orchestration",
+        "quota",
+        "parallel",
+        "multi-agent",
+        "subagent",
+        "orchestrator",
+        "coordinate",
+        "aware",
+        "large",
+        "multi",
+        "file"
+      ],
+      "path": "skills/subagent-orchestrator/SKILL.md"
     },
     {
       "id": "subject-line-psychologist",

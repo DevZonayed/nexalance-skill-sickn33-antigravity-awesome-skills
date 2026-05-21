@@ -129,6 +129,12 @@ A good agent response should include:
 
 If any proof step fails, report the blocker instead of saying the workbook was updated.
 
+## Limitations
+
+- WorkPaper behavior is not a complete replacement for desktop Excel, VBA, pivots, charts, or UI automation.
+- Formula compatibility depends on the Bilig runtime and should be verified against Excel when exact parity matters.
+- MCP writes should remain scoped to trusted workbook paths and must be followed by readback validation.
+
 ## References
 
 - Repository: https://github.com/proompteng/bilig

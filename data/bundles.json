@@ -113,6 +113,7 @@
         "bdistill-behavioral-xray",
         "bdistill-knowledge-extraction",
         "bevy-ecs-expert",
+        "bilig-workpaper",
         "biopython",
         "bullmq-specialist",
         "bun-development",
@@ -1343,6 +1344,7 @@
       "skills": [
         "akf-trust-metadata",
         "azure-ai-translation-document-py",
+        "bilig-workpaper",
         "canvas-design",
         "create-pr",
         "docx-official",
