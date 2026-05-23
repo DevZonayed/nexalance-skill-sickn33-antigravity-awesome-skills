@@ -90,7 +90,7 @@ Use these as default starting points:
   `markdown-with-html + --image-output off`
   add `--table-method cluster` only if the default route under-structures important tabular content
   if tables are visually obvious but missing or badly fused, treat this as a detection problem, not a Markdown formatting problem
-  if the local route already reconstructs a real table but clips leading characters at column boundaries, treat that as a boundary-splitting defect, not a missing-table failure
+  if the selected route already reconstructs a real table but clips leading characters at column boundaries, treat that as a boundary-splitting defect, not a missing-table failure
 
 - narrative / article / letter
   start with `markdown` or `text`
@@ -151,7 +151,7 @@ Preferred defaults:
   start without `--table-method cluster`
   add it only after a structure check shows meaningful improvement
   if a pseudo-table is already collapsed inside one detected row, changing only the Markdown flavor usually will not fix it
-  if a newer local engine build recovers the pseudo-table structure, prefer fixing residual boundary artifacts locally before escalating to hybrid/full mode
+  if the active engine build recovers the pseudo-table structure, prefer fixing residual boundary artifacts before escalating to hybrid/full mode
 
 - For conversions where images are not requested:
   add `--image-output off`
@@ -193,7 +193,7 @@ Then check for:
 
 If CLI output is still poor, do a cleanup pass tuned for slides instead of assuming the raw extract is final.
 If the slide contains obvious table-like blocks that are not detected as tables at all, prefer a same-engine retry with a stronger route such as hybrid/full mode before jumping to unrelated extractors.
-If the slide now produces a real table locally, validate the first column and header boundaries before assuming the table is fully correct.
+If the slide now produces a real table, validate the first column and header boundaries before assuming the table is fully correct.
 
 ### For scanned PDFs
 
@@ -230,7 +230,7 @@ For table-heavy documents:
 For every document class:
 - check the first representative section, not just the top of the file
 - check one complex section, not only a simple section
-- prefer document-level confidence over local success on page 1
+- prefer document-level confidence over success on page 1
 
 ## Red Flags
 
@@ -309,10 +309,10 @@ Examples:
 - Markdown too flat for tables -> switch to `markdown-with-html`
 - Table detection weak -> retry with `--table-method cluster`
 - Table wrapper exists but body rows are fused -> treat as structural extraction failure; inspect JSON or a structure-preserving view, then retry the route instead of only cleaning Markdown
-- Table structure is recovered but leading characters are clipped at cell boundaries -> treat as a local boundary-splitting defect; prefer tightening the same-engine structure logic over routing to an unrelated extractor
+- Table structure is recovered but leading characters are clipped at cell boundaries -> treat as a boundary-splitting defect; prefer tightening the same-engine structure logic over routing to an unrelated extractor
 - OCR missing text -> OCR first, then reconvert
 - Slide output noisy but structurally usable -> keep extractor, improve cleanup
-- Slide pseudo-table not detected locally -> retry same engine with hybrid/full mode before non-OpenDataLoader fallback
+- Slide pseudo-table not detected -> retry same engine with hybrid/full mode before non-OpenDataLoader fallback
 
 Do not keep blindly retrying many variants. Choose the next attempt based on the failure mode.
 
@@ -337,7 +337,7 @@ When the user does not specify otherwise:
 - consider `--table-method cluster` for table-heavy PDFs when rows or columns flatten
 - do not assume `--table-method cluster` is the best default for slide decks
 - do not assume `markdown-with-html` alone fixes fused table rows if the underlying table structure is already wrong
-- do not assume hybrid/full is still necessary if a recent local build now reconstructs the pseudo-table correctly enough
+- do not assume hybrid/full is still necessary if the active engine now reconstructs the pseudo-table correctly enough
 - verify the real output, not just the command exit code
 - keep the original PDF untouched
 - prefer creating the converted file in a dedicated output folder
@@ -353,7 +353,7 @@ If the work involves changing `opendataloader-pdf` behavior itself, not just run
 - if fixing a slide pseudo-table, also re-check a previously recovered dense-table case so the new heuristic does not reopen an old regression
 - distinguish benchmark wins from cosmetic residual defects such as left-edge character clipping inside recovered cells
 
-Local wins on one PDF are useful, but they do not justify turning a heuristic into a global default without broader validation.
+Wins on one PDF are useful, but they do not justify turning a heuristic into a global default without broader validation.
 
 ## Delivery Checklist
 
