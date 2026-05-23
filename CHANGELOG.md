@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Fixed
 
+- Made `audit:skills:strict` enforce an explicit legacy warning budget so strict skill-audit debt is tracked and regressions fail without blocking on the historical backlog.
 - Replaced realistic AWS/private-key examples with unmistakable placeholders and taught `security:docs` to block those patterns from returning.
 - Rebuilt local documentation link validation as a deterministic, path-aware checker for `README.md`, `docs/`, and `docs_zh-CN/`, and repaired the broken localized/internal markdown links it now catches.
 - Refreshed stale Chinese documentation release/count claims to `11.5.0` / `1,465+` and marked the old final validation report as a historical snapshot.

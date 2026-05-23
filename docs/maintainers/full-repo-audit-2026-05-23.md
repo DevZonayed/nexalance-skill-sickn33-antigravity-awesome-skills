@@ -7,7 +7,7 @@ This audit tracks the current deep pass over the repository for bugs, inconsiste
 Patch follow-up:
 
 - Resolved in follow-up patches: unsafe archive fallback extraction, Telegram Node vulnerable dependency stack, installer symlink target migration, stale web SEO counts/social card, stale web canonical URL docs, malformed WhatsApp HMAC signature handling, Telegram token-in-URL webhook guidance, `.disabled` web asset publishing, Junta TLS bypasses, legacy manifest verification drift, Telegram HTML escaping, Remotion chart typo, nested skill ID collision coverage, Chinese/localized docs staleness, path-aware internal markdown link repair, and deterministic link/glossary validation reports.
-- Still open after these patches: repository-wide strict skill-quality warnings.
+- Still open after these patches: none from this audit report. The legacy strict skill-quality warnings remain tracked as explicit backlog debt behind `tools/config/audit-skills-strict-budget.json`.
 
 ## Validation evidence
 
@@ -167,6 +167,8 @@ Failed / issue-producing checks:
 - Suggested fix: use a random non-secret route ID or fixed `/webhook` route plus `x-telegram-bot-api-secret-token`; never include the bot token in URLs.
 
 ### Medium - strict skill audit is not clean even though standard gates pass
+
+Resolved in follow-up patch: `npm run audit:skills:strict` now enforces a versioned warning budget in `tools/config/audit-skills-strict-budget.json`, with explicit limits for total warnings, warning-only skills, and the top strict finding codes. The current legacy baseline is documented and the command fails on errors or warning regressions above that budget.
 
 - Command: `npm run audit:skills:strict`
 - Evidence: strict mode scanned 1465 skills and found 0 errors, but still exited non-zero because 740 skills are warning-only with 865 total warnings. Top findings were `risk_suggestion` (1013), `missing_examples` (387), and `skill_too_long` (193).
