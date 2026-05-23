@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Security
 
+- Replaced executable pipe-to-shell install examples across canonical skills with package-manager or download-inspect-execute flows, and removed the obsolete allowlist comments.
 - Hardened the web-app refresh archive fallback by pre-validating tar/zip paths, rejecting archive symlink entries, and verifying extracted real paths before moving downloaded skills into place.
 - Replaced the Telegram Node boilerplate and docs examples with Telegraf to remove the deprecated vulnerable `request` dependency chain and avoid putting bot tokens in webhook URLs.
 - Hardened WhatsApp webhook signature validation so malformed `x-hub-signature-256` headers return `401` instead of throwing on `timingSafeEqual` buffer length mismatches.

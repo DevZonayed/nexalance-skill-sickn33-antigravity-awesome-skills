@@ -7,7 +7,7 @@ This audit tracks the current deep pass over the repository for bugs, inconsiste
 Patch follow-up:
 
 - Resolved in follow-up patches: unsafe archive fallback extraction, Telegram Node vulnerable dependency stack, installer symlink target migration, stale web SEO counts/social card, stale web canonical URL docs, malformed WhatsApp HMAC signature handling, Telegram token-in-URL webhook guidance, `.disabled` web asset publishing, Junta TLS bypasses, legacy manifest verification drift, Telegram HTML escaping, Remotion chart typo, nested skill ID collision coverage, Chinese/localized docs staleness, path-aware internal markdown link repair, and deterministic link/glossary validation reports.
-- Still open after these patches: repository-wide strict skill-quality warnings and deliberate pipe-to-shell allowlist reduction.
+- Still open after these patches: repository-wide strict skill-quality warnings.
 
 ## Validation evidence
 
@@ -244,6 +244,8 @@ Failed / issue-producing checks:
 - Suggested fix: either make the report deterministic and unambiguous, or stop tracking it. Resolve links relative to each source file and run separate checks for canonical docs and translated docs.
 
 ### Low - deliberate pipe-to-shell examples remain allowlisted
+
+Resolved in follow-up patch: executable `curl|bash`, `curl|sh`, and `irm|iex` install examples in canonical skill sources were replaced with package-manager or download-inspect-execute flows, and obsolete pipe-to-shell allowlists were removed. The remaining `security-allowlist` comments cover non-pipe rule families or sandbox notes.
 
 - Files include `skills/bun-development/SKILL.md`, `skills/linkerd-patterns/SKILL.md`, `skills/cloud-penetration-testing/SKILL.md`, `skills/varlock/SKILL.md`, `skills/evolution/SKILL.md`, and plugin mirrors.
 - Evidence: `npm run security:docs` passes because these examples are allowlisted, but the repo still contains executable `curl|bash`, `curl|sh`, and `irm|iex` examples.
