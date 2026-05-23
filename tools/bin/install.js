@@ -474,22 +474,22 @@ function resolveInstallRef(opts) {
 function installForTarget(tempDir, target, selectors = buildInstallSelectors({})) {
   if (fs.existsSync(target.path)) {
     ensureTargetIsDirectory(target.path);
+    const targetStats = fs.lstatSync(target.path);
+    if (targetStats.isSymbolicLink()) {
+      console.error(
+        `  Refusing to migrate or update through symlinked target: ${target.path}`,
+      );
+      console.error("  Choose a real directory path, or replace the symlink manually before retrying.");
+      process.exit(1);
+    }
     const gitDir = path.join(target.path, ".git");
     if (fs.existsSync(gitDir)) {
       console.log(`  Migrating from full-repo install to skills-only layout…`);
       const backupPath = `${target.path}_backup_${Date.now()}`;
       try { 
-        const stats = fs.lstatSync(target.path);
-        const isSymlink = stats.isSymbolicLink();
-        const symlinkTarget = isSymlink ? 
-        fs.readlinkSync(target.path) : null;
         fs.renameSync(target.path, backupPath);
         console.log(`  ⚠️  Safety Backup created at: ${backupPath}`);
-        if (isSymlink) {
-          fs.symlinkSync(symlinkTarget, target.path, 'dir');
-        } else {
-          fs.mkdirSync(target.path, { recursive: true, mode: stats.mode });
-        }
+        fs.mkdirSync(target.path, { recursive: true, mode: targetStats.mode });
       } catch (err) {
         console.error(`  Migration Error: ${err.message}`);
         process.exit(1);

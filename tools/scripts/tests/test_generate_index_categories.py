@@ -100,6 +100,29 @@ class GenerateIndexCategoryTests(unittest.TestCase):
             self.assertEqual(categories["nested-skill"], "bundles")
             self.assertEqual(categories["playwright-skill"], "test-automation")
 
+    def test_generate_index_rejects_duplicate_route_ids(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            base = pathlib.Path(temp_dir)
+            skills_dir = base / "skills"
+            output_file = base / "skills_index.json"
+
+            top_level = skills_dir / "base"
+            top_level.mkdir(parents=True)
+            (top_level / "SKILL.md").write_text(
+                "---\nname: base\ndescription: Top level\n---\nbody\n",
+                encoding="utf-8",
+            )
+
+            nested = skills_dir / "libreoffice" / "base"
+            nested.mkdir(parents=True)
+            (nested / "SKILL.md").write_text(
+                "---\nname: libreoffice-base\ndescription: Nested\n---\nbody\n",
+                encoding="utf-8",
+            )
+
+            with self.assertRaisesRegex(ValueError, "Duplicate skill ids"):
+                generate_index.generate_index(str(skills_dir), str(output_file))
+
     def test_canonical_index_mirror_writes_exact_data_copy(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             base = pathlib.Path(temp_dir)

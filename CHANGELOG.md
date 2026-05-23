@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## Security
+
+- Hardened the web-app refresh archive fallback by pre-validating tar/zip paths, rejecting archive symlink entries, and verifying extracted real paths before moving downloaded skills into place.
+- Replaced the Telegram Node boilerplate and docs examples with Telegraf to remove the deprecated vulnerable `request` dependency chain and avoid putting bot tokens in webhook URLs.
+- Hardened WhatsApp webhook signature validation so malformed `x-hub-signature-256` headers return `401` instead of throwing on `timingSafeEqual` buffer length mismatches.
+- Refused installer migrations through symlinked target directories and added regression coverage for symlink target failures.
+- Restored TLS verification by default in Junta scraper implementations, with insecure TLS only available through the shared `JUNTA_INSECURE_TLS` escape hatch.
+
+## Fixed
+
+- Stopped publishing `.disabled` skills as web static assets during `app:setup`.
+- Updated web-app SEO counts and social metadata to `1,465+`, aligned the SEO verifier and Pages workflow with the linked `site.webmanifest`, and corrected the documented canonical URL environment variables.
+- Added generated-index duplicate-ID protection so future nested skill basename collisions fail during index generation.
+- Fixed the Remotion chart rule typo from `implmentation` to `implementation`.
+
 ## [11.5.0] - 2026-05-21 - "Security Boundary Hardening and New Agent Skills"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.

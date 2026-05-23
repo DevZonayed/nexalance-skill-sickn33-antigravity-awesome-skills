@@ -977,6 +977,21 @@ def generate_index(skills_dir, output_file, compatibility_report=None):
 
             skills.append(skill_info)
 
+    seen_ids: dict[str, str] = {}
+    duplicate_ids: list[tuple[str, str, str]] = []
+    for skill in skills:
+        existing_path = seen_ids.get(skill["id"])
+        if existing_path is not None:
+            duplicate_ids.append((skill["id"], existing_path, skill["path"]))
+        else:
+            seen_ids[skill["id"]] = skill["path"]
+    if duplicate_ids:
+        details = "; ".join(
+            f"{skill_id}: {first_path} conflicts with {second_path}"
+            for skill_id, first_path, second_path in duplicate_ids
+        )
+        raise ValueError(f"Duplicate skill ids in generated index: {details}")
+
     # Sort validation: by name
     skills.sort(key=lambda x: (x["name"].lower(), x["id"].lower()))
 
