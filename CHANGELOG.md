@@ -19,6 +19,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Fixed
 
+- Rebuilt local documentation link validation as a deterministic, path-aware checker for `README.md`, `docs/`, and `docs_zh-CN/`, and repaired the broken localized/internal markdown links it now catches.
+- Refreshed stale Chinese documentation release/count claims to `11.5.0` / `1,465+` and marked the old final validation report as a historical snapshot.
+- Made the Chinese glossary validation report deterministic by removing timestamps and machine-specific absolute paths.
 - Stopped publishing `.disabled` skills as web static assets during `app:setup`.
 - Updated web-app SEO counts and social metadata to `1,465+`, aligned the SEO verifier and Pages workflow with the linked `site.webmanifest`, and corrected the documented canonical URL environment variables.
 - Added generated-index duplicate-ID protection so future nested skill basename collisions fail during index generation.

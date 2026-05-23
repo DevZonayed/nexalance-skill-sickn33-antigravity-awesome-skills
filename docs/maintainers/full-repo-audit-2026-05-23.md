@@ -6,8 +6,8 @@ This audit tracks the current deep pass over the repository for bugs, inconsiste
 
 Patch follow-up:
 
-- Resolved in the follow-up patch: unsafe archive fallback extraction, Telegram Node vulnerable dependency stack, installer symlink target migration, stale web SEO counts/social card, stale web canonical URL docs, malformed WhatsApp HMAC signature handling, Telegram token-in-URL webhook guidance, `.disabled` web asset publishing, Junta TLS bypasses, legacy manifest verification drift, Telegram HTML escaping, Remotion chart typo, and nested skill ID collision coverage.
-- Still open after this patch: repository-wide strict skill-quality warnings, Chinese/localized docs staleness, path-aware internal markdown link repair, deterministic link-validation report cleanup, deliberate pipe-to-shell allowlist reduction, and realistic-looking credential placeholder cleanup.
+- Resolved in follow-up patches: unsafe archive fallback extraction, Telegram Node vulnerable dependency stack, installer symlink target migration, stale web SEO counts/social card, stale web canonical URL docs, malformed WhatsApp HMAC signature handling, Telegram token-in-URL webhook guidance, `.disabled` web asset publishing, Junta TLS bypasses, legacy manifest verification drift, Telegram HTML escaping, Remotion chart typo, nested skill ID collision coverage, Chinese/localized docs staleness, path-aware internal markdown link repair, and deterministic link/glossary validation reports.
+- Still open after these patches: repository-wide strict skill-quality warnings, deliberate pipe-to-shell allowlist reduction, and realistic-looking credential placeholder cleanup.
 
 ## Validation evidence
 

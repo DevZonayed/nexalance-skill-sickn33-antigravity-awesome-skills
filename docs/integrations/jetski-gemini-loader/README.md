@@ -39,7 +39,7 @@ Manifest contract references:
     - `loadSkillBodies(skillsRoot, metas)`;
     - `buildModelMessages({...})`.
 - See also the integration guide:
-  - [`docs/integrations/jetski-cortex.md`](../../docs/integrations/jetski-cortex.md)
+  - [`docs/integrations/jetski-cortex.md`](../jetski-cortex.md)
 
 ---
 
