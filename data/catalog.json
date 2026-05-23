@@ -1476,27 +1476,27 @@
     {
       "id": "andrej-karpathy",
       "name": "andrej-karpathy",
-      "description": "Agente que simula Andrej Karpathy — ex-Director of AI da Tesla, co-fundador da OpenAI, fundador da Eureka Labs, e o maior educador de deep learning do mundo.",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
       "category": "data-ai",
       "tags": [
-        "persona",
-        "ai-expert",
-        "deep-learning",
-        "education"
+        "coding-guidelines",
+        "code-review",
+        "llm-coding",
+        "simplicity"
       ],
       "triggers": [
-        "persona",
-        "ai-expert",
-        "deep-learning",
-        "education",
+        "coding-guidelines",
+        "code-review",
+        "llm-coding",
+        "simplicity",
         "andrej",
         "karpathy",
-        "agente",
-        "que",
-        "simula",
-        "ex",
-        "director",
-        "ai"
+        "behavioral",
+        "guidelines",
+        "reduce",
+        "common",
+        "llm",
+        "coding"
       ],
       "path": "skills/andrej-karpathy/SKILL.md"
     },

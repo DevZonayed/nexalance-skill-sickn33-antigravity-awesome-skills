@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Fixed
 
+- Replaced the non-English `andrej-karpathy` skill content with English Karpathy coding guidelines synced from the upstream `multica-ai/andrej-karpathy-skills` source.
 - Made `audit:skills:strict` enforce an explicit legacy warning budget so strict skill-audit debt is tracked and regressions fail without blocking on the historical backlog.
 - Replaced realistic AWS/private-key examples with unmistakable placeholders and taught `security:docs` to block those patterns from returning.
 - Rebuilt local documentation link validation as a deterministic, path-aware checker for `README.md`, `docs/`, and `docs_zh-CN/`, and repaired the broken localized/internal markdown links it now catches.
