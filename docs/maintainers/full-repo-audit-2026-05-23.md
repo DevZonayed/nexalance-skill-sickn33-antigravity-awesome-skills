@@ -7,7 +7,7 @@ This audit tracks the current deep pass over the repository for bugs, inconsiste
 Patch follow-up:
 
 - Resolved in follow-up patches: unsafe archive fallback extraction, Telegram Node vulnerable dependency stack, installer symlink target migration, stale web SEO counts/social card, stale web canonical URL docs, malformed WhatsApp HMAC signature handling, Telegram token-in-URL webhook guidance, `.disabled` web asset publishing, Junta TLS bypasses, legacy manifest verification drift, Telegram HTML escaping, Remotion chart typo, nested skill ID collision coverage, Chinese/localized docs staleness, path-aware internal markdown link repair, and deterministic link/glossary validation reports.
-- Still open after these patches: repository-wide strict skill-quality warnings, deliberate pipe-to-shell allowlist reduction, and realistic-looking credential placeholder cleanup.
+- Still open after these patches: repository-wide strict skill-quality warnings and deliberate pipe-to-shell allowlist reduction.
 
 ## Validation evidence
 
@@ -251,6 +251,8 @@ Failed / issue-producing checks:
 - Suggested fix: where practical, replace executable pipe-to-shell examples with package-manager or checksum-verified alternatives; keep allowlists only where no safe practical alternative exists.
 
 ### Low - documentation examples use realistic-looking secret placeholders
+
+Resolved in follow-up patch: canonical examples now use `<AWS_ACCESS_KEY_ID>`, `<AWS_SECRET_ACCESS_KEY>`, and `<BASE64_PRIVATE_KEY>`, and `npm run security:docs` blocks those realistic placeholder patterns from returning.
 
 - Files include `skills/comfyui-gateway/references/integration.md`, `skills/security/aws-iam-best-practices/SKILL.md`, `skills/k8s-manifest-generator/resources/implementation-playbook.md`, and plugin mirrors.
 - Evidence: secret-pattern scanning found `AKIAIOSFODNN7EXAMPLE`, `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`, and `-----BEGIN PRIVATE KEY-----` examples. These are not confirmed live secrets: the AWS values are standard examples and the private key block is an ellipsis placeholder.
