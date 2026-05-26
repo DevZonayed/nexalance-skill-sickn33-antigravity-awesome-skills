@@ -27193,6 +27193,28 @@
     }
   },
   {
+    "id": "socialclaw",
+    "path": "skills/socialclaw",
+    "category": "marketing",
+    "name": "socialclaw",
+    "description": "Agent-first social media publishing skill \u2014 schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via a single workspace API key.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-25",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "software-architecture",
     "path": "skills/software-architecture",
     "category": "architecture",

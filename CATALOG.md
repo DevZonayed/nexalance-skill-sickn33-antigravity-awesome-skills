@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1467
+Total skills: 1468
 
 ## architecture (96)
 
@@ -480,7 +480,7 @@ Total skills: 1467
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (208)
+## development (209)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -661,6 +661,7 @@ Total skills: 1467
 | `shopify-apps` | Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris co... | shopify, apps | shopify, apps, app, development, including, remix, react, router, embedded, bridge, webhook, handling |
 | `shopify-development` | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. | shopify | shopify, development, apps, extensions, themes, graphql, admin, api, cli, polaris, ui, liquid |
 | `slack-bot-builder` | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event h... | slack, bot, builder | slack, bot, builder, apps, bolt, framework, python, javascript, java, covers, block, kit |
+| `socialclaw` | Agent-first social media publishing skill — schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram... | social-media, publishing, scheduling, marketing, twitter, linkedin, instagram, tiktok, discord, telegram, reddit, wordpress, pinterest | social-media, publishing, scheduling, marketing, twitter, linkedin, instagram, tiktok, discord, telegram, reddit, wordpress |
 | `sred-work-summary` | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. | sred, work, summary | sred, work, summary, go, back, through, previous, year, notion, doc, groups, relevant |
 | `statsmodels` | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistic... | statsmodels | statsmodels, python, premier, library, statistical, modeling, providing, estimation, inference, diagnostics, wide, range |
 | `stitch-design-taste` | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules. | stitch, design-system, frontend, ui | stitch, design-system, frontend, ui, taste, generating, google, md, premium, typography, color, layout |
