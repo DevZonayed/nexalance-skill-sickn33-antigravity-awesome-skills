@@ -13674,6 +13674,25 @@
       "runtime_files": []
     },
     {
+      "id": "ii-commons",
+      "path": "skills/ii-commons",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "ilya-sutskever",
       "path": "skills/ilya-sutskever",
       "targets": {
@@ -28115,10 +28134,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1469,
+    "total_skills": 1470,
     "supported": {
-      "codex": 1433,
-      "claude": 1448
+      "codex": 1434,
+      "claude": 1449
     },
     "blocked": {
       "codex": 36,

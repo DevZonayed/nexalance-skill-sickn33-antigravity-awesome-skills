@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1469
+Total skills: 1470
 
 ## architecture (96)
 
@@ -695,7 +695,7 @@ Total skills: 1469
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (355)
+## general (356)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -864,6 +864,7 @@ Total skills: 1469
 | `hugging-face-vision-trainer` | Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation. | hugging, face, vision, trainer | hugging, face, vision, trainer, train, fine, tune, models, jobs, detection, classification, sam |
 | `idea-darwin` | Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface yo... | idea, darwin | idea, darwin, darwinian, evolution, engine, toss, rough, ideas, onto, island, let, them |
 | `identity-mirror` | One sentence - what this skill does and when to invoke it | identity, mirror | identity, mirror, one, sentence, what, skill, does, invoke |
+| `ii-commons` | Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs. | research, arxiv, pubmed, pmc, policy, retrieval, cli, codex | research, arxiv, pubmed, pmc, policy, retrieval, cli, codex, ii, commons, deterministic, search |
 | `ilya-sutskever` | Agente que simula Ilya Sutskever — co-fundador da OpenAI, ex-Chief Scientist, fundador da SSI. Use quando quiser perspectivas sobre: AGI safety-first, consci... | persona, agi, safety, scaling-laws, openai | persona, agi, safety, scaling-laws, openai, ilya, sutskever, agente, que, simula, co, fundador |
 | `infinite-gratitude` | Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies). | infinite, gratitude | infinite, gratitude, multi, agent, research, skill, parallel, execution, 10, agents, battle, tested |
 | `ingest-youtube` | Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs. | ingest, youtube | ingest, youtube, pull, video, transcript, queryable, markdown, vault, yt, dlp, subtitle, discovery |
