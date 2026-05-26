@@ -10896,6 +10896,25 @@
       "runtime_files": []
     },
     {
+      "id": "flowhunt-skill",
+      "path": "skills/flowhunt-skill",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "flutter-expert",
       "path": "skills/flutter-expert",
       "targets": {
@@ -28058,10 +28077,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1466,
+    "total_skills": 1467,
     "supported": {
-      "codex": 1430,
-      "claude": 1445
+      "codex": 1431,
+      "claude": 1446
     },
     "blocked": {
       "codex": 36,

@@ -12726,6 +12726,28 @@
     }
   },
   {
+    "id": "flowhunt-skill",
+    "path": "skills/flowhunt-skill",
+    "category": "automation",
+    "name": "flowhunt-skill",
+    "description": "Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "flutter-expert",
     "path": "skills/flutter-expert",
     "category": "mobile",

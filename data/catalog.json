@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1466,
+  "total": 1467,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -14056,6 +14056,37 @@
         "properties"
       ],
       "path": "skills/fixing-motion-performance/SKILL.md"
+    },
+    {
+      "id": "flowhunt-skill",
+      "name": "flowhunt-skill",
+      "description": "Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.",
+      "category": "business",
+      "tags": [
+        "automation",
+        "discovery",
+        "audit",
+        "gmail",
+        "calendar",
+        "slack",
+        "productivity",
+        "workflow"
+      ],
+      "triggers": [
+        "automation",
+        "discovery",
+        "audit",
+        "gmail",
+        "calendar",
+        "slack",
+        "productivity",
+        "workflow",
+        "flowhunt",
+        "skill",
+        "walks",
+        "through"
+      ],
+      "path": "skills/flowhunt-skill/SKILL.md"
     },
     {
       "id": "flutter-expert",

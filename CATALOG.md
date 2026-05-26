@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1466
+Total skills: 1467
 
 ## architecture (96)
 
@@ -105,7 +105,7 @@ Total skills: 1466
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (82)
+## business (83)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -127,6 +127,7 @@ Total skills: 1466
 | `defi-protocol-templates` | Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applicat... | defi, protocol | defi, protocol, protocols, staking, amms, governance, lending, building, decentralized, finance, applications, smart |
 | `email-sequence` | You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward ... | email, sequence | email, sequence, marketing, automation, goal, sequences, nurture, relationships, drive, action, move, people |
 | `email-systems` | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, ... | email | email, highest, roi, any, marketing, channel, 36, every, spent, yet, most, startups |
+| `flowhunt-skill` | Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportuni... | automation, discovery, audit, gmail, calendar, slack, productivity, workflow | automation, discovery, audit, gmail, calendar, slack, productivity, workflow, flowhunt, skill, walks, through |
 | `framework-migration-legacy-modernize` | Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintainin... | framework, migration, legacy, modernize | framework, migration, legacy, modernize, orchestrate, modernization, strangler, fig, enabling, gradual, replacement, outdated |
 | `free-tool-strategy` | You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and b... | free | free, engineering, marketing, goal, plan, evaluate, generate, leads, attract, organic, traffic, brand |
 | `growth-engine` | Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. | growth, seo, marketing, viral, acquisition | growth, seo, marketing, viral, acquisition, engine, motor, de, crescimento, para, produtos, digitais |
