@@ -630,6 +630,8 @@ We officially thank the following contributors for their help in making this rep
 - [@Karthikeya-Meesala](https://github.com/Karthikeya-Meesala)
 - [@gregkonush](https://github.com/gregkonush)
 - [@sulavmgr456-byte](https://github.com/sulavmgr456-byte)
+- [@dklymentiev](https://github.com/dklymentiev)
+- [@konradbachowski](https://github.com/konradbachowski)
 
 ## Star History
 
