@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1465
+Total skills: 1466
 
 ## architecture (96)
 
@@ -1052,7 +1052,7 @@ Total skills: 1465
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (134)
+## infrastructure (135)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1149,6 +1149,7 @@ Total skills: 1465
 | `makepad-deployment` | CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, 打包, 部署, cargo-packager, cargo-makepad, WASM, Android, iOS, distri... | makepad, deployment | makepad, deployment, critical, packaging, triggers, deploy, package, apk, ipa, cargo, packager, wasm |
 | `manifest` | Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin. | manifest | manifest, install, configure, observability, plugin, agents, setting, up, telemetry, configuring, api, keys |
 | `mcp-tool-developer` | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publi... | mcp, ai-agent, tool-development, typescript, python, llm, model-context-protocol | mcp, ai-agent, tool-development, typescript, python, llm, model-context-protocol, developer, model, context, protocol, servers |
+| `mesh-memory` | Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + ... | mesh, memory | mesh, memory, self, hosted, semantic, ai, agents, via, mcp, save, worklogs, decisions |
 | `microservices-patterns` | Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building d... | microservices | microservices, architecture, including, boundaries, inter, communication, data, resilience, building, distributed |
 | `mise-configurator` | Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization. | mise, devops, ci-cd, toolchain, runtimes, automation | mise, devops, ci-cd, toolchain, runtimes, automation, configurator, generate, toml, setups, local, development |
 | `ml-engineer` | Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. | ml | ml, engineer, pytorch, tensorflow, frameworks, implements, model, serving, feature, engineering, testing, monitoring |

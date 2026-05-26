@@ -16451,6 +16451,25 @@
       "runtime_files": []
     },
     {
+      "id": "mesh-memory",
+      "path": "skills/mesh-memory",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "metasploit-framework",
       "path": "skills/metasploit-framework",
       "targets": {
@@ -28039,10 +28058,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1465,
+    "total_skills": 1466,
     "supported": {
-      "codex": 1429,
-      "claude": 1444
+      "codex": 1430,
+      "claude": 1445
     },
     "blocked": {
       "codex": 36,
