@@ -28,6 +28,15 @@ This skill drives a single Bumblebee scan from start to finish:
 
 Communicate with the user in the language they used (German for Stefan). Code, commit messages, and on-disk file contents stay in English to match existing project conventions.
 
+## When to Use This Skill
+
+Use this skill when an advisory, incident report, or exposure catalog names compromised packages,
+developer tools, browser/editor extensions, or MCP host configuration that may exist on a local
+macOS or Linux developer endpoint.
+
+Use it for read-only inventory and exposure checks. Do not use it to patch, uninstall, quarantine,
+or otherwise mutate the scanned machine.
+
 ## Step 1 — Clarify the scan request
 
 Before running anything, confirm two things with the user via `AskUserQuestion`, unless the message already pins them down:

@@ -1,13 +1,11 @@
 ---
 name: decision-navigator
-description: >
-  Use this skill whenever a user feels stuck, overwhelmed, or doesn't know where to start.
-  Triggers when someone says things like "I don't know what to do", "I want to X but don't know how",
-  "I'm not sure where to begin", "help me figure out...", "I feel lost about...", or any vague
-  life/work/project situation where the user hasn't asked a specific question yet.
-  Also triggers for broad open-ended goals like "I want to start a business", "I want to change careers",
-  "I want to learn something new", "I need to make a decision about X".
-  Do NOT wait for the user to ask a precise question — if they seem stuck or overwhelmed, use this skill.
+description: "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps."
+category: planning
+risk: safe
+source: community
+source_type: community
+date_added: "2026-05-27"
 ---
 
 # Decision Navigator
@@ -25,6 +23,17 @@ where concrete steps make sense.
 Never overwhelm with a wall of options or advice upfront. Navigate, don't lecture.
 
 ---
+
+## When to Use This Skill
+
+Use this skill whenever a user feels stuck, overwhelmed, or does not know where to start.
+Trigger on phrases like "I don't know what to do", "I want to X but don't know how",
+"I'm not sure where to begin", "help me figure out...", "I feel lost about...", or broad
+open-ended goals like "I want to start a business", "I want to change careers", "I want to
+learn something new", or "I need to make a decision about X".
+
+Do not wait for the user to ask a precise question. If they seem stuck or overwhelmed, use
+this skill.
 
 ## The Process
 
