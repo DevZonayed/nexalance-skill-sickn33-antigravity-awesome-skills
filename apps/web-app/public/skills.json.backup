@@ -8388,6 +8388,28 @@
     }
   },
   {
+    "id": "complexity-cuts",
+    "path": "skills/complexity-cuts",
+    "category": "uncategorized",
+    "name": "complexity-cuts",
+    "description": "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "comprehensive-review-full-review",
     "path": "skills/comprehensive-review-full-review",
     "category": "code-quality",
@@ -16270,6 +16292,28 @@
     }
   },
   {
+    "id": "invariant-guard",
+    "path": "skills/invariant-guard",
+    "category": "uncategorized",
+    "name": "invariant-guard",
+    "description": "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "inventory-demand-planning",
     "path": "skills/inventory-demand-planning",
     "category": "business",
@@ -17424,6 +17468,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "lemmaly",
+    "path": "skills/lemmaly",
+    "category": "uncategorized",
+    "name": "lemmaly",
+    "description": "Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18708,6 +18774,28 @@
     "risk": "none",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mathguard",
+    "path": "skills/mathguard",
+    "category": "uncategorized",
+    "name": "mathguard",
+    "description": "Math-heavy escalation for n >= 10^6 \u2014 Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
     "plugin": {
       "targets": {
         "codex": "supported",

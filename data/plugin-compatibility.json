@@ -7158,6 +7158,25 @@
       "runtime_files": []
     },
     {
+      "id": "complexity-cuts",
+      "path": "skills/complexity-cuts",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "comprehensive-review-full-review",
       "path": "skills/comprehensive-review-full-review",
       "targets": {
@@ -14073,6 +14092,25 @@
       "runtime_files": []
     },
     {
+      "id": "invariant-guard",
+      "path": "skills/invariant-guard",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "inventory-demand-planning",
       "path": "skills/inventory-demand-planning",
       "targets": {
@@ -15067,6 +15105,25 @@
     {
       "id": "leiloeiro-risco",
       "path": "skills/leiloeiro-risco",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "lemmaly",
+      "path": "skills/lemmaly",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -16282,6 +16339,25 @@
     {
       "id": "matematico-tao",
       "path": "skills/matematico-tao",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "mathguard",
+      "path": "skills/mathguard",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -28134,10 +28210,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1470,
+    "total_skills": 1474,
     "supported": {
-      "codex": 1434,
-      "claude": 1449
+      "codex": 1438,
+      "claude": 1453
     },
     "blocked": {
       "codex": 36,

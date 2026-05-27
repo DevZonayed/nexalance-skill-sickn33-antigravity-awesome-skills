@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1470,
+  "total": 1474,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -9411,6 +9411,35 @@
       "path": "skills/competitor-alternatives/SKILL.md"
     },
     {
+      "id": "complexity-cuts",
+      "name": "complexity-cuts",
+      "description": "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.",
+      "category": "general",
+      "tags": [
+        "algorithms",
+        "big-o",
+        "refactoring",
+        "optimization",
+        "performance",
+        "n-plus-one"
+      ],
+      "triggers": [
+        "algorithms",
+        "big-o",
+        "refactoring",
+        "optimization",
+        "performance",
+        "n-plus-one",
+        "complexity",
+        "cuts",
+        "lower",
+        "big",
+        "existing",
+        "code"
+      ],
+      "path": "skills/complexity-cuts/SKILL.md"
+    },
+    {
       "id": "comprehensive-review-full-review",
       "name": "comprehensive-review-full-review",
       "description": "Use when working with comprehensive review full review",
@@ -18223,6 +18252,35 @@
       "path": "skills/interview-coach/SKILL.md"
     },
     {
+      "id": "invariant-guard",
+      "name": "invariant-guard",
+      "description": "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.",
+      "category": "business",
+      "tags": [
+        "algorithms",
+        "correctness",
+        "loop-invariants",
+        "contracts",
+        "edge-cases",
+        "verification"
+      ],
+      "triggers": [
+        "algorithms",
+        "correctness",
+        "loop-invariants",
+        "contracts",
+        "edge-cases",
+        "verification",
+        "invariant",
+        "guard",
+        "first",
+        "forces",
+        "writing",
+        "function"
+      ],
+      "path": "skills/invariant-guard/SKILL.md"
+    },
+    {
       "id": "inventory-demand-planning",
       "name": "inventory-demand-planning",
       "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
@@ -19548,6 +19606,35 @@
         "score"
       ],
       "path": "skills/leiloeiro-risco/SKILL.md"
+    },
+    {
+      "id": "lemmaly",
+      "name": "lemmaly",
+      "description": "Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.",
+      "category": "data-ai",
+      "tags": [
+        "algorithms",
+        "big-o",
+        "performance",
+        "code-review",
+        "complexity",
+        "gateway"
+      ],
+      "triggers": [
+        "algorithms",
+        "big-o",
+        "performance",
+        "code-review",
+        "complexity",
+        "gateway",
+        "lemmaly",
+        "algorithm",
+        "first",
+        "discipline",
+        "state",
+        "big"
+      ],
+      "path": "skills/lemmaly/SKILL.md"
     },
     {
       "id": "lex",
@@ -21104,6 +21191,36 @@
         "inspirado"
       ],
       "path": "skills/matematico-tao/SKILL.md"
+    },
+    {
+      "id": "mathguard",
+      "name": "mathguard",
+      "description": "Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+      "category": "general",
+      "tags": [
+        "algorithms",
+        "probabilistic-data-structures",
+        "approximate-algorithms",
+        "bloom-filter",
+        "hyperloglog",
+        "fft",
+        "performance"
+      ],
+      "triggers": [
+        "algorithms",
+        "probabilistic-data-structures",
+        "approximate-algorithms",
+        "bloom-filter",
+        "hyperloglog",
+        "fft",
+        "performance",
+        "mathguard",
+        "math",
+        "heavy",
+        "escalation",
+        "10"
+      ],
+      "path": "skills/mathguard/SKILL.md"
     },
     {
       "id": "matplotlib",
