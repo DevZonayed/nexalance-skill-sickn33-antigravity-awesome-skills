@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1474
+Total skills: 1480
 
-## architecture (96)
+## architecture (97)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -41,6 +41,7 @@ Total skills: 1474
 | `ddd-context-mapping` | Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. | ddd, context-map, anti-corruption-layer, integration | ddd, context-map, anti-corruption-layer, integration, context, mapping, map, relationships, between, bounded, contexts, define |
 | `ddd-strategic-design` | Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. | ddd, strategic-design, bounded-context, ubiquitous-language | ddd, strategic-design, bounded-context, ubiquitous-language, strategic, artifacts, including, subdomains, bounded, contexts, ubiquitous, language |
 | `ddd-tactical-patterns` | Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants. | ddd, tactical, aggregates, value-objects, domain-events | ddd, tactical, aggregates, value-objects, domain-events, apply, code, entities, value, objects, repositories, domain |
+| `decision-navigator` | Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps. | decision, navigator | decision, navigator, stuck, overwhelmed, users, through, targeted, branching, questions, until, reach, concrete |
 | `docs-architect` | Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-for... | docs | docs, architect, creates, technical, documentation, existing, codebases, analyzes, architecture, details, produce, long |
 | `domain-driven-design` | Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns. | ddd, domain, bounded-context, architecture | ddd, domain, bounded-context, architecture, driven, plan, route, work, strategic, modeling, tactical, evented |
 | `e2e-testing-patterns` | Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do. | e2e | e2e, testing, reliable, fast, maintainable, test, suites, provide, confidence, ship, code, quickly |
@@ -483,7 +484,7 @@ Total skills: 1474
 | `yes-md` | 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest. | yes, md | yes, md, layer, ai, governance, safety, gates, evidence, debugging, anti, slack, detection |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (209)
+## development (211)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -660,6 +661,8 @@ Total skills: 1474
 | `rust-async-patterns` | Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing conc... | rust, async | rust, async, programming, tokio, traits, error, handling, concurrent, building, applications, implementing, debugging |
 | `rust-pro` | Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. | rust | rust, pro, 75, async, type, features, programming |
 | `seaborn` | Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate a... | seaborn | seaborn, python, visualization, library, creating, publication, quality, statistical, graphics, skill, dataset, oriented |
+| `sendblue/sendblue-api` | Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API — text, media, group messages, send styles, reactions, typing indicat... | sendblue, imessage, sms, rcs, messaging, api, webhooks | sendblue, imessage, sms, rcs, messaging, api, webhooks, send, receive, application, code, via |
+| `sendblue/sendblue-cli` | Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook ... | sendblue, imessage, sms, cli, messaging, notifications | sendblue, imessage, sms, cli, messaging, notifications, send, shell, via, npm, package, outbound |
 | `senior-frontend` | Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance,... | senior, frontend | senior, frontend, development, skill, react, next, js, typescript, tailwind, css, applications, building |
 | `shopify-apps` | Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris co... | shopify, apps | shopify, apps, app, development, including, remix, react, router, embedded, bridge, webhook, handling |
 | `shopify-development` | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. | shopify | shopify, development, apps, extensions, themes, graphql, admin, api, cli, polaris, ui, liquid |
@@ -1200,7 +1203,7 @@ Total skills: 1474
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (175)
+## security (176)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1233,6 +1236,7 @@ Total skills: 1474
 | `backend-security-coder` | Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementa... | backend, security, coder | backend, security, coder, secure, coding, specializing, input, validation, authentication, api, proactively, implementations |
 | `bdistill-behavioral-xray` | X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key needed. | ai, testing, behavioral-analysis, model-evaluation, red-team, compliance, mcp | ai, testing, behavioral-analysis, model-evaluation, red-team, compliance, mcp, bdistill, behavioral, xray, ray, any |
 | `broken-authentication` | Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 ... | broken, authentication | broken, authentication, identify, exploit, session, vulnerabilities, web, applications, consistently, ranks, owasp, top |
+| `bumblebee` | Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs. | security, supply-chain, incident-response, npm, pypi, tooling | security, supply-chain, incident-response, npm, pypi, tooling, bumblebee, run, supply, chain, inventory, exposure |
 | `burp-suite-testing` | Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request a... | burp, suite | burp, suite, testing, execute, web, application, security, integrated, toolset, including, http, traffic |
 | `burpsuite-project-parser` | Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting s... | burpsuite, parser | burpsuite, parser, searches, explores, burp, suite, files, command, line, searching, response, headers |
 | `cc-skill-security-review` | This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, ... | cc, skill, security | cc, skill, security, review, ensures, all, code, follows, identifies, potential, vulnerabilities, implementing |
@@ -1417,7 +1421,7 @@ Total skills: 1474
 | `wiki-qa` | Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific ... | wiki, qa | wiki, qa, answer, repository, questions, grounded, entirely, source, code, evidence, user, asks |
 | `windows-privilege-escalation` | Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements. | windows, privilege, escalation | windows, privilege, escalation, provide, systematic, methodologies, discovering, exploiting, vulnerabilities, during, penetration, testing |
 
-## workflow (101)
+## workflow (103)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1498,6 +1502,8 @@ Total skills: 1474
 | `render-automation` | Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas. | render | render, automation, automate, tasks, via, rube, mcp, composio, deployments, always, search, first |
 | `salesforce-automation` | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas. | salesforce | salesforce, automation, automate, tasks, via, rube, mcp, composio, leads, contacts, accounts, opportunities |
 | `segment-automation` | Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first... | segment | segment, automation, automate, tasks, via, rube, mcp, composio, track, events, identify, users |
+| `sendblue/sendblue-notify` | Text the user's phone when a long-running task, agent turn, or scheduled job finishes — via @sendblue/cli for outbound, optionally wired to a Claude Code Sto... | sendblue, imessage, sms, notifications, hooks, claude-code, automation | sendblue, imessage, sms, notifications, hooks, claude-code, automation, notify, text, user, phone, long |
+| `sendblue/textme` | Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image inp... | textme, sendblue, imessage, sms, claude-code, daemon, remote-control, automation | textme, sendblue, imessage, sms, claude-code, daemon, remote-control, automation, text, claude, phone, set |
 | `sentry-automation` | Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first ... | sentry | sentry, automation, automate, tasks, via, rube, mcp, composio, issues, events, configure, alerts |
 | `shopify-automation` | Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas. | shopify | shopify, automation, automate, tasks, via, rube, mcp, composio, products, orders, customers, inventory |
 | `slack-automation` | Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit. | slack | slack, automation, automate, workspace, operations, including, messaging, search, channel, reaction, through, composio |

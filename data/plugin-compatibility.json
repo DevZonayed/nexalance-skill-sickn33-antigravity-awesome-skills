@@ -5616,6 +5616,25 @@
       "runtime_files": []
     },
     {
+      "id": "bumblebee",
+      "path": "skills/bumblebee",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "bun-development",
       "path": "skills/bun-development",
       "targets": {
@@ -8699,6 +8718,25 @@
     {
       "id": "debugging-toolkit-smart-debug",
       "path": "skills/debugging-toolkit-smart-debug",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "decision-navigator",
+      "path": "skills/decision-navigator",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -22166,6 +22204,82 @@
       "runtime_files": []
     },
     {
+      "id": "sendblue/sendblue-api",
+      "path": "skills/sendblue/sendblue-api",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "sendblue/sendblue-cli",
+      "path": "skills/sendblue/sendblue-cli",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "sendblue/sendblue-notify",
+      "path": "skills/sendblue/sendblue-notify",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "sendblue/textme",
+      "path": "skills/sendblue/textme",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "sendgrid-automation",
       "path": "skills/sendgrid-automation",
       "targets": {
@@ -28210,10 +28324,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1474,
+    "total_skills": 1480,
     "supported": {
-      "codex": 1438,
-      "claude": 1453
+      "codex": 1444,
+      "claude": 1459
     },
     "blocked": {
       "codex": 36,

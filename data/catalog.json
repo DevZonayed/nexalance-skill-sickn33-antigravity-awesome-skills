@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1474,
+  "total": 1480,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -7441,6 +7441,35 @@
       "path": "skills/bullmq-specialist/SKILL.md"
     },
     {
+      "id": "bumblebee",
+      "name": "bumblebee",
+      "description": "Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.",
+      "category": "security",
+      "tags": [
+        "security",
+        "supply-chain",
+        "incident-response",
+        "npm",
+        "pypi",
+        "tooling"
+      ],
+      "triggers": [
+        "security",
+        "supply-chain",
+        "incident-response",
+        "npm",
+        "pypi",
+        "tooling",
+        "bumblebee",
+        "run",
+        "supply",
+        "chain",
+        "inventory",
+        "exposure"
+      ],
+      "path": "skills/bumblebee/SKILL.md"
+    },
+    {
       "id": "bun-development",
       "name": "bun-development",
       "description": "Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun).",
@@ -11380,6 +11409,31 @@
         "working"
       ],
       "path": "skills/debugging-toolkit-smart-debug/SKILL.md"
+    },
+    {
+      "id": "decision-navigator",
+      "name": "decision-navigator",
+      "description": "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.",
+      "category": "architecture",
+      "tags": [
+        "decision",
+        "navigator"
+      ],
+      "triggers": [
+        "decision",
+        "navigator",
+        "stuck",
+        "overwhelmed",
+        "users",
+        "through",
+        "targeted",
+        "branching",
+        "questions",
+        "until",
+        "reach",
+        "concrete"
+      ],
+      "path": "skills/decision-navigator/SKILL.md"
     },
     {
       "id": "deep-research",
@@ -28735,6 +28789,126 @@
         "target"
       ],
       "path": "skills/semgrep-rule-variant-creator/SKILL.md"
+    },
+    {
+      "id": "sendblue/sendblue-api",
+      "name": "sendblue-api",
+      "description": "Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API — text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.",
+      "category": "development",
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "rcs",
+        "messaging",
+        "api",
+        "webhooks"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "rcs",
+        "messaging",
+        "api",
+        "webhooks",
+        "send",
+        "receive",
+        "application",
+        "code",
+        "via"
+      ],
+      "path": "skills/sendblue/sendblue-api/SKILL.md"
+    },
+    {
+      "id": "sendblue/sendblue-cli",
+      "name": "sendblue-cli",
+      "description": "Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook server required.",
+      "category": "development",
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "cli",
+        "messaging",
+        "notifications"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "cli",
+        "messaging",
+        "notifications",
+        "send",
+        "shell",
+        "via",
+        "npm",
+        "package",
+        "outbound"
+      ],
+      "path": "skills/sendblue/sendblue-cli/SKILL.md"
+    },
+    {
+      "id": "sendblue/sendblue-notify",
+      "name": "sendblue-notify",
+      "description": "Text the user's phone when a long-running task, agent turn, or scheduled job finishes — via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.",
+      "category": "workflow",
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "notifications",
+        "hooks",
+        "claude-code",
+        "automation"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "notifications",
+        "hooks",
+        "claude-code",
+        "automation",
+        "notify",
+        "text",
+        "user",
+        "phone",
+        "long"
+      ],
+      "path": "skills/sendblue/sendblue-notify/SKILL.md"
+    },
+    {
+      "id": "sendblue/textme",
+      "name": "textme",
+      "description": "Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.",
+      "category": "workflow",
+      "tags": [
+        "textme",
+        "sendblue",
+        "imessage",
+        "sms",
+        "claude-code",
+        "daemon",
+        "remote-control",
+        "automation"
+      ],
+      "triggers": [
+        "textme",
+        "sendblue",
+        "imessage",
+        "sms",
+        "claude-code",
+        "daemon",
+        "remote-control",
+        "automation",
+        "text",
+        "claude",
+        "phone",
+        "set"
+      ],
+      "path": "skills/sendblue/textme/SKILL.md"
     },
     {
       "id": "sendgrid-automation",

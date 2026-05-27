@@ -6598,6 +6598,28 @@
     }
   },
   {
+    "id": "bumblebee",
+    "path": "skills/bumblebee",
+    "category": "security",
+    "name": "bumblebee",
+    "description": "Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "bun-development",
     "path": "skills/bun-development",
     "category": "web-development",
@@ -10178,6 +10200,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "decision-navigator",
+    "path": "skills/decision-navigator",
+    "category": "planning",
+    "name": "decision-navigator",
+    "description": "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-27",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -25465,6 +25509,72 @@
     }
   },
   {
+    "id": "sendblue-api",
+    "path": "skills/sendblue/sendblue-api",
+    "category": "api-integration",
+    "name": "sendblue-api",
+    "description": "Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API \u2014 text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "sendblue-cli",
+    "path": "skills/sendblue/sendblue-cli",
+    "category": "api-integration",
+    "name": "sendblue-cli",
+    "description": "Send iMessage and SMS from the shell via the @sendblue/cli npm package \u2014 outbound sends, contact management, and account setup with no API client or webhook server required.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "sendblue-notify",
+    "path": "skills/sendblue/sendblue-notify",
+    "category": "automation",
+    "name": "sendblue-notify",
+    "description": "Text the user's phone when a long-running task, agent turn, or scheduled job finishes \u2014 via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "sendgrid-automation",
     "path": "skills/sendgrid-automation",
     "category": "automation",
@@ -29117,6 +29227,28 @@
     "risk": "safe",
     "source": "personal",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "textme",
+    "path": "skills/sendblue/textme",
+    "category": "automation",
+    "name": "textme",
+    "description": "Text Claude from your phone \u2014 set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-26",
     "plugin": {
       "targets": {
         "codex": "supported",
