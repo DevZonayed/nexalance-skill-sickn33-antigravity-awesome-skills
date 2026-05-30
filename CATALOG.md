@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1481
+Total skills: 1482
 
 ## architecture (97)
 
@@ -1203,7 +1203,7 @@ Total skills: 1481
 | `whatsapp-cloud-api` | Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python. | messaging, whatsapp, meta, webhooks | messaging, whatsapp, meta, webhooks, cloud, api, integracao, com, business, mensagens, hmac, sha256 |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (177)
+## security (178)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1272,6 +1272,7 @@ Total skills: 1481
 | `frontend-security-coder` | Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. | frontend, security, coder | frontend, security, coder, secure, coding, specializing, xss, prevention, output, sanitization, client, side |
 | `gdpr-data-handling` | Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. | gdpr, data, handling | gdpr, data, handling, practical, compliant, processing, consent, privacy, controls |
 | `gha-security-review` | Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, do... | gha, security | gha, security, review, find, exploitable, vulnerabilities, github, actions, every, finding, must, include |
+| `github-actions-advanced` | Design, debug, and harden GitHub Actions CI/CD workflows, including reusable workflows, matrix builds, self-hosted runners, OIDC authentication, caching, env... | github, actions, advanced | github, actions, advanced, debug, harden, ci, cd, including, reusable, matrix, self, hosted |
 | `graphql-architect` | Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real... | graphql | graphql, architect, federation, performance, optimization, enterprise, security, scalable, schemas, caching, real, time |
 | `grpc-golang` | Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure ser... | grpc, golang | grpc, golang, go, mtls, streaming, observability, designing, protobuf, contracts, buf, implementing, secure |
 | `html-injection-testing` | Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables a... | html, injection | html, injection, testing, identify, exploit, vulnerabilities, allow, attackers, inject, malicious, content, web |
