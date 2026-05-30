@@ -42,6 +42,31 @@ assert.doesNotMatch(alphaVantage, /--- Unknown/, "alpha-vantage frontmatter shou
       "utf8",
     );
     fs.symlinkSync("/etc/passwd", path.join(targetRepo, "linked-secret"));
+    const fakeBin = path.join(tempDir, "bin");
+    fs.mkdirSync(fakeBin);
+    const fakeRg = path.join(fakeBin, "rg");
+    fs.writeFileSync(
+      fakeRg,
+      `#!/usr/bin/env bash
+set -euo pipefail
+
+for arg in "$@"; do
+  if [[ "$arg" == "--quiet" ]]; then
+    exit 1
+  fi
+done
+
+last_arg="\${@: -1}"
+if [[ "$last_arg" == "README.md" ]]; then
+  printf '%s\\n' '[absolute](/etc/passwd)' '[traversal](../../etc/passwd)' '[symlink](linked-secret)' '[missing](docs/missing.md)'
+  exit 0
+fi
+
+exit 1
+`,
+      "utf8",
+    );
+    fs.chmodSync(fakeRg, 0o755);
     const scriptPath = path.join(
       repoRoot,
       "skills",
@@ -49,7 +74,13 @@ assert.doesNotMatch(alphaVantage, /--- Unknown/, "alpha-vantage frontmatter shou
       "scripts",
       "repo-audit.sh",
     );
-    const result = spawnSync("bash", [scriptPath, targetRepo], { encoding: "utf8" });
+    const result = spawnSync("bash", [scriptPath, targetRepo], {
+      encoding: "utf8",
+      env: {
+        ...process.env,
+        PATH: `${fakeBin}${path.delimiter}${process.env.PATH || ""}`,
+      },
+    });
 
     assert.strictEqual(result.status, 1);
     assert.match(result.stdout, /README local link escapes repository: \/etc\/passwd/);
