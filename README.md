@@ -647,6 +647,8 @@ We officially thank the following contributors for their help in making this rep
 - [@morsechimwai](https://github.com/morsechimwai)
 - [@SenSei2121](https://github.com/SenSei2121)
 - [@stefan-kp](https://github.com/stefan-kp)
+- [@hogan-yuan](https://github.com/hogan-yuan)
+- [@sahilaghara1911](https://github.com/sahilaghara1911)
 
 ## Star History
 
