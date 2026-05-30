@@ -21444,6 +21444,25 @@
       "runtime_files": []
     },
     {
+      "id": "runaway-guard",
+      "path": "skills/runaway-guard",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "rust-async-patterns",
       "path": "skills/rust-async-patterns",
       "targets": {
@@ -28381,10 +28400,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1483,
+    "total_skills": 1484,
     "supported": {
-      "codex": 1447,
-      "claude": 1462
+      "codex": 1448,
+      "claude": 1463
     },
     "blocked": {
       "codex": 36,

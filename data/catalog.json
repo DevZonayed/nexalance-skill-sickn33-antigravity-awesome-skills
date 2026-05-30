@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1483,
+  "total": 1484,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -27793,6 +27793,37 @@
         "development"
       ],
       "path": "skills/ruby-pro/SKILL.md"
+    },
+    {
+      "id": "runaway-guard",
+      "name": "runaway-guard",
+      "description": "Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEFORE any call site is written.",
+      "category": "data-ai",
+      "tags": [
+        "cost-safety",
+        "finops",
+        "ai-apis",
+        "agents",
+        "retries",
+        "concurrency",
+        "wallet-invariant",
+        "gateway"
+      ],
+      "triggers": [
+        "cost-safety",
+        "finops",
+        "ai-apis",
+        "agents",
+        "retries",
+        "concurrency",
+        "wallet-invariant",
+        "gateway",
+        "runaway",
+        "guard",
+        "cost",
+        "safety"
+      ],
+      "path": "skills/runaway-guard/SKILL.md"
     },
     {
       "id": "rust-async-patterns",
