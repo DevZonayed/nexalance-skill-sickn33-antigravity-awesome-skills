@@ -15833,6 +15833,25 @@
       "runtime_files": []
     },
     {
+      "id": "longbridge",
+      "path": "skills/longbridge",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "loss-aversion-designer",
       "path": "skills/loss-aversion-designer",
       "targets": {
@@ -28362,10 +28381,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1482,
+    "total_skills": 1483,
     "supported": {
-      "codex": 1446,
-      "claude": 1461
+      "codex": 1447,
+      "claude": 1462
     },
     "blocked": {
       "codex": 36,

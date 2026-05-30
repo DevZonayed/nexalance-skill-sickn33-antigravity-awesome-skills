@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1482,
+  "total": 1483,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -20534,6 +20534,34 @@
         "sdk"
       ],
       "path": "skills/loki-mode/SKILL.md"
+    },
+    {
+      "id": "longbridge",
+      "name": "longbridge",
+      "description": "125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English.",
+      "category": "business",
+      "tags": [
+        "finance",
+        "stocks",
+        "trading",
+        "portfolio",
+        "market-data"
+      ],
+      "triggers": [
+        "finance",
+        "stocks",
+        "trading",
+        "portfolio",
+        "market-data",
+        "longbridge",
+        "125",
+        "agent",
+        "skills",
+        "securities",
+        "real",
+        "time"
+      ],
+      "path": "skills/longbridge/SKILL.md"
     },
     {
       "id": "loss-aversion-designer",

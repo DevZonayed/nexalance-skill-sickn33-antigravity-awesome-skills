@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1482
+Total skills: 1483
 
 ## architecture (97)
 
@@ -106,7 +106,7 @@ Total skills: 1482
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (84)
+## business (85)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -141,6 +141,7 @@ Total skills: 1482
 | `linkedin-cli` | Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator. | linkedin, cli | linkedin, cli, automating, via, fetch, profiles, search, people, companies, send, messages, connections |
 | `linkedin-profile-optimizer` | High-intent expert for LinkedIn profile checks, authority building, and SEO optimization. Invoke to audit, rewrite, and enhance profiles for top 1% positioning. | linkedin, branding, career, growth, personal-brand | linkedin, branding, career, growth, personal-brand, profile, optimizer, high, intent, checks, authority, building |
 | `local-legal-seo-audit` | Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directorie... | local, legal, seo, audit | local, legal, seo, audit, improve, law, firms, attorneys, forensic, experts, professional, sites |
+| `longbridge` | 125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Tri... | finance, stocks, trading, portfolio, market-data | finance, stocks, trading, portfolio, market-data, longbridge, 125, agent, skills, securities, real, time |
 | `market-sizing-analysis` | Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Mark... | market, sizing | market, sizing, analysis, methodologies, calculating, total, addressable, tam, serviceable, available, sam, obtainable |
 | `marketing-ideas` | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system. | marketing, ideas | marketing, ideas, provide, proven, growth, saas, software, products, prioritized, feasibility, scoring |
 | `marketing-psychology` | Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system. | marketing, psychology | marketing, psychology, apply, behavioral, science, mental, models, decisions, prioritized, psychological, leverage, feasibility |

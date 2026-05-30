@@ -18190,6 +18190,28 @@
     }
   },
   {
+    "id": "longbridge",
+    "path": "skills/longbridge",
+    "category": "finance",
+    "name": "longbridge",
+    "description": "125+ agent skills for Longbridge Securities \u2014 real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-05-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "loss-aversion-designer",
     "path": "skills/loss-aversion-designer",
     "category": "uncategorized",
