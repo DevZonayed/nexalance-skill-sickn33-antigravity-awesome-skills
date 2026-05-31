@@ -17836,6 +17836,25 @@
       "runtime_files": []
     },
     {
+      "id": "nextjs-seo-indexing",
+      "path": "skills/nextjs-seo-indexing",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "nextjs-supabase-auth",
       "path": "skills/nextjs-supabase-auth",
       "targets": {
@@ -21823,6 +21842,25 @@
       "runtime_files": []
     },
     {
+      "id": "schema-markup-generator",
+      "path": "skills/schema-markup-generator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "scientific-writing",
       "path": "skills/scientific-writing",
       "targets": {
@@ -23952,6 +23990,25 @@
     {
       "id": "social-content",
       "path": "skills/social-content",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "social-metadata-hardening",
+      "path": "skills/social-metadata-hardening",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -27092,6 +27149,44 @@
       "runtime_files": []
     },
     {
+      "id": "vibe-code-cleanup",
+      "path": "skills/vibe-code-cleanup",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "vibecode-production-qa-validator",
+      "path": "skills/vibecode-production-qa-validator",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "vibers-code-review",
       "path": "skills/vibers-code-review",
       "targets": {
@@ -28448,10 +28543,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1484,
+    "total_skills": 1489,
     "supported": {
-      "codex": 1440,
-      "claude": 1455
+      "codex": 1445,
+      "claude": 1460
     },
     "blocked": {
       "codex": 44,
