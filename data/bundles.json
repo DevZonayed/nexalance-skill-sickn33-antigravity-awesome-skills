@@ -509,6 +509,7 @@
         "wordpress",
         "wordpress-plugin-development",
         "xss-html-injection",
+        "yield-intelligence",
         "zeroize-audit"
       ]
     },

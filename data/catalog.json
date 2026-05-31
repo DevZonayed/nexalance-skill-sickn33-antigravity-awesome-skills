@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1489,
+  "total": 1492,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -12115,6 +12115,30 @@
       "path": "skills/doc-coauthoring/SKILL.md"
     },
     {
+      "id": "doc2math",
+      "name": "doc2math",
+      "description": "Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.",
+      "category": "general",
+      "tags": [
+        "doc2math"
+      ],
+      "triggers": [
+        "doc2math",
+        "convert",
+        "narrative",
+        "technical",
+        "documents",
+        "grounded",
+        "mathematical",
+        "problem",
+        "specifications",
+        "variables",
+        "constraints",
+        "objectives"
+      ],
+      "path": "skills/doc2math/SKILL.md"
+    },
+    {
       "id": "docker-expert",
       "name": "docker-expert",
       "description": "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.",
@@ -22003,6 +22027,30 @@
         "platform"
       ],
       "path": "skills/mmx-cli/SKILL.md"
+    },
+    {
+      "id": "moatmri",
+      "name": "moatmri",
+      "description": "Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.",
+      "category": "data-ai",
+      "tags": [
+        "moatmri"
+      ],
+      "triggers": [
+        "moatmri",
+        "analyze",
+        "ai",
+        "disruption",
+        "pressure",
+        "business",
+        "map",
+        "competitive",
+        "exposure",
+        "produce",
+        "90",
+        "day"
+      ],
+      "path": "skills/moatmri/SKILL.md"
     },
     {
       "id": "mobile-design",
@@ -36708,6 +36756,31 @@
         "detection"
       ],
       "path": "skills/yes-md/SKILL.md"
+    },
+    {
+      "id": "yield-intelligence",
+      "name": "yield-intelligence",
+      "description": "Passive income portfolio analysis — activate when user asks about dividend yields, Treasury rates, REIT income, monthly passive income goals, or portfolio yield optimization. Scans 4 asset classes, ranks by risk-adjusted return, and builds allocations targeting a specific monthly income.",
+      "category": "security",
+      "tags": [
+        "yield",
+        "intelligence"
+      ],
+      "triggers": [
+        "yield",
+        "intelligence",
+        "passive",
+        "income",
+        "portfolio",
+        "analysis",
+        "activate",
+        "user",
+        "asks",
+        "about",
+        "dividend",
+        "yields"
+      ],
+      "path": "skills/yield-intelligence/SKILL.md"
     },
     {
       "id": "youtube-automation",

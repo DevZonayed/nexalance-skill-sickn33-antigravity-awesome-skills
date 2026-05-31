@@ -10878,6 +10878,28 @@
     }
   },
   {
+    "id": "doc2math",
+    "path": "skills/doc2math",
+    "category": "uncategorized",
+    "name": "doc2math",
+    "description": "Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "docker-expert",
     "path": "skills/docker-expert",
     "category": "devops",
@@ -19484,6 +19506,28 @@
     "risk": "safe",
     "source": "https://github.com/MiniMax-AI/cli",
     "date_added": "2026-04-14",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "moatmri",
+    "path": "skills/moatmri",
+    "category": "business",
+    "name": "moatmri",
+    "description": "Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -32617,6 +32661,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "yield-intelligence",
+    "path": "skills/yield-intelligence",
+    "category": "uncategorized",
+    "name": "yield-intelligence",
+    "description": "Passive income portfolio analysis \u2014 activate when user asks about dividend yields, Treasury rates, REIT income, monthly passive income goals, or portfolio yield optimization. Scans 4 asset classes, ranks by risk-adjusted return, and builds allocations targeting a specific monthly income.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
     "plugin": {
       "targets": {
         "codex": "supported",

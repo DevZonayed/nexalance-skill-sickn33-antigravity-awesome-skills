@@ -9319,6 +9319,25 @@
       "runtime_files": []
     },
     {
+      "id": "doc2math",
+      "path": "skills/doc2math",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "docker-expert",
       "path": "skills/docker-expert",
       "targets": {
@@ -16965,6 +16984,25 @@
     {
       "id": "mmx-cli",
       "path": "skills/mmx-cli",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
+      "id": "moatmri",
+      "path": "skills/moatmri",
       "targets": {
         "codex": "supported",
         "claude": "supported"
@@ -28352,6 +28390,25 @@
       "runtime_files": []
     },
     {
+      "id": "yield-intelligence",
+      "path": "skills/yield-intelligence",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "youtube-automation",
       "path": "skills/youtube-automation",
       "targets": {
@@ -28543,10 +28600,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1489,
+    "total_skills": 1492,
     "supported": {
-      "codex": 1445,
-      "claude": 1460
+      "codex": 1448,
+      "claude": 1463
     },
     "blocked": {
       "codex": 44,
