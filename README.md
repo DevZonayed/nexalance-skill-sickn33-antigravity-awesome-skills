@@ -61,6 +61,9 @@ Most users should start with the full library install and use bundles or workflo
 ```bash
 # Default: ~/.agents/skills (Antigravity 2.0 global). Use --path for other locations.
 npx antigravity-awesome-skills
+
+# Antigravity CLI slash commands (agy): ~/.gemini/antigravity-cli/skills/*.md
+npx antigravity-awesome-skills --agy
 ```
 
 The npm installer uses a shallow, release-pinned clone by default so first-run installs stay lighter than a full repository history checkout while matching the published npm package version. Use `--tag main` only when you intentionally want the current repository tip.
@@ -93,7 +96,8 @@ Use the same repository, but install or invoke it in the way your host expects.
 | Cursor         | `npx antigravity-awesome-skills --cursor`                              | `@brainstorming help me plan a feature`              |
 | Gemini CLI     | `npx antigravity-awesome-skills --gemini`                              | `Use brainstorming to plan a feature`                |
 | Codex CLI      | `npx antigravity-awesome-skills --codex`                               | `Use brainstorming to plan a feature`                |
-| Antigravity    | `npx antigravity-awesome-skills --antigravity`                         | `Use @brainstorming to plan a feature`               |
+| Antigravity IDE | `npx antigravity-awesome-skills --antigravity`                        | `Use @brainstorming to plan a feature`               |
+| Antigravity CLI (`agy`) | `npx antigravity-awesome-skills --agy`                        | `/brainstorming help me plan a feature`              |
 | Kiro CLI       | `npx antigravity-awesome-skills --kiro`                                | `Use brainstorming to plan a feature`                |
 | Kiro IDE       | `npx antigravity-awesome-skills --path ~/.kiro/skills`                 | `Use @brainstorming to plan a feature`               |
 | GitHub Copilot | _No installer — paste skills or rules manually_                       | `Ask Copilot to use brainstorming to plan a feature` |
